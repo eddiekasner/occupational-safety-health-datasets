@@ -1,0 +1,15 @@
+# Full datasets are distributed through GitHub Releases, not committed.
+modules/*/data/raw/*
+!modules/*/data/raw/.gitkeep
+modules/*/data/processed/
+
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
