@@ -2,7 +2,7 @@
 
 Candidate datasets for teaching modules. "Status" tracks where each one stands:
 
-- **Pilot**: module being built
+- **Module**: module built (see `modules/`)
 - **Planned**: confirmed suitable, not started
 - **Candidate**: needs review (access, license, size, teaching fit)
 
@@ -12,9 +12,9 @@ Details marked *verify* still need to be checked against the live source page.
 
 | Dataset | Publisher | What it is | Unit of record | Years | Access | Status |
 | --- | --- | --- | --- | --- | --- | --- |
-| [ITA case detail (Forms 300/301)](https://www.osha.gov/Establishment-Specific-Injury-and-Illness-Data) | OSHA | Individual recordable injuries and illnesses from establishments with 100+ employees in designated high-hazard industries, including free-text narratives and OSHA-assigned SOC codes | One case | 2023 onward (first collected in 2024 for CY2023) | CSV download | **Pilot** (2023, 2024, 2025) |
+| [ITA case detail (Forms 300/301)](https://www.osha.gov/Establishment-Specific-Injury-and-Illness-Data) | OSHA | Individual recordable injuries and illnesses from establishments with 100+ employees in designated high-hazard industries, including free-text narratives and OSHA-assigned SOC codes | One case | 2023 onward (first collected in 2024 for CY2023) | CSV download | **Module** (2023, 2024, 2025) |
 | [ITA summary (Form 300A)](https://www.osha.gov/Establishment-Specific-Injury-and-Illness-Data) | OSHA | Annual establishment totals: cases, days away, hours worked, employees | One establishment-year | 2016 onward | CSV download | Planned (links to case detail via `establishment_id`) |
-| [Chemical Exposure Health Data](https://www.osha.gov/opengov/health-samples) ([field definitions](https://www.osha.gov/opengov/osha-health-samples-dataset-field-definitions)) | OSHA | Air, bulk and wipe sampling results from OSHA inspections | One sample result | 1984 onward, updated each January and July | Download by year or full set (*verify format*) | Planned |
+| [Chemical Exposure Health Data](https://www.osha.gov/opengov/health-samples) ([field definitions](https://www.osha.gov/opengov/osha-health-samples-dataset-field-definitions)) | OSHA | Air, bulk and wipe sampling results from OSHA inspections | One sample result | 1984 onward, updated each January and July | Yearly zip files (CSV from 2013, XML before) | **Module** (2013 to 2025) |
 | [Severe Injury Reports](https://www.osha.gov/severeinjury) | OSHA | Employer reports of amputations, in-patient hospitalizations and eye loss, coded with OIICS; federal OSHA states only | One report | 2015 onward | Full CSV download | Candidate |
 | [Enforcement data](https://enforcedata.dol.gov/) (inspections, violations, accidents) | OSHA via DOL | Inspection records, citations, penalties, accident investigation summaries | One inspection / violation | 1970s onward | Bulk download / [DOL API](https://data.dol.gov/datasets) (API key) (*verify*) | Candidate |
 | [Frequently cited standards](https://www.osha.gov/ords/imis/citedstandard.naicsman?p_esize=&p_state=FEFederal) | OSHA | Most-cited standards by NAICS code | Standard by industry | Rolling | Web table | Candidate (good companion to ITA) |
