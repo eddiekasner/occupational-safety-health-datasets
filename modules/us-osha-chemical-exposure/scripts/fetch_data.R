@@ -3,14 +3,14 @@
 # Usage (from a terminal):   Rscript scripts/fetch_data.R
 # Usage (from RStudio):      open this file and click "Source"
 #
-# Files that already exist in data/raw/ are skipped. Years 2013 to 2025 total
-# about 25 MB. Next step: run scripts/build_dataset.R.
+# Files that already exist in data/raw/ are skipped. Years 1984 to 2025 total
+# about 55 MB. Next step: run scripts/build_dataset.R.
 #
 # Source page: https://www.osha.gov/opengov/health-samples
-# OSHA updates the data each January and July. Years before 2013 are XML files
-# with a different layout and are not used by this module.
+# OSHA updates the data each January and July. The current year (2026) is partial
+# and published in a different format, so it is not included.
 
-years <- 2013:2025
+years <- 1984:2025
 
 script_dir <- function() {
   file_arg <- grep("^--file=", commandArgs(FALSE), value = TRUE)
