@@ -60,22 +60,21 @@ most days away from work?*
 | Path | Contents |
 | --- | --- |
 | `data_dictionary.md` | Field guide and code tables, with links to OSHA's official documentation |
-| `data/sample/` | A small random sample committed to the repo (built by `scripts/make_sample.py`) |
+| `data/sample/` | A small random sample committed to the repo (built by `scripts/make_sample.R`) |
 | `data/raw/` | Full yearly files (not committed; see below) |
-| `notebooks/01_starter.ipynb` | Guided exploration for ENVH 312 and ENVH 460/560 |
-| `scripts/fetch_data.py` | Downloads the full files from this repo's GitHub Release |
-| `scripts/make_sample.py` | Rebuilds the sample from the full files |
+| `notebooks/01_starter.Rmd` | Guided exploration for ENVH 312 and ENVH 460/560 |
+| `scripts/fetch_data.R` | Downloads the full files from OSHA |
+| `scripts/make_sample.R` | Rebuilds the sample from the full files |
 
 ## Getting the full data
 
-```bash
-python modules/us-osha-ita-case-detail/scripts/fetch_data.py
-```
-
-This downloads the zipped yearly files from the repository's GitHub Release into
-`data/raw/`. You can also download them directly from OSHA's
+Open `scripts/fetch_data.R` in RStudio and click **Source**. It downloads the yearly
+files from OSHA into `data/raw/`. You can also download them by hand from OSHA's
 [ITA data page](https://www.osha.gov/Establishment-Specific-Injury-and-Illness-Data)
-and place the CSV or zip files in `data/raw/`.
+and put the CSV or zip files in `data/raw/`. Then set `use_full_data <- TRUE` in the notebook.
+
+The full files are large. If your computer struggles, stay with the sample or filter to
+one industry (for example, `filter(str_starts(naics_code, "62"))` for health care).
 
 ## Official documentation
 

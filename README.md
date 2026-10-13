@@ -11,7 +11,7 @@ Each module gives students:
 | `README.md` | Background: who collects the data, why, what it can and cannot tell you |
 | `data_dictionary.md` | Field-by-field guide, with links to the official dictionary |
 | `data/` | A small sample committed to the repo; full files are downloaded separately |
-| `notebooks/` | A starter Jupyter notebook with guided questions |
+| `notebooks/` | A starter R Markdown notebook with guided questions |
 | `scripts/` | Scripts to fetch the full data and rebuild the sample |
 
 ## Modules
@@ -24,18 +24,20 @@ See [CATALOG.md](CATALOG.md) for candidate datasets (US and international) and t
 
 ## Getting started (students)
 
-1. Install Python 3.10+ and run `pip install -r requirements.txt`
-   (or open a notebook in Google Colab, which already has these packages).
-2. Open a module folder and read its `README.md`.
-3. Open the starter notebook in `notebooks/`. It runs on the committed sample by
-   default, and on the full data once you download it (instructions in each module).
+1. Install [R](https://cran.r-project.org/) and [RStudio Desktop](https://posit.co/download/rstudio-desktop/)
+   (or use [Posit Cloud](https://posit.cloud/) in a browser).
+2. Download this repository (green **Code** button > **Download ZIP**, or clone it).
+3. Open `install_packages.R` in RStudio and click **Source** (one time only).
+4. Open a module folder and read its `README.md`.
+5. Open the starter notebook (`notebooks/01_starter.Rmd`). It runs on the committed
+   sample by default, and on the full data once you download it (instructions in each module).
 
 ## Where the large files live
 
 GitHub limits browser uploads to 25 MB and git pushes to 100 MB per file, so full
-datasets are **not** stored in the repo itself. They are attached to
-[GitHub Releases](../../releases) (up to 2 GB per file) or downloaded from the
-official source. See [docs/large-files.md](docs/large-files.md).
+datasets are **not** stored in the repo itself. Each module commits a small sample and
+includes a script that downloads the full files from the official source.
+See [docs/large-files.md](docs/large-files.md).
 
 ## Repository layout
 
@@ -45,7 +47,7 @@ docs/                      instructor and contributor notes
 modules/
   _template/               copy this to start a new module
   us-osha-ita-case-detail/ OSHA Injury Tracking Application case detail data
-requirements.txt
+install_packages.R         one-time R package setup
 ```
 
 ## Data sources and licensing

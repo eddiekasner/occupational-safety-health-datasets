@@ -1,46 +1,46 @@
 # Working with large files
 
-GitHub has three size limits that matter here:
+GitHub limits file sizes:
 
 | Method | Limit per file |
 | --- | --- |
 | Uploading through the github.com web page ("Add file") | 25 MB |
 | `git push` from a computer | 100 MB (warning above 50 MB) |
-| **GitHub Release assets** | **2 GB** |
+| GitHub Release assets | 2 GB |
+
+The full OSH datasets are larger than the repo limits, so **we do not store them in the repo.**
 
 ## Our approach
 
-1. **Full datasets go on GitHub Releases**, not in the repo. Releases are
-   uploaded through the browser by drag and drop, so no command line is needed.
-2. **A small sample of each dataset is committed** to `modules/<module>/data/sample/`
-   so notebooks run immediately, even in Colab.
-3. **Each module has a fetch script** (`scripts/fetch_data.py`) that downloads the
-   full files from the Release, or from the official source when that is reliable.
+1. **Each module has a fetch script** (`scripts/fetch_data.R`) that downloads the full
+   files straight from the official source (OSHA, BLS, ILO, Eurostat, ...). Students get
+   the authoritative files, and the repo stays small.
+2. **A small random sample is committed** to `modules/<module>/data/sample/` so the
+   notebook works immediately, with no download.
+3. **`scripts/make_sample.R`** rebuilds the sample from the full files with a fixed
+   random seed, so anyone can reproduce it.
 
-This keeps the repo small and fast to clone, and every student gets identical files.
+## Adding a new dataset (instructor)
 
-## How to upload a dataset to a Release (instructor)
+1. Find the official download link: right-click the download link on the source page
+   and choose **Copy link address**.
+2. Add it to the `sources` list at the top of the module's `scripts/fetch_data.R`
+   (or send the links to Claude).
+3. Run `fetch_data.R`, then `make_sample.R`, and commit the sample.
 
-1. Zip each CSV first (right-click > Compress, or `zip`). CSVs usually shrink 5 to 10 times.
-   Keep the original OSHA file name inside the zip.
-2. On GitHub, open the repo, click **Releases** (right sidebar) > **Draft a new release**.
-3. **Choose a tag**: type a new tag, using the pattern `data-<module>-v1`,
-   for example `data-ita-case-detail-v1`, and click "Create new tag".
-4. **Title**: for example "ITA case detail data, CY2023 to CY2025".
-5. In the description, record for each file: the original download URL, the date
-   you downloaded it, and the original file name.
-6. Drag the zip files into the "Attach binaries" box. Wait for each upload to finish.
-7. Click **Publish release**.
+## If a source link breaks
 
-Then tell Claude (or update the module's `scripts/fetch_data.py`) with the tag
-name and the file names, and the fetch script will pick them up.
+Agencies sometimes move files. If a link stops working:
 
-## Alternatives we considered
+- Check the source page for the new link and update `fetch_data.R`.
+- As a backup, keep your own copy of each downloaded file (and the date you got it).
+  Options for hosting a backup copy publicly:
+  - **GitHub Release**: up to 2 GB per file; zip the CSV first, or split it by year or industry.
+  - **Zenodo** (zenodo.org): free, up to 50 GB per record, gives the snapshot a citable DOI.
 
-- **Git LFS**: works, but free storage and bandwidth quotas are small, and every
-  student clone counts against them. Not recommended for a classroom repo.
-- **Converting to Parquet**: much smaller and faster to load in Python and R. We may
-  publish Parquet copies alongside CSVs later; CSV stays the default because it
-  opens in Excel.
-- **Zenodo / OSF**: permanent archives with a DOI. Worth considering once a module
-  is stable and you want a citable, versioned snapshot.
+## Other options
+
+- **Git LFS**: free storage and bandwidth quotas are small, and every student download
+  counts against them. Not recommended for a classroom repo.
+- **Parquet files** (via the `arrow` R package): much smaller and faster to load than
+  CSV. We may offer Parquet copies later; CSV stays the default because it opens in Excel.

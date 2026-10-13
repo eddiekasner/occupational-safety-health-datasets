@@ -20,6 +20,7 @@ One row = one recordable work-related injury or illness.
 | `dafw_num_away` | Number of days away from work | Filled when `incident_outcome` = 2 |
 | `type_of_incident` | Injury or type of illness | See code table below |
 | `soc_code` | Standard Occupational Classification code | Assigned by OSHA from the job title using NIOSH's NIOCCS autocoder, not reported by the employer |
+| OIICS fields | Occupational Injury and Illness Classification System codes (nature, body part, event, source) | OSHA updated the CY2023 and CY2024 files to add OIICS-coded data; *field names to be filled in* |
 
 ## Code tables
 
