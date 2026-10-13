@@ -26,7 +26,7 @@ Details marked *verify* still need to be checked against the live source page.
 
 | Dataset | Publisher | What it is | Coverage | Access | Status |
 | --- | --- | --- | --- | --- | --- |
-| [ILOSTAT safety and health at work](https://ilostat.ilo.org/topics/safety-and-health-at-work/) | ILO | Fatal and non-fatal occupational injury counts and rates per 100,000 workers, days lost, labour inspection | ~190 countries, annual | CSV / Stata / Excel downloads, bulk download | Planned |
+| [ILOSTAT safety and health at work](https://ilostat.ilo.org/topics/safety-and-health-at-work/) | ILO | Fatal and non-fatal occupational injury counts and rates per 100,000 workers, days lost, labour inspection | About 150 countries, annual (1969 to 2024) | ILOSTAT data API (CSV) | **Module** (19 indicators) |
 | [European Statistics on Accidents at Work (ESAW)](https://ec.europa.eu/eurostat/cache/metadata/de/hsw_acc_work_esms.htm) | Eurostat | Non-fatal (4+ days absence) and fatal accidents by NACE sector, sex, age, cause; e.g. tables `hsw_n2_01`, `hsw_mi_08` | EU/EEA, 2008 onward | Eurostat API / TSV | Planned |
 | [HSE RIDDOR statistics](https://www.hse.gov.uk/statistics/tables/index.htm) | UK HSE | Reported fatal and non-fatal injuries (historical series to 1974, by region, by injury site) | Great Britain | Excel tables | Candidate (non-fatal injuries substantially under-reported; good teaching point) |
 | [Safe Work Australia data website](https://data.safeworkaustralia.gov.au/) | Safe Work Australia | Traumatic injury fatalities, workers' compensation claims, industry dashboards | Australia | Interactive + downloads (*verify*) | Candidate |
