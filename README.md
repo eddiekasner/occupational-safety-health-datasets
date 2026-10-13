@@ -18,7 +18,7 @@ Each module gives students:
 
 | Module | Scope | Source | Status |
 | --- | --- | --- | --- |
-| [OSHA ITA case detail (Forms 300/301)](modules/us-osha-ita-case-detail/) | US | OSHA | Pilot, in progress |
+| [OSHA ITA case detail (Forms 300/301)](modules/us-osha-ita-case-detail/) | US | OSHA | Pilot, ready for review |
 
 See [CATALOG.md](CATALOG.md) for candidate datasets (US and international) and their status.
 

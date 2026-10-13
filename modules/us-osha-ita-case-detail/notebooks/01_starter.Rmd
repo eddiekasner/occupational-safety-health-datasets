@@ -1,6 +1,6 @@
 ---
 title: "OSHA ITA Case Detail Data: Starter Notebook"
-subtitle: "ENVH 312 (Parts 1 to 4) and ENVH 460/560 (all parts)"
+subtitle: "ENVH 312 (Parts 1 to 5) and ENVH 460/560 (all parts)"
 author: "Your name"
 output:
   html_document:
@@ -21,7 +21,7 @@ Read the module [README](../README.md) and [data dictionary](../data_dictionary.
 
 # Part 0. Load the data
 
-By default this notebook uses the **sample** (a few thousand random cases per year),
+By default this notebook uses the **sample** (5,000 random cases from each year, 2023 to 2025),
 which is committed to the repository. To use the **full** data, run
 `scripts/fetch_data.R` first and set `use_full_data <- TRUE`.
 
@@ -42,6 +42,8 @@ sample_url <- paste0("https://raw.githubusercontent.com/eddiekasner/occupational
 read_ita <- function(path) {
   df <- read_csv(path, col_types = cols(.default = col_character()), progress = FALSE)
   names(df) <- tolower(trimws(names(df)))
+  # The 2023 file calls this column year_filing_for; later years use year_of_filing
+  names(df)[names(df) == "year_filing_for"] <- "year_of_filing"
   df
 }
 
@@ -57,7 +59,8 @@ if (use_full_data) {
 cat(format(nrow(ita), big.mark = ","), "cases,", ncol(ita), "columns\n")
 ```
 
-Column names can differ slightly between years. `pick()` finds the first name that exists.
+Column names differ slightly between years (for example, the 2025 file does not have the
+OIICS codes yet). `pick()` finds the first name that exists.
 
 ```{r columns}
 pick <- function(...) {
@@ -77,7 +80,7 @@ type_col      <- pick("type_of_incident")
 naics_col     <- pick("naics_code")
 state_col     <- pick("state")
 soc_col       <- pick("soc_description", "soc_code")
-year_col      <- pick("year_of_filing", "year_filing_for", "source_file")
+year_col      <- pick("year_of_filing", "source_file")
 
 outcome_labels <- c("1" = "Death", "2" = "Days away from work",
                     "3" = "Job transfer or restriction", "4" = "Other recordable case")
@@ -141,6 +144,7 @@ days <- ita |>
   filter(days_away > 0)
 
 summary(days$days_away)
+sum(days$days_away > 180)
 
 ggplot(days, aes(x = pmin(days_away, 180))) +
   geom_histogram(binwidth = 5) +
@@ -150,7 +154,9 @@ ggplot(days, aes(x = pmin(days_away, 180))) +
 **Questions**
 
 1. Compare the mean and median. What does the difference tell you about the shape of the distribution?
-2. OSHA recordkeeping caps days away at 180 for a single case. How might that affect your analysis?
+2. OSHA recordkeeping rules say employers may stop counting days away at 180 for a single case.
+   How many cases in the data are above 180? What does that suggest about data quality, and
+   how would you handle these values?
 
 **Your answer:**
 
@@ -173,20 +179,49 @@ if (!is.na(state_col)) count(ita, .data[[state_col]], sort = TRUE) |> head(10)
 **Questions**
 
 1. Which sectors and occupations account for the most cases?
-2. Does having the most cases mean an industry is the *most dangerous*? What would you need
+2. Many cases have an occupation of "Uncoded" or "Insufficient Information - NIOSH". Look at
+   some `job_description` values for those cases. Why might the autocoder fail, and how could
+   that bias a comparison between occupations?
+3. Does having the most cases mean an industry is the *most dangerous*? What would you need
    to know to compare risk between industries? (Hint: see "incidence rate" in the data dictionary.)
 
 **Your answer:**
 
 
 
-# Part 5 (ENVH 460/560). Reading the narratives
+# Part 5. What happened? (OIICS codes)
+
+BLS used an autocoder to assign **Occupational Injury and Illness Classification System
+(OIICS)** codes to each case from the narratives: the *event* (how the injury happened), the
+*nature* (what the injury was), the *part of body*, and the *source* (what caused it).
+Only 2-digit codes were assigned. The 2025 file does not have OIICS codes yet; OSHA adds them
+after the year is complete.
+
+```{r oiics}
+ita |>
+  filter(!is.na(event_title_pred)) |>
+  count(.data[[year_col]], event_title_pred, sort = TRUE) |>
+  group_by(.data[[year_col]]) |>
+  slice_head(n = 5)
+```
+
+**Questions**
+
+1. What are the three most common events? Are they what you expected?
+2. Compare the event labels for 2023 and 2024. Do they use the same wording? What would you
+   need to check before comparing OIICS categories across years?
+
+**Your answer:**
+
+
+
+# Part 6 (ENVH 460/560). Reading the narratives
 
 Form 301 asks the employer to describe what happened in their own words. Find the
 narrative columns and search them for a hazard of your choice.
 
 ```{r narratives}
-narrative_cols <- str_subset(names(ita), "nar|description|what_happened")
+narrative_cols <- str_subset(names(ita), "^new_")  # "new_" marks fields OSHA redacted for privacy
 narrative_cols
 
 keyword <- "heat"   # try: ladder, forklift, lifting, needle, slip, chemical, violence
@@ -214,21 +249,45 @@ head(select(hits, all_of(narrative_cols)), 10)
 
 
 
-# Part 6 (ENVH 460/560). From counts to rates
+# Part 7 (ENVH 460/560). From counts to rates
 
-To compare industries fairly you need a denominator. The ITA **300A summary** file has
-`total_hours_worked` for each establishment and links to this file through `establishment_id`.
+Counts tell you where cases are, not where risk is highest. A rate needs a denominator.
+Each case row repeats its establishment's `total_hours_worked` from the 300A summary, so
+**do not sum hours across cases**. Take one row per establishment instead.
 
 $$\text{DART rate} = \frac{\text{cases with days away, restriction, or transfer} \times 200{,}000}{\text{total hours worked}}$$
 
+```{r rates}
+rate_year <- "2024"   # hours worked are reported per year, so compute one year at a time
+
+estab <- ita |>
+  filter(.data[[year_col]] == rate_year) |>
+  group_by(establishment_id, naics_2) |>
+  summarise(
+    dart_cases = sum(.data[[outcome_col]] %in% c("2", "3")),
+    hours = suppressWarnings(as.numeric(first(total_hours_worked))),
+    .groups = "drop"
+  )
+
+estab |>
+  filter(hours > 0) |>
+  group_by(naics_2) |>
+  summarise(establishments = n(), dart_cases = sum(dart_cases), hours = sum(hours)) |>
+  mutate(dart_rate = round(dart_cases * 200000 / hours, 2)) |>
+  filter(establishments >= 20) |>
+  arrange(desc(dart_rate))
+```
+
 **Questions**
 
-1. Describe (in words or pseudocode) how you would compute a DART rate by NAICS sector using
-   both files. What join key would you use? What could go wrong if an establishment
-   submitted a 300A but no case detail, or the reverse?
-2. This dataset only includes establishments with 100+ employees in designated industries.
+1. If you run this on the **sample**, the rates are far too low. Why? (Hint: what fraction of
+   each establishment's cases is in the sample?) Rerun it with the full data.
+2. Even with the full data, establishments that had **zero** cases are missing from this file.
+   Which direction does that bias the rates? How would the ITA **300A summary** file, linked by
+   `establishment_id`, fix it?
+3. This dataset only includes establishments with 100+ employees in designated industries.
    How might that selection affect rates compared with BLS's national SOII estimates?
-3. Propose a research question that this dataset could answer and that aggregated BLS
+4. Propose a research question that this dataset could answer and that aggregated BLS
    tables could not.
 
 **Your answer:**

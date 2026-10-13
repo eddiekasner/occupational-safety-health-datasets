@@ -60,20 +60,31 @@ most days away from work?*
 | Path | Contents |
 | --- | --- |
 | `data_dictionary.md` | Field guide and code tables, with links to OSHA's official documentation |
-| `data/sample/` | A small random sample committed to the repo (built by `scripts/make_sample.R`) |
+| `data/sample/` | 15,000 cases (5,000 random cases per year) committed to the repo, built by `scripts/make_sample.R` |
 | `data/raw/` | Full yearly files (not committed; see below) |
 | `notebooks/01_starter.Rmd` | Guided exploration for ENVH 312 and ENVH 460/560 |
 | `scripts/fetch_data.R` | Downloads the full files from OSHA |
 | `scripts/make_sample.R` | Rebuilds the sample from the full files |
 
+## The data at a glance
+
+| Year | Cases | Establishments | Notes |
+| --- | --- | --- | --- |
+| 2023 | 890,934 | 91,334 | First year of case detail submissions |
+| 2024 | 688,649 | 64,674 | |
+| 2025 | 784,227 | 68,832 | Submissions through Aug 31, 2026; OIICS codes not yet added |
+
+Figures are from the files downloaded in October 2026. OSHA updates the current year as late
+submissions arrive.
+
 ## Getting the full data
 
-Open `scripts/fetch_data.R` in RStudio and click **Source**. It downloads the yearly
-files from OSHA into `data/raw/`. You can also download them by hand from OSHA's
+Open `scripts/fetch_data.R` in RStudio and click **Source**. It downloads the three yearly
+files from OSHA (about 690 MB in total) into `data/raw/`. You can also download them by hand from OSHA's
 [ITA data page](https://www.osha.gov/Establishment-Specific-Injury-and-Illness-Data)
 and put the CSV or zip files in `data/raw/`. Then set `use_full_data <- TRUE` in the notebook.
 
-The full files are large. If your computer struggles, stay with the sample or filter to
+The full files hold about 2.4 million cases and take a few minutes to load. If your computer struggles, stay with the sample or filter to
 one industry (for example, `filter(str_starts(naics_code, "62"))` for health care).
 
 ## Official documentation

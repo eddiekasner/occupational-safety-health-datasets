@@ -1,7 +1,7 @@
 # Build the small committed sample from the full files in data/raw/.
 #
-# Usage:  Rscript scripts/make_sample.R          # 2,000 random cases per file
-#         Rscript scripts/make_sample.R 5000
+# Usage:  Rscript scripts/make_sample.R          # 5,000 random cases per file
+#         Rscript scripts/make_sample.R 2000
 #
 # Reads every .csv and .zip in data/raw/ and writes
 # data/sample/ita_case_detail_sample.csv. A fixed random seed keeps the sample
@@ -13,7 +13,7 @@ suppressPackageStartupMessages({
 })
 
 args <- commandArgs(trailingOnly = TRUE)
-n_per_file <- if (length(args)) as.integer(args[1]) else 2000
+n_per_file <- if (length(args)) as.integer(args[1]) else 5000
 
 file_arg <- grep("^--file=", commandArgs(FALSE), value = TRUE)
 script_dir <- if (length(file_arg)) dirname(normalizePath(sub("^--file=", "", file_arg))) else getwd()
@@ -28,6 +28,8 @@ set.seed(312)
 samples <- lapply(files, function(path) {
   df <- read_csv(path, col_types = cols(.default = col_character()), progress = FALSE)
   names(df) <- tolower(trimws(names(df)))
+  # The 2023 file calls this column year_filing_for; later years use year_of_filing
+  names(df)[names(df) == "year_filing_for"] <- "year_of_filing"
   df$source_file <- basename(path)
   out <- slice_sample(df, n = min(n_per_file, nrow(df)))
   message(sprintf("%s: %s cases, sampled %s", basename(path),
