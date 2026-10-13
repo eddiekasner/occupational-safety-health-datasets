@@ -1,0 +1,323 @@
+---
+title: "OSHA Chemical Exposure Health Data: Starter Notebook"
+subtitle: "ENVH 312 (Parts 1 to 6) and ENVH 460/560 (all parts)"
+author: "Your name"
+output:
+  html_document:
+    toc: true
+    df_print: paged
+---
+
+In this notebook you will explore air, wipe and bulk samples that OSHA compliance officers
+collected during inspections and sent to the OSHA laboratory, from 1984 to 2025.
+Read the module [README](../README.md) and [data dictionary](../data_dictionary.md) first.
+
+**How to use this notebook**
+
+- Run each code chunk in order (the green arrow in RStudio, or Ctrl/Cmd + Shift + Enter).
+- Answer the questions under each **Your answer** heading.
+- When you are done, click **Knit** to produce an HTML report to submit.
+- Parts marked *ENVH 460/560* are required for graduate students and optional for ENVH 312.
+
+# Part 0. Load the data
+
+By default this notebook uses the **sample**: every result from a random 5% of
+inspections. To use the **full** data, run `scripts/fetch_data.R` and then
+`scripts/build_dataset.R`, and set `use_full_data <- TRUE`.
+
+```{r setup, message = FALSE}
+library(readr)
+library(dplyr)
+library(ggplot2)
+library(stringr)
+library(forcats)
+
+use_full_data <- FALSE
+
+full_path <- "../data/processed/chemical_exposure_1984_2025.csv"
+sample_path <- "../data/sample/chemical_exposure_sample.csv"
+sample_url <- paste0("https://raw.githubusercontent.com/eddiekasner/occupational-safety-health-datasets/",
+                     "main/modules/us-osha-chemical-exposure/data/sample/chemical_exposure_sample.csv")
+
+path <- if (use_full_data) full_path else if (file.exists(sample_path)) sample_path else sample_url
+chem <- read_csv(path, col_types = cols(.default = col_character()), progress = FALSE) |>
+  mutate(
+    across(c(time_sampled, air_volume_sampled, sample_weight, sample_result), as.numeric),
+    date_sampled = as.Date(date_sampled),
+    year = as.integer(format(date_sampled, "%Y"))
+  )
+
+cat(format(nrow(chem), big.mark = ","), "results from",
+    format(n_distinct(chem$inspection_number), big.mark = ","), "inspections\n")
+```
+
+# Part 1. Get oriented
+
+This dataset has three levels of identifiers:
+
+- `inspection_number`: one OSHA inspection of one establishment
+- `sampling_number`: one exposure assessment (for example, one worker's sample on one day),
+  which may include several sampling media changed during the shift
+- `field_number`: one piece of sampling media sent to the lab
+
+And each row is **one substance result** from one field sample. A single filter can be
+analyzed for many metals, giving many rows.
+
+```{r orient}
+glimpse(head(chem, 3))
+
+chem |>
+  summarise(rows = n(),
+            inspections = n_distinct(inspection_number),
+            sampling_numbers = n_distinct(sampling_number),
+            field_samples = n_distinct(paste(sampling_number, field_number)))
+```
+
+**Questions**
+
+1. In your own words, what does one row represent?
+2. Why might one field sample produce 10 or more rows?
+3. OSHA notes that sampling data from open inspections and contested citations are not
+   released. How might that affect what you see in the most recent years?
+
+**Your answer:**
+
+
+
+# Part 2. Sample types and blanks
+
+| Code | Sample type |
+| --- | --- |
+| P | Personal (worn in the worker's breathing zone) |
+| A | Area (fixed location) |
+| B | Bulk (a piece of the material itself) |
+| W | Wipe (surface contamination) |
+
+**Blanks** are unused sampling media sent to the lab to check for contamination. They are not
+exposure measurements.
+
+```{r types}
+count(chem, sample_type, blank_sample, sort = TRUE)
+
+personal <- chem |> filter(sample_type == "P", blank_sample == "N")
+cat(format(nrow(personal), big.mark = ","), "personal, non-blank results\n")
+```
+
+**Questions**
+
+1. What share of all rows are blanks? Why does it matter to remove them before analyzing exposures?
+2. Personal samples are the most common type. Why are personal samples preferred for
+   comparing against an OSHA Permissible Exposure Limit (PEL)?
+
+**Your answer:**
+
+
+
+# Part 3. What does OSHA sample for?
+
+```{r substances}
+personal |>
+  count(imis_substance_code, substance, sort = TRUE) |>
+  head(20)
+
+personal |>
+  distinct(year, inspection_number) |>
+  count(year) |>
+  ggplot(aes(year, n)) +
+  geom_col() +
+  labs(title = "Inspections with personal samples, by year sampled", x = NULL, y = "Inspections")
+```
+
+**Questions**
+
+1. Many of the top substances are metals (manganese, copper, nickel, iron oxide, zinc oxide).
+   What common work activity produces all of these at once? Why would the lab report them together?
+2. What happened in 2020? What other changes in OSHA's activity might change the number of
+   samples from year to year?
+3. OSHA chooses where to inspect using emphasis programs, complaints and referrals. Can you
+   use these data to estimate the *typical* exposure of US workers? Why or why not?
+
+**Your answer:**
+
+
+
+# Part 4. Check the units
+
+Always check the unit before comparing numbers. Units are coded (see the data dictionary):
+`M` = mg/m³, `X` = micrograms (total mass), `P` = ppm, `%` = percent, `F` = fibers/cc.
+
+```{r units}
+personal |>
+  filter(str_detect(substance, "^Silica, Crystalline")) |>
+  count(imis_substance_code, substance, unit_of_measurement, sort = TRUE)
+```
+
+**Questions**
+
+1. Code 9010 (quartz) is reported in **%**, while code 9000 (mixed respirable silica) is mostly
+   in **mcg/m3**. What does a result of "13 %" mean for a respirable dust sample? Can it be
+   compared to the silica PEL of 50 µg/m³?
+2. Some results use unusual unit codes (for example `AAAAA`). What would you do with them?
+
+**Your answer:**
+
+
+
+# Part 5. Lead exposures
+
+OSHA's lead standards set a **PEL of 50 µg/m³** and an **action level of 30 µg/m³**, both
+as 8-hour time-weighted averages (TWA). Results here are in mg/m³, so multiply by 1,000.
+
+```{r lead}
+lead <- personal |>
+  filter(imis_substance_code == "1591", unit_of_measurement == "M") |>
+  mutate(ug_m3 = sample_result * 1000,
+         # Non-detects are flagged "ND", but older years often record them only as a result of 0
+         detected = !str_detect(coalesce(qualifier, ""), "ND") & sample_result > 0)
+
+lead |> count(detected) |> mutate(percent = round(100 * n / sum(n), 1))
+
+lead |>
+  filter(detected, ug_m3 > 0) |>
+  ggplot(aes(ug_m3)) +
+  geom_histogram(bins = 40) +
+  geom_vline(xintercept = c(30, 50), linetype = c("dashed", "solid")) +
+  scale_x_log10() +
+  labs(title = "Detected personal lead results (log scale)",
+       subtitle = "Dashed = action level (30), solid = PEL (50)",
+       x = "Lead (µg/m³)", y = "Results")
+
+summary(lead$time_sampled)
+```
+
+**Questions**
+
+1. What share of lead results were non-detects? Non-detects are recorded as 0 here, and
+   before about 2000 they were often not flagged as `ND` at all. Why is treating them as zero
+   a problem when calculating an average?
+2. Why do we plot exposures on a log scale? What shape does the distribution have?
+3. The median sample lasted about 4 hours. Why can't you compare a single 4-hour result
+   directly to an 8-hour PEL?
+
+**Your answer:**
+
+
+
+# Part 6. Four decades of lead sampling
+
+OSHA's lead standard for general industry took effect in 1978, and the construction lead
+standard in 1993. How have the lead samples OSHA collects changed since 1984?
+
+```{r lead-trend}
+lead_by_year <- lead |>
+  filter(!is.na(year)) |>
+  group_by(year) |>
+  summarise(results = n(),
+            share_detected = mean(detected, na.rm = TRUE),
+            median_detected_ug_m3 = median(ug_m3[detected], na.rm = TRUE),
+            share_over_pel = mean(ug_m3 > 50, na.rm = TRUE))
+
+lead_by_year
+
+ggplot(lead_by_year, aes(year, results)) +
+  geom_col() +
+  labs(title = "Personal lead results per year", x = NULL, y = "Results")
+
+ggplot(lead_by_year, aes(year, share_over_pel)) +
+  geom_line() +
+  geom_point() +
+  scale_y_continuous(labels = scales::percent) +
+  labs(title = "Share of personal lead results above the PEL (50 µg/m³)", x = NULL, y = NULL)
+```
+
+**Questions**
+
+1. Describe the trend in the number of lead samples and in the share above the PEL.
+2. Give at least two explanations for the trend that are about **real exposure** changes,
+   and two that are about **how the data were collected or recorded** (for example, which
+   workplaces OSHA chose to inspect, laboratory methods, or how non-detects were recorded).
+3. Can you conclude from this graph that US workers' lead exposures went down? What other
+   data would help? (Hint: CDC's Adult Blood Lead Epidemiology and Surveillance program.)
+
+**Your answer:**
+
+
+
+# Part 7 (ENVH 460/560). From samples to an 8-hour TWA
+
+All the field samples with the same `sampling_number` belong to one exposure assessment.
+An 8-hour TWA combines them:
+
+$$\text{TWA}_8 = \frac{\sum_i C_i \, t_i}{480 \text{ minutes}}$$
+
+If the samples cover less than 480 minutes, you must make an assumption about the time that
+was not sampled. Below are two common choices:
+
+- **Assume zero** for the unsampled time (divide by 480): a lower bound.
+- **Assume the same** concentration continued (divide by the minutes sampled).
+
+```{r twa}
+lead_twa <- lead |>
+  filter(!is.na(ug_m3), !is.na(time_sampled), time_sampled > 0) |>
+  group_by(sampling_number) |>
+  summarise(minutes = sum(time_sampled),
+            twa_zero = sum(ug_m3 * time_sampled) / 480,
+            twa_same = sum(ug_m3 * time_sampled) / minutes,
+            .groups = "drop")
+
+lead_twa |>
+  summarise(assessments = n(),
+            over_pel_assume_zero = mean(twa_zero > 50),
+            over_pel_assume_same = mean(twa_same > 50),
+            over_al_assume_zero = mean(twa_zero > 30))
+```
+
+**Questions**
+
+1. How much does the exceedance fraction change between the two assumptions? Which one
+   would an employer prefer, and which would a worker advocate prefer?
+2. OSHA compliance officers often try to sample the *worst-case* tasks. How does that
+   affect the exceedance fractions you calculated?
+3. What would you need to know about the worker's full shift to choose between the assumptions?
+
+**Your answer:**
+
+
+
+# Part 8 (ENVH 460/560). Silica exposures by industry
+
+The respirable crystalline silica standards (2016) set a **PEL of 50 µg/m³** and an
+**action level of 25 µg/m³** (8-hour TWA). OSHA's lab began reporting mixed respirable
+silica as an air concentration (code 9000) in 2015, so this part covers recent years only.
+
+```{r silica}
+silica <- personal |>
+  filter(imis_substance_code == "9000", unit_of_measurement %in% c("mcg/m3", "M")) |>
+  mutate(ug_m3 = if_else(unit_of_measurement == "M", sample_result * 1000, sample_result),
+         detected = is.na(qualifier) | !str_detect(qualifier, "ND"),
+         naics_2 = str_sub(naics_code, 1, 2))
+
+silica |>
+  filter(detected, ug_m3 > 0) |>
+  group_by(naics_2) |>
+  summarise(results = n(),
+            geometric_mean = round(exp(mean(log(ug_m3))), 1),
+            median = round(median(ug_m3), 1),
+            share_over_pel = round(mean(ug_m3 > 50), 2)) |>
+  filter(results >= 10) |>
+  arrange(desc(geometric_mean))
+```
+
+**Questions**
+
+1. Which sectors have the highest silica exposures? (NAICS 23 = construction,
+   31 to 33 = manufacturing, 32 includes stone, glass and concrete products.)
+2. Why do industrial hygienists report the **geometric mean** instead of the arithmetic mean?
+3. This table only uses *detected* results. What share of silica results were non-detects?
+   Why can't you take the logarithm of a non-detect recorded as 0? What better methods exist
+   for handling non-detects?
+4. Using what you learned in Part 7, how would you improve this analysis?
+
+**Your answer:**
+
+

@@ -18,7 +18,8 @@ Each module gives students:
 
 | Module | Scope | Source | Status |
 | --- | --- | --- | --- |
-| [OSHA ITA case detail (Forms 300/301)](modules/us-osha-ita-case-detail/) | US | OSHA | Pilot, ready for review |
+| [OSHA ITA case detail (Forms 300/301)](modules/us-osha-ita-case-detail/) | US | OSHA | Ready |
+| [OSHA Chemical Exposure Health Data](modules/us-osha-chemical-exposure/) | US | OSHA | Ready for review |
 
 See [CATALOG.md](CATALOG.md) for candidate datasets (US and international) and their status.
 
@@ -47,6 +48,7 @@ docs/                      instructor and contributor notes
 modules/
   _template/               copy this to start a new module
   us-osha-ita-case-detail/ OSHA Injury Tracking Application case detail data
+  us-osha-chemical-exposure/ OSHA air, wipe and bulk sampling results
 install_packages.R         one-time R package setup
 ```
 
