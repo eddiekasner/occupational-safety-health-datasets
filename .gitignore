@@ -1,0 +1,16 @@
+# Full datasets are downloaded by each module's fetch script, not committed.
+modules/*/data/raw/*
+!modules/*/data/raw/.gitkeep
+modules/*/data/processed/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# R / RStudio
+.Rhistory
+.RData
+.Rproj.user/
+*_cache/
+*_files/
+modules/*/notebooks/*.html
