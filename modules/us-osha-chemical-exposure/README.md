@@ -1,7 +1,7 @@
 # OSHA Chemical Exposure Health Data
 
 **Scope:** United States | **Publisher:** US Department of Labor, Occupational Safety
-and Health Administration (OSHA) | **Years in this module:** samples analyzed 2013 to 2025
+and Health Administration (OSHA) | **Years in this module:** samples taken 1984 to 2025
 
 ## Background
 
@@ -55,19 +55,23 @@ legal limits.
   silica as an *air concentration* under code 9000). Always check `unit_of_measurement`.
 - **Delayed release.** Results from open inspections and contested citations are withheld
   until the case closes, so recent years are incomplete.
-- **Inconsistent files.** OSHA's yearly files change format from year to year.
+- **Inconsistent files.** OSHA's yearly files change format from year to year (XML before
+  2013, CSV after, with different delimiters, date formats and quirks).
   `scripts/build_dataset.R` handles this (see the comments at the top of that script).
+- **Recording practices changed.** In older years many non-detects are recorded only as a
+  result of 0, without an `ND` qualifier. Industry is coded by SIC through 2011 and by NAICS
+  from 2003 (both are present from 2003 to 2011). Mixed respirable silica is reported as an air concentration only from 2015.
 
 ## Files
 
 | Path | Contents |
 | --- | --- |
 | `data_dictionary.md` | Field guide and code tables |
-| `data/sample/chemical_exposure_sample.csv` | Every result from a random 10% of inspections (54,855 rows, 9 MB) |
+| `data/sample/chemical_exposure_sample.csv` | Every result from a random 5% of inspections (133,441 rows, 24 MB) |
 | `data/raw/` | OSHA's yearly zip files (not committed) |
 | `data/processed/` | The combined, cleaned table (not committed; built by `build_dataset.R`) |
 | `notebooks/01_starter.Rmd` | Guided exploration for ENVH 312 and ENVH 460/560 |
-| `scripts/fetch_data.R` | Downloads the yearly files from OSHA (about 25 MB) |
+| `scripts/fetch_data.R` | Downloads the yearly files from OSHA (about 55 MB) |
 | `scripts/build_dataset.R` | Cleans and combines the yearly files |
 | `scripts/make_sample.R` | Rebuilds the sample from the combined table |
 
@@ -75,10 +79,10 @@ legal limits.
 
 | | Count |
 | --- | --- |
-| Results (rows), 2013 to 2025 | 571,504 |
-| Inspections | 27,601 |
-| Personal, non-blank results | 317,577 |
-| Blank results | 121,788 |
+| Results (rows), 1984 to 2025 | 2,686,117 |
+| Inspections | 104,961 |
+| Personal, non-blank results | 1,660,890 |
+| Blank results | 499,646 |
 
 Figures are from files downloaded in October 2026. OSHA updates the data each January and July.
 
@@ -87,12 +91,12 @@ Figures are from files downloaded in October 2026. OSHA updates the data each Ja
 In RStudio, open and **Source** these scripts in order:
 
 1. `scripts/fetch_data.R` downloads the yearly zip files into `data/raw/`.
-2. `scripts/build_dataset.R` writes `data/processed/chemical_exposure_2013_2025.csv` (about 96 MB).
+2. `scripts/build_dataset.R` writes `data/processed/chemical_exposure_1984_2025.csv`
+   (about 460 MB). It takes about 10 minutes and needs about 2 GB of free memory.
 
 Then set `use_full_data <- TRUE` in the notebook.
 
-Years 1984 to 2012 are available from OSHA as XML files with a different layout. They are
-not included in this module yet.
+OSHA also posts a partial current year (2026) as an Excel file; it is not included.
 
 ## Official documentation
 
@@ -104,4 +108,4 @@ not included in this module yet.
 ## Citation
 
 US Department of Labor, Occupational Safety and Health Administration. *Chemical Exposure
-Health Data, 2013 to 2025.* Downloaded [date] from https://www.osha.gov/opengov/health-samples
+Health Data, 1984 to 2025.* Downloaded [date] from https://www.osha.gov/opengov/health-samples

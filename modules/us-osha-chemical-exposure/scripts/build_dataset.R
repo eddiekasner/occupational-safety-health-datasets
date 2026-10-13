@@ -11,7 +11,7 @@
 #   - 2012: the office ID is stored in a second <sampling_number> tag and the blank
 #     flag in a second <sample_type> tag
 #   - XML tag names that differ from the CSV column names (blank_used, eight_hour_twa_calc)
-#   - dates as "1984/05/07 00:00:00" (XML) or "2013-MAR-20" (CSV)
+#   - dates as "1984/05/07 00:00:00" or "2011-01-04" (XML), or "2013-MAR-20" (CSV)
 #   - NAICS and SIC codes recorded as 0 when missing
 #   - inspection numbers with leading zeros in some years
 #   - delimiters that switch between comma and pipe from year to year
@@ -121,12 +121,14 @@ read_year_csv <- function(zip_path) {
 }
 
 parse_osha_date <- function(x) {
-  # "2013-MAR-20" / "2023-May-12" (CSV years) or "1984/05/07 00:00:00" (XML years)
+  # "2013-MAR-20" / "2023-May-12" (CSV years), "1984/05/07 00:00:00" or "2011-01-04" (XML years)
   parts <- str_match(str_to_upper(x), "^(\\d{4})-([A-Z]{3})-(\\d{1,2})$")
   month <- match(parts[, 3], toupper(month.abb))
-  csv_style <- as.Date(sprintf("%s-%02d-%02d", parts[, 2], month, as.integer(parts[, 4])), optional = TRUE)
-  xml_style <- as.Date(str_sub(x, 1, 10), format = "%Y/%m/%d", optional = TRUE)
-  coalesce(csv_style, xml_style)
+  csv_style <- as.Date(sprintf("%s-%02d-%02d", parts[, 2], month, as.integer(parts[, 4])),
+                       format = "%Y-%m-%d")
+  xml_style <- as.Date(str_sub(x, 1, 10), format = "%Y/%m/%d")
+  iso_style <- as.Date(str_sub(x, 1, 10), format = "%Y-%m-%d")
+  coalesce(csv_style, xml_style, iso_style)
 }
 
 columns <- c("inspection_number", "establishment_name", "city", "state", "zip_code", "sic_code",

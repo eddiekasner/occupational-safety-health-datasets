@@ -1,6 +1,6 @@
 ---
 title: "OSHA Chemical Exposure Health Data: Starter Notebook"
-subtitle: "ENVH 312 (Parts 1 to 5) and ENVH 460/560 (all parts)"
+subtitle: "ENVH 312 (Parts 1 to 6) and ENVH 460/560 (all parts)"
 author: "Your name"
 output:
   html_document:
@@ -9,7 +9,7 @@ output:
 ---
 
 In this notebook you will explore air, wipe and bulk samples that OSHA compliance officers
-collected during inspections and sent to the OSHA laboratory, from 2013 to 2025.
+collected during inspections and sent to the OSHA laboratory, from 1984 to 2025.
 Read the module [README](../README.md) and [data dictionary](../data_dictionary.md) first.
 
 **How to use this notebook**
@@ -21,7 +21,7 @@ Read the module [README](../README.md) and [data dictionary](../data_dictionary.
 
 # Part 0. Load the data
 
-By default this notebook uses the **sample**: every result from a random 10% of
+By default this notebook uses the **sample**: every result from a random 5% of
 inspections. To use the **full** data, run `scripts/fetch_data.R` and then
 `scripts/build_dataset.R`, and set `use_full_data <- TRUE`.
 
@@ -34,7 +34,7 @@ library(forcats)
 
 use_full_data <- FALSE
 
-full_path <- "../data/processed/chemical_exposure_2013_2025.csv"
+full_path <- "../data/processed/chemical_exposure_1984_2025.csv"
 sample_path <- "../data/sample/chemical_exposure_sample.csv"
 sample_url <- paste0("https://raw.githubusercontent.com/eddiekasner/occupational-safety-health-datasets/",
                      "main/modules/us-osha-chemical-exposure/data/sample/chemical_exposure_sample.csv")
@@ -172,7 +172,8 @@ as 8-hour time-weighted averages (TWA). Results here are in mg/m³, so multiply 
 lead <- personal |>
   filter(imis_substance_code == "1591", unit_of_measurement == "M") |>
   mutate(ug_m3 = sample_result * 1000,
-         detected = is.na(qualifier) | !str_detect(qualifier, "ND"))
+         # Non-detects are flagged "ND", but older years often record them only as a result of 0
+         detected = !str_detect(coalesce(qualifier, ""), "ND") & sample_result > 0)
 
 lead |> count(detected) |> mutate(percent = round(100 * n / sum(n), 1))
 
@@ -191,8 +192,9 @@ summary(lead$time_sampled)
 
 **Questions**
 
-1. What share of lead results were non-detects (`ND`)? Non-detects are recorded as 0 here.
-   Why is treating them as zero a problem when calculating an average?
+1. What share of lead results were non-detects? Non-detects are recorded as 0 here, and
+   before about 2000 they were often not flagged as `ND` at all. Why is treating them as zero
+   a problem when calculating an average?
 2. Why do we plot exposures on a log scale? What shape does the distribution have?
 3. The median sample lasted about 4 hours. Why can't you compare a single 4-hour result
    directly to an 8-hour PEL?
@@ -201,7 +203,47 @@ summary(lead$time_sampled)
 
 
 
-# Part 6 (ENVH 460/560). From samples to an 8-hour TWA
+# Part 6. Four decades of lead sampling
+
+OSHA's lead standard for general industry took effect in 1978, and the construction lead
+standard in 1993. How have the lead samples OSHA collects changed since 1984?
+
+```{r lead-trend}
+lead_by_year <- lead |>
+  filter(!is.na(year)) |>
+  group_by(year) |>
+  summarise(results = n(),
+            share_detected = mean(detected, na.rm = TRUE),
+            median_detected_ug_m3 = median(ug_m3[detected], na.rm = TRUE),
+            share_over_pel = mean(ug_m3 > 50, na.rm = TRUE))
+
+lead_by_year
+
+ggplot(lead_by_year, aes(year, results)) +
+  geom_col() +
+  labs(title = "Personal lead results per year", x = NULL, y = "Results")
+
+ggplot(lead_by_year, aes(year, share_over_pel)) +
+  geom_line() +
+  geom_point() +
+  scale_y_continuous(labels = scales::percent) +
+  labs(title = "Share of personal lead results above the PEL (50 µg/m³)", x = NULL, y = NULL)
+```
+
+**Questions**
+
+1. Describe the trend in the number of lead samples and in the share above the PEL.
+2. Give at least two explanations for the trend that are about **real exposure** changes,
+   and two that are about **how the data were collected or recorded** (for example, which
+   workplaces OSHA chose to inspect, laboratory methods, or how non-detects were recorded).
+3. Can you conclude from this graph that US workers' lead exposures went down? What other
+   data would help? (Hint: CDC's Adult Blood Lead Epidemiology and Surveillance program.)
+
+**Your answer:**
+
+
+
+# Part 7 (ENVH 460/560). From samples to an 8-hour TWA
 
 All the field samples with the same `sampling_number` belong to one exposure assessment.
 An 8-hour TWA combines them:
@@ -242,10 +284,11 @@ lead_twa |>
 
 
 
-# Part 7 (ENVH 460/560). Silica exposures by industry
+# Part 8 (ENVH 460/560). Silica exposures by industry
 
-The respirable crystalline silica standards set a **PEL of 50 µg/m³** and an **action
-level of 25 µg/m³** (8-hour TWA).
+The respirable crystalline silica standards (2016) set a **PEL of 50 µg/m³** and an
+**action level of 25 µg/m³** (8-hour TWA). OSHA's lab began reporting mixed respirable
+silica as an air concentration (code 9000) in 2015, so this part covers recent years only.
 
 ```{r silica}
 silica <- personal |>
@@ -273,7 +316,7 @@ silica |>
 3. This table only uses *detected* results. What share of silica results were non-detects?
    Why can't you take the logarithm of a non-detect recorded as 0? What better methods exist
    for handling non-detects?
-4. Using what you learned in Part 6, how would you improve this analysis?
+4. Using what you learned in Part 7, how would you improve this analysis?
 
 **Your answer:**
 
