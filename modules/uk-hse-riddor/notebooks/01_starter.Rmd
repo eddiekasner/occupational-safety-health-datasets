@@ -1,0 +1,336 @@
+---
+title: "UK HSE Injury Statistics (RIDDOR and LFS): Starter Notebook"
+subtitle: "ENVH 312 (Parts 1 to 5) and ENVH 460/560 (all parts)"
+author: "Your name"
+output:
+  html_document:
+    toc: true
+    df_print: paged
+---
+
+The Health and Safety Executive (HSE) regulates workplace health and safety in Great Britain
+(England, Scotland and Wales). This notebook uses two of its sources:
+
+- **RIDDOR**: injuries that employers must report under the *Reporting of Injuries, Diseases and
+  Dangerous Occurrences Regulations*: deaths, "specified" injuries (such as fractures and
+  amputations), and injuries that keep an employee off work for more than 7 days.
+- **The Labour Force Survey (LFS)**: a household survey in which workers report whether they
+  were injured at work in the last 12 months.
+
+Comparing them shows how much employers under-report. Read the module [README](../README.md)
+and [data dictionary](../data_dictionary.md) first.
+
+**How to use this notebook**
+
+- Run each code chunk in order (the green arrow in RStudio, or Ctrl/Cmd + Shift + Enter).
+- Answer the questions under each **Your answer** heading.
+- When you are done, click **Knit** to produce an HTML report to submit.
+- Parts marked *ENVH 460/560* are required for graduate students and optional for ENVH 312.
+
+# Part 0. Load the data
+
+The tables in `data/tidy/` are complete for the breakdowns they cover and are committed to the
+repository. HSE years run from April to March: "2024/25" is 1 April 2024 to 31 March 2025, and
+`year` is the year it ends (2025).
+
+```{r setup, message = FALSE}
+library(readr)
+library(dplyr)
+library(tidyr)
+library(ggplot2)
+library(stringr)
+library(forcats)
+
+tidy_dir <- "../data/tidy"
+github <- paste0("https://raw.githubusercontent.com/eddiekasner/occupational-safety-health-datasets/",
+                 "main/modules/uk-hse-riddor/data/tidy")
+read_tidy <- function(name) {
+  local <- file.path(tidy_dir, name)
+  read_csv(if (file.exists(local)) local else file.path(github, name),
+           col_types = cols(.default = col_character())) |>
+    mutate(across(any_of("year"), as.integer),
+           across(any_of(c("value", "estimate", "ci_lower", "ci_upper")), as.numeric),
+           across(any_of("low_sample"), as.logical))
+}
+
+history <- read_tidy("riddor_history.csv")           # since 1974, broad industries
+industry <- read_tidy("riddor_industry.csv.gz")      # detailed industry, 2014/15 onward
+kind <- read_tidy("riddor_kind.csv.gz")              # kind of accident
+age_gender <- read_tidy("riddor_age_gender.csv.gz")
+nature_site <- read_tidy("riddor_nature_site.csv")
+fatal <- read_tidy("riddor_fatal_latest.csv")        # deaths, 2021/22 to 2025/26
+lfs <- read_tidy("lfs_injury.csv.gz")                # self-reported injuries (survey)
+
+# Shorter industry names for plots, for example "Construction (SIC F)" -> "Construction"
+short_industry <- function(x) str_trunc(str_remove(x, " \\(SIC.*\\)$"), 45)
+```
+
+# Part 1. Fifty years of work-related deaths
+
+```{r fatal-trend}
+fatal_trend <- history |>
+  filter(industry == "All industries", injury_type == "Fatal",
+         worker_group %in% c("Workers", "Members of the public"), measure == "count",
+         year >= 1981)
+
+ggplot(fatal_trend, aes(year, value, colour = worker_group)) +
+  geom_line() +
+  expand_limits(y = 0) +
+  labs(title = "Work-related deaths reported under RIDDOR, Great Britain",
+       x = "Year ending", y = "Deaths", colour = NULL)
+
+history |>
+  filter(industry == "All industries", injury_type == "Fatal", worker_group == "Workers",
+         measure == "rate_per_100000", year %in% c(1982, 1992, 2002, 2012, 2022, 2025)) |>
+  select(period, deaths_per_100000_workers = value)
+```
+
+**Questions**
+
+1. How many workers were killed at work in 1981 and in the latest year? By how much has the
+   rate fallen?
+2. Name three changes in Britain's economy or in health and safety regulation since the 1970s
+   that might explain the fall. (The Health and Safety at Work etc. Act was passed in 1974.)
+3. Deaths of members of the public dropped sharply in 2014/15. Read the README: was this a real
+   improvement?
+
+**Your answer:**
+
+
+
+# Part 2. Which industries are most dangerous?
+
+The latest file gives a five-year total (2021/22 to 2025/26), which is more stable than any one year.
+
+```{r industries}
+fatal_by_industry <- fatal |>
+  filter(breakdown == "industry", period_length == "5-year total", worker_group == "Workers",
+         !str_starts(category, "- of which"), !category %in% c("All industries (SIC A-U)", "Missing Industry")) |>
+  select(category, measure, value) |>
+  pivot_wider(names_from = measure, values_from = value) |>
+  rename(deaths = count, rate = rate_per_100000) |>
+  mutate(industry = short_industry(category)) |>
+  arrange(desc(rate))
+select(fatal_by_industry, industry, deaths, rate)
+
+ggplot(fatal_by_industry, aes(rate, fct_reorder(industry, rate))) +
+  geom_col() +
+  labs(title = "Fatal injury rate by industry, 2021/22 to 2025/26",
+       x = "Deaths per 100,000 workers per year", y = NULL)
+```
+
+**Questions**
+
+1. Which industry has by far the highest rate? Which has the most deaths?
+2. Agriculture's rate is many times the average. Name two features of farm work (think about
+   who does it and where) that might explain this.
+
+**Your answer:**
+
+
+
+# Part 3. How do workers die, and how are they injured?
+
+```{r kinds}
+deaths_by_kind <- fatal |>
+  filter(breakdown == "kind of accident", period_length == "5-year total",
+         worker_group == "Workers", category != "All accident kinds") |>
+  transmute(accident_kind = category, deaths = value)
+
+injuries_by_kind <- kind |>
+  filter(sic_section == "A-U", year == max(year), injury_type == "All non-fatal",
+         measure == "count", accident_kind != "All accident kinds") |>
+  transmute(accident_kind, non_fatal_injuries = value)
+
+full_join(deaths_by_kind, injuries_by_kind, by = c("accident_kind")) |>
+  mutate(share_of_deaths = deaths / sum(deaths),
+         share_of_injuries = non_fatal_injuries / sum(non_fatal_injuries)) |>
+  arrange(desc(deaths))
+```
+
+**Questions**
+
+1. What are the three most common kinds of fatal accident? The three most common kinds of
+   non-fatal injury?
+2. Slips and trips cause many injuries but few deaths. Falls from height are the reverse. Why?
+3. Acts of violence cause many non-fatal injuries. In which industries would you expect these?
+
+**Your answer:**
+
+
+
+# Part 4. How many injuries are not reported?
+
+RIDDOR counts the injuries employers report. The LFS asks workers directly. Both have a measure
+of injuries keeping someone off work for **more than 7 days** (RIDDOR counts employees only).
+
+```{r under-reporting}
+riddor_over7 <- history |>
+  filter(industry == "All industries", worker_group == "Employees", injury_type == "Over-7-day",
+         measure == "count") |>
+  transmute(year, source = "RIDDOR (reported by employers)", injuries = value)
+
+lfs_over7 <- lfs |>
+  filter(breakdown == "all", injury_type == "Over-7-day absence", measure == "injuries_thousands") |>
+  transmute(year, source = "LFS (reported by workers)", injuries = estimate * 1000,
+            lower = ci_lower * 1000, upper = ci_upper * 1000)
+
+bind_rows(riddor_over7, lfs_over7) |>
+  ggplot(aes(year, injuries, colour = source)) +
+  geom_ribbon(data = lfs_over7, aes(ymin = lower, ymax = upper, fill = source), alpha = 0.2,
+              colour = NA) +
+  geom_line() +
+  expand_limits(y = 0) +
+  labs(title = "Injuries with more than 7 days off work", x = "Year ending",
+       y = "Injuries per year", colour = NULL, fill = NULL)
+
+lfs |>
+  filter(breakdown == "all", measure == "injuries_thousands", year == max(year)) |>
+  select(injury_type, estimate, ci_lower, ci_upper)
+```
+
+**Questions**
+
+1. In the latest year, about how many over-7-day injuries did workers report in the LFS, and how
+   many did employers report under RIDDOR? Roughly what fraction were reported?
+2. The LFS estimate includes the self-employed and the RIDDOR count does not. Does that make the
+   gap bigger or smaller than it looks?
+3. Give three reasons an employer might not report an injury.
+4. HSE calls the LFS its preferred source for the *number* of non-fatal injuries. What can RIDDOR
+   tell you that a survey cannot?
+
+**Your answer:**
+
+
+
+# Part 5. Age and gender
+
+```{r age-gender}
+age_gender |>
+  filter(sic_section == "A-U", age_group == "All", injury_type == "Fatal",
+         worker_group == "Workers", measure == "count") |>
+  group_by(gender) |>
+  summarise(deaths = sum(value))
+
+age_gender |>
+  # Fatal rates are per 100,000 workers; non-fatal rates per 100,000 employees
+  filter(sic_section == "A-U", gender == "All", measure == "rate_per_100000",
+         (injury_type == "Fatal" & worker_group == "Workers") |
+           (injury_type == "All non-fatal" & worker_group == "Employees"),
+         !age_group %in% c("All", "Unknown", "Under 16")) |>
+  group_by(injury_type, age_group) |>
+  summarise(mean_rate = mean(value, na.rm = TRUE), .groups = "drop") |>
+  pivot_wider(names_from = injury_type, values_from = mean_rate)
+```
+
+**Questions**
+
+1. What share of deaths are men? Why?
+2. How do fatal and non-fatal injury rates change with age? The fatal rate rises much more
+   steeply. Give two reasons why an injury is more likely to be fatal for an older worker.
+
+**Your answer:**
+
+
+
+# Part 6 (ENVH 460/560). Under-reporting by industry
+
+The LFS is a survey, so its estimates have **95% confidence intervals**. Here we compare the LFS
+rate of over-7-day injuries with the RIDDOR rate for each industry section over the latest
+five years.
+
+```{r reporting-ratio, fig.height = 7}
+lfs_sections <- lfs |>
+  filter(breakdown == "industry", level == "Section", period_length == "5 year",
+         injury_type == "Over-7-day absence", measure == "rate_per_100000_workers",
+         year == max(year)) |>
+  select(sic = code, industry = category, period, lfs_rate = estimate, ci_lower, ci_upper) |>
+  filter(!is.na(lfs_rate))   # sections with too few survey respondents have no estimate
+lfs_sections
+
+riddor_sections <- industry |>
+  filter(sic_level == "Section", worker_group == "Employees", injury_type == "Over-7-day",
+         measure == "rate_per_100000", year > max(year) - 5) |>
+  mutate(sic = str_extract(sic_code, "^[A-Z]")) |>
+  group_by(sic) |>
+  summarise(riddor_rate = mean(value, na.rm = TRUE))
+
+comparison <- lfs_sections |>
+  inner_join(riddor_sections, by = "sic") |>
+  mutate(reported_share = riddor_rate / lfs_rate) |>
+  arrange(reported_share)
+select(comparison, industry, lfs_rate, riddor_rate, reported_share)
+
+ggplot(comparison, aes(lfs_rate, fct_reorder(str_trunc(industry, 40), lfs_rate))) +
+  geom_pointrange(aes(xmin = ci_lower, xmax = ci_upper)) +
+  geom_point(aes(x = riddor_rate), colour = "red") +
+  labs(title = "Over-7-day injury rates: LFS (black, with 95% CI) and RIDDOR (red)",
+       x = "Injuries per 100,000 workers per year", y = NULL)
+```
+
+**Questions**
+
+1. In which industries is the reported share lowest? Highest? Suggest reasons.
+2. The LFS rate is per worker and the RIDDOR rate is per employee, and the LFS counts consecutive
+   calendar days off. How might these differences bias the reported share?
+3. Some industries have wide confidence intervals. Why, and what does that mean for comparing them?
+
+**Your answer:**
+
+
+
+# Part 7 (ENVH 460/560). Breaks in a time series
+
+Reporting rules changed several times. Each change affects what counts as a "reportable" injury.
+
+```{r breaks}
+changes <- tibble(year = c(1986, 1996, 2012, 2013),
+                  change = c("RIDDOR 1985: over-3-day injuries reportable",
+                             "RIDDOR 1995: wider list of major injuries",
+                             "Threshold raised to over-7-day",
+                             "RIDDOR 2013: 'specified' injuries"))
+
+history |>
+  filter(industry == "All industries", worker_group == "Employees", injury_type != "Fatal",
+         measure == "count") |>
+  ggplot(aes(year, value, colour = injury_type)) +
+  geom_line() +
+  geom_vline(data = changes, aes(xintercept = year + 1), linetype = "dashed") +
+  labs(title = "Non-fatal injuries to employees reported under RIDDOR and earlier regulations",
+       x = "Year ending", y = "Reported injuries", colour = NULL)
+
+changes
+```
+
+**Questions**
+
+1. For each dashed line, describe what happened to the series and whether the change reflects
+   safety or reporting rules.
+2. Between rule changes, reported injuries fell steadily. How could you tell whether that is a
+   real fall in injuries? (Hint: compare with the LFS in Part 4.)
+3. What happened in 2020/21?
+
+**Your answer:**
+
+
+
+# Part 8 (ENVH 460/560). Comparing countries
+
+The fatal injury rate in Great Britain is about 0.4 deaths per 100,000 workers. In the US
+(CFOI module) it is about 3.3 to 3.5, and in Australia (Safe Work Australia module) about 1.5.
+
+**Questions**
+
+1. Deaths in road traffic accidents on public roads are generally not reportable under RIDDOR,
+   but are counted in the US CFOI and the Australian TIF. Using `cfoi_national.csv` in the CFOI
+   module, find the share of US deaths that were transportation incidents in 2022, and estimate
+   the US rate without them. How much of the gap does this explain?
+2. List two other differences in definitions or coverage that could make the British rate look
+   lower (think about homicides, suicides, sea and air transport, and how deaths are found).
+3. The Eurostat module (ESAW) publishes rates harmonised across European countries. Why is
+   harmonisation hard, even within Europe?
+
+**Your answer:**
+
+
+
