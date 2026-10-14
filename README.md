@@ -24,7 +24,8 @@ Each module gives students:
 | [Eurostat accidents at work (ESAW)](modules/intl-eurostat-esaw/) | Europe | Eurostat | Ready |
 | [OSHA Severe Injury Reports](modules/us-osha-severe-injury/) | US | OSHA | Ready |
 | [BLS Census of Fatal Occupational Injuries (CFOI)](modules/us-bls-cfoi/) | US | BLS | Ready |
-| [BLS Survey of Occupational Injuries and Illnesses (SOII)](modules/us-bls-soii/) | US | BLS | Ready for review |
+| [BLS Survey of Occupational Injuries and Illnesses (SOII)](modules/us-bls-soii/) | US | BLS | Ready |
+| [Safe Work Australia fatalities and workers' compensation](modules/intl-safework-australia/) | Australia | Safe Work Australia | Ready for review |
 
 See [CATALOG.md](CATALOG.md) for candidate datasets (US and international) and their status.
 
@@ -59,6 +60,7 @@ modules/
   us-osha-severe-injury/   OSHA reports of amputations, hospitalizations and eye loss
   us-bls-cfoi/             BLS counts and rates of fatal work injuries
   us-bls-soii/             BLS rates of non-fatal work injuries and illnesses
+  intl-safework-australia/ Australian work-related deaths and workers' compensation claims
 install_packages.R         one-time R package setup
 ```
 
