@@ -1,0 +1,268 @@
+---
+title: "OSHA Severe Injury Reports: Starter Notebook"
+subtitle: "ENVH 312 (Parts 1 to 5) and ENVH 460/560 (all parts)"
+author: "Your name"
+output:
+  html_document:
+    toc: true
+    df_print: paged
+---
+
+Since 2015, employers must report to OSHA every work-related **amputation**, **in-patient
+hospitalization**, or **loss of an eye** within 24 hours. In this notebook you will explore
+those Severe Injury Reports (SIRs). Read the module [README](../README.md) and
+[data dictionary](../data_dictionary.md) first.
+
+**How to use this notebook**
+
+- Run each code chunk in order (the green arrow in RStudio, or Ctrl/Cmd + Shift + Enter).
+- Answer the questions under each **Your answer** heading.
+- When you are done, click **Knit** to produce an HTML report to submit.
+- Parts marked *ENVH 460/560* are required for graduate students and optional for ENVH 312.
+
+# Part 0. Load the data
+
+The file in `data/tidy/` contains **every** report (not a sample) and is committed to the
+repository. To refresh it, run `scripts/fetch_data.R` and then `scripts/build_dataset.R`.
+
+```{r setup, message = FALSE}
+library(readr)
+library(dplyr)
+library(tidyr)
+library(ggplot2)
+library(stringr)
+library(forcats)
+
+local_path <- "../data/tidy/severe_injury_reports.csv.gz"
+github_url <- paste0("https://raw.githubusercontent.com/eddiekasner/occupational-safety-health-datasets/",
+                     "main/modules/us-osha-severe-injury/data/tidy/severe_injury_reports.csv.gz")
+
+sir <- read_csv(if (file.exists(local_path)) local_path else github_url,
+                col_types = cols(event_date = col_date(), year = col_integer(), month = col_integer(),
+                                 latitude = col_double(), longitude = col_double(),
+                                 hospitalized = col_integer(), amputation = col_integer(),
+                                 loss_of_eye = col_integer(), .default = col_character()))
+
+cat(format(nrow(sir), big.mark = ","), "reports from", format(min(sir$event_date)), "to",
+    format(max(sir$event_date)), "\n")
+```
+
+# Part 1. Get oriented
+
+```{r orient}
+glimpse(sir)
+
+sir |>
+  summarise(reports = n(),
+            workers_hospitalized = sum(hospitalized, na.rm = TRUE),
+            workers_with_amputation = sum(amputation, na.rm = TRUE),
+            workers_with_eye_loss = sum(loss_of_eye, na.rm = TRUE),
+            share_inspected = mean(!is.na(inspection)))
+```
+
+**Questions**
+
+1. What does one row represent? Can one report involve more than one injured worker?
+2. These data cover only workplaces under **federal OSHA** jurisdiction. Which states run
+   their own OSHA-approved State Plans? How does that limit what you can conclude about the US?
+3. About what share of reports led to an OSHA inspection? What do you think happens to the rest?
+   (Hint: look up OSHA's "rapid response investigation".)
+
+**Your answer:**
+
+
+
+# Part 2. When do severe injuries happen?
+
+```{r when}
+ggplot(count(sir, year), aes(year, n)) +
+  geom_col() +
+  labs(title = "Severe injury reports per year", x = NULL, y = "Reports")
+
+sir |>
+  filter(year < max(year)) |>
+  count(month) |>
+  ggplot(aes(factor(month.abb[month], levels = month.abb), n)) +
+  geom_col() +
+  labs(title = "Severe injury reports by month (complete years only)", x = NULL, y = "Reports")
+```
+
+**Questions**
+
+1. Describe the trend across years. What happened in 2020? Is the most recent year complete?
+2. Which months have the most reports? Suggest a reason (see Part 6).
+
+**Your answer:**
+
+
+
+# Part 3. What happened?
+
+Each report is coded with the **Occupational Injury and Illness Classification System (OIICS)**,
+the same system BLS uses: the *event* (how the injury happened), the *nature* (what the injury
+was), the *part of body*, and the *source* (what directly caused it).
+
+```{r what, fig.height = 6}
+count(sir, event_division, sort = TRUE)
+
+sir |>
+  count(event, sort = TRUE) |>
+  head(15) |>
+  ggplot(aes(n, fct_reorder(str_trunc(event, 60), n))) +
+  geom_col() +
+  labs(title = "Most common events", x = "Reports", y = NULL)
+
+count(sir, nature, sort = TRUE) |> head(10)
+count(sir, body_part, sort = TRUE) |> head(10)
+count(sir, source, sort = TRUE) |> head(10)
+```
+
+**Questions**
+
+1. Which event divisions account for most severe injuries?
+2. What are the most common injuries and body parts? What does that suggest about the
+   types of hazards behind severe injuries?
+3. Read the `source` list. Which sources are equipment that engineering controls (such as machine
+   guarding) could address?
+
+**Your answer:**
+
+
+
+# Part 4. Where and in which industries?
+
+```{r where, fig.height = 6}
+count(sir, state, sort = TRUE) |> head(15)
+
+sir |>
+  count(naics_2, sort = TRUE) |>
+  head(12)
+```
+
+NAICS sectors: 23 = construction, 31 to 33 = manufacturing, 48 to 49 = transportation and
+warehousing, 44 to 45 = retail trade, 56 = administrative and waste services, 62 = health care.
+
+```{r map}
+sir |>
+  filter(!is.na(latitude), !is.na(longitude)) |>
+  ggplot(aes(longitude, latitude)) +
+  geom_point(alpha = 0.05, size = 0.3) +
+  coord_quickmap(xlim = c(-125, -66), ylim = c(24, 50)) +
+  labs(title = "Locations of severe injury reports (contiguous US)", x = NULL, y = NULL)
+```
+
+**Questions**
+
+1. Which states and industries report the most severe injuries? Why is a count of reports not
+   the same as a measure of risk?
+2. Look at the map. Which parts of the country are nearly empty, and why?
+
+**Your answer:**
+
+
+
+# Part 5. Data quality
+
+Real data are messy. The same employer can appear under many spellings:
+
+```{r quality}
+sir |>
+  filter(str_detect(employer, regex("postal", ignore_case = TRUE))) |>
+  count(employer, sort = TRUE) |>
+  head(10)
+
+# How precise are the coordinates? Are any clearly wrong?
+head(sort(unique(sir$latitude)), 10)
+sir |> filter(latitude < 15 | longitude > 0) |> select(employer, city, state, latitude, longitude)
+```
+
+**Questions**
+
+1. How many spellings of the US Postal Service can you find? Write code that groups them into
+   one employer, and count its total reports. Which other large employers might have the same problem?
+2. The coordinates have only two decimal places. About how far apart are two points that
+   differ by 0.01 degree of latitude? What does that mean for mapping? Some coordinates are
+   clearly wrong (for example a latitude of 0). How would you find and handle them?
+3. Employers must report these injuries, but studies suggest many are never reported. Who
+   might be less likely to report, and why?
+
+**Your answer:**
+
+
+
+# Part 6 (ENVH 460/560). Heat-related injuries
+
+```{r heat}
+heat <- sir |>
+  filter(str_detect(event, regex("environmental heat", ignore_case = TRUE)))
+
+cat(nrow(heat), "reports of exposure to environmental heat\n")
+
+heat |>
+  count(year, month) |>
+  ggplot(aes(month, n, group = year, colour = factor(year))) +
+  geom_line() +
+  scale_x_continuous(breaks = 1:12, labels = month.abb) +
+  labs(title = "Heat-related severe injury reports by month", x = NULL, y = "Reports", colour = "Year")
+
+count(heat, naics_2, sort = TRUE) |> head(8)
+count(heat, state, sort = TRUE) |> head(8)
+
+heat |> select(event_date, state, narrative) |> slice_sample(n = 5)
+```
+
+**Questions**
+
+1. When and where do heat-related severe injuries happen? Which industries are most affected?
+2. Read some narratives. What tasks and conditions are involved? What controls (water, rest,
+   shade, acclimatization) could have prevented them?
+3. Heat illnesses are often not recognized as work-related. Do you think these reports capture
+   most heat-related hospitalizations of workers? Why or why not?
+
+**Your answer:**
+
+
+
+# Part 7 (ENVH 460/560). Amputations
+
+```{r amputations}
+amputations <- sir |> filter(amputation > 0)
+
+count(amputations, naics_2, sort = TRUE) |> head(8)
+count(amputations, source, sort = TRUE) |> head(12)
+count(amputations, body_part, sort = TRUE) |> head(6)
+
+sir |>
+  group_by(had_amputation = coalesce(amputation, 0L) > 0) |>
+  summarise(reports = n(), share_inspected = mean(!is.na(inspection)))
+```
+
+**Questions**
+
+1. Which industries and sources account for most amputations? How does that relate to OSHA's
+   machine guarding standards (29 CFR 1910.212 and 1910.147, lockout/tagout)?
+2. Are reports involving amputations more or less likely to be inspected than other reports?
+   Why might OSHA prioritize them?
+3. OSHA runs a National Emphasis Program on amputations in manufacturing. How could you use
+   these data to evaluate whether it works? What would you need besides these data?
+
+**Your answer:**
+
+
+
+# Part 8 (ENVH 460/560). Counts without denominators
+
+These data contain **numbers of reports** but no information on how many people work in each
+industry or state.
+
+**Questions**
+
+1. Name two sources of employment data you could combine with these reports to calculate rates
+   (for example, by state and NAICS sector).
+2. How do these reports compare with the OSHA ITA case detail data in this repository? Think about
+   who must report, which injuries are included, and which establishments are covered.
+3. Propose a research question that only these data (with their narratives and locations) could answer.
+
+**Your answer:**
+
+
