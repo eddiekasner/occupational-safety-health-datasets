@@ -52,16 +52,23 @@ fetch_range <- function(table, field, from, to, dest) {
   url <- paste0(base_url, "/", table, "/csv?",
                 paste0(names(query), "=", vapply(query, URLencode, "", reserved = TRUE),
                        collapse = "&"))
-  for (attempt in 1:5) {
+  # The API limits how many requests a key can make (it answers "429 Too Many Requests"). Wait
+  # and retry, for up to about an hour, before giving up.
+  waits <- c(10, 60, 300, 600, 900, 1800)
+  for (attempt in seq_along(waits)) {
     ok <- tryCatch({
       download.file(url, dest, mode = "wb", quiet = TRUE)
       TRUE
     }, error = function(e) FALSE, warning = function(w) FALSE)
     if (ok && file.size(dest) > 0) return(length(readLines(dest, warn = FALSE)) - 1)
-    Sys.sleep(2^attempt)
+    message("  request failed (", table, " ", from, " to ", to, "); waiting ", waits[attempt],
+            " seconds")
+    Sys.sleep(waits[attempt])
   }
   unlink(dest)
-  stop("Download failed: ", table, " ", from, " to ", to, ". Check your API key and try again.")
+  stop("Download failed: ", table, " ", from, " to ", to, ". Check your API key, or wait an ",
+       "hour (the API limits requests per key) and run the script again; it resumes where it ",
+       "stopped.")
 }
 
 # Fetch a range, splitting it in half while it has too many rows for one request
