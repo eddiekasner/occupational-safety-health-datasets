@@ -1,0 +1,272 @@
+---
+title: "BLS Survey of Occupational Injuries and Illnesses (SOII): Starter Notebook"
+subtitle: "ENVH 312 (Parts 1 to 5) and ENVH 460/560 (all parts)"
+author: "Your name"
+output:
+  html_document:
+    toc: true
+    df_print: paged
+---
+
+The Survey of Occupational Injuries and Illnesses (SOII) is the main US source of national
+rates of **non-fatal** work injuries and illnesses. The Bureau of Labor Statistics (BLS)
+estimates them each year from the OSHA logs of about 200,000 sampled employers. Read the module
+[README](../README.md) and [data dictionary](../data_dictionary.md) first.
+
+**How to use this notebook**
+
+- Run each code chunk in order (the green arrow in RStudio, or Ctrl/Cmd + Shift + Enter).
+- Answer the questions under each **Your answer** heading.
+- When you are done, click **Knit** to produce an HTML report to submit.
+- Parts marked *ENVH 460/560* are required for graduate students and optional for ENVH 312.
+
+# Part 0. Load the data
+
+The tables in `data/tidy/` are complete for the breakdowns they cover and are committed to the
+repository.
+
+```{r setup, message = FALSE}
+library(readr)
+library(dplyr)
+library(tidyr)
+library(ggplot2)
+library(stringr)
+library(forcats)
+
+tidy_dir <- "../data/tidy"
+github <- paste0("https://raw.githubusercontent.com/eddiekasner/occupational-safety-health-datasets/",
+                 "main/modules/us-bls-soii/data/tidy")
+read_tidy <- function(name) {
+  local <- file.path(tidy_dir, name)
+  read_csv(if (file.exists(local)) local else file.path(github, name),
+           col_types = cols(year = col_integer(), value = col_double(), .default = col_character())) |>
+    mutate(across(any_of("display_level"), as.integer))
+}
+
+industry <- read_tidy("soii_industry.csv.gz")              # all recordable cases, 2014-2024
+states <- read_tidy("soii_states.csv")
+size <- read_tidy("soii_size.csv")
+dafw_char <- read_tidy("soii_dafw_characteristics.csv")    # days-away cases, 2011-2020
+dafw_detail <- read_tidy("soii_dafw_detail.csv.gz")
+dafw_states <- read_tidy("soii_dafw_states.csv")
+
+total_cases <- "Total recordable cases"
+```
+
+# Part 1. National trends
+
+The **incidence rate** is the number of cases per 100 full-time equivalent workers:
+cases / hours worked x 200,000.
+
+```{r trends}
+national <- industry |>
+  filter(industry_code == "000000", case_type == total_cases,
+         measure %in% c("injury_illness_rate_per_100", "injury_illness_cases_thousands"))
+
+national |>
+  filter(measure == "injury_illness_rate_per_100") |>
+  ggplot(aes(year, value, colour = ownership)) +
+  geom_line() +
+  geom_point() +
+  expand_limits(y = 0) +
+  labs(title = "Total recordable injury and illness rate", x = NULL,
+       y = "Cases per 100 full-time workers", colour = NULL)
+
+national |>
+  filter(measure == "injury_illness_cases_thousands", ownership == "Private industry") |>
+  select(year, cases_thousands = value)
+```
+
+**Questions**
+
+1. Describe the trend in the private industry rate. Why might rates have fallen?
+2. State and local government workers have higher rates than private industry. Which
+   government jobs might explain this?
+3. What happened in 2020 to 2022? (Hint: how were COVID-19 cases recorded?)
+
+**Your answer:**
+
+
+
+# Part 2. Types of cases
+
+```{r case-types}
+industry |>
+  filter(industry_code == "000000", ownership == "Private industry", year == max(year),
+         measure == "injury_illness_rate_per_100", !str_starts(case_type, "RSE")) |>
+  select(case_type, rate = value)
+
+# Illness rates are per 10,000 workers
+industry |>
+  filter(industry_code == "000000", ownership == "Private industry",
+         measure == "illness_rate_per_10000",
+         str_detect(case_type, "^Total recordable cases of")) |>
+  mutate(case_type = str_remove(case_type, "Total recordable cases of ")) |>
+  ggplot(aes(year, value, colour = case_type)) +
+  geom_line() +
+  labs(title = "Illness rates, private industry", x = NULL, y = "Cases per 10,000 workers", colour = NULL)
+```
+
+**Questions**
+
+1. What share of recordable cases involve days away from work, job transfer or restriction (DART)?
+2. Which illness type is most common? Which illness spiked in 2020, and why?
+3. Why are occupational illnesses (for example, cancers and lung disease) so rare in SOII
+   compared with injuries?
+
+**Your answer:**
+
+
+
+# Part 3. Which industries have the highest rates?
+
+```{r industries}
+latest <- max(industry$year)
+
+industry |>
+  filter(ownership == "Private industry", display_level == 3, year == latest,
+         case_type == total_cases,
+         measure %in% c("injury_illness_rate_per_100", "injury_illness_cases_thousands")) |>
+  select(industry, measure, value) |>
+  pivot_wider(names_from = measure, values_from = value) |>
+  arrange(desc(injury_illness_rate_per_100)) |>
+  head(15)
+```
+
+**Questions**
+
+1. Which industries have the highest rates? Which have the most cases? Why are the lists different?
+2. Compare with the fatal injury rates in the CFOI module. Are the industries with the most
+   non-fatal injuries the same as those with the most deaths? Why not?
+
+**Your answer:**
+
+
+
+# Part 4. States
+
+Not every state takes part in the state-level survey.
+
+```{r states, fig.height = 8}
+states |>
+  filter(ownership == "Private industry", case_type == total_cases,
+         measure == "injury_illness_rate_per_100", year == max(year)) |>
+  ggplot(aes(value, fct_reorder(state, value))) +
+  geom_col() +
+  labs(title = "Total recordable injury and illness rate, private industry",
+       x = "Cases per 100 full-time workers", y = NULL)
+```
+
+**Questions**
+
+1. Which states have the highest and lowest rates? Name two reasons other than workplace safety
+   (think about each state's mix of industries, and reporting).
+2. Which states are missing? How could you find out why?
+
+**Your answer:**
+
+
+
+# Part 5. Establishment size
+
+```{r size}
+size |>
+  filter(industry_code == "000000", case_type == total_cases,
+         measure == "injury_illness_rate_per_100") |>
+  mutate(size_class = fct_relevel(size_class, "1-10", "11-49", "50-249", "250-999", "1,000 or more")) |>
+  ggplot(aes(year, value, colour = size_class)) +
+  geom_line() +
+  labs(title = "Total recordable rate by establishment size, private industry",
+       x = NULL, y = "Cases per 100 full-time workers", colour = "Employees")
+```
+
+**Questions**
+
+1. Which establishment sizes report the highest and lowest rates?
+2. Many researchers believe the smallest establishments under-report injuries. Give two reasons
+   why small employers might record fewer injuries on their OSHA logs.
+
+**Your answer:**
+
+
+
+# Part 6 (ENVH 460/560). How precise are the estimates?
+
+SOII is a **sample survey**, so every estimate has sampling error. BLS publishes the
+**relative standard error (RSE)**: the standard error as a percentage of the estimate.
+
+```{r rse}
+rse <- industry |>
+  filter(ownership == "Private industry", display_level == 3, year == latest,
+         case_type %in% c(total_cases, paste("RSE of", total_cases)),
+         measure == "injury_illness_rate_per_100") |>
+  mutate(kind = if_else(str_starts(case_type, "RSE"), "rse_percent", "rate")) |>
+  select(industry, kind, value) |>
+  pivot_wider(names_from = kind, values_from = value) |>
+  mutate(se = rate * rse_percent / 100,
+         lower_95 = rate - 1.96 * se,
+         upper_95 = rate + 1.96 * se) |>
+  arrange(desc(rse_percent))
+
+head(rse, 10)
+```
+
+**Questions**
+
+1. Which industries have the least precise estimates? Why?
+2. Pick two industries whose rates look different. Do their 95% confidence intervals overlap?
+3. The RSE describes sampling error only. Name a source of error it does **not** capture.
+
+**Your answer:**
+
+
+
+# Part 7 (ENVH 460/560). Cases with days away from work
+
+For cases with **days away from work** (DAFW), BLS publishes details about the worker and the
+case. These tables cover 2011 to 2020.
+
+```{r dafw}
+dafw_char |>
+  filter(ownership == "Private industry", year == max(year),
+         str_starts(characteristic, "Event")) |>
+  select(characteristic, measure, value) |>
+  pivot_wider(names_from = measure, values_from = value) |>
+  arrange(desc(cases))
+
+dafw_char |>
+  filter(ownership == "Private industry", measure == "median_days_away",
+         str_starts(characteristic, "Age group")) |>
+  ggplot(aes(year, value, colour = characteristic)) +
+  geom_line() +
+  labs(title = "Median days away from work, by age", x = NULL, y = "Median days", colour = NULL)
+```
+
+**Questions**
+
+1. Which events cause the most days-away cases? Which cause the longest absences (median days)?
+2. How does the median number of days away change with age? Why?
+3. Find the musculoskeletal disorder (MSD) rows in `dafw_char`. What share of days-away cases are MSDs?
+
+**Your answer:**
+
+
+
+# Part 8 (ENVH 460/560). What SOII does not cover
+
+SOII excludes the self-employed, workers on farms with 10 or fewer employees, private household
+workers, volunteers, and federal government workers. It relies on what employers record on their
+OSHA logs.
+
+**Questions**
+
+1. Compare the SOII estimate of private industry cases with the number of cases in the OSHA
+   ITA case detail module. Why are they so different?
+2. Researchers comparing SOII with other sources (such as workers' compensation records) have
+   estimated that SOII misses a large share of injuries. List three reasons employers' logs
+   might be incomplete.
+3. How would you design a study to estimate how many injuries SOII misses?
+
+**Your answer:**
+
+
