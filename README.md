@@ -20,7 +20,8 @@ Each module gives students:
 | --- | --- | --- | --- |
 | [OSHA ITA case detail (Forms 300/301)](modules/us-osha-ita-case-detail/) | US | OSHA | Ready |
 | [OSHA Chemical Exposure Health Data](modules/us-osha-chemical-exposure/) | US | OSHA | Ready |
-| [ILOSTAT occupational safety and health](modules/intl-ilostat-osh/) | International | ILO | Ready for review |
+| [ILOSTAT occupational safety and health](modules/intl-ilostat-osh/) | International | ILO | Ready |
+| [Eurostat accidents at work (ESAW)](modules/intl-eurostat-esaw/) | Europe | Eurostat | Ready for review |
 
 See [CATALOG.md](CATALOG.md) for candidate datasets (US and international) and their status.
 
@@ -51,6 +52,7 @@ modules/
   us-osha-ita-case-detail/ OSHA Injury Tracking Application case detail data
   us-osha-chemical-exposure/ OSHA air, wipe and bulk sampling results
   intl-ilostat-osh/        ILO injury and labour inspection statistics by country
+  intl-eurostat-esaw/      Eurostat accidents at work in Europe
 install_packages.R         one-time R package setup
 ```
 

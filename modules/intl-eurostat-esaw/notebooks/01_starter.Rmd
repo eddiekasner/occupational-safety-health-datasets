@@ -1,0 +1,302 @@
+---
+title: "Eurostat Accidents at Work (ESAW): Starter Notebook"
+subtitle: "ENVH 312 (Parts 1 to 5) and ENVH 460/560 (all parts)"
+author: "Your name"
+output:
+  html_document:
+    toc: true
+    df_print: paged
+---
+
+In this notebook you will explore accidents at work in Europe, using the European
+Statistics on Accidents at Work (ESAW) published by Eurostat, the statistical office of the
+European Union. Read the module [README](../README.md) and [data dictionary](../data_dictionary.md) first.
+
+**How to use this notebook**
+
+- Run each code chunk in order (the green arrow in RStudio, or Ctrl/Cmd + Shift + Enter).
+- Answer the questions under each **Your answer** heading.
+- When you are done, click **Knit** to produce an HTML report to submit.
+- Parts marked *ENVH 460/560* are required for graduate students and optional for ENVH 312.
+
+# Part 0. Load the data
+
+The tables in `data/tidy/` are complete (not samples) and are committed to the repository.
+To refresh them with the latest Eurostat data, run `scripts/fetch_data.R` and then
+`scripts/build_dataset.R`.
+
+```{r setup, message = FALSE}
+library(readr)
+library(dplyr)
+library(tidyr)
+library(ggplot2)
+library(stringr)
+library(forcats)
+
+tidy_dir <- "../data/tidy"
+github <- paste0("https://raw.githubusercontent.com/eddiekasner/occupational-safety-health-datasets/",
+                 "main/modules/intl-eurostat-esaw/data/tidy")
+
+read_tidy <- function(name, col_types = cols(year = col_integer(), value = col_double(),
+                                              .default = col_character())) {
+  local <- file.path(tidy_dir, name)
+  read_csv(if (file.exists(local)) local else file.path(github, name), col_types = col_types)
+}
+
+main <- read_tidy("esaw_main.csv")
+sector <- read_tidy("esaw_sector.csv")
+causes <- read_tidy("esaw_causes.csv.gz")
+codes <- read_tidy("esaw_codes.csv", col_types = cols(.default = col_character()))
+
+fatal <- "Fatal"
+nonfatal <- "Non-fatal (4+ days absence)"
+```
+
+# Part 1. Get oriented
+
+ESAW counts accidents that cause **death** or **at least 4 calendar days of absence** from
+work. Each table is in long format: one row per country, year, breakdown and `unit`.
+
+```{r orient}
+glimpse(main)
+count(main, severity, unit)
+count(main, flag)
+
+# National totals: both sexes, all ages
+totals <- main |> filter(sex == "T", age == "TOTAL")
+latest_year <- max(totals$year)
+cat("Years:", min(totals$year), "to", latest_year, "\n")
+distinct(totals, country_code, country)
+```
+
+**Questions**
+
+1. Which countries are included? Which European countries are missing, and why might the
+   United Kingdom stop appearing after a certain year?
+2. The `flag` column marks special values: `b` = break in time series, `e` = estimated,
+   `u` = low reliability, `p` = provisional. Why does a break in series matter for trend analysis?
+
+**Your answer:**
+
+
+
+# Part 2. Fatal accidents by country
+
+Eurostat publishes **standardised incidence rates**: accidents per 100,000 persons employed,
+adjusted so that countries with more workers in high-risk sectors are not penalised
+(see Part 8). They cover NACE sections A and C to N (most of the business economy).
+
+```{r fatal-countries, fig.height = 7}
+fatal_latest <- totals |>
+  filter(severity == fatal, unit == "standardised_incidence_rate", year == latest_year)
+
+ggplot(fatal_latest, aes(value, fct_reorder(country, value),
+                         fill = country_code == "EU27_2020")) +
+  geom_col(show.legend = FALSE) +
+  labs(title = paste("Standardised fatal accident rate,", latest_year),
+       x = "Fatal accidents per 100,000 persons employed", y = NULL)
+```
+
+**Questions**
+
+1. Which countries have the highest and lowest fatal rates? How many times higher is the highest?
+2. Suggest two reasons, other than differences in workplace safety, that could explain the
+   differences between countries.
+
+**Your answer:**
+
+
+
+# Part 3. Fatal versus non-fatal: a clue to under-reporting
+
+Deaths are hard to leave unreported, but non-fatal accidents are not. If a country reports
+very few non-fatal accidents for each death, many non-fatal accidents are probably missing.
+
+```{r ratio, fig.height = 7}
+ratio <- totals |>
+  filter(unit == "standardised_incidence_rate", year == latest_year) |>
+  select(country, severity, value) |>
+  pivot_wider(names_from = severity, values_from = value) |>
+  filter(.data[[fatal]] > 0, .data[[nonfatal]] > 0) |>
+  mutate(nonfatal_per_fatal = .data[[nonfatal]] / .data[[fatal]])
+
+ggplot(ratio, aes(.data[[fatal]], .data[[nonfatal]], label = country)) +
+  geom_point() +
+  geom_text(size = 2.5, vjust = -0.6) +
+  scale_y_log10() +
+  labs(title = paste("Fatal and non-fatal standardised accident rates,", latest_year),
+       x = "Fatal per 100,000", y = "Non-fatal per 100,000 (log scale)")
+
+arrange(ratio, nonfatal_per_fatal)
+```
+
+**Questions**
+
+1. Which countries report the fewest non-fatal accidents per death? Which report the most?
+2. Countries with the *lowest* non-fatal rates often have *high* fatal rates. What does that
+   suggest? How might the type of reporting system (insurance-based vs. employer duty to
+   report to a labour inspectorate) affect this?
+
+**Your answer:**
+
+
+
+# Part 4. Trends in the EU
+
+```{r eu-trend}
+totals |>
+  filter(country_code == "EU27_2020", unit == "standardised_incidence_rate") |>
+  ggplot(aes(year, value)) +
+  geom_line() +
+  geom_point() +
+  facet_wrap(~ severity, scales = "free_y") +
+  expand_limits(y = 0) +
+  labs(title = "EU-27: standardised incidence rates of accidents at work",
+       x = NULL, y = "Per 100,000 persons employed")
+```
+
+**Questions**
+
+1. Describe the trends for fatal and non-fatal accidents.
+2. What happened in 2020? Give two explanations (think about who was working, and where).
+
+**Your answer:**
+
+
+
+# Part 5. Who is injured? Age and sex
+
+```{r age-sex}
+eu_latest <- main |>
+  filter(country_code == "EU27_2020", unit == "standardised_incidence_rate", year == latest_year)
+
+eu_latest |>
+  filter(sex == "T", age %in% c("Y_LT18", "Y18-24", "Y25-34", "Y35-44", "Y45-54", "Y55-64", "Y_GE65")) |>
+  mutate(age = fct_relevel(age, "Y_LT18", "Y18-24", "Y25-34", "Y35-44", "Y45-54", "Y55-64", "Y_GE65")) |>
+  ggplot(aes(age, value)) +
+  geom_col() +
+  facet_wrap(~ severity, scales = "free_y") +
+  labs(title = paste("EU-27 accident rates by age group,", latest_year), x = "Age", y = "Per 100,000")
+
+eu_latest |>
+  filter(age == "TOTAL", sex %in% c("F", "M")) |>
+  select(sex, severity, value) |>
+  pivot_wider(names_from = severity, values_from = value)
+```
+
+**Questions**
+
+1. How do fatal and non-fatal rates change with age? Why might young workers have more
+   non-fatal accidents but older workers more fatal ones?
+2. How many times higher is the fatal rate for men than for women? Is this mostly about sex,
+   or about the jobs men and women do? How could you check?
+
+**Your answer:**
+
+
+
+# Part 6 (ENVH 460/560). Which sectors are most dangerous?
+
+```{r sectors}
+sector |>
+  filter(country_code == "EU27_2020", unit == "incidence_rate", year == latest_year - 1,
+         str_detect(sector_code, "^[A-U]$")) |>
+  select(sector_code, sector, severity, value) |>
+  pivot_wider(names_from = severity, values_from = value) |>
+  arrange(desc(.data[[fatal]]))
+```
+
+**Questions**
+
+1. Which sectors have the highest fatal rates? The highest non-fatal rates? Are they the same?
+2. Compare these with US fatal rates by industry from BLS's Census of Fatal Occupational Injuries.
+   What definitional differences could affect the comparison (for example, road traffic
+   accidents, self-employed workers, the 4-day threshold)?
+
+**Your answer:**
+
+
+
+# Part 7 (ENVH 460/560). Causes and circumstances
+
+ESAW codes **what went wrong** (the *deviation*, the last event before the accident) and
+**how the person was hurt** (the *contact, mode of injury*). Codes are explained in `codes`.
+
+```{r causes, fig.height = 7}
+cause_shares <- causes |>
+  filter(country_code == "EU27_2020", sector_code == "TOTAL", unit == "number",
+         year == latest_year - 1) |>
+  group_by(classification, severity) |>
+  mutate(share = value / value[cause_code == "TOTAL"]) |>
+  ungroup() |>
+  filter(cause_code != "TOTAL") |>
+  left_join(codes, by = c("classification", "cause_code" = "code"))
+
+cause_shares |>
+  filter(classification == "deviation") |>
+  ggplot(aes(share, fct_reorder(str_trunc(label, 60), share), fill = severity)) +
+  geom_col(position = "dodge") +
+  scale_x_continuous(labels = scales::percent) +
+  labs(title = "EU-27: what went wrong (deviation)", x = "Share of accidents", y = NULL, fill = NULL)
+
+# How completely does each country record the deviation?
+causes |>
+  filter(classification == "deviation", sector_code == "TOTAL", unit == "number",
+         severity == fatal, year == latest_year - 1) |>
+  group_by(country_code) |>
+  summarise(share_with_cause = sum(value[cause_code != "TOTAL"]) / value[cause_code == "TOTAL"]) |>
+  arrange(share_with_cause)
+```
+
+**Questions**
+
+1. Which deviations are most common for fatal accidents? For non-fatal accidents? Why do they differ?
+2. For which countries is the cause missing for many or all accidents? How does that affect
+   the EU-wide picture?
+3. Using the hierarchy of controls, propose one control for the most common fatal deviation.
+
+**Your answer:**
+
+
+
+# Part 8 (ENVH 460/560). Crude versus standardised rates
+
+A **crude** rate is simply accidents / persons employed. A **standardised** rate weights each
+sector's rate by the sector's share of employment in the **EU as a whole**, so that a country's
+sector mix does not drive its rate.
+
+```{r standardisation}
+crude <- sector |>
+  filter(sector_code == "A_C-N", unit == "incidence_rate", severity == fatal) |>
+  select(country, year, crude = value)
+
+standardised <- totals |>
+  filter(unit == "standardised_incidence_rate", severity == fatal) |>
+  select(country, year, standardised = value)
+
+comparison <- inner_join(crude, standardised, by = c("country", "year")) |>
+  filter(year == latest_year - 1) |>
+  mutate(difference = standardised - crude) |>
+  arrange(desc(abs(difference)))
+
+comparison
+
+ggplot(comparison, aes(crude, standardised, label = country)) +
+  geom_abline(linetype = "dashed") +
+  geom_point() +
+  geom_text(size = 2.5, vjust = -0.6) +
+  labs(title = "Crude vs. standardised fatal accident rates",
+       x = "Crude rate per 100,000", y = "Standardised rate per 100,000")
+```
+
+**Questions**
+
+1. Why are the crude and standardised rates identical for the EU-27?
+2. Pick a country whose standardised rate is much higher than its crude rate. What does that
+   tell you about its mix of sectors?
+3. Eurostat published 3,298 fatal accidents in the EU in 2023. Compute the EU-27 total from
+   `sector` (`sector_code == "TOTAL"`, `unit == "number"`). Does it match? What might explain a difference?
+
+**Your answer:**
+
+
