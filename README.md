@@ -26,7 +26,8 @@ Each module gives students:
 | [BLS Census of Fatal Occupational Injuries (CFOI)](modules/us-bls-cfoi/) | US | BLS | Ready |
 | [BLS Survey of Occupational Injuries and Illnesses (SOII)](modules/us-bls-soii/) | US | BLS | Ready |
 | [Safe Work Australia fatalities and workers' compensation](modules/intl-safework-australia/) | Australia | Safe Work Australia | Ready |
-| [UK HSE injury statistics (RIDDOR and LFS)](modules/uk-hse-riddor/) | Great Britain | HSE | Ready for review |
+| [UK HSE injury statistics (RIDDOR and LFS)](modules/uk-hse-riddor/) | Great Britain | HSE | Ready |
+| [WHO/ILO Joint Estimates of the work-related burden of disease](modules/intl-who-ilo-joint-estimates/) | International | WHO / ILO | Ready for review |
 
 See [CATALOG.md](CATALOG.md) for candidate datasets (US and international) and their status.
 
@@ -63,6 +64,7 @@ modules/
   us-bls-soii/             BLS rates of non-fatal work injuries and illnesses
   intl-safework-australia/ Australian work-related deaths and workers' compensation claims
   uk-hse-riddor/           British reported and self-reported work injuries since 1974
+  intl-who-ilo-joint-estimates/ deaths and DALYs from occupational risk factors, 183 countries
 install_packages.R         one-time R package setup
 ```
 
