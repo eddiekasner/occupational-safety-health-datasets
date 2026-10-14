@@ -32,7 +32,7 @@ Details marked *verify* still need to be checked against the live source page.
 | [Safe Work Australia data website](https://data.safeworkaustralia.gov.au/) | Safe Work Australia | Traumatic injury fatalities (TIF), serious workers' compensation claims (NDS), injury frequency rates | Australia, 10 years | Excel detailed data files (manual download; CC BY 4.0) | **Module** (TIF 2016 to 2025, NDS and WCIFR 2015-16 to 2024-25) |
 | [WHO/ILO Joint Estimates of the work-related burden of disease and injury](https://www.who.int/teams/environment-climate-change-and-health/monitoring/who-ilo-joint-estimates) | WHO / ILO | Deaths and DALYs attributable to 19 occupational risk factors (41 risk factor and disease pairs), plus solar UV | 183 countries, 2000, 2010, 2016 | Interactive application export (scripted with Playwright); CC BY 3.0 IGO | **Module** |
 | Global Burden of Disease (occupational risks) | IHME | Burden attributable to occupational risks over time | Global | GBD Results Tool (registration, non-commercial license) | Candidate |
-| Canada AWCBC National Work Injury Statistics | AWCBC | Accepted lost-time claims and fatalities by province, industry | Canada | Data request / tables (*verify*) | Candidate |
+| [Canada AWCBC National Work Injury, Disease and Fatality Statistics](https://awcbc.org/data-and-statistics/national-work-injury-disease-statistics-program) | AWCBC | Accepted lost time claims and fatalities by province, industry, occupation, injury and worker characteristics | Canada, claims 1982 onward, fatalities 1993 onward | Annual PDF publication (parsed) and Excel summaries; use with acknowledgement | **Module** |
 
 ## Selection criteria
 
