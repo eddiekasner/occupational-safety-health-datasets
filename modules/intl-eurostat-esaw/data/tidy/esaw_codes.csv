@@ -1,0 +1,45 @@
+classification,code,label
+deviation,DEV_1,"Deviation due to electrical problems, explosion, fire"
+deviation,DEV_2,"Deviation by overflow, overturn, leak, flow, vaporisation, emission"
+deviation,DEV_3,"Breakage, bursting, splitting, slipping, fall, collapse of material agent"
+deviation,DEV_4,"Loss of control (total or partial) of machine, means of transport or handling equipment, hand-held tool, object, animal"
+deviation,DEV_5,Slipping - stumbling and falling - fall of persons
+deviation,DEV_6,Body movement without any physical stress (generally leading to an external injury)
+deviation,DEV_7,Body movement under or with physical stress (generally leading to an internal injury)
+deviation,DEV_8,"Shock, fright, violence, aggression, threat, presence"
+deviation,DEV_9,Other deviations not listed above in this classification
+deviation,TOTAL,Total
+contact,CMI10,"Contact with electrical voltage, temperature, hazardous substances - not specified"
+contact,CMI20,"Drowned, buried, enveloped - not specified"
+contact,CMI30,Horizontal or vertical impact with or against a stationary object (the victim is in motion) - not specified
+contact,CMI40,"Struck by object in motion, collision with - not specified"
+contact,CMI50,"Contact with sharp, pointed, rough, coarse Material Agent - not specified"
+contact,CMI60,"Trapped, crushed, etc. - not specified"
+contact,CMI70,Physical or mental stress - not specified
+contact,CMI80,"Bite, kick, etc. (animal or human) - not specified"
+contact,CMI90,Other contacts - modes of injury not listed in this classification
+contact,TOTAL,Total
+sector,A,"Agriculture, forestry and fishing"
+sector,A_C-N,Agriculture; industry and construction (except mining); services of the business economy
+sector,B,Mining and quarrying
+sector,C,Manufacturing
+sector,D,"Electricity, gas, steam and air conditioning supply"
+sector,E,"Water supply; sewerage, waste management and remediation activities"
+sector,F,Construction
+sector,G,Wholesale and retail trade; repair of motor vehicles and motorcycles
+sector,H,Transportation and storage
+sector,I,Accommodation and food service activities
+sector,J,Information and communication
+sector,K,Financial and insurance activities
+sector,L,Real estate activities
+sector,M,"Professional, scientific and technical activities"
+sector,N,Administrative and support service activities
+sector,O,Public administration and defence; compulsory social security
+sector,P,Education
+sector,Q,Human health and social work activities
+sector,R,"Arts, entertainment and recreation"
+sector,S,Other service activities
+sector,T,Activities of households as employers; undifferentiated goods- and services-producing activities of households for own use
+sector,TOTAL,Total - all NACE activities
+sector,U,Activities of extraterritorial organisations and bodies
+sector,UNK,Unknown NACE activity
