@@ -1,0 +1,368 @@
+year,section,characteristic,code,hours_millions,rate_per_100k_fte,margin_of_error
+2023,Total,Total,,298700,3.5,0.01
+2023,Employee status,Wage and salary workers,,282500,3,0.01
+2023,Employee status,Self-employed,,16100,11.4,0.31
+2023,Sex,Men,,167200,5.7,0.02
+2023,Sex,Women,,131500,0.7,0
+2023,Age,16 to 17 years,,1900,1.9,0.09
+2023,Age,18 to 19 years,,4600,3,0.11
+2023,Age,20 to 24 years,,24800,2.6,0.04
+2023,Age,25 to 34 years,,68400,2.6,0.02
+2023,Age,35 to 44 years,,68700,3,0.02
+2023,Age,45 to 54 years,,62600,3.3,0.02
+2023,Age,55 to 64 years,,50500,4.3,0.04
+2023,Age,65 years and over,,17000,8.7,0.16
+2023,Race or ethnic origin,White (non-Hispanic),,178700,3.2,0.01
+2023,Race or ethnic origin,Black or African-American (non-Hispanic),,36200,3.6,0.05
+2023,Race or ethnic origin,Asian (non-Hispanic),,20000,1.6,0.02
+2023,Race or ethnic origin,Hispanic or Latino,,55800,4.4,0.03
+2023,Occupation,"Management, professional, and related occupations","11, 13, 15, 17, 19, 21, 23, 25, 27, 29",134400,0.9,0.01
+2023,Occupation,"Management, business, and financial operations occupations","11, 13",61400,1.1,0.01
+2023,Occupation,Management occupations,11-0000,42800,1.5,0.02
+2023,Occupation,"Farmers, ranchers, and other agricultural managers",11-9013,1800,19,1.97
+2023,Occupation,Construction managers,11-9021,2300,1.8,0.12
+2023,Occupation,Food service managers,11-9051,2500,1.2,0.08
+2023,Occupation,"Property, real estate, and community association managers",11-9141,1600,1.2,0.1
+2023,Occupation,Business and financial operations occupations,13-0000,18700,0.3,0.01
+2023,Occupation,Professional and related occupations,"15, 17, 19, 21, 23, 25, 27, 29",73000,0.7,0.01
+2023,Occupation,Computer and mathematical occupations,15-0000,12700,0.2,0
+2023,Occupation,Architecture and engineering occupations,17-0000,7200,1,0.04
+2023,Occupation,"Life, physical, and social science occupations",19-0000,3500,1.6,0.08
+2023,Occupation,Community and social service occupations,21-0000,5300,0.8,0.03
+2023,Occupation,Legal occupations,23-0000,3800,0.4,0.02
+2023,Occupation,Educational instruction and library occupations,25-0000,15800,0.5,0.01
+2023,Occupation,"Arts, design, entertainment, sports, and media occupations",27-0000,5900,1.6,0.07
+2023,Occupation,"Athletes, coaches, umpires, and related workers",27-2020,500,5.3,0.74
+2023,Occupation,Healthcare practitioners and technical occupations,29-0000,18800,0.6,0.02
+2023,Occupation,Registered nurses,29-1141,6200,0.5,0.02
+2023,Occupation,Service occupations,"31, 33, 35, 37, 39",43600,3.6,0.05
+2023,Occupation,Healthcare support occupations,31-0000,8900,0.9,0.03
+2023,Occupation,Protective service occupations,33-0000,6300,8.2,0.33
+2023,Occupation,Police officers,33-3050,1500,11.3,1.01
+2023,Occupation,Security guards and gambling surveillance officers,33-9030,1700,9.2,0.67
+2023,Occupation,Food preparation and serving related occupations,35-0000,12600,1.7,0.05
+2023,Occupation,Supervisors of food preparation and serving workers,35-1010,2000,2.7,0.19
+2023,Occupation,Building and grounds cleaning and maintenance occupations,37-0000,9400,7.1,0.23
+2023,Occupation,"First-line supervisors of landscaping, lawn service, and groundskeeping workers",37-1012,500,13.9,1.82
+2023,Occupation,Janitors and building cleaners,"37-2011, 37-2019",3700,2.6,0.14
+2023,Occupation,Grounds maintenance workers,37-3010,2200,20.5,1.45
+2023,Occupation,Personal care and service occupations,39-0000,6800,1.6,0.06
+2023,Occupation,Sales and office occupations,"41, 43",54200,1.1,0.02
+2023,Occupation,Sales and related occupations,41-0000,25800,1.7,0.03
+2023,Occupation,First-line supervisors of retail sales workers,41-1011,6300,1.7,0.06
+2023,Occupation,First-line supervisors of non-retail sales workers,41-1012,2600,0.4,0.02
+2023,Occupation,Cashiers (including gambling change persons and booth cashiers ),41-2010,3600,4,0.19
+2023,Occupation,Retail salespersons,41-2031,4500,2.4,0.1
+2023,Occupation,Office and administrative support occupations,43-0000,28400,0.6,0.01
+2023,Occupation,"Natural resources, construction, and maintenance occupations","45, 47, 49",28000,12.3,0.24
+2023,Occupation,"Farming, fishing, and forestry occupations",45-0000,1900,24.4,2.53
+2023,Occupation,Miscellaneous agricultural workers,45-2090,1400,20.2,2.48
+2023,Occupation,Fishing and hunting workers,45-3031,,86.9,34.58
+2023,Occupation,Logging workers,45-4020,100,98.9,28.35
+2023,Occupation,Construction and extraction occupations,47-0000,16400,12.9,0.3
+2023,Occupation,First-line supervisors of construction trades and extraction workers,47-1011,1500,15.4,1.29
+2023,Occupation,Carpenters,47-2031,2400,7.2,0.48
+2023,Occupation,Construction laborers,47-2061,4100,15.4,0.67
+2023,Occupation,Construction equipment operators,47-2070,800,11.8,1.19
+2023,Occupation,Electricians,47-2111,1900,7.6,0.53
+2023,Occupation,Painters and paperhangers,47-2140,1000,9.4,0.99
+2023,Occupation,"Pipelayers, plumbers, pipefitters, and steamfitters",47-2150,1400,5.8,0.48
+2023,Occupation,Roofers,47-2181,400,51.8,8.24
+2023,Occupation,Structural iron and steel workers,47-2221,100,19.8,5.45
+2023,Occupation,"Helpers, construction trades",47-3010,100,27.4,8.21
+2023,Occupation,Underground mining machine operators,47-5040,100,13.9,4.5
+2023,Occupation,"Installation, maintenance, and repair occupations",49-0000,9800,9,0.29
+2023,Occupation,"First-line supervisors of mechanics, installers, and repairers",49-1011,500,18.7,2.61
+2023,Occupation,Automotive service technicians and mechanics,49-3023,1900,8.1,0.66
+2023,Occupation,Bus and truck mechanics and diesel engine specialists,49-3031,700,7.8,0.89
+2023,Occupation,"Heating, air conditioning, and refrigeration mechanics and installers",49-9021,1100,5.9,0.6
+2023,Occupation,"Industrial machinery installation, repair, and maintenance workers",49-9040,1000,4.4,0.42
+2023,Occupation,Electrical power-line installers and repairers,49-9051,300,18.4,3.44
+2023,Occupation,Telecommunications line installers and repairers,49-9052,300,8,1.36
+2023,Occupation,"Maintenance and repair workers, general",49-9071,1300,11.2,0.89
+2023,Occupation,"Production, transportation, and material moving occupations","51, 53",38200,9.3,0.16
+2023,Occupation,Production occupations,51-0000,16300,3.4,0.1
+2023,Occupation,First-line supervisors of production and operating workers,51-1011,1600,3.3,0.27
+2023,Occupation,"Welding, soldering, and brazing workers",51-4120,1200,8.3,0.74
+2023,Occupation,Transportation and material moving occupations,53-0000,21900,13.6,0.3
+2023,Occupation,Aircraft pilots and flight engineers,53-2010,400,31.3,5.38
+2023,Occupation,Driver/sales workers and truck drivers,53-3030,7300,26.8,0.95
+2023,Occupation,"Shuttle drivers, chauffeurs, and taxi drivers","53-3053, 53-3054",900,14.5,1.43
+2023,Occupation,Industrial truck and tractor operators,53-7051,1300,6.1,0.52
+2023,Occupation,"Laborers and freight, stock, and material movers, hand",53-7062,3800,6,0.31
+2023,Occupation,Refuse and recyclable material collectors,53-7081,200,41.4,9.25
+2023,Industry,Private industry,,258600,3.7,0.02
+2023,Industry,Goods producing,"11, 21, 23, 31, 32, 33",,,
+2023,Industry,Natural resources and mining,"11, 21",5700,19.5,1.31
+2023,Industry,"Agriculture, forestry, fishing and hunting",11,4300,20.3,1.65
+2023,Industry,Crop production,111000,2300,17,1.93
+2023,Industry,Animal production and aquaculture,112000,1500,14.1,1.5
+2023,Industry,Logging,113300,100,83.6,20.31
+2023,Industry,"Fishing, hunting, and trapping",114000,100,64.4,20.31
+2023,Industry,Support activities for agriculture and forestry,115000,300,35.7,7.07
+2023,Industry,"Mining, quarrying, and oil and gas extraction",21,1300,16.9,2.66
+2023,Industry,Oil and gas extraction,211000,100,16.9,5.04
+2023,Industry,Mining (except oil and gas),212000,400,18.7,3.68
+2023,Industry,Coal mining,212100,100,26.5,13.28
+2023,Industry,Nonmetallic mineral mining and quarrying,212300,200,19.7,4.36
+2023,Industry,Support activities for mining,213000,900,16.2,3.68
+2023,Industry,Construction,23,22400,9.6,0.21
+2023,Industry,Manufacturing,"31, 32, 33",31200,2.5,0.06
+2023,Industry,Food manufacturing,311000,3300,3,0.22
+2023,Industry,"Animal food, grain and oilseed milling","3111, 3112",300,7.7,1.43
+2023,Industry,Animal slaughtering and processing,311600,900,2.6,0.44
+2023,Industry,Wood product manufacturing,321000,800,8.5,1.22
+2023,Industry,Chemical manufacturing,325000,3100,1.2,0.07
+2023,Industry,Plastics and rubber products manufacturing,326000,1000,3.3,0.31
+2023,Industry,Nonmetallic mineral product manufacturing,327000,800,10,1.14
+2023,Industry,Primary metal manufacturing,331000,1000,5.7,0.63
+2023,Industry,Fabricated metal product manufacturing,332000,2300,5.1,0.34
+2023,Industry,Machinery manufacturing,333000,1100,4.4,0.44
+2023,Industry,Transportation equipment manufacturing,336000,5400,1.6,0.09
+2023,Industry,Service providing,"22, 42, 44, 45, 48, 49, 81, 99",,,
+2023,Industry,"Trade, transportation, and utilities","42, 44, 45, 48, 49, 22",52300,5.6,0.08
+2023,Industry,Wholesale trade,42,6600,5.4,0.21
+2023,Industry,"Merchant wholesalers, durable goods",423000,3000,7,0.41
+2023,Industry,"Machinery, equipment, and supplies merchant wholesalers",423800,700,8.3,0.96
+2023,Industry,Recyclable material merchant wholesalers,423930,100,26,6.44
+2023,Industry,"Merchant wholesalers, nondurable goods",424000,3200,4.3,0.26
+2023,Industry,Grocery and related product merchant wholesalers,424400,1600,3.2,0.26
+2023,Industry,Retail trade,"44, 45",28800,2.1,0.04
+2023,Industry,Automobile dealers,441100,2700,2.5,0.14
+2023,Industry,Gasoline stations,457100,900,9.9,1.02
+2023,Industry,Transportation and warehousing,"48, 49",14400,12.9,0.36
+2023,Industry,Air transportation,481000,1400,2.6,0.22
+2023,Industry,Rail transportation,482000,400,4.1,0.69
+2023,Industry,Water transportation,483000,100,13.8,3.91
+2023,Industry,Truck transportation,484000,4700,26.6,1.26
+2023,Industry,Transit and ground passenger transportation,485000,1600,9.1,0.71
+2023,Industry,Bus service and urban transit,485000 except 485300,500,7.6,1.03
+2023,Industry,Taxi and limousine service,485300,1100,9.9,0.98
+2023,Industry,Support activities for transportation,488000,1600,12.7,0.99
+2023,Industry,Couriers and messengers,492000,2500,4.3,0.28
+2023,Industry,Warehousing and storage,493000,1900,2.9,0.23
+2023,Industry,Utilities,22,2500,3.3,0.23
+2023,Industry,Information,51,5400,1.1,0.05
+2023,Industry,Financial activities,"52, 53",21000,1.1,0.03
+2023,Industry,Finance and insurance,52,15100,0.3,0.01
+2023,Industry,Real estate and rental and leasing,53,5800,3.1,0.12
+2023,Industry,Real estate,531000,5100,2.3,0.1
+2023,Industry,Rental and leasing services,532000,700,9.5,1.18
+2023,Industry,Professional and business services,"54, 56",38200,2.9,0.05
+2023,Industry,"Professional, scientific, and technical services",54,25900,0.5,0.01
+2023,Industry,"Architectural, engineering, and related services",541300,3500,1.4,0.08
+2023,Industry,"Management, administrative, and waste services","55, 56",12300,7.9,0.22
+2023,Industry,Employment services,561300,1500,6.1,0.46
+2023,Industry,Investigation and security services,561600,1700,6.5,0.49
+2023,Industry,Services to buildings and dwellings (except landscaping services),"561700, except 561730",2800,3.4,0.2
+2023,Industry,Landscaping services,561730,2700,17,1.08
+2023,Industry,Waste management and remediation services,562000,1000,17.5,1.99
+2023,Industry,Educational and health services,"61, 62",46600,0.8,0.01
+2023,Industry,Educational services,61,8900,1,0.03
+2023,Industry,Health care and social assistance,62,37700,0.7,0.01
+2023,Industry,Ambulatory health care services,621000,15700,0.8,0.02
+2023,Industry,Hospitals,622000,12500,0.3,0.01
+2023,Industry,Nursing and residential care facilities,623000,3900,1.6,0.09
+2023,Industry,Social assistance,624000,5500,0.8,0.03
+2023,Industry,Leisure and hospitality,"71, 72",22600,2.3,0.06
+2023,Industry,"Arts, entertainment, and recreation",71,5200,3.2,0.12
+2023,Industry,"Performing arts, spectator sports, and related industries",711000,1600,3.9,0.28
+2023,Industry,"Amusement, gambling, and recreation industries (except bowling centers)","713000, except 713950",3200,2.9,0.15
+2023,Industry,Accommodation and food services,72,17400,2,0.06
+2023,Industry,Accommodation,721000,2300,2.8,0.23
+2023,Industry,Traveler accommodation,721100,2200,2.5,0.21
+2023,Industry,Food services and drinking places,722000,15000,1.9,0.05
+2023,Industry,Restaurants and other food services,"722000, except 722400",14700,1.6,0.04
+2023,Industry,Drinking places (alcoholic beverages),722400,300,16.8,2.81
+2023,Industry,"Other services, except public administration",81,13300,3.1,0.09
+2023,Industry,Repair and maintenance,811000,4200,6.8,0.37
+2023,Industry,Automotive repair and maintenance (except car washes),"811100, except 811192",2700,6.3,0.42
+2023,Industry,Personal and laundry services,812000,4500,1.6,0.08
+2023,Industry,"Religious, grantmaking, civic, professional, and similar organizations",813000,3600,1.3,0.06
+2023,Industry,Government,,40100,1.8,0.03
+2023,Industry,Federal government,,8100,0.8,0.04
+2023,Industry,State government,,13600,1.3,0.04
+2023,Industry,Local government,,18500,2.6,0.06
+2024,Total,Total,,297600,3.3,0.01
+2024,Employee status,Wage and salary workers,,281300,2.9,0.01
+2024,Employee status,Self-employed,,16200,10.8,0.29
+2024,Sex,Men,,165800,5.5,0.02
+2024,Sex,Women,,131700,0.6,0
+2024,Age,16 to 17 years,,1800,2.7,0.15
+2024,Age,18 to 19 years,,4700,2.6,0.09
+2024,Age,20 to 24 years,,23700,2.5,0.04
+2024,Age,25 to 34 years,,67600,2.5,0.02
+2024,Age,35 to 44 years,,69900,2.8,0.02
+2024,Age,45 to 54 years,,62600,3.1,0.02
+2024,Age,55 to 64 years,,49800,4.1,0.03
+2024,Age,65 years and over,,17500,9.1,0.17
+2024,Race or ethnic origin,White (non-Hispanic),,175900,3.1,0.01
+2024,Race or ethnic origin,Black or African-American (non-Hispanic),,36200,3.4,0.04
+2024,Race or ethnic origin,Asian (non-Hispanic),,20100,1.8,0.03
+2024,Race or ethnic origin,Hispanic or Latino,,57200,4.3,0.03
+2024,Occupation,"Management, professional, and related occupations","11, 13, 15, 17, 19, 21, 23, 25, 27, 29",134600,0.8,0.01
+2024,Occupation,"Management, business, and financial operations occupations","11, 13",61300,1.1,0.1
+2024,Occupation,Management occupations,11-0000,42100,1.5,0.02
+2024,Occupation,"Farmers, ranchers, and other agricultural managers",11-9013,1800,19.4,2.04
+2024,Occupation,Construction managers,11-9021,2600,1.2,0.07
+2024,Occupation,Food service managers,11-9051,2500,1.4,0.09
+2024,Occupation,"Property, real estate, and community association managers",11-9141,1400,2,0.15
+2024,Occupation,Business and financial operations occupations,13-0000,19200,0.3,0.01
+2024,Occupation,Professional and related occupations,"15, 17, 19, 21, 23, 25, 27, 29",73300,0.6,0.01
+2024,Occupation,Computer and mathematical occupations,15-0000,12400,0.2,0.01
+2024,Occupation,Architecture and engineering occupations,17-0000,7100,0.7,0.03
+2024,Occupation,"Life, physical, and social science occupations",19-0000,3500,1,0.06
+2024,Occupation,Community and social service occupations,21-0000,5400,1.1,0.05
+2024,Occupation,Legal occupations,23-0000,3600,0.3,0.02
+2024,Occupation,Educational instruction and library occupations,25-0000,16000,0.4,0.01
+2024,Occupation,"Arts, design, entertainment, sports, and media occupations",27-0000,5800,1.2,0.05
+2024,Occupation,"Athletes, coaches, umpires, and related workers",27-2020,600,3.5,0.4
+2024,Occupation,Healthcare practitioners and technical occupations,29-0000,19400,0.5,0.01
+2024,Occupation,Registered nurses,29-1141,6400,0.4,0.01
+2024,Occupation,Emergency medical technicians and paramedics,29-2040,600,3.3,0.54
+2024,Occupation,Service occupations,"31, 33, 35, 37, 39",44100,3.6,0.05
+2024,Occupation,Healthcare support occupations,31-0000,9400,0.6,0.02
+2024,Occupation,Protective service occupations,33-0000,6200,8.5,0.35
+2024,Occupation,Firefighters,33-2010,800,4,0.57
+2024,Occupation,Security guards and gaming surveillance officers,33-9030,1700,7.7,0.63
+2024,Occupation,Food preparation and serving related occupations,35-0000,12400,1.7,0.05
+2024,Occupation,Supervisors of food preparation and serving workers,35-1010,1900,2.9,0.21
+2024,Occupation,Building and grounds cleaning and maintenance occupations,37-0000,9700,7.2,0.25
+2024,Occupation,"First-line supervisors of landscaping, lawn service, and groundskeeping workers",37-1012,500,12.3,2.06
+2024,Occupation,Janitors and building cleaners,"37-2011, 37-2019",3900,3,0.14
+2024,Occupation,Grounds maintenance workers,37-3010,2300,20.9,1.33
+2024,Occupation,Personal care and service occupations,39-0000,6400,1.7,0.05
+2024,Occupation,Sales and office occupations,"41, 43",53200,1,0.01
+2024,Occupation,Sales and related occupations,41-0000,25100,1.5,0.03
+2024,Occupation,First-line supervisors of retail sales workers,41-1011,6000,1.4,0.05
+2024,Occupation,First-line supervisors of non-retail sales workers,41-1012,2300,0.6,0.04
+2024,Occupation,Cashiers (including gambling change persons and booth cashiers),41-2010,3500,3.1,0.15
+2024,Occupation,Retail salespersons,41-2031,4500,2.4,0.1
+2024,Occupation,Office and administrative support occupations,43-0000,28000,0.6,0.01
+2024,Occupation,"Natural resources, construction, and maintenance occupations","45, 47, 49",28000,12.1,0.25
+2024,Occupation,"Farming, fishing, and forestry occupations",45-0000,1900,25.4,2.85
+2024,Occupation,Miscellaneous agricultural workers,45-2090,1400,19,2.3
+2024,Occupation,Fishing and hunting workers,45-3031,100,88.8,42.31
+2024,Occupation,Logging workers,45-4020,100,110.4,34.88
+2024,Occupation,Construction and extraction occupations,47-0000,16300,12.6,0.34
+2024,Occupation,First-line supervisors of construction trades and extraction workers,47-1011,1600,12.8,0.87
+2024,Occupation,Carpenters,47-2031,2400,7.5,0.52
+2024,Occupation,Construction laborers,47-2061,4200,15.8,0.86
+2024,Occupation,Construction equipment operators,47-2070,800,11.7,1.28
+2024,Occupation,Electricians,47-2111,2000,5.3,0.4
+2024,Occupation,Painters and paperhangers,47-2140,1000,6.6,0.68
+2024,Occupation,"Pipelayers, plumbers, pipefitters, and steamfitters",47-2150,1400,6.9,0.73
+2024,Occupation,Roofers,47-2181,400,48.7,7.38
+2024,Occupation,Structural iron and steel workers,47-2221,100,37.8,13.35
+2024,Occupation,"Helpers, construction trades",47-3010,100,35.8,9.63
+2024,Occupation,Underground mining machine operators,47-5040,100,35.6,11.61
+2024,Occupation,"Installation, maintenance, and repair occupations",49-0000,9800,8.9,0.28
+2024,Occupation,"First-line supervisors of mechanics, installers, and repairers",49-1011,600,13.1,1.65
+2024,Occupation,Automotive service technicians and mechanics,49-3023,1800,6.3,0.48
+2024,Occupation,Bus and truck mechanics and diesel engine specialists,49-3031,700,8.6,0.99
+2024,Occupation,"Heating, air conditioning, and refrigeration mechanics and installers",49-9021,1000,6.7,0.71
+2024,Occupation,"Industrial machinery installation, repair, and maintenance workers",49-9040,900,7,0.81
+2024,Occupation,Electrical power-line installers and repairers,49-9051,300,13.8,2.59
+2024,Occupation,Telecommunications line installers and repairers,49-9052,300,11.5,2.01
+2024,Occupation,"Maintenance and repair workers, general",49-9071,1400,10.8,0.82
+2024,Occupation,"Production, transportation, and material moving occupations","51, 53",37700,8.6,0.15
+2024,Occupation,Production occupations,51-0000,15600,3.1,0.09
+2024,Occupation,First-line supervisors of production and operating workers,51-1011,1600,1.9,0.14
+2024,Occupation,"Welding, soldering, and brazing workers",51-4120,1200,6.9,0.61
+2024,Occupation,Transportation and material moving occupations,53-0000,22100,12.5,0.28
+2024,Occupation,Aircraft pilots and flight engineers,53-2010,400,36.7,6.28
+2024,Occupation,Driver/sales workers and truck drivers,53-3030,7400,25.7,1.14
+2024,Occupation,"Shuttle drivers, chauffeurs, and taxi drivers","53-3053, 53-3054",1000,8.7,0.69
+2024,Occupation,Industrial truck and tractor operators,53-7051,1200,5,0.49
+2024,Occupation,"Laborers and freight, stock, and material movers, hand",53-7062,4100,5.4,0.27
+2024,Occupation,Refuse and recyclable material collectors,53-7081,200,37.4,8.15
+2024,Industry,Private industry,,257200,3.6,0.02
+2024,Industry,Goods producing,"11, 21, 23, 31, 32, 33",,,
+2024,Industry,Natural resources and mining,"11, 21",5700,19.3,1.4
+2024,Industry,"Agriculture, forestry, fishing and hunting",11,4400,20.9,1.68
+2024,Industry,Crop production,111000,2400,14.9,1.51
+2024,Industry,Animal production and aquaculture,112000,1500,16.2,2.15
+2024,Industry,Logging,113300,200,73.5,19.37
+2024,Industry,"Fishing, hunting, and trapping",114000,100,72.6,26.62
+2024,Industry,Support activities for agriculture and forestry,115000,300,45.7,8.88
+2024,Industry,"Mining, quarrying, and oil and gas extraction",21,1300,13.8,2.72
+2024,Industry,Oil and gas extraction,211000,200,6.4,1.57
+2024,Industry,Mining (except oil and gas),212000,300,14.5,2.8
+2024,Industry,Nonmetallic mineral mining and quarrying,212300,200,11.9,2.51
+2024,Industry,Support activities for mining,213000,800,14.6,4.32
+2024,Industry,Construction,23,22500,9.2,0.22
+2024,Industry,Manufacturing,"31, 32, 33",29900,2.4,0.05
+2024,Industry,Food manufacturing,311000,3300,3.1,0.22
+2024,Industry,"Animal food, grain and oilseed milling","3111, 3112",300,4.5,0.75
+2024,Industry,Animal slaughtering and processing,311600,900,4.9,0.78
+2024,Industry,Wood product manufacturing,321000,800,7.7,1.12
+2024,Industry,Chemical manufacturing,325000,3000,1.1,0.07
+2024,Industry,Plastics and rubber products manufacturing,326000,800,6.9,0.73
+2024,Industry,Nonmetallic mineral product manufacturing,327000,700,7.7,1.03
+2024,Industry,"Cement, concrete, lime, and gypsum product manufacturing","3273, 3274",300,16.9,3.17
+2024,Industry,Primary metal manufacturing,331000,1000,3.1,0.34
+2024,Industry,Fabricated metal product manufacturing,332000,2100,4.4,0.31
+2024,Industry,Machinery manufacturing,333000,2700,1.5,0.11
+2024,Industry,Transportation equipment manufacturing,336000,5300,1.7,0.1
+2024,Industry,Service providing,"22, 42, 44, 45, 48, 49, 81, 99",,,
+2024,Industry,"Trade, transportation, and utilities","42, 44, 45, 48, 49, 22",51300,5.1,0.07
+2024,Industry,Wholesale trade,42,6300,4.6,0.19
+2024,Industry,"Merchant wholesalers, durable goods",423000,2900,5.7,0.33
+2024,Industry,"Machinery, equipment, and supplies merchant wholesalers",423800,700,5.5,0.67
+2024,Industry,Recyclable material merchant wholesalers,423930,200,14.6,3.76
+2024,Industry,Retail trade,"44, 45",28300,1.8,0.04
+2024,Industry,Automobile dealers,441100,2600,2,0.14
+2024,Industry,Gasoline stations,457100,900,7.9,0.79
+2024,Industry,Transportation and warehousing,"48, 49",14200,12.2,0.35
+2024,Industry,Air transportation,481000,1400,3.1,0.28
+2024,Industry,Rail transportation,482000,400,4.7,0.82
+2024,Industry,Water transportation,483000,200,12.8,3.24
+2024,Industry,Truck transportation,484000,4500,25.9,1.44
+2024,Industry,Transit and ground passenger transportation,485000,1700,6.8,0.47
+2024,Industry,Bus service and urban transit,485000 except 485300,500,9,1.17
+2024,Industry,Taxi and limousine service,485300,1100,5.8,0.51
+2024,Industry,Support activities for transportation,488000,1500,11.4,0.91
+2024,Industry,Couriers and messengers,492000,2300,4.9,0.33
+2024,Industry,Warehousing and storage,493000,2100,3,0.21
+2024,Industry,Utilities,22,2500,2.3,0.14
+2024,Industry,Information,51,5100,1.1,0.06
+2024,Industry,Financial activities,"52, 53",20600,0.9,0.02
+2024,Industry,Finance and insurance,52,15100,0.2,0.01
+2024,Industry,Real estate and rental and leasing,53,5500,2.7,0.12
+2024,Industry,Real estate,531000,4800,2,0.09
+2024,Industry,Rental and leasing services,532000,700,7.6,0.92
+2024,Industry,Professional and business services,"54, 56",,,
+2024,Industry,"Professional, scientific, and technical services",54,26000,0.5,0.01
+2024,Industry,"Architectural, engineering, and related services",541300,3500,1.2,0.07
+2024,Industry,"Management, administrative, and waste services","55, 56",13200,7.5,0.21
+2024,Industry,Employment services,561300,1400,4,0.29
+2024,Industry,Investigation and security services,561600,1700,6.3,0.49
+2024,Industry,Services to buildings and dwellings (except landscaping services),"561700, except 561730",3100,3.2,0.17
+2024,Industry,Landscaping services,561730,2600,18.5,1.28
+2024,Industry,Waste management and remediation services,562000,1100,16.7,1.78
+2024,Industry,Educational and health services,"61, 62",47600,0.7,0.01
+2024,Industry,Educational services,61,9300,0.8,0.03
+2024,Industry,Health care and social assistance,62,38300,0.6,0.01
+2024,Industry,Ambulatory health care services,621000,16200,0.6,0.01
+2024,Industry,Hospitals,622000,12600,0.3,0.01
+2024,Industry,Nursing and residential care facilities,623000,4100,1.4,0.07
+2024,Industry,Social assistance,624000,5400,0.8,0.03
+2024,Industry,Leisure and hospitality,"71, 72",22000,2.4,0.06
+2024,Industry,"Arts, entertainment, and recreation",71,5000,3.4,0.16
+2024,Industry,"Performing arts, spectator sports, and related industries",711000,1500,4.5,0.36
+2024,Industry,"Amusement, gambling, and recreation industries (except bowling centers)","713000, except 713950",3100,2.7,0.16
+2024,Industry,Accommodation and food services,72,17000,2.2,0.05
+2024,Industry,Accommodation,721000,2200,3.7,0.29
+2024,Industry,Traveler accommodation,721100,2000,3.3,0.27
+2024,Industry,Food services and drinking places,722000,14800,1.9,0.05
+2024,Industry,Restaurants and other food services,"722000, except 722400",14500,1.7,0.04
+2024,Industry,Drinking places (alcoholic beverages),722400,300,10.9,1.71
+2024,Industry,"Other services, except public administration",81,13300,3.3,0.09
+2024,Industry,Repair and maintenance,811000,4300,6.8,0.35
+2024,Industry,Automotive repair and maintenance (except car washes),"811100, except 811192",2700,6.9,0.45
+2024,Industry,Personal and laundry services,812000,4400,2.2,0.1
+2024,Industry,"Religious, grantmaking, civic, professional, and similar organizations",813000,3700,1.3,0.07
+2024,Industry,Government,,40400,2,0.03
+2024,Industry,Federal government,,8200,1.1,0.04
+2024,Industry,State government,,13900,1.3,0.04
+2024,Industry,Local government,,18400,2.8,0.07
