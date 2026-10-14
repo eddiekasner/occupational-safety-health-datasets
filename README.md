@@ -25,7 +25,8 @@ Each module gives students:
 | [OSHA Severe Injury Reports](modules/us-osha-severe-injury/) | US | OSHA | Ready |
 | [BLS Census of Fatal Occupational Injuries (CFOI)](modules/us-bls-cfoi/) | US | BLS | Ready |
 | [BLS Survey of Occupational Injuries and Illnesses (SOII)](modules/us-bls-soii/) | US | BLS | Ready |
-| [Safe Work Australia fatalities and workers' compensation](modules/intl-safework-australia/) | Australia | Safe Work Australia | Ready for review |
+| [Safe Work Australia fatalities and workers' compensation](modules/intl-safework-australia/) | Australia | Safe Work Australia | Ready |
+| [UK HSE injury statistics (RIDDOR and LFS)](modules/uk-hse-riddor/) | Great Britain | HSE | Ready for review |
 
 See [CATALOG.md](CATALOG.md) for candidate datasets (US and international) and their status.
 
@@ -61,6 +62,7 @@ modules/
   us-bls-cfoi/             BLS counts and rates of fatal work injuries
   us-bls-soii/             BLS rates of non-fatal work injuries and illnesses
   intl-safework-australia/ Australian work-related deaths and workers' compensation claims
+  uk-hse-riddor/           British reported and self-reported work injuries since 1974
 install_packages.R         one-time R package setup
 ```
 
