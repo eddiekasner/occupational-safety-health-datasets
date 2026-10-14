@@ -1,0 +1,359 @@
+---
+title: "Safe Work Australia: Starter Notebook"
+subtitle: "ENVH 312 (Parts 1 to 5) and ENVH 460/560 (all parts)"
+author: "Your name"
+output:
+  html_document:
+    toc: true
+    df_print: paged
+---
+
+Safe Work Australia, the national work health and safety policy agency, publishes two main
+sources of national statistics:
+
+- the **Traumatic Injury Fatalities (TIF)** database: every work-related death from a traumatic
+  injury in Australia, compiled from coroners' records, regulator notifications, workers'
+  compensation claims and media reports, and
+- the **National Dataset for Compensation-based Statistics (NDS)**: accepted workers'
+  compensation claims from every state, territory and Commonwealth scheme.
+
+Read the module [README](../README.md) and [data dictionary](../data_dictionary.md) first.
+
+**How to use this notebook**
+
+- Run each code chunk in order (the green arrow in RStudio, or Ctrl/Cmd + Shift + Enter).
+- Answer the questions under each **Your answer** heading.
+- When you are done, click **Knit** to produce an HTML report to submit.
+- Parts marked *ENVH 460/560* are required for graduate students and optional for ENVH 312.
+
+# Part 0. Load the data
+
+The three tables in `data/tidy/` hold every number in Safe Work Australia's published
+detailed data files.
+
+```{r setup, message = FALSE}
+library(readr)
+library(dplyr)
+library(tidyr)
+library(ggplot2)
+library(stringr)
+library(forcats)
+
+tidy_dir <- "../data/tidy"
+github <- paste0("https://raw.githubusercontent.com/eddiekasner/occupational-safety-health-datasets/",
+                 "main/modules/intl-safework-australia/data/tidy")
+read_tidy <- function(name) {
+  local <- file.path(tidy_dir, name)
+  read_csv(if (file.exists(local)) local else file.path(github, name),
+           col_types = cols(year = col_integer(), value = col_double(), level = col_integer(),
+                            .default = col_character())) |>
+    mutate(across(any_of("preliminary"), as.logical))
+}
+
+tif <- read_tidy("tif_fatalities.csv")         # worker deaths
+nds <- read_tidy("nds_serious_claims.csv")     # serious workers' compensation claims
+wcifr <- read_tidy("wcifr.csv")                # lost time claim frequency rates
+
+# Most TIF tables come in calendar-year and financial-year versions; we use calendar years
+tif_cal <- filter(tif, period_type == "calendar")
+```
+
+# Part 1. Work-related deaths over time
+
+```{r tif-trend}
+national_deaths <- tif_cal |>
+  filter(breakdown == "industry", level == 0) |>
+  select(year, measure, value) |>
+  pivot_wider(names_from = measure, values_from = value)
+national_deaths
+
+ggplot(national_deaths, aes(year, rate_per_100000_workers)) +
+  geom_line() +
+  geom_point() +
+  expand_limits(y = 0) +
+  scale_x_continuous(breaks = 2016:2025) +
+  labs(title = "Work-related traumatic injury deaths, Australia",
+       x = NULL, y = "Deaths per 100,000 workers")
+```
+
+**Questions**
+
+1. How many workers died from work-related injuries in the most recent year? Is the rate going
+   up, down, or neither?
+2. The TIF counts **traumatic injury** deaths only. Name three kinds of work-related death that
+   are *not* counted (hint: read the README).
+3. The US fatal injury rate (CFOI module) is about 3.3 to 3.5 deaths per 100,000
+   full-time equivalent workers. Give two reasons, other than safer workplaces, why Australia's rate might
+   be lower.
+
+**Your answer:**
+
+
+
+# Part 2. Which industries are most dangerous?
+
+```{r tif-industry}
+industry_5yr <- tif_cal |>
+  filter(breakdown == "industry", level == 1, year >= max(year) - 4) |>
+  select(category, year, measure, value) |>
+  pivot_wider(names_from = measure, values_from = value) |>
+  group_by(category) |>
+  summarise(deaths = sum(fatalities),
+            # Rates are not published ("NP") for years with no deaths, so NA rates count as 0
+            mean_rate = mean(replace_na(rate_per_100000_workers, 0))) |>
+  arrange(desc(mean_rate))
+industry_5yr
+
+industry_5yr |>
+  ggplot(aes(mean_rate, fct_reorder(category, mean_rate))) +
+  geom_col() +
+  labs(title = "Work-related deaths by industry, last 5 years",
+       x = "Average deaths per 100,000 workers", y = NULL)
+```
+
+**Questions**
+
+1. Which three industries have the highest fatality rates? Which have the most deaths?
+2. Health care and social assistance is Australia's largest employing industry, yet it has few
+   deaths and one of the lowest rates. Agriculture has far fewer workers but many deaths. What
+   does this tell you about using counts versus rates to set prevention priorities?
+3. Agriculture, forestry and fishing has many self-employed workers. Why does that make the
+   TIF a better source than workers' compensation claims for this industry?
+
+**Your answer:**
+
+
+
+# Part 3. How do workers die?
+
+```{r tif-mechanism}
+tif_cal |>
+  filter(breakdown == "mechanism", level == 1, year >= max(year) - 4) |>
+  group_by(category) |>
+  summarise(deaths = sum(value)) |>
+  mutate(share = deaths / sum(deaths)) |>
+  arrange(desc(deaths))
+
+# Deaths in which a vehicle was involved
+vehicles <- tif_cal |>
+  filter(breakdown == "vehicle type", level == 0) |>
+  select(year, vehicle_deaths = value) |>
+  left_join(select(national_deaths, year, all_deaths = fatalities), by = "year") |>
+  mutate(share = vehicle_deaths / all_deaths)
+vehicles
+
+tif_cal |>
+  filter(breakdown == "vehicle type", level == 1, year >= max(year) - 4) |>
+  group_by(category) |>
+  summarise(deaths = sum(value)) |>
+  arrange(desc(deaths))
+```
+
+**Questions**
+
+1. What share of work-related deaths involve a vehicle? Which vehicle types are most common?
+2. Many work-related vehicle deaths happen on public roads. Which agencies (besides work health
+   and safety regulators) might be involved in preventing them?
+3. Using the hierarchy of controls, propose one control for the most common type of vehicle death.
+
+**Your answer:**
+
+
+
+# Part 4. Serious workers' compensation claims
+
+A **serious claim** is an accepted workers' compensation claim with **one working week or more**
+of time lost from work. Claims are counted by the financial year they were lodged (July to June).
+The most recent year is **preliminary**.
+
+```{r nds-trend}
+nds |>
+  filter(breakdown == "industry", level == 0,
+         measure %in% c("claims", "frequency_rate_per_million_hours")) |>
+  select(period, preliminary, measure, value) |>
+  pivot_wider(names_from = measure, values_from = value)
+
+nds |>
+  filter(breakdown == "nature", level == 2, measure == "claims") |>
+  group_by(category) |>
+  filter(max(value, na.rm = TRUE) > 6000) |>
+  ggplot(aes(year, value, colour = category)) +
+  geom_line() +
+  labs(title = "Serious claims by nature of injury or disease (largest groups)",
+       x = "Financial year ending", y = "Serious claims", colour = NULL)
+```
+
+**Questions**
+
+1. About how many serious claims are there each year? How does that compare with the number of
+   deaths in Part 1?
+2. Which type of injury or disease is most common? Which type has grown the fastest?
+3. Most claims are injuries, not diseases. Why are occupational diseases under-represented in
+   workers' compensation data?
+
+**Your answer:**
+
+
+
+# Part 5. Who is hurt and who dies?
+
+```{r sex}
+deaths_by_sex <- tif_cal |>
+  filter(breakdown == "age and sex", measure == "fatalities", level == 2, year >= max(year) - 4) |>
+  group_by(sex = category) |>
+  summarise(n = sum(value)) |>
+  mutate(outcome = "Deaths (last 5 years)")
+
+claims_by_sex <- nds |>
+  filter(breakdown == "age and sex", measure == "claims", level == 2, year >= max(year) - 4) |>
+  group_by(sex = category) |>
+  summarise(n = sum(value)) |>
+  mutate(outcome = "Serious claims (last 5 years)")
+
+bind_rows(deaths_by_sex, claims_by_sex) |>
+  group_by(outcome) |>
+  mutate(share = n / sum(n))
+
+nds |>
+  filter(breakdown == "age and sex", level == 1, measure == "incidence_rate_per_1000_employees") |>
+  ggplot(aes(year, value, colour = fct_inorder(group))) +
+  geom_line() +
+  labs(title = "Serious claims per 1,000 employees, by age",
+       x = "Financial year ending", y = "Claims per 1,000 employees", colour = "Age")
+```
+
+**Questions**
+
+1. What share of work-related deaths are men? What share of serious claims are men? Why are
+   these so different?
+2. Which age groups have the highest serious claim rates? The README warns about the
+   "65 and over" rate. Why?
+
+**Your answer:**
+
+
+
+# Part 6 (ENVH 460/560). Rates, denominators and small numbers
+
+TIF rates are deaths per 100,000 **workers** (employed people). NDS reports two rates:
+
+- **incidence rate**: claims per 1,000 employees (in jobs covered by workers' compensation)
+- **frequency rate**: claims per 1 million **hours worked**
+
+```{r rates}
+# Recover the number of workers behind each TIF rate: workers = deaths / rate x 100,000
+tif_workers <- tif_cal |>
+  filter(breakdown == "industry", level == 1) |>
+  select(category, year, measure, value) |>
+  pivot_wider(names_from = measure, values_from = value) |>
+  mutate(workers = fatalities / rate_per_100000_workers * 1e5) |>
+  # No rate is published for a year with 0 deaths, so the worker count is unknown for that year;
+  # fill it with the industry's average over the other years
+  group_by(category) |>
+  mutate(workers = if_else(is.na(workers), mean(workers, na.rm = TRUE), workers)) |>
+  ungroup()
+
+# Pooled 5-year rate with an exact Poisson 95% confidence interval
+pooled <- tif_workers |>
+  filter(year >= max(year) - 4) |>
+  group_by(category) |>
+  summarise(deaths = sum(fatalities), person_years = sum(workers)) |>
+  filter(deaths > 0) |>
+  mutate(rate = deaths / person_years * 1e5,
+         lower = qchisq(0.025, 2 * deaths) / 2 / person_years * 1e5,
+         upper = qchisq(0.975, 2 * (deaths + 1)) / 2 / person_years * 1e5) |>
+  arrange(desc(rate))
+pooled
+
+ggplot(pooled, aes(rate, fct_reorder(category, rate))) +
+  geom_pointrange(aes(xmin = lower, xmax = upper)) +
+  labs(title = "Pooled 5-year fatality rate with 95% confidence interval",
+       x = "Deaths per 100,000 workers", y = NULL)
+
+# Frequency versus incidence rates by jurisdiction
+nds |>
+  filter(breakdown == "jurisdiction", year == max(year),
+         measure %in% c("frequency_rate_per_million_hours", "incidence_rate_per_1000_employees")) |>
+  select(category, measure, value) |>
+  pivot_wider(names_from = measure, values_from = value) |>
+  arrange(desc(frequency_rate_per_million_hours))
+```
+
+**Questions**
+
+1. Why can't you compute a rate for 0 deaths with this formula? Which industries have the widest
+   confidence intervals, and why?
+2. Pick two industries whose 5-year rates look different. Do their intervals overlap?
+3. When would a rate per hour worked give a different picture from a rate per worker? Think
+   about industries with many part-time workers.
+4. Rates differ a lot between jurisdictions. Give two reasons, other than workplace safety,
+   why a state's claim rate could be high (hint: each state runs its own compensation scheme).
+
+**Your answer:**
+
+
+
+# Part 7 (ENVH 460/560). Cost and severity of claims
+
+```{r severity}
+nds |>
+  filter(breakdown == "mechanism", level == 1, year == max(year) - 1,
+         measure %in% c("claims", "median_time_lost_weeks", "median_compensation_aud")) |>
+  select(code, category, measure, value) |>
+  pivot_wider(names_from = measure, values_from = value) |>
+  arrange(desc(median_time_lost_weeks))
+
+# Mental stress claims (TOOCS mechanism group 8)
+nds |>
+  filter(breakdown == "mechanism", code %in% c("8", "81", "82", "84", "87"), measure == "claims") |>
+  ggplot(aes(year, value, colour = paste(code, category))) +
+  geom_line() +
+  labs(title = "Serious claims for mental stress", x = "Financial year ending",
+       y = "Serious claims", colour = NULL)
+```
+
+**Questions**
+
+1. Medians for the most recent year are not published. Why? (Read section 8 of the NDS
+   explanatory notes in `data/source/`.)
+2. Which mechanism has the longest median time lost? How does it compare with body stressing
+   and falls?
+3. Why does Safe Work Australia report the median, not the mean, compensation paid?
+4. Describe the trend in mental stress claims. Give two possible explanations (a real increase
+   in harm versus changes in recognition, reporting and coding).
+
+**Your answer:**
+
+
+
+# Part 8 (ENVH 460/560). Benchmarking with injury frequency rates
+
+The **workers' compensation injury frequency rate (WCIFR)** is lost time claims per million hours
+worked, published at the detailed industry (3-digit ANZSIC) and occupation (4-digit ANZSCO)
+level. Employers can compare their own rate with these benchmarks.
+
+```{r wcifr}
+wcifr |>
+  filter(table == "1.2", level == 4) |>
+  arrange(desc(value)) |>
+  select(code, category, value) |>
+  head(15)
+
+wcifr |>
+  filter(table == "2.1", level == 0) |>
+  select(period, preliminary, value)
+```
+
+**Questions**
+
+1. Which occupations have the highest lost time claim rates? Are any surprising? (For the
+   top one, read section 9.6 of the NDS explanatory notes in `data/source/`.)
+2. The WCIFR total is higher than the NDS serious claim frequency rate for the same year. Why?
+3. Under-reporting: the Australian Bureau of Statistics estimates that only about one in three
+   workers with a work-related injury or illness makes a compensation claim. Who is least likely
+   to claim, and how would that bias the benchmarks?
+
+**Your answer:**
+
+
+
