@@ -74,7 +74,8 @@ mental health claims.
 | `data/tidy/nds_serious_claims.csv` | Serious claims: counts, frequency and incidence rates, median compensation and median time lost, by industry, occupation, nature, mechanism, bodily location, agency, age and sex, and jurisdiction |
 | `data/tidy/wcifr.csv` | Lost time claims per million hours worked by detailed industry and occupation |
 | `data/source/` | The Safe Work Australia Excel files and explanatory notes these tables were built from |
-| `notebooks/01_starter.Rmd` | Guided exploration for ENVH 312 and ENVH 460/560 |
+| `notebooks/312_starter.Rmd` | Guided exploration for ENVH 312 |
+| `notebooks/460_560_starter.Rmd` | Guided exploration for ENVH 460/560 (includes the ENVH 312 parts plus more advanced ones) |
 | `scripts/fetch_data.R` | How to get newer versions of the source files |
 | `scripts/build_dataset.R` | Builds the tidy tables from `data/source/` |
 

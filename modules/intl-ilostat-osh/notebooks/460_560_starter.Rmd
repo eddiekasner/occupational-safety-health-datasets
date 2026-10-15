@@ -1,0 +1,289 @@
+---
+title: "ILOSTAT Occupational Safety and Health: Starter Notebook"
+subtitle: "ENVH 460/560"
+author: "Your name"
+output:
+  html_document:
+    toc: true
+    df_print: paged
+---
+
+In this notebook you will compare occupational injury statistics across countries, using
+data that national governments report to the International Labour Organization (ILO).
+Read the module [README](../README.md) and [data dictionary](../data_dictionary.md) first.
+
+**How to use this notebook**
+
+- Run each code chunk in order (the green arrow in RStudio, or Ctrl/Cmd + Shift + Enter).
+- Answer the questions under each **Your answer** heading.
+- When you are done, click **Knit** to produce an HTML report to submit.
+
+# Part 0. Load the data
+
+The three tables in `data/tidy/` are complete (not samples) and are committed to the
+repository. To refresh them with the latest ILO data, run `scripts/fetch_data.R` and then
+`scripts/build_dataset.R`.
+
+```{r setup, message = FALSE}
+library(readr)
+library(dplyr)
+library(ggplot2)
+library(stringr)
+library(forcats)
+library(tidyr)
+
+tidy_dir <- "../data/tidy"
+github <- paste0("https://raw.githubusercontent.com/eddiekasner/occupational-safety-health-datasets/",
+                 "main/modules/intl-ilostat-osh/data/tidy")
+
+read_tidy <- function(name) {
+  local <- file.path(tidy_dir, name)
+  read_csv(if (file.exists(local)) local else file.path(github, name),
+           col_types = cols(year = col_integer(), value = col_double(), .default = col_character()))
+}
+
+national <- read_tidy("injuries_national.csv")
+by_sector <- read_tidy("injuries_by_sector.csv")
+inspection <- read_tidy("labour_inspection.csv")
+```
+
+# Part 1. Get oriented
+
+The tables are in **long** format: one row per country, year, breakdown and `measure`.
+
+```{r orient}
+glimpse(national)
+count(national, measure)
+
+# National totals: both sexes, all workers
+totals <- national |> filter(sex == "Total", migrant_status == "Total")
+
+latest_fatal <- totals |>
+  filter(measure == "fatal_rate_per_100k", !is.na(value)) |>
+  group_by(country_code) |>
+  slice_max(year, n = 1) |>
+  ungroup()
+
+cat(n_distinct(latest_fatal$country_code), "countries have ever reported a fatal injury rate\n")
+
+ggplot(latest_fatal, aes(year)) +
+  geom_histogram(binwidth = 2) +
+  labs(title = "Most recent year with a fatal injury rate, by country", x = "Year", y = "Countries")
+```
+
+**Questions**
+
+1. How many countries have reported a fatal injury rate since 2018? (Hint: `filter(latest_fatal, year >= 2018)`.)
+2. Some of the world's largest economies have no recent data, or none at all. Search for
+   China (`CHN`) and India (`IND`). What does this mean for any "global" comparison?
+3. Who collects these numbers? (Look at the `source` column for five countries.)
+
+**Your answer:**
+
+
+
+# Part 2. Comparing fatal injury rates
+
+```{r fatal-compare, fig.height = 9}
+recent <- latest_fatal |> filter(year >= 2018)
+
+ggplot(recent, aes(value, fct_reorder(country, value), colour = region)) +
+  geom_point() +
+  scale_x_log10() +
+  labs(title = "Fatal occupational injuries per 100,000 workers (latest year since 2018)",
+       x = "Rate (log scale)", y = NULL, colour = "Region")
+
+recent |>
+  arrange(desc(value)) |>
+  select(country, year, value, source_type, source, notes) |>
+  head(5)
+```
+
+**Questions**
+
+1. Which country has by far the highest rate? Read its `source` and `notes`. Is this rate
+   plausible? What would you check before reporting it? (Hint: what types of cases does it include?)
+2. Compare two countries you know something about. What could explain the difference besides
+   how dangerous work actually is?
+
+**Your answer:**
+
+
+
+# Part 3. Can we compare countries at all?
+
+Countries collect injury data in different ways. The `notes` column records important
+differences, such as whether the data cover **reported** or only **compensated** injuries,
+and whether they include **commuting accidents** or **occupational diseases**.
+
+```{r comparability}
+recent |>
+  mutate(coverage = str_extract(notes, "Coverage of occupational injuries: [^|]+"),
+         case_types = str_extract(notes, "Type of cases of occupational injuries: [^|]+")) |>
+  count(source_type, coverage, case_types, sort = TRUE)
+```
+
+A useful check is the ratio of **non-fatal** to **fatal** injuries. Fatal injuries are hard
+to hide; non-fatal injuries are easy to leave unreported. Countries with good reporting
+usually record hundreds or thousands of non-fatal injuries for every death.
+
+```{r ratio, fig.height = 8}
+ratio <- totals |>
+  filter(measure %in% c("fatal_rate_per_100k", "nonfatal_rate_per_100k"), year >= 2015) |>
+  select(country, region, year, measure, value) |>
+  pivot_wider(names_from = measure, values_from = value) |>
+  filter(fatal_rate_per_100k > 0, !is.na(nonfatal_rate_per_100k)) |>
+  group_by(country) |>
+  slice_max(year, n = 1) |>
+  ungroup() |>
+  mutate(nonfatal_per_fatal = nonfatal_rate_per_100k / fatal_rate_per_100k)
+
+ggplot(ratio, aes(nonfatal_per_fatal, fct_reorder(country, nonfatal_per_fatal), colour = region)) +
+  geom_point() +
+  scale_x_log10() +
+  labs(title = "Non-fatal injuries reported for each fatal injury (latest year since 2015)",
+       x = "Ratio (log scale)", y = NULL, colour = "Region")
+```
+
+**Questions**
+
+1. Which countries report fewer than 10 non-fatal injuries per death? What does that suggest?
+2. If you were asked to rank countries by workplace safety, would you use fatal rates,
+   non-fatal rates, or neither? Explain.
+
+**Your answer:**
+
+
+
+# Part 4. Trends over time
+
+```{r trends}
+selected <- c("USA", "KOR", "MEX", "DEU", "AUS", "ESP")
+
+totals |>
+  filter(measure == "fatal_rate_per_100k", country_code %in% selected, year >= 1990) |>
+  ggplot(aes(year, value, colour = source_type)) +
+  geom_line(aes(group = 1)) +
+  geom_point(size = 0.8) +
+  facet_wrap(~ country, scales = "free_y") +
+  labs(title = "Fatal occupational injury rates", x = NULL,
+       y = "Per 100,000 workers", colour = "Source type")
+```
+
+**Questions**
+
+1. Which countries show a clear decline? Which do not?
+2. Look for changes in `source_type` or sudden jumps. Why is a change in the data source a
+   problem when interpreting a trend?
+3. Pick one country and edit `selected` to add it. What happened there?
+
+**Your answer:**
+
+
+
+# Part 5. Which sectors are most dangerous?
+
+```{r sectors, fig.height = 7}
+sector_recent <- by_sector |>
+  filter(measure == "fatal_rate_per_100k", classification == "ISIC Rev. 4",
+         sector_code != "TOTAL", region == "Europe", year >= 2018) |>
+  group_by(country, sector) |>
+  slice_max(year, n = 1) |>
+  ungroup()
+
+sector_recent |>
+  group_by(sector) |>
+  summarise(countries = n(), median_rate = median(value, na.rm = TRUE)) |>
+  filter(countries >= 10) |>
+  arrange(desc(median_rate))
+
+sector_recent |>
+  filter(str_detect(sector, "^(A|B|C|F|H|Q)\\.")) |>
+  ggplot(aes(value, fct_reorder(sector, value, .fun = median))) +
+  geom_boxplot(outlier.shape = NA) +
+  geom_jitter(height = 0.15, alpha = 0.5) +
+  labs(title = "Fatal injury rates in European countries by sector (latest year since 2018)",
+       x = "Per 100,000 workers", y = NULL)
+```
+
+**Questions**
+
+1. Which sectors have the highest median fatal injury rates in Europe? Does this match what
+   you know about the US (for example, from BLS's Census of Fatal Occupational Injuries)?
+2. Why do we use the median across countries instead of the mean?
+3. How might road traffic deaths during work, or deaths of self-employed farmers, be counted
+   differently between countries? How would that affect sectors A and H?
+
+**Your answer:**
+
+
+
+# Part 6. Migrant workers
+
+```{r migrants}
+migrant <- national |>
+  filter(measure == "fatal_rate_per_100k", sex == "Total",
+         migrant_status %in% c("Migrants", "Non migrants"), !is.na(value)) |>
+  select(country, year, migrant_status, value) |>
+  pivot_wider(names_from = migrant_status, values_from = value) |>
+  filter(!is.na(Migrants), !is.na(`Non migrants`)) |>
+  group_by(country) |>
+  slice_max(year, n = 1) |>
+  ungroup() |>
+  mutate(ratio = Migrants / `Non migrants`)
+
+arrange(migrant, desc(ratio))
+```
+
+**Questions**
+
+1. In how many countries is the fatal rate higher for migrant workers? Lower?
+2. Migrant workers are often concentrated in dangerous jobs, but they may also be less likely
+   to appear in the records (undocumented work, no insurance) and in the denominator.
+   How could each of these bias the ratio?
+
+**Your answer:**
+
+
+
+# Part 7. Labour inspection and fatal injuries
+
+The ILO's commonly cited benchmark is about **one labour inspector per 10,000 workers** in
+industrial market economies (fewer in developing economies).
+
+```{r inspection}
+inspectors <- inspection |>
+  filter(measure == "inspectors_per_10k_employed", !is.na(value)) |>
+  group_by(country_code) |>
+  slice_max(year, n = 1) |>
+  ungroup() |>
+  select(country_code, country, region, inspectors_per_10k = value, inspection_year = year)
+
+combined <- inspectors |>
+  inner_join(select(latest_fatal, country_code, fatal_rate = value, fatal_year = year),
+             by = "country_code") |>
+  filter(abs(inspection_year - fatal_year) <= 3, fatal_rate > 0)
+
+ggplot(combined, aes(inspectors_per_10k, fatal_rate, colour = region)) +
+  geom_point() +
+  geom_vline(xintercept = 1, linetype = "dashed") +
+  scale_x_log10() +
+  scale_y_log10() +
+  labs(title = "Labour inspectors and fatal injury rates",
+       x = "Inspectors per 10,000 employed (log scale)",
+       y = "Fatal injuries per 100,000 workers (log scale)", colour = "Region")
+
+cor.test(combined$inspectors_per_10k, combined$fatal_rate, method = "spearman", exact = FALSE)
+```
+
+**Questions**
+
+1. Describe the relationship. Is it what you expected?
+2. Give one reason why more inspectors could lead to **lower** fatal rates, and one reason why
+   more inspectors could lead to **higher** reported rates.
+3. Check the arithmetic: for one country, compute `fatal_cases / (workers_covered_thousands * 1000) * 100000`
+   from the `national` table and compare it with `fatal_rate_per_100k`. Do they match?
+
+**Your answer:**
+
+

@@ -1,0 +1,327 @@
+---
+title: "WHO/ILO Joint Estimates of the Work-related Burden of Disease and Injury: Starter Notebook"
+subtitle: "ENVH 460/560"
+author: "Your name"
+output:
+  html_document:
+    toc: true
+    df_print: paged
+---
+
+The other modules in this repository count injuries and deaths that someone recorded. Most
+work-related deaths are never recorded as work-related: they are deaths from heart disease,
+stroke, lung disease and cancer, years after the exposure. The **WHO/ILO Joint Estimates**
+estimate this hidden burden for 183 countries.
+
+For each **pair** of an occupational risk factor and a disease (for example *asbestos* and
+*mesothelioma*), WHO and the ILO estimate the share of all cases of the disease that would not
+have happened without the exposure at work: the **population attributable fraction (PAF)**.
+Multiplying the PAF by the total number of deaths from the disease gives the deaths
+**attributable** to work. The same is done for **DALYs** (disability-adjusted life years): years
+of healthy life lost through early death or disability.
+
+Read the module [README](../README.md) and [data dictionary](../data_dictionary.md) first.
+
+**How to use this notebook**
+
+- Run each code chunk in order (the green arrow in RStudio, or Ctrl/Cmd + Shift + Enter).
+- Answer the questions under each **Your answer** heading.
+- When you are done, click **Knit** to produce an HTML report to submit.
+
+# Part 0. Load the data
+
+```{r setup, message = FALSE}
+library(readr)
+library(dplyr)
+library(tidyr)
+library(ggplot2)
+library(stringr)
+library(forcats)
+
+tidy_dir <- "../data/tidy"
+github <- paste0("https://raw.githubusercontent.com/eddiekasner/occupational-safety-health-datasets/",
+                 "main/modules/intl-who-ilo-joint-estimates/data/tidy")
+read_tidy <- function(name) {
+  local <- file.path(tidy_dir, name)
+  read_csv(if (file.exists(local)) local else file.path(github, name),
+           col_types = cols(year = col_integer(), .default = col_guess()))
+}
+
+burden <- read_tidy("burden_global_regional.csv.gz")   # global and WHO regions, by age
+countries <- read_tidy("burden_country.csv.gz")         # 183 countries, ages 15+
+exposure <- read_tidy("exposure.csv.gz")               # people exposed (2 risk factors)
+disease_rate <- read_tidy("disease_death_rate.csv.gz") # deaths from all work-related diseases
+
+# The solar UV estimates were added in 2023; leave them out to match the 2021 report totals
+uv <- "Occupational exposure to solar ultraviolet radiation"
+
+# Shorter risk factor names for plots
+short_risk <- function(x) str_remove(x, "^Occupational (exposure to )?|^Exposure to ")
+
+global_2016 <- burden |>
+  filter(level == "global", sex == "Both", age_group == "15+ years", year == 2016)
+```
+
+# Part 1. How many people die from their work?
+
+```{r totals}
+global_2016 |>
+  filter(risk_factor != uv) |>
+  group_by(measure) |>
+  summarise(total = sum(number, na.rm = TRUE))
+
+by_risk <- global_2016 |>
+  filter(measure == "deaths") |>
+  group_by(risk_factor) |>
+  summarise(deaths = sum(number, na.rm = TRUE)) |>
+  mutate(share = deaths / sum(deaths[risk_factor != uv])) |>
+  arrange(desc(deaths))
+by_risk
+
+by_risk |>
+  filter(deaths > 0) |>
+  ggplot(aes(deaths, fct_reorder(short_risk(risk_factor), deaths))) +
+  geom_col() +
+  scale_x_continuous(labels = scales::label_comma()) +
+  labs(title = "Deaths attributable to occupational risk factors, world, 2016",
+       x = "Deaths", y = NULL)
+```
+
+**Questions**
+
+1. About how many deaths in 2016 were attributable to work? Which three risk factors cause the most?
+2. Long working hours (55 or more hours a week) top the list. How can working long hours cause
+   heart disease and stroke? Name two pathways.
+3. Ergonomic factors and noise cause no deaths here but many DALYs. Why? (Hint: compare the
+   `dalys` rows.)
+
+**Your answer:**
+
+
+
+# Part 2. Diseases versus injuries
+
+```{r outcomes}
+global_2016 |>
+  filter(measure == "deaths", risk_factor != uv) |>
+  mutate(type = if_else(risk_factor == "Occupational injuries", "Injury", "Disease")) |>
+  group_by(type) |>
+  summarise(deaths = sum(number, na.rm = TRUE)) |>
+  mutate(share = deaths / sum(deaths))
+
+global_2016 |>
+  filter(measure == "deaths") |>
+  group_by(cause) |>
+  summarise(deaths = sum(number, na.rm = TRUE)) |>
+  arrange(desc(deaths)) |>
+  head(10)
+```
+
+**Questions**
+
+1. What share of work-related deaths are from disease rather than injury?
+2. Look at the injury causes. Which are the largest? How does that compare with the leading
+   causes of work deaths in the CFOI (US) or Safe Work Australia modules?
+3. The other modules in this repository count mostly injuries. What does that mean for how well
+   national surveillance systems capture the burden of work-related death?
+
+**Your answer:**
+
+
+
+# Part 3. Trends from 2000 to 2016
+
+```{r trends}
+burden |>
+  filter(level == "global", sex == "Both", age_group == "15+ years", measure == "deaths",
+         year %in% c(2000, 2010, 2016)) |>
+  group_by(risk_factor, year) |>
+  summarise(deaths = sum(number, na.rm = TRUE), .groups = "drop") |>
+  filter(deaths > 10000) |>
+  ggplot(aes(year, deaths, colour = short_risk(risk_factor))) +
+  geom_line() +
+  geom_point() +
+  scale_y_continuous(labels = scales::label_comma()) +
+  labs(title = "Work-related deaths by risk factor", x = NULL, y = "Deaths", colour = NULL)
+
+exposure |>
+  filter(level == "global", sex == "Both", age_group == "15+ years",
+         risk_factor == "Exposure to long working hours") |>
+  select(year, people_exposed = number, percent_of_population_15plus = percent)
+```
+
+**Questions**
+
+1. Which risk factors increased from 2000 to 2016, and which decreased?
+2. How many people worked 55 or more hours a week in 2016? Did the number and the percentage
+   change in the same direction? What explains the difference?
+3. Deaths can rise even if the *rate* falls. Why? (Think about population growth and ageing.)
+
+**Your answer:**
+
+
+
+# Part 4. Where and who?
+
+```{r regions-sex}
+disease_rate |>
+  filter(level != "country", sex == "Both", age_group == "15+ years", year == 2016) |>
+  select(region, rate, rate_lower, rate_upper) |>
+  arrange(desc(rate))
+
+global_2016_by_sex <- burden |>
+  filter(level == "global", age_group == "15+ years", year == 2016, measure == "deaths",
+         sex != "Both", risk_factor != uv) |>
+  group_by(sex, risk_factor) |>
+  summarise(deaths = sum(number, na.rm = TRUE), .groups = "drop")
+
+global_2016_by_sex |>
+  group_by(sex) |>
+  summarise(deaths = sum(deaths))
+
+global_2016_by_sex |>
+  filter(deaths > 5000) |>
+  ggplot(aes(deaths, fct_reorder(short_risk(risk_factor), deaths), fill = sex)) +
+  geom_col(position = "dodge") +
+  scale_x_continuous(labels = scales::label_comma()) +
+  labs(title = "Work-related deaths by sex, 2016", x = "Deaths", y = NULL, fill = NULL)
+```
+
+**Questions**
+
+1. Which WHO region has the highest rate of deaths from work-related disease? The lowest?
+2. What share of work-related deaths are among men? Is the difference the same for every risk factor?
+3. The report says the burden is disproportionately large in the African, South-East Asia and
+   Western Pacific regions, yet the African Region has the *lowest* rate of deaths from
+   work-related disease here. Give two reasons (think about the age of the population, and what
+   this rate leaves out).
+
+**Your answer:**
+
+
+
+# Part 5. Age
+
+```{r age}
+burden |>
+  filter(level == "global", sex == "Both", year == 2016, measure == "deaths",
+         age_group != "15+ years", risk_factor != uv) |>
+  mutate(group = if_else(risk_factor == "Occupational injuries", "Injuries", "Diseases"),
+         age_group = fct_inorder(age_group)) |>
+  group_by(group, age_group) |>
+  summarise(deaths = sum(number, na.rm = TRUE), .groups = "drop") |>
+  ggplot(aes(age_group, deaths, fill = group)) +
+  geom_col() +
+  scale_y_continuous(labels = scales::label_comma()) +
+  labs(title = "Work-related deaths by age, 2016", x = NULL, y = "Deaths", fill = NULL) +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+```
+
+**Questions**
+
+1. At what ages do most work-related *injury* deaths happen? Work-related *disease* deaths?
+2. Many people who die of work-related disease have retired. Why does that make these deaths
+   hard to recognise and count in national statistics?
+
+**Your answer:**
+
+
+
+# Part 6. Comparing countries
+
+Rates here are per 100,000 people aged 15 and over (the whole working-age population, not only
+workers). Rates of different pairs for the same population can be added.
+
+```{r countries}
+compare <- c("United States of America", "United Kingdom of Great Britain and Northern Ireland",
+             "Australia", "India", "China", "Brazil", "Nigeria", "Germany")
+
+country_rates <- countries |>
+  filter(year == 2016, sex == "Both", measure == "deaths", risk_factor != uv) |>
+  mutate(group = case_when(risk_factor == "Occupational injuries" ~ "injuries",
+                           risk_factor == "Exposure to long working hours" ~ "long_hours",
+                           TRUE ~ "other_diseases")) |>
+  group_by(country, group) |>
+  summarise(rate = sum(rate, na.rm = TRUE), .groups = "drop") |>
+  pivot_wider(names_from = group, values_from = rate) |>
+  mutate(total = injuries + long_hours + other_diseases)
+
+filter(country_rates, country %in% compare) |> arrange(desc(total))
+
+ggplot(country_rates, aes(total)) +
+  geom_histogram(bins = 30) +
+  labs(title = "Work-related death rate, 183 countries, 2016",
+       x = "Deaths per 100,000 population aged 15+", y = "Countries")
+```
+
+**Questions**
+
+1. For the US, UK and Australia, compare the WHO/ILO *injury* death rate with the rates in the
+   CFOI, HSE RIDDOR and Safe Work Australia modules. Why are they not the same? Think about the
+   denominator (population versus workers), which deaths are included, and modelling versus counting.
+2. In high-income countries, what share of the total work-related death rate is from disease?
+3. Which countries have the highest total rates? What do they have in common?
+
+**Your answer:**
+
+
+
+# Part 7. Population attributable fractions and uncertainty
+
+The PAF for a single exposure with prevalence *p* and relative risk *RR* is
+
+PAF = p (RR - 1) / (p (RR - 1) + 1)
+
+The WHO/ILO systematic reviews found that working 55 or more hours a week raises the risk of
+stroke by about 35% (RR = 1.35; Descatha et al., 2020) and of ischaemic heart disease by about
+17% (RR = 1.17; Li et al., 2020), compared with working 35 to 40 hours. Both reviews are in
+*Environment International*.
+
+```{r paf}
+p_long_hours <- exposure |>
+  filter(level == "global", sex == "Both", age_group == "15+ years", year == 2016,
+         risk_factor == "Exposure to long working hours") |>
+  pull(percent) / 100
+
+paf <- function(p, rr) p * (rr - 1) / (p * (rr - 1) + 1)
+tibble(cause = c("Stroke", "Ischaemic heart disease"), rr = c(1.35, 1.17)) |>
+  mutate(prevalence = p_long_hours, simple_paf = paf(prevalence, rr))
+
+# Uncertainty: width of the 95% uncertainty interval relative to the estimate
+global_2016 |>
+  filter(measure == "deaths", number > 1000) |>
+  mutate(relative_width = (number_upper - number_lower) / number) |>
+  select(risk_factor, cause, number, number_lower, number_upper, relative_width) |>
+  arrange(desc(relative_width))
+```
+
+**Questions**
+
+1. Your simple PAF for stroke is smaller than the PAF in the WHO/ILO report (6.9% of stroke
+   deaths in 2016). WHO applied the exposure by age and sex, and with a time lag (exposure years
+   earlier causes disease now). Explain why each of these could make the PAF larger.
+2. Which estimates are the most uncertain? Why might the uncertainty interval still be too narrow
+   (what sources of error does it not include)?
+3. A PAF answers the question "how many deaths would be prevented if nobody had been exposed?"
+   Is that a realistic target for prevention? What would you report to a policy maker instead?
+
+**Your answer:**
+
+
+
+# Part 8. What is not included
+
+The Joint Estimates cover 41 pairs of risk factor and disease (plus solar UV and skin cancer,
+added in 2023). Many known occupational hazards are not included.
+
+**Questions**
+
+1. Name three occupational exposures or outcomes not covered here (hint: think about job strain,
+   shift work, infections among health workers, pesticides, and mental health).
+2. Why do WHO and the ILO only include pairs with strong evidence? What is the trade-off?
+3. Which way does this bias the total: up or down?
+
+**Your answer:**
+
+
+

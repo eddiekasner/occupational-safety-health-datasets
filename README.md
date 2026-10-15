@@ -10,8 +10,8 @@ Each module gives students:
 | --- | --- |
 | `README.md` | Background: who collects the data, why, what it can and cannot tell you |
 | `data_dictionary.md` | Field-by-field guide, with links to the official dictionary |
-| `data/` | A small sample committed to the repo; full files are downloaded separately |
-| `notebooks/` | A starter R Markdown notebook with guided questions |
+| `data/` | The data, committed to the repo: complete tables where they are small enough, otherwise a sample (full files are downloaded with the module's scripts) |
+| `notebooks/` | Two starter R Markdown notebooks with guided questions: `312_starter.Rmd` for ENVH 312 and `460_560_starter.Rmd` for ENVH 460/560 |
 | `scripts/` | Scripts to fetch the full data and rebuild the sample |
 
 ## Modules
@@ -40,8 +40,22 @@ See [CATALOG.md](CATALOG.md) for candidate datasets (US and international) and t
 2. Download this repository (green **Code** button > **Download ZIP**, or clone it).
 3. Open `install_packages.R` in RStudio and click **Source** (one time only).
 4. Open a module folder and read its `README.md`.
-5. Open the starter notebook (`notebooks/01_starter.Rmd`). It runs on the committed
-   sample by default, and on the full data once you download it (instructions in each module).
+5. Open the starter notebook for your course in the module's `notebooks/` folder:
+   `312_starter.Rmd` (ENVH 312) or `460_560_starter.Rmd` (ENVH 460/560). It runs on the data
+   committed to the repository; if a data file is missing on your computer, it reads it directly
+   from GitHub.
+
+## Notebooks by course (instructors)
+
+Each module has two notebooks with the same data and setup:
+
+| Notebook | Course | Contents |
+| --- | --- | --- |
+| `312_starter.Rmd` | ENVH 312 | Parts 1 to 5 (4 or 6 in a few modules): getting oriented, trends, comparisons, and interpreting what the data can show |
+| `460_560_starter.Rmd` | ENVH 460/560 | The same parts, then two or three more on methods: rates and denominators, uncertainty, linking datasets, study design, and limitations |
+
+Part numbers match between the two notebooks, so Part 3 is the same in both. Students answer the
+questions under each **Your answer** heading and knit the notebook to HTML to submit.
 
 ## Where the large files live
 

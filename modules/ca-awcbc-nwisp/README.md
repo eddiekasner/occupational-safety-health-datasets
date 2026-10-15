@@ -66,7 +66,8 @@ cancer in Ontario in 2023" or "lost time claims in construction among women aged
 | `data/tidy/nwisp_jurisdiction.csv.gz` | Claims and fatalities by each characteristic and province, 2022 to 2024 |
 | `data/tidy/nwisp_industry_occupation.csv.gz` | Claims and fatalities by each characteristic within industry sectors and occupation categories, Canada, 2023 and 2024 |
 | `data/raw/` | The AWCBC publication (PDF, not committed) |
-| `notebooks/01_starter.Rmd` | Guided exploration for ENVH 312 and ENVH 460/560 |
+| `notebooks/312_starter.Rmd` | Guided exploration for ENVH 312 |
+| `notebooks/460_560_starter.Rmd` | Guided exploration for ENVH 460/560 (includes the ENVH 312 parts plus more advanced ones) |
 | `scripts/fetch_data.R` | Downloads the publication |
 | `scripts/build_dataset.R` | Reads the 42 tables from the PDF (needs the `pdftotext` command) and checks them against the published totals |
 

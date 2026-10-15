@@ -75,7 +75,8 @@ manufacturing, 2020/21 to 2024/25 average".
 | `data/tidy/riddor_fatal_latest.csv` | Deaths 2021/22 to 2025/26, with 5-year totals, by industry, kind of accident, age, and country and region |
 | `data/tidy/lfs_injury.csv.gz` | Self-reported injuries and days lost with 95% confidence intervals, 2000/01 to 2024/25 |
 | `data/raw/` | HSE Excel downloads (not committed) |
-| `notebooks/01_starter.Rmd` | Guided exploration for ENVH 312 and ENVH 460/560 |
+| `notebooks/312_starter.Rmd` | Guided exploration for ENVH 312 |
+| `notebooks/460_560_starter.Rmd` | Guided exploration for ENVH 460/560 (includes the ENVH 312 parts plus more advanced ones) |
 | `scripts/fetch_data.R` | Downloads the HSE tables |
 | `scripts/build_dataset.R` | Builds the tidy tables |
 

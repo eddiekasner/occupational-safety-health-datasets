@@ -1,0 +1,199 @@
+---
+title: "Canada AWCBC Work Injury, Disease and Fatality Statistics: Starter Notebook"
+subtitle: "ENVH 312"
+author: "Your name"
+output:
+  html_document:
+    toc: true
+    df_print: paged
+---
+
+Canada has no national workers' compensation system: each province and territory has its own
+board or commission (WCB). The Association of Workers' Compensation Boards of Canada (AWCBC)
+collects the claims they **accept** and publishes national statistics on **lost time claims**
+(injuries and diseases that kept a worker off work) and **fatalities**. Read the module
+[README](../README.md) and [data dictionary](../data_dictionary.md) first.
+
+*Source: AWCBC, National Work Injury/Disease Statistics Program (NWISP). The analyses and
+interpretations in this notebook are those of the user, not of the AWCBC or its member boards.*
+
+**How to use this notebook**
+
+- Run each code chunk in order (the green arrow in RStudio, or Ctrl/Cmd + Shift + Enter).
+- Answer the questions under each **Your answer** heading.
+- When you are done, click **Knit** to produce an HTML report to submit.
+
+# Part 0. Load the data
+
+```{r setup, message = FALSE}
+library(readr)
+library(dplyr)
+library(tidyr)
+library(ggplot2)
+library(stringr)
+library(forcats)
+
+tidy_dir <- "../data/tidy"
+github <- paste0("https://raw.githubusercontent.com/eddiekasner/occupational-safety-health-datasets/",
+                 "main/modules/ca-awcbc-nwisp/data/tidy")
+read_tidy <- function(name) {
+  local <- file.path(tidy_dir, name)
+  read_csv(if (file.exists(local)) local else file.path(github, name),
+           col_types = cols(year = col_integer(), value = col_double(), .default = col_character()))
+}
+
+trend <- read_tidy("nwisp_jurisdiction_trend.csv")            # 1982 (claims) / 1993 (deaths) to 2024
+by_province <- read_tidy("nwisp_jurisdiction.csv.gz")         # 2022-2024, by province
+by_group <- read_tidy("nwisp_industry_occupation.csv.gz")     # 2023-2024, by industry or occupation
+
+canada <- filter(by_province, jurisdiction == "Total")
+```
+
+# Part 1. Forty years of claims and deaths
+
+```{r trend}
+national <- trend |>
+  filter(jurisdiction == "Total") |>
+  select(outcome, year, value)
+
+ggplot(national, aes(year, value)) +
+  geom_line() +
+  facet_wrap(~ outcome, scales = "free_y", ncol = 1) +
+  expand_limits(y = 0) +
+  scale_y_continuous(labels = scales::label_comma()) +
+  labs(title = "Accepted claims, Canada", x = NULL, y = "Accepted claims")
+
+national |>
+  filter(year %in% c(1990, 2000, 2010, 2020, 2024)) |>
+  pivot_wider(names_from = outcome, values_from = value)
+```
+
+**Questions**
+
+1. By how much did lost time claims fall between 1990 and 2010? Did fatalities fall too?
+2. Give two explanations for the fall in lost time claims other than safer workplaces (think about
+   the economy, the kinds of jobs people do, and how compensation boards manage claims).
+3. Why might fatalities not fall in the same way? (Hint: Part 3.)
+
+**Your answer:**
+
+
+
+# Part 2. Provinces and territories
+
+```{r provinces, fig.height = 6}
+trend |>
+  filter(jurisdiction != "Total", outcome == "lost time claims", year >= 2010) |>
+  ggplot(aes(year, value)) +
+  geom_line() +
+  facet_wrap(~ jurisdiction, scales = "free_y") +
+  scale_y_continuous(labels = scales::label_comma()) +
+  labs(title = "Lost time claims by province or territory", x = NULL, y = "Accepted claims")
+
+canada_by_year <- trend |>
+  filter(outcome == "lost time claims", year >= 2021, jurisdiction != "Total") |>
+  select(jurisdiction, year, value) |>
+  pivot_wider(names_from = year, values_from = value)
+canada_by_year
+```
+
+**Questions**
+
+1. Which provinces have the most claims? Why can you not conclude that they are the most dangerous
+   places to work? (There are no worker counts in this dataset.)
+2. Look at Quebec in 2022 and Ontario in 2024. Describe what happened. How could you find out
+   whether these jumps reflect more injuries or changes in policy or reporting?
+
+**Your answer:**
+
+
+
+# Part 3. What kills workers in Canada?
+
+Codes below 10 in the nature of injury classification are injuries; codes 10 and above are diseases.
+
+```{r fatal-nature}
+fatal_nature <- canada |>
+  filter(outcome == "fatalities", characteristic == "nature of injury", code != "Total") |>
+  mutate(type = if_else(suppressWarnings(as.integer(code)) < 10, "Injury", "Disease", missing = "Not coded"))
+
+fatal_nature |>
+  group_by(year, type) |>
+  summarise(deaths = sum(value, na.rm = TRUE), .groups = "drop") |>
+  group_by(year) |>
+  mutate(share = deaths / sum(deaths))
+
+fatal_nature |>
+  filter(year == 2024) |>
+  arrange(desc(value)) |>
+  select(code, category, deaths = value) |>
+  head(8)
+```
+
+**Questions**
+
+1. What share of accepted fatalities are from disease? Which diseases are most common?
+2. Fatalities are counted in the year the claim is accepted. For a death from mesothelioma, how
+   long ago might the exposure have been?
+3. The US CFOI and Australian TIF modules count only deaths from injury. Compare the Canadian
+   *injury* deaths with those counts. Why does the choice of definition matter for policy?
+
+**Your answer:**
+
+
+
+# Part 4. Industries
+
+```{r industry}
+industry <- canada |>
+  filter(characteristic == "industry", year == 2024, code != "Total") |>
+  select(outcome, category, value) |>
+  pivot_wider(names_from = outcome, values_from = value) |>
+  arrange(desc(`lost time claims`))
+industry
+
+industry |>
+  filter(category != "Not coded") |>
+  ggplot(aes(`lost time claims`, fct_reorder(category, `lost time claims`))) +
+  geom_col() +
+  scale_x_continuous(labels = scales::label_comma()) +
+  labs(title = "Lost time claims by industry, Canada, 2024", x = "Accepted claims", y = NULL)
+```
+
+**Questions**
+
+1. Which industries have the most lost time claims? The most fatalities? Why are the lists different?
+2. Health care and social assistance has the most claims. Name three hazards in health care that
+   lead to lost time.
+3. How many fatalities have no industry coded? How does that limit what you can say?
+
+**Your answer:**
+
+
+
+# Part 5. Who is injured?
+
+```{r gender-age}
+canada |>
+  filter(characteristic == "gender", code %in% c("1", "2"), year == 2024) |>
+  select(outcome, category, value) |>
+  group_by(outcome) |>
+  mutate(share = value / sum(value))
+
+canada |>
+  filter(characteristic == "age", outcome == "fatalities", !code %in% c("Total", "12", "NC")) |>
+  ggplot(aes(category, value, fill = factor(year))) +
+  geom_col(position = "dodge") +
+  labs(title = "Accepted fatalities by age", x = NULL, y = "Fatalities", fill = NULL) +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+```
+
+**Questions**
+
+1. Women make up almost half of lost time claims but a small share of fatalities. Why?
+2. In which age group are fatalities most common? How does that relate to the disease deaths in Part 3?
+
+**Your answer:**
+
+
+

@@ -1,6 +1,6 @@
 ---
 title: "UK HSE Injury Statistics (RIDDOR and LFS): Starter Notebook"
-subtitle: "ENVH 312 (Parts 1 to 5) and ENVH 460/560 (all parts)"
+subtitle: "ENVH 460/560"
 author: "Your name"
 output:
   html_document:
@@ -25,7 +25,6 @@ and [data dictionary](../data_dictionary.md) first.
 - Run each code chunk in order (the green arrow in RStudio, or Ctrl/Cmd + Shift + Enter).
 - Answer the questions under each **Your answer** heading.
 - When you are done, click **Knit** to produce an HTML report to submit.
-- Parts marked *ENVH 460/560* are required for graduate students and optional for ENVH 312.
 
 # Part 0. Load the data
 
@@ -233,7 +232,7 @@ age_gender |>
 
 
 
-# Part 6 (ENVH 460/560). Under-reporting by industry
+# Part 6. Under-reporting by industry
 
 The LFS is a survey, so its estimates have **95% confidence intervals**. Here we compare the LFS
 rate of over-7-day injuries with the RIDDOR rate for each industry section over the latest
@@ -279,7 +278,7 @@ ggplot(comparison, aes(lfs_rate, fct_reorder(str_trunc(industry, 40), lfs_rate))
 
 
 
-# Part 7 (ENVH 460/560). Breaks in a time series
+# Part 7. Breaks in a time series
 
 Reporting rules changed several times. Each change affects what counts as a "reportable" injury.
 
@@ -314,7 +313,7 @@ changes
 
 
 
-# Part 8 (ENVH 460/560). Comparing countries
+# Part 8. Comparing countries
 
 The fatal injury rate in Great Britain is about 0.4 deaths per 100,000 workers. In the US
 (CFOI module) it is about 3.3 to 3.5, and in Australia (Safe Work Australia module) about 1.5.

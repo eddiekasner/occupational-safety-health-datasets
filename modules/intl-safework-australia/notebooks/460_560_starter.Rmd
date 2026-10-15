@@ -1,6 +1,6 @@
 ---
 title: "Safe Work Australia: Starter Notebook"
-subtitle: "ENVH 312 (Parts 1 to 5) and ENVH 460/560 (all parts)"
+subtitle: "ENVH 460/560"
 author: "Your name"
 output:
   html_document:
@@ -24,7 +24,6 @@ Read the module [README](../README.md) and [data dictionary](../data_dictionary.
 - Run each code chunk in order (the green arrow in RStudio, or Ctrl/Cmd + Shift + Enter).
 - Answer the questions under each **Your answer** heading.
 - When you are done, click **Knit** to produce an HTML report to submit.
-- Parts marked *ENVH 460/560* are required for graduate students and optional for ENVH 312.
 
 # Part 0. Load the data
 
@@ -233,7 +232,7 @@ nds |>
 
 
 
-# Part 6 (ENVH 460/560). Rates, denominators and small numbers
+# Part 6. Rates, denominators and small numbers
 
 TIF rates are deaths per 100,000 **workers** (employed people). NDS reports two rates:
 
@@ -293,7 +292,7 @@ nds |>
 
 
 
-# Part 7 (ENVH 460/560). Cost and severity of claims
+# Part 7. Cost and severity of claims
 
 ```{r severity}
 nds |>
@@ -326,7 +325,7 @@ nds |>
 
 
 
-# Part 8 (ENVH 460/560). Benchmarking with injury frequency rates
+# Part 8. Benchmarking with injury frequency rates
 
 The **workers' compensation injury frequency rate (WCIFR)** is lost time claims per million hours
 worked, published at the detailed industry (3-digit ANZSIC) and occupation (4-digit ANZSCO)

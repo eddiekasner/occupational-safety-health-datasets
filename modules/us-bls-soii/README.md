@@ -59,7 +59,8 @@ injury surveillance.
 | `data/tidy/soii_dafw_detail.csv.gz` | Days-away cases by detailed event, nature, part of body, source, occupation and industry, 2011 to 2020 (gzip) |
 | `data/tidy/soii_dafw_states.csv` | Days-away cases by state, 2011 to 2020 |
 | `data/raw/` | BLS downloads (not committed) |
-| `notebooks/01_starter.Rmd` | Guided exploration for ENVH 312 and ENVH 460/560 |
+| `notebooks/312_starter.Rmd` | Guided exploration for ENVH 312 |
+| `notebooks/460_560_starter.Rmd` | Guided exploration for ENVH 460/560 (includes the ENVH 312 parts plus more advanced ones) |
 | `scripts/fetch_data.R` | Downloads the BLS files (**requires your email address**; see below) |
 | `scripts/build_dataset.R` | Builds the tidy tables |
 

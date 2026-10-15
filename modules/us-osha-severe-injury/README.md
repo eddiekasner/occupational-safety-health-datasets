@@ -52,7 +52,8 @@ employers and industries report them, where they happen, and how they change wit
 | `data_dictionary.md` | Columns and OIICS divisions |
 | `data/tidy/severe_injury_reports.csv.gz` | All 105,996 reports, cleaned (16.5 MB, gzip; `read_csv()` reads it directly) |
 | `data/raw/` | OSHA's original zip file (not committed) |
-| `notebooks/01_starter.Rmd` | Guided exploration for ENVH 312 and ENVH 460/560 |
+| `notebooks/312_starter.Rmd` | Guided exploration for ENVH 312 |
+| `notebooks/460_560_starter.Rmd` | Guided exploration for ENVH 460/560 (includes the ENVH 312 parts plus more advanced ones) |
 | `scripts/fetch_data.R` | Downloads the full dataset from OSHA |
 | `scripts/build_dataset.R` | Cleans it into the tidy file |
 

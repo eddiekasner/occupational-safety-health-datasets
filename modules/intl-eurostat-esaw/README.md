@@ -57,7 +57,8 @@ and shows how definitions shape what we see.
 | `data/tidy/esaw_causes.csv.gz` | Accidents by deviation and by contact, mode of injury, by sector (from `hsw_ph3_06`, `hsw_ph3_08`). Compressed; `read_csv()` reads it directly |
 | `data/tidy/esaw_codes.csv` | Labels for sector and cause codes |
 | `data/raw/` | Original JSON downloads (not committed) |
-| `notebooks/01_starter.Rmd` | Guided exploration for ENVH 312 and ENVH 460/560 |
+| `notebooks/312_starter.Rmd` | Guided exploration for ENVH 312 |
+| `notebooks/460_560_starter.Rmd` | Guided exploration for ENVH 460/560 (includes the ENVH 312 parts plus more advanced ones) |
 | `scripts/fetch_data.R` | Downloads the five Eurostat tables, one country at a time |
 | `scripts/build_dataset.R` | Builds the tidy tables from the downloads |
 

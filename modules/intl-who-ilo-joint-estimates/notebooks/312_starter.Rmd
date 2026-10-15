@@ -1,6 +1,6 @@
 ---
 title: "WHO/ILO Joint Estimates of the Work-related Burden of Disease and Injury: Starter Notebook"
-subtitle: "ENVH 312 (Parts 1 to 5) and ENVH 460/560 (all parts)"
+subtitle: "ENVH 312"
 author: "Your name"
 output:
   html_document:
@@ -27,7 +27,6 @@ Read the module [README](../README.md) and [data dictionary](../data_dictionary.
 - Run each code chunk in order (the green arrow in RStudio, or Ctrl/Cmd + Shift + Enter).
 - Answer the questions under each **Your answer** heading.
 - When you are done, click **Knit** to produce an HTML report to submit.
-- Parts marked *ENVH 460/560* are required for graduate students and optional for ENVH 312.
 
 # Part 0. Load the data
 
@@ -223,104 +222,6 @@ burden |>
 1. At what ages do most work-related *injury* deaths happen? Work-related *disease* deaths?
 2. Many people who die of work-related disease have retired. Why does that make these deaths
    hard to recognise and count in national statistics?
-
-**Your answer:**
-
-
-
-# Part 6 (ENVH 460/560). Comparing countries
-
-Rates here are per 100,000 people aged 15 and over (the whole working-age population, not only
-workers). Rates of different pairs for the same population can be added.
-
-```{r countries}
-compare <- c("United States of America", "United Kingdom of Great Britain and Northern Ireland",
-             "Australia", "India", "China", "Brazil", "Nigeria", "Germany")
-
-country_rates <- countries |>
-  filter(year == 2016, sex == "Both", measure == "deaths", risk_factor != uv) |>
-  mutate(group = case_when(risk_factor == "Occupational injuries" ~ "injuries",
-                           risk_factor == "Exposure to long working hours" ~ "long_hours",
-                           TRUE ~ "other_diseases")) |>
-  group_by(country, group) |>
-  summarise(rate = sum(rate, na.rm = TRUE), .groups = "drop") |>
-  pivot_wider(names_from = group, values_from = rate) |>
-  mutate(total = injuries + long_hours + other_diseases)
-
-filter(country_rates, country %in% compare) |> arrange(desc(total))
-
-ggplot(country_rates, aes(total)) +
-  geom_histogram(bins = 30) +
-  labs(title = "Work-related death rate, 183 countries, 2016",
-       x = "Deaths per 100,000 population aged 15+", y = "Countries")
-```
-
-**Questions**
-
-1. For the US, UK and Australia, compare the WHO/ILO *injury* death rate with the rates in the
-   CFOI, HSE RIDDOR and Safe Work Australia modules. Why are they not the same? Think about the
-   denominator (population versus workers), which deaths are included, and modelling versus counting.
-2. In high-income countries, what share of the total work-related death rate is from disease?
-3. Which countries have the highest total rates? What do they have in common?
-
-**Your answer:**
-
-
-
-# Part 7 (ENVH 460/560). Population attributable fractions and uncertainty
-
-The PAF for a single exposure with prevalence *p* and relative risk *RR* is
-
-PAF = p (RR - 1) / (p (RR - 1) + 1)
-
-The WHO/ILO systematic reviews found that working 55 or more hours a week raises the risk of
-stroke by about 35% (RR = 1.35; Descatha et al., 2020) and of ischaemic heart disease by about
-17% (RR = 1.17; Li et al., 2020), compared with working 35 to 40 hours. Both reviews are in
-*Environment International*.
-
-```{r paf}
-p_long_hours <- exposure |>
-  filter(level == "global", sex == "Both", age_group == "15+ years", year == 2016,
-         risk_factor == "Exposure to long working hours") |>
-  pull(percent) / 100
-
-paf <- function(p, rr) p * (rr - 1) / (p * (rr - 1) + 1)
-tibble(cause = c("Stroke", "Ischaemic heart disease"), rr = c(1.35, 1.17)) |>
-  mutate(prevalence = p_long_hours, simple_paf = paf(prevalence, rr))
-
-# Uncertainty: width of the 95% uncertainty interval relative to the estimate
-global_2016 |>
-  filter(measure == "deaths", number > 1000) |>
-  mutate(relative_width = (number_upper - number_lower) / number) |>
-  select(risk_factor, cause, number, number_lower, number_upper, relative_width) |>
-  arrange(desc(relative_width))
-```
-
-**Questions**
-
-1. Your simple PAF for stroke is smaller than the PAF in the WHO/ILO report (6.9% of stroke
-   deaths in 2016). WHO applied the exposure by age and sex, and with a time lag (exposure years
-   earlier causes disease now). Explain why each of these could make the PAF larger.
-2. Which estimates are the most uncertain? Why might the uncertainty interval still be too narrow
-   (what sources of error does it not include)?
-3. A PAF answers the question "how many deaths would be prevented if nobody had been exposed?"
-   Is that a realistic target for prevention? What would you report to a policy maker instead?
-
-**Your answer:**
-
-
-
-# Part 8 (ENVH 460/560). What is not included
-
-The Joint Estimates cover 41 pairs of risk factor and disease (plus solar UV and skin cancer,
-added in 2023). Many known occupational hazards are not included.
-
-**Questions**
-
-1. Name three occupational exposures or outcomes not covered here (hint: think about job strain,
-   shift work, infections among health workers, pesticides, and mental health).
-2. Why do WHO and the ILO only include pairs with strong evidence? What is the trade-off?
-3. Which way does this bias the total: up or down?
 
 **Your answer:**
 

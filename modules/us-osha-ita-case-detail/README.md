@@ -62,7 +62,8 @@ most days away from work?*
 | `data_dictionary.md` | Field guide and code tables, with links to OSHA's official documentation |
 | `data/sample/` | 15,000 cases (5,000 random cases per year) committed to the repo, built by `scripts/make_sample.R` |
 | `data/raw/` | Full yearly files (not committed; see below) |
-| `notebooks/01_starter.Rmd` | Guided exploration for ENVH 312 and ENVH 460/560 |
+| `notebooks/312_starter.Rmd` | Guided exploration for ENVH 312 |
+| `notebooks/460_560_starter.Rmd` | Guided exploration for ENVH 460/560 (includes the ENVH 312 parts plus more advanced ones) |
 | `scripts/fetch_data.R` | Downloads the full files from OSHA |
 | `scripts/make_sample.R` | Rebuilds the sample from the full files |
 
