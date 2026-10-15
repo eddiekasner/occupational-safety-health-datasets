@@ -1,0 +1,125 @@
+field,code,label_en,label_ja
+industry_sector,01,Manufacturing,製造業
+industry_sector,02,Mining,鉱業
+industry_sector,03,Construction,建設業
+industry_sector,04,Transport,運輸交通業
+industry_sector,05,Cargo handling,貨物取扱業
+industry_sector,06,Agriculture and forestry,農林業
+industry_sector,07,Livestock and fisheries,畜産・水産業
+industry_sector,08,Commerce,商業
+industry_sector,09,Finance and advertising,金融・広告業
+industry_sector,10,Film and theatre,映画・演劇業
+industry_sector,11,Communications,通信業
+industry_sector,12,Education and research,教育研究業
+industry_sector,13,Health care and social welfare,保健衛生業
+industry_sector,14,"Hotels, restaurants and entertainment",接客娯楽業
+industry_sector,15,"Cleaning, waste and slaughtering",清掃・と畜業
+industry_sector,16,Government offices,官公署
+industry_sector,17,Other industries,その他の事業
+industry_group,0101,Food,食料品製造業
+industry_group,0102,Textiles,繊維工業
+industry_group,0103,Textile products and clothing,繊維製品製造業
+industry_group,0104,Wood and wood products,木材・木製品製造業
+industry_group,0105,Furniture and fixtures,家具・装備品製造業
+industry_group,0106,"Pulp, paper and paper products",パルプ・紙・紙加工品製造業
+industry_group,0107,Printing and binding,印刷・製本業
+industry_group,0108,Chemicals,化学工業
+industry_group,0109,"Ceramics, stone and clay products",土石製品製造業
+industry_group,0110,Iron and steel,鉄鋼業
+industry_group,0111,Non-ferrous metals,非鉄金属製造業
+industry_group,0112,Fabricated metal products,金属製品製造業
+industry_group,0113,Machinery,機械器具製造業
+industry_group,0114,Electrical machinery,電気機械器具製造業
+industry_group,0115,Transport equipment,輸送用機械等製造業
+industry_group,0116,"Electricity, gas and water",電気・ガス・水道業
+industry_group,0117,Other manufacturing,その他の製造業
+industry_group,0201,Coal mining,石炭鉱業
+industry_group,0202,"Quarrying (stone, sand and gravel)",土石採取業
+industry_group,0203,Other mining,その他の鉱業
+industry_group,0301,Civil engineering,土木工事業
+industry_group,0302,Building construction,建築工事業
+industry_group,0303,Other construction,その他の建設業
+industry_group,0401,"Rail, water and air transport",鉄道・軌道・水運・航空業
+industry_group,0402,"Road passenger transport (bus, taxi)",道路旅客運送業
+industry_group,0403,Road freight transport (trucking),道路貨物運送業
+industry_group,0404,Other transport,その他の運輸交通業
+industry_group,0501,Land cargo handling,陸上貨物取扱業
+industry_group,0502,Port cargo handling,港湾運送業
+industry_group,0601,Agriculture,農業
+industry_group,0602,Forestry,林業
+industry_group,0701,Livestock,畜産業
+industry_group,0702,Fisheries,水産業
+industry_group,0801,Wholesale,卸売業
+industry_group,0802,Retail,小売業
+industry_group,0803,Hairdressing and beauty,理美容業
+industry_group,0804,Other commerce,その他の商業
+industry_group,0901,Finance,金融業
+industry_group,0902,Advertising and agencies,広告・あっせん業
+industry_group,1001,Film and theatre,映画・演劇業
+industry_group,1101,Communications,通信業
+industry_group,1201,Education and research,教育・研究業
+industry_group,1301,Medical care,医療保健業
+industry_group,1302,Social welfare facilities,社会福祉施設
+industry_group,1303,Other health and hygiene,その他の保健衛生業
+industry_group,1401,Hotels and inns,旅館業
+industry_group,1402,Restaurants,飲食店
+industry_group,1403,Other hospitality and entertainment,その他の接客娯楽業
+industry_group,1501,"Cleaning, waste and slaughtering",清掃・と畜業
+industry_group,1601,Government offices,官公署
+industry_group,1701,Temporary staffing (worker dispatch),派遣業
+industry_group,1702,Other industries,その他の事業
+agent_group,1,Power machinery,動力機械
+agent_group,2,"Lifting and transport machinery, vehicles",物上げ装置、運搬機械
+agent_group,3,Other equipment,その他の装置等
+agent_group,4,"Temporary structures, buildings and structures",仮設物、建築物、構築物等
+agent_group,5,Substances and materials,物質、材料
+agent_group,6,Loads,荷
+agent_group,7,Environment,環境等
+agent_group,9,Other,その他
+agent_subgroup,11,Engines,原動機
+agent_subgroup,12,Power transmission,動力伝導機構
+agent_subgroup,13,Woodworking machinery,木材加工用機械
+agent_subgroup,14,Construction machinery,建設機械等
+agent_subgroup,15,Metalworking machinery,金属加工用機械
+agent_subgroup,16,Other powered machinery,一般動力機械
+agent_subgroup,17,Timber harvesting vehicles,車両系木材伐出機械等
+agent_subgroup,21,Cranes and similar,動力クレーン等
+agent_subgroup,22,"Powered transport machinery (trucks, forklifts, conveyors)",動力運搬機
+agent_subgroup,23,"Vehicles (cars, buses, motorcycles, trains, ships, aircraft)",乗物
+agent_subgroup,31,Pressure vessels,圧力容器
+agent_subgroup,32,Chemical plant,化学設備
+agent_subgroup,33,Welding equipment,溶接装置
+agent_subgroup,34,Furnaces and kilns,炉、釜等
+agent_subgroup,35,Electrical equipment,電気設備
+agent_subgroup,36,Hand-powered machines and tools,人力機械工具等
+agent_subgroup,37,"Tools and equipment (ladders, slings, scaffold boards)",用具
+agent_subgroup,39,Other equipment,その他の装置、設備
+agent_subgroup,41,"Temporary structures, buildings and structures",仮設物、建築物等
+agent_subgroup,51,Hazardous and harmful substances,危険物、有害物等
+agent_subgroup,52,Materials,材料
+agent_subgroup,61,Loads,荷
+agent_subgroup,71,"Environment (ground, water, heat, weather)",自然環境等
+agent_subgroup,91,Other agents,その他の起因物
+agent_subgroup,92,No agent,起因物なし
+agent_subgroup,99,Unclassifiable,分類不能
+accident_type,1,Fall from height,墜落、転落
+accident_type,2,Fall on the same level (slip or trip),転倒
+accident_type,3,Striking against an object,激突
+accident_type,4,Struck by flying or falling object,飛来、落下
+accident_type,5,"Collapse (of structures, soil or stacked material)",崩壊、倒壊
+accident_type,6,Struck by moving object,激突され
+accident_type,7,Caught in or between,はさまれ、巻き込まれ
+accident_type,8,Cut or abrasion,切れ、こすれ
+accident_type,9,Stepping on or through,踏み抜き
+accident_type,10,Drowning,おぼれ
+accident_type,11,Contact with hot or cold objects (including heatstroke),高温・低温の物との接触
+accident_type,12,Contact with harmful substances,有害物等との接触
+accident_type,13,Electric shock,感電
+accident_type,14,Explosion,爆発
+accident_type,15,Rupture,破裂
+accident_type,16,Fire,火災
+accident_type,17,Traffic accident (road),交通事故(道路)
+accident_type,18,"Traffic accident (other: rail, ship, aircraft)",交通事故(その他)
+accident_type,19,Overexertion or awkward movement,動作の反動、無理な動作
+accident_type,90,Other,その他
+accident_type,99,Unclassifiable,分類不能

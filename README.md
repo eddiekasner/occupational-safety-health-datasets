@@ -24,6 +24,7 @@ Each module gives students:
 | [Eurostat accidents at work (ESAW)](modules/intl-eurostat-esaw/) | Europe | Eurostat | Ready |
 | [Global Burden of Disease: occupational risks](modules/intl-ihme-gbd-occupational/) (students download the data from IHME) | International | IHME | Draft (not yet tested on real data) |
 | [ILOSTAT occupational safety and health](modules/intl-ilostat-osh/) | International | ILO | Ready |
+| [Japan fatal accident database: every work-related death since 1991](modules/jp-mhlw-fatal-accidents/) | Japan | MHLW | Ready for review |
 | [MSHA mine safety: accidents, injury rates and violations](modules/us-msha-mine-safety/) | US | MSHA | Ready |
 | [OSHA Chemical Exposure Health Data](modules/us-osha-chemical-exposure/) | US | OSHA | Ready |
 | [OSHA enforcement: inspections, violations, cited standards and accident investigations](modules/us-osha-enforcement/) | US | OSHA | Ready |
@@ -80,6 +81,7 @@ modules/
   intl-ilostat-osh/             ILO injury and labour inspection statistics by country
   intl-safework-australia/      Australian work-related deaths and workers' compensation claims
   intl-who-ilo-joint-estimates/ deaths and DALYs from occupational risk factors, 183 countries
+  jp-mhlw-fatal-accidents/      every work-related death in Japan since 1991, with descriptions
   uk-hse-riddor/                British reported and self-reported work injuries since 1974
   us-bls-cfoi/                  BLS counts and rates of fatal work injuries
   us-bls-soii/                  BLS rates of non-fatal work injuries and illnesses
