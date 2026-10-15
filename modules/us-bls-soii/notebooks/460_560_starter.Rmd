@@ -1,6 +1,6 @@
 ---
 title: "BLS Survey of Occupational Injuries and Illnesses (SOII): Starter Notebook"
-subtitle: "ENVH 312 (Parts 1 to 5) and ENVH 460/560 (all parts)"
+subtitle: "ENVH 460/560"
 author: "Your name"
 output:
   html_document:
@@ -18,7 +18,6 @@ estimates them each year from the OSHA logs of about 200,000 sampled employers. 
 - Run each code chunk in order (the green arrow in RStudio, or Ctrl/Cmd + Shift + Enter).
 - Answer the questions under each **Your answer** heading.
 - When you are done, click **Knit** to produce an HTML report to submit.
-- Parts marked *ENVH 460/560* are required for graduate students and optional for ENVH 312.
 
 # Part 0. Load the data
 
@@ -190,7 +189,7 @@ size |>
 
 
 
-# Part 6 (ENVH 460/560). How precise are the estimates?
+# Part 6. How precise are the estimates?
 
 SOII is a **sample survey**, so every estimate has sampling error. BLS publishes the
 **relative standard error (RSE)**: the standard error as a percentage of the estimate.
@@ -221,7 +220,7 @@ head(rse, 10)
 
 
 
-# Part 7 (ENVH 460/560). Cases with days away from work
+# Part 7. Cases with days away from work
 
 For cases with **days away from work** (DAFW), BLS publishes details about the worker and the
 case. These tables cover 2011 to 2020.
@@ -252,7 +251,7 @@ dafw_char |>
 
 
 
-# Part 8 (ENVH 460/560). What SOII does not cover
+# Part 8. What SOII does not cover
 
 SOII excludes the self-employed, workers on farms with 10 or fewer employees, private household
 workers, volunteers, and federal government workers. It relies on what employers record on their

@@ -74,7 +74,8 @@ Severe Injury Reports and Chemical Exposure modules.
 | `data/sample/inspections_sample.csv.gz` | A 5% random sample of inspections, with per-inspection violation and penalty totals |
 | `data/sample/violations_sample.csv.gz` | Every violation for the sampled inspections |
 | `data/raw/` | API downloads (not committed; about 650 MB) |
-| `notebooks/01_starter.Rmd` | Guided exploration for ENVH 312 and ENVH 460/560 |
+| `notebooks/312_starter.Rmd` | Guided exploration for ENVH 312 |
+| `notebooks/460_560_starter.Rmd` | Guided exploration for ENVH 460/560 (includes the ENVH 312 parts plus more advanced ones) |
 | `scripts/fetch_data.R` | Downloads the data from the DOL API (**requires a free API key**; see below) |
 | `scripts/build_dataset.R` | Builds the tables |
 

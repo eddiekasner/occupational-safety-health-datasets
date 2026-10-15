@@ -1,0 +1,254 @@
+---
+title: "BLS Census of Fatal Occupational Injuries (CFOI): Starter Notebook"
+subtitle: "ENVH 460/560"
+author: "Your name"
+output:
+  html_document:
+    toc: true
+    df_print: paged
+---
+
+The Census of Fatal Occupational Injuries (CFOI) is the official count of work-related deaths
+from injuries in the United States, produced by the Bureau of Labor Statistics (BLS). In this
+notebook you will explore who dies at work, how, and in which jobs. Read the module
+[README](../README.md) and [data dictionary](../data_dictionary.md) first.
+
+**How to use this notebook**
+
+- Run each code chunk in order (the green arrow in RStudio, or Ctrl/Cmd + Shift + Enter).
+- Answer the questions under each **Your answer** heading.
+- When you are done, click **Knit** to produce an HTML report to submit.
+
+# Part 0. Load the data
+
+The tables in `data/tidy/` are complete (not samples) and are committed to the repository.
+
+```{r setup, message = FALSE}
+library(readr)
+library(dplyr)
+library(tidyr)
+library(ggplot2)
+library(stringr)
+library(forcats)
+
+tidy_dir <- "../data/tidy"
+github <- paste0("https://raw.githubusercontent.com/eddiekasner/occupational-safety-health-datasets/",
+                 "main/modules/us-bls-cfoi/data/tidy")
+read_tidy <- function(name) {
+  local <- file.path(tidy_dir, name)
+  read_csv(if (file.exists(local)) local else file.path(github, name), show_col_types = FALSE)
+}
+
+national <- read_tidy("cfoi_national.csv")   # counts by characteristic, 2011-2022
+by_detail <- read_tidy("cfoi_by_detail.csv") # counts by industry, occupation, event, source
+states <- read_tidy("cfoi_states.csv")       # counts by state
+rates <- read_tidy("cfoi_rates.csv")         # rates per 100,000 FTE workers, 2023-2024
+```
+
+# Part 1. How many workers die each year?
+
+```{r totals}
+totals <- national |> filter(group == "All")
+totals
+
+rates |> filter(section == "Total")
+
+ggplot(totals, aes(year, fatalities)) +
+  geom_line() +
+  geom_point() +
+  expand_limits(y = 0) +
+  labs(title = "Fatal occupational injuries in the US", x = NULL, y = "Deaths")
+```
+
+**Questions**
+
+1. About how many workers died from work injuries each year? What happened in 2020, and why?
+2. CFOI counts deaths from **injuries**, not illnesses. Name two types of work-related deaths
+   that CFOI does not count. Why are they harder to count?
+3. CFOI confirms each death with at least two independent sources (for example death
+   certificates, workers' compensation reports, OSHA reports, news). Why does that make it more
+   complete than a system based on employer reports?
+
+**Your answer:**
+
+
+
+# Part 2. How do workers die?
+
+```{r events}
+events <- by_detail |> filter(detail_type == "event", display_level == 1)
+
+ggplot(events, aes(year, fatalities, colour = label)) +
+  geom_line() +
+  labs(title = "Fatal work injuries by event or exposure", x = NULL, y = "Deaths", colour = NULL) +
+  theme(legend.position = "bottom", legend.direction = "vertical")
+
+events |>
+  filter(year == max(year)) |>
+  mutate(share = round(100 * fatalities / sum(fatalities), 1)) |>
+  arrange(desc(fatalities)) |>
+  select(label, fatalities, share)
+```
+
+**Questions**
+
+1. What is the leading cause of death at work? Is that what you expected?
+2. Which event categories are increasing? Pick one and suggest an explanation.
+
+**Your answer:**
+
+
+
+# Part 3. Who dies at work?
+
+```{r who}
+latest <- max(national$year)
+
+national |>
+  filter(group %in% c("Gender", "Age group", "Worker status"), year == latest) |>
+  select(group, category, fatalities)
+
+national |>
+  filter(group == "Race", year == latest) |>
+  arrange(desc(fatalities)) |>
+  select(category, fatalities) |>
+  head(8)
+```
+
+Counts depend on how many people work in each group. **Rates** take that into account:
+
+```{r who-rates}
+rates |>
+  filter(section %in% c("Employee status", "Sex", "Age", "Race or ethnic origin")) |>
+  select(year, section, characteristic, rate_per_100k_fte) |>
+  pivot_wider(names_from = year, values_from = rate_per_100k_fte, names_prefix = "rate_")
+```
+
+**Questions**
+
+1. How many times higher is the fatal injury rate for men than for women? For self-employed
+   compared with wage and salary workers? Why might self-employed workers be at higher risk?
+2. How do rates change with age? Why are older workers at higher risk of dying from an injury?
+3. Hispanic or Latino workers have a higher rate than other groups. What factors could explain
+   this (think about industries, occupations, language, and immigration status)?
+
+**Your answer:**
+
+
+
+# Part 4. Most deaths vs. most dangerous
+
+```{r occupations}
+# Occupations with the most deaths (count), latest year
+by_detail |>
+  filter(detail_type == "occupation", display_level == 4, year == latest) |>
+  arrange(desc(fatalities)) |>
+  select(label, fatalities) |>
+  head(10)
+
+# Occupations with the highest rates, latest year with rates
+rates |>
+  filter(section == "Occupation", year == max(year)) |>
+  arrange(desc(rate_per_100k_fte)) |>
+  select(characteristic, hours_millions, rate_per_100k_fte, margin_of_error) |>
+  head(10)
+```
+
+**Questions**
+
+1. Which occupation has the most deaths? Which has the highest rate? Why are they different?
+2. If you were a policymaker with a limited budget, would you focus on the occupations with the
+   most deaths or the highest rates? Make a case for each.
+
+**Your answer:**
+
+
+
+# Part 5. States
+
+```{r states, fig.height = 8}
+states |>
+  filter(group == "All", area_type == "State or DC", year == latest) |>
+  ggplot(aes(fatalities, fct_reorder(state, fatalities))) +
+  geom_col() +
+  labs(title = paste("Fatal work injuries by state,", latest), x = "Deaths", y = NULL)
+```
+
+**Questions**
+
+1. Which states have the most deaths? Why is this not a fair comparison of how safe work is?
+2. New York appears three times in `states` (New York City, the rest of the state, and both
+   combined). Why is it important to check this before adding up states?
+
+**Your answer:**
+
+
+
+# Part 6. Uncertainty in rates
+
+Rates combine CFOI counts with hours worked estimated from the Current Population Survey, a
+sample survey. BLS publishes a **margin of error** for each rate.
+
+```{r uncertainty}
+rates |>
+  filter(section == "Occupation", year == max(year)) |>
+  mutate(lower = rate_per_100k_fte - margin_of_error,
+         upper = rate_per_100k_fte + margin_of_error) |>
+  slice_max(rate_per_100k_fte, n = 15) |>
+  ggplot(aes(rate_per_100k_fte, fct_reorder(characteristic, rate_per_100k_fte))) +
+  geom_pointrange(aes(xmin = lower, xmax = upper)) +
+  labs(title = "Highest occupational fatality rates, with margins of error",
+       x = "Deaths per 100,000 full-time equivalent workers", y = NULL)
+```
+
+**Questions**
+
+1. Which occupations have the widest margins of error? Why? (Look at `hours_millions`.)
+2. Can you say that logging is more dangerous than fishing? That roofers are more dangerous than
+   construction laborers? Explain using the margins of error.
+3. The rate formula is deaths / hours worked x 200,000,000. Why 200,000,000?
+
+**Your answer:**
+
+
+
+# Part 7. Homicides and suicides at work
+
+```{r violence}
+by_detail |>
+  filter(detail_type == "event", code %in% c("111XXX", "112XXX")) |>
+  ggplot(aes(year, fatalities, colour = label)) +
+  geom_line() +
+  geom_point() +
+  expand_limits(y = 0) +
+  labs(title = "Workplace homicides and suicides", x = NULL, y = "Deaths", colour = NULL) +
+  theme(legend.position = "bottom")
+```
+
+**Questions**
+
+1. Describe the trends. Which occupations or industries would you expect to have the most
+   homicides? How could you check with these data?
+2. CFOI counts suicides that happen at work. Is a suicide at work necessarily caused by work?
+   How should occupational health professionals think about work-related suicide prevention?
+
+**Your answer:**
+
+
+
+# Part 8. Comparing countries
+
+The US fatal injury rate was about 3.3 to 3.5 per 100,000 full-time equivalent workers in
+2023 to 2024. The Eurostat ESAW module in this repository shows an EU-27 standardised rate of
+about 2.1 per 100,000 persons employed.
+
+**Questions**
+
+1. List at least three differences between how CFOI and ESAW define and count fatal work
+   injuries (think about the self-employed, road traffic, the denominator, and the sectors covered).
+2. Given these differences, how confident are you that work in the US is more dangerous than in
+   the EU? What analysis would make the comparison fairer?
+
+**Your answer:**
+
+

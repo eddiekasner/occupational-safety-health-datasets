@@ -1,6 +1,6 @@
 ---
 title: "OSHA ITA Case Detail Data: Starter Notebook"
-subtitle: "ENVH 312 (Parts 1 to 5) and ENVH 460/560 (all parts)"
+subtitle: "ENVH 312"
 author: "Your name"
 output:
   html_document:
@@ -17,7 +17,6 @@ Read the module [README](../README.md) and [data dictionary](../data_dictionary.
 - Run each code chunk in order (the green arrow in RStudio, or Ctrl/Cmd + Shift + Enter).
 - Answer the questions under each **Your answer** heading.
 - When you are done, click **Knit** to produce an HTML report to submit.
-- Parts marked *ENVH 460/560* are required for graduate students and optional for ENVH 312.
 
 # Part 0. Load the data
 
@@ -213,83 +212,5 @@ ita |>
 
 **Your answer:**
 
-
-
-# Part 6 (ENVH 460/560). Reading the narratives
-
-Form 301 asks the employer to describe what happened in their own words. Find the
-narrative columns and search them for a hazard of your choice.
-
-```{r narratives}
-narrative_cols <- str_subset(names(ita), "^new_")  # "new_" marks fields OSHA redacted for privacy
-narrative_cols
-
-keyword <- "heat"   # try: ladder, forklift, lifting, needle, slip, chemical, violence
-
-narrative_text <- ita |>
-  select(all_of(narrative_cols)) |>
-  mutate(across(everything(), \(x) coalesce(x, ""))) |>
-  apply(1, paste, collapse = " ") |>
-  str_to_lower()
-
-hits <- ita[str_detect(narrative_text, fixed(keyword)), ]
-cat(nrow(hits), "cases mention", keyword,
-    sprintf("(%.1f%% of cases)\n", 100 * nrow(hits) / nrow(ita)))
-head(select(hits, all_of(narrative_cols)), 10)
-```
-
-**Questions**
-
-1. Read 10 matching narratives. How many actually describe the hazard you searched for?
-   What does that tell you about keyword searches as a surveillance method?
-2. Pick one hazard. Using the hierarchy of controls, propose one control that would have
-   prevented two of the cases you read.
-
-**Your answer:**
-
-
-
-# Part 7 (ENVH 460/560). From counts to rates
-
-Counts tell you where cases are, not where risk is highest. A rate needs a denominator.
-Each case row repeats its establishment's `total_hours_worked` from the 300A summary, so
-**do not sum hours across cases**. Take one row per establishment instead.
-
-$$\text{DART rate} = \frac{\text{cases with days away, restriction, or transfer} \times 200{,}000}{\text{total hours worked}}$$
-
-```{r rates}
-rate_year <- "2024"   # hours worked are reported per year, so compute one year at a time
-
-estab <- ita |>
-  filter(.data[[year_col]] == rate_year) |>
-  group_by(establishment_id, naics_2) |>
-  summarise(
-    dart_cases = sum(.data[[outcome_col]] %in% c("2", "3")),
-    hours = suppressWarnings(as.numeric(first(total_hours_worked))),
-    .groups = "drop"
-  )
-
-estab |>
-  filter(hours > 0) |>
-  group_by(naics_2) |>
-  summarise(establishments = n(), dart_cases = sum(dart_cases), hours = sum(hours)) |>
-  mutate(dart_rate = round(dart_cases * 200000 / hours, 2)) |>
-  filter(establishments >= 20) |>
-  arrange(desc(dart_rate))
-```
-
-**Questions**
-
-1. If you run this on the **sample**, the rates are far too low. Why? (Hint: what fraction of
-   each establishment's cases is in the sample?) Rerun it with the full data.
-2. Even with the full data, establishments that had **zero** cases are missing from this file.
-   Which direction does that bias the rates? How would the ITA **300A summary** file, linked by
-   `establishment_id`, fix it?
-3. This dataset only includes establishments with 100+ employees in designated industries.
-   How might that selection affect rates compared with BLS's national SOII estimates?
-4. Propose a research question that this dataset could answer and that aggregated BLS
-   tables could not.
-
-**Your answer:**
 
 

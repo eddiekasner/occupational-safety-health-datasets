@@ -70,7 +70,8 @@ legal limits.
 | `data/sample/chemical_exposure_sample.csv` | Every result from a random 5% of inspections (133,441 rows, 24 MB) |
 | `data/raw/` | OSHA's yearly zip files (not committed) |
 | `data/processed/` | The combined, cleaned table (not committed; built by `build_dataset.R`) |
-| `notebooks/01_starter.Rmd` | Guided exploration for ENVH 312 and ENVH 460/560 |
+| `notebooks/312_starter.Rmd` | Guided exploration for ENVH 312 |
+| `notebooks/460_560_starter.Rmd` | Guided exploration for ENVH 460/560 (includes the ENVH 312 parts plus more advanced ones) |
 | `scripts/fetch_data.R` | Downloads the yearly files from OSHA (about 55 MB) |
 | `scripts/build_dataset.R` | Cleans and combines the yearly files |
 | `scripts/make_sample.R` | Rebuilds the sample from the combined table |

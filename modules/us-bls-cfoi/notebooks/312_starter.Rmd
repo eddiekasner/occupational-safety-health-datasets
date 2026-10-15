@@ -1,6 +1,6 @@
 ---
 title: "BLS Census of Fatal Occupational Injuries (CFOI): Starter Notebook"
-subtitle: "ENVH 312 (Parts 1 to 5) and ENVH 460/560 (all parts)"
+subtitle: "ENVH 312"
 author: "Your name"
 output:
   html_document:
@@ -18,7 +18,6 @@ notebook you will explore who dies at work, how, and in which jobs. Read the mod
 - Run each code chunk in order (the green arrow in RStudio, or Ctrl/Cmd + Shift + Enter).
 - Answer the questions under each **Your answer** heading.
 - When you are done, click **Knit** to produce an HTML report to submit.
-- Parts marked *ENVH 460/560* are required for graduate students and optional for ENVH 312.
 
 # Part 0. Load the data
 
@@ -183,73 +182,5 @@ states |>
 
 **Your answer:**
 
-
-
-# Part 6 (ENVH 460/560). Uncertainty in rates
-
-Rates combine CFOI counts with hours worked estimated from the Current Population Survey, a
-sample survey. BLS publishes a **margin of error** for each rate.
-
-```{r uncertainty}
-rates |>
-  filter(section == "Occupation", year == max(year)) |>
-  mutate(lower = rate_per_100k_fte - margin_of_error,
-         upper = rate_per_100k_fte + margin_of_error) |>
-  slice_max(rate_per_100k_fte, n = 15) |>
-  ggplot(aes(rate_per_100k_fte, fct_reorder(characteristic, rate_per_100k_fte))) +
-  geom_pointrange(aes(xmin = lower, xmax = upper)) +
-  labs(title = "Highest occupational fatality rates, with margins of error",
-       x = "Deaths per 100,000 full-time equivalent workers", y = NULL)
-```
-
-**Questions**
-
-1. Which occupations have the widest margins of error? Why? (Look at `hours_millions`.)
-2. Can you say that logging is more dangerous than fishing? That roofers are more dangerous than
-   construction laborers? Explain using the margins of error.
-3. The rate formula is deaths / hours worked x 200,000,000. Why 200,000,000?
-
-**Your answer:**
-
-
-
-# Part 7 (ENVH 460/560). Homicides and suicides at work
-
-```{r violence}
-by_detail |>
-  filter(detail_type == "event", code %in% c("111XXX", "112XXX")) |>
-  ggplot(aes(year, fatalities, colour = label)) +
-  geom_line() +
-  geom_point() +
-  expand_limits(y = 0) +
-  labs(title = "Workplace homicides and suicides", x = NULL, y = "Deaths", colour = NULL) +
-  theme(legend.position = "bottom")
-```
-
-**Questions**
-
-1. Describe the trends. Which occupations or industries would you expect to have the most
-   homicides? How could you check with these data?
-2. CFOI counts suicides that happen at work. Is a suicide at work necessarily caused by work?
-   How should occupational health professionals think about work-related suicide prevention?
-
-**Your answer:**
-
-
-
-# Part 8 (ENVH 460/560). Comparing countries
-
-The US fatal injury rate was about 3.3 to 3.5 per 100,000 full-time equivalent workers in
-2023 to 2024. The Eurostat ESAW module in this repository shows an EU-27 standardised rate of
-about 2.1 per 100,000 persons employed.
-
-**Questions**
-
-1. List at least three differences between how CFOI and ESAW define and count fatal work
-   injuries (think about the self-employed, road traffic, the denominator, and the sectors covered).
-2. Given these differences, how confident are you that work in the US is more dangerous than in
-   the EU? What analysis would make the comparison fairer?
-
-**Your answer:**
 
 

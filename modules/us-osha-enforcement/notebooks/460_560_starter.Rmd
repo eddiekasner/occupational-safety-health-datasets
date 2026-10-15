@@ -1,0 +1,308 @@
+---
+title: "OSHA Enforcement Data: Starter Notebook"
+subtitle: "ENVH 460/560"
+author: "Your name"
+output:
+  html_document:
+    toc: true
+    df_print: paged
+---
+
+OSHA (and the 22 OSHA-approved "state plans" run by 21 states and Puerto Rico) enforce workplace safety and health standards by inspecting workplaces, citing violations and
+proposing penalties. Every inspection is recorded. This notebook uses inspections opened in
+federal fiscal years 2015 to 2025 (October 2014 to September 2025), their violations, and the
+accident investigations OSHA carries out after deaths and serious injuries. Read the module
+[README](../README.md) and [data dictionary](../data_dictionary.md) first.
+
+**How to use this notebook**
+
+- Run each code chunk in order (the green arrow in RStudio, or Ctrl/Cmd + Shift + Enter).
+- Answer the questions under each **Your answer** heading.
+- When you are done, click **Knit** to produce an HTML report to submit.
+
+# Part 0. Load the data
+
+The summary tables cover every inspection and violation. The `sample` files hold a 5% random
+sample of inspections with all of their violations, for record-level questions.
+
+```{r setup, message = FALSE}
+library(readr)
+library(dplyr)
+library(tidyr)
+library(ggplot2)
+library(stringr)
+library(forcats)
+
+base <- "https://raw.githubusercontent.com/eddiekasner/occupational-safety-health-datasets/main/modules/us-osha-enforcement/data"
+read_module <- function(folder, name) {
+  local <- file.path("..", "data", folder, name)
+  read_csv(if (file.exists(local)) local else file.path(base, folder, name), show_col_types = FALSE,
+           guess_max = 100000)
+}
+
+summary_tbl <- read_module("tidy", "inspection_summary.csv.gz")   # all inspections, aggregated
+standards <- read_module("tidy", "violation_standards.csv.gz")    # all violations, by standard
+accidents <- read_module("tidy", "accidents.csv.gz")              # accident investigations
+injuries <- read_module("tidy", "accident_injuries.csv.gz")       # injured or killed workers
+insp <- read_module("sample", "inspections_sample.csv.gz")        # 5% sample of inspections
+viol <- read_module("sample", "violations_sample.csv.gz")         # their violations
+
+# OSHA's own inspection counts leave out cases where no inspection took place
+inspected <- filter(summary_tbl, insp_scope != "No inspection")
+```
+
+# Part 1. How many inspections?
+
+```{r trend}
+by_year <- inspected |>
+  group_by(fiscal_year, jurisdiction) |>
+  summarise(inspections = sum(inspections), .groups = "drop")
+
+ggplot(by_year, aes(fiscal_year, inspections, colour = jurisdiction)) +
+  geom_line() +
+  geom_point() +
+  expand_limits(y = 0) +
+  scale_x_continuous(breaks = 2015:2025) +
+  scale_y_continuous(labels = scales::label_comma()) +
+  labs(title = "OSHA inspections by fiscal year", x = "Fiscal year", y = "Inspections", colour = NULL)
+
+by_year |> pivot_wider(names_from = jurisdiction, values_from = inspections)
+```
+
+**Questions**
+
+1. About how many inspections do federal OSHA and the state plans carry out each year?
+2. What happened in fiscal years 2020 and 2021? Why?
+3. There are roughly 10 million workplaces in the US. At this rate, about how often would a typical
+   workplace be inspected? What does that mean for how OSHA must choose where to go?
+
+**Your answer:**
+
+
+
+# Part 2. Why does OSHA inspect?
+
+**Planned** inspections are chosen in advance (for example under emphasis programs for high-hazard
+industries); **complaints** come from workers; **referrals** come from other agencies or the media,
+including employer reports of severe injuries; **fatality/catastrophe** inspections follow a death
+or the hospitalization of three or more workers.
+
+```{r types}
+inspected |>
+  filter(fiscal_year == 2024) |>
+  group_by(jurisdiction, insp_type) |>
+  summarise(inspections = sum(inspections), .groups = "drop_last") |>
+  mutate(share = inspections / sum(inspections)) |>
+  slice_max(inspections, n = 6) |>
+  arrange(jurisdiction, desc(inspections))
+
+inspected |>
+  filter(fiscal_year == 2024, jurisdiction == "Federal") |>
+  group_by(naics_sector) |>
+  summarise(inspections = sum(inspections)) |>
+  mutate(share = inspections / sum(inspections)) |>
+  arrange(desc(inspections)) |>
+  head(8)
+```
+
+**Questions**
+
+1. What share of federal inspections are planned? What share respond to complaints and referrals?
+2. Which industry receives the most federal inspections? Why might OSHA focus on it?
+3. A complaint inspection depends on a worker speaking up. Which workers might be least likely to
+   complain, and what does that mean for who gets protected?
+
+**Your answer:**
+
+
+
+# Part 3. What does OSHA cite?
+
+Standards are identified by their section of the Code of Federal Regulations, for example
+`1926.501` (fall protection in construction, 29 CFR 1926.501) or `1910.1200` (hazard communication).
+
+```{r standards}
+standards |>
+  filter(fiscal_year == 2024, jurisdiction == "Federal") |>
+  group_by(section) |>
+  summarise(violations = sum(violations), penalty = sum(current_penalty)) |>
+  arrange(desc(violations)) |>
+  head(10)
+
+standards |>
+  filter(jurisdiction == "Federal") |>
+  group_by(fiscal_year, viol_type) |>
+  summarise(violations = sum(violations), .groups = "drop") |>
+  ggplot(aes(fiscal_year, violations, fill = viol_type)) +
+  geom_col() +
+  scale_x_continuous(breaks = 2015:2025) +
+  labs(title = "Federal OSHA violations by type", x = "Fiscal year", y = "Violations", fill = NULL)
+```
+
+**Questions**
+
+1. Look up the top five standards. What hazard does each address?
+2. Which type of violation is most common? What makes a violation "serious", "willful" or "repeat"?
+3. Compare the most-cited standards with the leading causes of death in the CFOI module. Do they
+   match?
+
+**Your answer:**
+
+
+
+# Part 4. Penalties
+
+The **initial** penalty is what OSHA proposes; the **current** penalty is what remains after
+informal settlement, contest and final orders.
+
+```{r penalties}
+viol |>
+  filter(viol_type %in% c("Serious", "Willful", "Repeat"), initial_penalty > 0) |>
+  group_by(viol_type) |>
+  summarise(violations = n(),
+            median_initial = median(initial_penalty),
+            median_current = median(current_penalty, na.rm = TRUE),
+            share_reduced = mean(current_penalty < initial_penalty, na.rm = TRUE))
+
+insp |>
+  filter(violations > 0, insp_scope != "No inspection") |>
+  mutate(size = cut(employees, c(-Inf, 10, 50, 250, Inf),
+                    labels = c("1-10", "11-50", "51-250", "251+"))) |>
+  group_by(size) |>
+  summarise(inspections = n(), median_current_penalty = median(current_penalty))
+```
+
+**Questions**
+
+1. What is the median penalty for a serious violation? How often are penalties reduced, and by how
+   much?
+2. Do larger employers pay larger penalties? OSHA reduces penalties for small employers. Is that fair?
+3. Does a penalty of this size create a strong incentive to prevent injuries? Compare it with the
+   cost of a serious injury to an employer.
+
+**Your answer:**
+
+
+
+# Part 5. Investigations of deaths and serious injuries
+
+Each accident investigation includes a short narrative.
+
+```{r accidents}
+accidents |>
+  filter(fatality) |>
+  count(fiscal_year, name = "fatality_investigations")
+
+accidents |>
+  filter(fatality, fiscal_year == 2024) |>
+  count(naics_sector, sort = TRUE) |>
+  head(8)
+
+# Kinds of fatal events, by year (the injuries table links to accidents by summary_nr)
+injuries |>
+  filter(degree == "Fatality") |>
+  inner_join(select(accidents, summary_nr, fiscal_year), by = "summary_nr") |>
+  filter(fiscal_year %in% c(2019, 2021, 2024)) |>
+  count(fiscal_year, event_type) |>
+  pivot_wider(names_from = fiscal_year, values_from = n, names_prefix = "FY") |>
+  arrange(desc(FY2021)) |>
+  head(6)
+
+# Search the narratives
+trench <- accidents |>
+  filter(fatality, str_detect(str_to_lower(narrative), "trench|excavation"))
+nrow(trench)
+set.seed(1)
+trench |> slice_sample(n = 3) |> pull(narrative) |> str_trunc(400)
+```
+
+**Questions**
+
+1. About how many work-related deaths does OSHA investigate each year? The CFOI counts about 5,000
+   deaths a year. Why does OSHA investigate fewer than half?
+2. Fatality investigations jumped in fiscal years 2020 and 2021. Which event type rose? What was happening? Why is fiscal year 2025 so low (hint: investigations
+   take time to close and enter)?
+3. Read three narratives. For each, identify the hazard and one control (using the hierarchy of
+   controls) that would have prevented the death.
+4. Search the narratives for another hazard of your choice (for example "heat", "forklift" or
+   "fell"). How many fatal investigations mention it?
+
+**Your answer:**
+
+
+
+# Part 6. Which inspections find violations?
+
+```{r hit-rate}
+insp |>
+  filter(insp_scope %in% c("Complete", "Partial"), fiscal_year >= 2022) |>
+  group_by(jurisdiction, insp_type) |>
+  summarise(inspections = n(), with_violations = mean(violations > 0),
+            serious_per_inspection = mean(serious), .groups = "drop") |>
+  filter(inspections >= 100) |>
+  arrange(jurisdiction, desc(with_violations))
+```
+
+**Questions**
+
+1. Which kinds of inspections most often find violations? Why might complaint or referral
+   inspections find more (or fewer) violations than planned ones?
+2. Is the share of inspections with violations a good measure of how well OSHA targets its
+   inspections? What else would you want to know?
+3. The sample is 5% of inspections. Compute a 95% confidence interval for the share of planned
+   federal inspections with a violation.
+
+**Your answer:**
+
+
+
+# Part 7. Linking records
+
+The inspection number (`activity_nr`) links inspections, violations and accident investigations,
+and appears in other OSHA data (the Severe Injury Reports module, for example).
+
+```{r linking}
+fatal_inspections <- insp |>
+  filter(insp_type == "Fatality/catastrophe", insp_scope != "No inspection")
+
+fatal_inspections |>
+  summarise(inspections = n(), with_violations = mean(violations > 0),
+            median_penalty = median(current_penalty))
+
+viol |>
+  semi_join(fatal_inspections, by = "activity_nr") |>
+  count(section, sort = TRUE) |>
+  head(10)
+
+injuries |>
+  filter(degree == "Fatality") |>
+  count(event_type, sort = TRUE) |>
+  head(8)
+```
+
+**Questions**
+
+1. After a fatality inspection, what share of employers are cited? Which standards are cited most?
+2. If an employer is not cited after a worker's death, what might that mean?
+3. Design a study that uses inspection numbers to link Severe Injury Reports to the inspections and
+   violations that followed. What question would it answer?
+
+**Your answer:**
+
+
+
+# Part 8. What enforcement data can and cannot tell you
+
+**Questions**
+
+1. Enforcement data record what inspectors found where they looked. Why can't you use them to
+   estimate how common a hazard is across all workplaces?
+2. State-plan states run their own programs, with their own standards and penalties. Give two
+   reasons comparisons between federal and state-plan enforcement need care.
+3. Some workers (for example many public-sector workers in federal-OSHA states, and the
+   self-employed) are not covered by OSHA. How would you find out how many?
+
+**Your answer:**
+
+
+

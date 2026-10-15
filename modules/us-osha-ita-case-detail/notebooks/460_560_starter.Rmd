@@ -1,0 +1,294 @@
+---
+title: "OSHA ITA Case Detail Data: Starter Notebook"
+subtitle: "ENVH 460/560"
+author: "Your name"
+output:
+  html_document:
+    toc: true
+    df_print: paged
+---
+
+In this notebook you will explore individual workplace injuries and illnesses that
+employers reported to OSHA through the Injury Tracking Application (ITA).
+Read the module [README](../README.md) and [data dictionary](../data_dictionary.md) first.
+
+**How to use this notebook**
+
+- Run each code chunk in order (the green arrow in RStudio, or Ctrl/Cmd + Shift + Enter).
+- Answer the questions under each **Your answer** heading.
+- When you are done, click **Knit** to produce an HTML report to submit.
+
+# Part 0. Load the data
+
+By default this notebook uses the **sample** (5,000 random cases from each year, 2023 to 2025),
+which is committed to the repository. To use the **full** data, run
+`scripts/fetch_data.R` first and set `use_full_data <- TRUE`.
+
+```{r setup, message = FALSE}
+library(readr)
+library(dplyr)
+library(ggplot2)
+library(stringr)
+library(forcats)
+
+use_full_data <- FALSE
+
+raw_dir <- "../data/raw"
+sample_path <- "../data/sample/ita_case_detail_sample.csv"
+sample_url <- paste0("https://raw.githubusercontent.com/eddiekasner/occupational-safety-health-datasets/",
+                     "main/modules/us-osha-ita-case-detail/data/sample/ita_case_detail_sample.csv")
+
+read_ita <- function(path) {
+  df <- read_csv(path, col_types = cols(.default = col_character()), progress = FALSE)
+  names(df) <- tolower(trimws(names(df)))
+  # The 2023 file calls this column year_filing_for; later years use year_of_filing
+  names(df)[names(df) == "year_filing_for"] <- "year_of_filing"
+  df
+}
+
+if (use_full_data) {
+  files <- list.files(raw_dir, pattern = "\\.(csv|zip)$", ignore.case = TRUE, full.names = TRUE)
+  if (length(files) == 0) stop("No files in ", raw_dir, ". Run scripts/fetch_data.R first.")
+  ita <- bind_rows(lapply(files, function(f) mutate(read_ita(f), source_file = basename(f))))
+} else {
+  # Falls back to the copy on GitHub if the sample is not on your computer
+  ita <- read_ita(if (file.exists(sample_path)) sample_path else sample_url)
+}
+
+cat(format(nrow(ita), big.mark = ","), "cases,", ncol(ita), "columns\n")
+```
+
+Column names differ slightly between years (for example, the 2025 file does not have the
+OIICS codes yet). `pick()` finds the first name that exists.
+
+```{r columns}
+pick <- function(...) {
+  candidates <- c(...)
+  found <- intersect(candidates, names(ita))
+  if (length(found) == 0) {
+    message("None of ", paste(candidates, collapse = ", "),
+            " found. Check names(ita) against the data dictionary.")
+    return(NA_character_)
+  }
+  found[1]
+}
+
+outcome_col   <- pick("incident_outcome")
+days_away_col <- pick("dafw_num_away")
+type_col      <- pick("type_of_incident")
+naics_col     <- pick("naics_code")
+state_col     <- pick("state")
+soc_col       <- pick("soc_description", "soc_code")
+year_col      <- pick("year_of_filing", "source_file")
+
+outcome_labels <- c("1" = "Death", "2" = "Days away from work",
+                    "3" = "Job transfer or restriction", "4" = "Other recordable case")
+type_labels <- c("1" = "Injury", "2" = "Skin disorder", "3" = "Respiratory condition",
+                 "4" = "Poisoning", "5" = "Hearing loss", "6" = "All other illnesses")
+```
+
+# Part 1. Get oriented
+
+Before analyzing anything, find out what one row represents and what the columns contain.
+
+```{r orient}
+names(ita)
+glimpse(head(ita, 3))
+if (!is.na(year_col)) count(ita, .data[[year_col]])
+```
+
+**Questions**
+
+1. What does one row in this dataset represent?
+2. Pick three columns you did not expect to see. What are they, and why might OSHA collect them?
+3. Which employers are required to submit this data? Who is *not* represented?
+
+**Your answer:**
+
+
+
+# Part 2. How serious are these cases?
+
+```{r outcomes}
+ita <- ita |>
+  mutate(outcome = coalesce(unname(outcome_labels[.data[[outcome_col]]]), "Unknown/missing"),
+         case_type = coalesce(unname(type_labels[.data[[type_col]]]), "Unknown/missing"))
+
+ita |>
+  count(outcome, sort = TRUE) |>
+  mutate(percent = round(100 * n / sum(n), 1))
+
+ggplot(ita, aes(y = fct_rev(fct_infreq(outcome)))) +
+  geom_bar() +
+  labs(title = "Cases by most serious outcome", x = "Number of cases", y = NULL)
+
+count(ita, case_type, sort = TRUE)
+```
+
+**Questions**
+
+1. What share of cases involved days away from work? Job transfer or restriction?
+2. Illnesses make up a small share of cases. Give two reasons why work-related
+   illnesses are probably under-recorded on OSHA logs.
+
+**Your answer:**
+
+
+
+# Part 3. Days away from work
+
+```{r days-away}
+days <- ita |>
+  mutate(days_away = suppressWarnings(as.numeric(.data[[days_away_col]]))) |>
+  filter(days_away > 0)
+
+summary(days$days_away)
+sum(days$days_away > 180)
+
+ggplot(days, aes(x = pmin(days_away, 180))) +
+  geom_histogram(binwidth = 5) +
+  labs(title = "Days away from work (capped at 180)", x = "Days", y = "Cases")
+```
+
+**Questions**
+
+1. Compare the mean and median. What does the difference tell you about the shape of the distribution?
+2. OSHA recordkeeping rules say employers may stop counting days away at 180 for a single case.
+   How many cases in the data are above 180? What does that suggest about data quality, and
+   how would you handle these values?
+
+**Your answer:**
+
+
+
+# Part 4. Who and where?
+
+NAICS codes are hierarchical. The first two digits give the industry sector
+(for example 23 = construction, 31 to 33 = manufacturing, 48 to 49 = transportation and
+warehousing, 62 = health care and social assistance).
+
+```{r who-where}
+ita <- mutate(ita, naics_2 = str_sub(.data[[naics_col]], 1, 2))
+
+count(ita, naics_2, sort = TRUE) |> head(10)
+count(ita, .data[[soc_col]], sort = TRUE) |> head(15)
+if (!is.na(state_col)) count(ita, .data[[state_col]], sort = TRUE) |> head(10)
+```
+
+**Questions**
+
+1. Which sectors and occupations account for the most cases?
+2. Many cases have an occupation of "Uncoded" or "Insufficient Information - NIOSH". Look at
+   some `job_description` values for those cases. Why might the autocoder fail, and how could
+   that bias a comparison between occupations?
+3. Does having the most cases mean an industry is the *most dangerous*? What would you need
+   to know to compare risk between industries? (Hint: see "incidence rate" in the data dictionary.)
+
+**Your answer:**
+
+
+
+# Part 5. What happened? (OIICS codes)
+
+BLS used an autocoder to assign **Occupational Injury and Illness Classification System
+(OIICS)** codes to each case from the narratives: the *event* (how the injury happened), the
+*nature* (what the injury was), the *part of body*, and the *source* (what caused it).
+Only 2-digit codes were assigned. The 2025 file does not have OIICS codes yet; OSHA adds them
+after the year is complete.
+
+```{r oiics}
+ita |>
+  filter(!is.na(event_title_pred)) |>
+  count(.data[[year_col]], event_title_pred, sort = TRUE) |>
+  group_by(.data[[year_col]]) |>
+  slice_head(n = 5)
+```
+
+**Questions**
+
+1. What are the three most common events? Are they what you expected?
+2. Compare the event labels for 2023 and 2024. Do they use the same wording? What would you
+   need to check before comparing OIICS categories across years?
+
+**Your answer:**
+
+
+
+# Part 6. Reading the narratives
+
+Form 301 asks the employer to describe what happened in their own words. Find the
+narrative columns and search them for a hazard of your choice.
+
+```{r narratives}
+narrative_cols <- str_subset(names(ita), "^new_")  # "new_" marks fields OSHA redacted for privacy
+narrative_cols
+
+keyword <- "heat"   # try: ladder, forklift, lifting, needle, slip, chemical, violence
+
+narrative_text <- ita |>
+  select(all_of(narrative_cols)) |>
+  mutate(across(everything(), \(x) coalesce(x, ""))) |>
+  apply(1, paste, collapse = " ") |>
+  str_to_lower()
+
+hits <- ita[str_detect(narrative_text, fixed(keyword)), ]
+cat(nrow(hits), "cases mention", keyword,
+    sprintf("(%.1f%% of cases)\n", 100 * nrow(hits) / nrow(ita)))
+head(select(hits, all_of(narrative_cols)), 10)
+```
+
+**Questions**
+
+1. Read 10 matching narratives. How many actually describe the hazard you searched for?
+   What does that tell you about keyword searches as a surveillance method?
+2. Pick one hazard. Using the hierarchy of controls, propose one control that would have
+   prevented two of the cases you read.
+
+**Your answer:**
+
+
+
+# Part 7. From counts to rates
+
+Counts tell you where cases are, not where risk is highest. A rate needs a denominator.
+Each case row repeats its establishment's `total_hours_worked` from the 300A summary, so
+**do not sum hours across cases**. Take one row per establishment instead.
+
+$$\text{DART rate} = \frac{\text{cases with days away, restriction, or transfer} \times 200{,}000}{\text{total hours worked}}$$
+
+```{r rates}
+rate_year <- "2024"   # hours worked are reported per year, so compute one year at a time
+
+estab <- ita |>
+  filter(.data[[year_col]] == rate_year) |>
+  group_by(establishment_id, naics_2) |>
+  summarise(
+    dart_cases = sum(.data[[outcome_col]] %in% c("2", "3")),
+    hours = suppressWarnings(as.numeric(first(total_hours_worked))),
+    .groups = "drop"
+  )
+
+estab |>
+  filter(hours > 0) |>
+  group_by(naics_2) |>
+  summarise(establishments = n(), dart_cases = sum(dart_cases), hours = sum(hours)) |>
+  mutate(dart_rate = round(dart_cases * 200000 / hours, 2)) |>
+  filter(establishments >= 20) |>
+  arrange(desc(dart_rate))
+```
+
+**Questions**
+
+1. If you run this on the **sample**, the rates are far too low. Why? (Hint: what fraction of
+   each establishment's cases is in the sample?) Rerun it with the full data.
+2. Even with the full data, establishments that had **zero** cases are missing from this file.
+   Which direction does that bias the rates? How would the ITA **300A summary** file, linked by
+   `establishment_id`, fix it?
+3. This dataset only includes establishments with 100+ employees in designated industries.
+   How might that selection affect rates compared with BLS's national SOII estimates?
+4. Propose a research question that this dataset could answer and that aggregated BLS
+   tables could not.
+
+**Your answer:**
+
+

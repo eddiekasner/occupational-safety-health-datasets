@@ -1,6 +1,6 @@
 ---
 title: "OSHA Enforcement Data: Starter Notebook"
-subtitle: "ENVH 312 (Parts 1 to 5) and ENVH 460/560 (all parts)"
+subtitle: "ENVH 312"
 author: "Your name"
 output:
   html_document:
@@ -19,7 +19,6 @@ accident investigations OSHA carries out after deaths and serious injuries. Read
 - Run each code chunk in order (the green arrow in RStudio, or Ctrl/Cmd + Shift + Enter).
 - Answer the questions under each **Your answer** heading.
 - When you are done, click **Knit** to produce an HTML report to submit.
-- Parts marked *ENVH 460/560* are required for graduate students and optional for ENVH 312.
 
 # Part 0. Load the data
 
@@ -227,81 +226,6 @@ trench |> slice_sample(n = 3) |> pull(narrative) |> str_trunc(400)
    controls) that would have prevented the death.
 4. Search the narratives for another hazard of your choice (for example "heat", "forklift" or
    "fell"). How many fatal investigations mention it?
-
-**Your answer:**
-
-
-
-# Part 6 (ENVH 460/560). Which inspections find violations?
-
-```{r hit-rate}
-insp |>
-  filter(insp_scope %in% c("Complete", "Partial"), fiscal_year >= 2022) |>
-  group_by(jurisdiction, insp_type) |>
-  summarise(inspections = n(), with_violations = mean(violations > 0),
-            serious_per_inspection = mean(serious), .groups = "drop") |>
-  filter(inspections >= 100) |>
-  arrange(jurisdiction, desc(with_violations))
-```
-
-**Questions**
-
-1. Which kinds of inspections most often find violations? Why might complaint or referral
-   inspections find more (or fewer) violations than planned ones?
-2. Is the share of inspections with violations a good measure of how well OSHA targets its
-   inspections? What else would you want to know?
-3. The sample is 5% of inspections. Compute a 95% confidence interval for the share of planned
-   federal inspections with a violation.
-
-**Your answer:**
-
-
-
-# Part 7 (ENVH 460/560). Linking records
-
-The inspection number (`activity_nr`) links inspections, violations and accident investigations,
-and appears in other OSHA data (the Severe Injury Reports module, for example).
-
-```{r linking}
-fatal_inspections <- insp |>
-  filter(insp_type == "Fatality/catastrophe", insp_scope != "No inspection")
-
-fatal_inspections |>
-  summarise(inspections = n(), with_violations = mean(violations > 0),
-            median_penalty = median(current_penalty))
-
-viol |>
-  semi_join(fatal_inspections, by = "activity_nr") |>
-  count(section, sort = TRUE) |>
-  head(10)
-
-injuries |>
-  filter(degree == "Fatality") |>
-  count(event_type, sort = TRUE) |>
-  head(8)
-```
-
-**Questions**
-
-1. After a fatality inspection, what share of employers are cited? Which standards are cited most?
-2. If an employer is not cited after a worker's death, what might that mean?
-3. Design a study that uses inspection numbers to link Severe Injury Reports to the inspections and
-   violations that followed. What question would it answer?
-
-**Your answer:**
-
-
-
-# Part 8 (ENVH 460/560). What enforcement data can and cannot tell you
-
-**Questions**
-
-1. Enforcement data record what inspectors found where they looked. Why can't you use them to
-   estimate how common a hazard is across all workplaces?
-2. State-plan states run their own programs, with their own standards and penalties. Give two
-   reasons comparisons between federal and state-plan enforcement need care.
-3. Some workers (for example many public-sector workers in federal-OSHA states, and the
-   self-employed) are not covered by OSHA. How would you find out how many?
 
 **Your answer:**
 

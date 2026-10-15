@@ -59,7 +59,8 @@ identify the most dangerous jobs, track trends, and set prevention priorities.
 | `data/tidy/cfoi_states.csv` | Counts by state and characteristic, 2011 to 2022 |
 | `data/tidy/cfoi_rates.csv` | Rates per 100,000 FTE workers with margins of error, 2023 and 2024 |
 | `data/raw/` | BLS downloads (not committed; the main data file is about 620 MB) |
-| `notebooks/01_starter.Rmd` | Guided exploration for ENVH 312 and ENVH 460/560 |
+| `notebooks/312_starter.Rmd` | Guided exploration for ENVH 312 |
+| `notebooks/460_560_starter.Rmd` | Guided exploration for ENVH 460/560 (includes the ENVH 312 parts plus more advanced ones) |
 | `scripts/fetch_data.R` | Downloads the BLS files (**requires your email address**; see below) |
 | `scripts/build_dataset.R` | Builds the tidy tables |
 

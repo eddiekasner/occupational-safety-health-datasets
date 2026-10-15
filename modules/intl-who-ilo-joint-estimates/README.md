@@ -76,7 +76,8 @@ from mesothelioma attributable to occupational asbestos exposure, men aged 65 to
 | `data/tidy/exposure.csv.gz` | People exposed to long working hours and to solar UV radiation at work |
 | `data/tidy/disease_death_rate.csv.gz` | Deaths from all work-related diseases per 100,000 population (the summary indicator) |
 | `data/raw/` | Exports from the WHO application (not committed; about 1 GB) |
-| `notebooks/01_starter.Rmd` | Guided exploration for ENVH 312 and ENVH 460/560 |
+| `notebooks/312_starter.Rmd` | Guided exploration for ENVH 312 |
+| `notebooks/460_560_starter.Rmd` | Guided exploration for ENVH 460/560 (includes the ENVH 312 parts plus more advanced ones) |
 | `scripts/fetch_data.R` | How to get the exports (by hand, or by running `export_from_app.js`) |
 | `scripts/export_from_app.js` | Downloads every export from the WHO application with a headless browser (Node.js and Playwright) |
 | `scripts/build_dataset.R` | Builds the tidy tables, with checks against the 2021 report |

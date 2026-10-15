@@ -1,6 +1,6 @@
 ---
 title: "OSHA Chemical Exposure Health Data: Starter Notebook"
-subtitle: "ENVH 312 (Parts 1 to 6) and ENVH 460/560 (all parts)"
+subtitle: "ENVH 312"
 author: "Your name"
 output:
   html_document:
@@ -17,7 +17,6 @@ Read the module [README](../README.md) and [data dictionary](../data_dictionary.
 - Run each code chunk in order (the green arrow in RStudio, or Ctrl/Cmd + Shift + Enter).
 - Answer the questions under each **Your answer** heading.
 - When you are done, click **Knit** to produce an HTML report to submit.
-- Parts marked *ENVH 460/560* are required for graduate students and optional for ENVH 312.
 
 # Part 0. Load the data
 
@@ -241,83 +240,5 @@ ggplot(lead_by_year, aes(year, share_over_pel)) +
 
 **Your answer:**
 
-
-
-# Part 7 (ENVH 460/560). From samples to an 8-hour TWA
-
-All the field samples with the same `sampling_number` belong to one exposure assessment.
-An 8-hour TWA combines them:
-
-$$\text{TWA}_8 = \frac{\sum_i C_i \, t_i}{480 \text{ minutes}}$$
-
-If the samples cover less than 480 minutes, you must make an assumption about the time that
-was not sampled. Below are two common choices:
-
-- **Assume zero** for the unsampled time (divide by 480): a lower bound.
-- **Assume the same** concentration continued (divide by the minutes sampled).
-
-```{r twa}
-lead_twa <- lead |>
-  filter(!is.na(ug_m3), !is.na(time_sampled), time_sampled > 0) |>
-  group_by(sampling_number) |>
-  summarise(minutes = sum(time_sampled),
-            twa_zero = sum(ug_m3 * time_sampled) / 480,
-            twa_same = sum(ug_m3 * time_sampled) / minutes,
-            .groups = "drop")
-
-lead_twa |>
-  summarise(assessments = n(),
-            over_pel_assume_zero = mean(twa_zero > 50),
-            over_pel_assume_same = mean(twa_same > 50),
-            over_al_assume_zero = mean(twa_zero > 30))
-```
-
-**Questions**
-
-1. How much does the exceedance fraction change between the two assumptions? Which one
-   would an employer prefer, and which would a worker advocate prefer?
-2. OSHA compliance officers often try to sample the *worst-case* tasks. How does that
-   affect the exceedance fractions you calculated?
-3. What would you need to know about the worker's full shift to choose between the assumptions?
-
-**Your answer:**
-
-
-
-# Part 8 (ENVH 460/560). Silica exposures by industry
-
-The respirable crystalline silica standards (2016) set a **PEL of 50 µg/m³** and an
-**action level of 25 µg/m³** (8-hour TWA). OSHA's lab began reporting mixed respirable
-silica as an air concentration (code 9000) in 2015, so this part covers recent years only.
-
-```{r silica}
-silica <- personal |>
-  filter(imis_substance_code == "9000", unit_of_measurement %in% c("mcg/m3", "M")) |>
-  mutate(ug_m3 = if_else(unit_of_measurement == "M", sample_result * 1000, sample_result),
-         detected = is.na(qualifier) | !str_detect(qualifier, "ND"),
-         naics_2 = str_sub(naics_code, 1, 2))
-
-silica |>
-  filter(detected, ug_m3 > 0) |>
-  group_by(naics_2) |>
-  summarise(results = n(),
-            geometric_mean = round(exp(mean(log(ug_m3))), 1),
-            median = round(median(ug_m3), 1),
-            share_over_pel = round(mean(ug_m3 > 50), 2)) |>
-  filter(results >= 10) |>
-  arrange(desc(geometric_mean))
-```
-
-**Questions**
-
-1. Which sectors have the highest silica exposures? (NAICS 23 = construction,
-   31 to 33 = manufacturing, 32 includes stone, glass and concrete products.)
-2. Why do industrial hygienists report the **geometric mean** instead of the arithmetic mean?
-3. This table only uses *detected* results. What share of silica results were non-detects?
-   Why can't you take the logarithm of a non-detect recorded as 0? What better methods exist
-   for handling non-detects?
-4. Using what you learned in Part 7, how would you improve this analysis?
-
-**Your answer:**
 
 

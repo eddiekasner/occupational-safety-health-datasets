@@ -59,7 +59,8 @@ sectors, and study migrant workers and labour inspection capacity.
 | `data/tidy/injuries_by_sector.csv` | Fatal and non-fatal injury rates by economic activity (41,478 rows) |
 | `data/tidy/labour_inspection.csv` | Labour inspection indicators (5,146 rows) |
 | `data/raw/` | The 19 original ILOSTAT downloads (not committed) |
-| `notebooks/01_starter.Rmd` | Guided exploration for ENVH 312 and ENVH 460/560 |
+| `notebooks/312_starter.Rmd` | Guided exploration for ENVH 312 |
+| `notebooks/460_560_starter.Rmd` | Guided exploration for ENVH 460/560 (includes the ENVH 312 parts plus more advanced ones) |
 | `scripts/fetch_data.R` | Downloads the 19 indicators from the ILOSTAT API (about 135 MB) |
 | `scripts/build_dataset.R` | Builds the three tidy tables from the downloads |
 
