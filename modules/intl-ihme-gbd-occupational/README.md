@@ -8,6 +8,12 @@ latest GBD round (GBD 2023 covers 1990 to 2023)
 > others to download. Each student downloads the data from IHME (free, with an account) by
 > following the steps below, then runs one script. This takes about 20 minutes the first time.
 
+> **Instructors: not yet tested on real downloads.** The scripts and notebooks were tested on mock
+> files in GBD's download layout, not on real IHME data, and the download steps were written
+> without access to the GBD Results Tool. Before assigning this module, make the two downloads
+> yourself, run `scripts/prepare_data.R`, and knit both notebooks to check the steps, the file
+> format and the questions.
+
 ## Background
 
 The Global Burden of Disease (GBD) study estimates deaths and ill health from more than 370
