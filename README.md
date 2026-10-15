@@ -32,6 +32,7 @@ Each module gives students:
 | [OSHA enforcement: inspections, violations, cited standards and accident investigations](modules/us-osha-enforcement/) | US | OSHA | Ready |
 | [MSHA mine safety: accidents, injury rates and violations](modules/us-msha-mine-safety/) | US | MSHA | Ready |
 | [OSHA ITA summary (Form 300A): establishment injury rates](modules/us-osha-ita-summary/) | US | OSHA | Ready |
+| [Global Burden of Disease: occupational risks](modules/intl-ihme-gbd-occupational/) (students download the data from IHME) | International | IHME | Draft (not yet tested on real data) |
 
 See [CATALOG.md](CATALOG.md) for candidate datasets (US and international) and their status.
 
@@ -75,6 +76,7 @@ modules/
   _template/               copy this to start a new module
   us-osha-ita-case-detail/ OSHA Injury Tracking Application case detail data
   us-osha-ita-summary/     OSHA Form 300A injury totals and hours for each establishment
+  intl-ihme-gbd-occupational/ GBD deaths and DALYs from occupational risks (download from IHME)
   us-osha-chemical-exposure/ OSHA air, wipe and bulk sampling results
   intl-ilostat-osh/        ILO injury and labour inspection statistics by country
   intl-eurostat-esaw/      Eurostat accidents at work in Europe

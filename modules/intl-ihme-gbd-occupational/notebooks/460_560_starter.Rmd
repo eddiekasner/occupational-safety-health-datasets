@@ -1,0 +1,350 @@
+---
+title: "Global Burden of Disease, Occupational Risks: Starter Notebook"
+subtitle: "ENVH 460/560"
+author: "Your name"
+output:
+  html_document:
+    toc: true
+    df_print: paged
+---
+
+The Global Burden of Disease (GBD) study, run by the Institute for Health Metrics and Evaluation
+(IHME), estimates how many deaths and disability-adjusted life years (DALYs) in every country and
+year since 1990 are attributable to occupational risks: carcinogens, asthmagens, particulate
+matter, gases and fumes, noise, injuries, and ergonomic factors. Read the module
+[README](../README.md) and [data dictionary](../data_dictionary.md) first.
+
+**Before you start:** this notebook needs data you download yourself from IHME. Follow
+"Getting the data" in the README, then run `scripts/prepare_data.R`.
+
+**How to use this notebook**
+
+- Run each code chunk in order (the green arrow in RStudio, or Ctrl/Cmd + Shift + Enter).
+- Answer the questions under each **Your answer** heading.
+- When you are done, click **Knit** to produce an HTML report to submit.
+
+# Part 0. Load the data
+
+```{r setup, message = FALSE}
+library(readr)
+library(dplyr)
+library(tidyr)
+library(ggplot2)
+library(stringr)
+library(forcats)
+
+path <- file.path("..", "data", "processed", "gbd_occupational.csv.gz")
+if (!file.exists(path)) {
+  stop("No prepared GBD data. Download the data as described in the README, put the files in ",
+       "data/raw/, and run scripts/prepare_data.R.")
+}
+gbd <- read_csv(path, show_col_types = FALSE)
+
+latest <- max(gbd$year)
+cat("Years", min(gbd$year), "to", latest, "\n")
+count(distinct(gbd, level, location), level)
+
+# The six occupational risks one level below "Occupational risks"
+level3 <- c("Occupational carcinogens", "Occupational asthmagens",
+            "Occupational particulate matter, gases, and fumes", "Occupational noise",
+            "Occupational injuries", "Occupational ergonomic factors")
+```
+
+The **metric** matters:
+
+- `Number`: deaths or DALYs.
+- `Rate`: per 100,000 people (the whole population, not only workers).
+- `Percent`: share of **all** deaths or DALYs from every cause (stored as a proportion, so 0.02
+  means 2%).
+
+Every estimate has a 95% uncertainty interval (`lower` to `upper`).
+
+# Part 1. The global burden over time
+
+```{r global}
+global <- gbd |>
+  filter(location == "Global", risk == "Occupational risks", sex == "Both")
+
+global |>
+  filter(metric == "Number", age == "All ages") |>
+  ggplot(aes(year, val / 1e6, ymin = lower / 1e6, ymax = upper / 1e6)) +
+  geom_ribbon(alpha = 0.2) +
+  geom_line() +
+  facet_wrap(~measure, scales = "free_y") +
+  expand_limits(y = 0) +
+  labs(title = "Burden attributable to occupational risks, world", x = NULL, y = "Millions")
+
+global |>
+  filter(year %in% c(1990, 2000, 2010, latest), age %in% c("All ages", "Age-standardized")) |>
+  mutate(value = case_when(metric == "Number" ~ round(val),
+                           metric == "Percent" ~ round(val * 100, 2),
+                           TRUE ~ round(val, 1))) |>
+  select(measure, metric, age, year, value) |>
+  pivot_wider(names_from = year, values_from = value)
+```
+
+**Questions**
+
+1. About how many deaths and DALYs were attributable to occupational risks in the latest year?
+   What share of all deaths is that?
+2. Compare the trend in the *number* of deaths with the trend in the *age-standardized rate*. Why
+   might they move differently? (Think about population growth and ageing.)
+3. Why do DALYs tell a different story from deaths for some risks (hint: think about back pain
+   and hearing loss)?
+
+**Your answer:**
+
+
+
+# Part 2. Which occupational risks matter most?
+
+```{r risks}
+by_risk <- gbd |>
+  filter(location == "Global", sex == "Both", age == "All ages", metric == "Number",
+         year == latest, risk %in% level3)
+
+ggplot(by_risk, aes(val, fct_reorder(risk, val), xmin = lower, xmax = upper)) +
+  geom_col() +
+  geom_linerange() +
+  facet_wrap(~measure, scales = "free_x") +
+  labs(title = paste("Burden by occupational risk, world,", latest), x = NULL, y = NULL)
+
+# The 13 carcinogens
+gbd |>
+  filter(location == "Global", sex == "Both", age == "All ages", metric == "Number",
+         measure == "Deaths", year == latest, str_starts(risk, "Occupational exposure to")) |>
+  mutate(risk = str_remove(risk, "Occupational exposure to "), deaths = round(val)) |>
+  arrange(desc(deaths)) |>
+  select(risk, deaths, lower, upper)
+```
+
+**Questions**
+
+1. Which occupational risk causes the most deaths? Which causes the most DALYs? Why are they
+   different?
+2. Which carcinogen causes the most deaths? Many countries banned it decades ago. Why does it still
+   cause so many deaths?
+3. Injuries are what most national OSH statistics count. What share of the occupational burden do
+   injuries make up in GBD?
+
+**Your answer:**
+
+
+
+# Part 3. Regions
+
+Age-standardized rates take out differences in the age structure of populations, so regions can
+be compared fairly.
+
+```{r regions}
+regions <- gbd |>
+  filter(level == "Region", risk == "Occupational risks", sex == "Both",
+         age == "Age-standardized", metric == "Rate", measure == "DALYs")
+
+regions |>
+  filter(year %in% c(1990, latest)) |>
+  select(location, year, val) |>
+  pivot_wider(names_from = year, values_from = val, names_prefix = "y") |>
+  mutate(change = round(100 * (.data[[paste0("y", latest)]] / y1990 - 1))) |>
+  arrange(desc(.data[[paste0("y", latest)]]))
+
+ggplot(regions, aes(year, val, group = location)) +
+  geom_line(colour = "grey70") +
+  geom_line(data = filter(regions, location %in% c("High-income North America", "South Asia",
+                                                   "Western Sub-Saharan Africa", "East Asia")),
+            aes(colour = location)) +
+  labs(title = "Age-standardized DALY rate from occupational risks", x = NULL,
+       y = "DALYs per 100,000", colour = NULL)
+```
+
+**Questions**
+
+1. Which regions have the highest and lowest age-standardized DALY rates? Has the gap between
+   them grown or shrunk since 1990?
+2. Suggest two reasons why the burden differs so much between regions (think about the kinds of
+   work people do, and about regulation).
+3. The rate is per 100,000 *people*, not per 100,000 *workers*. How could that affect comparisons
+   between regions with different shares of people in work?
+
+**Your answer:**
+
+
+
+# Part 4. Countries
+
+```{r countries}
+countries <- gbd |>
+  filter(level == "Country", risk == "Occupational risks", sex == "Both",
+         age == "Age-standardized", metric == "Rate")
+
+countries |>
+  filter(year == latest, measure == "DALYs") |>
+  arrange(desc(val)) |>
+  select(location, val, lower, upper) |>
+  slice(c(1:10, (n() - 9):n()))
+
+# Countries with modules in this repository
+compare <- c("United States of America", "Canada", "United Kingdom", "Australia")
+countries |>
+  filter(location %in% compare, year %in% c(1990, latest)) |>
+  mutate(val = round(val, 1)) |>
+  select(location, measure, year, val) |>
+  pivot_wider(names_from = year, values_from = val)
+```
+
+**Questions**
+
+1. Which countries have the highest and lowest rates? Look at the uncertainty intervals: are the
+   top countries clearly different from each other?
+2. Compare the United States, Canada, the United Kingdom and Australia. How do their rates and
+   trends compare? Does this match what you saw in those countries' injury statistics (CFOI,
+   AWCBC, RIDDOR, Safe Work Australia modules)?
+3. Find a country you are interested in. What drives its occupational burden (repeat the Part 2
+   breakdown for that country, using the country file's six risks)?
+
+**Your answer:**
+
+
+
+# Part 5. Occupational risks in context
+
+```{r context}
+gbd |>
+  filter(location == "Global", sex != "Both", age == "Age-standardized", metric == "Rate",
+         measure == "DALYs", risk %in% level3, year == latest) |>
+  select(risk, sex, val) |>
+  pivot_wider(names_from = sex, values_from = val) |>
+  mutate(male_to_female = round(Male / Female, 1))
+
+gbd |>
+  filter(location == "Global", sex == "Both", age == "All ages", metric == "Percent",
+         risk == "Occupational risks", year == latest) |>
+  mutate(percent = round(val * 100, 2), lower = round(lower * 100, 2),
+         upper = round(upper * 100, 2)) |>
+  select(measure, percent, lower, upper)
+```
+
+**Questions**
+
+1. For which risks is the burden in men much higher than in women? Are any higher in women? Why?
+2. About what percent of all DALYs worldwide are attributable to occupational risks? For
+   comparison, GBD attributes far more to tobacco or to high blood pressure. Does
+   that mean occupational health is a small problem? (Think about who bears the burden, and
+   whether it is preventable.)
+3. GBD's list of occupational risks leaves out long working hours, shift work, job strain and many
+   chemicals. Which of these do you think would add the most, and why?
+
+**Your answer:**
+
+
+
+# Part 6. Uncertainty
+
+```{r uncertainty}
+global_rate <- gbd |>
+  filter(location == "Global", risk %in% level3, sex == "Both", age == "Age-standardized",
+         metric == "Rate", measure == "Deaths")
+
+ggplot(global_rate, aes(year, val, ymin = lower, ymax = upper)) +
+  geom_ribbon(alpha = 0.2) +
+  geom_line() +
+  facet_wrap(~risk, scales = "free_y") +
+  expand_limits(y = 0) +
+  labs(title = "Age-standardized death rate per 100,000, world, with 95% uncertainty intervals",
+       x = NULL, y = NULL)
+
+global_rate |>
+  filter(year %in% c(1990, latest)) |>
+  select(risk, year, val, lower, upper) |>
+  mutate(relative_width = round((upper - lower) / val, 2))
+```
+
+**Questions**
+
+1. Which risks have the widest uncertainty intervals relative to their estimate? Why might some be
+   much less certain than others?
+2. If the 1990 and latest intervals overlap, can you conclude the rate has not changed? Explain.
+   (GBD reports changes as significant only when the uncertainty interval of the *change* excludes
+   zero, which needs information not in this download.)
+3. Why does GBD report "uncertainty intervals" rather than "confidence intervals"?
+
+**Your answer:**
+
+
+
+# Part 7. Comparing with the WHO/ILO Joint Estimates
+
+The WHO/ILO module has estimates for 2016 from mostly the same methods. Here we compare the risks
+both include.
+
+```{r who-ilo}
+who_url <- "https://raw.githubusercontent.com/eddiekasner/occupational-safety-health-datasets/main/modules/intl-who-ilo-joint-estimates/data/tidy/burden_global_regional.csv.gz"
+who_local <- file.path("..", "..", "intl-who-ilo-joint-estimates", "data", "tidy",
+                       "burden_global_regional.csv.gz")
+who <- read_csv(if (file.exists(who_local)) who_local else who_url, show_col_types = FALSE)
+
+who_2016 <- who |>
+  filter(region == "Global", sex == "Both", age_group == "15+ years", year == 2016,
+         measure == "deaths") |>
+  mutate(risk = str_replace(risk_factor, "gases, & fumes", "gases, and fumes"),
+         risk = if_else(str_starts(risk, "Occupational exposure to") &
+                          !str_detect(risk, "solar"), "Occupational carcinogens", risk)) |>
+  filter(risk %in% level3) |>
+  group_by(risk) |>
+  summarise(who_ilo_2016 = sum(number))
+
+gbd |>
+  filter(location == "Global", sex == "Both", age == "All ages", metric == "Number",
+         measure == "Deaths", year == 2016, risk %in% level3) |>
+  select(risk, gbd_2016 = val) |>
+  full_join(who_2016, by = "risk") |>
+  mutate(across(where(is.numeric), round), ratio = round(gbd_2016 / who_ilo_2016, 2))
+```
+
+**Questions**
+
+1. For which risks do the two sources agree closely, and where do they differ? WHO/ILO used an
+   earlier GBD round. Why would a later GBD round change the estimate for the
+   same year?
+2. WHO/ILO counts only people aged 15 and over and includes long working hours; GBD here uses all
+   ages and does not include long working hours. How do these choices affect each total?
+3. A ministry of labour asks you for "the" number of work-related deaths in the world. What would
+   you tell them, and how would you explain the uncertainty?
+
+**Your answer:**
+
+
+
+# Part 8. Long latency: asbestos
+
+```{r asbestos}
+asbestos <- gbd |>
+  filter(location %in% c("Global", "Western Europe", "High-income North America", "East Asia",
+                         "Eastern Europe"),
+         risk == "Occupational exposure to asbestos", sex == "Both", measure == "Deaths",
+         metric == "Rate")
+
+ggplot(asbestos, aes(year, val, colour = location)) +
+  geom_line() +
+  facet_wrap(~age, scales = "free_y") +
+  expand_limits(y = 0) +
+  labs(title = "Deaths attributable to occupational asbestos exposure per 100,000", x = NULL,
+       y = NULL, colour = NULL)
+```
+
+**Questions**
+
+1. Compare the all-ages rate with the age-standardized rate for asbestos in Western Europe and
+   High-income North America. What does the difference tell you about who is dying, and when they
+   were exposed?
+2. Many high-income countries banned asbestos in the 1980s and 1990s, while use continued in parts
+   of Asia and Eastern Europe. What would you expect the burden in those regions to do over the
+   next 30 years? Is that visible yet?
+3. GBD estimates the burden in a given year from exposure many years earlier. Design a study that
+   would test whether an asbestos ban reduced deaths. What data would you need, and how long would
+   you need to wait?
+
+**Your answer:**
+
+
+
