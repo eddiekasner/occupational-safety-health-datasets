@@ -34,6 +34,49 @@ Details marked *verify* still need to be checked against the live source page.
 | [Global Burden of Disease (occupational risks)](https://vizhub.healthdata.org/gbd-results/) | IHME | Deaths and DALYs attributable to 20 occupational risks, every year since 1990 | Global, 21 regions, 204 countries | GBD Results Tool (free account; non-commercial licence, no redistribution) | **Module** (notebooks and scripts only; students download the data) |
 | [Canada AWCBC National Work Injury, Disease and Fatality Statistics](https://awcbc.org/data-and-statistics/national-work-injury-disease-statistics-program) | AWCBC | Accepted lost time claims and fatalities by province, industry, occupation, injury and worker characteristics | Canada, claims 1982 onward, fatalities 1993 onward | Annual PDF publication (parsed) and Excel summaries; use with acknowledgement | **Module** |
 
+## Latin America
+
+| Dataset | Publisher | What it is | Coverage | Access | Status |
+| --- | --- | --- | --- | --- | --- |
+| SINAN work-related notifications (serious work accidents `ACGR`, biological material exposure, poisonings, and other work-related conditions) | Brazil Ministry of Health (DATASUS) | Case-level notifications of work accidents and work-related diseases from the health system, covering formal and informal workers | Brazil, about 2007 onward (*verify* years for each condition) | DATASUS public FTP (ftp.datasus.gov.br), `.dbc` files (readable in R with `read.dbc`, or the `microdatasus` and `healthbR` packages); free download includes investigated cases only | Candidate (strong: case-level, open, covers informal workers) |
+| CAT work accident reports (via the SmartLab Observatory of OSH) | Brazil INSS / Ministry of Labour; observatory by MPT and ILO Brazil | Work accident reports (Comunicação de Acidente de Trabalho) for formally employed workers: about 6.7 million accidents and 25,500 deaths 2012 to 2022 | Brazil, 2012 onward | Interactive panels; downloadable microdata *verify* (no open CSV found yet) | Candidate |
+| [SUSESO accident statistics](https://www.suseso.gob.cl/) | Chile Superintendencia de Seguridad Social | Annual accident and occupational disease reports and rates under Law 16.744, by mutual insurer, region and sector | Chile, rates from 2006 onward | Annual reports (PDF, possibly Excel annexes *verify*) | Candidate (needs a machine-readable source) |
+| [SRT accident reports](https://www.argentina.gob.ar/node/125610) | Argentina Superintendencia de Riesgos del Trabajo | National registers of work accidents and occupational diseases, by province and sector | Argentina | Annual reports; open data on datos.gob.ar *verify* | Candidate (needs a machine-readable source) |
+| Colombian occupational risk system statistics (Fasecolda, Ministry of Labour) | Fasecolda (insurers' federation) / Ministry of Labour | Covered workers, accepted work accidents, occupational diseases and deaths, by economic activity and department; system covers about 57% of the employed | Colombia | Statistics pages; download format *verify* | Candidate (needs a machine-readable source) |
+| IMSS statistical yearbook (Memoria Estadística) | Mexico Social Security Institute | 32 tables on work risks: accidents, commuting accidents and diseases by sector, occupation, state | Mexico (insured workers, about a quarter of the economically active population) | Excel or PDF tables *verify* | Candidate |
+
+## Asia
+
+| Dataset | Publisher | What it is | Coverage | Access | Status |
+| --- | --- | --- | --- | --- | --- |
+| [Fatal accident database (死亡災害データベース)](https://anzeninfo.mhlw.go.jp/anzen_pg/SIB_FND.html) | Japan Ministry of Health, Labour and Welfare (Workplace Safety Site) | Every work-related death since 1991, one row each, with a short description, time, establishment size, industry, agent and accident type (in Japanese) | Japan, 1991 to 2023 | Excel download; licence *verify* (Japanese government standard terms, likely CC BY compatible) | Candidate (strong: case-level with narratives; also a sample database of injuries with 4+ days off) |
+| [Industrial accident statistics (산업재해 현황)](https://www.data.go.kr/data/15084677/fileData.do) | Korea Ministry of Employment and Labor and KOSHA | Injured workers and deaths by industry, accident type, region and labour office; disease cases | South Korea, 2004 onward for several series | data.go.kr CSV files and open API (no restriction on use) | Candidate (strong: open, long series) |
+| [Workplace safety and health statistics](https://data.gov.sg/datasets/d_29fcac578ced89de06ea40802b852cc4/view) | Singapore Ministry of Manpower | Workplace fatalities, major injuries and rates per 100,000 workers, by industry and accident type | Singapore, 2019 onward (earlier years in MOM yearbook PDFs) | data.gov.sg CSV and API (Singapore Open Data Licence) | Candidate (small but clean; open licence) |
+| [Injuries in registered factories](https://dataful.in/datasets/23763/) | India Directorate General Factory Advice Service and Labour Institutes (DGFASLI) | Fatal and non-fatal injuries in registered factories, by state and year (for example 1,017 deaths in 2022) | India, factories only | Standard Reference Note (PDF); some tables on data.gov.in or Dataful *verify* | Candidate (coverage is a teaching point: factories only, large under-reporting) |
+| [OSH statistics](https://www.labour.gov.hk/common/osh/pdf/Bulletin2021_issue22_en.pdf) | Hong Kong Labour Department | Occupational injuries and diseases by sector, with rates per 1,000 employees | Hong Kong | Annual PDF bulletins; data.gov.hk tables *verify* | Candidate |
+
+## Africa
+
+Few African countries publish occupational injury data in machine-readable form. ILOSTAT (already a
+module) has national figures for some countries.
+
+| Dataset | Publisher | What it is | Coverage | Access | Status |
+| --- | --- | --- | --- | --- | --- |
+| Mine health and safety statistics | South Africa Department of Mineral Resources and Energy | Mine deaths and injuries by commodity (gold, platinum, coal, other), for example 42 deaths in 2024 | South Africa | Annual ministerial statements and reports (PDF) *verify* | Candidate (compare with MSHA module) |
+| [Child labour indicators](https://data.unicef.org/resources/child-labour-data-eastern-southern-africa-2026/) | UNICEF (MICS surveys) and ILO | Share of children in child labour and in hazardous working conditions, by age, sex and sector | Many African and other low and middle income countries | UNICEF data warehouse (CSV); microdata from mics.unicef.org with registration *verify* | Candidate |
+| Workers Compensation Fund claims | Tanzania Workers Compensation Fund | Work injury claims (a published study analysed 4,578 claims from 2016 to 2019) | Tanzania | Not public; by request | Candidate (unlikely: no open access) |
+
+## Europe (national and EU surveys)
+
+| Dataset | Publisher | What it is | Coverage | Access | Status |
+| --- | --- | --- | --- | --- | --- |
+| INAIL open data | Italy National Institute for Insurance against Accidents at Work | Case-level reported work accidents and occupational diseases: date, region, sector, the worker's age, sex and birthplace, outcome | Italy, about 2010 onward | CSV, XML and RDF downloads (also on dati.gov.it); open licence *verify* (a copy on the Milan portal is CC BY 4.0) | Candidate (strong: case-level, open) |
+| [Occupational accident statistics](https://stat.fi/en/statistics/ttap) | Statistics Finland | Accidents at work (4+ days of disability) and fatalities by industry, occupation, cause | Finland | StatFin database (PxWeb tables and API; CC BY 4.0) | Candidate |
+| Occupational risk statistics (sinistralité AT/MP) | France Assurance Maladie (risques professionnels) | Work accidents, commuting accidents and occupational diseases by sector (NAF code) | France | Annual reports and sector tables; data.gouv.fr datasets *verify* | Candidate |
+| European Survey of Enterprises on New and Emerging Risks (ESENER) | EU-OSHA | Survey of workplaces on how they manage safety and health risks, including psychosocial risks | EU and other European countries, 2009, 2014, 2019, 2024 | Microdata via the UK Data Service (free registration) *verify*; summary results online | Candidate |
+| [European Working Conditions Survey (EWCS)](https://www.eurofound.europa.eu/surveys/about-eurofound-surveys/data-availability) | Eurofound | Survey of workers on physical and psychosocial exposures, working time and health | EU and other European countries, 1991 to 2024 | Microdata via the UK Data Service (free registration); EWCS 2024 released in 2026 *verify* | Candidate (strong for 460/560: exposures, not just injuries) |
+| [Accidents at work and work-related health problems, LFS ad hoc modules](https://ec.europa.eu/eurostat/web/health/database) | Eurostat | Self-reported accidents, work-related health problems and exposure to risk factors (tables `hsw_pb*`, `hsw_exp*`) | EU, 2007, 2013, 2020 | Eurostat API (open) | Candidate (could extend the ESAW module) |
+
 ## Selection criteria
 
 1. **Public and redistributable**: we can attach the data (or a sample) to this repo.
