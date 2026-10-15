@@ -1,0 +1,242 @@
+---
+title: "MSHA Mine Safety Data: Starter Notebook"
+subtitle: "ENVH 312"
+author: "Your name"
+output:
+  html_document:
+    toc: true
+    df_print: paged
+---
+
+The Mine Safety and Health Administration (MSHA) enforces safety and health law at every mine in
+the United States: coal mines, and "metal/nonmetal" mines such as gold and copper mines, stone
+quarries and sand and gravel pits. Unlike OSHA, MSHA must inspect every underground mine four
+times a year and every surface mine twice a year, and every mine operator and contractor must
+report every injury and the hours their employees work. That makes mining one of the few
+industries where we can compute injury rates for every single workplace. This notebook uses
+calendar years 2000 to 2025. Read the module [README](../README.md) and
+[data dictionary](../data_dictionary.md) first.
+
+**How to use this notebook**
+
+- Run each code chunk in order (the green arrow in RStudio, or Ctrl/Cmd + Shift + Enter).
+- Answer the questions under each **Your answer** heading.
+- When you are done, click **Knit** to produce an HTML report to submit.
+
+# Part 0. Load the data
+
+```{r setup, message = FALSE}
+library(readr)
+library(dplyr)
+library(tidyr)
+library(ggplot2)
+library(stringr)
+library(forcats)
+
+base <- "https://raw.githubusercontent.com/eddiekasner/occupational-safety-health-datasets/main/modules/us-msha-mine-safety/data"
+read_module <- function(folder, name) {
+  local <- file.path("..", "data", folder, name)
+  read_csv(if (file.exists(local)) local else file.path(base, folder, name), show_col_types = FALSE,
+           guess_max = 100000)
+}
+
+injury_summary <- read_module("tidy", "injury_summary.csv.gz")  # hours, injuries, by group
+fatalities <- read_module("tidy", "fatalities.csv.gz")          # every death, 2000-2025
+accidents <- read_module("tidy", "accidents.csv.gz")            # every report, 2015-2025
+mines <- read_module("tidy", "mines.csv.gz")                    # every mine
+mine_year <- read_module("tidy", "mine_year.csv.gz")            # one row per mine and year
+viol_summary <- read_module("tidy", "violation_summary.csv.gz") # violations, by group
+viol_standards <- read_module("tidy", "violation_standards.csv.gz")  # violations, by standard
+
+# MSHA's rates leave out office workers, so we do too
+mining <- filter(injury_summary, subunit != "Office workers at mine site")
+```
+
+MSHA expresses injury rates **per 200,000 hours worked**: the hours 100 full-time employees
+work in a year (100 workers x 40 hours x 50 weeks). OSHA and BLS use the same base, so rates are
+comparable with the SOII module. Two kinds of injury matter:
+
+- **NFDL** (non-fatal, days lost): injuries that kept a miner off work or on restricted duty.
+- **NDL** (no days lost): reported injuries that did not.
+
+# Part 1. Deaths in US mines
+
+```{r deaths}
+deaths <- mining |>
+  group_by(year, coal_metal) |>
+  summarise(fatalities = sum(fatalities), hours = sum(hours), .groups = "drop") |>
+  # Deaths per 100,000 full-time workers (one full-time worker = 2,000 hours a year)
+  mutate(rate_per_100k = fatalities / hours * 2000 * 100000)
+
+ggplot(deaths, aes(year, fatalities, fill = coal_metal)) +
+  geom_col() +
+  labs(title = "Deaths in US mines", x = NULL, y = "Deaths", fill = NULL)
+
+ggplot(deaths, aes(year, rate_per_100k, colour = coal_metal)) +
+  geom_line() +
+  geom_point() +
+  expand_limits(y = 0) +
+  labs(title = "Deaths per 100,000 full-time workers", x = NULL, y = "Rate", colour = NULL)
+
+# The deadliest events: several deaths on the same day at the same mine
+fatalities |>
+  count(accident_date, mine_id, operator_name, state, classification, name = "deaths") |>
+  filter(deaths >= 3) |>
+  arrange(desc(deaths))
+```
+
+**Questions**
+
+1. How have deaths in coal mining and in metal/nonmetal mining changed since 2000? How have the
+   *rates* changed?
+2. Find the spikes in coal mining deaths. Look up the disasters listed in the table (for example,
+   the 2006 Sago disaster and the 2010 Upper Big Branch explosion). What did they lead to?
+3. The CFOI module reports a rate of about 3.5 deaths per 100,000 full-time workers for all US
+   workers. How does mining compare, in recent years?
+
+**Your answer:**
+
+
+
+# Part 2. Injury rates
+
+```{r rates}
+rates <- mining |>
+  group_by(year, coal_metal, worker_type) |>
+  summarise(across(c(hours, nfdl_injuries, ndl_injuries), sum), .groups = "drop") |>
+  mutate(nfdl_rate = nfdl_injuries / hours * 200000,
+         all_rate = (nfdl_injuries + ndl_injuries) / hours * 200000)
+
+ggplot(rates, aes(year, nfdl_rate, colour = coal_metal, linetype = worker_type)) +
+  geom_line() +
+  expand_limits(y = 0) +
+  labs(title = "Non-fatal days-lost injuries per 200,000 hours", x = NULL, y = "NFDL rate",
+       colour = NULL, linetype = NULL)
+
+rates |>
+  filter(year == 2025) |>
+  mutate(across(c(nfdl_rate, all_rate), \(x) round(x, 2)))
+```
+
+**Questions**
+
+1. By how much did the NFDL rate fall from 2000 to 2025 in coal and in metal/nonmetal mining?
+2. Contractors report lower injury rates than mine operators' own employees. Give two possible
+   explanations, one in which contractors really are safer and one in which they are not.
+3. Compare the coal NFDL rate with the SOII rate for "Mining, quarrying, and oil and gas
+   extraction" in the SOII module. Why might they differ?
+
+**Your answer:**
+
+
+
+# Part 3. Where in the mine, and which commodity?
+
+```{r where}
+recent <- filter(mining, year >= 2021, worker_type == "Operator")
+
+recent |>
+  group_by(coal_metal, subunit) |>
+  summarise(across(c(hours, fatalities, nfdl_injuries), sum), .groups = "drop") |>
+  filter(hours > 1e6) |>
+  mutate(nfdl_rate = round(nfdl_injuries / hours * 200000, 2),
+         fatal_rate_per_100k = round(fatalities / hours * 2000 * 100000, 1),
+         employees = round(hours / 2000)) |>
+  arrange(desc(nfdl_rate))
+
+recent |>
+  filter(!is.na(commodity)) |>
+  group_by(commodity) |>
+  summarise(across(c(hours, fatalities, nfdl_injuries), sum)) |>
+  mutate(nfdl_rate = round(nfdl_injuries / hours * 200000, 2),
+         fatal_rate_per_100k = round(fatalities / hours * 2000 * 100000, 1)) |>
+  arrange(desc(nfdl_rate))
+```
+
+**Questions**
+
+1. Which part of a mine has the highest injury rate? Why might underground work be more hazardous?
+2. Which commodity has the highest injury rate, and which the highest fatality rate? Are they the
+   same? Why might fatal and non-fatal injuries have different patterns?
+3. Rates for small groups are unstable. Which rows here are based on fewer than about 2,000
+   full-time workers (`employees`)? Would you trust their fatality rates?
+
+**Your answer:**
+
+
+
+# Part 4. How miners die
+
+MSHA classifies each accident by the circumstances that most directly led to it.
+
+```{r how}
+fatalities |>
+  mutate(period = if_else(year <= 2012, "2000-2012", "2013-2025")) |>
+  count(period, classification) |>
+  pivot_wider(names_from = period, values_from = n, values_fill = 0) |>
+  arrange(desc(`2013-2025`)) |>
+  head(10)
+
+# Search the narratives
+haulage <- filter(fatalities, classification == "Powered haulage", year >= 2020)
+nrow(haulage)
+haulage |>
+  count(str_detect(str_to_lower(narrative), "seat ?belt"), name = "deaths")
+set.seed(1)
+haulage |> slice_sample(n = 3) |> pull(narrative)
+```
+
+**Questions**
+
+1. What are the three most common classifications of fatal accidents? Which classifications fell
+   most after 2012?
+2. "Powered haulage" means trucks, loaders, conveyors and other vehicles and equipment that move
+   material or people. Read three narratives. For each, name the hazard and one control (using
+   the hierarchy of controls) that would have prevented the death.
+3. None of the recent powered haulage narratives mentions a seat belt, although MSHA has run
+   campaigns on seat belt use. Does that mean every victim was wearing one? What can a search of
+   short narratives like these miss?
+
+**Your answer:**
+
+
+
+# Part 5. Violations and penalties
+
+MSHA inspectors cite **standards** in Title 30 of the Code of Federal Regulations. Part 56 covers
+surface metal/nonmetal mines, Part 75 underground coal mines, and so on (see the data
+dictionary). A violation is **significant and substantial (S&S)** if it is reasonably likely to
+lead to a reasonably serious injury or illness.
+
+```{r violations}
+viol_standards |>
+  filter(year >= 2021) |>
+  group_by(standard, cfr_part_title) |>
+  summarise(violations = sum(violations), ss = sum(significant_substantial), .groups = "drop") |>
+  mutate(share_ss = round(ss / violations, 2)) |>
+  arrange(desc(violations)) |>
+  head(10)
+
+viol_summary |>
+  group_by(year, coal_metal) |>
+  summarise(share_ss = sum(violations[significant_substantial %in% "Yes"]) / sum(violations),
+            violations = sum(violations),
+            proposed_millions = sum(proposed_penalty) / 1e6,
+            paid_millions = sum(amount_paid) / 1e6, .groups = "drop") |>
+  filter(year %in% c(2000, 2005, 2010, 2015, 2020, 2025))
+```
+
+**Questions**
+
+1. Look up the five most-cited standards (search "30 CFR" and the section number). What hazard
+   does each address?
+2. Violations and penalties rose sharply after 2006 and then fell. Why might that be (hint: the
+   MINER Act of 2006)?
+3. How much of the proposed penalty is eventually paid? Why might the two differ?
+4. The share of violations rated S&S fell from about a third in 2000 to under a fifth in 2025.
+   Give two possible explanations.
+
+**Your answer:**
+
+
+

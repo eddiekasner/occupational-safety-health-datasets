@@ -20,7 +20,7 @@ Details marked *verify* still need to be checked against the live source page.
 | [Frequently cited standards](https://www.osha.gov/ords/imis/citedstandard.naicsman?p_esize=&p_state=FEFederal) | OSHA | Most-cited standards by NAICS code | Standard by industry | Rolling | Web table | Candidate (good companion to ITA) |
 | [Census of Fatal Occupational Injuries (CFOI)](https://www.bls.gov/iif/) | BLS | All US work-related fatal injuries | Aggregated series | 1992 onward (3 series with breaks: 1992-2002, 2003-2010, 2011+) | Flat files on download.bls.gov (contact email required) | **Module** (counts 2011 to 2022, rates 2023 to 2024) |
 | [Survey of Occupational Injuries and Illnesses (SOII)](https://www.bls.gov/iif/) | BLS | National injury and illness rates by industry, plus case and demographic characteristics | Aggregated series | 1970s onward | Flat files on download.bls.gov (contact email required) | **Module** (rates 2014 to 2024, case characteristics 2011 to 2020) |
-| MSHA mine data | MSHA via DOL | Mine accidents, injuries, employment, violations | One accident / mine-quarter | 1983 onward (*verify*) | Bulk download | Candidate |
+| [MSHA mine data](https://arlweb.msha.gov/OpenGovernmentData/OGIMSHA.asp) | MSHA | Mine accidents, injuries and illnesses with narratives, hours worked by operators and contractors, mines, violations and penalties | One accident report / mine-quarter / violation | 2000 onward | Weekly bulk files (pipe-delimited) | **Module** (2000 to 2025) |
 
 ## International
 
