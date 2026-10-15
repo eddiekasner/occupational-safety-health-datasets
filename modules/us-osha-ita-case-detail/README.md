@@ -15,7 +15,8 @@ work-related injuries and illnesses (29 CFR Part 1904). They use three forms:
 | **OSHA 300A** Summary | Annual totals for the establishment, plus employees and hours worked |
 
 Since 2017, many employers have submitted their **300A summaries** to OSHA electronically
-through the Injury Tracking Application (ITA). A rule that took effect on
+through the Injury Tracking Application (ITA) (see the
+[ITA summary module](../us-osha-ita-summary/)). A rule that took effect on
 January 1, 2024 added a new requirement: establishments with **100 or more employees in
 designated high-hazard industries** must also submit the case-level information from
 their **300 and 301 forms**. The first submissions (for calendar year 2023) were due in
