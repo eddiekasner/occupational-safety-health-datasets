@@ -18,21 +18,21 @@ Each module gives students:
 
 | Module | Scope | Source | Status |
 | --- | --- | --- | --- |
-| [OSHA ITA case detail (Forms 300/301)](modules/us-osha-ita-case-detail/) | US | OSHA | Ready |
-| [OSHA Chemical Exposure Health Data](modules/us-osha-chemical-exposure/) | US | OSHA | Ready |
-| [ILOSTAT occupational safety and health](modules/intl-ilostat-osh/) | International | ILO | Ready |
-| [Eurostat accidents at work (ESAW)](modules/intl-eurostat-esaw/) | Europe | Eurostat | Ready |
-| [OSHA Severe Injury Reports](modules/us-osha-severe-injury/) | US | OSHA | Ready |
 | [BLS Census of Fatal Occupational Injuries (CFOI)](modules/us-bls-cfoi/) | US | BLS | Ready |
 | [BLS Survey of Occupational Injuries and Illnesses (SOII)](modules/us-bls-soii/) | US | BLS | Ready |
+| [Canada AWCBC work injury, disease and fatality statistics](modules/ca-awcbc-nwisp/) | Canada | AWCBC | Ready |
+| [Eurostat accidents at work (ESAW)](modules/intl-eurostat-esaw/) | Europe | Eurostat | Ready |
+| [Global Burden of Disease: occupational risks](modules/intl-ihme-gbd-occupational/) (students download the data from IHME) | International | IHME | Draft (not yet tested on real data) |
+| [ILOSTAT occupational safety and health](modules/intl-ilostat-osh/) | International | ILO | Ready |
+| [MSHA mine safety: accidents, injury rates and violations](modules/us-msha-mine-safety/) | US | MSHA | Ready |
+| [OSHA Chemical Exposure Health Data](modules/us-osha-chemical-exposure/) | US | OSHA | Ready |
+| [OSHA enforcement: inspections, violations, cited standards and accident investigations](modules/us-osha-enforcement/) | US | OSHA | Ready |
+| [OSHA ITA case detail (Forms 300/301)](modules/us-osha-ita-case-detail/) | US | OSHA | Ready |
+| [OSHA ITA summary (Form 300A): establishment injury rates](modules/us-osha-ita-summary/) | US | OSHA | Ready |
+| [OSHA Severe Injury Reports](modules/us-osha-severe-injury/) | US | OSHA | Ready |
 | [Safe Work Australia fatalities and workers' compensation](modules/intl-safework-australia/) | Australia | Safe Work Australia | Ready |
 | [UK HSE injury statistics (RIDDOR and LFS)](modules/uk-hse-riddor/) | Great Britain | HSE | Ready |
 | [WHO/ILO Joint Estimates of the work-related burden of disease](modules/intl-who-ilo-joint-estimates/) | International | WHO / ILO | Ready |
-| [Canada AWCBC work injury, disease and fatality statistics](modules/ca-awcbc-nwisp/) | Canada | AWCBC | Ready |
-| [OSHA enforcement: inspections, violations, cited standards and accident investigations](modules/us-osha-enforcement/) | US | OSHA | Ready |
-| [MSHA mine safety: accidents, injury rates and violations](modules/us-msha-mine-safety/) | US | MSHA | Ready |
-| [OSHA ITA summary (Form 300A): establishment injury rates](modules/us-osha-ita-summary/) | US | OSHA | Ready |
-| [Global Burden of Disease: occupational risks](modules/intl-ihme-gbd-occupational/) (students download the data from IHME) | International | IHME | Draft (not yet tested on real data) |
 
 See [CATALOG.md](CATALOG.md) for candidate datasets (US and international) and their status.
 
@@ -73,22 +73,22 @@ See [docs/large-files.md](docs/large-files.md).
 CATALOG.md                 candidate datasets and status
 docs/                      instructor and contributor notes
 modules/
-  _template/               copy this to start a new module
-  us-osha-ita-case-detail/ OSHA Injury Tracking Application case detail data
-  us-osha-ita-summary/     OSHA Form 300A injury totals and hours for each establishment
-  intl-ihme-gbd-occupational/ GBD deaths and DALYs from occupational risks (download from IHME)
-  us-osha-chemical-exposure/ OSHA air, wipe and bulk sampling results
-  intl-ilostat-osh/        ILO injury and labour inspection statistics by country
-  intl-eurostat-esaw/      Eurostat accidents at work in Europe
-  us-osha-severe-injury/   OSHA reports of amputations, hospitalizations and eye loss
-  us-bls-cfoi/             BLS counts and rates of fatal work injuries
-  us-bls-soii/             BLS rates of non-fatal work injuries and illnesses
-  intl-safework-australia/ Australian work-related deaths and workers' compensation claims
-  uk-hse-riddor/           British reported and self-reported work injuries since 1974
+  _template/                    copy this to start a new module
+  ca-awcbc-nwisp/               Canadian accepted lost time claims and fatalities since 1982
+  intl-eurostat-esaw/           Eurostat accidents at work in Europe
+  intl-ihme-gbd-occupational/   GBD deaths and DALYs from occupational risks (download from IHME)
+  intl-ilostat-osh/             ILO injury and labour inspection statistics by country
+  intl-safework-australia/      Australian work-related deaths and workers' compensation claims
   intl-who-ilo-joint-estimates/ deaths and DALYs from occupational risk factors, 183 countries
-  ca-awcbc-nwisp/          Canadian accepted lost time claims and fatalities since 1982
-  us-osha-enforcement/     OSHA inspections, violations, penalties and accident investigations
-  us-msha-mine-safety/     mine accidents, injury rates, employment and violations since 2000
+  uk-hse-riddor/                British reported and self-reported work injuries since 1974
+  us-bls-cfoi/                  BLS counts and rates of fatal work injuries
+  us-bls-soii/                  BLS rates of non-fatal work injuries and illnesses
+  us-msha-mine-safety/          mine accidents, injury rates, employment and violations since 2000
+  us-osha-chemical-exposure/    OSHA air, wipe and bulk sampling results
+  us-osha-enforcement/          OSHA inspections, violations, penalties and accident investigations
+  us-osha-ita-case-detail/      OSHA Injury Tracking Application case detail data
+  us-osha-ita-summary/          OSHA Form 300A injury totals and hours for each establishment
+  us-osha-severe-injury/        OSHA reports of amputations, hospitalizations and eye loss
 install_packages.R         one-time R package setup
 ```
 
