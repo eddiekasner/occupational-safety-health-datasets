@@ -1,0 +1,236 @@
+---
+title: "OSHA ITA Summary (Form 300A) Data: Starter Notebook"
+subtitle: "ENVH 312"
+author: "Your name"
+output:
+  html_document:
+    toc: true
+    df_print: paged
+---
+
+Most US employers must keep a log of work-related injuries and illnesses and, at the end of each
+year, post a summary on **OSHA Form 300A**: the number of deaths, cases with days away from work,
+cases with job transfer or restriction, and other recordable cases, plus the number of employees
+and hours worked. Since 2016, larger establishments (250 or more employees) and establishments
+with 20 to 249 employees in designated high-hazard industries must submit their 300A to OSHA's
+Injury Tracking Application (ITA). OSHA publishes every submission, with the employer's name. This
+notebook uses calendar years 2016 to 2025. Read the module [README](../README.md) and
+[data dictionary](../data_dictionary.md) first.
+
+**How to use this notebook**
+
+- Run each code chunk in order (the green arrow in RStudio, or Ctrl/Cmd + Shift + Enter).
+- Answer the questions under each **Your answer** heading.
+- When you are done, click **Knit** to produce an HTML report to submit.
+
+# Part 0. Load the data
+
+There is one establishment file per year (about 15 MB each). `read_year()` loads one; the summary
+table has totals for every year.
+
+```{r setup, message = FALSE}
+library(readr)
+library(dplyr)
+library(tidyr)
+library(ggplot2)
+library(stringr)
+library(forcats)
+
+base <- "https://raw.githubusercontent.com/eddiekasner/occupational-safety-health-datasets/main/modules"
+read_module <- function(module, folder, name) {
+  local <- file.path("..", "..", module, "data", folder, name)
+  read_csv(if (file.exists(local)) local else file.path(base, module, "data", folder, name),
+           show_col_types = FALSE, guess_max = 100000) |>
+    # Identifiers are codes, not numbers (ZIP codes and EINs can start with 0)
+    mutate(across(any_of(c("establishment_id", "naics_code")), as.character),
+           across(any_of("zip_code"), \(x) str_pad(x, 5, pad = "0")),
+           across(any_of("ein"), \(x) str_pad(x, 9, pad = "0")))
+}
+read_year <- function(year) {
+  read_module("us-osha-ita-summary", "tidy", sprintf("establishments_%d.csv.gz", year))
+}
+
+summary_tbl <- read_module("us-osha-ita-summary", "tidy", "summary_by_industry.csv.gz")
+est24 <- read_year(2024)
+
+# Rates per 100 full-time workers (200,000 hours): total recordable cases (TCR) and cases with
+# days away, restriction or transfer (DART)
+add_rates <- function(d) {
+  mutate(d, tcr = total_cases / total_hours_worked * 200000,
+            dart = (dafw_cases + djtr_cases) / total_hours_worked * 200000)
+}
+```
+
+# Part 1. Who reports?
+
+```{r who}
+summary_tbl |>
+  group_by(year) |>
+  summarise(establishments = sum(establishments),
+            employees_millions = sum(annual_average_employees[plausible]) / 1e6)
+
+est24 |>
+  count(size, ownership) |>
+  pivot_wider(names_from = ownership, values_from = n)
+
+est24 |>
+  count(naics_sector, sort = TRUE) |>
+  head(8)
+
+# Share of establishments that reported no injuries or illnesses at all
+est24 |>
+  group_by(size) |>
+  summarise(establishments = n(), share_no_cases = round(mean(!any_cases, na.rm = TRUE), 2))
+```
+
+**Questions**
+
+1. About how many establishments submit each year, and how many employees do they cover? The US
+   has about 135 million private-sector employees. What share do these data cover?
+2. Which industry sectors submit the most? Why might retail trade, manufacturing and health care
+   dominate (hint: which establishments must submit)?
+3. What share of establishments report no injuries or illnesses at all? Does that share differ by
+   size? Why might it?
+
+**Your answer:**
+
+
+
+# Part 2. Injury rates by industry
+
+These rates use only records flagged `plausible` (see the data dictionary).
+
+```{r industry}
+summary_tbl |>
+  filter(year == 2024, plausible) |>
+  group_by(naics_sector) |>
+  summarise(across(c(establishments, total_hours_worked, total_cases, dafw_cases, djtr_cases), sum)) |>
+  add_rates() |>
+  filter(establishments >= 500) |>
+  mutate(across(c(tcr, dart), \(x) round(x, 2))) |>
+  arrange(desc(tcr)) |>
+  select(naics_sector, establishments, tcr, dart)
+```
+
+**Questions**
+
+1. Which sectors have the highest total recordable case rates? Which have the lowest?
+2. The BLS Survey of Occupational Injuries and Illnesses (SOII module) reports a TCR of about 2.4
+   for all private industry in 2024. Why is the ITA rate for most sectors higher? (Think about
+   which establishments must submit.)
+3. What is the difference between the TCR and the DART rate? Why might an employer prefer to
+   restrict a worker's duties rather than send them home?
+4. Construction and mining have low rates here, although both are hazardous industries. Why
+   might that be? (Hint: what is an "establishment" for a construction company?)
+
+**Your answer:**
+
+
+
+# Part 3. Establishments differ
+
+```{r establishments}
+warehouses <- est24 |>
+  filter(plausible, str_starts(naics_code, "4931"), annual_average_employees >= 100) |>
+  add_rates()
+
+nrow(warehouses)
+summary(warehouses$tcr)
+
+ggplot(warehouses, aes(tcr)) +
+  geom_histogram(binwidth = 1, boundary = 0) +
+  coord_cartesian(xlim = c(0, 30)) +
+  labs(title = "Warehouses with 100+ employees, 2024",
+       x = "Total recordable cases per 100 full-time workers", y = "Establishments")
+
+# Companies with many warehouses
+warehouses |>
+  filter(!is.na(company_name)) |>
+  group_by(company_name) |>
+  summarise(warehouses = n(), employees = sum(annual_average_employees),
+            tcr = sum(total_cases) / sum(total_hours_worked) * 200000,
+            dart = sum(dafw_cases + djtr_cases) / sum(total_hours_worked) * 200000) |>
+  filter(warehouses >= 20) |>
+  mutate(across(c(tcr, dart), \(x) round(x, 1))) |>
+  arrange(desc(employees)) |>
+  head(10)
+```
+
+**Questions**
+
+1. Describe the distribution of injury rates among large warehouses. What is the median? How
+   high do the highest go?
+2. Compare the companies with many warehouses. Which have the highest rates? Company names are
+   entered by the employer, so the same company may appear under several names. How would you
+   check?
+3. A company with a low reported rate may be safer, or may record fewer injuries. What other
+   information would help you tell the difference?
+
+**Your answer:**
+
+
+
+# Part 4. Trends, and COVID-19
+
+```{r trends}
+trend <- summary_tbl |>
+  filter(plausible) |>
+  group_by(year) |>
+  summarise(across(c(total_hours_worked, total_cases, dafw_cases, djtr_cases, injuries,
+                     respiratory_conditions), sum)) |>
+  add_rates() |>
+  mutate(respiratory_per_10k = respiratory_conditions / total_hours_worked * 2e7)
+
+ggplot(trend, aes(year, tcr)) +
+  geom_line() +
+  geom_point() +
+  expand_limits(y = 0) +
+  scale_x_continuous(breaks = 2016:2025) +
+  labs(title = "Total recordable case rate, ITA establishments", x = NULL, y = "TCR")
+
+summary_tbl |>
+  filter(plausible, year %in% 2019:2023) |>
+  group_by(year, naics_sector) |>
+  summarise(respiratory = sum(respiratory_conditions), .groups = "drop") |>
+  group_by(naics_sector) |>
+  filter(sum(respiratory) > 5000) |>
+  pivot_wider(names_from = year, values_from = respiratory)
+```
+
+**Questions**
+
+1. How did the overall rate change from 2016 to 2025? What happened in 2020 to 2022?
+2. Which sector reported the most respiratory illnesses in 2020 and 2021? Why?
+3. The set of establishments that submit changes from year to year. Why does that make the trend
+   harder to interpret?
+
+**Your answer:**
+
+
+
+# Part 5. Look up an employer
+
+```{r lookup}
+# Change the search to an employer or city you are interested in
+est24 |>
+  filter(state == "WA", str_detect(str_to_lower(city), "seattle")) |>
+  add_rates() |>
+  filter(plausible, annual_average_employees >= 500) |>
+  select(establishment_name, company_name, naics_sector, annual_average_employees,
+         total_cases, tcr, dart) |>
+  mutate(across(c(tcr, dart), \(x) round(x, 1))) |>
+  arrange(desc(annual_average_employees)) |>
+  head(15)
+```
+
+**Questions**
+
+1. Search for an employer you know (a former workplace, or a large employer near you). Did it
+   submit? What were its rates, and how do they compare with its industry in Part 2?
+2. OSHA publishes these data with employers' names. What are the arguments for and against
+   making establishment-level injury data public?
+
+**Your answer:**
+
+
+

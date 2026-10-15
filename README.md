@@ -30,7 +30,8 @@ Each module gives students:
 | [WHO/ILO Joint Estimates of the work-related burden of disease](modules/intl-who-ilo-joint-estimates/) | International | WHO / ILO | Ready |
 | [Canada AWCBC work injury, disease and fatality statistics](modules/ca-awcbc-nwisp/) | Canada | AWCBC | Ready |
 | [OSHA enforcement: inspections, violations and accident investigations](modules/us-osha-enforcement/) | US | OSHA | Ready |
-| [MSHA mine safety: accidents, injury rates and violations](modules/us-msha-mine-safety/) | US | MSHA | Ready for review |
+| [MSHA mine safety: accidents, injury rates and violations](modules/us-msha-mine-safety/) | US | MSHA | Ready |
+| [OSHA ITA summary (Form 300A): establishment injury rates](modules/us-osha-ita-summary/) | US | OSHA | Ready for review |
 
 See [CATALOG.md](CATALOG.md) for candidate datasets (US and international) and their status.
 
@@ -73,6 +74,7 @@ docs/                      instructor and contributor notes
 modules/
   _template/               copy this to start a new module
   us-osha-ita-case-detail/ OSHA Injury Tracking Application case detail data
+  us-osha-ita-summary/     OSHA Form 300A injury totals and hours for each establishment
   us-osha-chemical-exposure/ OSHA air, wipe and bulk sampling results
   intl-ilostat-osh/        ILO injury and labour inspection statistics by country
   intl-eurostat-esaw/      Eurostat accidents at work in Europe
