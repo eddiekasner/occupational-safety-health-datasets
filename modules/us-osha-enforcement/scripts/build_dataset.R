@@ -35,6 +35,7 @@ dir.create(sample_dir, recursive = TRUE, showWarnings = FALSE)
 
 read_table <- function(table) {
   files <- list.files(file.path(raw_dir, table), pattern = "\\.csv$", full.names = TRUE)
+  files <- files[file.size(files) > 0]  # empty files: date ranges with no records
   if (!length(files)) stop("No files for ", table, " in ", raw_dir, ". Run fetch_data.R first.")
   bind_rows(lapply(files, \(f) read_csv(f, col_types = cols(.default = col_character()),
                                          progress = FALSE)))

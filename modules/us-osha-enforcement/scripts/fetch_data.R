@@ -60,7 +60,8 @@ fetch_range <- function(table, field, from, to, dest) {
       download.file(url, dest, mode = "wb", quiet = TRUE)
       TRUE
     }, error = function(e) FALSE, warning = function(w) FALSE)
-    if (ok && isTRUE(file.size(dest) > 0)) return(length(readLines(dest, warn = FALSE)) - 1)
+    # An empty answer (HTTP 204) means there are no records in this range
+    if (ok) return(max(0, length(readLines(dest, warn = FALSE)) - 1))
     message("  request failed (", table, " ", from, " to ", to, "); waiting ", waits[attempt],
             " seconds")
     Sys.sleep(waits[attempt])
