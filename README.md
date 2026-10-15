@@ -29,7 +29,8 @@ Each module gives students:
 | [UK HSE injury statistics (RIDDOR and LFS)](modules/uk-hse-riddor/) | Great Britain | HSE | Ready |
 | [WHO/ILO Joint Estimates of the work-related burden of disease](modules/intl-who-ilo-joint-estimates/) | International | WHO / ILO | Ready |
 | [Canada AWCBC work injury, disease and fatality statistics](modules/ca-awcbc-nwisp/) | Canada | AWCBC | Ready |
-| [OSHA enforcement: inspections, violations and accident investigations](modules/us-osha-enforcement/) | US | OSHA | Ready for review |
+| [OSHA enforcement: inspections, violations and accident investigations](modules/us-osha-enforcement/) | US | OSHA | Ready |
+| [MSHA mine safety: accidents, injury rates and violations](modules/us-msha-mine-safety/) | US | MSHA | Ready for review |
 
 See [CATALOG.md](CATALOG.md) for candidate datasets (US and international) and their status.
 
@@ -83,6 +84,7 @@ modules/
   intl-who-ilo-joint-estimates/ deaths and DALYs from occupational risk factors, 183 countries
   ca-awcbc-nwisp/          Canadian accepted lost time claims and fatalities since 1982
   us-osha-enforcement/     OSHA inspections, violations, penalties and accident investigations
+  us-msha-mine-safety/     mine accidents, injury rates, employment and violations since 2000
 install_packages.R         one-time R package setup
 ```
 
