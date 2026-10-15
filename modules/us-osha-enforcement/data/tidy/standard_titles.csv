@@ -1,0 +1,857 @@
+section,title,full_title,part,part_title,subpart
+1903.1,Purpose and scope,Purpose and scope,1903,"Inspections, Citations and Proposed Penalties",
+1903.2,"Posting of notice; availability of the Act, regulations and applicable standards","Posting of notice; availability of the Act, regulations and applicable standards",1903,"Inspections, Citations and Proposed Penalties",
+1903.3,Authority for inspection,Authority for inspection,1903,"Inspections, Citations and Proposed Penalties",
+1903.4,Objection to inspection,Objection to inspection,1903,"Inspections, Citations and Proposed Penalties",
+1903.5,Entry not a waiver,Entry not a waiver,1903,"Inspections, Citations and Proposed Penalties",
+1903.6,Advance notice of inspections,Advance notice of inspections,1903,"Inspections, Citations and Proposed Penalties",
+1903.7,Conduct of inspections,Conduct of inspections,1903,"Inspections, Citations and Proposed Penalties",
+1903.8,Representatives of employers and employees,Representatives of employers and employees,1903,"Inspections, Citations and Proposed Penalties",
+1903.9,Trade secrets,Trade secrets,1903,"Inspections, Citations and Proposed Penalties",
+1903.10,Consultation with employees,Consultation with employees,1903,"Inspections, Citations and Proposed Penalties",
+1903.11,Complaints by employees,Complaints by employees,1903,"Inspections, Citations and Proposed Penalties",
+1903.12,Inspection not warranted; informal review,Inspection not warranted; informal review,1903,"Inspections, Citations and Proposed Penalties",
+1903.13,Imminent danger,Imminent danger,1903,"Inspections, Citations and Proposed Penalties",
+1903.14,Citations; notices of de minimis violations; policy regarding employee rescue activities,Citations; notices of de minimis violations; policy regarding employee rescue activities,1903,"Inspections, Citations and Proposed Penalties",
+1903.14a,Petitions for modification of abatement date,Petitions for modification of abatement date,1903,"Inspections, Citations and Proposed Penalties",
+1903.15,Proposed penalties,Proposed penalties,1903,"Inspections, Citations and Proposed Penalties",
+1903.16,Posting of citations,Posting of citations,1903,"Inspections, Citations and Proposed Penalties",
+1903.17,Employer and employee contests before the Review Commission,Employer and employee contests before the Review Commission,1903,"Inspections, Citations and Proposed Penalties",
+1903.18,Failure to correct a violation for which a citation has been issued,Failure to correct a violation for which a citation has been issued,1903,"Inspections, Citations and Proposed Penalties",
+1903.19,Abatement verification,Abatement verification,1903,"Inspections, Citations and Proposed Penalties",
+1903.20,Informal conferences,Informal conferences,1903,"Inspections, Citations and Proposed Penalties",
+1903.21,State administration,State administration,1903,"Inspections, Citations and Proposed Penalties",
+1903.22,Definitions,Definitions,1903,"Inspections, Citations and Proposed Penalties",
+1904.0,Purpose,Purpose: Purpose,1904,Recording and Reporting Occupational Injuries and Illnesses,Subpart A: Purpose
+1904.1,Partial exemption for employers with 10 or fewer employees,Scope: Partial exemption for employers with 10 or fewer employees,1904,Recording and Reporting Occupational Injuries and Illnesses,Subpart B: Scope
+1904.2,Partial exemption for establishments in certain industries,Scope: Partial exemption for establishments in certain industries,1904,Recording and Reporting Occupational Injuries and Illnesses,Subpart B: Scope
+1904.3,Keeping records for more than one agency,Scope: Keeping records for more than one agency,1904,Recording and Reporting Occupational Injuries and Illnesses,Subpart B: Scope
+1904.4,Recording criteria,Recordkeeping Forms and Recording Criteria: Recording criteria,1904,Recording and Reporting Occupational Injuries and Illnesses,Subpart C: Recordkeeping Forms and Recording Criteria
+1904.5,Determination of work-relatedness,Recordkeeping Forms and Recording Criteria: Determination of work-relatedness,1904,Recording and Reporting Occupational Injuries and Illnesses,Subpart C: Recordkeeping Forms and Recording Criteria
+1904.6,Determination of new cases,Recordkeeping Forms and Recording Criteria: Determination of new cases,1904,Recording and Reporting Occupational Injuries and Illnesses,Subpart C: Recordkeeping Forms and Recording Criteria
+1904.7,General recording criteria,Recordkeeping Forms and Recording Criteria: General recording criteria,1904,Recording and Reporting Occupational Injuries and Illnesses,Subpart C: Recordkeeping Forms and Recording Criteria
+1904.8,Recording criteria for needlestick and sharps injuries,Recordkeeping Forms and Recording Criteria: Recording criteria for needlestick and sharps injuries,1904,Recording and Reporting Occupational Injuries and Illnesses,Subpart C: Recordkeeping Forms and Recording Criteria
+1904.9,Recording criteria for cases involving medical removal under OSHA standards,Recordkeeping Forms and Recording Criteria: Recording criteria for cases involving medical removal under OSHA standards,1904,Recording and Reporting Occupational Injuries and Illnesses,Subpart C: Recordkeeping Forms and Recording Criteria
+1904.10,Recording criteria for cases involving occupational hearing loss,Recordkeeping Forms and Recording Criteria: Recording criteria for cases involving occupational hearing loss,1904,Recording and Reporting Occupational Injuries and Illnesses,Subpart C: Recordkeeping Forms and Recording Criteria
+1904.11,Recording criteria for work-related tuberculosis cases,Recordkeeping Forms and Recording Criteria: Recording criteria for work-related tuberculosis cases,1904,Recording and Reporting Occupational Injuries and Illnesses,Subpart C: Recordkeeping Forms and Recording Criteria
+1904.29,Forms,Recordkeeping Forms and Recording Criteria: Forms,1904,Recording and Reporting Occupational Injuries and Illnesses,Subpart C: Recordkeeping Forms and Recording Criteria
+1904.30,Multiple business establishments,Other OSHA Injury and Illness Recordkeeping Requirements: Multiple business establishments,1904,Recording and Reporting Occupational Injuries and Illnesses,Subpart D: Other OSHA Injury and Illness Recordkeeping Requirements
+1904.31,Covered employees,Other OSHA Injury and Illness Recordkeeping Requirements: Covered employees,1904,Recording and Reporting Occupational Injuries and Illnesses,Subpart D: Other OSHA Injury and Illness Recordkeeping Requirements
+1904.32,Annual summary,Other OSHA Injury and Illness Recordkeeping Requirements: Annual summary,1904,Recording and Reporting Occupational Injuries and Illnesses,Subpart D: Other OSHA Injury and Illness Recordkeeping Requirements
+1904.33,Retention and updating,Other OSHA Injury and Illness Recordkeeping Requirements: Retention and updating,1904,Recording and Reporting Occupational Injuries and Illnesses,Subpart D: Other OSHA Injury and Illness Recordkeeping Requirements
+1904.34,Change in business ownership,Other OSHA Injury and Illness Recordkeeping Requirements: Change in business ownership,1904,Recording and Reporting Occupational Injuries and Illnesses,Subpart D: Other OSHA Injury and Illness Recordkeeping Requirements
+1904.35,Employee involvement,Other OSHA Injury and Illness Recordkeeping Requirements: Employee involvement,1904,Recording and Reporting Occupational Injuries and Illnesses,Subpart D: Other OSHA Injury and Illness Recordkeeping Requirements
+1904.36,Prohibition against discrimination,Other OSHA Injury and Illness Recordkeeping Requirements: Prohibition against discrimination,1904,Recording and Reporting Occupational Injuries and Illnesses,Subpart D: Other OSHA Injury and Illness Recordkeeping Requirements
+1904.37,State recordkeeping regulations,Other OSHA Injury and Illness Recordkeeping Requirements: State recordkeeping regulations,1904,Recording and Reporting Occupational Injuries and Illnesses,Subpart D: Other OSHA Injury and Illness Recordkeeping Requirements
+1904.38,Variances from the recordkeeping rule,Other OSHA Injury and Illness Recordkeeping Requirements: Variances from the recordkeeping rule,1904,Recording and Reporting Occupational Injuries and Illnesses,Subpart D: Other OSHA Injury and Illness Recordkeeping Requirements
+1904.39,"Reporting fatalities, hospitalizations, amputations, and losses of an eye as a result of work-related incidents to OSHA","Reporting Fatality, Injury and Illness Information to the Government: Reporting fatalities, hospitalizations, amputations, and losses of an eye as a result of work-related incidents to OSHA",1904,Recording and Reporting Occupational Injuries and Illnesses,"Subpart E: Reporting Fatality, Injury and Illness Information to the Government"
+1904.40,Providing records to government representatives,"Reporting Fatality, Injury and Illness Information to the Government: Providing records to government representatives",1904,Recording and Reporting Occupational Injuries and Illnesses,"Subpart E: Reporting Fatality, Injury and Illness Information to the Government"
+1904.41,Electronic submission of Employer Identification Number (EIN) and injury and illness records to OSHA,"Reporting Fatality, Injury and Illness Information to the Government: Electronic submission of Employer Identification Number (EIN) and injury and illness records to OSHA",1904,Recording and Reporting Occupational Injuries and Illnesses,"Subpart E: Reporting Fatality, Injury and Illness Information to the Government"
+1904.42,Requests from the Bureau of Labor Statistics for data,"Reporting Fatality, Injury and Illness Information to the Government: Requests from the Bureau of Labor Statistics for data",1904,Recording and Reporting Occupational Injuries and Illnesses,"Subpart E: Reporting Fatality, Injury and Illness Information to the Government"
+1904.43,Summary and posting of the 2001 data,Transition From the Former Rule: Summary and posting of the 2001 data,1904,Recording and Reporting Occupational Injuries and Illnesses,Subpart F: Transition From the Former Rule
+1904.44,Retention and updating of old forms,Transition From the Former Rule: Retention and updating of old forms,1904,Recording and Reporting Occupational Injuries and Illnesses,Subpart F: Transition From the Former Rule
+1904.45,OMB control numbers under the Paperwork Reduction Act,Transition From the Former Rule: OMB control numbers under the Paperwork Reduction Act,1904,Recording and Reporting Occupational Injuries and Illnesses,Subpart F: Transition From the Former Rule
+1904.46,Definitions,Definitions: Definitions,1904,Recording and Reporting Occupational Injuries and Illnesses,Subpart G: Definitions
+1910.1,Purpose and scope,General: Purpose and scope,1910,Occupational Safety and Health Standards,Subpart A: General
+1910.2,Definitions,General: Definitions,1910,Occupational Safety and Health Standards,Subpart A: General
+1910.3,"Petitions for the issuance, amendment, or repeal of a standard","General: Petitions for the issuance, amendment, or repeal of a standard",1910,Occupational Safety and Health Standards,Subpart A: General
+1910.4,Amendments to this part,General: Amendments to this part,1910,Occupational Safety and Health Standards,Subpart A: General
+1910.5,Applicability of standards,General: Applicability of standards,1910,Occupational Safety and Health Standards,Subpart A: General
+1910.6,Incorporation by reference,General: Incorporation by reference,1910,Occupational Safety and Health Standards,Subpart A: General
+1910.7,Definition and requirements for a nationally recognized testing laboratory,General: Definition and requirements for a nationally recognized testing laboratory,1910,Occupational Safety and Health Standards,Subpart A: General
+1910.8,OMB control numbers under the Paperwork Reduction Act,General: OMB control numbers under the Paperwork Reduction Act,1910,Occupational Safety and Health Standards,Subpart A: General
+1910.9,Compliance duties owed to each employee,General: Compliance duties owed to each employee,1910,Occupational Safety and Health Standards,Subpart A: General
+1910.11,Scope and purpose,Adoption and Extension of Established Federal Standards: Scope and purpose,1910,Occupational Safety and Health Standards,Subpart B: Adoption and Extension of Established Federal Standards
+1910.12,Construction work,Adoption and Extension of Established Federal Standards: Construction work,1910,Occupational Safety and Health Standards,Subpart B: Adoption and Extension of Established Federal Standards
+1910.15,Shipyard employment,Adoption and Extension of Established Federal Standards: Shipyard employment,1910,Occupational Safety and Health Standards,Subpart B: Adoption and Extension of Established Federal Standards
+1910.16,Longshoring and marine terminals,Adoption and Extension of Established Federal Standards: Longshoring and marine terminals,1910,Occupational Safety and Health Standards,Subpart B: Adoption and Extension of Established Federal Standards
+1910.17,Effective dates,Adoption and Extension of Established Federal Standards: Effective dates,1910,Occupational Safety and Health Standards,Subpart B: Adoption and Extension of Established Federal Standards
+1910.18,Changes in established Federal standards,Adoption and Extension of Established Federal Standards: Changes in established Federal standards,1910,Occupational Safety and Health Standards,Subpart B: Adoption and Extension of Established Federal Standards
+1910.19,Special provisions for air contaminants,Adoption and Extension of Established Federal Standards: Special provisions for air contaminants,1910,Occupational Safety and Health Standards,Subpart B: Adoption and Extension of Established Federal Standards
+1910.21,Scope and definitions,Walking-Working Surfaces: Scope and definitions,1910,Occupational Safety and Health Standards,Subpart D: Walking-Working Surfaces
+1910.22,General requirements,Walking-Working Surfaces: General requirements,1910,Occupational Safety and Health Standards,Subpart D: Walking-Working Surfaces
+1910.23,Ladders,Walking-Working Surfaces: Ladders,1910,Occupational Safety and Health Standards,Subpart D: Walking-Working Surfaces
+1910.24,Step bolts and manhole steps,Walking-Working Surfaces: Step bolts and manhole steps,1910,Occupational Safety and Health Standards,Subpart D: Walking-Working Surfaces
+1910.25,Stairways,Walking-Working Surfaces: Stairways,1910,Occupational Safety and Health Standards,Subpart D: Walking-Working Surfaces
+1910.26,Dockboards,Walking-Working Surfaces: Dockboards,1910,Occupational Safety and Health Standards,Subpart D: Walking-Working Surfaces
+1910.27,Scaffolds and rope descent systems,Walking-Working Surfaces: Scaffolds and rope descent systems,1910,Occupational Safety and Health Standards,Subpart D: Walking-Working Surfaces
+1910.28,Duty to have fall protection and falling object protection,Walking-Working Surfaces: Duty to have fall protection and falling object protection,1910,Occupational Safety and Health Standards,Subpart D: Walking-Working Surfaces
+1910.29,Fall protection systems and falling object protection—criteria and practices,Walking-Working Surfaces: Fall protection systems and falling object protection—criteria and practices,1910,Occupational Safety and Health Standards,Subpart D: Walking-Working Surfaces
+1910.30,Training requirements,Walking-Working Surfaces: Training requirements,1910,Occupational Safety and Health Standards,Subpart D: Walking-Working Surfaces
+1910.33,Table of contents,Exit Routes and Emergency Planning: Table of contents,1910,Occupational Safety and Health Standards,Subpart E: Exit Routes and Emergency Planning
+1910.34,Coverage and definitions,Exit Routes and Emergency Planning: Coverage and definitions,1910,Occupational Safety and Health Standards,Subpart E: Exit Routes and Emergency Planning
+1910.35,Compliance with alternate exit-route codes,Exit Routes and Emergency Planning: Compliance with alternate exit-route codes,1910,Occupational Safety and Health Standards,Subpart E: Exit Routes and Emergency Planning
+1910.36,Design and construction requirements for exit routes,Exit Routes and Emergency Planning: Design and construction requirements for exit routes,1910,Occupational Safety and Health Standards,Subpart E: Exit Routes and Emergency Planning
+1910.37,"Maintenance, safeguards, and operational features for exit routes","Exit Routes and Emergency Planning: Maintenance, safeguards, and operational features for exit routes",1910,Occupational Safety and Health Standards,Subpart E: Exit Routes and Emergency Planning
+1910.38,Emergency action plans,Exit Routes and Emergency Planning: Emergency action plans,1910,Occupational Safety and Health Standards,Subpart E: Exit Routes and Emergency Planning
+1910.39,Fire prevention plans,Exit Routes and Emergency Planning: Fire prevention plans,1910,Occupational Safety and Health Standards,Subpart E: Exit Routes and Emergency Planning
+1910.66,Powered platforms for building maintenance,"Powered Platforms, Manlifts, and Vehicle-Mounted Work Platforms: Powered platforms for building maintenance",1910,Occupational Safety and Health Standards,"Subpart F: Powered Platforms, Manlifts, and Vehicle-Mounted Work Platforms"
+1910.67,Vehicle-mounted elevating and rotating work platforms,"Powered Platforms, Manlifts, and Vehicle-Mounted Work Platforms: Vehicle-mounted elevating and rotating work platforms",1910,Occupational Safety and Health Standards,"Subpart F: Powered Platforms, Manlifts, and Vehicle-Mounted Work Platforms"
+1910.68,Manlifts,"Powered Platforms, Manlifts, and Vehicle-Mounted Work Platforms: Manlifts",1910,Occupational Safety and Health Standards,"Subpart F: Powered Platforms, Manlifts, and Vehicle-Mounted Work Platforms"
+1910.94,Ventilation,Occupational Health and Environmental Control: Ventilation,1910,Occupational Safety and Health Standards,Subpart G: Occupational Health and Environmental Control
+1910.95,Occupational noise exposure,Occupational Health and Environmental Control: Occupational noise exposure,1910,Occupational Safety and Health Standards,Subpart G: Occupational Health and Environmental Control
+1910.97,Nonionizing radiation,Occupational Health and Environmental Control: Nonionizing radiation,1910,Occupational Safety and Health Standards,Subpart G: Occupational Health and Environmental Control
+1910.98,Effective dates,Occupational Health and Environmental Control: Effective dates,1910,Occupational Safety and Health Standards,Subpart G: Occupational Health and Environmental Control
+1910.101,Compressed gases (general requirements),Hazardous Materials: Compressed gases (general requirements),1910,Occupational Safety and Health Standards,Subpart H: Hazardous Materials
+1910.102,Acetylene,Hazardous Materials: Acetylene,1910,Occupational Safety and Health Standards,Subpart H: Hazardous Materials
+1910.103,Hydrogen,Hazardous Materials: Hydrogen,1910,Occupational Safety and Health Standards,Subpart H: Hazardous Materials
+1910.104,Oxygen,Hazardous Materials: Oxygen,1910,Occupational Safety and Health Standards,Subpart H: Hazardous Materials
+1910.105,Nitrous oxide,Hazardous Materials: Nitrous oxide,1910,Occupational Safety and Health Standards,Subpart H: Hazardous Materials
+1910.106,Flammable liquids,Hazardous Materials: Flammable liquids,1910,Occupational Safety and Health Standards,Subpart H: Hazardous Materials
+1910.107,Spray finishing using flammable and combustible materials,Hazardous Materials: Spray finishing using flammable and combustible materials,1910,Occupational Safety and Health Standards,Subpart H: Hazardous Materials
+1910.109,Explosives and blasting agents,Hazardous Materials: Explosives and blasting agents,1910,Occupational Safety and Health Standards,Subpart H: Hazardous Materials
+1910.110,Storage and handling of liquefied petroleum gases,Hazardous Materials: Storage and handling of liquefied petroleum gases,1910,Occupational Safety and Health Standards,Subpart H: Hazardous Materials
+1910.111,Storage and handling of anhydrous ammonia,Hazardous Materials: Storage and handling of anhydrous ammonia,1910,Occupational Safety and Health Standards,Subpart H: Hazardous Materials
+1910.119,Process safety management of highly hazardous chemicals,Hazardous Materials: Process safety management of highly hazardous chemicals,1910,Occupational Safety and Health Standards,Subpart H: Hazardous Materials
+1910.120,Hazardous waste operations and emergency response,Hazardous Materials: Hazardous waste operations and emergency response,1910,Occupational Safety and Health Standards,Subpart H: Hazardous Materials
+1910.122,Table of contents,Hazardous Materials: Table of contents,1910,Occupational Safety and Health Standards,Subpart H: Hazardous Materials
+1910.123,Dipping and coating operations: Coverage and definitions,Hazardous Materials: Dipping and coating operations: Coverage and definitions,1910,Occupational Safety and Health Standards,Subpart H: Hazardous Materials
+1910.124,General requirements for dipping and coating operations,Hazardous Materials: General requirements for dipping and coating operations,1910,Occupational Safety and Health Standards,Subpart H: Hazardous Materials
+1910.125,Additional requirements for dipping and coating operations that use flammable liquids or liquids with flashpoints greater than 199.4 °F (93 °C),Hazardous Materials: Additional requirements for dipping and coating operations that use flammable liquids or liquids with flashpoints greater than 199.4 °F (93 °C),1910,Occupational Safety and Health Standards,Subpart H: Hazardous Materials
+1910.126,Additional requirements for special dipping and coating operations,Hazardous Materials: Additional requirements for special dipping and coating operations,1910,Occupational Safety and Health Standards,Subpart H: Hazardous Materials
+1910.132,General requirements,Personal Protective Equipment: General requirements,1910,Occupational Safety and Health Standards,Subpart I: Personal Protective Equipment
+1910.133,Eye and face protection,Personal Protective Equipment: Eye and face protection,1910,Occupational Safety and Health Standards,Subpart I: Personal Protective Equipment
+1910.134,Respiratory protection,Personal Protective Equipment: Respiratory protection,1910,Occupational Safety and Health Standards,Subpart I: Personal Protective Equipment
+1910.135,Head protection,Personal Protective Equipment: Head protection,1910,Occupational Safety and Health Standards,Subpart I: Personal Protective Equipment
+1910.136,Foot protection,Personal Protective Equipment: Foot protection,1910,Occupational Safety and Health Standards,Subpart I: Personal Protective Equipment
+1910.137,Electrical protective equipment,Personal Protective Equipment: Electrical protective equipment,1910,Occupational Safety and Health Standards,Subpart I: Personal Protective Equipment
+1910.138,Hand protection,Personal Protective Equipment: Hand protection,1910,Occupational Safety and Health Standards,Subpart I: Personal Protective Equipment
+1910.140,Personal fall protection systems,Personal Protective Equipment: Personal fall protection systems,1910,Occupational Safety and Health Standards,Subpart I: Personal Protective Equipment
+1910.141,Sanitation,General Environmental Controls: Sanitation,1910,Occupational Safety and Health Standards,Subpart J: General Environmental Controls
+1910.142,Temporary labor camps,General Environmental Controls: Temporary labor camps,1910,Occupational Safety and Health Standards,Subpart J: General Environmental Controls
+1910.144,Safety color code for marking physical hazards,General Environmental Controls: Safety color code for marking physical hazards,1910,Occupational Safety and Health Standards,Subpart J: General Environmental Controls
+1910.145,Specifications for accident prevention signs and tags,General Environmental Controls: Specifications for accident prevention signs and tags,1910,Occupational Safety and Health Standards,Subpart J: General Environmental Controls
+1910.146,Permit-required confined spaces,General Environmental Controls: Permit-required confined spaces,1910,Occupational Safety and Health Standards,Subpart J: General Environmental Controls
+1910.147,The control of hazardous energy (lockout/tagout),General Environmental Controls: The control of hazardous energy (lockout/tagout),1910,Occupational Safety and Health Standards,Subpart J: General Environmental Controls
+1910.151,Medical services and first aid,Medical and First Aid: Medical services and first aid,1910,Occupational Safety and Health Standards,Subpart K: Medical and First Aid
+1910.155,"Scope, application and definitions applicable to this subpart","Fire Protection: Scope, application and definitions applicable to this subpart",1910,Occupational Safety and Health Standards,Subpart L: Fire Protection
+1910.156,Fire brigades,Fire Protection: Fire brigades,1910,Occupational Safety and Health Standards,Subpart L: Fire Protection
+1910.157,Portable fire extinguishers,Fire Protection: Portable fire extinguishers,1910,Occupational Safety and Health Standards,Subpart L: Fire Protection
+1910.158,Standpipe and hose systems,Fire Protection: Standpipe and hose systems,1910,Occupational Safety and Health Standards,Subpart L: Fire Protection
+1910.159,Automatic sprinkler systems,Fire Protection: Automatic sprinkler systems,1910,Occupational Safety and Health Standards,Subpart L: Fire Protection
+1910.160,"Fixed extinguishing systems, general","Fire Protection: Fixed extinguishing systems, general",1910,Occupational Safety and Health Standards,Subpart L: Fire Protection
+1910.161,"Fixed extinguishing systems, dry chemical","Fire Protection: Fixed extinguishing systems, dry chemical",1910,Occupational Safety and Health Standards,Subpart L: Fire Protection
+1910.162,"Fixed extinguishing systems, gaseous agent","Fire Protection: Fixed extinguishing systems, gaseous agent",1910,Occupational Safety and Health Standards,Subpart L: Fire Protection
+1910.163,"Fixed extinguishing systems, water spray and foam","Fire Protection: Fixed extinguishing systems, water spray and foam",1910,Occupational Safety and Health Standards,Subpart L: Fire Protection
+1910.164,Fire detection systems,Fire Protection: Fire detection systems,1910,Occupational Safety and Health Standards,Subpart L: Fire Protection
+1910.165,Employee alarm systems,Fire Protection: Employee alarm systems,1910,Occupational Safety and Health Standards,Subpart L: Fire Protection
+1910.169,Air receivers,Compressed Gas and Compressed Air Equipment: Air receivers,1910,Occupational Safety and Health Standards,Subpart M: Compressed Gas and Compressed Air Equipment
+1910.176,Handling materials—general,Materials Handling and Storage: Handling materials—general,1910,Occupational Safety and Health Standards,Subpart N: Materials Handling and Storage
+1910.177,Servicing multi-piece and single piece rim wheels,Materials Handling and Storage: Servicing multi-piece and single piece rim wheels,1910,Occupational Safety and Health Standards,Subpart N: Materials Handling and Storage
+1910.178,Powered industrial trucks,Materials Handling and Storage: Powered industrial trucks,1910,Occupational Safety and Health Standards,Subpart N: Materials Handling and Storage
+1910.179,Overhead and gantry cranes,Materials Handling and Storage: Overhead and gantry cranes,1910,Occupational Safety and Health Standards,Subpart N: Materials Handling and Storage
+1910.180,Crawler locomotive and truck cranes,Materials Handling and Storage: Crawler locomotive and truck cranes,1910,Occupational Safety and Health Standards,Subpart N: Materials Handling and Storage
+1910.181,Derricks,Materials Handling and Storage: Derricks,1910,Occupational Safety and Health Standards,Subpart N: Materials Handling and Storage
+1910.183,Helicopters,Materials Handling and Storage: Helicopters,1910,Occupational Safety and Health Standards,Subpart N: Materials Handling and Storage
+1910.184,Slings,Materials Handling and Storage: Slings,1910,Occupational Safety and Health Standards,Subpart N: Materials Handling and Storage
+1910.211,Definitions,Machinery and Machine Guarding: Definitions,1910,Occupational Safety and Health Standards,Subpart O: Machinery and Machine Guarding
+1910.212,General requirements for all machines,Machinery and Machine Guarding: General requirements for all machines,1910,Occupational Safety and Health Standards,Subpart O: Machinery and Machine Guarding
+1910.213,Woodworking machinery requirements,Machinery and Machine Guarding: Woodworking machinery requirements,1910,Occupational Safety and Health Standards,Subpart O: Machinery and Machine Guarding
+1910.215,Abrasive wheel machinery,Machinery and Machine Guarding: Abrasive wheel machinery,1910,Occupational Safety and Health Standards,Subpart O: Machinery and Machine Guarding
+1910.216,Mills and calenders in the rubber and plastics industries,Machinery and Machine Guarding: Mills and calenders in the rubber and plastics industries,1910,Occupational Safety and Health Standards,Subpart O: Machinery and Machine Guarding
+1910.217,Mechanical power presses,Machinery and Machine Guarding: Mechanical power presses,1910,Occupational Safety and Health Standards,Subpart O: Machinery and Machine Guarding
+1910.218,Forging machines,Machinery and Machine Guarding: Forging machines,1910,Occupational Safety and Health Standards,Subpart O: Machinery and Machine Guarding
+1910.219,Mechanical power-transmission apparatus,Machinery and Machine Guarding: Mechanical power-transmission apparatus,1910,Occupational Safety and Health Standards,Subpart O: Machinery and Machine Guarding
+1910.241,Definitions,Hand and Portable Powered Tools and Other Hand-Held Equipment: Definitions,1910,Occupational Safety and Health Standards,Subpart P: Hand and Portable Powered Tools and Other Hand-Held Equipment
+1910.242,"Hand and portable powered tools and equipment, general","Hand and Portable Powered Tools and Other Hand-Held Equipment: Hand and portable powered tools and equipment, general",1910,Occupational Safety and Health Standards,Subpart P: Hand and Portable Powered Tools and Other Hand-Held Equipment
+1910.243,Guarding of portable powered tools,Hand and Portable Powered Tools and Other Hand-Held Equipment: Guarding of portable powered tools,1910,Occupational Safety and Health Standards,Subpart P: Hand and Portable Powered Tools and Other Hand-Held Equipment
+1910.244,Other portable tools and equipment,Hand and Portable Powered Tools and Other Hand-Held Equipment: Other portable tools and equipment,1910,Occupational Safety and Health Standards,Subpart P: Hand and Portable Powered Tools and Other Hand-Held Equipment
+1910.251,Definitions,"Welding, Cutting and Brazing: Definitions",1910,Occupational Safety and Health Standards,"Subpart Q: Welding, Cutting and Brazing"
+1910.252,General requirements,"Welding, Cutting and Brazing: General requirements",1910,Occupational Safety and Health Standards,"Subpart Q: Welding, Cutting and Brazing"
+1910.253,Oxygen-fuel gas welding and cutting,"Welding, Cutting and Brazing: Oxygen-fuel gas welding and cutting",1910,Occupational Safety and Health Standards,"Subpart Q: Welding, Cutting and Brazing"
+1910.254,Arc welding and cutting,"Welding, Cutting and Brazing: Arc welding and cutting",1910,Occupational Safety and Health Standards,"Subpart Q: Welding, Cutting and Brazing"
+1910.255,Resistance welding,"Welding, Cutting and Brazing: Resistance welding",1910,Occupational Safety and Health Standards,"Subpart Q: Welding, Cutting and Brazing"
+1910.261,"Pulp, paper, and paperboard mills","Special Industries: Pulp, paper, and paperboard mills",1910,Occupational Safety and Health Standards,Subpart R: Special Industries
+1910.262,Textiles,Special Industries: Textiles,1910,Occupational Safety and Health Standards,Subpart R: Special Industries
+1910.263,Bakery equipment,Special Industries: Bakery equipment,1910,Occupational Safety and Health Standards,Subpart R: Special Industries
+1910.264,Laundry machinery and operations,Special Industries: Laundry machinery and operations,1910,Occupational Safety and Health Standards,Subpart R: Special Industries
+1910.265,Sawmills,Special Industries: Sawmills,1910,Occupational Safety and Health Standards,Subpart R: Special Industries
+1910.266,Logging operations,Special Industries: Logging operations,1910,Occupational Safety and Health Standards,Subpart R: Special Industries
+1910.268,Telecommunications,Special Industries: Telecommunications,1910,Occupational Safety and Health Standards,Subpart R: Special Industries
+1910.269,"Electric power generation, transmission, and distribution","Special Industries: Electric power generation, transmission, and distribution",1910,Occupational Safety and Health Standards,Subpart R: Special Industries
+1910.272,Grain handling facilities,Special Industries: Grain handling facilities,1910,Occupational Safety and Health Standards,Subpart R: Special Industries
+1910.301,Introduction,Electrical: Introduction,1910,Occupational Safety and Health Standards,Subpart S: Electrical
+1910.302,Electric utilization systems,Electrical: Electric utilization systems,1910,Occupational Safety and Health Standards,Subpart S: Electrical
+1910.303,General,Electrical: General,1910,Occupational Safety and Health Standards,Subpart S: Electrical
+1910.304,Wiring design and protection,Electrical: Wiring design and protection,1910,Occupational Safety and Health Standards,Subpart S: Electrical
+1910.305,"Wiring methods, components, and equipment for general use","Electrical: Wiring methods, components, and equipment for general use",1910,Occupational Safety and Health Standards,Subpart S: Electrical
+1910.306,Specific purpose equipment and installations,Electrical: Specific purpose equipment and installations,1910,Occupational Safety and Health Standards,Subpart S: Electrical
+1910.307,Hazardous (classified) locations,Electrical: Hazardous (classified) locations,1910,Occupational Safety and Health Standards,Subpart S: Electrical
+1910.308,Special systems,Electrical: Special systems,1910,Occupational Safety and Health Standards,Subpart S: Electrical
+1910.331,Scope,Electrical: Scope,1910,Occupational Safety and Health Standards,Subpart S: Electrical
+1910.332,Training,Electrical: Training,1910,Occupational Safety and Health Standards,Subpart S: Electrical
+1910.333,Selection and use of work practices,Electrical: Selection and use of work practices,1910,Occupational Safety and Health Standards,Subpart S: Electrical
+1910.334,Use of equipment,Electrical: Use of equipment,1910,Occupational Safety and Health Standards,Subpart S: Electrical
+1910.335,Safeguards for personnel protection,Electrical: Safeguards for personnel protection,1910,Occupational Safety and Health Standards,Subpart S: Electrical
+1910.399,Definitions applicable to this subpart,Electrical: Definitions applicable to this subpart,1910,Occupational Safety and Health Standards,Subpart S: Electrical
+1910.401,Scope and application,Commercial Diving Operations: Scope and application,1910,Occupational Safety and Health Standards,Subpart T: Commercial Diving Operations
+1910.402,Definitions,Commercial Diving Operations: Definitions,1910,Occupational Safety and Health Standards,Subpart T: Commercial Diving Operations
+1910.410,Qualifications of dive team,Commercial Diving Operations: Qualifications of dive team,1910,Occupational Safety and Health Standards,Subpart T: Commercial Diving Operations
+1910.420,Safe practices manual,Commercial Diving Operations: Safe practices manual,1910,Occupational Safety and Health Standards,Subpart T: Commercial Diving Operations
+1910.421,Pre-dive procedures,Commercial Diving Operations: Pre-dive procedures,1910,Occupational Safety and Health Standards,Subpart T: Commercial Diving Operations
+1910.422,Procedures during dive,Commercial Diving Operations: Procedures during dive,1910,Occupational Safety and Health Standards,Subpart T: Commercial Diving Operations
+1910.423,Post-dive procedures,Commercial Diving Operations: Post-dive procedures,1910,Occupational Safety and Health Standards,Subpart T: Commercial Diving Operations
+1910.424,SCUBA diving,Commercial Diving Operations: SCUBA diving,1910,Occupational Safety and Health Standards,Subpart T: Commercial Diving Operations
+1910.425,Surface-supplied air diving,Commercial Diving Operations: Surface-supplied air diving,1910,Occupational Safety and Health Standards,Subpart T: Commercial Diving Operations
+1910.426,Mixed-gas diving,Commercial Diving Operations: Mixed-gas diving,1910,Occupational Safety and Health Standards,Subpart T: Commercial Diving Operations
+1910.427,Liveboating,Commercial Diving Operations: Liveboating,1910,Occupational Safety and Health Standards,Subpart T: Commercial Diving Operations
+1910.430,Equipment,Commercial Diving Operations: Equipment,1910,Occupational Safety and Health Standards,Subpart T: Commercial Diving Operations
+1910.440,Recordkeeping requirements,Commercial Diving Operations: Recordkeeping requirements,1910,Occupational Safety and Health Standards,Subpart T: Commercial Diving Operations
+1910.502,Healthcare,COVID-19: Healthcare,1910,Occupational Safety and Health Standards,Subpart U: COVID-19
+1910.504,Mini Respiratory Protection Program,COVID-19: Mini Respiratory Protection Program,1910,Occupational Safety and Health Standards,Subpart U: COVID-19
+1910.505,Severability,COVID-19: Severability,1910,Occupational Safety and Health Standards,Subpart U: COVID-19
+1910.509,Incorporation by reference,COVID-19: Incorporation by reference,1910,Occupational Safety and Health Standards,Subpart U: COVID-19
+1910.1000,Air contaminants,Air contaminants,1910,Occupational Safety and Health Standards,
+1910.1001,Asbestos,Asbestos,1910,Occupational Safety and Health Standards,
+1910.1002,Coal tar pitch volatiles; interpretation of term,Coal tar pitch volatiles; interpretation of term,1910,Occupational Safety and Health Standards,
+1910.1003,"13 Carcinogens (4-Nitrobiphenyl, etc.)","13 Carcinogens (4-Nitrobiphenyl, etc.)",1910,Occupational Safety and Health Standards,
+1910.1004,alpha-Naphthylamine,alpha-Naphthylamine,1910,Occupational Safety and Health Standards,
+1910.1006,Methyl chloromethyl ether,Methyl chloromethyl ether,1910,Occupational Safety and Health Standards,
+1910.1007,"3,′-Dichlorobenzidine (and its salts)","3,′-Dichlorobenzidine (and its salts)",1910,Occupational Safety and Health Standards,
+1910.1008,bis-Chloromethyl ether,bis-Chloromethyl ether,1910,Occupational Safety and Health Standards,
+1910.1009,beta-Naphthylamine,beta-Naphthylamine,1910,Occupational Safety and Health Standards,
+1910.1010,Benzidine,Benzidine,1910,Occupational Safety and Health Standards,
+1910.1011,4-Aminodiphenyl,4-Aminodiphenyl,1910,Occupational Safety and Health Standards,
+1910.1012,Ethyleneimine,Ethyleneimine,1910,Occupational Safety and Health Standards,
+1910.1013,beta-Propiolactone,beta-Propiolactone,1910,Occupational Safety and Health Standards,
+1910.1014,2-Acetylaminofluorene,2-Acetylaminofluorene,1910,Occupational Safety and Health Standards,
+1910.1015,4-Dimethylaminoazobenzene,4-Dimethylaminoazobenzene,1910,Occupational Safety and Health Standards,
+1910.1016,N-Nitrosodimethylamine,N-Nitrosodimethylamine,1910,Occupational Safety and Health Standards,
+1910.1017,Vinyl chloride,Vinyl chloride,1910,Occupational Safety and Health Standards,
+1910.1018,Inorganic arsenic,Inorganic arsenic,1910,Occupational Safety and Health Standards,
+1910.1020,Access to employee exposure and medical records,Access to employee exposure and medical records,1910,Occupational Safety and Health Standards,
+1910.1024,Beryllium,Beryllium,1910,Occupational Safety and Health Standards,
+1910.1025,Lead,Lead,1910,Occupational Safety and Health Standards,
+1910.1026,Chromium (VI),Chromium (VI),1910,Occupational Safety and Health Standards,
+1910.1027,Cadmium,Cadmium,1910,Occupational Safety and Health Standards,
+1910.1028,Benzene,Benzene,1910,Occupational Safety and Health Standards,
+1910.1029,Coke oven emissions,Coke oven emissions,1910,Occupational Safety and Health Standards,
+1910.1030,Bloodborne pathogens,Bloodborne pathogens,1910,Occupational Safety and Health Standards,
+1910.1043,Cotton dust,Cotton dust,1910,Occupational Safety and Health Standards,
+1910.1044,"1,2-dibromo-3-chloropropane","1,2-dibromo-3-chloropropane",1910,Occupational Safety and Health Standards,
+1910.1045,Acrylonitrile,Acrylonitrile,1910,Occupational Safety and Health Standards,
+1910.1047,Ethylene oxide,Ethylene oxide,1910,Occupational Safety and Health Standards,
+1910.1048,Formaldehyde,Formaldehyde,1910,Occupational Safety and Health Standards,
+1910.1050,Methylenedianiline,Methylenedianiline,1910,Occupational Safety and Health Standards,
+1910.1051,"1,3-Butadiene","1,3-Butadiene",1910,Occupational Safety and Health Standards,
+1910.1052,Methylene chloride,Methylene chloride,1910,Occupational Safety and Health Standards,
+1910.1053,Respirable crystalline silica,Respirable crystalline silica,1910,Occupational Safety and Health Standards,
+1910.1096,Ionizing radiation,Ionizing radiation,1910,Occupational Safety and Health Standards,
+1910.1200,Hazard communication,Hazard communication,1910,Occupational Safety and Health Standards,
+1910.1201,"Retention of DOT markings, placards and labels","Retention of DOT markings, placards and labels",1910,Occupational Safety and Health Standards,
+1910.1450,Occupational exposure to hazardous chemicals in laboratories,Occupational exposure to hazardous chemicals in laboratories,1910,Occupational Safety and Health Standards,
+1915.1,Purpose and authority,General Provisions: Purpose and authority,1915,Occupational Safety and Health Standards for Shipyard Employment,Subpart A: General Provisions
+1915.2,Scope and application,General Provisions: Scope and application,1915,Occupational Safety and Health Standards for Shipyard Employment,Subpart A: General Provisions
+1915.3,Responsibility,General Provisions: Responsibility,1915,Occupational Safety and Health Standards for Shipyard Employment,Subpart A: General Provisions
+1915.4,Definitions,General Provisions: Definitions,1915,Occupational Safety and Health Standards for Shipyard Employment,Subpart A: General Provisions
+1915.5,Incorporation by reference,General Provisions: Incorporation by reference,1915,Occupational Safety and Health Standards for Shipyard Employment,Subpart A: General Provisions
+1915.6,commercial diving operations,General Provisions: commercial diving operations,1915,Occupational Safety and Health Standards for Shipyard Employment,Subpart A: General Provisions
+1915.7,Competent person,General Provisions: Competent person,1915,Occupational Safety and Health Standards for Shipyard Employment,Subpart A: General Provisions
+1915.8,OMB control numbers under the Paperwork Reduction Act,General Provisions: OMB control numbers under the Paperwork Reduction Act,1915,Occupational Safety and Health Standards for Shipyard Employment,Subpart A: General Provisions
+1915.9,Compliance duties owed to each employee,General Provisions: Compliance duties owed to each employee,1915,Occupational Safety and Health Standards for Shipyard Employment,Subpart A: General Provisions
+1915.11,"Scope, application and definitions applicable to this subpart","Confined and Enclosed Spaces and Other Dangerous Atmospheres in Shipyard Employment: Scope, application and definitions applicable to this subpart",1915,Occupational Safety and Health Standards for Shipyard Employment,Subpart B: Confined and Enclosed Spaces and Other Dangerous Atmospheres in Shipyard Employment
+1915.12,Precautions and the order of testing before entering confined and enclosed spaces and other dangerous atmospheres,Confined and Enclosed Spaces and Other Dangerous Atmospheres in Shipyard Employment: Precautions and the order of testing before entering confined and enclosed spaces and other dangerous atmospheres,1915,Occupational Safety and Health Standards for Shipyard Employment,Subpart B: Confined and Enclosed Spaces and Other Dangerous Atmospheres in Shipyard Employment
+1915.13,Cleaning and other cold work,Confined and Enclosed Spaces and Other Dangerous Atmospheres in Shipyard Employment: Cleaning and other cold work,1915,Occupational Safety and Health Standards for Shipyard Employment,Subpart B: Confined and Enclosed Spaces and Other Dangerous Atmospheres in Shipyard Employment
+1915.14,Hot work,Confined and Enclosed Spaces and Other Dangerous Atmospheres in Shipyard Employment: Hot work,1915,Occupational Safety and Health Standards for Shipyard Employment,Subpart B: Confined and Enclosed Spaces and Other Dangerous Atmospheres in Shipyard Employment
+1915.15,Maintenance of safe conditions,Confined and Enclosed Spaces and Other Dangerous Atmospheres in Shipyard Employment: Maintenance of safe conditions,1915,Occupational Safety and Health Standards for Shipyard Employment,Subpart B: Confined and Enclosed Spaces and Other Dangerous Atmospheres in Shipyard Employment
+1915.16,Warning signs and labels,Confined and Enclosed Spaces and Other Dangerous Atmospheres in Shipyard Employment: Warning signs and labels,1915,Occupational Safety and Health Standards for Shipyard Employment,Subpart B: Confined and Enclosed Spaces and Other Dangerous Atmospheres in Shipyard Employment
+1915.31,Scope and application of subpart,Surface Preparation and Preservation: Scope and application of subpart,1915,Occupational Safety and Health Standards for Shipyard Employment,Subpart C: Surface Preparation and Preservation
+1915.32,Toxic cleaning solvents,Surface Preparation and Preservation: Toxic cleaning solvents,1915,Occupational Safety and Health Standards for Shipyard Employment,Subpart C: Surface Preparation and Preservation
+1915.33,Chemical paint and preservative removers,Surface Preparation and Preservation: Chemical paint and preservative removers,1915,Occupational Safety and Health Standards for Shipyard Employment,Subpart C: Surface Preparation and Preservation
+1915.34,Mechanical paint removers,Surface Preparation and Preservation: Mechanical paint removers,1915,Occupational Safety and Health Standards for Shipyard Employment,Subpart C: Surface Preparation and Preservation
+1915.35,Painting,Surface Preparation and Preservation: Painting,1915,Occupational Safety and Health Standards for Shipyard Employment,Subpart C: Surface Preparation and Preservation
+1915.36,Flammable liquids,Surface Preparation and Preservation: Flammable liquids,1915,Occupational Safety and Health Standards for Shipyard Employment,Subpart C: Surface Preparation and Preservation
+1915.51,"Ventilation and protection in welding, cutting and heating","Welding, Cutting and Heating: Ventilation and protection in welding, cutting and heating",1915,Occupational Safety and Health Standards for Shipyard Employment,"Subpart D: Welding, Cutting and Heating"
+1915.53,"Welding, cutting and heating in way of preservative coatings","Welding, Cutting and Heating: Welding, cutting and heating in way of preservative coatings",1915,Occupational Safety and Health Standards for Shipyard Employment,"Subpart D: Welding, Cutting and Heating"
+1915.54,"Welding, cutting and heating of hollow metal containers and structures not covered by § 1915.12","Welding, Cutting and Heating: Welding, cutting and heating of hollow metal containers and structures not covered by § 1915.12",1915,Occupational Safety and Health Standards for Shipyard Employment,"Subpart D: Welding, Cutting and Heating"
+1915.55,Gas welding and cutting,"Welding, Cutting and Heating: Gas welding and cutting",1915,Occupational Safety and Health Standards for Shipyard Employment,"Subpart D: Welding, Cutting and Heating"
+1915.56,Arc welding and cutting,"Welding, Cutting and Heating: Arc welding and cutting",1915,Occupational Safety and Health Standards for Shipyard Employment,"Subpart D: Welding, Cutting and Heating"
+1915.57,Uses of fissionable material in ship repairing and shipbuilding,"Welding, Cutting and Heating: Uses of fissionable material in ship repairing and shipbuilding",1915,Occupational Safety and Health Standards for Shipyard Employment,"Subpart D: Welding, Cutting and Heating"
+1915.71,Scaffolds or staging,"Scaffolds, Ladders and Other Working Surfaces: Scaffolds or staging",1915,Occupational Safety and Health Standards for Shipyard Employment,"Subpart E: Scaffolds, Ladders and Other Working Surfaces"
+1915.72,Ladders,"Scaffolds, Ladders and Other Working Surfaces: Ladders",1915,Occupational Safety and Health Standards for Shipyard Employment,"Subpart E: Scaffolds, Ladders and Other Working Surfaces"
+1915.73,Guarding of deck openings and edges,"Scaffolds, Ladders and Other Working Surfaces: Guarding of deck openings and edges",1915,Occupational Safety and Health Standards for Shipyard Employment,"Subpart E: Scaffolds, Ladders and Other Working Surfaces"
+1915.74,Access to vessels,"Scaffolds, Ladders and Other Working Surfaces: Access to vessels",1915,Occupational Safety and Health Standards for Shipyard Employment,"Subpart E: Scaffolds, Ladders and Other Working Surfaces"
+1915.75,Access to and guarding of dry docks and marine railways,"Scaffolds, Ladders and Other Working Surfaces: Access to and guarding of dry docks and marine railways",1915,Occupational Safety and Health Standards for Shipyard Employment,"Subpart E: Scaffolds, Ladders and Other Working Surfaces"
+1915.76,Access to cargo spaces and confined spaces,"Scaffolds, Ladders and Other Working Surfaces: Access to cargo spaces and confined spaces",1915,Occupational Safety and Health Standards for Shipyard Employment,"Subpart E: Scaffolds, Ladders and Other Working Surfaces"
+1915.77,Working surfaces,"Scaffolds, Ladders and Other Working Surfaces: Working surfaces",1915,Occupational Safety and Health Standards for Shipyard Employment,"Subpart E: Scaffolds, Ladders and Other Working Surfaces"
+1915.80,"Scope, application, definitions, and effective dates","General Working Conditions: Scope, application, definitions, and effective dates",1915,Occupational Safety and Health Standards for Shipyard Employment,Subpart F: General Working Conditions
+1915.81,Housekeeping,General Working Conditions: Housekeeping,1915,Occupational Safety and Health Standards for Shipyard Employment,Subpart F: General Working Conditions
+1915.82,Lighting,General Working Conditions: Lighting,1915,Occupational Safety and Health Standards for Shipyard Employment,Subpart F: General Working Conditions
+1915.83,Utilities,General Working Conditions: Utilities,1915,Occupational Safety and Health Standards for Shipyard Employment,Subpart F: General Working Conditions
+1915.84,Working alone,General Working Conditions: Working alone,1915,Occupational Safety and Health Standards for Shipyard Employment,Subpart F: General Working Conditions
+1915.85,Vessel radar and communication systems,General Working Conditions: Vessel radar and communication systems,1915,Occupational Safety and Health Standards for Shipyard Employment,Subpart F: General Working Conditions
+1915.86,Lifeboats,General Working Conditions: Lifeboats,1915,Occupational Safety and Health Standards for Shipyard Employment,Subpart F: General Working Conditions
+1915.87,Medical services and first aid,General Working Conditions: Medical services and first aid,1915,Occupational Safety and Health Standards for Shipyard Employment,Subpart F: General Working Conditions
+1915.88,Sanitation,General Working Conditions: Sanitation,1915,Occupational Safety and Health Standards for Shipyard Employment,Subpart F: General Working Conditions
+1915.89,Control of hazardous energy (lockout/tags-plus),General Working Conditions: Control of hazardous energy (lockout/tags-plus),1915,Occupational Safety and Health Standards for Shipyard Employment,Subpart F: General Working Conditions
+1915.90,Safety color code for marking physical hazards,General Working Conditions: Safety color code for marking physical hazards,1915,Occupational Safety and Health Standards for Shipyard Employment,Subpart F: General Working Conditions
+1915.91,Accident prevention signs and tags,General Working Conditions: Accident prevention signs and tags,1915,Occupational Safety and Health Standards for Shipyard Employment,Subpart F: General Working Conditions
+1915.92,"Retention of DOT markings, placards, and labels","General Working Conditions: Retention of DOT markings, placards, and labels",1915,Occupational Safety and Health Standards for Shipyard Employment,Subpart F: General Working Conditions
+1915.93,"Motor vehicle safety equipment, operation and maintenance","General Working Conditions: Motor vehicle safety equipment, operation and maintenance",1915,Occupational Safety and Health Standards for Shipyard Employment,Subpart F: General Working Conditions
+1915.94,Servicing multi-piece and single-piece rim wheels,General Working Conditions: Servicing multi-piece and single-piece rim wheels,1915,Occupational Safety and Health Standards for Shipyard Employment,Subpart F: General Working Conditions
+1915.111,Inspection,Gear and Equipment for Rigging and Materials Handling: Inspection,1915,Occupational Safety and Health Standards for Shipyard Employment,Subpart G: Gear and Equipment for Rigging and Materials Handling
+1915.112,"Ropes, chains and slings","Gear and Equipment for Rigging and Materials Handling: Ropes, chains and slings",1915,Occupational Safety and Health Standards for Shipyard Employment,Subpart G: Gear and Equipment for Rigging and Materials Handling
+1915.113,Shackles and hooks,Gear and Equipment for Rigging and Materials Handling: Shackles and hooks,1915,Occupational Safety and Health Standards for Shipyard Employment,Subpart G: Gear and Equipment for Rigging and Materials Handling
+1915.114,Chain falls and pull-lifts,Gear and Equipment for Rigging and Materials Handling: Chain falls and pull-lifts,1915,Occupational Safety and Health Standards for Shipyard Employment,Subpart G: Gear and Equipment for Rigging and Materials Handling
+1915.115,Hoisting and hauling equipment,Gear and Equipment for Rigging and Materials Handling: Hoisting and hauling equipment,1915,Occupational Safety and Health Standards for Shipyard Employment,Subpart G: Gear and Equipment for Rigging and Materials Handling
+1915.116,Use of gear,Gear and Equipment for Rigging and Materials Handling: Use of gear,1915,Occupational Safety and Health Standards for Shipyard Employment,Subpart G: Gear and Equipment for Rigging and Materials Handling
+1915.117,Qualifications of operators,Gear and Equipment for Rigging and Materials Handling: Qualifications of operators,1915,Occupational Safety and Health Standards for Shipyard Employment,Subpart G: Gear and Equipment for Rigging and Materials Handling
+1915.118,Tables,Gear and Equipment for Rigging and Materials Handling: Tables,1915,Occupational Safety and Health Standards for Shipyard Employment,Subpart G: Gear and Equipment for Rigging and Materials Handling
+1915.120,Powered industrial truck operator training,Gear and Equipment for Rigging and Materials Handling: Powered industrial truck operator training,1915,Occupational Safety and Health Standards for Shipyard Employment,Subpart G: Gear and Equipment for Rigging and Materials Handling
+1915.131,General precautions,Tools and Related Equipment: General precautions,1915,Occupational Safety and Health Standards for Shipyard Employment,Subpart H: Tools and Related Equipment
+1915.132,Portable electric tools,Tools and Related Equipment: Portable electric tools,1915,Occupational Safety and Health Standards for Shipyard Employment,Subpart H: Tools and Related Equipment
+1915.133,Hand tools,Tools and Related Equipment: Hand tools,1915,Occupational Safety and Health Standards for Shipyard Employment,Subpart H: Tools and Related Equipment
+1915.134,Abrasive wheels,Tools and Related Equipment: Abrasive wheels,1915,Occupational Safety and Health Standards for Shipyard Employment,Subpart H: Tools and Related Equipment
+1915.135,Powder actuated fastening tools,Tools and Related Equipment: Powder actuated fastening tools,1915,Occupational Safety and Health Standards for Shipyard Employment,Subpart H: Tools and Related Equipment
+1915.136,"Internal combustion engines, other than ship's equipment","Tools and Related Equipment: Internal combustion engines, other than ship's equipment",1915,Occupational Safety and Health Standards for Shipyard Employment,Subpart H: Tools and Related Equipment
+1915.151,"Scope, application and definitions","Personal Protective Equipment (PPE): Scope, application and definitions",1915,Occupational Safety and Health Standards for Shipyard Employment,Subpart I: Personal Protective Equipment (PPE)
+1915.152,General requirements,Personal Protective Equipment (PPE): General requirements,1915,Occupational Safety and Health Standards for Shipyard Employment,Subpart I: Personal Protective Equipment (PPE)
+1915.153,Eye and face protection,Personal Protective Equipment (PPE): Eye and face protection,1915,Occupational Safety and Health Standards for Shipyard Employment,Subpart I: Personal Protective Equipment (PPE)
+1915.154,Respiratory protection,Personal Protective Equipment (PPE): Respiratory protection,1915,Occupational Safety and Health Standards for Shipyard Employment,Subpart I: Personal Protective Equipment (PPE)
+1915.155,Head protection,Personal Protective Equipment (PPE): Head protection,1915,Occupational Safety and Health Standards for Shipyard Employment,Subpart I: Personal Protective Equipment (PPE)
+1915.156,Foot protection,Personal Protective Equipment (PPE): Foot protection,1915,Occupational Safety and Health Standards for Shipyard Employment,Subpart I: Personal Protective Equipment (PPE)
+1915.157,Hand and body protection,Personal Protective Equipment (PPE): Hand and body protection,1915,Occupational Safety and Health Standards for Shipyard Employment,Subpart I: Personal Protective Equipment (PPE)
+1915.158,Lifesaving equipment,Personal Protective Equipment (PPE): Lifesaving equipment,1915,Occupational Safety and Health Standards for Shipyard Employment,Subpart I: Personal Protective Equipment (PPE)
+1915.159,Personal fall arrest systems (PFAS),Personal Protective Equipment (PPE): Personal fall arrest systems (PFAS),1915,Occupational Safety and Health Standards for Shipyard Employment,Subpart I: Personal Protective Equipment (PPE)
+1915.160,Positioning device systems,Personal Protective Equipment (PPE): Positioning device systems,1915,Occupational Safety and Health Standards for Shipyard Employment,Subpart I: Personal Protective Equipment (PPE)
+1915.161,Scope and application of subpart,Ship's Machinery and Piping Systems: Scope and application of subpart,1915,Occupational Safety and Health Standards for Shipyard Employment,Subpart J: Ship's Machinery and Piping Systems
+1915.162,Ship's boilers,Ship's Machinery and Piping Systems: Ship's boilers,1915,Occupational Safety and Health Standards for Shipyard Employment,Subpart J: Ship's Machinery and Piping Systems
+1915.163,Ship's piping systems,Ship's Machinery and Piping Systems: Ship's piping systems,1915,Occupational Safety and Health Standards for Shipyard Employment,Subpart J: Ship's Machinery and Piping Systems
+1915.164,Ship's propulsion machinery,Ship's Machinery and Piping Systems: Ship's propulsion machinery,1915,Occupational Safety and Health Standards for Shipyard Employment,Subpart J: Ship's Machinery and Piping Systems
+1915.165,Ship's deck machinery,Ship's Machinery and Piping Systems: Ship's deck machinery,1915,Occupational Safety and Health Standards for Shipyard Employment,Subpart J: Ship's Machinery and Piping Systems
+1915.171,Scope and application of subpart,"Portable, Unfired Pressure Vessels, Drums and Containers, Other Than Ship's Equipment: Scope and application of subpart",1915,Occupational Safety and Health Standards for Shipyard Employment,"Subpart K: Portable, Unfired Pressure Vessels, Drums and Containers, Other Than Ship's Equipment"
+1915.172,Portable air receivers and other unfired pressure vessels,"Portable, Unfired Pressure Vessels, Drums and Containers, Other Than Ship's Equipment: Portable air receivers and other unfired pressure vessels",1915,Occupational Safety and Health Standards for Shipyard Employment,"Subpart K: Portable, Unfired Pressure Vessels, Drums and Containers, Other Than Ship's Equipment"
+1915.173,Drums and containers,"Portable, Unfired Pressure Vessels, Drums and Containers, Other Than Ship's Equipment: Drums and containers",1915,Occupational Safety and Health Standards for Shipyard Employment,"Subpart K: Portable, Unfired Pressure Vessels, Drums and Containers, Other Than Ship's Equipment"
+1915.181,Electrical circuits and distribution boards,Electrical Machinery: Electrical circuits and distribution boards,1915,Occupational Safety and Health Standards for Shipyard Employment,Subpart L: Electrical Machinery
+1915.501,General provisions,Fire Protection in Shipyard Employment: General provisions,1915,Occupational Safety and Health Standards for Shipyard Employment,Subpart P: Fire Protection in Shipyard Employment
+1915.502,Fire safety plan,Fire Protection in Shipyard Employment: Fire safety plan,1915,Occupational Safety and Health Standards for Shipyard Employment,Subpart P: Fire Protection in Shipyard Employment
+1915.503,Precautions for hot work,Fire Protection in Shipyard Employment: Precautions for hot work,1915,Occupational Safety and Health Standards for Shipyard Employment,Subpart P: Fire Protection in Shipyard Employment
+1915.504,Fire watches,Fire Protection in Shipyard Employment: Fire watches,1915,Occupational Safety and Health Standards for Shipyard Employment,Subpart P: Fire Protection in Shipyard Employment
+1915.505,Fire response,Fire Protection in Shipyard Employment: Fire response,1915,Occupational Safety and Health Standards for Shipyard Employment,Subpart P: Fire Protection in Shipyard Employment
+1915.506,Hazards of fixed extinguishing systems on board vessels and vessel sections,Fire Protection in Shipyard Employment: Hazards of fixed extinguishing systems on board vessels and vessel sections,1915,Occupational Safety and Health Standards for Shipyard Employment,Subpart P: Fire Protection in Shipyard Employment
+1915.507,Land-side fire protection systems,Fire Protection in Shipyard Employment: Land-side fire protection systems,1915,Occupational Safety and Health Standards for Shipyard Employment,Subpart P: Fire Protection in Shipyard Employment
+1915.508,Training,Fire Protection in Shipyard Employment: Training,1915,Occupational Safety and Health Standards for Shipyard Employment,Subpart P: Fire Protection in Shipyard Employment
+1915.509,Definitions applicable to this subpart,Fire Protection in Shipyard Employment: Definitions applicable to this subpart,1915,Occupational Safety and Health Standards for Shipyard Employment,Subpart P: Fire Protection in Shipyard Employment
+1915.1000,Air contaminants,Toxic and Hazardous Substances: Air contaminants,1915,Occupational Safety and Health Standards for Shipyard Employment,Subpart Z: Toxic and Hazardous Substances
+1915.1001,Asbestos,Toxic and Hazardous Substances: Asbestos,1915,Occupational Safety and Health Standards for Shipyard Employment,Subpart Z: Toxic and Hazardous Substances
+1915.1002,Coal tar pitch volatiles; interpretation of term,Toxic and Hazardous Substances: Coal tar pitch volatiles; interpretation of term,1915,Occupational Safety and Health Standards for Shipyard Employment,Subpart Z: Toxic and Hazardous Substances
+1915.1003,"13 carcinogens (4-Nitrobiphenyl, etc.)","Toxic and Hazardous Substances: 13 carcinogens (4-Nitrobiphenyl, etc.)",1915,Occupational Safety and Health Standards for Shipyard Employment,Subpart Z: Toxic and Hazardous Substances
+1915.1004,alpha-Naphthylamine,Toxic and Hazardous Substances: alpha-Naphthylamine,1915,Occupational Safety and Health Standards for Shipyard Employment,Subpart Z: Toxic and Hazardous Substances
+1915.1006,Methyl chloromethyl ether,Toxic and Hazardous Substances: Methyl chloromethyl ether,1915,Occupational Safety and Health Standards for Shipyard Employment,Subpart Z: Toxic and Hazardous Substances
+1915.1007,"3,3′-Dichlorobenzidiene (and its salts)","Toxic and Hazardous Substances: 3,3′-Dichlorobenzidiene (and its salts)",1915,Occupational Safety and Health Standards for Shipyard Employment,Subpart Z: Toxic and Hazardous Substances
+1915.1008,bis-Chloromethyl ether,Toxic and Hazardous Substances: bis-Chloromethyl ether,1915,Occupational Safety and Health Standards for Shipyard Employment,Subpart Z: Toxic and Hazardous Substances
+1915.1009,beta-Naphthylamine,Toxic and Hazardous Substances: beta-Naphthylamine,1915,Occupational Safety and Health Standards for Shipyard Employment,Subpart Z: Toxic and Hazardous Substances
+1915.1010,Benzidine,Toxic and Hazardous Substances: Benzidine,1915,Occupational Safety and Health Standards for Shipyard Employment,Subpart Z: Toxic and Hazardous Substances
+1915.1011,4-Aminodiphenyl,Toxic and Hazardous Substances: 4-Aminodiphenyl,1915,Occupational Safety and Health Standards for Shipyard Employment,Subpart Z: Toxic and Hazardous Substances
+1915.1012,Ethyleneimine,Toxic and Hazardous Substances: Ethyleneimine,1915,Occupational Safety and Health Standards for Shipyard Employment,Subpart Z: Toxic and Hazardous Substances
+1915.1013,beta-Propiolactone,Toxic and Hazardous Substances: beta-Propiolactone,1915,Occupational Safety and Health Standards for Shipyard Employment,Subpart Z: Toxic and Hazardous Substances
+1915.1014,2-Acetylaminofluorene,Toxic and Hazardous Substances: 2-Acetylaminofluorene,1915,Occupational Safety and Health Standards for Shipyard Employment,Subpart Z: Toxic and Hazardous Substances
+1915.1015,4-Dimethylaminoazobenzene,Toxic and Hazardous Substances: 4-Dimethylaminoazobenzene,1915,Occupational Safety and Health Standards for Shipyard Employment,Subpart Z: Toxic and Hazardous Substances
+1915.1016,N-Nitrosodimethylamine,Toxic and Hazardous Substances: N-Nitrosodimethylamine,1915,Occupational Safety and Health Standards for Shipyard Employment,Subpart Z: Toxic and Hazardous Substances
+1915.1017,Vinyl chloride,Toxic and Hazardous Substances: Vinyl chloride,1915,Occupational Safety and Health Standards for Shipyard Employment,Subpart Z: Toxic and Hazardous Substances
+1915.1018,Inorganic arsenic,Toxic and Hazardous Substances: Inorganic arsenic,1915,Occupational Safety and Health Standards for Shipyard Employment,Subpart Z: Toxic and Hazardous Substances
+1915.1020,Access to employee exposure and medical records,Toxic and Hazardous Substances: Access to employee exposure and medical records,1915,Occupational Safety and Health Standards for Shipyard Employment,Subpart Z: Toxic and Hazardous Substances
+1915.1024,Beryllium,Toxic and Hazardous Substances: Beryllium,1915,Occupational Safety and Health Standards for Shipyard Employment,Subpart Z: Toxic and Hazardous Substances
+1915.1025,Lead,Toxic and Hazardous Substances: Lead,1915,Occupational Safety and Health Standards for Shipyard Employment,Subpart Z: Toxic and Hazardous Substances
+1915.1026,Chromium (VI),Toxic and Hazardous Substances: Chromium (VI),1915,Occupational Safety and Health Standards for Shipyard Employment,Subpart Z: Toxic and Hazardous Substances
+1915.1027,Cadmium,Toxic and Hazardous Substances: Cadmium,1915,Occupational Safety and Health Standards for Shipyard Employment,Subpart Z: Toxic and Hazardous Substances
+1915.1028,Benzene,Toxic and Hazardous Substances: Benzene,1915,Occupational Safety and Health Standards for Shipyard Employment,Subpart Z: Toxic and Hazardous Substances
+1915.1030,Bloodborne pathogens,Toxic and Hazardous Substances: Bloodborne pathogens,1915,Occupational Safety and Health Standards for Shipyard Employment,Subpart Z: Toxic and Hazardous Substances
+1915.1044,"1,2-dibromo-3-chloropropane","Toxic and Hazardous Substances: 1,2-dibromo-3-chloropropane",1915,Occupational Safety and Health Standards for Shipyard Employment,Subpart Z: Toxic and Hazardous Substances
+1915.1045,Acrylonitrile,Toxic and Hazardous Substances: Acrylonitrile,1915,Occupational Safety and Health Standards for Shipyard Employment,Subpart Z: Toxic and Hazardous Substances
+1915.1047,Ethylene oxide,Toxic and Hazardous Substances: Ethylene oxide,1915,Occupational Safety and Health Standards for Shipyard Employment,Subpart Z: Toxic and Hazardous Substances
+1915.1048,Formaldehyde,Toxic and Hazardous Substances: Formaldehyde,1915,Occupational Safety and Health Standards for Shipyard Employment,Subpart Z: Toxic and Hazardous Substances
+1915.1050,Methylenedianiline,Toxic and Hazardous Substances: Methylenedianiline,1915,Occupational Safety and Health Standards for Shipyard Employment,Subpart Z: Toxic and Hazardous Substances
+1915.1052,Methylene chloride,Toxic and Hazardous Substances: Methylene chloride,1915,Occupational Safety and Health Standards for Shipyard Employment,Subpart Z: Toxic and Hazardous Substances
+1915.1053,Respirable crystalline silica,Toxic and Hazardous Substances: Respirable crystalline silica,1915,Occupational Safety and Health Standards for Shipyard Employment,Subpart Z: Toxic and Hazardous Substances
+1915.1200,Hazard communication,Toxic and Hazardous Substances: Hazard communication,1915,Occupational Safety and Health Standards for Shipyard Employment,Subpart Z: Toxic and Hazardous Substances
+1915.1450,Occupational exposure to hazardous chemicals in laboratories,Toxic and Hazardous Substances: Occupational exposure to hazardous chemicals in laboratories,1915,Occupational Safety and Health Standards for Shipyard Employment,Subpart Z: Toxic and Hazardous Substances
+1915.1501,COVID-19,Toxic and Hazardous Substances: COVID-19,1915,Occupational Safety and Health Standards for Shipyard Employment,Subpart Z: Toxic and Hazardous Substances
+1917.1,Scope and applicability,General Provisions: Scope and applicability,1917,Marine Terminals,Subpart A: General Provisions
+1917.2,Definitions,General Provisions: Definitions,1917,Marine Terminals,Subpart A: General Provisions
+1917.3,Incorporation by reference,General Provisions: Incorporation by reference,1917,Marine Terminals,Subpart A: General Provisions
+1917.4,OMB control numbers under the Paperwork Reduction Act,General Provisions: OMB control numbers under the Paperwork Reduction Act,1917,Marine Terminals,Subpart A: General Provisions
+1917.5,Compliance duties owed to each employee,General Provisions: Compliance duties owed to each employee,1917,Marine Terminals,Subpart A: General Provisions
+1917.11,Housekeeping,Marine Terminal Operations: Housekeeping,1917,Marine Terminals,Subpart B: Marine Terminal Operations
+1917.12,Slippery conditions,Marine Terminal Operations: Slippery conditions,1917,Marine Terminals,Subpart B: Marine Terminal Operations
+1917.13,Slinging,Marine Terminal Operations: Slinging,1917,Marine Terminals,Subpart B: Marine Terminal Operations
+1917.14,Stacking of cargo and pallets,Marine Terminal Operations: Stacking of cargo and pallets,1917,Marine Terminals,Subpart B: Marine Terminal Operations
+1917.15,Coopering,Marine Terminal Operations: Coopering,1917,Marine Terminals,Subpart B: Marine Terminal Operations
+1917.16,Line handling. (See also § 1917.95(b)),Marine Terminal Operations: Line handling. (See also § 1917.95(b)),1917,Marine Terminals,Subpart B: Marine Terminal Operations
+1917.17,Railroad facilities,Marine Terminal Operations: Railroad facilities,1917,Marine Terminals,Subpart B: Marine Terminal Operations
+1917.18,Log handling,Marine Terminal Operations: Log handling,1917,Marine Terminals,Subpart B: Marine Terminal Operations
+1917.19,Movement of barges and railcars,Marine Terminal Operations: Movement of barges and railcars,1917,Marine Terminals,Subpart B: Marine Terminal Operations
+1917.20,Interference with communications,Marine Terminal Operations: Interference with communications,1917,Marine Terminals,Subpart B: Marine Terminal Operations
+1917.22,Hazardous cargo (See § 1917.2(p)),Marine Terminal Operations: Hazardous cargo (See § 1917.2(p)),1917,Marine Terminals,Subpart B: Marine Terminal Operations
+1917.23,"Hazardous atmospheres and substances (see also § 1917.2 Hazardous cargo, material, substance or atmosphere)","Marine Terminal Operations: Hazardous atmospheres and substances (see also § 1917.2 Hazardous cargo, material, substance or atmosphere)",1917,Marine Terminals,Subpart B: Marine Terminal Operations
+1917.24,Carbon monoxide,Marine Terminal Operations: Carbon monoxide,1917,Marine Terminals,Subpart B: Marine Terminal Operations
+1917.25,"Fumigants, pesticides, insecticides and hazardous preservatives (see also § 1917.2 Hazardous cargo, material, substance or atmosphere)","Marine Terminal Operations: Fumigants, pesticides, insecticides and hazardous preservatives (see also § 1917.2 Hazardous cargo, material, substance or atmosphere)",1917,Marine Terminals,Subpart B: Marine Terminal Operations
+1917.26,First aid and lifesaving facilities,Marine Terminal Operations: First aid and lifesaving facilities,1917,Marine Terminals,Subpart B: Marine Terminal Operations
+1917.27,Personnel,Marine Terminal Operations: Personnel,1917,Marine Terminals,Subpart B: Marine Terminal Operations
+1917.28,Hazard communication (See also § 1917.1(a)(2)(vi)),Marine Terminal Operations: Hazard communication (See also § 1917.1(a)(2)(vi)),1917,Marine Terminals,Subpart B: Marine Terminal Operations
+1917.29,"Retention of DOT markings, placards and labels","Marine Terminal Operations: Retention of DOT markings, placards and labels",1917,Marine Terminals,Subpart B: Marine Terminal Operations
+1917.30,Emergency action plans,Marine Terminal Operations: Emergency action plans,1917,Marine Terminals,Subpart B: Marine Terminal Operations
+1917.31,COVID-19,Marine Terminal Operations: COVID-19,1917,Marine Terminals,Subpart B: Marine Terminal Operations
+1917.42,Miscellaneous auxiliary gear,Cargo Handling Gear and Equipment: Miscellaneous auxiliary gear,1917,Marine Terminals,Subpart C: Cargo Handling Gear and Equipment
+1917.43,Powered industrial trucks,Cargo Handling Gear and Equipment: Powered industrial trucks,1917,Marine Terminals,Subpart C: Cargo Handling Gear and Equipment
+1917.44,General rules applicable to vehicles,Cargo Handling Gear and Equipment: General rules applicable to vehicles,1917,Marine Terminals,Subpart C: Cargo Handling Gear and Equipment
+1917.45,Cranes and derricks (See also § 1917.50),Cargo Handling Gear and Equipment: Cranes and derricks (See also § 1917.50),1917,Marine Terminals,Subpart C: Cargo Handling Gear and Equipment
+1917.46,Load indicating devices,Cargo Handling Gear and Equipment: Load indicating devices,1917,Marine Terminals,Subpart C: Cargo Handling Gear and Equipment
+1917.47,Winches,Cargo Handling Gear and Equipment: Winches,1917,Marine Terminals,Subpart C: Cargo Handling Gear and Equipment
+1917.48,Conveyors,Cargo Handling Gear and Equipment: Conveyors,1917,Marine Terminals,Subpart C: Cargo Handling Gear and Equipment
+1917.49,"Spouts, chutes, hoppers, bins, and associated equipment","Cargo Handling Gear and Equipment: Spouts, chutes, hoppers, bins, and associated equipment",1917,Marine Terminals,Subpart C: Cargo Handling Gear and Equipment
+1917.50,"Certification of marine terminal material handling devices (See also mandatory appendix I, of this part)","Cargo Handling Gear and Equipment: Certification of marine terminal material handling devices (See also mandatory appendix I, of this part)",1917,Marine Terminals,Subpart C: Cargo Handling Gear and Equipment
+1917.51,Hand tools,Cargo Handling Gear and Equipment: Hand tools,1917,Marine Terminals,Subpart C: Cargo Handling Gear and Equipment
+1917.70,General,Specialized Terminals: General,1917,Marine Terminals,Subpart D: Specialized Terminals
+1917.71,Terminals handling intermodal containers or roll-on roll-off operations,Specialized Terminals: Terminals handling intermodal containers or roll-on roll-off operations,1917,Marine Terminals,Subpart D: Specialized Terminals
+1917.73,"Terminal facilities handling menhaden and similar species of fish (see also § 1917.2, definition of hazardous cargo, material, substance or atmosphere)","Specialized Terminals: Terminal facilities handling menhaden and similar species of fish (see also § 1917.2, definition of hazardous cargo, material, substance or atmosphere)",1917,Marine Terminals,Subpart D: Specialized Terminals
+1917.91,Eye and face protection,Personal Protection: Eye and face protection,1917,Marine Terminals,Subpart E: Personal Protection
+1917.92,Respiratory protection,Personal Protection: Respiratory protection,1917,Marine Terminals,Subpart E: Personal Protection
+1917.93,Head protection,Personal Protection: Head protection,1917,Marine Terminals,Subpart E: Personal Protection
+1917.94,Foot protection,Personal Protection: Foot protection,1917,Marine Terminals,Subpart E: Personal Protection
+1917.95,Other protective measures,Personal Protection: Other protective measures,1917,Marine Terminals,Subpart E: Personal Protection
+1917.96,Payment for protective equipment,Personal Protection: Payment for protective equipment,1917,Marine Terminals,Subpart E: Personal Protection
+1917.111,Maintenance and load limits,Terminal Facilities: Maintenance and load limits,1917,Marine Terminals,Subpart F: Terminal Facilities
+1917.112,Guarding of edges,Terminal Facilities: Guarding of edges,1917,Marine Terminals,Subpart F: Terminal Facilities
+1917.113,Clearance heights,Terminal Facilities: Clearance heights,1917,Marine Terminals,Subpart F: Terminal Facilities
+1917.114,Cargo doors,Terminal Facilities: Cargo doors,1917,Marine Terminals,Subpart F: Terminal Facilities
+1917.115,Platforms and skids,Terminal Facilities: Platforms and skids,1917,Marine Terminals,Subpart F: Terminal Facilities
+1917.116,Elevators and escalators,Terminal Facilities: Elevators and escalators,1917,Marine Terminals,Subpart F: Terminal Facilities
+1917.117,Manlifts,Terminal Facilities: Manlifts,1917,Marine Terminals,Subpart F: Terminal Facilities
+1917.118,Fixed ladders,Terminal Facilities: Fixed ladders,1917,Marine Terminals,Subpart F: Terminal Facilities
+1917.119,Portable ladders,Terminal Facilities: Portable ladders,1917,Marine Terminals,Subpart F: Terminal Facilities
+1917.120,Fixed stairways,Terminal Facilities: Fixed stairways,1917,Marine Terminals,Subpart F: Terminal Facilities
+1917.121,Spiral stairways,Terminal Facilities: Spiral stairways,1917,Marine Terminals,Subpart F: Terminal Facilities
+1917.122,Employee exits,Terminal Facilities: Employee exits,1917,Marine Terminals,Subpart F: Terminal Facilities
+1917.123,Illumination,Terminal Facilities: Illumination,1917,Marine Terminals,Subpart F: Terminal Facilities
+1917.124,Dockboards (car and bridge plates),Terminal Facilities: Dockboards (car and bridge plates),1917,Marine Terminals,Subpart F: Terminal Facilities
+1917.125,Guarding temporary hazards,Terminal Facilities: Guarding temporary hazards,1917,Marine Terminals,Subpart F: Terminal Facilities
+1917.126,River banks,Terminal Facilities: River banks,1917,Marine Terminals,Subpart F: Terminal Facilities
+1917.127,Sanitation,Terminal Facilities: Sanitation,1917,Marine Terminals,Subpart F: Terminal Facilities
+1917.128,Signs and marking,Terminal Facilities: Signs and marking,1917,Marine Terminals,Subpart F: Terminal Facilities
+1917.151,Machine guarding,Related Terminal Operations and Equipment: Machine guarding,1917,Marine Terminals,Subpart G: Related Terminal Operations and Equipment
+1917.152,"Welding, cutting and heating (hot work) (See also § 1917.2, definition of Hazardous cargo, materials, substance, or atmosphere)","Related Terminal Operations and Equipment: Welding, cutting and heating (hot work) (See also § 1917.2, definition of Hazardous cargo, materials, substance, or atmosphere)",1917,Marine Terminals,Subpart G: Related Terminal Operations and Equipment
+1917.153,"Spray painting (See also § 1917.2, definition of Hazardous cargo, materials, substance, or atmosphere)","Related Terminal Operations and Equipment: Spray painting (See also § 1917.2, definition of Hazardous cargo, materials, substance, or atmosphere)",1917,Marine Terminals,Subpart G: Related Terminal Operations and Equipment
+1917.154,Compressed air,Related Terminal Operations and Equipment: Compressed air,1917,Marine Terminals,Subpart G: Related Terminal Operations and Equipment
+1917.155,Air receivers,Related Terminal Operations and Equipment: Air receivers,1917,Marine Terminals,Subpart G: Related Terminal Operations and Equipment
+1917.156,Fuel handling and storage,Related Terminal Operations and Equipment: Fuel handling and storage,1917,Marine Terminals,Subpart G: Related Terminal Operations and Equipment
+1917.157,Battery charging and changing,Related Terminal Operations and Equipment: Battery charging and changing,1917,Marine Terminals,Subpart G: Related Terminal Operations and Equipment
+1917.158,Prohibited operations,Related Terminal Operations and Equipment: Prohibited operations,1917,Marine Terminals,Subpart G: Related Terminal Operations and Equipment
+1918.1,Scope and application,General Provisions: Scope and application,1918,Safety and Health Regulations for Longshoring,Subpart A: General Provisions
+1918.2,Definitions,General Provisions: Definitions,1918,Safety and Health Regulations for Longshoring,Subpart A: General Provisions
+1918.3,Incorporation by reference,General Provisions: Incorporation by reference,1918,Safety and Health Regulations for Longshoring,Subpart A: General Provisions
+1918.4,OMB control numbers under the Paperwork Reduction Act,General Provisions: OMB control numbers under the Paperwork Reduction Act,1918,Safety and Health Regulations for Longshoring,Subpart A: General Provisions
+1918.5,Compliance duties owed to each employee,General Provisions: Compliance duties owed to each employee,1918,Safety and Health Regulations for Longshoring,Subpart A: General Provisions
+1918.11,"Gear certification (See also §§ 1918.2, definition of “Vessel's cargo handling gear” and 1918.51)","Gear Certification: Gear certification (See also §§ 1918.2, definition of “Vessel's cargo handling gear” and 1918.51)",1918,Safety and Health Regulations for Longshoring,Subpart B: Gear Certification
+1918.21,General requirements,Gangways and Other Means of Access: General requirements,1918,Safety and Health Regulations for Longshoring,Subpart C: Gangways and Other Means of Access
+1918.22,Gangways,Gangways and Other Means of Access: Gangways,1918,Safety and Health Regulations for Longshoring,Subpart C: Gangways and Other Means of Access
+1918.23,Jacob's ladders,Gangways and Other Means of Access: Jacob's ladders,1918,Safety and Health Regulations for Longshoring,Subpart C: Gangways and Other Means of Access
+1918.24,Fixed and portable ladders,Gangways and Other Means of Access: Fixed and portable ladders,1918,Safety and Health Regulations for Longshoring,Subpart C: Gangways and Other Means of Access
+1918.25,Bridge plates and ramps (See also § 1918.86),Gangways and Other Means of Access: Bridge plates and ramps (See also § 1918.86),1918,Safety and Health Regulations for Longshoring,Subpart C: Gangways and Other Means of Access
+1918.26,Access to barges and river towboats,Gangways and Other Means of Access: Access to barges and river towboats,1918,Safety and Health Regulations for Longshoring,Subpart C: Gangways and Other Means of Access
+1918.31,Hatch coverings,Working Surfaces: Hatch coverings,1918,Safety and Health Regulations for Longshoring,Subpart D: Working Surfaces
+1918.32,Stowed cargo and temporary landing surfaces,Working Surfaces: Stowed cargo and temporary landing surfaces,1918,Safety and Health Regulations for Longshoring,Subpart D: Working Surfaces
+1918.33,Deck loads,Working Surfaces: Deck loads,1918,Safety and Health Regulations for Longshoring,Subpart D: Working Surfaces
+1918.34,Other decks,Working Surfaces: Other decks,1918,Safety and Health Regulations for Longshoring,Subpart D: Working Surfaces
+1918.35,Open hatches,Working Surfaces: Open hatches,1918,Safety and Health Regulations for Longshoring,Subpart D: Working Surfaces
+1918.36,Weather deck rails,Working Surfaces: Weather deck rails,1918,Safety and Health Regulations for Longshoring,Subpart D: Working Surfaces
+1918.37,Barges,Working Surfaces: Barges,1918,Safety and Health Regulations for Longshoring,Subpart D: Working Surfaces
+1918.41,Coaming clearances,Opening and Closing Hatches: Coaming clearances,1918,Safety and Health Regulations for Longshoring,Subpart E: Opening and Closing Hatches
+1918.42,Hatch beam and pontoon bridles,Opening and Closing Hatches: Hatch beam and pontoon bridles,1918,Safety and Health Regulations for Longshoring,Subpart E: Opening and Closing Hatches
+1918.43,Handling hatch beams and covers,Opening and Closing Hatches: Handling hatch beams and covers,1918,Safety and Health Regulations for Longshoring,Subpart E: Opening and Closing Hatches
+1918.51,General requirements (See also § 1918.11 and appendix III of this part),Vessel's Cargo Handling Gear: General requirements (See also § 1918.11 and appendix III of this part),1918,Safety and Health Regulations for Longshoring,Subpart F: Vessel's Cargo Handling Gear
+1918.52,Specific requirements,Vessel's Cargo Handling Gear: Specific requirements,1918,Safety and Health Regulations for Longshoring,Subpart F: Vessel's Cargo Handling Gear
+1918.53,Cargo winches,Vessel's Cargo Handling Gear: Cargo winches,1918,Safety and Health Regulations for Longshoring,Subpart F: Vessel's Cargo Handling Gear
+1918.54,Rigging gear,Vessel's Cargo Handling Gear: Rigging gear,1918,Safety and Health Regulations for Longshoring,Subpart F: Vessel's Cargo Handling Gear
+1918.55,Cranes (See also § 1918.11),Vessel's Cargo Handling Gear: Cranes (See also § 1918.11),1918,Safety and Health Regulations for Longshoring,Subpart F: Vessel's Cargo Handling Gear
+1918.61,General (See also appendix IV of this part),Cargo Handling Gear and Equipment Other Than Ship's Gear: General (See also appendix IV of this part),1918,Safety and Health Regulations for Longshoring,Subpart G: Cargo Handling Gear and Equipment Other Than Ship's Gear
+1918.62,Miscellaneous auxiliary gear,Cargo Handling Gear and Equipment Other Than Ship's Gear: Miscellaneous auxiliary gear,1918,Safety and Health Regulations for Longshoring,Subpart G: Cargo Handling Gear and Equipment Other Than Ship's Gear
+1918.63,"Chutes, gravity conveyors and rollers","Cargo Handling Gear and Equipment Other Than Ship's Gear: Chutes, gravity conveyors and rollers",1918,Safety and Health Regulations for Longshoring,Subpart G: Cargo Handling Gear and Equipment Other Than Ship's Gear
+1918.64,Powered conveyors,Cargo Handling Gear and Equipment Other Than Ship's Gear: Powered conveyors,1918,Safety and Health Regulations for Longshoring,Subpart G: Cargo Handling Gear and Equipment Other Than Ship's Gear
+1918.65,Mechanically powered vehicles used aboard vessels,Cargo Handling Gear and Equipment Other Than Ship's Gear: Mechanically powered vehicles used aboard vessels,1918,Safety and Health Regulations for Longshoring,Subpart G: Cargo Handling Gear and Equipment Other Than Ship's Gear
+1918.66,Cranes and derricks other than vessel's gear,Cargo Handling Gear and Equipment Other Than Ship's Gear: Cranes and derricks other than vessel's gear,1918,Safety and Health Regulations for Longshoring,Subpart G: Cargo Handling Gear and Equipment Other Than Ship's Gear
+1918.67,Notifying the ship's officers before using certain equipment,Cargo Handling Gear and Equipment Other Than Ship's Gear: Notifying the ship's officers before using certain equipment,1918,Safety and Health Regulations for Longshoring,Subpart G: Cargo Handling Gear and Equipment Other Than Ship's Gear
+1918.68,Grounding,Cargo Handling Gear and Equipment Other Than Ship's Gear: Grounding,1918,Safety and Health Regulations for Longshoring,Subpart G: Cargo Handling Gear and Equipment Other Than Ship's Gear
+1918.69,Tools,Cargo Handling Gear and Equipment Other Than Ship's Gear: Tools,1918,Safety and Health Regulations for Longshoring,Subpart G: Cargo Handling Gear and Equipment Other Than Ship's Gear
+1918.81,Slinging,Handling Cargo: Slinging,1918,Safety and Health Regulations for Longshoring,Subpart H: Handling Cargo
+1918.82,Building drafts,Handling Cargo: Building drafts,1918,Safety and Health Regulations for Longshoring,Subpart H: Handling Cargo
+1918.83,Stowed cargo; tiering and breaking down,Handling Cargo: Stowed cargo; tiering and breaking down,1918,Safety and Health Regulations for Longshoring,Subpart H: Handling Cargo
+1918.84,Bulling cargo,Handling Cargo: Bulling cargo,1918,Safety and Health Regulations for Longshoring,Subpart H: Handling Cargo
+1918.85,Containerized cargo operations,Handling Cargo: Containerized cargo operations,1918,Safety and Health Regulations for Longshoring,Subpart H: Handling Cargo
+1918.86,"Roll-on roll-off (Ro-Ro) operations (see also § 1918.2, Ro-Ro operations, and § 1918.25)","Handling Cargo: Roll-on roll-off (Ro-Ro) operations (see also § 1918.2, Ro-Ro operations, and § 1918.25)",1918,Safety and Health Regulations for Longshoring,Subpart H: Handling Cargo
+1918.87,Ship's cargo elevators,Handling Cargo: Ship's cargo elevators,1918,Safety and Health Regulations for Longshoring,Subpart H: Handling Cargo
+1918.88,Log operations,Handling Cargo: Log operations,1918,Safety and Health Regulations for Longshoring,Subpart H: Handling Cargo
+1918.89,Handling hazardous cargo (See also § 1918.2 and § 1918.99),Handling Cargo: Handling hazardous cargo (See also § 1918.2 and § 1918.99),1918,Safety and Health Regulations for Longshoring,Subpart H: Handling Cargo
+1918.90,Hazard communication,General Working Conditions.: Hazard communication,1918,Safety and Health Regulations for Longshoring,Subpart I: General Working Conditions.
+1918.91,Housekeeping,General Working Conditions.: Housekeeping,1918,Safety and Health Regulations for Longshoring,Subpart I: General Working Conditions.
+1918.92,Illumination,General Working Conditions.: Illumination,1918,Safety and Health Regulations for Longshoring,Subpart I: General Working Conditions.
+1918.93,Hazardous atmospheres and substances (See also § 1918.2),General Working Conditions.: Hazardous atmospheres and substances (See also § 1918.2),1918,Safety and Health Regulations for Longshoring,Subpart I: General Working Conditions.
+1918.94,"Ventilation and atmospheric conditions (See also § 1918.2, definitions of Hazardous cargo, materials, substance or atmosphere and Ro-Ro operations)","General Working Conditions.: Ventilation and atmospheric conditions (See also § 1918.2, definitions of Hazardous cargo, materials, substance or atmosphere and Ro-Ro operations)",1918,Safety and Health Regulations for Longshoring,Subpart I: General Working Conditions.
+1918.95,Sanitation,General Working Conditions.: Sanitation,1918,Safety and Health Regulations for Longshoring,Subpart I: General Working Conditions.
+1918.96,Maintenance and repair work in the vicinity of longshoring operations,General Working Conditions.: Maintenance and repair work in the vicinity of longshoring operations,1918,Safety and Health Regulations for Longshoring,Subpart I: General Working Conditions.
+1918.97,First aid and lifesaving facilities. (See appendix V of this part),General Working Conditions.: First aid and lifesaving facilities. (See appendix V of this part),1918,Safety and Health Regulations for Longshoring,Subpart I: General Working Conditions.
+1918.98,Qualifications of machinery operators and supervisory training,General Working Conditions.: Qualifications of machinery operators and supervisory training,1918,Safety and Health Regulations for Longshoring,Subpart I: General Working Conditions.
+1918.99,"Retention of DOT markings, placards and labels","General Working Conditions.: Retention of DOT markings, placards and labels",1918,Safety and Health Regulations for Longshoring,Subpart I: General Working Conditions.
+1918.100,Emergency action plans,General Working Conditions.: Emergency action plans,1918,Safety and Health Regulations for Longshoring,Subpart I: General Working Conditions.
+1918.101,Eye and face protection,Personal Protective Equipment: Eye and face protection,1918,Safety and Health Regulations for Longshoring,Subpart J: Personal Protective Equipment
+1918.102,Respiratory protection,Personal Protective Equipment: Respiratory protection,1918,Safety and Health Regulations for Longshoring,Subpart J: Personal Protective Equipment
+1918.103,Head protection,Personal Protective Equipment: Head protection,1918,Safety and Health Regulations for Longshoring,Subpart J: Personal Protective Equipment
+1918.104,Foot protection,Personal Protective Equipment: Foot protection,1918,Safety and Health Regulations for Longshoring,Subpart J: Personal Protective Equipment
+1918.105,Other protective measures,Personal Protective Equipment: Other protective measures,1918,Safety and Health Regulations for Longshoring,Subpart J: Personal Protective Equipment
+1918.106,Payment for protective equipment,Personal Protective Equipment: Payment for protective equipment,1918,Safety and Health Regulations for Longshoring,Subpart J: Personal Protective Equipment
+1918.110,COVID-19,COVID-19.: COVID-19,1918,Safety and Health Regulations for Longshoring,Subpart K: COVID-19.
+1926.1,Purpose and scope,General: Purpose and scope,1926,Safety and Health Regulations for Construction,Subpart A: General
+1926.2,Variances from safety and health standards,General: Variances from safety and health standards,1926,Safety and Health Regulations for Construction,Subpart A: General
+1926.3,Inspections—right of entry,General: Inspections—right of entry,1926,Safety and Health Regulations for Construction,Subpart A: General
+1926.4,Rules of practice for administrative adjudications for enforcement of safety and health standards,General: Rules of practice for administrative adjudications for enforcement of safety and health standards,1926,Safety and Health Regulations for Construction,Subpart A: General
+1926.5,OMB control numbers under the Paperwork Reduction Act,General: OMB control numbers under the Paperwork Reduction Act,1926,Safety and Health Regulations for Construction,Subpart A: General
+1926.6,Incorporation by reference,General: Incorporation by reference,1926,Safety and Health Regulations for Construction,Subpart A: General
+1926.10,Scope of subpart,General Interpretations: Scope of subpart,1926,Safety and Health Regulations for Construction,Subpart B: General Interpretations
+1926.11,Coverage under section 103 of the act distinguished,General Interpretations: Coverage under section 103 of the act distinguished,1926,Safety and Health Regulations for Construction,Subpart B: General Interpretations
+1926.12,Reorganization Plan No. 14 of 1950,General Interpretations: Reorganization Plan No. 14 of 1950,1926,Safety and Health Regulations for Construction,Subpart B: General Interpretations
+1926.13,Interpretation of statutory terms,General Interpretations: Interpretation of statutory terms,1926,Safety and Health Regulations for Construction,Subpart B: General Interpretations
+1926.14,Federal contract for “mixed” types of performance,General Interpretations: Federal contract for “mixed” types of performance,1926,Safety and Health Regulations for Construction,Subpart B: General Interpretations
+1926.15,Relationship to the Service Contract Act; Walsh-Healey Public Contracts Act,General Interpretations: Relationship to the Service Contract Act; Walsh-Healey Public Contracts Act,1926,Safety and Health Regulations for Construction,Subpart B: General Interpretations
+1926.16,Rules of construction,General Interpretations: Rules of construction,1926,Safety and Health Regulations for Construction,Subpart B: General Interpretations
+1926.20,General safety and health provisions,General Safety and Health Provisions: General safety and health provisions,1926,Safety and Health Regulations for Construction,Subpart C: General Safety and Health Provisions
+1926.21,Safety training and education,General Safety and Health Provisions: Safety training and education,1926,Safety and Health Regulations for Construction,Subpart C: General Safety and Health Provisions
+1926.23,First aid and medical attention,General Safety and Health Provisions: First aid and medical attention,1926,Safety and Health Regulations for Construction,Subpart C: General Safety and Health Provisions
+1926.24,Fire protection and prevention,General Safety and Health Provisions: Fire protection and prevention,1926,Safety and Health Regulations for Construction,Subpart C: General Safety and Health Provisions
+1926.25,Housekeeping,General Safety and Health Provisions: Housekeeping,1926,Safety and Health Regulations for Construction,Subpart C: General Safety and Health Provisions
+1926.26,Illumination,General Safety and Health Provisions: Illumination,1926,Safety and Health Regulations for Construction,Subpart C: General Safety and Health Provisions
+1926.27,Sanitation,General Safety and Health Provisions: Sanitation,1926,Safety and Health Regulations for Construction,Subpart C: General Safety and Health Provisions
+1926.28,Personal protective equipment,General Safety and Health Provisions: Personal protective equipment,1926,Safety and Health Regulations for Construction,Subpart C: General Safety and Health Provisions
+1926.29,Acceptable certifications,General Safety and Health Provisions: Acceptable certifications,1926,Safety and Health Regulations for Construction,Subpart C: General Safety and Health Provisions
+1926.30,Shipbuilding and ship repairing,General Safety and Health Provisions: Shipbuilding and ship repairing,1926,Safety and Health Regulations for Construction,Subpart C: General Safety and Health Provisions
+1926.32,Definitions,General Safety and Health Provisions: Definitions,1926,Safety and Health Regulations for Construction,Subpart C: General Safety and Health Provisions
+1926.33,Access to employee exposure and medical records,General Safety and Health Provisions: Access to employee exposure and medical records,1926,Safety and Health Regulations for Construction,Subpart C: General Safety and Health Provisions
+1926.34,Means of egress,General Safety and Health Provisions: Means of egress,1926,Safety and Health Regulations for Construction,Subpart C: General Safety and Health Provisions
+1926.35,Employee emergency action plans,General Safety and Health Provisions: Employee emergency action plans,1926,Safety and Health Regulations for Construction,Subpart C: General Safety and Health Provisions
+1926.50,Medical services and first aid,Occupational Health and Environmental Controls: Medical services and first aid,1926,Safety and Health Regulations for Construction,Subpart D: Occupational Health and Environmental Controls
+1926.51,Sanitation,Occupational Health and Environmental Controls: Sanitation,1926,Safety and Health Regulations for Construction,Subpart D: Occupational Health and Environmental Controls
+1926.52,Occupational noise exposure,Occupational Health and Environmental Controls: Occupational noise exposure,1926,Safety and Health Regulations for Construction,Subpart D: Occupational Health and Environmental Controls
+1926.53,Ionizing radiation,Occupational Health and Environmental Controls: Ionizing radiation,1926,Safety and Health Regulations for Construction,Subpart D: Occupational Health and Environmental Controls
+1926.54,Nonionizing radiation,Occupational Health and Environmental Controls: Nonionizing radiation,1926,Safety and Health Regulations for Construction,Subpart D: Occupational Health and Environmental Controls
+1926.55,"Gases, vapors, fumes, dusts, and mists","Occupational Health and Environmental Controls: Gases, vapors, fumes, dusts, and mists",1926,Safety and Health Regulations for Construction,Subpart D: Occupational Health and Environmental Controls
+1926.56,Illumination,Occupational Health and Environmental Controls: Illumination,1926,Safety and Health Regulations for Construction,Subpart D: Occupational Health and Environmental Controls
+1926.57,Ventilation,Occupational Health and Environmental Controls: Ventilation,1926,Safety and Health Regulations for Construction,Subpart D: Occupational Health and Environmental Controls
+1926.58,COVID-19,Occupational Health and Environmental Controls: COVID-19,1926,Safety and Health Regulations for Construction,Subpart D: Occupational Health and Environmental Controls
+1926.59,Hazard communication,Occupational Health and Environmental Controls: Hazard communication,1926,Safety and Health Regulations for Construction,Subpart D: Occupational Health and Environmental Controls
+1926.60,Methylenedianiline,Occupational Health and Environmental Controls: Methylenedianiline,1926,Safety and Health Regulations for Construction,Subpart D: Occupational Health and Environmental Controls
+1926.61,"Retention of DOT markings, placards and labels","Occupational Health and Environmental Controls: Retention of DOT markings, placards and labels",1926,Safety and Health Regulations for Construction,Subpart D: Occupational Health and Environmental Controls
+1926.62,Lead,Occupational Health and Environmental Controls: Lead,1926,Safety and Health Regulations for Construction,Subpart D: Occupational Health and Environmental Controls
+1926.64,Process safety management of highly hazardous chemicals,Occupational Health and Environmental Controls: Process safety management of highly hazardous chemicals,1926,Safety and Health Regulations for Construction,Subpart D: Occupational Health and Environmental Controls
+1926.65,Hazardous waste operations and emergency response,Occupational Health and Environmental Controls: Hazardous waste operations and emergency response,1926,Safety and Health Regulations for Construction,Subpart D: Occupational Health and Environmental Controls
+1926.66,Criteria for design and construction of spray booths,Occupational Health and Environmental Controls: Criteria for design and construction of spray booths,1926,Safety and Health Regulations for Construction,Subpart D: Occupational Health and Environmental Controls
+1926.95,Criteria for personal protective equipment,Personal Protective and Life Saving Equipment: Criteria for personal protective equipment,1926,Safety and Health Regulations for Construction,Subpart E: Personal Protective and Life Saving Equipment
+1926.96,Occupational foot protection,Personal Protective and Life Saving Equipment: Occupational foot protection,1926,Safety and Health Regulations for Construction,Subpart E: Personal Protective and Life Saving Equipment
+1926.97,Electrical protective equipment,Personal Protective and Life Saving Equipment: Electrical protective equipment,1926,Safety and Health Regulations for Construction,Subpart E: Personal Protective and Life Saving Equipment
+1926.100,Head protection,Personal Protective and Life Saving Equipment: Head protection,1926,Safety and Health Regulations for Construction,Subpart E: Personal Protective and Life Saving Equipment
+1926.101,Hearing protection,Personal Protective and Life Saving Equipment: Hearing protection,1926,Safety and Health Regulations for Construction,Subpart E: Personal Protective and Life Saving Equipment
+1926.102,Eye and face protection,Personal Protective and Life Saving Equipment: Eye and face protection,1926,Safety and Health Regulations for Construction,Subpart E: Personal Protective and Life Saving Equipment
+1926.103,Respiratory protection,Personal Protective and Life Saving Equipment: Respiratory protection,1926,Safety and Health Regulations for Construction,Subpart E: Personal Protective and Life Saving Equipment
+1926.104,"Safety belts, lifelines, and lanyards","Personal Protective and Life Saving Equipment: Safety belts, lifelines, and lanyards",1926,Safety and Health Regulations for Construction,Subpart E: Personal Protective and Life Saving Equipment
+1926.105,Safety nets,Personal Protective and Life Saving Equipment: Safety nets,1926,Safety and Health Regulations for Construction,Subpart E: Personal Protective and Life Saving Equipment
+1926.106,Working over or near water,Personal Protective and Life Saving Equipment: Working over or near water,1926,Safety and Health Regulations for Construction,Subpart E: Personal Protective and Life Saving Equipment
+1926.107,Definitions applicable to this subpart,Personal Protective and Life Saving Equipment: Definitions applicable to this subpart,1926,Safety and Health Regulations for Construction,Subpart E: Personal Protective and Life Saving Equipment
+1926.150,Fire protection,Fire Protection and Prevention: Fire protection,1926,Safety and Health Regulations for Construction,Subpart F: Fire Protection and Prevention
+1926.151,Fire prevention,Fire Protection and Prevention: Fire prevention,1926,Safety and Health Regulations for Construction,Subpart F: Fire Protection and Prevention
+1926.152,Flammable liquids,Fire Protection and Prevention: Flammable liquids,1926,Safety and Health Regulations for Construction,Subpart F: Fire Protection and Prevention
+1926.153,Liquefied petroleum gas (LP-Gas),Fire Protection and Prevention: Liquefied petroleum gas (LP-Gas),1926,Safety and Health Regulations for Construction,Subpart F: Fire Protection and Prevention
+1926.154,Temporary heating devices,Fire Protection and Prevention: Temporary heating devices,1926,Safety and Health Regulations for Construction,Subpart F: Fire Protection and Prevention
+1926.155,Definitions applicable to this subpart,Fire Protection and Prevention: Definitions applicable to this subpart,1926,Safety and Health Regulations for Construction,Subpart F: Fire Protection and Prevention
+1926.200,Accident prevention signs and tags,"Signs, Signals, and Barricades: Accident prevention signs and tags",1926,Safety and Health Regulations for Construction,"Subpart G: Signs, Signals, and Barricades"
+1926.201,Signaling,"Signs, Signals, and Barricades: Signaling",1926,Safety and Health Regulations for Construction,"Subpart G: Signs, Signals, and Barricades"
+1926.250,General requirements for storage,"Materials Handling, Storage, Use, and Disposal: General requirements for storage",1926,Safety and Health Regulations for Construction,"Subpart H: Materials Handling, Storage, Use, and Disposal"
+1926.251,Rigging equipment for material handling,"Materials Handling, Storage, Use, and Disposal: Rigging equipment for material handling",1926,Safety and Health Regulations for Construction,"Subpart H: Materials Handling, Storage, Use, and Disposal"
+1926.252,Disposal of waste materials,"Materials Handling, Storage, Use, and Disposal: Disposal of waste materials",1926,Safety and Health Regulations for Construction,"Subpart H: Materials Handling, Storage, Use, and Disposal"
+1926.300,General requirements,Tools—Hand and Power: General requirements,1926,Safety and Health Regulations for Construction,Subpart I: Tools—Hand and Power
+1926.301,Hand tools,Tools—Hand and Power: Hand tools,1926,Safety and Health Regulations for Construction,Subpart I: Tools—Hand and Power
+1926.302,Power-operated hand tools,Tools—Hand and Power: Power-operated hand tools,1926,Safety and Health Regulations for Construction,Subpart I: Tools—Hand and Power
+1926.303,Abrasive wheels and tools,Tools—Hand and Power: Abrasive wheels and tools,1926,Safety and Health Regulations for Construction,Subpart I: Tools—Hand and Power
+1926.304,Woodworking tools,Tools—Hand and Power: Woodworking tools,1926,Safety and Health Regulations for Construction,Subpart I: Tools—Hand and Power
+1926.305,"Jacks—lever and ratchet, screw, and hydraulic","Tools—Hand and Power: Jacks—lever and ratchet, screw, and hydraulic",1926,Safety and Health Regulations for Construction,Subpart I: Tools—Hand and Power
+1926.306,Air receivers,Tools—Hand and Power: Air receivers,1926,Safety and Health Regulations for Construction,Subpart I: Tools—Hand and Power
+1926.307,Mechanical power-transmission apparatus,Tools—Hand and Power: Mechanical power-transmission apparatus,1926,Safety and Health Regulations for Construction,Subpart I: Tools—Hand and Power
+1926.350,Gas welding and cutting,Welding and Cutting: Gas welding and cutting,1926,Safety and Health Regulations for Construction,Subpart J: Welding and Cutting
+1926.351,Arc welding and cutting,Welding and Cutting: Arc welding and cutting,1926,Safety and Health Regulations for Construction,Subpart J: Welding and Cutting
+1926.352,Fire prevention,Welding and Cutting: Fire prevention,1926,Safety and Health Regulations for Construction,Subpart J: Welding and Cutting
+1926.353,"Ventilation and protection in welding, cutting, and heating","Welding and Cutting: Ventilation and protection in welding, cutting, and heating",1926,Safety and Health Regulations for Construction,Subpart J: Welding and Cutting
+1926.354,"Welding, cutting, and heating in way of preservative coatings","Welding and Cutting: Welding, cutting, and heating in way of preservative coatings",1926,Safety and Health Regulations for Construction,Subpart J: Welding and Cutting
+1926.400,Introduction,Electrical: Introduction,1926,Safety and Health Regulations for Construction,Subpart K: Electrical
+1926.402,Applicability,Electrical: Applicability,1926,Safety and Health Regulations for Construction,Subpart K: Electrical
+1926.403,General requirements,Electrical: General requirements,1926,Safety and Health Regulations for Construction,Subpart K: Electrical
+1926.404,Wiring design and protection,Electrical: Wiring design and protection,1926,Safety and Health Regulations for Construction,Subpart K: Electrical
+1926.405,"Wiring methods, components, and equipment for general use","Electrical: Wiring methods, components, and equipment for general use",1926,Safety and Health Regulations for Construction,Subpart K: Electrical
+1926.406,Specific purpose equipment and installations,Electrical: Specific purpose equipment and installations,1926,Safety and Health Regulations for Construction,Subpart K: Electrical
+1926.407,Hazardous (classified) locations,Electrical: Hazardous (classified) locations,1926,Safety and Health Regulations for Construction,Subpart K: Electrical
+1926.408,Special systems,Electrical: Special systems,1926,Safety and Health Regulations for Construction,Subpart K: Electrical
+1926.416,General requirements,Electrical: General requirements,1926,Safety and Health Regulations for Construction,Subpart K: Electrical
+1926.417,Lockout and tagging of circuits,Electrical: Lockout and tagging of circuits,1926,Safety and Health Regulations for Construction,Subpart K: Electrical
+1926.431,Maintenance of equipment,Electrical: Maintenance of equipment,1926,Safety and Health Regulations for Construction,Subpart K: Electrical
+1926.432,Environmental deterioration of equipment,Electrical: Environmental deterioration of equipment,1926,Safety and Health Regulations for Construction,Subpart K: Electrical
+1926.441,Batteries and battery charging,Electrical: Batteries and battery charging,1926,Safety and Health Regulations for Construction,Subpart K: Electrical
+1926.449,Definitions applicable to this subpart,Electrical: Definitions applicable to this subpart,1926,Safety and Health Regulations for Construction,Subpart K: Electrical
+1926.450,"Scope, application and definitions applicable to this subpart","Scaffolds: Scope, application and definitions applicable to this subpart",1926,Safety and Health Regulations for Construction,Subpart L: Scaffolds
+1926.451,General requirements,Scaffolds: General requirements,1926,Safety and Health Regulations for Construction,Subpart L: Scaffolds
+1926.452,Additional requirements applicable to specific types of scaffolds,Scaffolds: Additional requirements applicable to specific types of scaffolds,1926,Safety and Health Regulations for Construction,Subpart L: Scaffolds
+1926.453,Aerial lifts,Scaffolds: Aerial lifts,1926,Safety and Health Regulations for Construction,Subpart L: Scaffolds
+1926.454,Training requirements,Scaffolds: Training requirements,1926,Safety and Health Regulations for Construction,Subpart L: Scaffolds
+1926.500,"Scope, application, and definitions applicable to this subpart","Fall Protection: Scope, application, and definitions applicable to this subpart",1926,Safety and Health Regulations for Construction,Subpart M: Fall Protection
+1926.501,Duty to have fall protection,Fall Protection: Duty to have fall protection,1926,Safety and Health Regulations for Construction,Subpart M: Fall Protection
+1926.502,Fall protection systems criteria and practices,Fall Protection: Fall protection systems criteria and practices,1926,Safety and Health Regulations for Construction,Subpart M: Fall Protection
+1926.503,Training requirements,Fall Protection: Training requirements,1926,Safety and Health Regulations for Construction,Subpart M: Fall Protection
+1926.551,Helicopters,"Helicopters, Hoists, Elevators, and Conveyors: Helicopters",1926,Safety and Health Regulations for Construction,"Subpart N: Helicopters, Hoists, Elevators, and Conveyors"
+1926.552,"Material hoists, personnel hoists, and elevators","Helicopters, Hoists, Elevators, and Conveyors: Material hoists, personnel hoists, and elevators",1926,Safety and Health Regulations for Construction,"Subpart N: Helicopters, Hoists, Elevators, and Conveyors"
+1926.553,Base-mounted drum hoists,"Helicopters, Hoists, Elevators, and Conveyors: Base-mounted drum hoists",1926,Safety and Health Regulations for Construction,"Subpart N: Helicopters, Hoists, Elevators, and Conveyors"
+1926.554,Overhead hoists,"Helicopters, Hoists, Elevators, and Conveyors: Overhead hoists",1926,Safety and Health Regulations for Construction,"Subpart N: Helicopters, Hoists, Elevators, and Conveyors"
+1926.555,Conveyors,"Helicopters, Hoists, Elevators, and Conveyors: Conveyors",1926,Safety and Health Regulations for Construction,"Subpart N: Helicopters, Hoists, Elevators, and Conveyors"
+1926.600,Equipment,"Motor Vehicles, Mechanized Equipment, and Marine Operations: Equipment",1926,Safety and Health Regulations for Construction,"Subpart O: Motor Vehicles, Mechanized Equipment, and Marine Operations"
+1926.601,Motor vehicles,"Motor Vehicles, Mechanized Equipment, and Marine Operations: Motor vehicles",1926,Safety and Health Regulations for Construction,"Subpart O: Motor Vehicles, Mechanized Equipment, and Marine Operations"
+1926.602,Material handling equipment,"Motor Vehicles, Mechanized Equipment, and Marine Operations: Material handling equipment",1926,Safety and Health Regulations for Construction,"Subpart O: Motor Vehicles, Mechanized Equipment, and Marine Operations"
+1926.603,Pile driving equipment,"Motor Vehicles, Mechanized Equipment, and Marine Operations: Pile driving equipment",1926,Safety and Health Regulations for Construction,"Subpart O: Motor Vehicles, Mechanized Equipment, and Marine Operations"
+1926.604,Site clearing,"Motor Vehicles, Mechanized Equipment, and Marine Operations: Site clearing",1926,Safety and Health Regulations for Construction,"Subpart O: Motor Vehicles, Mechanized Equipment, and Marine Operations"
+1926.605,Marine operations and equipment,"Motor Vehicles, Mechanized Equipment, and Marine Operations: Marine operations and equipment",1926,Safety and Health Regulations for Construction,"Subpart O: Motor Vehicles, Mechanized Equipment, and Marine Operations"
+1926.606,Definitions applicable to this subpart,"Motor Vehicles, Mechanized Equipment, and Marine Operations: Definitions applicable to this subpart",1926,Safety and Health Regulations for Construction,"Subpart O: Motor Vehicles, Mechanized Equipment, and Marine Operations"
+1926.650,"Scope, application, and definitions applicable to this subpart","Excavations: Scope, application, and definitions applicable to this subpart",1926,Safety and Health Regulations for Construction,Subpart P: Excavations
+1926.651,Specific excavation requirements,Excavations: Specific excavation requirements,1926,Safety and Health Regulations for Construction,Subpart P: Excavations
+1926.652,Requirements for protective systems,Excavations: Requirements for protective systems,1926,Safety and Health Regulations for Construction,Subpart P: Excavations
+1926.700,"Scope, application, and definitions applicable to this subpart","Concrete and Masonry Construction: Scope, application, and definitions applicable to this subpart",1926,Safety and Health Regulations for Construction,Subpart Q: Concrete and Masonry Construction
+1926.701,General requirements,Concrete and Masonry Construction: General requirements,1926,Safety and Health Regulations for Construction,Subpart Q: Concrete and Masonry Construction
+1926.702,Requirements for equipment and tools,Concrete and Masonry Construction: Requirements for equipment and tools,1926,Safety and Health Regulations for Construction,Subpart Q: Concrete and Masonry Construction
+1926.703,Requirements for cast-in-place concrete,Concrete and Masonry Construction: Requirements for cast-in-place concrete,1926,Safety and Health Regulations for Construction,Subpart Q: Concrete and Masonry Construction
+1926.704,Requirements for precast concrete,Concrete and Masonry Construction: Requirements for precast concrete,1926,Safety and Health Regulations for Construction,Subpart Q: Concrete and Masonry Construction
+1926.705,Requirements for lift-slab construction operations,Concrete and Masonry Construction: Requirements for lift-slab construction operations,1926,Safety and Health Regulations for Construction,Subpart Q: Concrete and Masonry Construction
+1926.706,Requirements for masonry construction,Concrete and Masonry Construction: Requirements for masonry construction,1926,Safety and Health Regulations for Construction,Subpart Q: Concrete and Masonry Construction
+1926.750,Scope,Steel Erection: Scope,1926,Safety and Health Regulations for Construction,Subpart R: Steel Erection
+1926.751,Definitions,Steel Erection: Definitions,1926,Safety and Health Regulations for Construction,Subpart R: Steel Erection
+1926.752,"Site layout, site-specific erection plan and construction sequence","Steel Erection: Site layout, site-specific erection plan and construction sequence",1926,Safety and Health Regulations for Construction,Subpart R: Steel Erection
+1926.753,Hoisting and rigging,Steel Erection: Hoisting and rigging,1926,Safety and Health Regulations for Construction,Subpart R: Steel Erection
+1926.754,Structural steel assembly,Steel Erection: Structural steel assembly,1926,Safety and Health Regulations for Construction,Subpart R: Steel Erection
+1926.755,Column anchorage,Steel Erection: Column anchorage,1926,Safety and Health Regulations for Construction,Subpart R: Steel Erection
+1926.756,Beams and columns,Steel Erection: Beams and columns,1926,Safety and Health Regulations for Construction,Subpart R: Steel Erection
+1926.757,Open web steel joists,Steel Erection: Open web steel joists,1926,Safety and Health Regulations for Construction,Subpart R: Steel Erection
+1926.758,Systems-engineered metal buildings,Steel Erection: Systems-engineered metal buildings,1926,Safety and Health Regulations for Construction,Subpart R: Steel Erection
+1926.759,Falling object protection,Steel Erection: Falling object protection,1926,Safety and Health Regulations for Construction,Subpart R: Steel Erection
+1926.760,Fall protection,Steel Erection: Fall protection,1926,Safety and Health Regulations for Construction,Subpart R: Steel Erection
+1926.761,Training,Steel Erection: Training,1926,Safety and Health Regulations for Construction,Subpart R: Steel Erection
+1926.800,Underground construction,"Underground Construction, Caissons, Cofferdams and Compressed Air: Underground construction",1926,Safety and Health Regulations for Construction,"Subpart S: Underground Construction, Caissons, Cofferdams and Compressed Air"
+1926.801,Caissons,"Underground Construction, Caissons, Cofferdams and Compressed Air: Caissons",1926,Safety and Health Regulations for Construction,"Subpart S: Underground Construction, Caissons, Cofferdams and Compressed Air"
+1926.802,Cofferdams,"Underground Construction, Caissons, Cofferdams and Compressed Air: Cofferdams",1926,Safety and Health Regulations for Construction,"Subpart S: Underground Construction, Caissons, Cofferdams and Compressed Air"
+1926.803,Compressed air,"Underground Construction, Caissons, Cofferdams and Compressed Air: Compressed air",1926,Safety and Health Regulations for Construction,"Subpart S: Underground Construction, Caissons, Cofferdams and Compressed Air"
+1926.804,Definitions applicable to this subpart,"Underground Construction, Caissons, Cofferdams and Compressed Air: Definitions applicable to this subpart",1926,Safety and Health Regulations for Construction,"Subpart S: Underground Construction, Caissons, Cofferdams and Compressed Air"
+1926.850,Preparatory operations,Demolition: Preparatory operations,1926,Safety and Health Regulations for Construction,Subpart T: Demolition
+1926.851,"Stairs, passageways, and ladders","Demolition: Stairs, passageways, and ladders",1926,Safety and Health Regulations for Construction,Subpart T: Demolition
+1926.852,Chutes,Demolition: Chutes,1926,Safety and Health Regulations for Construction,Subpart T: Demolition
+1926.853,Removal of materials through floor openings,Demolition: Removal of materials through floor openings,1926,Safety and Health Regulations for Construction,Subpart T: Demolition
+1926.854,"Removal of walls, masonry sections, and chimneys","Demolition: Removal of walls, masonry sections, and chimneys",1926,Safety and Health Regulations for Construction,Subpart T: Demolition
+1926.855,Manual removal of floors,Demolition: Manual removal of floors,1926,Safety and Health Regulations for Construction,Subpart T: Demolition
+1926.856,"Removal of walls, floors, and material with equipment","Demolition: Removal of walls, floors, and material with equipment",1926,Safety and Health Regulations for Construction,Subpart T: Demolition
+1926.857,Storage,Demolition: Storage,1926,Safety and Health Regulations for Construction,Subpart T: Demolition
+1926.858,Removal of steel construction,Demolition: Removal of steel construction,1926,Safety and Health Regulations for Construction,Subpart T: Demolition
+1926.859,Mechanical demolition,Demolition: Mechanical demolition,1926,Safety and Health Regulations for Construction,Subpart T: Demolition
+1926.860,Selective demolition by explosives,Demolition: Selective demolition by explosives,1926,Safety and Health Regulations for Construction,Subpart T: Demolition
+1926.900,General provisions,Blasting and the Use of Explosives: General provisions,1926,Safety and Health Regulations for Construction,Subpart U: Blasting and the Use of Explosives
+1926.901,Blaster qualifications,Blasting and the Use of Explosives: Blaster qualifications,1926,Safety and Health Regulations for Construction,Subpart U: Blasting and the Use of Explosives
+1926.902,Surface transportation of explosives,Blasting and the Use of Explosives: Surface transportation of explosives,1926,Safety and Health Regulations for Construction,Subpart U: Blasting and the Use of Explosives
+1926.903,Underground transportation of explosives,Blasting and the Use of Explosives: Underground transportation of explosives,1926,Safety and Health Regulations for Construction,Subpart U: Blasting and the Use of Explosives
+1926.904,Storage of explosives and blasting agents,Blasting and the Use of Explosives: Storage of explosives and blasting agents,1926,Safety and Health Regulations for Construction,Subpart U: Blasting and the Use of Explosives
+1926.905,Loading of explosives or blasting agents,Blasting and the Use of Explosives: Loading of explosives or blasting agents,1926,Safety and Health Regulations for Construction,Subpart U: Blasting and the Use of Explosives
+1926.906,Initiation of explosive charges—electric blasting,Blasting and the Use of Explosives: Initiation of explosive charges—electric blasting,1926,Safety and Health Regulations for Construction,Subpart U: Blasting and the Use of Explosives
+1926.907,Use of safety fuse,Blasting and the Use of Explosives: Use of safety fuse,1926,Safety and Health Regulations for Construction,Subpart U: Blasting and the Use of Explosives
+1926.908,Use of detonating cord,Blasting and the Use of Explosives: Use of detonating cord,1926,Safety and Health Regulations for Construction,Subpart U: Blasting and the Use of Explosives
+1926.909,Firing the blast,Blasting and the Use of Explosives: Firing the blast,1926,Safety and Health Regulations for Construction,Subpart U: Blasting and the Use of Explosives
+1926.910,Inspection after blasting,Blasting and the Use of Explosives: Inspection after blasting,1926,Safety and Health Regulations for Construction,Subpart U: Blasting and the Use of Explosives
+1926.911,Misfires,Blasting and the Use of Explosives: Misfires,1926,Safety and Health Regulations for Construction,Subpart U: Blasting and the Use of Explosives
+1926.912,Underwater blasting,Blasting and the Use of Explosives: Underwater blasting,1926,Safety and Health Regulations for Construction,Subpart U: Blasting and the Use of Explosives
+1926.913,Blasting in excavation work under compressed air,Blasting and the Use of Explosives: Blasting in excavation work under compressed air,1926,Safety and Health Regulations for Construction,Subpart U: Blasting and the Use of Explosives
+1926.914,Definitions applicable to this subpart,Blasting and the Use of Explosives: Definitions applicable to this subpart,1926,Safety and Health Regulations for Construction,Subpart U: Blasting and the Use of Explosives
+1926.950,General,Electric Power Transmission and Distribution: General,1926,Safety and Health Regulations for Construction,Subpart V: Electric Power Transmission and Distribution
+1926.951,Medical services and first aid,Electric Power Transmission and Distribution: Medical services and first aid,1926,Safety and Health Regulations for Construction,Subpart V: Electric Power Transmission and Distribution
+1926.952,Job briefing,Electric Power Transmission and Distribution: Job briefing,1926,Safety and Health Regulations for Construction,Subpart V: Electric Power Transmission and Distribution
+1926.953,Enclosed spaces,Electric Power Transmission and Distribution: Enclosed spaces,1926,Safety and Health Regulations for Construction,Subpart V: Electric Power Transmission and Distribution
+1926.954,Personal protective equipment,Electric Power Transmission and Distribution: Personal protective equipment,1926,Safety and Health Regulations for Construction,Subpart V: Electric Power Transmission and Distribution
+1926.955,Portable ladders and platforms,Electric Power Transmission and Distribution: Portable ladders and platforms,1926,Safety and Health Regulations for Construction,Subpart V: Electric Power Transmission and Distribution
+1926.956,Hand and portable power equipment,Electric Power Transmission and Distribution: Hand and portable power equipment,1926,Safety and Health Regulations for Construction,Subpart V: Electric Power Transmission and Distribution
+1926.957,Live-line tools,Electric Power Transmission and Distribution: Live-line tools,1926,Safety and Health Regulations for Construction,Subpart V: Electric Power Transmission and Distribution
+1926.958,Materials handling and storage,Electric Power Transmission and Distribution: Materials handling and storage,1926,Safety and Health Regulations for Construction,Subpart V: Electric Power Transmission and Distribution
+1926.959,Mechanical equipment,Electric Power Transmission and Distribution: Mechanical equipment,1926,Safety and Health Regulations for Construction,Subpart V: Electric Power Transmission and Distribution
+1926.960,Working on or near exposed energized parts,Electric Power Transmission and Distribution: Working on or near exposed energized parts,1926,Safety and Health Regulations for Construction,Subpart V: Electric Power Transmission and Distribution
+1926.961,Deenergizing lines and equipment for employee protection,Electric Power Transmission and Distribution: Deenergizing lines and equipment for employee protection,1926,Safety and Health Regulations for Construction,Subpart V: Electric Power Transmission and Distribution
+1926.962,Grounding for the protection of employees,Electric Power Transmission and Distribution: Grounding for the protection of employees,1926,Safety and Health Regulations for Construction,Subpart V: Electric Power Transmission and Distribution
+1926.963,Testing and test facilities,Electric Power Transmission and Distribution: Testing and test facilities,1926,Safety and Health Regulations for Construction,Subpart V: Electric Power Transmission and Distribution
+1926.964,Overhead lines and live-line barehand work,Electric Power Transmission and Distribution: Overhead lines and live-line barehand work,1926,Safety and Health Regulations for Construction,Subpart V: Electric Power Transmission and Distribution
+1926.965,Underground electrical installations,Electric Power Transmission and Distribution: Underground electrical installations,1926,Safety and Health Regulations for Construction,Subpart V: Electric Power Transmission and Distribution
+1926.966,Substations,Electric Power Transmission and Distribution: Substations,1926,Safety and Health Regulations for Construction,Subpart V: Electric Power Transmission and Distribution
+1926.967,Special conditions,Electric Power Transmission and Distribution: Special conditions,1926,Safety and Health Regulations for Construction,Subpart V: Electric Power Transmission and Distribution
+1926.968,Definitions,Electric Power Transmission and Distribution: Definitions,1926,Safety and Health Regulations for Construction,Subpart V: Electric Power Transmission and Distribution
+1926.1000,Scope,Rollover Protective Structures; Overhead Protection: Scope,1926,Safety and Health Regulations for Construction,Subpart W: Rollover Protective Structures; Overhead Protection
+1926.1001,"Minimum performance criteria for rollover protective structures for designated scrapers, loaders, dozers, graders, crawler tractors, compactors, and rubber-tired skid steer equipment","Rollover Protective Structures; Overhead Protection: Minimum performance criteria for rollover protective structures for designated scrapers, loaders, dozers, graders, crawler tractors, compactors, and rubber-tired skid steer equipment",1926,Safety and Health Regulations for Construction,Subpart W: Rollover Protective Structures; Overhead Protection
+1926.1002,"Protective frames (roll-over protective structures, known as ROPS) for wheel-type agricultural and industrial tractors used in construction","Rollover Protective Structures; Overhead Protection: Protective frames (roll-over protective structures, known as ROPS) for wheel-type agricultural and industrial tractors used in construction",1926,Safety and Health Regulations for Construction,Subpart W: Rollover Protective Structures; Overhead Protection
+1926.1003,Overhead protection for operators of agricultural and industrial tractors used in construction,Rollover Protective Structures; Overhead Protection: Overhead protection for operators of agricultural and industrial tractors used in construction,1926,Safety and Health Regulations for Construction,Subpart W: Rollover Protective Structures; Overhead Protection
+1926.1050,"Scope, application, and definitions applicable to this subpart","Stairways and Ladders: Scope, application, and definitions applicable to this subpart",1926,Safety and Health Regulations for Construction,Subpart X: Stairways and Ladders
+1926.1051,General requirements,Stairways and Ladders: General requirements,1926,Safety and Health Regulations for Construction,Subpart X: Stairways and Ladders
+1926.1052,Stairways,Stairways and Ladders: Stairways,1926,Safety and Health Regulations for Construction,Subpart X: Stairways and Ladders
+1926.1053,Ladders,Stairways and Ladders: Ladders,1926,Safety and Health Regulations for Construction,Subpart X: Stairways and Ladders
+1926.1060,Training requirements,Stairways and Ladders: Training requirements,1926,Safety and Health Regulations for Construction,Subpart X: Stairways and Ladders
+1926.1071,Scope and application,Diving: Scope and application,1926,Safety and Health Regulations for Construction,Subpart Y: Diving
+1926.1072,Definitions,Diving: Definitions,1926,Safety and Health Regulations for Construction,Subpart Y: Diving
+1926.1076,Qualifications of dive team,Diving: Qualifications of dive team,1926,Safety and Health Regulations for Construction,Subpart Y: Diving
+1926.1080,Safe practices manual,Diving: Safe practices manual,1926,Safety and Health Regulations for Construction,Subpart Y: Diving
+1926.1081,Pre-dive procedures,Diving: Pre-dive procedures,1926,Safety and Health Regulations for Construction,Subpart Y: Diving
+1926.1082,Procedures during dive,Diving: Procedures during dive,1926,Safety and Health Regulations for Construction,Subpart Y: Diving
+1926.1083,Post-dive procedures,Diving: Post-dive procedures,1926,Safety and Health Regulations for Construction,Subpart Y: Diving
+1926.1084,SCUBA diving,Diving: SCUBA diving,1926,Safety and Health Regulations for Construction,Subpart Y: Diving
+1926.1085,Surface-supplied air diving,Diving: Surface-supplied air diving,1926,Safety and Health Regulations for Construction,Subpart Y: Diving
+1926.1086,Mixed-gas diving,Diving: Mixed-gas diving,1926,Safety and Health Regulations for Construction,Subpart Y: Diving
+1926.1087,Liveboating,Diving: Liveboating,1926,Safety and Health Regulations for Construction,Subpart Y: Diving
+1926.1090,Equipment,Diving: Equipment,1926,Safety and Health Regulations for Construction,Subpart Y: Diving
+1926.1091,Recordkeeping requirements,Diving: Recordkeeping requirements,1926,Safety and Health Regulations for Construction,Subpart Y: Diving
+1926.1101,Asbestos,Toxic and Hazardous Substances: Asbestos,1926,Safety and Health Regulations for Construction,Subpart Z: Toxic and Hazardous Substances
+1926.1102,Coal tar pitch volatiles; interpretation of term,Toxic and Hazardous Substances: Coal tar pitch volatiles; interpretation of term,1926,Safety and Health Regulations for Construction,Subpart Z: Toxic and Hazardous Substances
+1926.1103,"13 carcinogens (4-Nitrobiphenyl, etc.)","Toxic and Hazardous Substances: 13 carcinogens (4-Nitrobiphenyl, etc.)",1926,Safety and Health Regulations for Construction,Subpart Z: Toxic and Hazardous Substances
+1926.1104,alpha-Naphthylamine,Toxic and Hazardous Substances: alpha-Naphthylamine,1926,Safety and Health Regulations for Construction,Subpart Z: Toxic and Hazardous Substances
+1926.1106,Methyl chloromethyl ether,Toxic and Hazardous Substances: Methyl chloromethyl ether,1926,Safety and Health Regulations for Construction,Subpart Z: Toxic and Hazardous Substances
+1926.1107,"3,3′-Dichlorobenzidiene (and its salts)","Toxic and Hazardous Substances: 3,3′-Dichlorobenzidiene (and its salts)",1926,Safety and Health Regulations for Construction,Subpart Z: Toxic and Hazardous Substances
+1926.1108,bis-Chloromethyl ether,Toxic and Hazardous Substances: bis-Chloromethyl ether,1926,Safety and Health Regulations for Construction,Subpart Z: Toxic and Hazardous Substances
+1926.1109,beta-Naphthylamine,Toxic and Hazardous Substances: beta-Naphthylamine,1926,Safety and Health Regulations for Construction,Subpart Z: Toxic and Hazardous Substances
+1926.1110,Benzidine,Toxic and Hazardous Substances: Benzidine,1926,Safety and Health Regulations for Construction,Subpart Z: Toxic and Hazardous Substances
+1926.1111,4-Aminodiphenyl,Toxic and Hazardous Substances: 4-Aminodiphenyl,1926,Safety and Health Regulations for Construction,Subpart Z: Toxic and Hazardous Substances
+1926.1112,Ethyleneimine,Toxic and Hazardous Substances: Ethyleneimine,1926,Safety and Health Regulations for Construction,Subpart Z: Toxic and Hazardous Substances
+1926.1113,beta-Propiolactone,Toxic and Hazardous Substances: beta-Propiolactone,1926,Safety and Health Regulations for Construction,Subpart Z: Toxic and Hazardous Substances
+1926.1114,2-Acetylaminofluorene,Toxic and Hazardous Substances: 2-Acetylaminofluorene,1926,Safety and Health Regulations for Construction,Subpart Z: Toxic and Hazardous Substances
+1926.1115,4-Dimethylaminoazobenzene,Toxic and Hazardous Substances: 4-Dimethylaminoazobenzene,1926,Safety and Health Regulations for Construction,Subpart Z: Toxic and Hazardous Substances
+1926.1116,N-Nitrosodimethylamine,Toxic and Hazardous Substances: N-Nitrosodimethylamine,1926,Safety and Health Regulations for Construction,Subpart Z: Toxic and Hazardous Substances
+1926.1117,Vinyl chloride,Toxic and Hazardous Substances: Vinyl chloride,1926,Safety and Health Regulations for Construction,Subpart Z: Toxic and Hazardous Substances
+1926.1118,Inorganic arsenic,Toxic and Hazardous Substances: Inorganic arsenic,1926,Safety and Health Regulations for Construction,Subpart Z: Toxic and Hazardous Substances
+1926.1124,Beryllium,Toxic and Hazardous Substances: Beryllium,1926,Safety and Health Regulations for Construction,Subpart Z: Toxic and Hazardous Substances
+1926.1126,Chromium (VI),Toxic and Hazardous Substances: Chromium (VI),1926,Safety and Health Regulations for Construction,Subpart Z: Toxic and Hazardous Substances
+1926.1127,Cadmium,Toxic and Hazardous Substances: Cadmium,1926,Safety and Health Regulations for Construction,Subpart Z: Toxic and Hazardous Substances
+1926.1128,Benzene,Toxic and Hazardous Substances: Benzene,1926,Safety and Health Regulations for Construction,Subpart Z: Toxic and Hazardous Substances
+1926.1144,"1,2-dibromo-3-chloropropane","Toxic and Hazardous Substances: 1,2-dibromo-3-chloropropane",1926,Safety and Health Regulations for Construction,Subpart Z: Toxic and Hazardous Substances
+1926.1145,Acrylonitrile,Toxic and Hazardous Substances: Acrylonitrile,1926,Safety and Health Regulations for Construction,Subpart Z: Toxic and Hazardous Substances
+1926.1147,Ethylene oxide,Toxic and Hazardous Substances: Ethylene oxide,1926,Safety and Health Regulations for Construction,Subpart Z: Toxic and Hazardous Substances
+1926.1148,Formaldehyde,Toxic and Hazardous Substances: Formaldehyde,1926,Safety and Health Regulations for Construction,Subpart Z: Toxic and Hazardous Substances
+1926.1152,Methylene chloride,Toxic and Hazardous Substances: Methylene chloride,1926,Safety and Health Regulations for Construction,Subpart Z: Toxic and Hazardous Substances
+1926.1153,Respirable crystalline silica,Toxic and Hazardous Substances: Respirable crystalline silica,1926,Safety and Health Regulations for Construction,Subpart Z: Toxic and Hazardous Substances
+1926.1201,Scope,Confined Spaces in Construction: Scope,1926,Safety and Health Regulations for Construction,Subpart AA: Confined Spaces in Construction
+1926.1202,Definitions,Confined Spaces in Construction: Definitions,1926,Safety and Health Regulations for Construction,Subpart AA: Confined Spaces in Construction
+1926.1203,General requirements,Confined Spaces in Construction: General requirements,1926,Safety and Health Regulations for Construction,Subpart AA: Confined Spaces in Construction
+1926.1204,Permit-required confined space program,Confined Spaces in Construction: Permit-required confined space program,1926,Safety and Health Regulations for Construction,Subpart AA: Confined Spaces in Construction
+1926.1205,Permitting process,Confined Spaces in Construction: Permitting process,1926,Safety and Health Regulations for Construction,Subpart AA: Confined Spaces in Construction
+1926.1206,Entry permit,Confined Spaces in Construction: Entry permit,1926,Safety and Health Regulations for Construction,Subpart AA: Confined Spaces in Construction
+1926.1207,Training,Confined Spaces in Construction: Training,1926,Safety and Health Regulations for Construction,Subpart AA: Confined Spaces in Construction
+1926.1208,Duties of authorized entrants,Confined Spaces in Construction: Duties of authorized entrants,1926,Safety and Health Regulations for Construction,Subpart AA: Confined Spaces in Construction
+1926.1209,Duties of attendants,Confined Spaces in Construction: Duties of attendants,1926,Safety and Health Regulations for Construction,Subpart AA: Confined Spaces in Construction
+1926.1210,Duties of entry supervisors,Confined Spaces in Construction: Duties of entry supervisors,1926,Safety and Health Regulations for Construction,Subpart AA: Confined Spaces in Construction
+1926.1211,Rescue and emergency services,Confined Spaces in Construction: Rescue and emergency services,1926,Safety and Health Regulations for Construction,Subpart AA: Confined Spaces in Construction
+1926.1212,Employee participation,Confined Spaces in Construction: Employee participation,1926,Safety and Health Regulations for Construction,Subpart AA: Confined Spaces in Construction
+1926.1213,Provision of documents to Secretary,Confined Spaces in Construction: Provision of documents to Secretary,1926,Safety and Health Regulations for Construction,Subpart AA: Confined Spaces in Construction
+1926.1400,Scope,Cranes and Derricks in Construction: Scope,1926,Safety and Health Regulations for Construction,Subpart CC: Cranes and Derricks in Construction
+1926.1401,Definitions,Cranes and Derricks in Construction: Definitions,1926,Safety and Health Regulations for Construction,Subpart CC: Cranes and Derricks in Construction
+1926.1402,Ground conditions,Cranes and Derricks in Construction: Ground conditions,1926,Safety and Health Regulations for Construction,Subpart CC: Cranes and Derricks in Construction
+1926.1403,Assembly/Disassembly—selection of manufacturer or employer procedures,Cranes and Derricks in Construction: Assembly/Disassembly—selection of manufacturer or employer procedures,1926,Safety and Health Regulations for Construction,Subpart CC: Cranes and Derricks in Construction
+1926.1404,Assembly/Disassembly—general requirements (applies to all assembly and disassembly operations),Cranes and Derricks in Construction: Assembly/Disassembly—general requirements (applies to all assembly and disassembly operations),1926,Safety and Health Regulations for Construction,Subpart CC: Cranes and Derricks in Construction
+1926.1405,Disassembly—additional requirements for dismantling of booms and jibs (applies to both the use of manufacturer procedures and employer procedures),Cranes and Derricks in Construction: Disassembly—additional requirements for dismantling of booms and jibs (applies to both the use of manufacturer procedures and employer procedures),1926,Safety and Health Regulations for Construction,Subpart CC: Cranes and Derricks in Construction
+1926.1406,Assembly/Disassembly—employer procedures—general requirements,Cranes and Derricks in Construction: Assembly/Disassembly—employer procedures—general requirements,1926,Safety and Health Regulations for Construction,Subpart CC: Cranes and Derricks in Construction
+1926.1407,Power line safety (up to 350 kV)—assembly and disassembly,Cranes and Derricks in Construction: Power line safety (up to 350 kV)—assembly and disassembly,1926,Safety and Health Regulations for Construction,Subpart CC: Cranes and Derricks in Construction
+1926.1408,Power line safety (up to 350 kV)—equipment operations,Cranes and Derricks in Construction: Power line safety (up to 350 kV)—equipment operations,1926,Safety and Health Regulations for Construction,Subpart CC: Cranes and Derricks in Construction
+1926.1409,Power line safety (over 350 kV),Cranes and Derricks in Construction: Power line safety (over 350 kV),1926,Safety and Health Regulations for Construction,Subpart CC: Cranes and Derricks in Construction
+1926.1410,Power line safety (all voltages)—equipment operations closer than the Table A zone,Cranes and Derricks in Construction: Power line safety (all voltages)—equipment operations closer than the Table A zone,1926,Safety and Health Regulations for Construction,Subpart CC: Cranes and Derricks in Construction
+1926.1411,Power line safety—while traveling under or near power lines with no load,Cranes and Derricks in Construction: Power line safety—while traveling under or near power lines with no load,1926,Safety and Health Regulations for Construction,Subpart CC: Cranes and Derricks in Construction
+1926.1412,Inspections,Cranes and Derricks in Construction: Inspections,1926,Safety and Health Regulations for Construction,Subpart CC: Cranes and Derricks in Construction
+1926.1413,Wire rope—inspection,Cranes and Derricks in Construction: Wire rope—inspection,1926,Safety and Health Regulations for Construction,Subpart CC: Cranes and Derricks in Construction
+1926.1414,Wire rope—selection and installation criteria,Cranes and Derricks in Construction: Wire rope—selection and installation criteria,1926,Safety and Health Regulations for Construction,Subpart CC: Cranes and Derricks in Construction
+1926.1415,Safety devices,Cranes and Derricks in Construction: Safety devices,1926,Safety and Health Regulations for Construction,Subpart CC: Cranes and Derricks in Construction
+1926.1416,Operational aids,Cranes and Derricks in Construction: Operational aids,1926,Safety and Health Regulations for Construction,Subpart CC: Cranes and Derricks in Construction
+1926.1417,Operation,Cranes and Derricks in Construction: Operation,1926,Safety and Health Regulations for Construction,Subpart CC: Cranes and Derricks in Construction
+1926.1418,Authority to stop operation,Cranes and Derricks in Construction: Authority to stop operation,1926,Safety and Health Regulations for Construction,Subpart CC: Cranes and Derricks in Construction
+1926.1419,Signals—general requirements,Cranes and Derricks in Construction: Signals—general requirements,1926,Safety and Health Regulations for Construction,Subpart CC: Cranes and Derricks in Construction
+1926.1420,"Signals—radio, telephone or other electronic transmission of signals","Cranes and Derricks in Construction: Signals—radio, telephone or other electronic transmission of signals",1926,Safety and Health Regulations for Construction,Subpart CC: Cranes and Derricks in Construction
+1926.1421,Signals—voice signals—additional requirements,Cranes and Derricks in Construction: Signals—voice signals—additional requirements,1926,Safety and Health Regulations for Construction,Subpart CC: Cranes and Derricks in Construction
+1926.1422,Signals—hand signal chart,Cranes and Derricks in Construction: Signals—hand signal chart,1926,Safety and Health Regulations for Construction,Subpart CC: Cranes and Derricks in Construction
+1926.1423,Fall protection,Cranes and Derricks in Construction: Fall protection,1926,Safety and Health Regulations for Construction,Subpart CC: Cranes and Derricks in Construction
+1926.1424,Work area control,Cranes and Derricks in Construction: Work area control,1926,Safety and Health Regulations for Construction,Subpart CC: Cranes and Derricks in Construction
+1926.1425,Keeping clear of the load,Cranes and Derricks in Construction: Keeping clear of the load,1926,Safety and Health Regulations for Construction,Subpart CC: Cranes and Derricks in Construction
+1926.1426,Free fall and controlled load lowering,Cranes and Derricks in Construction: Free fall and controlled load lowering,1926,Safety and Health Regulations for Construction,Subpart CC: Cranes and Derricks in Construction
+1926.1427,"Operator training, certification, and evaluation","Cranes and Derricks in Construction: Operator training, certification, and evaluation",1926,Safety and Health Regulations for Construction,Subpart CC: Cranes and Derricks in Construction
+1926.1428,Signal person qualifications,Cranes and Derricks in Construction: Signal person qualifications,1926,Safety and Health Regulations for Construction,Subpart CC: Cranes and Derricks in Construction
+1926.1429,Qualifications of maintenance &amp; repair employees,Cranes and Derricks in Construction: Qualifications of maintenance &amp; repair employees,1926,Safety and Health Regulations for Construction,Subpart CC: Cranes and Derricks in Construction
+1926.1430,Training,Cranes and Derricks in Construction: Training,1926,Safety and Health Regulations for Construction,Subpart CC: Cranes and Derricks in Construction
+1926.1431,Hoisting personnel,Cranes and Derricks in Construction: Hoisting personnel,1926,Safety and Health Regulations for Construction,Subpart CC: Cranes and Derricks in Construction
+1926.1432,Multiple-crane/derrick lifts—supplemental requirements,Cranes and Derricks in Construction: Multiple-crane/derrick lifts—supplemental requirements,1926,Safety and Health Regulations for Construction,Subpart CC: Cranes and Derricks in Construction
+1926.1433,"Design, construction and testing","Cranes and Derricks in Construction: Design, construction and testing",1926,Safety and Health Regulations for Construction,Subpart CC: Cranes and Derricks in Construction
+1926.1434,Equipment modifications,Cranes and Derricks in Construction: Equipment modifications,1926,Safety and Health Regulations for Construction,Subpart CC: Cranes and Derricks in Construction
+1926.1435,Tower cranes,Cranes and Derricks in Construction: Tower cranes,1926,Safety and Health Regulations for Construction,Subpart CC: Cranes and Derricks in Construction
+1926.1436,Derricks,Cranes and Derricks in Construction: Derricks,1926,Safety and Health Regulations for Construction,Subpart CC: Cranes and Derricks in Construction
+1926.1437,Floating cranes/derricks and land cranes/derricks on barges,Cranes and Derricks in Construction: Floating cranes/derricks and land cranes/derricks on barges,1926,Safety and Health Regulations for Construction,Subpart CC: Cranes and Derricks in Construction
+1926.1438,Overhead &amp; gantry cranes,Cranes and Derricks in Construction: Overhead &amp; gantry cranes,1926,Safety and Health Regulations for Construction,Subpart CC: Cranes and Derricks in Construction
+1926.1439,Dedicated pile drivers,Cranes and Derricks in Construction: Dedicated pile drivers,1926,Safety and Health Regulations for Construction,Subpart CC: Cranes and Derricks in Construction
+1926.1440,Sideboom cranes,Cranes and Derricks in Construction: Sideboom cranes,1926,Safety and Health Regulations for Construction,Subpart CC: Cranes and Derricks in Construction
+1926.1441,"Equipment with a rated hoisting/lifting capacity of 2,000 pounds or less","Cranes and Derricks in Construction: Equipment with a rated hoisting/lifting capacity of 2,000 pounds or less",1926,Safety and Health Regulations for Construction,Subpart CC: Cranes and Derricks in Construction
+1926.1442,Railroad roadway maintenance machines,Cranes and Derricks in Construction: Railroad roadway maintenance machines,1926,Safety and Health Regulations for Construction,Subpart CC: Cranes and Derricks in Construction
+1926.1443,Severability,Cranes and Derricks in Construction: Severability,1926,Safety and Health Regulations for Construction,Subpart CC: Cranes and Derricks in Construction
+1928.1,Purpose and scope,General: Purpose and scope,1928,Occupational Safety and Health Standards for Agriculture,Subpart A: General
+1928.21,Applicable standards in 29 CFR part 1910,Applicability of Standards: Applicable standards in 29 CFR part 1910,1928,Occupational Safety and Health Standards for Agriculture,Subpart B: Applicability of Standards
+1928.51,Roll-over protective structures (ROPS) for tractors used in agricultural operations,Roll-Over Protective Structures: Roll-over protective structures (ROPS) for tractors used in agricultural operations,1928,Occupational Safety and Health Standards for Agriculture,Subpart C: Roll-Over Protective Structures
+1928.52,Protective frames for wheel-type agricultural tractors—test procedures and performance requirements,Roll-Over Protective Structures: Protective frames for wheel-type agricultural tractors—test procedures and performance requirements,1928,Occupational Safety and Health Standards for Agriculture,Subpart C: Roll-Over Protective Structures
+1928.53,Protective enclosures for wheel-type agricultural tractors—test procedures and performance requirements,Roll-Over Protective Structures: Protective enclosures for wheel-type agricultural tractors—test procedures and performance requirements,1928,Occupational Safety and Health Standards for Agriculture,Subpart C: Roll-Over Protective Structures
+1928.57,"Guarding of farm field equipment, farmstead equipment, and cotton gins","Safety for Agricultural Equipment: Guarding of farm field equipment, farmstead equipment, and cotton gins",1928,Occupational Safety and Health Standards for Agriculture,Subpart D: Safety for Agricultural Equipment
+1928.110,Field sanitation,General Environmental Controls: Field sanitation,1928,Occupational Safety and Health Standards for Agriculture,Subpart I: General Environmental Controls
+1928.1027,Cadmium,Occupational Health: Cadmium,1928,Occupational Safety and Health Standards for Agriculture,Subpart M: Occupational Health
+1960.1,Purpose and scope,General: Purpose and scope,1960,Basic Program Elements for Federal Employee Occupational Safety and Health Programs and Related Matters,Subpart A: General
+1960.2,Definitions,General: Definitions,1960,Basic Program Elements for Federal Employee Occupational Safety and Health Programs and Related Matters,Subpart A: General
+1960.6,Designation of agency safety and health officials,Administration: Designation of agency safety and health officials,1960,Basic Program Elements for Federal Employee Occupational Safety and Health Programs and Related Matters,Subpart B: Administration
+1960.7,Financial management,Administration: Financial management,1960,Basic Program Elements for Federal Employee Occupational Safety and Health Programs and Related Matters,Subpart B: Administration
+1960.8,Agency responsibilities,Administration: Agency responsibilities,1960,Basic Program Elements for Federal Employee Occupational Safety and Health Programs and Related Matters,Subpart B: Administration
+1960.9,Supervisory responsibilities,Administration: Supervisory responsibilities,1960,Basic Program Elements for Federal Employee Occupational Safety and Health Programs and Related Matters,Subpart B: Administration
+1960.10,Employee responsibilities and rights,Administration: Employee responsibilities and rights,1960,Basic Program Elements for Federal Employee Occupational Safety and Health Programs and Related Matters,Subpart B: Administration
+1960.11,Evaluation of occupational safety and health performance,Administration: Evaluation of occupational safety and health performance,1960,Basic Program Elements for Federal Employee Occupational Safety and Health Programs and Related Matters,Subpart B: Administration
+1960.12,Dissemination of occupational safety and health program information,Administration: Dissemination of occupational safety and health program information,1960,Basic Program Elements for Federal Employee Occupational Safety and Health Programs and Related Matters,Subpart B: Administration
+1960.16,Compliance with OSHA standards,Standards: Compliance with OSHA standards,1960,Basic Program Elements for Federal Employee Occupational Safety and Health Programs and Related Matters,Subpart C: Standards
+1960.17,Alternate standards,Standards: Alternate standards,1960,Basic Program Elements for Federal Employee Occupational Safety and Health Programs and Related Matters,Subpart C: Standards
+1960.18,Supplementary standards,Standards: Supplementary standards,1960,Basic Program Elements for Federal Employee Occupational Safety and Health Programs and Related Matters,Subpart C: Standards
+1960.19,Other Federal agency standards affecting occupational safety and health,Standards: Other Federal agency standards affecting occupational safety and health,1960,Basic Program Elements for Federal Employee Occupational Safety and Health Programs and Related Matters,Subpart C: Standards
+1960.25,Qualifications of safety and health inspectors and agency inspections,Inspection and Abatement: Qualifications of safety and health inspectors and agency inspections,1960,Basic Program Elements for Federal Employee Occupational Safety and Health Programs and Related Matters,Subpart D: Inspection and Abatement
+1960.26,Conduct of inspections,Inspection and Abatement: Conduct of inspections,1960,Basic Program Elements for Federal Employee Occupational Safety and Health Programs and Related Matters,Subpart D: Inspection and Abatement
+1960.27,Representatives of officials in charge and representatives of employees,Inspection and Abatement: Representatives of officials in charge and representatives of employees,1960,Basic Program Elements for Federal Employee Occupational Safety and Health Programs and Related Matters,Subpart D: Inspection and Abatement
+1960.28,Employee reports of unsafe or unhealthful working conditions,Inspection and Abatement: Employee reports of unsafe or unhealthful working conditions,1960,Basic Program Elements for Federal Employee Occupational Safety and Health Programs and Related Matters,Subpart D: Inspection and Abatement
+1960.29,Accident investigation,Inspection and Abatement: Accident investigation,1960,Basic Program Elements for Federal Employee Occupational Safety and Health Programs and Related Matters,Subpart D: Inspection and Abatement
+1960.30,Abatement of unsafe or unhealthful working conditions,Inspection and Abatement: Abatement of unsafe or unhealthful working conditions,1960,Basic Program Elements for Federal Employee Occupational Safety and Health Programs and Related Matters,Subpart D: Inspection and Abatement
+1960.31,Inspections by OSHA,Inspection and Abatement: Inspections by OSHA,1960,Basic Program Elements for Federal Employee Occupational Safety and Health Programs and Related Matters,Subpart D: Inspection and Abatement
+1960.34,General provisions,General Services Administration and Other Federal Agencies: General provisions,1960,Basic Program Elements for Federal Employee Occupational Safety and Health Programs and Related Matters,Subpart E: General Services Administration and Other Federal Agencies
+1960.35,National Institute for Occupational Safety and Health,General Services Administration and Other Federal Agencies: National Institute for Occupational Safety and Health,1960,Basic Program Elements for Federal Employee Occupational Safety and Health Programs and Related Matters,Subpart E: General Services Administration and Other Federal Agencies
+1960.36,General provisions,Occupational Safety and Health Committees: General provisions,1960,Basic Program Elements for Federal Employee Occupational Safety and Health Programs and Related Matters,Subpart F: Occupational Safety and Health Committees
+1960.37,Committee organization,Occupational Safety and Health Committees: Committee organization,1960,Basic Program Elements for Federal Employee Occupational Safety and Health Programs and Related Matters,Subpart F: Occupational Safety and Health Committees
+1960.38,Committee formation,Occupational Safety and Health Committees: Committee formation,1960,Basic Program Elements for Federal Employee Occupational Safety and Health Programs and Related Matters,Subpart F: Occupational Safety and Health Committees
+1960.39,Agency responsibilities,Occupational Safety and Health Committees: Agency responsibilities,1960,Basic Program Elements for Federal Employee Occupational Safety and Health Programs and Related Matters,Subpart F: Occupational Safety and Health Committees
+1960.40,Establishment committee duties,Occupational Safety and Health Committees: Establishment committee duties,1960,Basic Program Elements for Federal Employee Occupational Safety and Health Programs and Related Matters,Subpart F: Occupational Safety and Health Committees
+1960.41,National committee duties,Occupational Safety and Health Committees: National committee duties,1960,Basic Program Elements for Federal Employee Occupational Safety and Health Programs and Related Matters,Subpart F: Occupational Safety and Health Committees
+1960.46,Agency responsibility,Allegations of Reprisal: Agency responsibility,1960,Basic Program Elements for Federal Employee Occupational Safety and Health Programs and Related Matters,Subpart G: Allegations of Reprisal
+1960.47,Results of investigations,Allegations of Reprisal: Results of investigations,1960,Basic Program Elements for Federal Employee Occupational Safety and Health Programs and Related Matters,Subpart G: Allegations of Reprisal
+1960.54,Training of top management officials,Training: Training of top management officials,1960,Basic Program Elements for Federal Employee Occupational Safety and Health Programs and Related Matters,Subpart H: Training
+1960.55,Training of supervisors,Training: Training of supervisors,1960,Basic Program Elements for Federal Employee Occupational Safety and Health Programs and Related Matters,Subpart H: Training
+1960.56,Training of safety and health specialists,Training: Training of safety and health specialists,1960,Basic Program Elements for Federal Employee Occupational Safety and Health Programs and Related Matters,Subpart H: Training
+1960.57,Training of safety and health inspectors,Training: Training of safety and health inspectors,1960,Basic Program Elements for Federal Employee Occupational Safety and Health Programs and Related Matters,Subpart H: Training
+1960.58,Training of collateral duty safety and health personnel and committee members,Training: Training of collateral duty safety and health personnel and committee members,1960,Basic Program Elements for Federal Employee Occupational Safety and Health Programs and Related Matters,Subpart H: Training
+1960.59,Training of employees and employee representatives,Training: Training of employees and employee representatives,1960,Basic Program Elements for Federal Employee Occupational Safety and Health Programs and Related Matters,Subpart H: Training
+1960.60,Training assistance,Training: Training assistance,1960,Basic Program Elements for Federal Employee Occupational Safety and Health Programs and Related Matters,Subpart H: Training
+1960.66,"Purpose, scope and general provisions","Recordkeeping and Reporting Requirements: Purpose, scope and general provisions",1960,Basic Program Elements for Federal Employee Occupational Safety and Health Programs and Related Matters,Subpart I: Recordkeeping and Reporting Requirements
+1960.67,Federal agency certification of the injury and illness annual summary (OSHA 300-A or equivalent),Recordkeeping and Reporting Requirements: Federal agency certification of the injury and illness annual summary (OSHA 300-A or equivalent),1960,Basic Program Elements for Federal Employee Occupational Safety and Health Programs and Related Matters,Subpart I: Recordkeeping and Reporting Requirements
+1960.68,Prohibition against discrimination,Recordkeeping and Reporting Requirements: Prohibition against discrimination,1960,Basic Program Elements for Federal Employee Occupational Safety and Health Programs and Related Matters,Subpart I: Recordkeeping and Reporting Requirements
+1960.69,Retention and updating of old forms,Recordkeeping and Reporting Requirements: Retention and updating of old forms,1960,Basic Program Elements for Federal Employee Occupational Safety and Health Programs and Related Matters,Subpart I: Recordkeeping and Reporting Requirements
+1960.70,Reporting of serious accidents,Recordkeeping and Reporting Requirements: Reporting of serious accidents,1960,Basic Program Elements for Federal Employee Occupational Safety and Health Programs and Related Matters,Subpart I: Recordkeeping and Reporting Requirements
+1960.71,Agency annual reports,Recordkeeping and Reporting Requirements: Agency annual reports,1960,Basic Program Elements for Federal Employee Occupational Safety and Health Programs and Related Matters,Subpart I: Recordkeeping and Reporting Requirements
+1960.72,Reporting Federal Agency Injury and Illness Information,Recordkeeping and Reporting Requirements: Reporting Federal Agency Injury and Illness Information,1960,Basic Program Elements for Federal Employee Occupational Safety and Health Programs and Related Matters,Subpart I: Recordkeeping and Reporting Requirements
+1960.73,Federal agency injury and illness recordkeeping forms,Recordkeeping and Reporting Requirements: Federal agency injury and illness recordkeeping forms,1960,Basic Program Elements for Federal Employee Occupational Safety and Health Programs and Related Matters,Subpart I: Recordkeeping and Reporting Requirements
+1960.78,Purpose and scope,Evaluation of Federal Occupational Safety and Health Programs: Purpose and scope,1960,Basic Program Elements for Federal Employee Occupational Safety and Health Programs and Related Matters,Subpart J: Evaluation of Federal Occupational Safety and Health Programs
+1960.79,Self-evaluations of occupational safety and health programs,Evaluation of Federal Occupational Safety and Health Programs: Self-evaluations of occupational safety and health programs,1960,Basic Program Elements for Federal Employee Occupational Safety and Health Programs and Related Matters,Subpart J: Evaluation of Federal Occupational Safety and Health Programs
+1960.80,Secretary's evaluations of agency occupational safety and health programs,Evaluation of Federal Occupational Safety and Health Programs: Secretary's evaluations of agency occupational safety and health programs,1960,Basic Program Elements for Federal Employee Occupational Safety and Health Programs and Related Matters,Subpart J: Evaluation of Federal Occupational Safety and Health Programs
+1960.84,Purpose,Field Federal Safety and Health Councils: Purpose,1960,Basic Program Elements for Federal Employee Occupational Safety and Health Programs and Related Matters,Subpart K: Field Federal Safety and Health Councils
+1960.85,Role of the Secretary,Field Federal Safety and Health Councils: Role of the Secretary,1960,Basic Program Elements for Federal Employee Occupational Safety and Health Programs and Related Matters,Subpart K: Field Federal Safety and Health Councils
+1960.86,Establishing councils,Field Federal Safety and Health Councils: Establishing councils,1960,Basic Program Elements for Federal Employee Occupational Safety and Health Programs and Related Matters,Subpart K: Field Federal Safety and Health Councils
+1960.87,Objectives,Field Federal Safety and Health Councils: Objectives,1960,Basic Program Elements for Federal Employee Occupational Safety and Health Programs and Related Matters,Subpart K: Field Federal Safety and Health Councils
+1960.88,Membership and participation,Field Federal Safety and Health Councils: Membership and participation,1960,Basic Program Elements for Federal Employee Occupational Safety and Health Programs and Related Matters,Subpart K: Field Federal Safety and Health Councils
+1960.89,Organization,Field Federal Safety and Health Councils: Organization,1960,Basic Program Elements for Federal Employee Occupational Safety and Health Programs and Related Matters,Subpart K: Field Federal Safety and Health Councils
+1960.90,Operating procedures,Field Federal Safety and Health Councils: Operating procedures,1960,Basic Program Elements for Federal Employee Occupational Safety and Health Programs and Related Matters,Subpart K: Field Federal Safety and Health Councils
+General Duty Clause,General duty to keep the workplace free from recognized serious hazards,General duty to keep the workplace free from recognized serious hazards,OSH Act,"Occupational Safety and Health Act of 1970, section 5(a)(1)",

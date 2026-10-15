@@ -6,6 +6,12 @@
 #   data/tidy/inspection_summary.csv.gz  inspections, violations and penalties by fiscal year,
 #                                        state, federal or state plan, inspection type and scope,
 #                                        safety or health, ownership and industry sector (complete)
+#   data/tidy/standards_by_industry.csv.gz violations and penalties by fiscal year, federal or
+#                                        state plan, 6-digit NAICS industry and standard cited
+#                                        (complete; the same counts as OSHA's "frequently cited
+#                                        standards" search)
+#   data/tidy/standard_titles.csv        the title of each section of the OSHA standards (29 CFR
+#                                        Parts 1903, 1904, 1910, 1915, 1917, 1918, 1926, 1928, 1960)
 #   data/tidy/violation_standards.csv.gz violations and penalties by fiscal year, federal or state
 #                                        plan, standard cited and violation type (complete)
 #   data/tidy/accidents.csv.gz           accident investigations (fatalities and catastrophes) with
@@ -155,6 +161,41 @@ violation_standards <- violations |>
             initial_penalty = sum(initial_penalty, na.rm = TRUE),
             current_penalty = sum(current_penalty, na.rm = TRUE), .groups = "drop")
 
+standards_by_industry <- violations |>
+  left_join(select(inspections, activity_nr, fiscal_year, jurisdiction, naics_code), by = "activity_nr") |>
+  group_by(fiscal_year, jurisdiction, naics_code, section) |>
+  summarise(violations = n(), inspections = n_distinct(activity_nr),
+            serious = sum(viol_type == "Serious", na.rm = TRUE),
+            willful_repeat = sum(viol_type %in% c("Willful", "Repeat")),
+            initial_penalty = sum(initial_penalty, na.rm = TRUE),
+            current_penalty = sum(current_penalty, na.rm = TRUE), .groups = "drop")
+
+# Titles of the standards, from the eCFR's outline of Title 29 (part > subpart > section)
+ecfr <- jsonlite::fromJSON(file.path(raw_dir, "ecfr_title29.json"), simplifyVector = FALSE)
+osha_parts <- c("1903", "1904", "1910", "1915", "1917", "1918", "1926", "1928", "1960")
+title_rows <- list()
+walk_ecfr <- function(node, part = NA, part_title = NA, subpart = NA) {
+  label <- if (is.null(node$label_description)) NA else node$label_description
+  if (identical(node$type, "part")) { part <- node$identifier; part_title <- label }
+  if (identical(node$type, "subpart")) subpart <- paste0("Subpart ", node$identifier, ": ", label)
+  if (identical(node$type, "section") && part %in% osha_parts && !isTRUE(node$reserved)) {
+    title_rows[[length(title_rows) + 1]] <<- tibble(
+      section = node$identifier, title = str_remove(label, "\\.$"), part = part,
+      part_title = part_title, subpart = subpart)
+  }
+  for (child in node$children) walk_ecfr(child, part, part_title, subpart)
+}
+walk_ecfr(ecfr)
+standard_titles <- bind_rows(title_rows) |>
+  distinct(section, .keep_all = TRUE) |>
+  bind_rows(tibble(section = "General Duty Clause", part = "OSH Act",
+                   title = "General duty to keep the workplace free from recognized serious hazards",
+                   part_title = "Occupational Safety and Health Act of 1970, section 5(a)(1)")) |>
+  # Many titles ("General requirements") only make sense with their subpart
+  mutate(full_title = if_else(is.na(subpart), title,
+                              paste0(str_remove(subpart, "^Subpart [A-Z0-9-]+: "), ": ", title)),
+         .after = title)
+
 # --- Accident investigations ------------------------------------------------------------------
 
 lookup <- read_csv(file.path(raw_dir, "accident_lookup2.csv"),
@@ -218,7 +259,8 @@ stopifnot(!anyDuplicated(inspections$activity_nr),
           !anyDuplicated(select(violations, activity_nr, citation_id)),
           !anyNA(inspections$fiscal_year),
           sum(inspection_summary$inspections) == nrow(inspections),
-          sum(violation_standards$violations) == nrow(violations))
+          sum(violation_standards$violations) == nrow(violations),
+          sum(standards_by_industry$violations) == nrow(violations))
 # Narratives should have all their lines (1, 2, 3, ... with no gaps)
 gaps <- read_table("accident_abstract") |>
   distinct(summary_nr, line_nr) |>
@@ -228,6 +270,8 @@ if (mean(gaps$ok) < 0.99) warning(sum(!gaps$ok), " narratives have missing lines
 
 write_csv(inspection_summary, file.path(tidy_dir, "inspection_summary.csv.gz"), na = "")
 write_csv(violation_standards, file.path(tidy_dir, "violation_standards.csv.gz"), na = "")
+write_csv(standard_titles, file.path(tidy_dir, "standard_titles.csv"), na = "")
+write_csv(standards_by_industry, file.path(tidy_dir, "standards_by_industry.csv.gz"), na = "")
 write_csv(accidents, file.path(tidy_dir, "accidents.csv.gz"), na = "")
 write_csv(accident_injuries, file.path(tidy_dir, "accident_injuries.csv.gz"), na = "")
 write_csv(inspections_sample, file.path(sample_dir, "inspections_sample.csv.gz"), na = "")

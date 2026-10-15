@@ -28,6 +28,9 @@ DOL publishes these records daily through its open data API.
   ownership and industry sector.
 - `violation_standards`: a count of violations of one standard section of one type in one fiscal
   year.
+- `standards_by_industry`: a count of violations of one standard section in one 6-digit NAICS
+  industry in one fiscal year (the counts behind OSHA's "frequently cited standards" search).
+- `standard_titles`: one section of the OSHA standards and its title.
 - `accidents`: one accident investigation (one event, which may involve several workers).
 - `accident_injuries`: one injured or killed worker.
 - `inspections_sample` and `violations_sample`: one inspection, or one cited violation item, for a
@@ -69,6 +72,8 @@ Severe Injury Reports and Chemical Exposure modules.
 | `data_dictionary.md` | Tables, columns and codes |
 | `data/tidy/inspection_summary.csv.gz` | All 825,190 inspection records, aggregated |
 | `data/tidy/violation_standards.csv.gz` | All 1.58 million violations, aggregated by standard |
+| `data/tidy/standards_by_industry.csv.gz` | The same violations by standard and 6-digit NAICS industry |
+| `data/tidy/standard_titles.csv` | Titles of the OSHA standards (29 CFR), from the eCFR |
 | `data/tidy/accidents.csv.gz` | 54,138 accident investigations with events in FY2015 to FY2025, with narratives |
 | `data/tidy/accident_injuries.csv.gz` | The workers injured or killed in those investigations |
 | `data/sample/inspections_sample.csv.gz` | A 5% random sample of inspections, with per-inspection violation and penalty totals |
@@ -78,6 +83,11 @@ Severe Injury Reports and Chemical Exposure modules.
 | `notebooks/460_560_starter.Rmd` | Guided exploration for ENVH 460/560 (includes the ENVH 312 parts plus more advanced ones) |
 | `scripts/fetch_data.R` | Downloads the data from the DOL API (**requires a free API key**; see below) |
 | `scripts/build_dataset.R` | Builds the tables |
+
+`standards_by_industry` reproduces OSHA's frequently cited standards search: the ten standards
+cited most by federal OSHA in fiscal years 2024 and 2025 here are the same ten on OSHA's published
+Top 10 list. Counts differ slightly from OSHA's because this module counts violations by the fiscal
+year the inspection opened and includes items issued later.
 
 The tables were built from data downloaded in October 2026. The record-level files for all
 inspections and violations are too large for this repository; run the scripts to get them.
@@ -97,7 +107,10 @@ make requests; the script waits and retries automatically, and can be stopped an
   [annual inspection data](https://www.osha.gov/enforcement/current-enforcement-summary)
 - [OSHA Field Operations Manual](https://www.osha.gov/enforcement/directives/cpl-02-00-164)
   (inspection types, violation classification and penalties)
-- [Most frequently cited standards](https://www.osha.gov/top10citedstandards)
+- [Most frequently cited standards](https://www.osha.gov/top10citedstandards) and
+  [frequently cited standards by industry](https://www.osha.gov/ords/imis/citedstandard.html)
+- [eCFR Title 29, Chapter XVII](https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII)
+  (the OSHA standards)
 
 ## Citation
 

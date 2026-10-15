@@ -15,6 +15,8 @@
 #   accident_abstract  their narratives (one row per line of text)
 #   accident_injury    the injured or killed workers in those investigations
 #   accident_lookup2   code list for the accident tables
+#   ecfr_title29.json  titles of the standards in Title 29 of the Code of Federal Regulations,
+#                      from the eCFR (no key needed)
 # About 1.5 GB in total; it takes an hour or more. Files already downloaded are skipped, so the
 # script can be stopped and rerun. Next step: run scripts/build_dataset.R.
 #
@@ -116,6 +118,16 @@ lookup_dest <- file.path(raw_dir, "accident_lookup2.csv")
 if (!file.exists(lookup_dest)) {
   url <- paste0(base_url, "/accident_lookup2/csv?limit=", max_rows, "&X-API-KEY=", api_key)
   download.file(url, lookup_dest, mode = "wb", quiet = TRUE)
+}
+
+# Titles of the standards, from the current Title 29 of the Code of Federal Regulations (eCFR API:
+# https://www.ecfr.gov/developers/documentation/api/v1)
+ecfr_dest <- file.path(raw_dir, "ecfr_title29.json")
+if (!file.exists(ecfr_dest)) {
+  titles <- jsonlite::fromJSON("https://www.ecfr.gov/api/versioner/v1/titles.json")$titles
+  as_of <- titles$up_to_date_as_of[titles$number == 29]
+  download.file(paste0("https://www.ecfr.gov/api/versioner/v1/structure/", as_of, "/title-29.json"),
+                ecfr_dest, mode = "wb", quiet = TRUE)
 }
 
 message("Done. Next: run scripts/build_dataset.R")
