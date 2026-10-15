@@ -1,0 +1,313 @@
+---
+title: "Japan Fatal Accident Database: Starter Notebook"
+subtitle: "ENVH 460/560"
+author: "Your name"
+output:
+  html_document:
+    toc: true
+    df_print: paged
+---
+
+Japan's Ministry of Health, Labour and Welfare (MHLW) publishes a record of every work-related
+death since 1991: what happened, in which industry, at what size of workplace, and what kind of
+accident it was. This notebook uses 1991 to 2024. Read the module [README](../README.md) and
+[data dictionary](../data_dictionary.md) first.
+
+**How to use this notebook**
+
+- Run each code chunk in order (the green arrow in RStudio, or Ctrl/Cmd + Shift + Enter).
+- Answer the questions under each **Your answer** heading.
+- When you are done, click **Knit** to produce an HTML report to submit.
+
+# Part 0. Load the data
+
+```{r setup, message = FALSE}
+library(readr)
+library(dplyr)
+library(tidyr)
+library(ggplot2)
+library(stringr)
+library(forcats)
+
+base <- "https://raw.githubusercontent.com/eddiekasner/occupational-safety-health-datasets/main/modules/jp-mhlw-fatal-accidents/data"
+read_module <- function(folder, name) {
+  local <- file.path("..", "data", folder, name)
+  read_csv(if (file.exists(local)) local else file.path(base, folder, name), show_col_types = FALSE,
+           guess_max = 60000,
+           # Codes such as "01" are text, not numbers
+           col_types = cols(industry_sector_code = "c", industry_group_code = "c",
+                            industry_detail_code = "c", agent_group_code = "c",
+                            agent_subgroup_code = "c", agent_detail_code = "c",
+                            accident_type_code = "c"))
+}
+
+deaths <- read_module("tidy", "fatalities.csv.gz")
+nrow(deaths)
+```
+
+Each row is one person killed. The descriptions (`narrative_ja`) are in Japanese; for 2024 there is
+also an English translation (`narrative_en`).
+
+# Part 1. Fewer deaths
+
+```{r trend}
+by_year <- count(deaths, year, name = "deaths")
+
+ggplot(by_year, aes(year, deaths)) +
+  geom_line() +
+  geom_point() +
+  expand_limits(y = 0) +
+  labs(title = "Work-related deaths in Japan", x = NULL, y = "Deaths")
+
+by_year |> filter(year %in% c(1991, 2000, 2010, 2024))
+```
+
+**Questions**
+
+1. By how much did deaths fall from 1991 to 2024 (as a number and a percentage)?
+2. Japan's employed workforce was roughly the same size in 2024 as in 1991. What does that tell
+   you about the death *rate*?
+3. The US Census of Fatal Occupational Injuries (CFOI module) counts about 5,000 deaths a year, a
+   number that has not fallen since the early 2000s. Japan has about 40% of the US population.
+   Before concluding Japan's workplaces are safer, what differences in *coverage* would you check?
+   (See the README's limitations.)
+
+**Your answer:**
+
+
+
+# Part 2. Which industries?
+
+```{r industries}
+deaths |>
+  filter(year %in% c(1991, 2024)) |>
+  count(year, industry_sector) |>
+  group_by(year) |>
+  mutate(share = round(n / sum(n), 3)) |>
+  select(-n) |>
+  pivot_wider(names_from = year, values_from = share, names_prefix = "share_") |>
+  arrange(desc(share_2024))
+
+deaths |>
+  mutate(sector = fct_lump_n(industry_sector, 5)) |>
+  count(year, sector) |>
+  ggplot(aes(year, n, fill = sector)) +
+  geom_area() +
+  labs(title = "Deaths by industry sector", x = NULL, y = "Deaths", fill = NULL)
+```
+
+**Questions**
+
+1. Which sector has the most deaths? What share of deaths was in construction in 1991 and in 2024?
+2. Which sectors have fallen fastest, and which have changed least?
+3. Many deaths in "Transport" are truck drivers. Would you count a truck driver killed in a road
+   crash as an occupational death? How does the CFOI treat them?
+
+**Your answer:**
+
+
+
+# Part 3. How do workers die?
+
+```{r how}
+deaths |>
+  filter(year >= 2020) |>
+  count(accident_type, sort = TRUE) |>
+  mutate(share = round(n / sum(n), 3)) |>
+  head(10)
+
+# Falls from height: what did people fall from?
+deaths |>
+  filter(year >= 2020, accident_type == "Fall from height") |>
+  count(agent_subgroup, agent_detail_ja, sort = TRUE) |>
+  head(10)
+
+deaths |>
+  filter(accident_type %in% c("Fall from height", "Traffic accident (road)",
+                              "Caught in or between", "Struck by moving object")) |>
+  count(year, accident_type) |>
+  ggplot(aes(year, n, colour = accident_type)) +
+  geom_line() +
+  expand_limits(y = 0) +
+  labs(title = "Deaths by type of accident", x = NULL, y = "Deaths", colour = NULL)
+```
+
+The detailed agents are in Japanese. Common ones: 「足場」 scaffold, 「屋根、はり、もや、けた、
+合掌」 roofs and roof beams, 「はしご等」 ladders, 「開口部」 openings, 「階段、桟橋」 stairs
+and gangways, 「トラック」 trucks, 「建築物、構築物」 buildings and structures.
+
+**Questions**
+
+1. What are the three most common types of fatal accident since 2020?
+2. Which type of accident has fallen most since 1991? Suggest a reason.
+3. What do workers most often fall from? For the top two, name a control at each level of the
+   hierarchy of controls (elimination, substitution, engineering, administrative, PPE).
+
+**Your answer:**
+
+
+
+# Part 4. When?
+
+```{r when}
+deaths |>
+  count(month) |>
+  ggplot(aes(factor(month), n)) +
+  geom_col() +
+  labs(title = "Deaths by month, 1991 to 2024", x = "Month", y = "Deaths")
+
+# Heat: contact with hot objects includes heatstroke
+deaths |>
+  filter(accident_type_code == "11") |>
+  count(month)
+
+# Time of day (1-hour bands, 1991 to 2018)
+deaths |>
+  filter(year <= 2018, !is.na(hour_start)) |>
+  count(hour_start) |>
+  ggplot(aes(hour_start, n)) +
+  geom_col() +
+  labs(title = "Deaths by hour of day, 1991 to 2018", x = "Hour starting", y = "Deaths")
+```
+
+**Questions**
+
+1. Are some months more dangerous than others? Which accident type peaks in July and August?
+2. Describe the pattern by hour of day. Why is there a dip at noon? Why might deaths at 8 to 11 am
+   and 2 to 5 pm be most common?
+3. From 2019 MHLW records the time in 2-hour bands. Why does that matter if you want to combine
+   years?
+
+**Your answer:**
+
+
+
+# Part 5. Reading the descriptions
+
+The English translations of the 2024 descriptions were made with an AI model for this course and
+are not official; the Japanese is authoritative.
+
+```{r narratives}
+d2024 <- filter(deaths, year == 2024, !is.na(narrative_en))
+nrow(d2024)
+
+# Search the English descriptions (change the search term)
+forklift <- filter(d2024, str_detect(str_to_lower(narrative_en), "forklift"))
+nrow(forklift)
+set.seed(1)
+forklift |>
+  slice_sample(n = 3) |>
+  pull(narrative_en)
+
+# Japanese search works on every year: 熱中症 means heatstroke
+heat <- "熱中症"
+deaths |>
+  filter(str_detect(narrative_ja, heat)) |>
+  count(year) |>
+  filter(year >= 2015)
+```
+
+**Questions**
+
+1. Read three of the forklift deaths. For each, name the hazard and one control that would have
+   prevented the death.
+2. Search the 2024 descriptions for another hazard (for example "ladder", "roof", "tree" or
+   "heatstroke"). What do the deaths have in common?
+3. MHLW's separate heatstroke statistics count about 30 heatstroke deaths a year recently. How many
+   does the search for 熱中症 find? Why might a search of short descriptions miss some?
+
+**Your answer:**
+
+
+
+# Part 6. Small workplaces
+
+```{r size}
+deaths |>
+  filter(establishment_size != "Unknown") |>
+  mutate(size = factor(establishment_size,
+                       levels = c("Under 10", "10-29", "30-49", "50-99", "100-299", "300+"))) |>
+  count(period = if_else(year < 2008, "1991-2007", "2008-2024"), size) |>
+  group_by(period) |>
+  mutate(share = round(n / sum(n), 3)) |>
+  select(-n) |>
+  pivot_wider(names_from = period, values_from = share)
+
+deaths |>
+  filter(year >= 2015, establishment_size != "Unknown") |>
+  mutate(small = establishment_size %in% c("Under 10", "10-29")) |>
+  group_by(industry_sector) |>
+  summarise(deaths = n(), share_small = round(mean(small), 2)) |>
+  filter(deaths >= 100) |>
+  arrange(desc(share_small))
+```
+
+**Questions**
+
+1. What share of deaths happen at workplaces with fewer than 30 workers? Has it changed?
+2. Does this show that small workplaces are more dangerous? What denominator would you need, and
+   where could you find it? (Hint: Japan's Economic Census counts workers by establishment size.)
+3. Japan requires a safety and health manager only at workplaces above certain sizes. How could
+   you use these data to study whether that rule matters?
+
+**Your answer:**
+
+
+
+# Part 7. Events with several deaths
+
+```{r events}
+deaths |>
+  distinct(event_id, .keep_all = TRUE) |>
+  count(deaths_in_event) |>
+  mutate(deaths = deaths_in_event * n)
+
+deaths |>
+  distinct(event_id, .keep_all = TRUE) |>
+  filter(deaths_in_event >= 5) |>
+  select(year, month, deaths_in_event, industry_sector, accident_type, narrative_ja) |>
+  arrange(desc(deaths_in_event))
+```
+
+**Questions**
+
+1. What share of all deaths happened in events that killed two or more people? Single deaths
+   dominate: what does that mean for how prevention should be organised?
+2. Look up the largest events (paste the Japanese description into a translation tool, and search
+   for the year and place). What happened?
+3. `event_id` is built by grouping identical descriptions. When could that group two separate
+   events, or split one event? How would you check?
+
+**Your answer:**
+
+
+
+# Part 8. Comparing countries
+
+```{r compare}
+deaths |>
+  filter(year >= 2020) |>
+  count(accident_type) |>
+  mutate(share = n / sum(n)) |>
+  filter(accident_type %in% c("Fall from height", "Traffic accident (road)",
+                              "Caught in or between", "Struck by moving object",
+                              "Struck by flying or falling object")) |>
+  mutate(share = round(share, 3))
+```
+
+**Questions**
+
+1. Compare Japan's mix of fatal accident types with the US (CFOI module: transportation incidents,
+   falls, contact with objects, violence). What category is large in the US but nearly absent
+   here, and why? (Hint: what does Japan's database exclude, and what is its homicide rate?)
+2. Japan's and the US categories differ (for example "Fall from height" versus CFOI's "Falls,
+   slips, trips"). Map three Japanese accident types onto CFOI event categories. Where is the
+   mapping uncertain?
+3. Japan's deaths fell by about 70% from 1991 to 2024. Propose three hypotheses for why (for
+   example changes in industry mix, regulation, technology, or reporting), and say what data
+   would test each one.
+
+**Your answer:**
+
+
+
