@@ -4,8 +4,8 @@
 #
 # Reads data/raw/ (from fetch_data.R) and writes:
 #   data/tidy/inspection_summary.csv.gz  inspections, violations and penalties by fiscal year,
-#                                        state, federal or state plan, inspection type, safety or
-#                                        health, ownership and industry sector (complete)
+#                                        state, federal or state plan, inspection type and scope,
+#                                        safety or health, ownership and industry sector (complete)
 #   data/tidy/violation_standards.csv.gz violations and penalties by fiscal year, federal or state
 #                                        plan, standard cited and violation type (complete)
 #   data/tidy/accidents.csv.gz           accident investigations (fatalities and catastrophes) with
@@ -83,7 +83,7 @@ inspections <- read_table("inspection") |>
     insp_scope = recode(insp_scope, A = "Complete", B = "Partial", C = "Records", D = "No inspection"),
     union = if_else(union_status %in% c("Y", "U", "A"), "Union", "No union"),
     adv_notice = adv_notice == "Y",
-    employees = as.integer(nr_in_estab),
+    employees = as.numeric(nr_in_estab),
     naics_code, sic_code,
     naics_sector = unname(naics_sectors[str_sub(naics_code, 1, 2)])
   ) |>
@@ -139,8 +139,8 @@ inspections <- inspections |>
 # --- Summary tables ---------------------------------------------------------------------------
 
 inspection_summary <- inspections |>
-  group_by(fiscal_year, site_state, jurisdiction, insp_type, safety_health, owner_type,
-           naics_sector) |>
+  group_by(fiscal_year, site_state, jurisdiction, insp_type, insp_scope, safety_health,
+           owner_type, naics_sector) |>
   summarise(inspections = n(),
             with_violations = sum(violations > 0),
             violations = sum(violations), serious = sum(serious), willful = sum(willful),
