@@ -42,6 +42,8 @@ read_module <- function(folder, name) {
 
 summary_tbl <- read_module("tidy", "inspection_summary.csv.gz")   # all inspections, aggregated
 standards <- read_module("tidy", "violation_standards.csv.gz")    # all violations, by standard
+by_industry <- read_module("tidy", "standards_by_industry.csv.gz") # by standard and industry
+titles <- read_module("tidy", "standard_titles.csv")              # title of each standard
 accidents <- read_module("tidy", "accidents.csv.gz")              # accident investigations
 injuries <- read_module("tidy", "accident_injuries.csv.gz")       # injured or killed workers
 insp <- read_module("sample", "inspections_sample.csv.gz")        # 5% sample of inspections
@@ -127,7 +129,8 @@ standards |>
   group_by(section) |>
   summarise(violations = sum(violations), penalty = sum(current_penalty)) |>
   arrange(desc(violations)) |>
-  head(10)
+  head(10) |>
+  left_join(select(titles, section, full_title), by = "section")
 
 standards |>
   filter(jurisdiction == "Federal") |>
@@ -139,12 +142,37 @@ standards |>
   labs(title = "Federal OSHA violations by type", x = "Fiscal year", y = "Violations", fill = NULL)
 ```
 
+OSHA's [Top 10 list](https://www.osha.gov/top10citedstandards) covers all industries together.
+OSHA's "frequently cited standards" search gives the same list for one industry, using its NAICS
+code. `by_industry` has the same counts for every 6-digit NAICS code, so we can roll up to any
+level: `"23"` is construction, `"2382"` building equipment contractors, `"238220"` plumbing and
+HVAC contractors.
+
+```{r standards-industry}
+# Change the code to an industry you are interested in
+industry <- "6221"   # general medical and surgical hospitals
+
+by_industry |>
+  filter(fiscal_year >= 2021, jurisdiction == "Federal", str_starts(naics_code, industry)) |>
+  group_by(section) |>
+  summarise(violations = sum(violations), inspections = sum(inspections),
+            penalty = sum(current_penalty)) |>
+  arrange(desc(violations)) |>
+  head(10) |>
+  left_join(select(titles, section, full_title), by = "section")
+```
+
 **Questions**
 
-1. Look up the top five standards. What hazard does each address?
+1. What hazard does each of the top five standards address (use the titles, and look up any you
+   don't know)?
 2. Which type of violation is most common? What makes a violation "serious", "willful" or "repeat"?
 3. Compare the most-cited standards with the leading causes of death in the CFOI module. Do they
    match?
+4. Which standards are cited most in hospitals? (Section 1910.502 was a temporary standard: what
+   was it for?) Choose another industry (find its NAICS code at
+   https://www.census.gov/naics/) and compare. Why are some standards cited in almost every
+   industry?
 
 **Your answer:**
 

@@ -29,9 +29,9 @@ Each module gives students:
 | [UK HSE injury statistics (RIDDOR and LFS)](modules/uk-hse-riddor/) | Great Britain | HSE | Ready |
 | [WHO/ILO Joint Estimates of the work-related burden of disease](modules/intl-who-ilo-joint-estimates/) | International | WHO / ILO | Ready |
 | [Canada AWCBC work injury, disease and fatality statistics](modules/ca-awcbc-nwisp/) | Canada | AWCBC | Ready |
-| [OSHA enforcement: inspections, violations and accident investigations](modules/us-osha-enforcement/) | US | OSHA | Ready |
+| [OSHA enforcement: inspections, violations, cited standards and accident investigations](modules/us-osha-enforcement/) | US | OSHA | Ready |
 | [MSHA mine safety: accidents, injury rates and violations](modules/us-msha-mine-safety/) | US | MSHA | Ready |
-| [OSHA ITA summary (Form 300A): establishment injury rates](modules/us-osha-ita-summary/) | US | OSHA | Ready for review |
+| [OSHA ITA summary (Form 300A): establishment injury rates](modules/us-osha-ita-summary/) | US | OSHA | Ready |
 
 See [CATALOG.md](CATALOG.md) for candidate datasets (US and international) and their status.
 

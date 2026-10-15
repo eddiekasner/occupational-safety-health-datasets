@@ -54,6 +54,38 @@ the paragraph), `issuance_date`, `gravity` (1 to 10, for serious violations), `n
 
 Deleted violations are excluded.
 
+## Violations by industry (`standards_by_industry.csv.gz`)
+
+One row per fiscal year, `jurisdiction`, 6-digit `naics_code` of the inspected establishment, and
+`section`. To get the list for a broader industry, filter on the start of the code (for example
+`str_starts(naics_code, "23")` for construction) and add up.
+
+| Column | Meaning |
+| --- | --- |
+| `violations` | Number of violation items |
+| `inspections` | Number of inspections with at least one violation of the standard |
+| `serious` | Of the violations, how many were serious |
+| `willful_repeat` | Of the violations, how many were willful or repeat |
+| `initial_penalty`, `current_penalty` | As above, US dollars |
+
+## Standard titles (`standard_titles.csv`)
+
+From the eCFR outline of Title 29 of the Code of Federal Regulations (current version), for the
+OSHA parts 1903 (inspections and citations), 1904 (recordkeeping), 1910 (general industry), 1915
+(shipyards), 1917 (marine terminals), 1918 (longshoring), 1926 (construction), 1928 (agriculture)
+and 1960 (federal agencies), plus the General Duty Clause. Join to the violation tables by
+`section`. Almost all federal violations match; state-plan standards cited under state codes do
+not. Sections removed before the current version (for example some temporary standards) are
+missing.
+
+| Column | Meaning |
+| --- | --- |
+| `section` | Section number, for example `1926.501` |
+| `title` | Section title, for example `Duty to have fall protection` |
+| `full_title` | Subpart and title, for example `Fall Protection: Duty to have fall protection` |
+| `part`, `part_title` | Part of 29 CFR, for example `1926`, `Safety and Health Regulations for Construction` |
+| `subpart` | Subpart and its title (blank where the eCFR does not place the section in a subpart) |
+
 ## Accident investigations (`accidents.csv.gz`)
 
 | Column | Meaning |
