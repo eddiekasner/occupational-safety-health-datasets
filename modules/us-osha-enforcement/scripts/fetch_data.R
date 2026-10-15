@@ -61,7 +61,10 @@ fetch_range <- function(table, field, from, to, dest) {
       TRUE
     }, error = function(e) FALSE, warning = function(w) FALSE)
     # An empty answer (HTTP 204) means there are no records in this range
-    if (ok) return(max(0, length(readLines(dest, warn = FALSE)) - 1))
+    if (ok) {
+      if (!file.exists(dest)) file.create(dest)
+      return(max(0, length(readLines(dest, warn = FALSE)) - 1))
+    }
     message("  request failed (", table, " ", from, " to ", to, "); waiting ", waits[attempt],
             " seconds")
     Sys.sleep(waits[attempt])
