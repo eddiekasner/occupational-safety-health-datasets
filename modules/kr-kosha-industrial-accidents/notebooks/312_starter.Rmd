@@ -1,0 +1,260 @@
+---
+title: "South Korea Industrial Accidents: Starter Notebook"
+subtitle: "ENVH 312"
+author: "Your name"
+output:
+  html_document:
+    toc: true
+    df_print: paged
+---
+
+South Korea counts an "industrial accident" when the workers' compensation insurer (COMWEL)
+approves a claim for an injury that needed more than three days of care, an occupational disease,
+or a death. KOSHA, the national occupational safety and health agency, publishes these approved
+cases as microdata: one row per injured worker or death, with the industry, accident type,
+establishment size, the worker's sex, age and length of service, and the region. This notebook uses
+2017 to 2025, with the number of insured workers for rates. Read the module [README](../README.md)
+and [data dictionary](../data_dictionary.md) first.
+
+**How to use this notebook**
+
+- Run each code chunk in order (the green arrow in RStudio, or Ctrl/Cmd + Shift + Enter).
+- Answer the questions under each **Your answer** heading.
+- When you are done, click **Knit** to produce an HTML report to submit.
+
+# Part 0. Load the data
+
+```{r setup, message = FALSE}
+library(readr)
+library(dplyr)
+library(tidyr)
+library(ggplot2)
+library(forcats)
+
+base <- "https://raw.githubusercontent.com/eddiekasner/occupational-safety-health-datasets/main/modules/kr-kosha-industrial-accidents/data"
+read_module <- function(folder, name, ...) {
+  local <- file.path("..", "data", folder, name)
+  read_csv(if (file.exists(local)) local else file.path(base, folder, name), show_col_types = FALSE,
+           ...)
+}
+
+# One row per injured worker or death, 2017 to 2025 (about 1.1 million rows; 7 MB to download)
+injured <- read_module("tidy", "injured_workers.csv.gz")
+# Insured workers (the denominator for rates), by year, industry group and establishment size
+insured <- read_module("tidy", "insured_workers.csv")
+
+# Korea's official statistics count these two case types as deaths
+injured <- injured |>
+  mutate(death = case_type %in% c("Accident death", "Occupational disease death"),
+         accident_death = case_type == "Accident death",
+         disease_case = case_type %in% c("Occupational disease", "Occupational disease death"))
+```
+
+Every row is an **approved** compensation case, counted in the year it was approved (not the year
+the accident happened). "Injured workers" includes deaths and occupational disease cases.
+
+# Part 1. Trends and rates
+
+Korea reports two headline rates: the **injury rate** (injured workers per 100 insured workers) and
+the **fatality rate per 10,000 workers**, for all deaths and for accident deaths only.
+
+```{r trend}
+national <- injured |>
+  group_by(year) |>
+  summarise(injured = n(), disease_cases = sum(disease_case), deaths = sum(death),
+            accident_deaths = sum(accident_death)) |>
+  left_join(insured |> filter(breakdown == "All") |> select(year, insured_workers),
+            by = "year") |>
+  mutate(injury_rate_pct = round(100 * injured / insured_workers, 2),
+         fatality_rate_per_10000 = round(1e4 * deaths / insured_workers, 2),
+         accident_fatality_rate_per_10000 = round(1e4 * accident_deaths / insured_workers, 2))
+national
+
+national |>
+  select(year, `All deaths` = fatality_rate_per_10000,
+         `Accident deaths` = accident_fatality_rate_per_10000) |>
+  pivot_longer(-year, names_to = "measure", values_to = "rate") |>
+  ggplot(aes(year, rate, colour = measure)) +
+  geom_line() +
+  geom_point() +
+  expand_limits(y = 0) +
+  labs(title = "Work-related deaths per 10,000 insured workers", x = NULL, y = NULL, colour = NULL)
+```
+
+**Questions**
+
+1. How did the injury rate and the accident fatality rate change from 2017 to 2025? Do they tell the
+   same story?
+2. The number of occupational disease cases more than tripled. Without looking further, suggest
+   reasons that have to do with workers' health and reasons that have to do with claims and
+   approval.
+3. The accident fatality rate fell, but the fatality rate for all deaths did not. Which kind of death
+   keeps the overall rate up?
+
+**Your answer:**
+
+
+
+# Part 2. Who is injured and killed?
+
+```{r who}
+injured |>
+  filter(year == 2025, case_type == "Accident injury" | accident_death) |>
+  group_by(age_group) |>
+  summarise(injuries = sum(!accident_death), accident_deaths = sum(accident_death)) |>
+  mutate(share_of_injuries = round(injuries / sum(injuries), 3),
+         share_of_deaths = round(accident_deaths / sum(accident_deaths), 3))
+
+injured |>
+  group_by(year) |>
+  summarise(share_60_plus_injured = mean(age_group == "60+", na.rm = TRUE),
+            share_60_plus_accident_deaths = mean(age_group[accident_death] == "60+",
+                                                 na.rm = TRUE)) |>
+  pivot_longer(-year) |>
+  ggplot(aes(year, value, colour = name)) +
+  geom_line() +
+  geom_point() +
+  scale_y_continuous(labels = scales::label_percent(), limits = c(0, NA)) +
+  labs(title = "Share of workers aged 60 and over", x = NULL, y = NULL, colour = NULL)
+
+injured |>
+  filter(year == 2025, case_type == "Accident injury") |>
+  count(length_of_service) |>
+  mutate(share = round(n / sum(n), 3))
+
+injured |>
+  filter(year == 2025) |>
+  group_by(case_type) |>
+  summarise(share_women = round(mean(sex == "Female"), 3))
+```
+
+**Questions**
+
+1. What share of injured workers and of accident deaths were aged 60 and over in 2025, and how has
+   that changed since 2017? Is this because older workers are at higher risk, because there are
+   more of them, or both? What data would you need to tell?
+2. Nearly half of accidental injuries happen to workers who have been with the employer for less
+   than six months. Suggest three explanations, and what an employer could do about each.
+3. Women are about 30% of accident injuries but a few percent of accident deaths. Why?
+
+**Your answer:**
+
+
+
+# Part 3. How are workers injured?
+
+```{r types}
+injured |>
+  filter(year == 2025, case_type == "Accident injury") |>
+  count(accident_type, sort = TRUE) |>
+  mutate(share = round(n / sum(n), 3))
+
+injured |>
+  filter(year >= 2023, accident_death) |>
+  count(accident_type) |>
+  slice_max(n, n = 8) |>
+  ggplot(aes(n, fct_reorder(accident_type, n))) +
+  geom_col() +
+  labs(title = "Accident deaths by type, 2023 to 2025", x = "Deaths", y = NULL)
+
+injured |>
+  filter(year >= 2023, accident_death, accident_type == "Falls from height") |>
+  count(industry_group, sort = TRUE)
+```
+
+**Questions**
+
+1. What is the most common type of accident, and the most common type of fatal accident? Why are
+   they different?
+2. In which industry do most deaths from falls from height happen? Name three controls, in the
+   order of the hierarchy of controls, that would prevent them.
+3. Traffic accidents outside the workplace are a leading cause of accident deaths. Which workers do
+   you think they involve? (Look at `industry` for these deaths.)
+
+**Your answer:**
+
+
+
+# Part 4. Small workplaces
+
+```{r size}
+# Combine the microdata's 10 size bands into the 6 groups the denominators use
+size_groups <- c("1-4" = "1-4", "5-9" = "5-49", "10-19" = "5-49", "20-29" = "5-49",
+                 "30-49" = "5-49", "50-99" = "50-99", "100-299" = "100-299",
+                 "300-499" = "300-999", "500-999" = "300-999", "1000+" = "1000+")
+
+by_size <- injured |>
+  mutate(group = size_groups[establishment_size]) |>
+  group_by(year, group) |>
+  summarise(injured = n(), accident_deaths = sum(accident_death), .groups = "drop") |>
+  left_join(insured |> filter(breakdown == "Establishment size"), by = c("year", "group")) |>
+  mutate(group = factor(group, c("1-4", "5-49", "50-99", "100-299", "300-999", "1000+")),
+         injury_rate_pct = 100 * injured / insured_workers,
+         accident_fatality_rate = 1e4 * accident_deaths / insured_workers)
+
+by_size |>
+  filter(year == 2025) |>
+  select(group, insured_workers, injured, accident_deaths, injury_rate_pct,
+         accident_fatality_rate) |>
+  arrange(group) |>
+  mutate(across(c(injury_rate_pct, accident_fatality_rate), ~ round(.x, 2)))
+
+ggplot(by_size, aes(year, accident_fatality_rate, colour = group)) +
+  geom_line() +
+  geom_point() +
+  expand_limits(y = 0) +
+  labs(title = "Accident deaths per 10,000 insured workers, by establishment size",
+       x = NULL, y = NULL, colour = "Workers")
+```
+
+**Questions**
+
+1. How many times higher is the accident fatality rate in workplaces with fewer than 5 workers than
+   in workplaces with 1,000 or more? Give reasons, from the hazards of the work to the resources
+   for safety.
+2. The Serious Accidents Punishment Act, which can send company executives to prison for a death,
+   took effect in January 2022 for workplaces with 50 or more workers and in January 2024 for those
+   with 5 to 49 workers (it does not apply to fewer than 5). Look at the rates by size before and
+   after. Do these data show an effect? Why is it hard to tell from these data alone?
+
+**Your answer:**
+
+
+
+# Part 5. Industries
+
+```{r industries}
+by_industry <- injured |>
+  mutate(group = if_else(industry_group %in% c("Agriculture", "Fishing", "Finance and insurance"),
+                         "Agriculture, fishing, finance and insurance", industry_group)) |>
+  group_by(year, group) |>
+  summarise(injured = n(), deaths = sum(death), accident_deaths = sum(accident_death),
+            .groups = "drop") |>
+  left_join(insured |> filter(breakdown == "Industry group"), by = c("year", "group")) |>
+  mutate(injury_rate_pct = round(100 * injured / insured_workers, 2),
+         fatality_rate = round(1e4 * deaths / insured_workers, 2),
+         accident_fatality_rate = round(1e4 * accident_deaths / insured_workers, 2))
+
+by_industry |>
+  filter(year == 2025) |>
+  select(group, insured_workers, injured, deaths, accident_deaths, injury_rate_pct,
+         fatality_rate, accident_fatality_rate) |>
+  arrange(desc(accident_fatality_rate))
+
+# The industries with the most accident deaths, using the 2020 classification for every year
+injured |>
+  filter(accident_death) |>
+  count(industry_2020, sort = TRUE) |>
+  head(10)
+```
+
+**Questions**
+
+1. Which industry has by far the highest fatality rate? Compare its fatality rate with its accident
+   fatality rate. What kills workers in this industry? (Hint: compare `deaths` with
+   `accident_deaths`.)
+2. Construction has about 10% of insured workers. What share of accident deaths does it have?
+3. "Other businesses (services)" has the most injured workers but a low rate. Why is it important
+   to look at both counts and rates when setting prevention priorities?
+
+**Your answer:**

@@ -1,0 +1,352 @@
+variable,korean,english
+industry_group,금융및보험업,Finance and insurance
+industry_group,광  업,Mining
+industry_group,제조업,Manufacturing
+industry_group,전기·가스·증기및수도사업,"Electricity, gas, steam and water supply"
+industry_group,전기·가스·증기·수도사업,"Electricity, gas, steam and water supply"
+industry_group,건설업,Construction
+industry_group,운수·창고·통신업,"Transport, warehousing and communications"
+industry_group,운수·창고 및 통신업,"Transport, warehousing and communications"
+industry_group,임  업,Forestry
+industry_group,어  업,Fishing
+industry_group,농  업,Agriculture
+industry_group,기타의사업,Other businesses (services)
+industry,건설업,Construction
+industry_2020,건설업,Construction
+industry,석탄광업및채석업,Coal mining and quarrying
+industry_2020,석탄광업및채석업,Coal mining and quarrying
+industry,석회석·금속·비금속광업및기타광업,"Limestone, metal, non-metallic and other mining"
+industry_2020,석회석·금속·비금속광업및기타광업,"Limestone, metal, non-metallic and other mining"
+industry,금융및보험업,Finance and insurance
+industry_2020,금융및보험업,Finance and insurance
+industry,건물등의종합관리사업,Building management
+industry_2020,건물등의종합관리사업,Facility management and business support services
+industry,"건물종합관리,위생및유사서비스업","Building management, sanitation and similar services"
+industry_2020,"건물종합관리,위생및유사서비스업",Facility management and business support services
+industry,위생및유사서비스업,Sanitation and similar services
+industry_2020,위생및유사서비스업,Facility management and business support services
+industry,사업서비스업,Business services
+industry_2020,사업서비스업,Facility management and business support services
+industry,시설관리및사업지원서비스업,Facility management and business support services
+industry_2020,시설관리및사업지원서비스업,Facility management and business support services
+industry,교육서비스업,Education services
+industry_2020,교육서비스업,"Professional, health, education and leisure services"
+industry,보건및사회복지사업,Health and social work
+industry_2020,보건및사회복지사업,"Professional, health, education and leisure services"
+industry,전문기술서비스업,Professional and technical services
+industry_2020,전문기술서비스업,"Professional, health, education and leisure services"
+industry,오락·문화및운동관련사업,"Recreation, culture and sports"
+industry_2020,오락·문화및운동관련사업,"Professional, health, education and leisure services"
+industry,전문·보건·교육·여가관련서비스업,"Professional, health, education and leisure services"
+industry_2020,전문·보건·교육·여가관련서비스업,"Professional, health, education and leisure services"
+industry,국가및지방자치단체의사업,National and local government
+industry_2020,국가및지방자치단체의사업,National and local government
+industry,기타의각종사업,Other various businesses
+industry_2020,기타의각종사업,Other various businesses
+industry,도·소매및소비자용품수리업,"Wholesale, retail and consumer goods repair"
+industry_2020,도·소매및소비자용품수리업,"Wholesale, retail, food and accommodation"
+industry,도소매·음식·숙박업,"Wholesale, retail, food and accommodation"
+industry_2020,도소매·음식·숙박업,"Wholesale, retail, food and accommodation"
+industry,부동산업및임대업,Real estate and leasing
+industry_2020,부동산업및임대업,Real estate and leasing
+industry,주한미군,United States Forces Korea (Korean employees)
+industry_2020,주한미군,United States Forces Korea (Korean employees)
+industry,해외파견자,Workers posted overseas
+industry_2020,해외파견자,Workers posted overseas
+industry,농업,Agriculture
+industry_2020,농업,Agriculture
+industry,임업,Forestry
+industry_2020,임업,Forestry
+industry,어업,Fishing
+industry_2020,어업,Fishing
+industry,"어업및양식어업,어업관련서비스업","Fishing, aquaculture and related services"
+industry_2020,"어업및양식어업,어업관련서비스업",Fishing
+industry,자동차운수업및택배업·퀵서비스업,"Road transport, parcel delivery and courier services"
+industry_2020,자동차운수업및택배업·퀵서비스업,Land and water transport
+industry,"수상운수업,항만하역및화물취급사업","Water transport, port handling and freight handling"
+industry_2020,"수상운수업,항만하역및화물취급사업",Land and water transport
+industry,육상및수상운수업,Land and water transport
+industry_2020,육상및수상운수업,Land and water transport
+industry,철도·궤도및삭도운수업,"Rail, tramway and cable car transport"
+industry_2020,철도·궤도및삭도운수업,"Rail, air, warehousing and transport services"
+industry,항공운수업,Air transport
+industry_2020,항공운수업,"Rail, air, warehousing and transport services"
+industry,철도ㆍ궤도ㆍ삭도ㆍ항공운수업,"Rail, tramway, cable car and air transport"
+industry_2020,철도ㆍ궤도ㆍ삭도ㆍ항공운수업,"Rail, air, warehousing and transport services"
+industry,창고업,Warehousing
+industry_2020,창고업,"Rail, air, warehousing and transport services"
+industry,운수관련서비스업,Transport-related services
+industry_2020,운수관련서비스업,"Rail, air, warehousing and transport services"
+industry,창고및운수관련서비스업,Warehousing and transport-related services
+industry_2020,창고및운수관련서비스업,"Rail, air, warehousing and transport services"
+industry,철도·항공·창고·운수관련서비스업,"Rail, air, warehousing and transport services"
+industry_2020,철도·항공·창고·운수관련서비스업,"Rail, air, warehousing and transport services"
+industry,통신업,Communications
+industry_2020,통신업,Communications
+industry,전기·가스·증기및수도사업,"Electricity, gas, steam and water supply"
+industry_2020,전기·가스·증기및수도사업,"Electricity, gas, steam and water supply"
+industry,전기·가스·증기·수도사업,"Electricity, gas, steam and water supply"
+industry_2020,전기·가스·증기·수도사업,"Electricity, gas, steam and water supply"
+industry,식료품제조업,Food products
+industry_2020,식료품제조업,Food products
+industry,선박건조및수리업,Shipbuilding and repair
+industry_2020,선박건조및수리업,Shipbuilding and repair
+industry,금속제련업,Metal smelting
+industry_2020,금속제련업,Metal smelting
+industry,기계기구제조업,Machinery
+industry_2020,기계기구제조업,"Machinery, metal and non-metallic mineral products"
+industry,비금속광물제품및금속제품제조업또는금속가공업,"Non-metallic mineral and metal products, metal working"
+industry_2020,비금속광물제품및금속제품제조업또는금속가공업,"Machinery, metal and non-metallic mineral products"
+industry,기계기구ㆍ비금속광물제품ㆍ금속제품제조업또는금속가공업,"Machinery, non-metallic mineral and metal products, metal working"
+industry_2020,기계기구ㆍ비금속광물제품ㆍ금속제품제조업또는금속가공업,"Machinery, metal and non-metallic mineral products"
+industry,"기계기구,비금속광물및금속제품제조업","Machinery, non-metallic mineral and metal products"
+industry_2020,"기계기구,비금속광물및금속제품제조업","Machinery, metal and non-metallic mineral products"
+industry,기계기구·금속·비금속광물제품제조업,"Machinery, metal and non-metallic mineral products"
+industry_2020,기계기구·금속·비금속광물제품제조업,"Machinery, metal and non-metallic mineral products"
+industry,도금업,Electroplating
+industry_2020,도금업,"Machinery, metal and non-metallic mineral products"
+industry,유리제조업,Glass
+industry_2020,유리제조업,"Machinery, metal and non-metallic mineral products"
+industry,도자기및기타요업제품제조업,Ceramics and other clay products
+industry_2020,도자기및기타요업제품제조업,"Machinery, metal and non-metallic mineral products"
+industry,시멘트제조업,Cement
+industry_2020,시멘트제조업,"Machinery, metal and non-metallic mineral products"
+industry,도자기ㆍ기타요업제품ㆍ시멘트제조업,"Ceramics, other clay products and cement"
+industry_2020,도자기ㆍ기타요업제품ㆍ시멘트제조업,"Machinery, metal and non-metallic mineral products"
+industry,유리ㆍ도자기ㆍ시멘트제조업,"Glass, ceramics and cement"
+industry_2020,유리ㆍ도자기ㆍ시멘트제조업,"Machinery, metal and non-metallic mineral products"
+industry,수송용기계기구제조업,Transport equipment
+industry_2020,수송용기계기구제조업,"Machinery, metal and non-metallic mineral products"
+industry,수송용기계기구제조업ㆍ자동차및모터사이클수리업,"Transport equipment, motor vehicle and motorcycle repair"
+industry_2020,수송용기계기구제조업ㆍ자동차및모터사이클수리업,"Machinery, metal and non-metallic mineral products"
+industry,자동차및모터사이클수리업,Motor vehicle and motorcycle repair
+industry_2020,자동차및모터사이클수리업,"Machinery, metal and non-metallic mineral products"
+industry,전기기계기구제조업,Electrical equipment
+industry_2020,전기기계기구제조업,"Electrical, precision and electronic equipment"
+industry,전자제품제조업,Electronic products
+industry_2020,전자제품제조업,"Electrical, precision and electronic equipment"
+industry,계량기·광학기계·기타정밀기구제조업,"Measuring, optical and other precision instruments"
+industry_2020,계량기·광학기계·기타정밀기구제조업,"Electrical, precision and electronic equipment"
+industry,전기기계기구ㆍ전자제품ㆍ계량기ㆍ광학기계ㆍ기타정밀기구제조업,"Electrical, electronic, measuring, optical and precision equipment"
+industry_2020,전기기계기구ㆍ전자제품ㆍ계량기ㆍ광학기계ㆍ기타정밀기구제조업,"Electrical, precision and electronic equipment"
+industry,전기기계기구·정밀기구·전자제품제조업,"Electrical, precision and electronic equipment"
+industry_2020,전기기계기구·정밀기구·전자제품제조업,"Electrical, precision and electronic equipment"
+industry,화학제품제조업,Chemical products
+industry_2020,화학제품제조업,Chemical and rubber products
+industry,고무제품제조업,Rubber products
+industry_2020,고무제품제조업,Chemical and rubber products
+industry,화학및고무제품제조업,Chemical and rubber products
+industry_2020,화학및고무제품제조업,Chemical and rubber products
+industry,의약품및화장품향료제조업,"Pharmaceuticals, cosmetics and fragrances"
+industry_2020,의약품및화장품향료제조업,"Pharmaceuticals, cosmetics, briquettes and petroleum products"
+industry,담배제조업,Tobacco
+industry_2020,담배제조업,"Pharmaceuticals, cosmetics, briquettes and petroleum products"
+industry,의약품ㆍ화장품향료ㆍ담배제조업,"Pharmaceuticals, cosmetics, fragrances and tobacco"
+industry_2020,의약품ㆍ화장품향료ㆍ담배제조업,"Pharmaceuticals, cosmetics, briquettes and petroleum products"
+industry,"코크스,연탄및석유정제품제조업","Coke, coal briquettes and refined petroleum products"
+industry_2020,"코크스,연탄및석유정제품제조업","Pharmaceuticals, cosmetics, briquettes and petroleum products"
+industry,의약품·화장품·연탄·석유제품제조업,"Pharmaceuticals, cosmetics, briquettes and petroleum products"
+industry_2020,의약품·화장품·연탄·석유제품제조업,"Pharmaceuticals, cosmetics, briquettes and petroleum products"
+industry,목재및나무제품제조업,Wood products
+industry_2020,목재및나무제품제조업,Wood and paper products
+industry,펄프ㆍ지류제조업,Pulp and paper
+industry_2020,펄프ㆍ지류제조업,Wood and paper products
+industry,펄프·지류제조업및제본또는인쇄물가공업,"Pulp, paper, binding and print finishing"
+industry_2020,펄프·지류제조업및제본또는인쇄물가공업,Wood and paper products
+industry,목재및종이제품제조업,Wood and paper products
+industry_2020,목재및종이제품제조업,Wood and paper products
+industry,"신문·화폐발행,출판업및인쇄업","Newspapers, currency printing, publishing and printing"
+industry_2020,"신문·화폐발행,출판업및인쇄업","Publishing, printing and binding"
+industry,출판ㆍ인쇄ㆍ제본또는인쇄물가공업,"Publishing, printing, binding and print finishing"
+industry_2020,출판ㆍ인쇄ㆍ제본또는인쇄물가공업,"Publishing, printing and binding"
+industry,출판·인쇄·제본또는인쇄물가공업,"Publishing, printing, binding and print finishing"
+industry_2020,출판·인쇄·제본또는인쇄물가공업,"Publishing, printing and binding"
+industry,출판·인쇄·제본업,"Publishing, printing and binding"
+industry_2020,출판·인쇄·제본업,"Publishing, printing and binding"
+industry,섬유또는섬유제품제조업(갑),Textiles and textile products (group A)
+industry_2020,섬유또는섬유제품제조업(갑),Textiles and textile products
+industry,섬유또는섬유제품제조업(을),Textiles and textile products (group B)
+industry_2020,섬유또는섬유제품제조업(을),Textiles and textile products
+industry,섬유및섬유제품제조업,Textiles and textile products
+industry_2020,섬유및섬유제품제조업,Textiles and textile products
+industry,수제품제조업,Handmade products
+industry_2020,수제품제조업,Handmade and other products
+industry,기타제조업,Other manufacturing
+industry_2020,기타제조업,Handmade and other products
+industry,수제품및기타제품제조업,Handmade and other products
+industry_2020,수제품및기타제품제조업,Handmade and other products
+accident_type,넘어짐,Slips and trips
+accident_type,업무상질병,Occupational disease
+accident_type,떨어짐,Falls from height
+accident_type,끼임,Caught in or between
+accident_type,절단베임찔림,Cuts and punctures
+accident_type,부딪힘,Struck against or collision
+accident_type,물체에맞음,Struck by object
+accident_type,사업장외교통사고,Traffic accident outside the workplace
+accident_type,불균형및무리한동작,Overexertion and awkward movement
+accident_type,이상온도물체접촉,Contact with hot or cold objects
+accident_type,깔림.뒤집힘,Caught under or overturned
+accident_type,체육행사,Sports event
+accident_type,무너짐,Collapse
+accident_type,폭력행위,Violence
+accident_type,동물상해,Injury by animal
+accident_type,화학물질누출접촉,Chemical release or contact
+accident_type,감전,Electric shock
+accident_type,화재,Fire
+accident_type,폭발파열,Explosion or rupture
+accident_type,사업장내교통사고,Traffic accident in the workplace
+accident_type,분류불능,Unclassifiable
+accident_type,기타,Other
+accident_type,빠짐익사,Drowning
+accident_type,산소결핍,Oxygen deficiency
+establishment_size,5인 미만,1-4
+establishment_size,5~9인,5-9
+establishment_size,10~19인,10-19
+establishment_size,20~29인,20-29
+establishment_size,30~49인,30-49
+establishment_size,50~99인,50-99
+establishment_size,100~299인,100-299
+establishment_size,300~499인,300-499
+establishment_size,500~999인,500-999
+establishment_size,"1,000인 이상",1000+
+sex,남,Male
+sex,여,Female
+age_group,18세 미만,Under 18
+age_group,18세~24세,18-24
+age_group,25세~29세,25-29
+age_group,30세~34세,30-34
+age_group,35세~39세,35-39
+age_group,40세~44세,40-44
+age_group,45세~49세,45-49
+age_group,50세~54세,50-54
+age_group,55세~59세,55-59
+age_group,60세 이상,60+
+length_of_service,6개월미만,Under 6 months
+length_of_service,6개월~1년 미만,6 months to 1 year
+length_of_service,1~2년 미만,1-2 years
+length_of_service,2~3년 미만,2-3 years
+length_of_service,3~4년 미만,3-4 years
+length_of_service,4~5년 미만,4-5 years
+length_of_service,5~10년 미만,5-10 years
+length_of_service,10년 이상,10+ years
+days_of_care,4~7일,4-7 days
+days_of_care,8~14일,8-14 days
+days_of_care,15~28일,15-28 days
+days_of_care,29~90일,29-90 days
+days_of_care,91~180일,91-180 days
+days_of_care,6개월 이상,More than 6 months
+region,서울,Seoul
+region,부산,Busan
+region,대구,Daegu
+region,인천,Incheon
+region,광주,Gwangju
+region,대전,Daejeon
+region,울산,Ulsan
+region,경기,Gyeonggi
+region,강원,Gangwon
+region,충북,North Chungcheong
+region,충남,South Chungcheong
+region,전북,North Jeolla
+region,전남,South Jeolla
+region,경북,North Gyeongsang
+region,경남,South Gyeongsang
+region,제주,Jeju
+labour_office,경기,Gyeonggi
+labour_office,성남,Seongnam
+labour_office,대전청,Daejeon (regional office)
+labour_office,의정부,Uijeongbu
+labour_office,광주청,Gwangju (regional office)
+labour_office,울산,Ulsan
+labour_office,중부청,"Jungbu (regional office, Incheon)"
+labour_office,안산,Ansan
+labour_office,천안,Cheonan
+labour_office,서울동부,Seoul East
+labour_office,대구청,Daegu (regional office)
+labour_office,인천북부,Incheon North
+labour_office,고양,Goyang
+labour_office,대구서부,Daegu West
+labour_office,창원,Changwon
+labour_office,양산,Yangsan
+labour_office,청주,Cheongju
+labour_office,부산청,Busan (regional office)
+labour_office,서울청,Seoul (regional office)
+labour_office,부천,Bucheon
+labour_office,평택,Pyeongtaek
+labour_office,서울남부,Seoul South
+labour_office,포항,Pohang
+labour_office,전주,Jeonju
+labour_office,안양,Anyang
+labour_office,서울관악,Seoul Gwanak
+labour_office,부산북부,Busan North
+labour_office,서울서부,Seoul West
+labour_office,서울북부,Seoul North
+labour_office,여수,Yeosu
+labour_office,통영,Tongyeong
+labour_office,부산동부,Busan East
+labour_office,서울강남,Seoul Gangnam
+labour_office,충주,Chungju
+labour_office,태백,Taebaek
+labour_office,목포,Mokpo
+labour_office,진주,Jinju
+labour_office,제주,Jeju
+labour_office,강릉,Gangneung
+labour_office,강원,Gangwon
+labour_office,보령,Boryeong
+labour_office,영월,Yeongwol
+labour_office,원주,Wonju
+labour_office,익산,Iksan
+labour_office,구미,Gumi
+labour_office,군산,Gunsan
+labour_office,영주,Yeongju
+labour_office,안동,Andong
+labour_office,서산,Seosan
+construction_value,3억원 미만,Under 0.3 billion won
+construction_value,3억~20억원 미만,0.3-2 billion won
+construction_value,20억~50억원 미만,2-5 billion won
+construction_value,50억~120억원 미만,5-12 billion won
+construction_value,120억~300억원 미만,12-30 billion won
+construction_value,300억~500억원 미만,30-50 billion won
+construction_value,"500억~1,000억원 미만",50-100 billion won
+construction_value,"1,000억원 이상",100+ billion won
+construction_value,분류불능,Unknown
+disease_group,신체부담작업,Musculoskeletal disorders from physically demanding work
+disease_group,요통,Low back pain
+disease_group,소음성난청,Noise-induced hearing loss
+disease_group,진폐증,Pneumoconiosis
+disease_group,기타,Other
+disease_group,뇌.심혈관질환,Cerebrovascular and cardiovascular disease
+disease_group,기타화학물질,Other chemicals
+disease_group,유기화합물,Organic compounds
+disease_group,금속및중금속,Metals and heavy metals
+disease,신체부담작업,Musculoskeletal disorders from physically demanding work
+disease,소음성난청,Noise-induced hearing loss
+disease,사고성 요통,Low back pain from an accident
+disease,비사고성 요통,Low back pain not from an accident
+disease,진폐증,Pneumoconiosis
+disease,뇌혈관질환,Cerebrovascular disease
+disease,감염성질환,Infectious disease
+disease,직업성 암,Occupational cancer
+disease,정신질환,Mental illness
+disease,심장질환,Heart disease
+disease,수근관증후근,Carpal tunnel syndrome
+disease,석면,Asbestos-related disease
+disease,물리적인자기타,Other physical agents
+disease,직업병기타,Other occupational disease
+disease,기타화학물질,Other chemicals
+disease,기타,Other
+disease,직업성피부질환,Occupational skin disease
+disease,기타유기화합물,Other organic compounds
+disease,카드뮴,Cadmium
+disease,벤젠,Benzene
+disease,이상기압,Abnormal air pressure
+disease,크롬,Chromium
+disease,이황화탄소,Carbon disulfide
+disease,진동장해,Vibration disorders
+disease,직업성 천식,Occupational asthma
+disease,간질환,Liver disease
+disease,수은,Mercury
+disease,트리클로로에틸렌(TCE),Trichloroethylene (TCE)
+disease,타르,Tar
+disease,망간,Manganese
+disease,염화비닐,Vinyl chloride
+disease,연,Lead

@@ -1,0 +1,136 @@
+year,breakdown,group,insured_workers,reported_injured,reported_deaths,source_report
+2017,All,All,18560142,89848,1957,2017
+2017,Industry group,Mining,11199,1897,457,2017
+2017,Industry group,Manufacturing,4149966,25333,433,2017
+2017,Industry group,Construction,3046523,25649,579,2017
+2017,Industry group,"Electricity, gas, steam and water supply",75496,87,4,2017
+2017,Industry group,"Transport, warehousing and communications",838006,4237,121,2017
+2017,Industry group,Forestry,82773,1124,16,2017
+2017,Industry group,Other businesses (services),9510716,30595,318,2017
+2017,Industry group,"Agriculture, fishing, finance and insurance",845463,926,29,2017
+2017,Establishment size,1-4,2813885,29597,416,2017
+2017,Establishment size,5-49,8069832,42929,732,2017
+2017,Establishment size,50-99,1921118,6066,190,2017
+2017,Establishment size,100-299,2500364,5408,245,2017
+2017,Establishment size,300-999,1700950,3145,283,2017
+2017,Establishment size,1000+,1553993,2703,91,2017
+2018,All,All,19073438,102305,2142,2019
+2018,Industry group,Mining,11697,2225,478,2019
+2018,Industry group,Manufacturing,4152058,27377,472,2019
+2018,Industry group,Construction,2943742,27686,570,2019
+2018,Industry group,"Electricity, gas, steam and water supply",76967,108,5,2019
+2018,Industry group,"Transport, warehousing and communications",873232,5291,157,2019
+2018,Industry group,Forestry,89751,1041,13,2019
+2018,Industry group,Other businesses (services),10058930,37505,416,2019
+2018,Industry group,"Agriculture, fishing, finance and insurance",867061,1072,31,2019
+2018,Establishment size,1-4,3030676,32568,479,2019
+2018,Establishment size,5-49,8306786,47554,806,2019
+2018,Establishment size,50-99,1971076,7116,170,2019
+2018,Establishment size,100-299,2510402,7217,295,2019
+2018,Establishment size,300-999,1701468,4500,289,2019
+2018,Establishment size,1000+,1553030,3350,103,2019
+2019,All,All,18725160,109242,2020,2019
+2019,Industry group,Mining,11108,2543,406,2019
+2019,Industry group,Manufacturing,4045048,29274,492,2019
+2019,Industry group,Construction,2487807,27211,517,2019
+2019,Industry group,"Electricity, gas, steam and water supply",76687,111,5,2019
+2019,Industry group,"Transport, warehousing and communications",910585,6173,153,2019
+2019,Industry group,Forestry,91682,1017,17,2019
+2019,Industry group,Other businesses (services),10239876,41811,406,2019
+2019,Industry group,"Agriculture, fishing, finance and insurance",862367,1102,24,2019
+2019,Establishment size,1-4,2996744,34522,494,2019
+2019,Establishment size,5-49,8166782,49156,751,2019
+2019,Establishment size,50-99,1942824,7825,180,2019
+2019,Establishment size,100-299,2459398,8263,240,2019
+2019,Establishment size,300-999,1679624,5355,271,2019
+2019,Establishment size,1000+,1479788,4121,84,2019
+2020,All,All,18974513,108379,2062,2021
+2020,Industry group,Mining,10664,2753,424,2021
+2020,Industry group,Manufacturing,4012541,28840,469,2021
+2020,Industry group,Construction,2284916,26799,567,2021
+2020,Industry group,"Electricity, gas, steam and water supply",79034,105,9,2021
+2020,Industry group,"Transport, warehousing and communications",936449,7251,150,2021
+2020,Industry group,Forestry,101404,1030,17,2021
+2020,Industry group,Other businesses (services),10683419,40573,399,2021
+2020,Industry group,"Agriculture, fishing, finance and insurance",866086,1028,27,2021
+2020,Establishment size,1-4,3005960,33862,500,2021
+2020,Establishment size,5-49,8272899,47048,803,2021
+2020,Establishment size,50-99,1979709,8073,160,2021
+2020,Establishment size,100-299,2523122,8933,260,2021
+2020,Establishment size,300-999,1708100,6180,255,2021
+2020,Establishment size,1000+,1484723,4283,84,2021
+2021,All,All,19378565,122713,2080,2021
+2021,Industry group,Mining,10257,3336,349,2021
+2021,Industry group,Manufacturing,3959780,31709,512,2021
+2021,Industry group,Construction,2378751,29943,551,2021
+2021,Industry group,"Electricity, gas, steam and water supply",79791,130,4,2021
+2021,Industry group,"Transport, warehousing and communications",993678,10091,158,2021
+2021,Industry group,Forestry,110395,946,13,2021
+2021,Industry group,Other businesses (services),10980274,45408,461,2021
+2021,Industry group,"Agriculture, fishing, finance and insurance",865639,1150,32,2021
+2021,Establishment size,1-4,3212578,37267,567,2021
+2021,Establishment size,5-49,8383877,51909,792,2021
+2021,Establishment size,50-99,1999615,9653,174,2021
+2021,Establishment size,100-299,2577703,11341,210,2021
+2021,Establishment size,300-999,1699694,6542,229,2021
+2021,Establishment size,1000+,1505098,6001,108,2021
+2022,All,All,20173615,130348,2223,2023
+2022,Industry group,Mining,9850,3873,453,2023
+2022,Industry group,Manufacturing,3988609,31554,506,2023
+2022,Industry group,Construction,2494031,31245,539,2023
+2022,Industry group,"Electricity, gas, steam and water supply",79103,129,3,2023
+2022,Industry group,"Transport, warehousing and communications",1071768,12468,198,2023
+2022,Industry group,Forestry,124991,968,13,2023
+2022,Industry group,"Agriculture, fishing, finance and insurance",905307,1407,29,2023
+2022,Industry group,Other businesses (services),11499956,48704,482,2023
+2022,Establishment size,1-4,3424470,38432,572,2023
+2022,Establishment size,5-49,8638041,52690,800,2023
+2022,Establishment size,50-99,2056397,9958,184,2023
+2022,Establishment size,100-299,2649823,12878,256,2023
+2022,Establishment size,300-999,1796243,8138,286,2023
+2022,Establishment size,1000+,1608641,8252,125,2023
+2023,All,All,20637107,136796,2016,2023
+2023,Industry group,Mining,9713,2988,427,2023
+2023,Industry group,Manufacturing,4006893,32967,476,2023
+2023,Industry group,Construction,2233184,32353,486,2023
+2023,Industry group,"Electricity, gas, steam and water supply",79956,134,3,2023
+2023,Industry group,"Transport, warehousing and communications",1120705,14937,189,2023
+2023,Industry group,Forestry,137826,1000,17,2023
+2023,Industry group,"Agriculture, fishing, finance and insurance",953013,1348,35,2023
+2023,Industry group,Other businesses (services),12095817,51069,383,2023
+2023,Establishment size,1-4,3455239,38480,486,2023
+2023,Establishment size,5-49,8851520,56514,755,2023
+2023,Establishment size,50-99,2130269,10696,173,2023
+2023,Establishment size,100-299,2686455,13936,264,2023
+2023,Establishment size,300-999,1841218,8443,228,2023
+2023,Establishment size,1000+,1672406,8727,110,2023
+2024,All,All,21420560,142771,2098,2025
+2024,Industry group,Mining,9222,2909,450,2025
+2024,Industry group,Manufacturing,4081069,32767,476,2025
+2024,Industry group,Construction,2084092,34370,496,2025
+2024,Industry group,"Electricity, gas, steam and water supply",80811,117,6,2025
+2024,Industry group,"Transport, warehousing and communications",1400399,16961,221,2025
+2024,Industry group,Forestry,146942,928,12,2025
+2024,Industry group,"Agriculture, fishing, finance and insurance",952780,1391,38,2025
+2024,Industry group,Other businesses (services),12665245,53328,399,2025
+2024,Establishment size,1-4,3553998,40927,526,2025
+2024,Establishment size,5-49,9122998,57253,773,2025
+2024,Establishment size,50-99,2199992,11358,174,2025
+2024,Establishment size,100-299,2711758,14116,263,2025
+2024,Establishment size,300-999,1902492,9635,248,2025
+2024,Establishment size,1000+,1929322,9482,114,2025
+2025,All,All,22754436,147130,2248,2025
+2025,Industry group,Mining,8931,2444,408,2025
+2025,Industry group,Manufacturing,4119765,32847,538,2025
+2025,Industry group,Construction,2345955,36059,569,2025
+2025,Industry group,"Electricity, gas, steam and water supply",81882,112,4,2025
+2025,Industry group,"Transport, warehousing and communications",1573058,17709,264,2025
+2025,Industry group,Forestry,163733,1002,21,2025
+2025,Industry group,"Agriculture, fishing, finance and insurance",1007116,1464,31,2025
+2025,Industry group,Other businesses (services),13297336,55493,413,2025
+2025,Establishment size,1-4,3773309,42153,627,2025
+2025,Establishment size,5-49,9396962,59373,806,2025
+2025,Establishment size,50-99,2290342,11826,177,2025
+2025,Establishment size,100-299,2837326,14904,292,2025
+2025,Establishment size,300-999,2067441,9194,223,2025
+2025,Establishment size,1000+,2232396,9680,123,2025
