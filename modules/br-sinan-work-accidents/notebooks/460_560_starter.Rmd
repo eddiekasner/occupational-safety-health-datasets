@@ -1,0 +1,356 @@
+---
+title: "Brazil SINAN Work-related Notifications: Starter Notebook"
+subtitle: "ENVH 460/560"
+author: "Your name"
+output:
+  html_document:
+    toc: true
+    df_print: paged
+---
+
+Brazil's health system must notify work accidents and several work-related diseases to SINAN, the
+national system for notifiable conditions. Because the reports come from health services rather
+than from employers, they include informal and self-employed workers, who are missing from most
+countries' occupational statistics. This notebook uses notifications from 2006 to 2025, tabulated
+from DATASUS TabNet. Read the module [README](../README.md) and
+[data dictionary](../data_dictionary.md) first.
+
+**How to use this notebook**
+
+- Run each code chunk in order (the green arrow in RStudio, or Ctrl/Cmd + Shift + Enter).
+- Answer the questions under each **Your answer** heading.
+- When you are done, click **Knit** to produce an HTML report to submit.
+
+# Part 0. Load the data
+
+```{r setup, message = FALSE}
+library(readr)
+library(dplyr)
+library(tidyr)
+library(ggplot2)
+library(stringr)
+library(forcats)
+
+base <- "https://raw.githubusercontent.com/eddiekasner/occupational-safety-health-datasets/main/modules/br-sinan-work-accidents/data"
+read_module <- function(folder, name, ...) {
+  local <- file.path("..", "data", folder, name)
+  read_csv(if (file.exists(local)) local else file.path(base, folder, name), show_col_types = FALSE,
+           ...)
+}
+
+by_year <- read_module("tidy", "accidents_by_year.csv.gz")        # one characteristic at a time
+crosstabs <- read_module("tidy", "accidents_crosstabs.csv.gz")    # pairs of characteristics
+occ_ind <- read_module("tidy", "accidents_occupation_industry.csv.gz",
+                       col_types = cols(code = "c"))        # codes keep leading zeros
+other <- read_module("tidy", "other_conditions.csv.gz")           # seven work-related diseases
+
+# A helper: notifications by year and category for one variable, with shares
+shares <- function(var, years = 2006:2025) {
+  by_year |>
+    filter(variable == var, year %in% years) |>
+    group_by(year, category) |>
+    summarise(notifications = sum(notifications), .groups = "drop_last") |>
+    mutate(share = notifications / sum(notifications)) |>
+    ungroup()
+}
+```
+
+Every count is a number of **notifications** to SINAN, by year of notification.
+
+# Part 1. A tenfold increase
+
+```{r trend}
+totals <- shares("sex") |>
+  group_by(year) |>
+  summarise(notifications = sum(notifications))
+
+ggplot(totals, aes(year, notifications)) +
+  geom_line() +
+  geom_point() +
+  scale_y_continuous(labels = scales::label_comma()) +
+  labs(title = "Work accident notifications to SINAN", x = NULL, y = "Notifications")
+
+deaths <- shares("outcome") |> filter(category == "Death from the accident")
+ggplot(deaths, aes(year, notifications)) +
+  geom_line() +
+  geom_point() +
+  expand_limits(y = 0) +
+  labs(title = "Notified deaths from work accidents", x = NULL, y = "Deaths")
+```
+
+**Questions**
+
+1. How many work accidents were notified in 2010, 2019 and 2025? Did work become about ten times
+   more dangerous? What else could explain the rise? (See the README on the 2023 rule.)
+2. Notified deaths rose much less than notifications. What does that suggest about which accidents
+   were notified in the early years and which are notified now?
+3. The social security institute (INSS) reports a few thousand deaths a year among formally
+   employed workers. How does the number of deaths notified to SINAN compare, and why might SINAN
+   count more?
+
+**Your answer:**
+
+
+
+# Part 2. Who is injured?
+
+```{r who}
+shares("employment_status", c(2010, 2019, 2025)) |>
+  select(-notifications) |>
+  mutate(share = round(share, 3)) |>
+  pivot_wider(names_from = year, values_from = share) |>
+  arrange(desc(`2025`))
+
+shares("sex") |>
+  filter(category == "Female") |>
+  ggplot(aes(year, share)) +
+  geom_line() +
+  scale_y_continuous(labels = scales::label_percent(), limits = c(0, NA)) +
+  labs(title = "Share of notifications for women", x = NULL, y = NULL)
+
+by_year |>
+  filter(variable == "age_group") |>
+  group_by(category) |>
+  summarise(notifications = sum(notifications))
+```
+
+**Questions**
+
+1. What share of notified accidents involve registered (formal) employees, and what share involve
+   the self-employed and unregistered employees? How has that changed?
+2. The share of notifications for women has risen. Suggest two reasons.
+3. Thousands of notifications are for children aged 10 to 14, and about 18,000 say "Under 1". What
+   might each group represent? How would you check?
+
+**Your answer:**
+
+
+
+# Part 3. How are workers injured?
+
+```{r how}
+shares("accident_type", 2023:2025) |>
+  group_by(category) |>
+  summarise(notifications = sum(notifications)) |>
+  mutate(share = round(notifications / sum(notifications), 3))
+
+# Causes are ICD-10 external cause codes, grouped into blocks
+by_year |>
+  filter(variable == "cause", year >= 2023) |>
+  group_by(category) |>
+  summarise(notifications = sum(notifications)) |>
+  mutate(share = round(notifications / sum(notifications), 3)) |>
+  arrange(desc(notifications)) |>
+  head(8)
+
+# The most common individual causes (Portuguese ICD-10 titles)
+by_year |>
+  filter(variable == "cause", year >= 2023) |>
+  group_by(category_pt) |>
+  summarise(notifications = sum(notifications)) |>
+  arrange(desc(notifications)) |>
+  head(10)
+
+shares("body_part", 2023:2025) |>
+  group_by(category) |>
+  summarise(notifications = sum(notifications)) |>
+  arrange(desc(notifications))
+```
+
+Common ICD-10 codes: `Y96` work-related condition (no specific cause given), `W20` struck by a
+thrown, projected or falling object, `W01` fall on the same level, `W31` contact with other
+machinery, `V23` and `V28` motorcycle rider injured in a collision or a non-collision accident.
+
+**Questions**
+
+1. What share of notified accidents happen while commuting? Should commuting accidents count as
+   work accidents? (Brazilian law says yes; many countries say no.)
+2. What are the most common causes? How many causes involve motorcycles? What kinds of work put
+   people on motorcycles in Brazilian cities?
+3. A large share of causes are coded `Y96`, which says only that the injury was work-related. What
+   does that mean for using these data to plan prevention?
+
+**Your answer:**
+
+
+
+# Part 4. Formal and informal workers: who gets a CAT?
+
+A **CAT** (Comunicação de Acidente de Trabalho) is the report of a work accident to the social
+security institute (INSS). It is how a worker gets work accident benefits, and it is the basis of
+Brazil's official work accident statistics.
+
+```{r cat}
+cat_by_status <- crosstabs |>
+  filter(row_variable == "employment_status", col_variable == "cat_issued", year >= 2023) |>
+  group_by(employment_status = row_category, cat_issued = col_category) |>
+  summarise(notifications = sum(notifications), .groups = "drop_last") |>
+  mutate(share = round(notifications / sum(notifications), 2), total = sum(notifications)) |>
+  ungroup()
+
+cat_by_status |>
+  select(-notifications) |>
+  pivot_wider(names_from = cat_issued, values_from = share) |>
+  arrange(desc(total)) |>
+  head(6)
+```
+
+**Questions**
+
+1. What share of injured registered employees had a CAT issued? Self-employed workers? Unregistered
+   employees?
+2. Official work accident statistics in Brazil come from CATs. Whose injuries do they miss? Use the
+   numbers to estimate roughly how many notified accidents in 2023 to 2025 would not appear in the
+   official statistics.
+3. For a third of registered employees, whether a CAT was issued is unknown. How does that affect
+   your answer to question 2?
+
+**Your answer:**
+
+
+
+# Part 5. Deaths
+
+```{r deaths}
+crosstabs |>
+  filter(row_variable == "employment_status", col_variable == "outcome", year >= 2019) |>
+  group_by(employment_status = row_category) |>
+  # Count deaths first: summarise() replaces `notifications` with its total
+  summarise(deaths = sum(notifications[col_category == "Death from the accident"]),
+            notifications = sum(notifications)) |>
+  mutate(deaths_per_1000_notifications = round(1000 * deaths / notifications, 1)) |>
+  arrange(desc(notifications)) |>
+  head(8)
+
+occ_ind |>
+  filter(variable == "occupation") |>
+  arrange(desc(deaths)) |>
+  select(code, label_pt, notifications, deaths) |>
+  head(10)
+```
+
+Occupation titles (CBO) are in Portuguese: `MOTORISTA DE CAMINHAO` truck driver, `PEDREIRO`
+bricklayer, `TRABALHADOR AGROPECUARIO EM GERAL` general farm worker, `MOTOCICLISTA NO TRANSPORTE
+DE DOCUMENTOS E PEQUENOS VOLUMES` motorcycle courier, `SERVENTE DE OBRAS` construction labourer,
+`ELETRICISTA DE INSTALACOES` electrician.
+
+**Questions**
+
+1. Of every 1,000 notified accidents, how many were deaths among registered employees? Among the
+   self-employed? Does this mean self-employed work is more dangerous? What else could explain it?
+   (Think about which injuries get notified.)
+2. Which occupations have the most notified deaths? What hazards do they share?
+3. These data have no denominators. What data would you need to compare the death *rate* of truck
+   drivers with that of bricklayers, and where in Brazil might you find them?
+
+**Your answer:**
+
+
+
+# Part 6. Data quality
+
+```{r quality}
+unknown <- by_year |>
+  filter(category %in% c("Unknown", "Not listed by TabNet")) |>
+  group_by(variable, year) |>
+  summarise(unknown = sum(notifications), .groups = "drop") |>
+  inner_join(totals, by = "year") |>
+  mutate(share_unknown = unknown / notifications)
+
+unknown |>
+  filter(variable %in% c("employment_status", "outcome", "cat_issued", "industry", "education")) |>
+  ggplot(aes(year, share_unknown, colour = variable)) +
+  geom_line() +
+  scale_y_continuous(labels = scales::label_percent(), limits = c(0, 1)) +
+  labs(title = "Share of notifications with the variable unknown or not listed", x = NULL,
+       y = NULL, colour = NULL)
+```
+
+**Questions**
+
+1. Which variables are most often unknown? Has completeness improved?
+2. Industry (CNAE) is unknown or not listed for most notifications, while occupation is usually
+   filled in. Why might health workers find occupation easier to record than industry?
+3. If deaths are more often recorded completely than minor injuries, how could changing
+   completeness distort comparisons over time? Give an example from these data.
+
+**Your answer:**
+
+
+
+# Part 7. States
+
+```{r states}
+states <- crosstabs |>
+  filter(row_variable == "state", col_variable == "outcome", year >= 2023) |>
+  group_by(state = row_category) |>
+  summarise(deaths = sum(notifications[col_category == "Death from the accident"]),
+            unknown_outcome = sum(notifications[col_category == "Unknown"]),
+            notifications = sum(notifications)) |>
+  filter(state != "Unknown") |>
+  mutate(deaths_per_1000 = round(1000 * deaths / notifications, 1),
+         share_unknown = round(unknown_outcome / notifications, 2)) |>
+  arrange(desc(notifications))
+
+states
+
+ggplot(states, aes(notifications, deaths_per_1000, label = str_remove(state, "^[0-9]+ "))) +
+  geom_text(size = 3) +
+  scale_x_log10(labels = scales::label_comma()) +
+  labs(title = "Notifications and deaths per 1,000 notifications by state, 2023 to 2025",
+       x = "Notifications (log scale)", y = "Deaths per 1,000 notifications")
+```
+
+**Questions**
+
+1. São Paulo has about a fifth of Brazil's population. What share of notifications does it have?
+   Which states have far fewer notifications than their size would suggest?
+2. Some states with few notifications, such as Amazonas and Sergipe, have five or six times as
+   many deaths per 1,000 notifications as São Paulo. Explain how surveillance could produce this
+   pattern even if work were equally dangerous everywhere.
+3. To compare states fairly, you would need the number of workers in each. Find the employed
+   population by state in IBGE's PNAD Contínua and compute notifications per 1,000 workers for five
+   states. What do you conclude?
+
+**Your answer:**
+
+
+
+# Part 8. Work-related diseases
+
+```{r diseases}
+other |>
+  filter(variable == "sex") |>
+  group_by(condition, year) |>
+  summarise(notifications = sum(notifications), .groups = "drop") |>
+  mutate(condition = str_trunc(condition, 45)) |>
+  ggplot(aes(year, notifications)) +
+  geom_line() +
+  facet_wrap(~condition, scales = "free_y", ncol = 2) +
+  expand_limits(y = 0) +
+  labs(title = "Notifications of work-related conditions", x = NULL, y = NULL)
+
+other |>
+  filter(variable == "sex", year >= 2020, category != "Unknown") |>
+  group_by(condition, category) |>
+  summarise(notifications = sum(notifications), .groups = "drop_last") |>
+  mutate(share = round(notifications / sum(notifications), 2)) |>
+  select(-notifications) |>
+  pivot_wider(names_from = category, values_from = share)
+```
+
+**Questions**
+
+1. Which conditions are notified most and least? Pneumoconiosis has a few hundred notifications a
+   year in a country with large mining and construction sectors. Is that plausible?
+2. Work-related mental disorders have risen fastest. Suggest reasons, both real and related to
+   surveillance.
+3. Which conditions are mostly among women and which among men? Relate this to the jobs women and
+   men do in Brazil.
+4. Most of these conditions are notified by sentinel services. Design a study to estimate how
+   complete the notification of work-related hearing loss is.
+
+**Your answer:**
+
+
+

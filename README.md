@@ -20,11 +20,12 @@ Each module gives students:
 | --- | --- | --- | --- |
 | [BLS Census of Fatal Occupational Injuries (CFOI)](modules/us-bls-cfoi/) | US | BLS | Ready |
 | [BLS Survey of Occupational Injuries and Illnesses (SOII)](modules/us-bls-soii/) | US | BLS | Ready |
+| [Brazil SINAN work accidents and work-related diseases](modules/br-sinan-work-accidents/) | Brazil | Ministry of Health (DATASUS) | Ready for review |
 | [Canada AWCBC work injury, disease and fatality statistics](modules/ca-awcbc-nwisp/) | Canada | AWCBC | Ready |
 | [Eurostat accidents at work (ESAW)](modules/intl-eurostat-esaw/) | Europe | Eurostat | Ready |
 | [Global Burden of Disease: occupational risks](modules/intl-ihme-gbd-occupational/) (students download the data from IHME) | International | IHME | Draft (not yet tested on real data) |
 | [ILOSTAT occupational safety and health](modules/intl-ilostat-osh/) | International | ILO | Ready |
-| [Japan fatal accident database: every work-related death since 1991](modules/jp-mhlw-fatal-accidents/) | Japan | MHLW | Ready for review |
+| [Japan fatal accident database: every work-related death since 1991](modules/jp-mhlw-fatal-accidents/) | Japan | MHLW | Ready |
 | [MSHA mine safety: accidents, injury rates and violations](modules/us-msha-mine-safety/) | US | MSHA | Ready |
 | [OSHA Chemical Exposure Health Data](modules/us-osha-chemical-exposure/) | US | OSHA | Ready |
 | [OSHA enforcement: inspections, violations, cited standards and accident investigations](modules/us-osha-enforcement/) | US | OSHA | Ready |
@@ -75,6 +76,7 @@ CATALOG.md                 candidate datasets and status
 docs/                      instructor and contributor notes
 modules/
   _template/                    copy this to start a new module
+  br-sinan-work-accidents/      Brazilian notifications of work accidents and diseases, incl. informal work
   ca-awcbc-nwisp/               Canadian accepted lost time claims and fatalities since 1982
   intl-eurostat-esaw/           Eurostat accidents at work in Europe
   intl-ihme-gbd-occupational/   GBD deaths and DALYs from occupational risks (download from IHME)
