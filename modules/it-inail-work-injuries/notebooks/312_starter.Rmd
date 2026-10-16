@@ -1,0 +1,240 @@
+---
+title: "Italy INAIL Work Injuries: Starter Notebook"
+subtitle: "ENVH 312"
+author: "Your name"
+output:
+  html_document:
+    toc: true
+    df_print: paged
+---
+
+In Italy, employers insure their workers with INAIL, the national workers' compensation insurer,
+and must report work injuries to it. INAIL publishes every report as open data, with the worker's
+sex, age and country of birth, the employer's industry, and what INAIL decided. This notebook uses
+injuries that happened from 2021 to 2025, and occupational disease claims reported in those years.
+Read the module [README](../README.md) and [data dictionary](../data_dictionary.md) first.
+
+**How to use this notebook**
+
+- Run each code chunk in order (the green arrow in RStudio, or Ctrl/Cmd + Shift + Enter).
+- Answer the questions under each **Your answer** heading.
+- When you are done, click **Knit** to produce an HTML report to submit.
+
+# Part 0. Load the data
+
+```{r setup, message = FALSE}
+library(readr)
+library(dplyr)
+library(tidyr)
+library(ggplot2)
+library(forcats)
+
+base <- "https://raw.githubusercontent.com/eddiekasner/occupational-safety-health-datasets/main/modules/it-inail-work-injuries/data"
+read_module <- function(folder, name, ...) {
+  local <- file.path("..", "data", folder, name)
+  read_csv(if (file.exists(local)) local else file.path(base, folder, name), show_col_types = FALSE,
+           ...)
+}
+
+# Counts by year, region, sector, sex, age group, birthplace and commuting (small)
+summary_tbl <- read_module("tidy", "injuries_summary.csv.gz")
+
+# Every injury report for accidents in 2024 (about 594,000 rows; 16 MB to download)
+injuries <- read_module("tidy", "injuries_2024.csv.gz",
+                        col_types = cols(.default = "c", age = "i", impairment_pct = "d",
+                                         days_compensated = "i", commuting = "l",
+                                         transport_involved = "l", fatal = "l",
+                                         accident_date = "D", report_date = "D",
+                                         decision_date = "D", death_date = "D"))
+
+# INAIL also insures school pupils. For analyses of workers, leave out children under 15.
+workers_summary <- summary_tbl |> filter(age_group != "Under 15" | is.na(age_group))
+workers <- injuries |> filter(age >= 15)
+```
+
+Every count is a number of **injury reports** to INAIL, by year of the accident. A report is not
+necessarily an accepted work injury: see Part 3.
+
+# Part 1. Five years of injury reports
+
+```{r trend}
+by_year <- summary_tbl |>
+  mutate(group = if_else(age_group == "Under 15" & !is.na(age_group),
+                         "Children under 15 (pupils)", "Workers aged 15 and over")) |>
+  group_by(year, group) |>
+  summarise(reports = sum(reports), fatal_reports = sum(fatal_reports), .groups = "drop")
+by_year
+
+ggplot(by_year, aes(year, reports, fill = group)) +
+  geom_col() +
+  scale_y_continuous(labels = scales::label_comma()) +
+  labs(title = "Injury reports to INAIL by year of accident", x = NULL, y = "Reports", fill = NULL)
+
+workers_summary |>
+  filter(sector %in% c("Health and social work", "Manufacturing", "Construction",
+                       "Transportation and storage")) |>
+  group_by(year, sector) |>
+  summarise(reports = sum(reports), .groups = "drop") |>
+  ggplot(aes(year, reports, colour = sector)) +
+  geom_line() +
+  geom_point() +
+  expand_limits(y = 0) +
+  scale_y_continuous(labels = scales::label_comma()) +
+  labs(title = "Injury reports in four sectors", x = NULL, y = "Reports", colour = NULL)
+```
+
+**Questions**
+
+1. How many injuries were reported in 2021 and in 2025? Which year stands out, and which sector
+   explains most of it? (Hint: the README explains how Italy treats COVID-19 infections at work.)
+2. What share of reports are for children under 15, and how did it change from 2021 to 2025? Why
+   does INAIL insure school pupils, and why should you leave them out when you study work injuries?
+3. These are counts, not rates. What information would you need to say whether work in Italy became
+   safer between 2021 and 2025?
+
+**Your answer:**
+
+
+
+# Part 2. Who is injured?
+
+```{r who}
+share_of <- function(data, var) {
+  data |>
+    group_by({{ var }}) |>
+    summarise(reports = sum(reports), fatal_accepted = sum(fatal_accepted)) |>
+    mutate(share_of_reports = round(reports / sum(reports), 3),
+           share_of_deaths = round(fatal_accepted / sum(fatal_accepted), 3))
+}
+
+workers_summary |> share_of(sex)
+workers_summary |> share_of(birth_group)
+workers_summary |> share_of(commuting)
+
+workers_summary |>
+  filter(!is.na(age_group)) |>
+  group_by(age_group) |>
+  summarise(reports = sum(reports), fatal_accepted = sum(fatal_accepted)) |>
+  mutate(deaths_per_1000_reports = round(1000 * fatal_accepted / reports, 2))
+```
+
+**Questions**
+
+1. What share of reports and what share of accepted deaths are for women? Suggest reasons for the
+   difference.
+2. About a fifth of reports are for workers born outside Italy. Is their share of deaths higher or
+   lower than their share of reports? What would you need to know to say whether migrant workers
+   are at higher risk?
+3. What share of reports and of deaths happened while commuting? Many countries do not count
+   commuting injuries as work injuries. How would leaving them out change Italy's figures?
+4. How does the number of deaths per 1,000 reports change with age? Give two explanations.
+
+**Your answer:**
+
+
+
+# Part 3. Deaths and what INAIL accepts
+
+```{r deaths}
+workers |>
+  count(decision) |>
+  mutate(share = round(n / sum(n), 3))
+
+deaths <- workers |> filter(fatal)
+deaths |> count(fatal_decision)
+deaths |>
+  filter(fatal_decision == "Rejected") |>
+  count(fatal_rejection_reason, sort = TRUE)
+
+workers_summary |>
+  filter(year >= 2023, !is.na(sector)) |>
+  group_by(sector) |>
+  summarise(fatal_accepted = sum(fatal_accepted)) |>
+  slice_max(fatal_accepted, n = 8) |>
+  ggplot(aes(fatal_accepted, fct_reorder(sector, fatal_accepted))) +
+  geom_col() +
+  labs(title = "Deaths accepted as work injuries, 2023 to 2025", x = "Deaths", y = NULL)
+```
+
+**Questions**
+
+1. In 2024, what share of reports did INAIL accept, reject, or keep "for statistics only"? Why
+   are short absences not counted as rejections?
+2. About half of reported deaths are accepted. What is the most common reason for rejecting a
+   death? Give an example of a death at work that INAIL might reject for that reason.
+3. Which three sectors had the most accepted deaths in 2023 to 2025? Many deaths have no sector
+   (agriculture and the State scheme have no ATECO code). How does that affect this ranking?
+4. Note: decisions can change. Why might the number of accepted deaths for 2025 rise later?
+
+**Your answer:**
+
+
+
+# Part 4. Regions
+
+```{r regions}
+regions <- workers_summary |>
+  filter(year == 2024) |>
+  group_by(macro_area, region) |>
+  summarise(reports = sum(reports), accepted = sum(accepted),
+            fatal_accepted = sum(fatal_accepted), .groups = "drop") |>
+  mutate(accepted_share = round(accepted / reports, 2)) |>
+  arrange(desc(reports))
+regions
+
+ggplot(regions, aes(reports, fct_reorder(region, reports), fill = macro_area)) +
+  geom_col() +
+  scale_x_continuous(labels = scales::label_comma()) +
+  labs(title = "Injury reports by region, 2024 (workers aged 15 and over)", x = "Reports",
+       y = NULL, fill = NULL)
+```
+
+**Questions**
+
+1. Which regions have the most reports? Is that because work there is more dangerous? What would you
+   divide by to compare regions fairly?
+2. Compare the North (North-West, North-East) with the South and Islands. Some researchers argue
+   that injuries are under-reported in the South. What in this table could be consistent with that,
+   and what other explanations are there?
+3. Does the share of reports that are accepted differ by region? Suggest reasons.
+
+**Your answer:**
+
+
+
+# Part 5. How severe are the injuries?
+
+```{r severity}
+accepted <- workers |> filter(decision == "Accepted")
+
+accepted |>
+  summarise(median_days = median(days_compensated, na.rm = TRUE),
+            mean_days = round(mean(days_compensated, na.rm = TRUE), 1),
+            share_permanent = round(mean(!is.na(impairment_pct) & impairment_pct > 0), 3))
+
+accepted |> count(compensation, sort = TRUE)
+
+ggplot(accepted, aes(days_compensated)) +
+  geom_histogram(binwidth = 5, boundary = 0) +
+  coord_cartesian(xlim = c(0, 200)) +
+  scale_y_continuous(labels = scales::label_comma()) +
+  labs(title = "Days compensated, accepted injuries in 2024", x = "Days", y = "Injuries")
+
+accepted |>
+  filter(!is.na(sector)) |>
+  group_by(sector) |>
+  summarise(injuries = n(), median_days = median(days_compensated, na.rm = TRUE)) |>
+  filter(injuries >= 1000) |>
+  arrange(desc(median_days))
+```
+
+**Questions**
+
+1. What are the median and mean number of days compensated? Why are they so different?
+2. What share of accepted injuries led to permanent impairment? Italy compensates impairment of 6%
+   to 15% with a lump sum and 16% or more with an annuity. What does the compensation table tell
+   you about how common serious permanent harm is?
+3. Which sectors have the longest median time off? Is severity a better measure of hazard than the
+   number of reports? Why or why not?
+
+**Your answer:**
