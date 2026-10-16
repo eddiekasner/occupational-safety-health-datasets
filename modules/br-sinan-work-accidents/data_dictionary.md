@@ -13,8 +13,10 @@ Built by `scripts/build_dataset.R` from DATASUS TabNet tables. Counts are number
 | `year` | Year of notification |
 | `notifications` | Number of work accident notifications |
 
-Each variable covers every notification, so for each `variable` the counts add up to the same
-yearly total.
+For each `variable`, the counts add up to the same yearly total. TabNet leaves out records whose
+code is not in its list for a variable; this module adds them as the category `Not listed by
+TabNet` (with a blank `category_pt`). This matters most for `industry` (about a third of
+notifications from 2021 on) and `hours_into_shift` (about 8%).
 
 ## Work accidents by pairs of characteristics (`accidents_crosstabs.csv.gz`)
 

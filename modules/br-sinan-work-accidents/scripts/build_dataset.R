@@ -61,7 +61,9 @@ conditions <- c(
 key <- function(x) {
   # "Latin-ASCII" keeps the ordinal indicators (as in "1a serie"); replace them first. Stray
   # control characters (a Windows apostrophe in one TabNet label) are removed.
-  x <- str_replace_all(x, c("\u00aa" = "a", "\u00ba" = "o", "[\u0080-\u009f]" = ""))
+  x <- str_replace_all(x, "\\x{00AA}", "a")
+  x <- str_replace_all(x, "\\x{00BA}", "o")
+  x <- str_replace_all(x, "[\\x{0080}-\\x{009F}]", "")
   str_to_lower(str_squish(stri_trans_general(x, "Latin-ASCII")))
 }
 translations <- c(
@@ -162,9 +164,9 @@ translate <- function(variable, category_pt) {
       " a ", "-"), " anos?$", ""),
     variable == "hours_into_shift" & str_detect(k, "^[0-9]+ horas?$") ~ str_extract(k, "^[0-9]+"),
     variable == "cause" & !is.na(code) ~ icd_block(code),
+    k %in% c("cid nao preenchido", "00 ignorado/exterior", "998999 ignorada") ~ "Unknown",
     variable %in% c("state", "occupation", "industry") & !k %in% names(translations) ~ category_pt,
     k %in% names(translations) ~ unname(translations[k]),
-    k %in% c("cid nao preenchido", "00 ignorado/exterior", "998999 ignorada") ~ "Unknown",
     TRUE ~ NA_character_)
 }
 
@@ -205,10 +207,25 @@ by_year <- raw |>
   select(variable, category, category_pt, year, notifications) |>
   arrange(variable, category_pt, year)
 
-# Every variable should add up to the same total each year
-totals <- by_year |> group_by(variable, year) |> summarise(n = sum(notifications), .groups = "drop")
-check <- totals |> group_by(year) |> summarise(min = min(n), max = max(n))
-if (any(check$min != check$max)) warning("Yearly totals differ between variables")
+# TabNet leaves out records whose code is not in its list for a variable (for example invalid
+# industry codes), so some variables add up to less than the total. Add the difference as its own
+# category, taking the total from sex (which every record has).
+yearly_total <- by_year |>
+  filter(variable == "sex") |>
+  group_by(year) |>
+  summarise(total = sum(notifications))
+not_listed <- by_year |>
+  group_by(variable, year) |>
+  summarise(listed = sum(notifications), .groups = "drop") |>
+  inner_join(yearly_total, by = "year") |>
+  filter(listed < total) |>
+  transmute(variable, category = "Not listed by TabNet", category_pt = NA_character_, year,
+            notifications = total - listed)
+if (any(by_year |> group_by(variable, year) |> summarise(n = sum(notifications), .groups = "drop") |>
+        inner_join(yearly_total, by = "year") |> with(n > total))) {
+  warning("A variable adds up to more than the yearly total")
+}
+by_year <- bind_rows(by_year, not_listed) |> arrange(variable, category_pt, year)
 
 # ---- Pairs of characteristics, by year -------------------------------------------------------
 
