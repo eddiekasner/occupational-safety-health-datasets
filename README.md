@@ -20,11 +20,12 @@ Each module gives students:
 | --- | --- | --- | --- |
 | [BLS Census of Fatal Occupational Injuries (CFOI)](modules/us-bls-cfoi/) | US | BLS | Ready |
 | [BLS Survey of Occupational Injuries and Illnesses (SOII)](modules/us-bls-soii/) | US | BLS | Ready |
-| [Brazil SINAN work accidents and work-related diseases](modules/br-sinan-work-accidents/) | Brazil | Ministry of Health (DATASUS) | Ready for review |
+| [Brazil SINAN work accidents and work-related diseases](modules/br-sinan-work-accidents/) | Brazil | Ministry of Health (DATASUS) | Ready |
 | [Canada AWCBC work injury, disease and fatality statistics](modules/ca-awcbc-nwisp/) | Canada | AWCBC | Ready |
 | [Eurostat accidents at work (ESAW)](modules/intl-eurostat-esaw/) | Europe | Eurostat | Ready |
 | [Global Burden of Disease: occupational risks](modules/intl-ihme-gbd-occupational/) (students download the data from IHME) | International | IHME | Draft (not yet tested on real data) |
 | [ILOSTAT occupational safety and health](modules/intl-ilostat-osh/) | International | ILO | Ready |
+| [Italy INAIL work injury reports and occupational disease claims](modules/it-inail-work-injuries/) | Italy | INAIL | Ready for review |
 | [Japan fatal accident database: every work-related death since 1991](modules/jp-mhlw-fatal-accidents/) | Japan | MHLW | Ready |
 | [MSHA mine safety: accidents, injury rates and violations](modules/us-msha-mine-safety/) | US | MSHA | Ready |
 | [OSHA Chemical Exposure Health Data](modules/us-osha-chemical-exposure/) | US | OSHA | Ready |
@@ -83,6 +84,7 @@ modules/
   intl-ilostat-osh/             ILO injury and labour inspection statistics by country
   intl-safework-australia/      Australian work-related deaths and workers' compensation claims
   intl-who-ilo-joint-estimates/ deaths and DALYs from occupational risk factors, 183 countries
+  it-inail-work-injuries/       every Italian work injury report and occupational disease claim, 2021 to 2025
   jp-mhlw-fatal-accidents/      every work-related death in Japan since 1991, with descriptions
   uk-hse-riddor/                British reported and self-reported work injuries since 1974
   us-bls-cfoi/                  BLS counts and rates of fatal work injuries
