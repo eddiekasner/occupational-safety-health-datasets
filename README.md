@@ -27,7 +27,7 @@ Each module gives students:
 | [ILOSTAT occupational safety and health](modules/intl-ilostat-osh/) | International | ILO | Ready |
 | [Italy INAIL work injury reports and occupational disease claims](modules/it-inail-work-injuries/) | Italy | INAIL | Ready |
 | [Japan fatal accident database: every work-related death since 1991](modules/jp-mhlw-fatal-accidents/) | Japan | MHLW | Ready |
-| [Korea industrial accident microdata: every approved injury, disease and death since 2017](modules/kr-kosha-industrial-accidents/) | South Korea | KOSHA / Ministry of Employment and Labor | Ready for review |
+| [Korea industrial accidents: microdata since 2017, national totals since 1964, and accident case descriptions](modules/kr-kosha-industrial-accidents/) | South Korea | KOSHA / Ministry of Employment and Labor | Ready for review |
 | [MSHA mine safety: accidents, injury rates and violations](modules/us-msha-mine-safety/) | US | MSHA | Ready |
 | [OSHA Chemical Exposure Health Data](modules/us-osha-chemical-exposure/) | US | OSHA | Ready |
 | [OSHA enforcement: inspections, violations, cited standards and accident investigations](modules/us-osha-enforcement/) | US | OSHA | Ready |

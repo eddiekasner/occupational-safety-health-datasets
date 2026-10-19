@@ -8,7 +8,7 @@
 # page, https://portal.kosha.or.kr/archive/indus-acc-statis/indus-status-data). Each Excel file
 # has one row per injured worker or death, for one year and one major industry. The portal's
 # "microdata" button calls the same address this script uses. There are 9 years (2017 to 2025) x
-# 10 industries = 90 files, about 120 MB. Files already downloaded are skipped; delete them to
+# 10 industries = 90 files, about 70 MB. Files already downloaded are skipped; delete them to
 # download again. Next step: run scripts/build_dataset.R.
 
 file_arg <- grep("^--file=", commandArgs(FALSE), value = TRUE)
@@ -62,4 +62,22 @@ for (y in years) for (i in industries) {
   post("downloadOlapData", body, tmp)
   file.rename(tmp, dest)
 }
+# KOSHA's manufacturing accident case descriptions (Korean, CSV in the Korean Windows encoding,
+# CP949), from Korea's public data portal. The English translations in
+# data/tidy/accident_cases.csv.gz were made once from this file (see the README).
+cases <- file.path(raw_dir, "kosha_accident_cases.csv")
+if (!file.exists(cases)) {
+  message("downloading kosha_accident_cases.csv")
+  for (attempt in 1:5) {
+    ok <- tryCatch({
+      download.file(paste0("https://www.data.go.kr/cmm/cmm/fileDownload.do?",
+                           "atchFileId=FILE_000000007670926&fileDetailSn=1&insertDataPrcus=N"),
+                    cases, mode = "wb", quiet = TRUE)
+      TRUE
+    }, error = function(e) FALSE, warning = function(w) FALSE)
+    if (ok && file.size(cases) > 0) break
+    Sys.sleep(3 * attempt)
+  }
+}
+
 message("Done: files are in ", normalizePath(raw_dir), ". Next: run scripts/build_dataset.R")
