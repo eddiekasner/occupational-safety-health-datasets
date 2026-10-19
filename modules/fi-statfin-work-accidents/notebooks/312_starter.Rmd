@@ -1,0 +1,241 @@
+---
+title: "Finland Occupational Accidents: Starter Notebook"
+subtitle: "ENVH 312"
+author: "Your name"
+output:
+  html_document:
+    toc: true
+    df_print: paged
+---
+
+In Finland, employers must insure their employees against accidents at work, and the insurers'
+records of every compensated accident are compiled into national statistics by Statistics Finland
+and the Finnish Workers' Compensation Center. This notebook uses accidents from 2008 to 2024 by
+industry, age, sex, place and outcome, the European (ESAW) classification of how accidents happen,
+and rates per worker and per hour worked. Read the module [README](../README.md) and
+[data dictionary](../data_dictionary.md) first.
+
+**How to use this notebook**
+
+- Run each code chunk in order (the green arrow in RStudio, or Ctrl/Cmd + Shift + Enter).
+- Answer the questions under each **Your answer** heading.
+- When you are done, click **Knit** to produce an HTML report to submit.
+
+# Part 0. Load the data
+
+```{r setup, message = FALSE}
+library(readr)
+library(dplyr)
+library(tidyr)
+library(ggplot2)
+library(forcats)
+
+base <- "https://raw.githubusercontent.com/eddiekasner/occupational-safety-health-datasets/main/modules/fi-statfin-work-accidents/data"
+read_module <- function(folder, name, ...) {
+  local <- file.path("..", "data", folder, name)
+  read_csv(if (file.exists(local)) local else file.path(base, folder, name), show_col_types = FALSE,
+           ...)
+}
+
+# Accidents by year, employment status, place, outcome, sex, age group and industry
+accidents <- read_module("tidy", "accidents.csv.gz")
+# Wage and salary earners' accidents per 100,000 workers and per million hours, 2018 onward
+rates <- read_module("tidy", "rates.csv")
+# Workplace accidents by the European classification of how they happened
+esaw <- read_module("tidy", "esaw_causes.csv")
+# Farmers' accidents (at least 4 days off work) per 100,000 insured farmers
+farmers <- read_module("tidy", "farmers.csv")
+
+# Order the outcome categories from least to most serious
+outcome_levels <- c("0-3 days", "4-6 days", "7-14 days", "15-30 days", "31-90 days",
+                    "91-180 days", "181 days or more", "Disability pension", "Fatal")
+accidents <- accidents |>
+  mutate(outcome = factor(outcome, outcome_levels),
+         four_plus_days = outcome != "0-3 days")
+```
+
+Each row of `accidents` is a **number of accidents** for one combination of the variables. Add
+rows up with `sum(accidents)`, not `n()`.
+
+# Part 1. Trends
+
+```{r trend}
+by_year <- accidents |>
+  group_by(year) |>
+  summarise(all_accidents = sum(accidents),
+            four_plus_days = sum(accidents[four_plus_days]),
+            fatal_at_work = sum(accidents[outcome == "Fatal" & place != "Commuting"]),
+            fatal_commuting = sum(accidents[outcome == "Fatal" & place == "Commuting"]))
+by_year
+
+by_year |>
+  select(year, `All accidents` = all_accidents, `At least 4 days off work` = four_plus_days) |>
+  pivot_longer(-year) |>
+  ggplot(aes(year, value, colour = name)) +
+  geom_line() +
+  geom_point() +
+  expand_limits(y = 0) +
+  scale_y_continuous(labels = scales::label_comma()) +
+  labs(title = "Accidents at work and while commuting, Finland", x = NULL, y = "Accidents",
+       colour = NULL)
+
+rates |>
+  filter(section == "Total", sex == "Total", place == "All") |>
+  select(year, workers, accidents_4plus_days, per_100000_workers)
+```
+
+**Questions**
+
+1. How did the number of accidents change from 2008 to 2024? What happened in 2020, and why?
+2. About two thirds of accidents cause three days off work or less. Many countries count only
+   accidents with more than three days off. Why do you think that threshold is common, and what do
+   you lose by using it?
+3. Finland has between 20 and 55 fatal accidents a year (counting commuting). Why is it hard to
+   study trends in such small numbers, and how could you make the comparison more stable?
+
+**Your answer:**
+
+
+
+# Part 2. Who is injured?
+
+```{r who}
+accidents |>
+  filter(year == 2024) |>
+  group_by(sex, place) |>
+  summarise(accidents = sum(accidents), .groups = "drop") |>
+  pivot_wider(names_from = place, values_from = accidents)
+
+accidents |>
+  group_by(year) |>
+  summarise(share_women = sum(accidents[sex == "Female"]) / sum(accidents),
+            share_commuting = sum(accidents[place == "Commuting"]) / sum(accidents)) |>
+  pivot_longer(-year) |>
+  ggplot(aes(year, value, colour = name)) +
+  geom_line() +
+  geom_point() +
+  scale_y_continuous(labels = scales::label_percent(), limits = c(0, NA)) +
+  labs(title = "Share of accidents among women and while commuting", x = NULL, y = NULL,
+       colour = NULL)
+
+accidents |>
+  filter(year == 2024, four_plus_days) |>
+  count(age_group, wt = accidents, name = "accidents") |>
+  mutate(share = round(accidents / sum(accidents), 3))
+```
+
+**Questions**
+
+1. In 2024, did more women or men have commuting accidents, and accidents at the workplace? Why
+   might the pattern differ between the two?
+2. Women's share of accidents has grown. Give one explanation about changes in jobs and one about
+   reporting.
+3. Without the number of workers in each age group, can you say which age group has the highest
+   risk? What would you need?
+
+**Your answer:**
+
+
+
+# Part 3. Industries and rates
+
+```{r industries}
+rates |>
+  filter(year == 2024, sex == "Total", place == "All", !section %in% c("Total", "X", "U")) |>
+  select(section, section_name, workers, accidents_4plus_days, per_100000_workers) |>
+  arrange(desc(per_100000_workers))
+
+rates |>
+  filter(year == 2024, sex == "Total", place == "At work (including traffic while working)",
+         !is.na(per_million_hours), section != "X") |>
+  ggplot(aes(per_million_hours, fct_reorder(section_name, per_million_hours))) +
+  geom_col() +
+  labs(title = "Accidents at work (4+ days off) per million hours worked, 2024",
+       x = "Per million hours", y = NULL)
+
+accidents |>
+  filter(year == 2024) |>
+  count(industry, wt = accidents, name = "accidents", sort = TRUE) |>
+  head(10)
+```
+
+**Questions**
+
+1. Which industries have the highest and lowest accident rates per 100,000 workers? Which have the
+   most accidents? Why are the two lists different?
+2. Rates per worker and per million hours rank industries in a similar order but not the same.
+   When would the rate per hour be the better measure? (Think about part-time work.)
+3. The "Local government sector" (municipal employees, such as care workers, teachers and
+   maintenance staff) has more accidents than any industry. Why do the statistics show it as a
+   sector rather than by industry, and what problem does that create for comparing industries?
+
+**Your answer:**
+
+
+
+# Part 4. How do accidents happen?
+
+The European Statistics on Accidents at Work (ESAW) describe each accident by what the worker was
+doing (activity), what went wrong (deviation), how the worker was hurt (contact), the injury and
+the part of the body. These tables cover workplace accidents of wage and salary earners with at
+least four days off work.
+
+```{r esaw}
+esaw |>
+  filter(year == 2024, sex == "Total") |>
+  group_by(variable) |>
+  mutate(share = round(accidents / sum(accidents, na.rm = TRUE), 3)) |>
+  slice_max(accidents, n = 3) |>
+  select(variable, category, accidents, share)
+
+esaw |>
+  filter(variable == "Deviation", sex != "Total", year >= 2022) |>
+  group_by(sex, category) |>
+  summarise(accidents = sum(accidents), .groups = "drop_last") |>
+  mutate(share = accidents / sum(accidents)) |>
+  ggplot(aes(share, fct_reorder(category, share), fill = sex)) +
+  geom_col(position = "dodge") +
+  scale_x_continuous(labels = scales::label_percent()) +
+  labs(title = "What went wrong: deviation, 2022 to 2024", x = NULL, y = NULL, fill = NULL)
+```
+
+**Questions**
+
+1. What is the most common deviation, contact and type of injury? Describe a typical accident in
+   one sentence.
+2. Which deviations are more common among women and which among men? Relate this to their jobs.
+3. Choose the most common deviation and propose two prevention measures, at different levels of the
+   hierarchy of controls.
+
+**Your answer:**
+
+
+
+# Part 5. How serious are accidents?
+
+```{r severity}
+accidents |>
+  filter(year >= 2022) |>
+  count(outcome, wt = accidents, name = "accidents") |>
+  mutate(share = round(accidents / sum(accidents), 4))
+
+accidents |>
+  filter(year >= 2015, outcome == "Fatal") |>
+  count(place, wt = accidents, name = "fatal")
+
+accidents |>
+  filter(year >= 2015, outcome == "Fatal", place != "Commuting") |>
+  count(section_name, wt = accidents, name = "fatal", sort = TRUE) |>
+  head(6)
+```
+
+**Questions**
+
+1. What share of accidents lead to a disability pension or death? Why do prevention programmes
+   still pay attention to the many minor accidents?
+2. Which industries have the most fatal accidents at work since 2015? Is it the same list as the
+   industries with the most accidents in Part 3?
+3. About a third of fatal accidents happen while commuting. Should employers be responsible for
+   preventing them? What could they do?
+
+**Your answer:**
