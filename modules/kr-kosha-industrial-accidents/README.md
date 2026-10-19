@@ -2,7 +2,8 @@
 
 **Scope:** South Korea | **Publisher:** KOSHA (Korea Occupational Safety and Health Agency) and the
 Ministry of Employment and Labor, from workers' compensation data of COMWEL (Korea Workers'
-Compensation and Welfare Service) | **Years in this module:** 2017 to 2025
+Compensation and Welfare Service) | **Years in this module:** microdata 2017 to 2025; national
+totals 1964 to 2025; accident case descriptions mostly 1990s to 2026
 
 ## Background
 
@@ -27,6 +28,10 @@ and in 2024 for workplaces with 5 or more.
 - `insured_workers.csv`: the number of workers covered by the insurance in a year, nationally, by
   industry group and by establishment size, with the published counts of injured workers and
   deaths.
+- `national_trend.csv`: one year, 1964 to 2025: insured workers, injured workers, deaths and
+  related national totals.
+- `accident_cases.csv.gz`: one serious accident in manufacturing, as summarised by KOSHA (1,136
+  cases), in English and the original Korean.
 
 ## Why it matters for OSH
 
@@ -37,6 +42,11 @@ and in 2024 for workplaces with 5 or more.
   1,000 or more) and an **ageing workforce** (half of accident deaths are workers aged 60 or over).
 - **Falls from height in construction** cause a large share of accident deaths, which makes this
   a good dataset for the hierarchy of controls.
+- **Sixty years of national data** show Korea's injury rate falling from about 5% of insured
+  workers in the late 1960s and 1970s to under 1% since the mid-1990s, while coverage grew from
+  82,000 to 22.8 million workers.
+- **Accident case descriptions** (what happened, why, and how to prevent it) let students practise
+  root cause analysis and the hierarchy of controls on real cases.
 - **Occupational disease** has grown fast (9,000 cases in 2017, 34,000 in 2025), with the long tail
   of pneumoconiosis among former coal miners and rising numbers of cancers and musculoskeletal
   disorders.
@@ -71,6 +81,23 @@ and in 2024 for workplaces with 5 or more.
   with several employers are counted once in the national total but in each industry and size
   group, so the groups add up to more than the total.
 
+- **National trend.** The 1964 to 2016 figures come from one table in the ministry's 2016 annual
+  analysis; 2017 to 2025 come from this module's other files. Coverage grew in steps, from large
+  factories in 1964 to all workplaces with at least one worker in 2000, so early rates describe a
+  different, smaller workforce. Deaths are given under the definition used before 2011 (1964 to
+  2016) and the current one (2003 onward); accident deaths separately from 2007. The 1978 row of
+  the source table does not add up (its parts exceed the total by 181); the figures are kept as
+  published. Disease cases (before 1972), permanent disability (before 1989) and the frequency and
+  severity rates (before 1972 and 1989) were not reported separately in earlier years and are blank.
+- **Accident case descriptions.** KOSHA chose these cases to teach prevention, so they are not a
+  sample of all accidents. They cover manufacturing only. The English was translated from Korean
+  with AI (Claude) and has not been checked line by line by a human translator; the original Korean
+  is kept beside it. Some source records have errors: about 10 have a title that does not match the
+  description (copied from another case), some have text cut off or out of order, and some include
+  diagram labels; the translations follow the source. The year is taken from the description where
+  it is given (948 of 1,136 cases). Company and personal names are masked as in the source, and two
+  full personal names in the source were masked by this module.
+
 ## Files
 
 | Path | Contents |
@@ -78,13 +105,16 @@ and in 2024 for workplaces with 5 or more.
 | `data_dictionary.md` | Columns and categories |
 | `data/tidy/injured_workers.csv.gz` | Every injured worker and death, 2017 to 2025 (1.09 million rows; 7 MB) |
 | `data/tidy/insured_workers.csv` | Insured workers, injured workers and deaths by year, industry group and establishment size |
-| `data/raw/` | KOSHA's Excel files and the ministry's reports (not committed; about 75 MB) |
+| `data/tidy/national_trend.csv` | National totals by year, 1964 to 2025 |
+| `data/tidy/accident_cases.csv.gz` | 1,136 manufacturing accident case descriptions, in English and Korean (1 MB) |
+| `data/raw/` | KOSHA's Excel files, the case descriptions and the ministry's reports (not committed; about 85 MB) |
 | `notebooks/312_starter.Rmd` | Guided exploration for ENVH 312 |
 | `notebooks/460_560_starter.Rmd` | Guided exploration for ENVH 460/560 (includes the ENVH 312 parts plus more advanced ones) |
 | `scripts/fetch_data.R` | Downloads KOSHA's microdata (90 Excel files) |
 | `scripts/build_dataset.R` | Combines the files and adds English labels |
 | `scripts/labels_ko_en.csv` | The Korean categories and their English translations |
 | `scripts/extract_insured_workers.py` | Extracts the denominators from the ministry's year-end reports (Python, because the reports are in Hangul word processor format) |
+| `scripts/extract_national_trend.py` | Builds the national series from the ministry's 2016 annual analysis (PDF) and this module's tables |
 
 Checked against the Ministry of Employment and Labor's year-end reports: for every year from 2017
 to 2025, the number of injured workers and deaths matches the published totals exactly, nationally,
@@ -98,15 +128,17 @@ by industry group and by establishment size (for example, 147,130 injured worker
 - [KOSHA yearly and quarterly reports](https://portal.kosha.or.kr/archive/indus-acc-statis/industrial-acc-statu)
   (year-end reports with definitions and tables; annual analyses back to 1982)
 - [Description on Korea's open data portal](https://www.data.go.kr/data/15127634/fileData.do)
+- [Accident case descriptions on Korea's open data portal](https://www.data.go.kr/data/15163146/fileData.do)
 
 ## Licence
 
-The microdata are listed on Korea's public data portal (data.go.kr) with no restriction on use
-("이용허락범위 제한 없음"). Credit KOSHA and the Ministry of Employment and Labor as the source.
-This module combined the files and translated the categories into English.
+The microdata and the accident case descriptions are listed on Korea's public data portal
+(data.go.kr) with no restriction on use ("이용허락범위 제한 없음"). Credit KOSHA and the Ministry of Employment and Labor as the source.
+This module combined the files and translated the categories and case descriptions into English.
 
 ## Citation
 
 Korea Occupational Safety and Health Agency (KOSHA), 산업재해통계 마이크로데이터 (industrial accident
-statistics microdata), 2017 to 2025, https://portal.kosha.or.kr, and Ministry of Employment and Labor,
-year-end industrial accident reports. Combined and translated by the authors of this repository.
+statistics microdata), 2017 to 2025, and 산업재해 사례 (accident case descriptions),
+https://portal.kosha.or.kr; Ministry of Employment and Labor, year-end industrial accident reports and
+2016 산업재해현황분석 (2016 industrial accident analysis). Combined and translated by the authors of this repository.

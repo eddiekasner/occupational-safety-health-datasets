@@ -42,6 +42,8 @@ read_module <- function(folder, name, ...) {
 injured <- read_module("tidy", "injured_workers.csv.gz")
 # Insured workers (the denominator for rates), by year, industry group and establishment size
 insured <- read_module("tidy", "insured_workers.csv")
+# National totals since workers' compensation insurance began in 1964
+national_trend <- read_module("tidy", "national_trend.csv")
 
 # Korea's official statistics count these two case types as deaths
 injured <- injured |>
@@ -90,6 +92,46 @@ national |>
    approval.
 3. The accident fatality rate fell, but the fatality rate for all deaths did not. Which kind of death
    keeps the overall rate up?
+
+**Your answer:**
+
+
+
+## The long view, 1964 to 2025
+
+```{r long-trend}
+national_trend |>
+  mutate(`Deaths (definition before 2011)` = 1e4 * deaths_old_definition / insured_workers,
+         `Deaths (current definition)` = 1e4 * deaths / insured_workers) |>
+  select(year, starts_with("Deaths")) |>
+  pivot_longer(-year, names_to = "measure", values_to = "rate", values_drop_na = TRUE) |>
+  ggplot(aes(year, rate, colour = measure)) +
+  geom_line() +
+  expand_limits(y = 0) +
+  labs(title = "Work-related deaths per 10,000 insured workers, 1964 to 2025", x = NULL,
+       y = NULL, colour = NULL)
+
+ggplot(national_trend, aes(year, injury_rate_pct)) +
+  geom_line() +
+  labs(title = "Injured workers per 100 insured workers", x = NULL, y = "%")
+
+ggplot(national_trend, aes(year, insured_workers / 1e6)) +
+  geom_line() +
+  expand_limits(y = 0) +
+  labs(title = "Workers covered by workers' compensation insurance", x = NULL, y = "Millions")
+```
+
+**Questions**
+
+4. How did the injury rate and the fatality rate change from the 1970s, when Korea was
+   industrialising fast, to today? Did they fall at the same pace?
+5. The number of insured workers grew from 82,000 in 1964 to 22.8 million in 2025, partly because
+   the insurance was extended step by step from large factories to all workplaces (including those
+   with a single worker, in 2000). How could this change in who is covered affect the rates? Look at
+   1999 and 2000.
+6. In 2011 Korea changed which deaths count (see the README). Both definitions are shown for 2003 to
+   2016. How big is the difference, and why is it important to know about such changes before
+   comparing years?
 
 **Your answer:**
 

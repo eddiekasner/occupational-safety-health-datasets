@@ -45,3 +45,41 @@ From the Ministry of Employment and Labor's year-end reports.
 
 Rates: injury rate (%) = 100 x injured / insured workers; fatality rate per 10,000 workers =
 10,000 x deaths / insured workers.
+
+## National trend (`national_trend.csv`)
+
+One row per year, 1964 to 2025. Blank where not published.
+
+| Column | Meaning |
+| --- | --- |
+| `year` | Year |
+| `insured_workers` | Workers covered by workers' compensation insurance |
+| `injured` | Injured workers (including deaths and disease cases) |
+| `injury_rate_pct` | Injured workers per 100 insured workers |
+| `deaths` | Deaths under the current definition (2003 onward; see the README) |
+| `accident_deaths` | Accident deaths under the current definition (2007 onward) |
+| `deaths_old_definition` | Deaths under the definition used before 2011 (1964 to 2016; includes, for example, road accidents outside the workplace) |
+| `injured_no_lasting_disability` | Injured workers without lasting disability (1964 to 2016) |
+| `disease_cases_in_care` | Occupational disease cases receiving care (1972 to 2016) |
+| `permanent_disability` | Workers left with a permanent disability (1989 to 2016) |
+| `frequency_rate` | Injured workers per million hours worked (1972 to 2016) |
+| `severity_rate` | Working days lost per 1,000 hours worked (1989 to 2016) |
+| `compensation_million_won` | Compensation paid, in millions of won (current prices, 1964 to 2016) |
+
+From 1964 to 2016, `injured` = `injured_no_lasting_disability` + `disease_cases_in_care` +
+`permanent_disability` + `deaths_old_definition` (except 1978, as published).
+
+## Accident case descriptions (`accident_cases.csv.gz`)
+
+One row per serious accident in manufacturing, as summarised by KOSHA.
+
+| Column | Meaning |
+| --- | --- |
+| `case_id` | Row number in KOSHA's file |
+| `year` | Year of the accident, where the description gives it |
+| `title_en`, `title_ko` | Short title (English translation, original Korean) |
+| `overview_en`, `overview_ko` | What happened |
+| `causes_en`, `causes_ko` | Causes |
+| `prevention_en`, `prevention_ko` | Measures to prevent a similar accident |
+
+In the English, "[company]" and "[name]" replace names that are masked in the source.
