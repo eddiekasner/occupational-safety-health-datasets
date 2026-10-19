@@ -9,10 +9,11 @@
 #                          variable only, so rows add up without double counting
 #   esaw_causes.csv        workplace accidents of wage and salary earners by ESAW variable
 #                          (activity, deviation, contact, injury, body part), year and sex
-#   rates.csv              accidents per 100,000 wage and salary earners and per million hours
-#                          worked, by industry section, sex and year, 2018 onward, with the
-#                          numbers of workers and hours
-#   farmers.csv            farmers' accidents per 100,000 insured farmers, 2000 onward
+#   rates.csv              wage and salary earners' accidents (at least 4 days of disability) per
+#                          100,000 workers and per million hours worked, by industry section,
+#                          sex, place and year, 2018 onward, with the numbers of workers and hours
+#   farmers.csv            farmers' accidents (at least 4 days of disability) per 100,000 insured
+#                          farmers, 2000 onward
 
 library(dplyr)
 library(readr)
@@ -83,23 +84,25 @@ totals <- accidents_all |>
          sex == "Total", industry_code == "SSS") |>
   select(year, total = accidents)
 
-# Keep the most detailed level of each variable: industry divisions (a letter and two digits)
+# Keep the most detailed level of each variable: industry divisions (a letter and two digits),
+# the local government sector (municipal employees are reported as a sector, not by industry)
 # and unknown industry, the three places, the nine outcomes, and age groups and sexes
 accidents <- accidents_all |>
   filter(status != "Total", place %in% names(place_labels), outcome %in% names(outcome_labels),
          age_group != "Total", sex != "Total",
-         grepl("^[A-Z]\\d{2}$", industry_code) | grepl("Unknown", industry_label),
+         grepl("^[A-Z]\\d{2}$", industry_code) | industry_code %in% c("S1313", "X"),
          !is.na(accidents), accidents > 0) |>
   mutate(status = recode(status, "Wage and salary earners" = "Wage and salary earner",
                          "Entrepreneurs (without farmers)" = "Entrepreneur"),
          place = unname(place_labels[place]),
          outcome = unname(outcome_labels[outcome]),
-         age_group = recode(age_group, "55-64" = "55+"),
          sex = recode(sex, "Males" = "Male", "Females" = "Female"),
          section = if_else(grepl("^[A-Z]\\d{2}$", industry_code), substr(industry_code, 1, 1),
                            NA_character_),
          industry_division = if_else(is.na(section), NA_character_, substr(industry_code, 2, 3)),
-         industry = sub("^\\d{2} ", "", industry_label)) |>
+         industry = case_when(industry_code == "S1313" ~ "Local government sector",
+                              industry_code == "X" ~ "Unknown",
+                              TRUE ~ sub("^\\d{2} ", "", industry_label))) |>
   select(year, status, place, outcome, sex, age_group, section, industry_division, industry,
          accidents) |>
   arrange(year, status, place, outcome, sex, age_group, section, industry_division)
@@ -144,31 +147,45 @@ esaw_causes <- map_dfr(names(esaw), function(t) {
 write_csv(esaw_causes, file.path(tidy_dir, "esaw_causes.csv"), na = "")
 
 # ---- Rates ----------------------------------------------------------------------------------------
+# Both rate tables count accidents with at least 4 days of disability among wage and salary earners
+# (the "Total" severity in table 12zz is the same figure). The rate per million hours covers
+# accidents at work, including traffic while working, but not commuting.
+rate_places <- c("SSS" = "All", "1" = "At work (including traffic while working)",
+                 "2" = "Workplace", "3" = "Traffic while working", "4" = "Commuting")
+section_names <- function(code, label) {
+  case_when(code == "SSS" ~ "Total", code == "S1313" ~ "Local government sector",
+            code == "X" ~ "Unknown",
+            code == "T" ~ "Activities of households as employers",
+            TRUE ~ sub(" \\([0-9-]+\\)$", "", sub("^[A-Z] ", "", label)))
+}
 per_worker <- read_jsonstat(file.path(raw_dir, "ttap_12zz.json")) |>
-  filter(henkilovahinko_30_19960101_label == "Total") |>
+  filter(henkilovahinko_24_19960101_label == "At least 4 days") |>
   transmute(year = as.integer(Timeperiod_y),
-            severity = henkilovahinko_24_19960101_label,
             sex = sukupuoli_9_20180101_label,
-            section = toimiala_79_20180101, section_name = toimiala_79_20180101_label,
-            measure = contentscode_label, value) |>
-  mutate(measure = case_when(grepl("per 100,000", measure) ~ "per_100000_workers",
-                             grepl("accidents", measure) ~ "accidents",
-                             TRUE ~ "workers")) |>
+            section = toimiala_79_20180101,
+            section_name = section_names(toimiala_79_20180101, toimiala_79_20180101_label),
+            place = unname(rate_places[henkilovahinko_30_19960101]),
+            measure = recode(contentscode, P_turmia = "accidents_4plus_days",
+                             Palkansaajat = "workers", P_suhde = "per_100000_workers"),
+            value) |>
   pivot_wider(names_from = measure, values_from = value)
 per_hours <- read_jsonstat(file.path(raw_dir, "ttap_13ql.json")) |>
   transmute(year = as.integer(Timeperiod_y), sex = sukupuoli_9_20180101_label,
-            section = toimiala_79_20180101, measure = contentscode_label, value) |>
-  mutate(measure = case_when(grepl("per million", measure) ~ "per_million_hours",
-                             grepl("hours", measure) ~ "hours_thousands",
-                             TRUE ~ "accidents_4plus_days")) |>
-  pivot_wider(names_from = measure, values_from = value)
+            section = toimiala_79_20180101,
+            place = "At work (including traffic while working)",
+            measure = case_when(grepl("per million", contentscode_label) ~ "per_million_hours",
+                                grepl("hours", contentscode_label) ~ "hours_thousands",
+                                TRUE ~ "accidents_hours_table"),
+            value) |>
+  pivot_wider(names_from = measure, values_from = value) |>
+  select(-accidents_hours_table)
 rates <- per_worker |>
-  pivot_wider(names_from = severity, values_from = c(accidents, per_100000_workers)) |>
-  left_join(per_hours |> select(-accidents_4plus_days), by = c("year", "sex", "section")) |>
-  rename_with(~ sub("_At least 4 days", "_4plus_days", sub("_Total", "_all", .x))) |>
+  left_join(per_hours, by = c("year", "sex", "section", "place")) |>
   mutate(sex = recode(sex, "Males" = "Male", "Females" = "Female"),
-         section = if_else(section == "SSS", "Total", section),
-         section_name = sub(" \\([0-9-]+\\)$", "", sub("^[A-Z] ", "", section_name)))
+         section = recode(section, "SSS" = "Total"),
+         place = factor(place, unname(rate_places))) |>
+  arrange(year, sex, section, place) |>
+  mutate(place = as.character(place))
 write_csv(rates, file.path(tidy_dir, "rates.csv"), na = "")
 
 # ---- Farmers --------------------------------------------------------------------------------------
@@ -182,8 +199,9 @@ farmers <- read_jsonstat(file.path(raw_dir, "ttap_129t.json")) |>
          sex = recode(sex, "Males" = "Male", "Females" = "Female"),
          severity = recode(severity, "At least 4 days" = "4plus_days", "Total" = "all")) |>
   pivot_wider(names_from = c(measure, severity), values_from = value) |>
-  select(-any_of("insured_farmers_4plus_days")) |>
-  rename(insured_farmers = insured_farmers_all)
+  # As in the rate tables, the "Total" severity is the same as "At least 4 days"; keep one
+  transmute(year, sex, age_group, insured_farmers = insured_farmers_all,
+            accidents_4plus_days, per_100000_farmers = per_100000_farmers_4plus_days)
 write_csv(farmers, file.path(tidy_dir, "farmers.csv"), na = "")
 
 for (f in list.files(tidy_dir, full.names = TRUE)) {

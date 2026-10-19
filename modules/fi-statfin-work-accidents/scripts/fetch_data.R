@@ -8,8 +8,9 @@
 # database. This script uses the database's PxWeb API (https://pxdata.stat.fi) and saves each
 # table, or each piece of a large table, as a JSON-stat file. The API allows 120,000 cells per
 # request and 40 requests a minute, so the largest table is downloaded one year and a few
-# industries at a time, with pauses. About 30 MB in all. Files already downloaded are skipped;
-# delete them to download again. Next step: run scripts/build_dataset.R.
+# industries at a time, with pauses (about 140 requests; 10 minutes or more). About 145 MB.
+# Files already downloaded are skipped; delete them to download again. Next step: run
+# scripts/build_dataset.R.
 
 file_arg <- grep("^--file=", commandArgs(FALSE), value = TRUE)
 script_dir <- if (length(file_arg)) {
