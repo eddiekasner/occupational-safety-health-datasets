@@ -1,0 +1,733 @@
+naf5,name_en
+0111Z,"Growing of cereals (except rice), leguminous crops and oil seeds"
+0112Z,Growing of rice
+0113Z,"Growing of vegetables and melons, roots and tubers"
+0114Z,Growing of sugar cane
+0115Z,Growing of tobacco
+0116Z,Growing of fibre crops
+0119Z,Growing of other non-perennial crops
+0121Z,Growing of grapes
+0122Z,Growing of tropical and subtropical fruits
+0123Z,Growing of citrus fruits
+0124Z,Growing of pome fruits and stone fruits
+0125Z,Growing of other tree and bush fruits and nuts
+0126Z,Growing of oleaginous fruits
+0127Z,Growing of beverage crops
+0128Z,"Growing of spices, aromatic, drug and pharmaceutical crops"
+0129Z,Growing of other perennial crops
+0130Z,Plant propagation
+0141Z,Raising of dairy cattle
+0142Z,Raising of other cattle and buffaloes
+0143Z,Raising of horses and other equines
+0144Z,Raising of camels and camelids
+0145Z,Raising of sheep and goats
+0146Z,Raising of swine/pigs
+0147Z,Raising of poultry
+0149Z,Raising of other animals
+0150Z,Mixed farming
+0161Z,Support activities for crop production
+0162Z,Support activities for animal production
+0163Z,Post-harvest crop activities
+0164Z,Seed processing for propagation
+0170Z,"Hunting, trapping and related service activities"
+0210Z,Silviculture and other forestry activities
+0220Z,Logging
+0230Z,Gathering of wild growing non-wood products
+0240Z,Support services to forestry
+0311Z,Marine fishing
+0312Z,Freshwater fishing
+0321Z,Marine aquaculture
+0322Z,Freshwater aquaculture
+0510Z,Mining of hard coal
+0520Z,Mining of lignite
+0610Z,Extraction of crude petroleum
+0620Z,Extraction of natural gas
+0710Z,Mining of iron ores
+0721Z,Mining of uranium and thorium ores
+0729Z,Mining of other non-ferrous metal ores
+0811Z,"Quarrying of ornamental and building stone, limestone, gypsum, chalk and slate"
+0812Z,Operation of gravel and sand pits; mining of clays and kaolin
+0891Z,Mining of chemical and fertiliser minerals
+0892Z,Extraction of peat
+0893Z,Extraction of salt
+0899Z,Other mining and quarrying n.e.c.
+0910Z,Support activities for petroleum and natural gas extraction
+0990Z,Support activities for other mining and quarrying
+1011Z,Processing and preserving of meat
+1012Z,Processing and preserving of poultry meat
+1013A,Industrial preparation of meat products
+1013B,Cured and cooked meats (charcuterie)
+1020Z,"Processing and preserving of fish, crustaceans and molluscs"
+1031Z,Processing and preserving of potatoes
+1032Z,Manufacture of fruit and vegetable juice
+1039A,Other processing and preserving of vegetables
+1039B,Processing and preserving of fruit
+1041A,Manufacture of crude oils and fats
+1041B,Manufacture of refined oils and fats
+1042Z,Manufacture of margarine and similar edible fats
+1051A,Manufacture of liquid milk and fresh dairy products
+1051B,Manufacture of butter
+1051C,Manufacture of cheese
+1051D,Manufacture of other dairy products
+1052Z,Manufacture of ice cream
+1061A,Flour milling
+1061B,Other grain milling activities
+1062Z,Manufacture of starches and starch products
+1071A,Industrial manufacture of bread and fresh pastry
+1071B,Baking of bakery products
+1071C,Bakery and bakery-pastry shops
+1071D,Pastry shops
+1072Z,Manufacture of rusks and biscuits; manufacture of preserved pastry goods and cakes
+1073Z,"Manufacture of macaroni, noodles, couscous and similar farinaceous products"
+1081Z,Manufacture of sugar
+1082Z,"Manufacture of cocoa, chocolate and sugar confectionery"
+1083Z,Processing of tea and coffee
+1084Z,Manufacture of condiments and seasonings
+1085Z,Manufacture of prepared meals and dishes
+1086Z,Manufacture of homogenised food preparations and dietetic food
+1089Z,Manufacture of other food products n.e.c.
+1091Z,Manufacture of prepared feeds for farm animals
+1092Z,Manufacture of prepared pet foods
+1101Z,"Distilling, rectifying and blending of spirits"
+1102A,Manufacture of sparkling wines
+1102B,Winemaking
+1103Z,Manufacture of cider and other fruit wines
+1104Z,Manufacture of other non-distilled fermented beverages
+1105Z,Manufacture of beer
+1106Z,Manufacture of malt
+1107A,Bottled water industry
+1107B,Production of soft drinks
+1200Z,Manufacture of tobacco products
+1310Z,Preparation and spinning of textile fibres
+1320Z,Weaving of textiles
+1330Z,Finishing of textiles
+1391Z,Manufacture of knitted and crocheted fabrics
+1392Z,"Manufacture of made-up textile articles, except apparel"
+1393Z,Manufacture of carpets and rugs
+1394Z,"Manufacture of cordage, rope, twine and netting"
+1395Z,"Manufacture of non-wovens and articles made from non-wovens, except apparel"
+1396Z,Manufacture of other technical and industrial textiles
+1399Z,Manufacture of other textiles n.e.c.
+1411Z,Manufacture of leather clothes
+1412Z,Manufacture of workwear
+1413Z,Manufacture of other outerwear
+1414Z,Manufacture of underwear
+1419Z,Manufacture of other wearing apparel and accessories
+1420Z,Manufacture of articles of fur
+1431Z,Manufacture of knitted and crocheted hosiery
+1439Z,Manufacture of other knitted and crocheted apparel
+1511Z,Tanning and dressing of leather; dressing and dyeing of fur
+1512Z,"Manufacture of luggage, handbags and the like, saddlery and harness"
+1520Z,Manufacture of footwear
+1610A,"Sawmilling and planing of wood, except impregnation"
+1610B,Impregnation of wood
+1621Z,Manufacture of veneer sheets and wood-based panels
+1622Z,Manufacture of assembled parquet floors
+1623Z,Manufacture of other builders' carpentry and joinery
+1624Z,Manufacture of wooden containers
+1629Z,"Manufacture of other products of wood; manufacture of articles of cork, straw and plaiting materials"
+1711Z,Manufacture of pulp
+1712Z,Manufacture of paper and paperboard
+1721A,Manufacture of corrugated board
+1721B,Manufacture of paperboard containers
+1721C,Manufacture of paper packaging
+1722Z,Manufacture of household and sanitary goods and of toilet requisites
+1723Z,Manufacture of paper stationery
+1724Z,Manufacture of wallpaper
+1729Z,Manufacture of other articles of paper and paperboard
+1811Z,Printing of newspapers
+1812Z,Other printing
+1813Z,Pre-press and pre-media services
+1814Z,Binding and related services
+1820Z,Reproduction of recorded media
+1910Z,Manufacture of coke oven products
+1920Z,Manufacture of refined petroleum products
+2011Z,Manufacture of industrial gases
+2012Z,Manufacture of dyes and pigments
+2013A,Enrichment and reprocessing of nuclear materials
+2013B,Manufacture of other inorganic basic chemicals n.e.c.
+2014Z,Manufacture of other organic basic chemicals
+2015Z,Manufacture of fertilisers and nitrogen compounds
+2016Z,Manufacture of plastics in primary forms
+2017Z,Manufacture of synthetic rubber in primary forms
+2020Z,Manufacture of pesticides and other agrochemical products
+2030Z,"Manufacture of paints, varnishes and similar coatings, printing ink and mastics"
+2041Z,"Manufacture of soap and detergents, cleaning and polishing preparations"
+2042Z,Manufacture of perfumes and toilet preparations
+2051Z,Manufacture of explosives
+2052Z,Manufacture of glues
+2053Z,Manufacture of essential oils
+2059Z,Manufacture of other chemical products n.e.c.
+2060Z,Manufacture of man-made fibres
+2110Z,Manufacture of basic pharmaceutical products
+2120Z,Manufacture of pharmaceutical preparations
+2211Z,Manufacture of rubber tyres and tubes; retreading and rebuilding of rubber tyres
+2219Z,Manufacture of other rubber products
+2221Z,"Manufacture of plastic plates, sheets, tubes and profiles"
+2222Z,Manufacture of plastic packing goods
+2223Z,Manufacture of builders' ware of plastic
+2229A,Manufacture of technical plastic parts
+2229B,Manufacture of plastic consumer goods
+2311Z,Manufacture of flat glass
+2312Z,Shaping and processing of flat glass
+2313Z,Manufacture of hollow glass
+2314Z,Manufacture of glass fibres
+2319Z,"Manufacture and processing of other glass, including technical glassware"
+2320Z,Manufacture of refractory products
+2331Z,Manufacture of ceramic tiles and flags
+2332Z,"Manufacture of bricks, tiles and construction products, in baked clay"
+2341Z,Manufacture of ceramic household and ornamental articles
+2342Z,Manufacture of ceramic sanitary fixtures
+2343Z,Manufacture of ceramic insulators and insulating fittings
+2344Z,Manufacture of other technical ceramic products
+2349Z,Manufacture of other ceramic products
+2351Z,Manufacture of cement
+2352Z,Manufacture of lime and plaster
+2361Z,Manufacture of concrete products for construction purposes
+2362Z,Manufacture of plaster products for construction purposes
+2363Z,Manufacture of ready-mixed concrete
+2364Z,Manufacture of mortars
+2365Z,Manufacture of fibre cement
+2369Z,"Manufacture of other articles of concrete, plaster and cement"
+2370Z,"Cutting, shaping and finishing of stone"
+2391Z,Production of abrasive products
+2399Z,Manufacture of other non-metallic mineral products n.e.c.
+2410Z,Manufacture of basic iron and steel and of ferro-alloys
+2420Z,"Manufacture of tubes, pipes, hollow profiles and related fittings, of steel"
+2431Z,Cold drawing of bars
+2432Z,Cold rolling of narrow strip
+2433Z,Cold forming or folding
+2434Z,Cold drawing of wire
+2441Z,Precious metals production
+2442Z,Aluminium production
+2443Z,"Lead, zinc and tin production"
+2444Z,Copper production
+2445Z,Other non-ferrous metal production
+2446Z,Processing of nuclear fuel
+2451Z,Casting of iron
+2452Z,Casting of steel
+2453Z,Casting of light metals
+2454Z,Casting of other non-ferrous metals
+2511Z,Manufacture of metal structures and parts of structures
+2512Z,Manufacture of doors and windows of metal
+2521Z,Manufacture of central heating radiators and boilers
+2529Z,"Manufacture of other tanks, reservoirs and containers of metal"
+2530Z,"Manufacture of steam generators, except central heating hot water boilers"
+2540Z,Manufacture of weapons and ammunition
+2550A,"Forging, stamping, die forging; powder metallurgy"
+2550B,Cutting and pressing of metal
+2561Z,Treatment and coating of metals
+2562A,Bar turning (screw machining)
+2562B,Industrial machining
+2571Z,Manufacture of cutlery
+2572Z,Manufacture of locks and hinges
+2573A,Manufacture of moulds and patterns
+2573B,Manufacture of other tools
+2591Z,Manufacture of steel drums and similar containers
+2592Z,Manufacture of light metal packaging
+2593Z,"Manufacture of wire products, chain and springs"
+2594Z,Manufacture of fasteners and screw machine products
+2599A,Manufacture of household metal articles
+2599B,Manufacture of other fabricated metal products
+2611Z,Manufacture of electronic components
+2612Z,Manufacture of loaded electronic boards
+2620Z,Manufacture of computers and peripheral equipment
+2630Z,Manufacture of communication equipment
+2640Z,Manufacture of consumer electronics
+2651A,Manufacture of navigational aid equipment
+2651B,Manufacture of scientific and technical instrumentation
+2652Z,Manufacture of watches and clocks
+2660Z,"Manufacture of irradiation, electromedical and electrotherapeutic equipment"
+2670Z,Manufacture of optical instruments and photographic equipment
+2680Z,Manufacture of magnetic and optical media
+2711Z,"Manufacture of electric motors, generators and transformers"
+2712Z,Manufacture of electricity distribution and control apparatus
+2720Z,Manufacture of batteries and accumulators
+2731Z,Manufacture of fibre optic cables
+2732Z,Manufacture of other electronic and electric wires and cables
+2733Z,Manufacture of wiring devices
+2740Z,Manufacture of electric lighting equipment
+2751Z,Manufacture of electric domestic appliances
+2752Z,Manufacture of non-electric domestic appliances
+2790Z,Manufacture of other electrical equipment
+2811Z,"Manufacture of engines and turbines, except aircraft, vehicle and cycle engines"
+2812Z,Manufacture of fluid power equipment
+2813Z,Manufacture of other pumps and compressors
+2814Z,Manufacture of other taps and valves
+2815Z,"Manufacture of bearings, gears, gearing and driving elements"
+2821Z,"Manufacture of ovens, furnaces and furnace burners"
+2822Z,Manufacture of lifting and handling equipment
+2823Z,Manufacture of office machinery and equipment (except computers and peripheral equipment)
+2824Z,Manufacture of power-driven hand tools
+2825Z,Manufacture of non-domestic cooling and ventilation equipment
+2829A,"Manufacture of packaging, packing and weighing equipment"
+2829B,Manufacture of other general-purpose machinery
+2830Z,Manufacture of agricultural and forestry machinery
+2841Z,Manufacture of metal forming machinery
+2849Z,Manufacture of other machine tools
+2891Z,Manufacture of machinery for metallurgy
+2892Z,"Manufacture of machinery for mining, quarrying and construction"
+2893Z,"Manufacture of machinery for food, beverage and tobacco processing"
+2894Z,"Manufacture of machinery for textile, apparel and leather production"
+2895Z,Manufacture of machinery for paper and paperboard production
+2896Z,Manufacture of plastics and rubber machinery
+2899A,Manufacture of printing machinery
+2899B,Manufacture of other special-purpose machinery
+2910Z,Manufacture of motor vehicles
+2920Z,Manufacture of bodies (coachwork) for motor vehicles; manufacture of trailers and semi-trailers
+2931Z,Manufacture of electrical and electronic equipment for motor vehicles
+2932Z,Manufacture of other parts and accessories for motor vehicles
+3011Z,Building of ships and floating structures
+3012Z,Building of pleasure and sporting boats
+3020Z,Manufacture of railway locomotives and rolling stock
+3030Z,Manufacture of air and spacecraft and related machinery
+3040Z,Manufacture of military fighting vehicles
+3091Z,Manufacture of motorcycles
+3092Z,Manufacture of bicycles and invalid carriages
+3099Z,Manufacture of other transport equipment n.e.c.
+3101Z,Manufacture of office and shop furniture
+3102Z,Manufacture of kitchen furniture
+3103Z,Manufacture of mattresses
+3109A,Manufacture of indoor upholstered seating
+3109B,Manufacture of other furniture and related furnishing industries
+3211Z,Striking of coins
+3212Z,Manufacture of jewellery and related articles
+3213Z,Manufacture of imitation jewellery and related articles
+3220Z,Manufacture of musical instruments
+3230Z,Manufacture of sports goods
+3240Z,Manufacture of games and toys
+3250A,"Manufacture of medical, surgical and dental equipment"
+3250B,Manufacture of eyeglasses
+3291Z,Manufacture of brooms and brushes
+3299Z,Other manufacturing n.e.c.
+3311Z,Repair of fabricated metal products
+3312Z,Repair of machinery
+3313Z,Repair of electronic and optical equipment
+3314Z,Repair of electrical equipment
+3315Z,Repair and maintenance of ships and boats
+3316Z,Repair and maintenance of aircraft and spacecraft
+3317Z,Repair and maintenance of other transport equipment
+3319Z,Repair of other equipment
+3320A,"Installation of metal structures, boilermaking and piping"
+3320B,Installation of machinery and mechanical equipment
+3320C,Overall design and on-site assembly of industrial process control equipment
+3320D,"Installation of electrical equipment, electronic and optical equipment or other equipment"
+3511Z,Production of electricity
+3512Z,Transmission of electricity
+3513Z,Distribution of electricity
+3514Z,Trade of electricity
+3521Z,Manufacture of gas
+3522Z,Distribution of gaseous fuels through mains
+3523Z,Trade of gas through mains
+3530Z,Steam and air conditioning supply
+3600Z,"Water collection, treatment and supply"
+3700Z,Sewerage
+3811Z,Collection of non-hazardous waste
+3812Z,Collection of hazardous waste
+3821Z,Treatment and disposal of non-hazardous waste
+3822Z,Treatment and disposal of hazardous waste
+3831Z,Dismantling of wrecks
+3832Z,Recovery of sorted materials
+3900Z,Remediation activities and other waste management services
+4110A,Residential real estate development
+4110B,Office real estate development
+4110C,Real estate development of other buildings
+4110D,Legal entities for development programmes
+4120A,Construction of single-family houses
+4120B,Construction of other buildings
+4211Z,Construction of roads and motorways
+4212Z,Construction of railways and underground railways
+4213A,Construction of bridges and civil engineering structures
+4213B,Construction and maintenance of tunnels
+4221Z,Construction of utility projects for fluids
+4222Z,Construction of utility projects for electricity and telecommunications
+4291Z,Construction of water projects
+4299Z,Construction of other civil engineering projects n.e.c.
+4311Z,Demolition
+4312A,General earthmoving and site preparation works
+4312B,Specialised or large-scale earthmoving works
+4313Z,Test drilling and boring
+4321A,Electrical installation work in all premises
+4321B,Electrical installation work on public roads
+4322A,Water and gas installation work in all premises
+4322B,Installation of heating and air conditioning equipment
+4329A,Insulation work
+4329B,Other construction installation n.e.c.
+4331Z,Plastering
+4332A,Wood and PVC joinery installation
+4332B,Metal joinery and locksmithing work
+4332C,Fitting out of retail premises
+4333Z,Floor and wall covering
+4334Z,Painting and glazing
+4339Z,Other building completion and finishing
+4391A,Roof framing work
+4391B,Roof covering work
+4399A,Waterproofing work
+4399B,Erection of steel structures
+4399C,General masonry and structural building work
+4399D,Other specialised construction activities
+4399E,Rental of construction equipment with operator
+4511Z,Sale of cars and light motor vehicles
+4519Z,Sale of other motor vehicles
+4520A,Maintenance and repair of cars and light motor vehicles
+4520B,Maintenance and repair of other motor vehicles
+4531Z,Wholesale trade of motor vehicle parts and accessories
+4532Z,Retail trade of motor vehicle parts and accessories
+4540Z,"Sale, maintenance and repair of motorcycles and related parts and accessories"
+4611Z,"Agents involved in the sale of agricultural raw materials, live animals, textile raw materials and semi-finished goods"
+4612A,Fuel purchasing centres
+4612B,"Other agents involved in the sale of fuels, ores, metals and industrial chemicals"
+4613Z,Agents involved in the sale of timber and building materials
+4614Z,"Agents involved in the sale of machinery, industrial equipment, ships and aircraft"
+4615Z,"Agents involved in the sale of furniture, household goods, hardware and ironmongery"
+4616Z,"Agents involved in the sale of textiles, clothing, fur, footwear and leather goods"
+4617A,Food purchasing centres
+4617B,"Other agents involved in the sale of food, beverages and tobacco"
+4618Z,Agents specialised in the sale of other particular products
+4619A,Non-food purchasing centres
+4619B,Other agents involved in the sale of a variety of goods
+4621Z,"Wholesale of grain, unmanufactured tobacco, seeds and animal feeds"
+4622Z,Wholesale of flowers and plants
+4623Z,Wholesale of live animals
+4624Z,"Wholesale of hides, skins and leather"
+4631Z,Wholesale of fruit and vegetables
+4632A,Wholesale of butchers' meat
+4632B,Wholesale of meat products
+4632C,Wholesale of poultry and game
+4633Z,"Wholesale of dairy products, eggs and edible oils and fats"
+4634Z,Wholesale of beverages
+4635Z,Wholesale of tobacco products
+4636Z,Wholesale of sugar and chocolate and sugar confectionery
+4637Z,"Wholesale of coffee, tea, cocoa and spices"
+4638A,"Wholesale of fish, crustaceans and molluscs"
+4638B,Miscellaneous specialised wholesale of food
+4639A,Wholesale of frozen food products
+4639B,Non-specialised wholesale of food
+4641Z,Wholesale of textiles
+4642Z,Wholesale of clothing and footwear
+4643Z,Wholesale of electrical household appliances
+4644Z,Wholesale of china and glassware and cleaning materials
+4645Z,Wholesale of perfume and cosmetics
+4646Z,Wholesale of pharmaceutical goods
+4647Z,"Wholesale of furniture, carpets and lighting equipment"
+4648Z,Wholesale of watches and jewellery
+4649Z,Wholesale of other household goods
+4651Z,"Wholesale of computers, computer peripheral equipment and software"
+4652Z,Wholesale of electronic and telecommunications equipment and parts
+4661Z,"Wholesale of agricultural machinery, equipment and supplies"
+4662Z,Wholesale of machine tools
+4663Z,"Wholesale of mining, construction and civil engineering machinery"
+4664Z,Wholesale of machinery for the textile industry and of sewing and knitting machines
+4665Z,Wholesale of office furniture
+4666Z,Wholesale of other office machinery and equipment
+4669A,Wholesale of electrical equipment
+4669B,Wholesale of miscellaneous industrial supplies and equipment
+4669C,Wholesale of miscellaneous supplies and equipment for trade and services
+4671Z,"Wholesale of solid, liquid and gaseous fuels and related products"
+4672Z,Wholesale of metals and metal ores
+4673A,Wholesale of wood and construction materials
+4673B,Wholesale of sanitary equipment and decoration products
+4674A,Wholesale of hardware
+4674B,Wholesale of plumbing and heating supplies
+4675Z,Wholesale of chemical products
+4676Z,Wholesale of other intermediate products
+4677Z,Wholesale of waste and scrap
+4690Z,Non-specialised wholesale trade
+4711A,Retail sale of frozen food products
+4711B,General food retail
+4711C,Convenience stores (superettes)
+4711D,Supermarkets
+4711E,Multi-store retail outlets
+4711F,Hypermarkets
+4719A,Department stores
+4719B,Other retail sale in non-specialised stores
+4721Z,Retail sale of fruit and vegetables in specialised stores
+4722Z,Retail sale of meat and meat products in specialised stores
+4723Z,"Retail sale of fish, crustaceans and molluscs in specialised stores"
+4724Z,"Retail sale of bread, cakes, flour confectionery and sugar confectionery in specialised stores"
+4725Z,Retail sale of beverages in specialised stores
+4726Z,Retail sale of tobacco products in specialised stores
+4729Z,Other retail sale of food in specialised stores
+4730Z,Retail sale of automotive fuel in specialised stores
+4741Z,"Retail sale of computers, peripheral units and software in specialised stores"
+4742Z,Retail sale of telecommunications equipment in specialised stores
+4743Z,Retail sale of audio and video equipment in specialised stores
+4751Z,Retail sale of textiles in specialised stores
+4752A,"Retail sale of hardware, paints and glass in small stores (under 400 m2)"
+4752B,"Retail sale of hardware, paints and glass in large stores (400 m2 and over)"
+4753Z,"Retail sale of carpets, rugs, wall and floor coverings in specialised stores"
+4754Z,Retail sale of electrical household appliances in specialised stores
+4759A,Retail sale of furniture
+4759B,Retail sale of other household equipment
+4761Z,Retail sale of books in specialised stores
+4762Z,Retail sale of newspapers and stationery in specialised stores
+4763Z,Retail sale of music and video recordings in specialised stores
+4764Z,Retail sale of sporting equipment in specialised stores
+4765Z,Retail sale of games and toys in specialised stores
+4771Z,Retail sale of clothing in specialised stores
+4772A,Retail sale of footwear
+4772B,Retail sale of leather goods and travel articles
+4773Z,Dispensing chemist in specialised stores
+4774Z,Retail sale of medical and orthopaedic goods in specialised stores
+4775Z,Retail sale of cosmetic and toilet articles in specialised stores
+4776Z,"Retail sale of flowers, plants, seeds, fertilisers, pet animals and pet food in specialised stores"
+4777Z,Retail sale of watches and jewellery in specialised stores
+4778A,Retail sale of optical goods
+4778B,Retail sale of coal and fuels
+4778C,Other miscellaneous specialised retail sale
+4779Z,Retail sale of second-hand goods in stores
+4781Z,"Retail sale via stalls and markets of food, beverages and tobacco products"
+4782Z,"Retail sale via stalls and markets of textiles, clothing and footwear"
+4789Z,Retail sale via stalls and markets of other goods
+4791A,Distance selling by general catalogue
+4791B,Distance selling by specialised catalogue
+4799A,Door-to-door selling
+4799B,"Vending machine sales and other retail sale not in stores, stalls or markets n.e.c."
+4910Z,"Passenger rail transport, interurban"
+4920Z,Freight rail transport
+4931Z,Urban and suburban passenger land transport
+4932Z,Taxi operation
+4939A,Scheduled passenger road transport
+4939B,Other passenger road transport
+4939C,Cable cars and ski lifts
+4941A,Interurban freight transport by road
+4941B,Local freight transport by road
+4941C,Rental of trucks with driver
+4942Z,Removal services
+4950Z,Transport via pipeline
+5010Z,Sea and coastal passenger water transport
+5020Z,Sea and coastal freight water transport
+5030Z,Inland passenger water transport
+5040Z,Inland freight water transport
+5110Z,Passenger air transport
+5121Z,Freight air transport
+5122Z,Space transport
+5210A,Refrigerated warehousing and storage
+5210B,Non-refrigerated warehousing and storage
+5221Z,Service activities incidental to land transportation
+5222Z,Service activities incidental to water transportation
+5223Z,Service activities incidental to air transportation
+5224A,Port cargo handling
+5224B,Non-port cargo handling
+5229A,Parcel delivery and express freight
+5229B,Freight chartering and transport organisation
+5310Z,Postal activities under universal service obligation
+5320Z,Other postal and courier activities
+5510Z,Hotels and similar accommodation
+5520Z,Holiday and other short-stay accommodation
+5530Z,"Camping grounds, recreational vehicle parks and trailer parks"
+5590Z,Other accommodation
+5610A,Traditional restaurants
+5610B,Cafeterias and other self-service restaurants
+5610C,Fast food restaurants
+5621Z,Event catering activities
+5629A,Contract catering
+5629B,Other food service activities n.e.c.
+5630Z,Beverage serving activities
+5811Z,Book publishing
+5812Z,Publishing of directories and mailing lists
+5813Z,Publishing of newspapers
+5814Z,Publishing of journals and periodicals
+5819Z,Other publishing activities
+5821Z,Publishing of computer games
+5829A,Publishing of system and network software
+5829B,Publishing of development tools and programming language software
+5829C,Publishing of application software
+5911A,Production of films and programmes for television
+5911B,Production of corporate and advertising films
+5911C,Production of feature films for cinema
+5912Z,"Motion picture, video and television programme post-production activities"
+5913A,Motion picture distribution
+5913B,Video publishing and distribution
+5914Z,Motion picture projection activities
+5920Z,Sound recording and music publishing activities
+6010Z,Radio broadcasting
+6020A,General-interest television channels
+6020B,Thematic television channels
+6110Z,Wired telecommunications activities
+6120Z,Wireless telecommunications activities
+6130Z,Satellite telecommunications activities
+6190Z,Other telecommunications activities
+6201Z,Computer programming activities
+6202A,Computer systems and software consultancy
+6202B,Third-party maintenance of computer systems and applications
+6203Z,Computer facilities management activities
+6209Z,Other information technology and computer service activities
+6311Z,"Data processing, hosting and related activities"
+6312Z,Web portals
+6391Z,News agency activities
+6399Z,Other information service activities n.e.c.
+6411Z,Central banking
+6419Z,Other monetary intermediation
+6420Z,Activities of holding companies
+6430Z,"Trusts, funds and similar financial entities"
+6491Z,Financial leasing
+6492Z,Other credit granting
+6499Z,"Other financial service activities, except insurance and pension funding n.e.c."
+6511Z,Life insurance
+6512Z,Non-life insurance
+6520Z,Reinsurance
+6530Z,Pension funding
+6611Z,Administration of financial markets
+6612Z,Security and commodity contracts brokerage
+6619A,Legal entities for managing securities portfolios
+6619B,"Other activities auxiliary to financial services, except insurance and pension funding n.e.c."
+6621Z,Risk and damage evaluation
+6622Z,Activities of insurance agents and brokers
+6629Z,Other activities auxiliary to insurance and pension funding
+6630Z,Fund management activities
+6810Z,Buying and selling of own real estate
+6820A,Renting of dwellings
+6820B,Renting of land and other real estate
+6831Z,Real estate agencies
+6832A,Management of buildings and other real estate
+6832B,Legal entities for managing real estate holdings
+6910Z,Legal activities
+6920Z,"Accounting, bookkeeping and auditing activities; tax consultancy"
+7010Z,Activities of head offices
+7021Z,Public relations and communication activities
+7022Z,Business and other management consultancy activities
+7111Z,Architectural activities
+7112A,Surveying activities
+7112B,Engineering and related technical consultancy
+7120A,Motor vehicle roadworthiness testing
+7120B,Technical testing and analysis
+7211Z,Research and experimental development on biotechnology
+7219Z,Other research and experimental development on natural sciences and engineering
+7220Z,Research and experimental development on social sciences and humanities
+7311Z,Advertising agencies
+7312Z,Media representation
+7320Z,Market research and public opinion polling
+7410Z,Specialised design activities
+7420Z,Photographic activities
+7430Z,Translation and interpretation activities
+7490A,Quantity surveying (construction economists)
+7490B,"Other professional, scientific and technical activities"
+7500Z,Veterinary activities
+7711A,Short-term rental of cars and light motor vehicles
+7711B,Long-term rental of cars and light motor vehicles
+7712Z,Renting and leasing of trucks
+7721Z,Renting and leasing of recreational and sports goods
+7722Z,Renting of video tapes and disks
+7729Z,Renting and leasing of other personal and household goods
+7731Z,Renting and leasing of agricultural machinery and equipment
+7732Z,Renting and leasing of construction and civil engineering machinery and equipment
+7733Z,Renting and leasing of office machinery and equipment (including computers)
+7734Z,Renting and leasing of water transport equipment
+7735Z,Renting and leasing of air transport equipment
+7739Z,"Renting and leasing of other machinery, equipment and tangible goods n.e.c."
+7740Z,"Leasing of intellectual property and similar products, except copyrighted works"
+7810Z,Activities of employment placement agencies
+7820Z,Temporary employment agency activities
+7830Z,Other human resources provision
+7911Z,Travel agency activities
+7912Z,Tour operator activities
+7990Z,Other reservation service and related activities
+8010Z,Private security activities
+8020Z,Security systems service activities
+8030Z,Investigation activities
+8110Z,Combined facilities support activities
+8121Z,General cleaning of buildings
+8122Z,Other building and industrial cleaning activities
+8129A,"Disinfection, insect control and rodent control"
+8129B,Other cleaning activities n.e.c.
+8130Z,Landscape service activities
+8211Z,Combined office administrative service activities
+8219Z,"Photocopying, document preparation and other specialised office support activities"
+8220Z,Activities of call centres
+8230Z,Organisation of conventions and trade shows
+8291Z,Activities of collection agencies and credit bureaus
+8292Z,Packaging activities
+8299Z,Other business support service activities n.e.c.
+8411Z,General public administration activities
+8412Z,"Regulation of the activities of providing health care, education, cultural services and other social services, excluding social security"
+8413Z,Regulation of and contribution to more efficient operation of businesses
+8421Z,Foreign affairs
+8422Z,Defence activities
+8423Z,Justice and judicial activities
+8424Z,Public order and safety activities
+8425Z,Fire service activities
+8430A,General social security activities
+8430B,Management of supplementary pension schemes
+8430C,Social distribution of income
+8510Z,Pre-primary education
+8520Z,Primary education
+8531Z,General secondary education
+8532Z,Technical and vocational secondary education
+8541Z,Post-secondary non-tertiary education
+8542Z,Tertiary education
+8551Z,Sports and recreation education
+8552Z,Cultural education
+8553Z,Driving school activities
+8559A,Continuing adult education
+8559B,Other education
+8560Z,Educational support activities
+8610Z,Hospital activities
+8621Z,General medical practice activities
+8622A,Radiodiagnosis and radiotherapy activities
+8622B,Surgical activities
+8622C,Other specialist medical practice activities
+8623Z,Dental practice activities
+8690A,Ambulance services
+8690B,Medical analysis laboratories
+8690C,Collection centres and organ banks
+8690D,Activities of nurses and midwives
+8690E,Activities of rehabilitation and orthotics professionals and chiropodists-podiatrists
+8690F,Human health activities not elsewhere classified
+8710A,Residential nursing care for the elderly
+8710B,Residential nursing care for disabled children
+8710C,Residential nursing care for disabled adults and other residential nursing care
+8720A,Residential care for people with intellectual disabilities and mental illness
+8720B,Residential care for substance abusers
+8730A,Residential care for the elderly
+8730B,Residential care for the physically disabled
+8790A,Residential care for children in difficulty
+8790B,Residential care for adults and families in difficulty and other residential care
+8810A,Home help services
+8810B,Non-residential care or support for disabled adults or the elderly
+8810C,Sheltered employment
+8891A,Childcare for young children
+8891B,Non-residential care or support for disabled children
+8899A,Other non-residential care or support for children and adolescents
+8899B,Other social work activities without accommodation n.e.c.
+9001Z,Performing arts
+9002Z,Support activities to performing arts
+9003A,Artistic creation in the visual arts
+9003B,Other artistic creation
+9004Z,Operation of arts facilities
+9101Z,Library and archives activities
+9102Z,Museums activities
+9103Z,Operation of historical sites and buildings and similar visitor attractions
+9104Z,Botanical and zoological gardens and nature reserves activities
+9200Z,Gambling and betting activities
+9311Z,Operation of sports facilities
+9312Z,Activities of sport clubs
+9313Z,Fitness facilities
+9319Z,Other sports activities
+9321Z,Activities of amusement parks and theme parks
+9329Z,Other amusement and recreation activities
+9411Z,"Activities of business, employers and chamber organisations"
+9412Z,Activities of professional membership organisations
+9420Z,Activities of trade unions
+9491Z,Activities of religious organisations
+9492Z,Activities of political organisations
+9499Z,Activities of other membership organisations n.e.c.
+9511Z,Repair of computers and peripheral equipment
+9512Z,Repair of communication equipment
+9521Z,Repair of consumer electronics
+9522Z,Repair of household appliances and home and garden equipment
+9523Z,Repair of footwear and leather goods
+9524Z,Repair of furniture and home furnishings
+9525Z,"Repair of watches, clocks and jewellery"
+9529Z,Repair of other personal and household goods
+9601A,Industrial laundry and dry cleaning
+9601B,Retail laundry and dry cleaning
+9602A,Hairdressing
+9602B,Beauty treatment
+9603Z,Funeral and related activities
+9604Z,Physical well-being activities
+9609Z,Other personal service activities n.e.c.
+9700Z,Activities of households as employers of domestic personnel
+9810Z,Undifferentiated goods-producing activities of private households for own use
+9820Z,Undifferentiated service-producing activities of private households for own use
+9900Z,Activities of extraterritorial organisations and bodies

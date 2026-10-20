@@ -1,0 +1,111 @@
+variable,french,english
+risk,Accidents du travail,Work accidents
+risk,Accidents de trajet,Commuting accidents
+risk,Maladies professionnelles,Occupational diseases
+risk,Tous risques confondus,All risks
+naf1,A,"Agriculture, forestry and fishing"
+naf1,B,Mining and quarrying
+naf1,C,Manufacturing
+naf1,D,"Electricity, gas, steam and air conditioning supply"
+naf1,E,"Water supply; sewerage, waste management and remediation"
+naf1,F,Construction
+naf1,G,Wholesale and retail trade; repair of motor vehicles and motorcycles
+naf1,H,Transportation and storage
+naf1,I,Accommodation and food service activities
+naf1,J,Information and communication
+naf1,K,Financial and insurance activities
+naf1,L,Real estate activities
+naf1,M,"Professional, scientific and technical activities"
+naf1,N,Administrative and support service activities
+naf1,O,Public administration
+naf1,P,Education
+naf1,Q,Human health and social work activities
+naf1,R,"Arts, entertainment and recreation"
+naf1,S,Other service activities
+naf1,T,Activities of households as employers
+naf1,U,Activities of extraterritorial organisations
+naf1,TOUS,All sectors
+naf1,x,Sector not known
+work_accident_cause,Agressions,Assault
+work_accident_cause,Autres causes,Other causes
+work_accident_cause,Chutes de hauteur,Falls from height
+work_accident_cause,Chutes de plain-pied,Falls on the same level
+work_accident_cause,Manutention manuelle,Manual handling
+work_accident_cause,Manutention mécanique,Mechanical handling
+work_accident_cause,Outillage à main,Hand tools
+work_accident_cause,Risque chimique,Chemical hazards
+work_accident_cause,Risque machine,Machinery
+work_accident_cause,Risque physique,Physical hazards
+work_accident_cause,Risque routier,Road traffic
+work_accident_cause,Toutes causes confondues,All causes
+commuting_cause,Autres causes,Other causes
+commuting_cause,Chute de hauteur,Fall from height
+commuting_cause,Entrainé par quelque chose ou quelqu'un,Dragged or carried along by something or someone
+commuting_cause,Geste intempestif,Sudden or awkward movement
+commuting_cause,Perte d'équilibre avec chute,Loss of balance with a fall
+commuting_cause,Perte d'équilibre sans chute,Loss of balance without a fall
+commuting_cause,Perte de contrôle d'un véhicule,Loss of control of a vehicle
+commuting_cause,Toutes causes confondues,All causes
+commuting_cause,Violence et agression,Violence and assault
+vehicle,Autres,Other vehicles
+vehicle,Deux-roues motorisé,Motorised two-wheeler
+vehicle,Tous types de véhicules confondus,All vehicles
+vehicle,"Vélo, trottinette",Bicycle or scooter
+vehicle,Voiture,Car
+disease_group,Autres tableaux de maladies professionnelles,Other scheduled occupational diseases
+disease_group,Cancers,Cancers
+disease_group,Covid-19,COVID-19
+disease_group,Maladies professionnelles hors tableau,Unscheduled occupational diseases
+disease_group,Pathologies liées à l'amiante,Asbestos-related diseases
+disease_group,Tous groupes de maladies professionnelles confondues,All occupational diseases
+disease_group,Troubles musculosquelettiques,Musculoskeletal disorders
+icd10_chapter,Certaines maladies infectieuses et parasitaires,Certain infectious and parasitic diseases
+icd10_chapter,Tumeurs,Neoplasms
+icd10_chapter,Maladies du sang et des organes hématopoïétiques et certains troubles du système immunitaire,Diseases of the blood and immune system
+icd10_chapter,"Maladies endocriniennes, nutritionnelles et métaboliques","Endocrine, nutritional and metabolic diseases"
+icd10_chapter,Maladies de l'appareil circulatoire,Diseases of the circulatory system
+icd10_chapter,Troubles mentaux et du comportement,Mental and behavioural disorders
+icd10_chapter,Maladies du système nerveux,Diseases of the nervous system
+icd10_chapter,Maladies de l'œil et de ses annexes,Diseases of the eye and adnexa
+icd10_chapter,Maladies de l'oreille et de l'apophyse mastoïde,Diseases of the ear and mastoid process
+icd10_chapter,Maladies de l'appareil respiratoire,Diseases of the respiratory system
+icd10_chapter,Maladies de l'appareil digestif,Diseases of the digestive system
+icd10_chapter,Maladies de la peau et du tissu cellulaire sous-cutané,Diseases of the skin and subcutaneous tissue
+icd10_chapter,"Maladies du système ostéo-articulaire, des muscles et du tissu conjonctif",Diseases of the musculoskeletal system and connective tissue
+icd10_chapter,Maladies de l'appareil génito-urinaire,Diseases of the genitourinary system
+icd10_chapter,"Lésions traumatiques, empoisonnements et certaines autres conséquences de causes externes","Injury, poisoning and other consequences of external causes"
+icd10_chapter,"Grossesse, accouchement et puerpéralité","Pregnancy, childbirth and the puerperium"
+icd10_chapter,Certaines affections dont l'origine se situe dans la période périnatale,Conditions originating in the perinatal period
+icd10_chapter,Malformations congénitales et anomalies chromosomiques,Congenital malformations and chromosomal abnormalities
+icd10_chapter,"Symptômes, signes et résultats anormaux d'examens cliniques et de laboratoire, non classés ailleurs","Symptoms, signs and abnormal findings, not elsewhere classified"
+icd10_chapter,Facteurs influant sur l'état de santé et motifs de recours aux services de santé,Factors influencing health status and contact with health services
+icd10_chapter,Toutes maladies professionnelles hors tableau,All unscheduled occupational diseases
+msd_table,Affections périarticulaires provoquées par certains gestes et postures de travail,Periarticular disorders caused by certain work movements and postures
+msd_table,"Affections provoquées par les vibrations et chocs transmis par certaines machines-outils, outils et objets et par les chocs itératifs du talon de la main sur des éléments fixes","Disorders caused by vibration and shocks from machine tools, tools and objects, and by repeated striking with the heel of the hand"
+msd_table,Lésions chroniques du ménisque à caractère dégénératif,Chronic degenerative lesions of the meniscus
+msd_table,Affections chroniques du rachis lombaire provoquées par des vibrations de basses et moyennes fréquences transmises par le corps entier,Chronic lumbar spine disorders caused by whole-body vibration
+msd_table,Affections chroniques du rachis lombaire provoquées par la manutention manuelle de charges lourdes,Chronic lumbar spine disorders caused by manual handling of heavy loads
+msd_table,Tous tableaux TMS confondus,All musculoskeletal disorder tables
+body_part,épaule,Shoulder
+body_part,coude,Elbow
+body_part,"poignet, main, doigt","Wrist, hand, finger"
+body_part,genou,Knee
+body_part,"cheville, pied","Ankle, foot"
+body_part,dos,Back
+body_part,corps entier,All body parts
+body_part,association de plusieurs syndromes du tableau,Several syndromes in the same table
+sex,Femmes,Female
+sex,Hommes,Male
+sex,Tous sexes,All
+company_size,'Moins de 10,Under 10
+company_size,'10-19,10-19
+company_size,'20-49,20-49
+company_size,'50-149,50-149
+company_size,'150-199,150-199
+company_size,'200-499,200-499
+company_size,'500 et plus,500+
+company_size,'Toutes tranches d'effectifs confondues,All sizes
+cost_item,"Frais de santé (frais médicaux, pharmacie, hospitalisation)","Health care (medical, pharmacy, hospital)"
+cost_item,"Indemnités en capital, rentes, capital décès","Lump sums, pensions and death benefits"
+cost_item,Indemnités journalières,Daily allowances (sick pay)
+cost_item,Tous postes de dépense confondus,All costs
