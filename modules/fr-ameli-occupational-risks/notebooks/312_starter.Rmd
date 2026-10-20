@@ -1,0 +1,202 @@
+---
+title: "France Occupational Risks: Starter Notebook"
+subtitle: "ENVH 312"
+author: "Your name"
+output:
+  html_document:
+    toc: true
+    df_print: paged
+---
+
+In France, the national health insurance fund (Caisse nationale de l'Assurance Maladie) also runs
+the workers' compensation insurance for most private-sector employees. It publishes the number of
+recognised work accidents, commuting accidents and occupational diseases by sector, with the number
+of employees, deaths, days off work and permanent incapacities. This notebook uses national totals
+from 2005 and sector detail from 2015 to 2024. Read the module [README](../README.md) and
+[data dictionary](../data_dictionary.md) first.
+
+**How to use this notebook**
+
+- Run each code chunk in order (the green arrow in RStudio, or Ctrl/Cmd + Shift + Enter).
+- Answer the questions under each **Your answer** heading.
+- When you are done, click **Knit** to produce an HTML report to submit.
+
+# Part 0. Load the data
+
+```{r setup, message = FALSE}
+library(readr)
+library(dplyr)
+library(tidyr)
+library(ggplot2)
+library(forcats)
+
+base <- "https://raw.githubusercontent.com/eddiekasner/occupational-safety-health-datasets/main/modules/fr-ameli-occupational-risks/data"
+read_module <- function(folder, name, ...) {
+  local <- file.path("..", "data", folder, name)
+  read_csv(if (file.exists(local)) local else file.path(base, folder, name), show_col_types = FALSE,
+           ...)
+}
+
+# Claims, employees, frequency index, deaths, days off work and permanent incapacities
+claims <- read_module("tidy", "claims_by_sector.csv.gz")
+# Sector codes (NAF sections and subclasses) with English names
+sectors <- read_module("tidy", "sectors.csv")
+accident_causes <- read_module("tidy", "accident_causes.csv.gz")
+diseases <- read_module("tidy", "occupational_diseases.csv.gz")
+psych <- read_module("tidy", "psychological_disorders.csv")
+costs <- read_module("tidy", "costs.csv")
+
+national <- claims |> filter(level == "All sectors")
+by_section <- claims |>
+  filter(level == "Section") |>
+  left_join(sectors |> filter(level == "Section") |> select(naf1, section_name), by = "naf1")
+```
+
+A **claim** is an accident or disease recognised by the insurance. For accidents, only those with
+at least one day off work are counted. The **frequency index** is the number of accidents per 1,000
+employees.
+
+# Part 1. Twenty years of claims
+
+```{r trend}
+national |>
+  filter(risk != "All risks") |>
+  ggplot(aes(year, claims, colour = risk)) +
+  geom_line() +
+  geom_point() +
+  expand_limits(y = 0) +
+  scale_y_continuous(labels = scales::label_comma()) +
+  labs(title = "Recognised claims, France (general scheme)", x = NULL, y = "Claims", colour = NULL)
+
+national |>
+  filter(risk == "Work accidents") |>
+  select(year, claims, employees, frequency_index)
+```
+
+**Questions**
+
+1. How did the number of work accidents and the frequency index change from 2005 to 2024? Did the
+   number of employees change too?
+2. What happened in 2020, and why is the frequency index missing that year?
+3. Commuting accidents did not fall like work accidents. Suggest a reason.
+
+**Your answer:**
+
+
+
+# Part 2. Sectors
+
+```{r sectors}
+by_section |>
+  filter(risk == "Work accidents", year == 2024, !naf1 %in% c("T", "x")) |>
+  mutate(days_per_claim = round(days_off_work / claims)) |>
+  select(section_name, employees, claims, frequency_index, deaths, days_per_claim) |>
+  arrange(desc(frequency_index))
+
+by_section |>
+  filter(risk == "Work accidents", naf1 %in% c("F", "H", "Q", "C", "N"), !is.na(frequency_index)) |>
+  ggplot(aes(year, frequency_index, colour = section_name)) +
+  geom_line() +
+  geom_point() +
+  expand_limits(y = 0) +
+  labs(title = "Work accidents per 1,000 employees", x = NULL, y = NULL, colour = NULL)
+```
+
+**Questions**
+
+1. Which three sectors have the highest frequency of work accidents in 2024? Which has the most
+   accidents in total?
+2. Health and social work now has a frequency index similar to construction. What kinds of work in
+   this sector cause accidents?
+3. Days off work per accident differ between sectors. What does a high number of days per accident
+   tell you that the frequency index does not?
+
+**Your answer:**
+
+
+
+# Part 3. Detailed sectors
+
+The NAF classification has about 730 subclasses (the French version of the European NACE). The
+data give accidents and employees for each.
+
+```{r subclasses}
+claims |>
+  filter(level == "Subclass", risk == "Work accidents", year == 2024, employees >= 20000) |>
+  left_join(sectors |> select(naf5, name_en), by = "naf5") |>
+  select(naf5, name_en, employees, claims, frequency_index) |>
+  arrange(desc(frequency_index)) |>
+  head(15)
+```
+
+**Questions**
+
+1. Which detailed activities have the highest frequency of work accidents among those with at least
+   20,000 employees? What do the top ones have in common?
+2. Why does this code only show subclasses with at least 20,000 employees? What happens to rates
+   for very small subclasses?
+3. Choose one activity in the top 15 and name its two most likely causes of accidents (Part 4 may
+   help).
+
+**Your answer:**
+
+
+
+# Part 4. Causes
+
+```{r causes}
+accident_causes |>
+  filter(level == "All sectors", risk == "Work accidents", year == 2024, cause != "All causes") |>
+  arrange(desc(share_pct)) |>
+  select(cause, share_pct)
+
+accident_causes |>
+  filter(level == "All sectors", risk == "Commuting accidents",
+         cause == "Loss of control of a vehicle", vehicle != "All vehicles") |>
+  ggplot(aes(year, share_pct, colour = vehicle)) +
+  geom_line() +
+  geom_point() +
+  labs(title = "Commuting accidents from losing control of a vehicle (% of all)", x = NULL,
+       y = "%", colour = NULL)
+```
+
+**Questions**
+
+1. What share of work accidents are caused by manual handling? Propose prevention measures at two
+   levels of the hierarchy of controls.
+2. Which kind of vehicle has become a more common cause of commuting accidents since 2015? Suggest
+   reasons.
+3. The causes are shares (percentages), not counts. How would you calculate the number of accidents
+   from manual handling in construction in 2024?
+
+**Your answer:**
+
+
+
+# Part 5. Occupational diseases
+
+```{r diseases}
+diseases |>
+  filter(level == "All sectors", is.na(icd10_chapter)) |>
+  select(year, disease_group, cases) |>
+  pivot_wider(names_from = year, values_from = cases)
+
+psych |>
+  filter(level == "All sectors") |>
+  ggplot(aes(year, cases)) +
+  geom_col() +
+  labs(title = "Recognised psychological disorders (occupational disease)", x = NULL,
+       y = "Cases")
+```
+
+**Questions**
+
+1. What share of recognised occupational diseases are musculoskeletal disorders? Why are they so
+   common in compensation statistics?
+2. Asbestos-related diseases are falling, but still about 2,000 a year, although asbestos was
+   banned in France in 1997. Explain.
+3. Psychological disorders (such as depression and burnout) are not on France's lists ("tableaux")
+   of occupational diseases, so each case must be recognised individually. Their number grew more
+   than fivefold from 2015 to 2024. Suggest reasons.
+
+**Your answer:**

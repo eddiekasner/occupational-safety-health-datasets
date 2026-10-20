@@ -1,0 +1,161 @@
+year,risk,cost_item,amount_eur
+2015,Commuting accidents,"Health care (medical, pharmacy, hospital)",123156675
+2015,Commuting accidents,"Lump sums, pensions and death benefits",354465828
+2015,Commuting accidents,Daily allowances (sick pay),283865550
+2015,Commuting accidents,All costs,761488053
+2015,Work accidents,"Health care (medical, pharmacy, hospital)",493383039
+2015,Work accidents,"Lump sums, pensions and death benefits",1141478870
+2015,Work accidents,Daily allowances (sick pay),1906844264
+2015,Work accidents,All costs,3541706173
+2015,Occupational diseases,"Health care (medical, pharmacy, hospital)",77608131
+2015,Occupational diseases,"Lump sums, pensions and death benefits",1644895589
+2015,Occupational diseases,Daily allowances (sick pay),537237951
+2015,Occupational diseases,All costs,2259741671
+2015,All risks,"Health care (medical, pharmacy, hospital)",694147845
+2015,All risks,"Lump sums, pensions and death benefits",3140840287
+2015,All risks,Daily allowances (sick pay),2727947765
+2015,All risks,All costs,6562935897
+2016,Commuting accidents,"Health care (medical, pharmacy, hospital)",123598818
+2016,Commuting accidents,"Lump sums, pensions and death benefits",323090559
+2016,Commuting accidents,Daily allowances (sick pay),294317216
+2016,Commuting accidents,All costs,741006593
+2016,Work accidents,"Health care (medical, pharmacy, hospital)",505229559
+2016,Work accidents,"Lump sums, pensions and death benefits",1077430688
+2016,Work accidents,Daily allowances (sick pay),1986596212
+2016,Work accidents,All costs,3569256459
+2016,Occupational diseases,"Health care (medical, pharmacy, hospital)",79269303
+2016,Occupational diseases,"Lump sums, pensions and death benefits",1576108276
+2016,Occupational diseases,Daily allowances (sick pay),550126227
+2016,Occupational diseases,All costs,2205503806
+2016,All risks,"Health care (medical, pharmacy, hospital)",708097680
+2016,All risks,"Lump sums, pensions and death benefits",2976629523
+2016,All risks,Daily allowances (sick pay),2831039655
+2016,All risks,All costs,6515766858
+2017,Commuting accidents,"Health care (medical, pharmacy, hospital)",119436915
+2017,Commuting accidents,"Lump sums, pensions and death benefits",371212854
+2017,Commuting accidents,Daily allowances (sick pay),311279329
+2017,Commuting accidents,All costs,801929098
+2017,Work accidents,"Health care (medical, pharmacy, hospital)",507382784
+2017,Work accidents,"Lump sums, pensions and death benefits",1239479215
+2017,Work accidents,Daily allowances (sick pay),2048304719
+2017,Work accidents,All costs,3795166718
+2017,Occupational diseases,"Health care (medical, pharmacy, hospital)",75610466
+2017,Occupational diseases,"Lump sums, pensions and death benefits",1885168181
+2017,Occupational diseases,Daily allowances (sick pay),574678430
+2017,Occupational diseases,All costs,2535457077
+2017,All risks,"Health care (medical, pharmacy, hospital)",702430165
+2017,All risks,"Lump sums, pensions and death benefits",3495860250
+2017,All risks,Daily allowances (sick pay),2934262478
+2017,All risks,All costs,7132552893
+2018,Commuting accidents,"Health care (medical, pharmacy, hospital)",115045928
+2018,Commuting accidents,"Lump sums, pensions and death benefits",396878939
+2018,Commuting accidents,Daily allowances (sick pay),334570025
+2018,Commuting accidents,All costs,846494892
+2018,Work accidents,"Health care (medical, pharmacy, hospital)",482449271
+2018,Work accidents,"Lump sums, pensions and death benefits",1283608955
+2018,Work accidents,Daily allowances (sick pay),2171839289
+2018,Work accidents,All costs,3937897515
+2018,Occupational diseases,"Health care (medical, pharmacy, hospital)",71499539
+2018,Occupational diseases,"Lump sums, pensions and death benefits",1908838978
+2018,Occupational diseases,Daily allowances (sick pay),626600470
+2018,Occupational diseases,All costs,2606938987
+2018,All risks,"Health care (medical, pharmacy, hospital)",668994738
+2018,All risks,"Lump sums, pensions and death benefits",3589326872
+2018,All risks,Daily allowances (sick pay),3133009784
+2018,All risks,All costs,7391331394
+2019,Commuting accidents,"Health care (medical, pharmacy, hospital)",110939043
+2019,Commuting accidents,"Lump sums, pensions and death benefits",403898110
+2019,Commuting accidents,Daily allowances (sick pay),357619169
+2019,Commuting accidents,All costs,872456322
+2019,Work accidents,"Health care (medical, pharmacy, hospital)",497596477
+2019,Work accidents,"Lump sums, pensions and death benefits",1450390115
+2019,Work accidents,Daily allowances (sick pay),2324552415
+2019,Work accidents,All costs,4272539007
+2019,Occupational diseases,"Health care (medical, pharmacy, hospital)",66814094
+2019,Occupational diseases,"Lump sums, pensions and death benefits",1840166727
+2019,Occupational diseases,Daily allowances (sick pay),709566159
+2019,Occupational diseases,All costs,2616546980
+2019,All risks,"Health care (medical, pharmacy, hospital)",675349614
+2019,All risks,"Lump sums, pensions and death benefits",3694454952
+2019,All risks,Daily allowances (sick pay),3391737743
+2019,All risks,All costs,7761542309
+2020,Commuting accidents,"Health care (medical, pharmacy, hospital)",84658355
+2020,Commuting accidents,"Lump sums, pensions and death benefits",328699935
+2020,Commuting accidents,Daily allowances (sick pay),360879947
+2020,Commuting accidents,All costs,774238237
+2020,Work accidents,"Health care (medical, pharmacy, hospital)",385927823
+2020,Work accidents,"Lump sums, pensions and death benefits",1136345945
+2020,Work accidents,Daily allowances (sick pay),2373128217
+2020,Work accidents,All costs,3895401985
+2020,Occupational diseases,"Health care (medical, pharmacy, hospital)",53980850
+2020,Occupational diseases,"Lump sums, pensions and death benefits",1608205118
+2020,Occupational diseases,Daily allowances (sick pay),728754808
+2020,Occupational diseases,All costs,2390940776
+2020,All risks,"Health care (medical, pharmacy, hospital)",524567028
+2020,All risks,"Lump sums, pensions and death benefits",3073250998
+2020,All risks,Daily allowances (sick pay),3462762972
+2020,All risks,All costs,7060580998
+2021,Commuting accidents,"Health care (medical, pharmacy, hospital)",87878842
+2021,Commuting accidents,"Lump sums, pensions and death benefits",412381938
+2021,Commuting accidents,Daily allowances (sick pay),368020295
+2021,Commuting accidents,All costs,868281075
+2021,Work accidents,"Health care (medical, pharmacy, hospital)",436949492
+2021,Work accidents,"Lump sums, pensions and death benefits",1525108546
+2021,Work accidents,Daily allowances (sick pay),2534554043
+2021,Work accidents,All costs,4496612081
+2021,Occupational diseases,"Health care (medical, pharmacy, hospital)",60193045
+2021,Occupational diseases,"Lump sums, pensions and death benefits",1897540254
+2021,Occupational diseases,Daily allowances (sick pay),846237472
+2021,Occupational diseases,All costs,2803970771
+2021,All risks,"Health care (medical, pharmacy, hospital)",585021379
+2021,All risks,"Lump sums, pensions and death benefits",3835030738
+2021,All risks,Daily allowances (sick pay),3748811810
+2021,All risks,All costs,8168863927
+2022,Commuting accidents,"Health care (medical, pharmacy, hospital)",92567247
+2022,Commuting accidents,"Lump sums, pensions and death benefits",422279141
+2022,Commuting accidents,Daily allowances (sick pay),405660230
+2022,Commuting accidents,All costs,920506618
+2022,Work accidents,"Health care (medical, pharmacy, hospital)",421714514
+2022,Work accidents,"Lump sums, pensions and death benefits",1552001766
+2022,Work accidents,Daily allowances (sick pay),2689297814
+2022,Work accidents,All costs,4663014094
+2022,Occupational diseases,"Health care (medical, pharmacy, hospital)",61175605
+2022,Occupational diseases,"Lump sums, pensions and death benefits",1842896119
+2022,Occupational diseases,Daily allowances (sick pay),893750883
+2022,Occupational diseases,All costs,2797822607
+2022,All risks,"Health care (medical, pharmacy, hospital)",575457366
+2022,All risks,"Lump sums, pensions and death benefits",3817177026
+2022,All risks,Daily allowances (sick pay),3988708927
+2022,All risks,All costs,8381343319
+2023,Commuting accidents,"Health care (medical, pharmacy, hospital)",152803864
+2023,Commuting accidents,"Lump sums, pensions and death benefits",458975561
+2023,Commuting accidents,Daily allowances (sick pay),455401080
+2023,Commuting accidents,All costs,1067180505
+2023,Work accidents,"Health care (medical, pharmacy, hospital)",557432156
+2023,Work accidents,"Lump sums, pensions and death benefits",1654964440
+2023,Work accidents,Daily allowances (sick pay),2896514491
+2023,Work accidents,All costs,5108911087
+2023,Occupational diseases,"Health care (medical, pharmacy, hospital)",73202015
+2023,Occupational diseases,"Lump sums, pensions and death benefits",1766697886
+2023,Occupational diseases,Daily allowances (sick pay),984602857
+2023,Occupational diseases,All costs,2824502758
+2023,All risks,"Health care (medical, pharmacy, hospital)",783438035
+2023,All risks,"Lump sums, pensions and death benefits",3880637888
+2023,All risks,Daily allowances (sick pay),4336518428
+2023,All risks,All costs,9000594351
+2024,Commuting accidents,"Health care (medical, pharmacy, hospital)",150551209
+2024,Commuting accidents,"Lump sums, pensions and death benefits",475895207
+2024,Commuting accidents,Daily allowances (sick pay),505467873
+2024,Commuting accidents,All costs,1131914289
+2024,Work accidents,"Health care (medical, pharmacy, hospital)",556152038
+2024,Work accidents,"Lump sums, pensions and death benefits",1837135287
+2024,Work accidents,Daily allowances (sick pay),3213027032
+2024,Work accidents,All costs,5606314357
+2024,Occupational diseases,"Health care (medical, pharmacy, hospital)",78578906
+2024,Occupational diseases,"Lump sums, pensions and death benefits",2073170156
+2024,Occupational diseases,Daily allowances (sick pay),1077438175
+2024,Occupational diseases,All costs,3229187237
+2024,All risks,"Health care (medical, pharmacy, hospital)",785282153
+2024,All risks,"Lump sums, pensions and death benefits",4386200650
+2024,All risks,Daily allowances (sick pay),4795933080
+2024,All risks,All costs,9967415883

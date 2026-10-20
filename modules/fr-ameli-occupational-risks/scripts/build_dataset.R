@@ -54,8 +54,8 @@ year_of <- function(x) as.integer(substr(x, 1, 4))
 
 # Sector columns: NAF section (naf1) and subclass (naf5); "TOUS" marks totals
 sector_cols <- function(d) {
-  d |> mutate(year = year_of(annee),
-              naf1 = code_naf1,
+  if ("annee" %in% names(d)) d <- mutate(d, year = year_of(annee))
+  d |> mutate(naf1 = code_naf1,
               naf5 = if_else(code_naf5 %in% c("TOUS", "xxxxx"), NA_character_, code_naf5),
               level = case_when(code_naf1 == "TOUS" ~ "All sectors",
                                 code_naf5 == "TOUS" ~ "Section",
@@ -102,6 +102,8 @@ claims <- claims |>
                   "nb_jours_arret_travail", "days_off_work"), by = keys) |>
   left_join(extra("incapacites-permanentes-par-secteur-d-activite-naf-1-et-naf-5",
                   "nb_incapacites_permanentes_int", "permanent_incapacities"), by = keys) |>
+  # Sector detail starts in 2015; 2005 to 2014 have national totals only
+  filter(year >= 2015 | level == "All sectors") |>
   arrange(year, risk, factor(level, c("All sectors", "Section", "Subclass")), naf1, naf5)
 write_csv(claims, file.path(tidy_dir, "claims_by_sector.csv.gz"), na = "")
 
@@ -176,14 +178,16 @@ write_csv(costs, file.path(tidy_dir, "costs.csv"), na = "")
 
 # ---- Checks ----------------------------------------------------------------------------------------
 # The sections should add up to the national total (apart from confidential cells)
+# The sections should add up to the national total, apart from confidential cells and claims
+# whose sector is not known
 check <- claims |>
-  filter(level != "Subclass", !is.na(claims)) |>
+  filter(level != "Subclass", year >= 2015) |>
   group_by(year, risk) |>
-  summarise(total = sum(claims[level == "All sectors"]),
-            sections = sum(claims[level == "Section"]), .groups = "drop") |>
-  mutate(gap = total - sections)
-message("Largest gap between the national total and the sum of sections: ",
-        max(abs(check$gap)), " claims")
+  summarise(total = sum(claims[level == "All sectors"], na.rm = TRUE),
+            sections = sum(claims[level == "Section"], na.rm = TRUE), .groups = "drop") |>
+  mutate(gap_pct = 100 * (total - sections) / total)
+print(as.data.frame(check |> filter(risk != "All risks")))
+if (any(check$gap_pct < 0 | check$gap_pct > 15)) warning("Sections do not add up to the total")
 for (f in list.files(tidy_dir, full.names = TRUE)) {
   message(sprintf("%-32s %7.2f MB", basename(f), file.size(f) / 1e6))
 }

@@ -1,0 +1,757 @@
+level,naf1,section_name,naf5,nace_class,name_en,name_fr
+All sectors,TOUS,All sectors,,,All sectors,Tous secteurs confondus
+Section,A,"Agriculture, forestry and fishing",,,"Agriculture, forestry and fishing","Total Agriculture, sylviculture et pêche"
+Section,B,Mining and quarrying,,,Mining and quarrying,Total Industries extractives
+Section,C,Manufacturing,,,Manufacturing,Total Industrie manufacturière
+Section,D,"Electricity, gas, steam and air conditioning supply",,,"Electricity, gas, steam and air conditioning supply","Total Production et distribution d'électricité, de gaz, de vapeur et d'air conditionné"
+Section,E,"Water supply; sewerage, waste management and remediation",,,"Water supply; sewerage, waste management and remediation","Total Production et distribution d'eau ; assainissement, gestion des déchets et dépollution"
+Section,F,Construction,,,Construction,Total Construction
+Section,G,Wholesale and retail trade; repair of motor vehicles and motorcycles,,,Wholesale and retail trade; repair of motor vehicles and motorcycles,Total Commerce ; réparation d'automobiles et de motocycles
+Section,H,Transportation and storage,,,Transportation and storage,Total Transports et entreposage
+Section,I,Accommodation and food service activities,,,Accommodation and food service activities,Total Hébergement et restauration
+Section,J,Information and communication,,,Information and communication,Total Information et communication
+Section,K,Financial and insurance activities,,,Financial and insurance activities,Total Activités financières et d'assurance
+Section,L,Real estate activities,,,Real estate activities,Total Activités immobilières
+Section,M,"Professional, scientific and technical activities",,,"Professional, scientific and technical activities","Total Activités spécialisées, scientifiques et techniques"
+Section,N,Administrative and support service activities,,,Administrative and support service activities,Total Activités de services administratifs et de soutien
+Section,O,Public administration,,,Public administration,Total Administration publique
+Section,P,Education,,,Education,Total Enseignement
+Section,Q,Human health and social work activities,,,Human health and social work activities,Total Santé humaine et action sociale
+Section,R,"Arts, entertainment and recreation",,,"Arts, entertainment and recreation","Total Arts, spectacles et activités récréatives"
+Section,S,Other service activities,,,Other service activities,Total Autres activités de services
+Section,T,Activities of households as employers,,,Activities of households as employers,Total Activités des ménages en tant qu'employeurs ; activités indifférenciées des ménages en tant que producteurs de biens et services pour usage propre
+Section,U,Activities of extraterritorial organisations,,,Activities of extraterritorial organisations,Total Activités extra-territoriales
+Section,x,Sector not known,,,Sector not known,Total Valeur manquante
+Subclass,A,"Agriculture, forestry and fishing",0111Z,01.11,"Growing of cereals (except rice), leguminous crops and oil seeds","Culture de céréales (à l'exception du riz), de légumineuses et de graines oléagineuses"
+Subclass,A,"Agriculture, forestry and fishing",0112Z,01.12,Growing of rice,Culture du riz
+Subclass,A,"Agriculture, forestry and fishing",0113Z,01.13,"Growing of vegetables and melons, roots and tubers","Culture de légumes, de melons, de racines et de tubercules"
+Subclass,A,"Agriculture, forestry and fishing",0114Z,01.14,Growing of sugar cane,Culture de la canne à sucre
+Subclass,A,"Agriculture, forestry and fishing",0115Z,01.15,Growing of tobacco,Culture du tabac
+Subclass,A,"Agriculture, forestry and fishing",0116Z,01.16,Growing of fibre crops,Culture de plantes à fibres
+Subclass,A,"Agriculture, forestry and fishing",0119Z,01.19,Growing of other non-perennial crops,Autres cultures non permanentes
+Subclass,A,"Agriculture, forestry and fishing",0121Z,01.21,Growing of grapes,Culture de la vigne
+Subclass,A,"Agriculture, forestry and fishing",0122Z,01.22,Growing of tropical and subtropical fruits,Culture de fruits tropicaux et subtropicaux
+Subclass,A,"Agriculture, forestry and fishing",0123Z,01.23,Growing of citrus fruits,Culture d'agrumes
+Subclass,A,"Agriculture, forestry and fishing",0124Z,01.24,Growing of pome fruits and stone fruits,Culture de fruits à pépins et à noyau
+Subclass,A,"Agriculture, forestry and fishing",0125Z,01.25,Growing of other tree and bush fruits and nuts,Culture d'autres fruits d'arbres ou d'arbustes et de fruits à coque
+Subclass,A,"Agriculture, forestry and fishing",0126Z,01.26,Growing of oleaginous fruits,Culture de fruits oléagineux
+Subclass,A,"Agriculture, forestry and fishing",0127Z,01.27,Growing of beverage crops,Culture de plantes à boissons
+Subclass,A,"Agriculture, forestry and fishing",0128Z,01.28,"Growing of spices, aromatic, drug and pharmaceutical crops","Culture de plantes à épices, aromatiques, médicinales et pharmaceutiques"
+Subclass,A,"Agriculture, forestry and fishing",0129Z,01.29,Growing of other perennial crops,Autres cultures permanentes
+Subclass,A,"Agriculture, forestry and fishing",0130Z,01.30,Plant propagation,Reproduction de plantes
+Subclass,A,"Agriculture, forestry and fishing",0141Z,01.41,Raising of dairy cattle,Élevage de vaches laitières
+Subclass,A,"Agriculture, forestry and fishing",0142Z,01.42,Raising of other cattle and buffaloes,Élevage d'autres bovins et de buffles
+Subclass,A,"Agriculture, forestry and fishing",0143Z,01.43,Raising of horses and other equines,Élevage de chevaux et d'autres équidés
+Subclass,A,"Agriculture, forestry and fishing",0144Z,01.44,Raising of camels and camelids,Élevage de chameaux et d'autres camélidés
+Subclass,A,"Agriculture, forestry and fishing",0145Z,01.45,Raising of sheep and goats,Élevage d'ovins et de caprins
+Subclass,A,"Agriculture, forestry and fishing",0146Z,01.46,Raising of swine/pigs,Élevage de porcins
+Subclass,A,"Agriculture, forestry and fishing",0147Z,01.47,Raising of poultry,Élevage de volailles
+Subclass,A,"Agriculture, forestry and fishing",0149Z,01.49,Raising of other animals,Élevage d'autres animaux
+Subclass,A,"Agriculture, forestry and fishing",0150Z,01.50,Mixed farming,Culture et élevage associés
+Subclass,A,"Agriculture, forestry and fishing",0161Z,01.61,Support activities for crop production,Activités de soutien aux cultures
+Subclass,A,"Agriculture, forestry and fishing",0162Z,01.62,Support activities for animal production,Activités de soutien à la production animale
+Subclass,A,"Agriculture, forestry and fishing",0163Z,01.63,Post-harvest crop activities,Traitement primaire des récoltes
+Subclass,A,"Agriculture, forestry and fishing",0164Z,01.64,Seed processing for propagation,Traitement des semences
+Subclass,A,"Agriculture, forestry and fishing",0170Z,01.70,"Hunting, trapping and related service activities","Chasse, piégeage et services annexes"
+Subclass,A,"Agriculture, forestry and fishing",0210Z,02.10,Silviculture and other forestry activities,Sylviculture et autres activités forestières
+Subclass,A,"Agriculture, forestry and fishing",0220Z,02.20,Logging,Exploitation forestière
+Subclass,A,"Agriculture, forestry and fishing",0230Z,02.30,Gathering of wild growing non-wood products,Récolte de produits forestiers non ligneux poussant à l'état sauvage
+Subclass,A,"Agriculture, forestry and fishing",0240Z,02.40,Support services to forestry,Services de soutien à l'exploitation forestière
+Subclass,A,"Agriculture, forestry and fishing",0311Z,03.11,Marine fishing,Pêche en mer
+Subclass,A,"Agriculture, forestry and fishing",0312Z,03.12,Freshwater fishing,Pêche en eau douce
+Subclass,A,"Agriculture, forestry and fishing",0321Z,03.21,Marine aquaculture,Aquaculture en mer
+Subclass,A,"Agriculture, forestry and fishing",0322Z,03.22,Freshwater aquaculture,Aquaculture en eau douce
+Subclass,B,Mining and quarrying,0510Z,05.10,Mining of hard coal,Extraction de houille
+Subclass,B,Mining and quarrying,0520Z,05.20,Mining of lignite,Extraction de lignite
+Subclass,B,Mining and quarrying,0610Z,06.10,Extraction of crude petroleum,Extraction de pétrole brut
+Subclass,B,Mining and quarrying,0620Z,06.20,Extraction of natural gas,Extraction de gaz naturel
+Subclass,B,Mining and quarrying,0710Z,07.10,Mining of iron ores,Extraction de minerais de fer
+Subclass,B,Mining and quarrying,0721Z,07.21,Mining of uranium and thorium ores,Extraction de minerais d'uranium et de thorium
+Subclass,B,Mining and quarrying,0729Z,07.29,Mining of other non-ferrous metal ores,Extraction d'autres minerais de métaux non ferreux
+Subclass,B,Mining and quarrying,0811Z,08.11,"Quarrying of ornamental and building stone, limestone, gypsum, chalk and slate","Extraction de pierres ornementales et de construction, de calcaire industriel, de gypse, de craie et d'ardoise"
+Subclass,B,Mining and quarrying,0812Z,08.12,Operation of gravel and sand pits; mining of clays and kaolin,"Exploitation de gravières et sablières, extraction d'argiles et de kaolin"
+Subclass,B,Mining and quarrying,0891Z,08.91,Mining of chemical and fertiliser minerals,Extraction des minéraux chimiques et d'engrais minéraux
+Subclass,B,Mining and quarrying,0892Z,08.92,Extraction of peat,Extraction de tourbe
+Subclass,B,Mining and quarrying,0893Z,08.93,Extraction of salt,Production de sel
+Subclass,B,Mining and quarrying,0899Z,08.99,Other mining and quarrying n.e.c.,Autres activités extractives n.c.a.
+Subclass,B,Mining and quarrying,0910Z,09.10,Support activities for petroleum and natural gas extraction,Activités de soutien à l'extraction d'hydrocarbures
+Subclass,B,Mining and quarrying,0990Z,09.90,Support activities for other mining and quarrying,Activités de soutien aux autres industries extractives
+Subclass,C,Manufacturing,1011Z,10.11,Processing and preserving of meat,Transformation et conservation de la viande de boucherie
+Subclass,C,Manufacturing,1012Z,10.12,Processing and preserving of poultry meat,Transformation et conservation de la viande de volaille
+Subclass,C,Manufacturing,1013A,10.13,Industrial preparation of meat products,Préparation industrielle de produits à base de viande
+Subclass,C,Manufacturing,1013B,10.13,Cured and cooked meats (charcuterie),Charcuterie
+Subclass,C,Manufacturing,1020Z,10.20,"Processing and preserving of fish, crustaceans and molluscs","Transformation et conservation de poisson, de crustacés et de mollusques"
+Subclass,C,Manufacturing,1031Z,10.31,Processing and preserving of potatoes,Transformation et conservation de pommes de terre
+Subclass,C,Manufacturing,1032Z,10.32,Manufacture of fruit and vegetable juice,Préparation de jus de fruits et légumes
+Subclass,C,Manufacturing,1039A,10.39,Other processing and preserving of vegetables,Autre transformation et conservation de légumes
+Subclass,C,Manufacturing,1039B,10.39,Processing and preserving of fruit,Transformation et conservation de fruits
+Subclass,C,Manufacturing,1041A,10.41,Manufacture of crude oils and fats,Fabrication d'huiles et graisses brutes
+Subclass,C,Manufacturing,1041B,10.41,Manufacture of refined oils and fats,Fabrication d'huiles et graisses raffinées
+Subclass,C,Manufacturing,1042Z,10.42,Manufacture of margarine and similar edible fats,Fabrication de margarine et graisses comestibles similaires
+Subclass,C,Manufacturing,1051A,10.51,Manufacture of liquid milk and fresh dairy products,Fabrication de lait liquide et de produits frais
+Subclass,C,Manufacturing,1051B,10.51,Manufacture of butter,Fabrication de beurre
+Subclass,C,Manufacturing,1051C,10.51,Manufacture of cheese,Fabrication de fromage
+Subclass,C,Manufacturing,1051D,10.51,Manufacture of other dairy products,Fabrication d'autres produits laitiers
+Subclass,C,Manufacturing,1052Z,10.52,Manufacture of ice cream,Fabrication de glaces et sorbets
+Subclass,C,Manufacturing,1061A,10.61,Flour milling,Meunerie
+Subclass,C,Manufacturing,1061B,10.61,Other grain milling activities,Autres activités du travail des grains
+Subclass,C,Manufacturing,1062Z,10.62,Manufacture of starches and starch products,Fabrication de produits amylacés
+Subclass,C,Manufacturing,1071A,10.71,Industrial manufacture of bread and fresh pastry,Fabrication industrielle de pain et de pâtisserie fraîche
+Subclass,C,Manufacturing,1071B,10.71,Baking of bakery products,Cuisson de produits de boulangerie
+Subclass,C,Manufacturing,1071C,10.71,Bakery and bakery-pastry shops,Boulangerie et boulangerie-pâtisserie
+Subclass,C,Manufacturing,1071D,10.71,Pastry shops,Pâtisserie
+Subclass,C,Manufacturing,1072Z,10.72,Manufacture of rusks and biscuits; manufacture of preserved pastry goods and cakes,"Fabrication de biscuits, biscottes et pâtisseries de conservation"
+Subclass,C,Manufacturing,1073Z,10.73,"Manufacture of macaroni, noodles, couscous and similar farinaceous products",Fabrication de pâtes alimentaires
+Subclass,C,Manufacturing,1081Z,10.81,Manufacture of sugar,Fabrication de sucre
+Subclass,C,Manufacturing,1082Z,10.82,"Manufacture of cocoa, chocolate and sugar confectionery","Fabrication de cacao, chocolat et de produits de confiserie"
+Subclass,C,Manufacturing,1083Z,10.83,Processing of tea and coffee,Transformation du thé et du café
+Subclass,C,Manufacturing,1084Z,10.84,Manufacture of condiments and seasonings,Fabrication de condiments et assaisonnements
+Subclass,C,Manufacturing,1085Z,10.85,Manufacture of prepared meals and dishes,Fabrication de plats préparés
+Subclass,C,Manufacturing,1086Z,10.86,Manufacture of homogenised food preparations and dietetic food,Fabrication d'aliments homogénéisés et diététiques
+Subclass,C,Manufacturing,1089Z,10.89,Manufacture of other food products n.e.c.,Fabrication d'autres produits alimentaires n.c.a.
+Subclass,C,Manufacturing,1091Z,10.91,Manufacture of prepared feeds for farm animals,Fabrication d'aliments pour animaux de ferme
+Subclass,C,Manufacturing,1092Z,10.92,Manufacture of prepared pet foods,Fabrication d'aliments pour animaux de compagnie
+Subclass,C,Manufacturing,1101Z,11.01,"Distilling, rectifying and blending of spirits",Production de boissons alcooliques distillées
+Subclass,C,Manufacturing,1102A,11.02,Manufacture of sparkling wines,Fabrication de vins effervescents
+Subclass,C,Manufacturing,1102B,11.02,Winemaking,Vinification
+Subclass,C,Manufacturing,1103Z,11.03,Manufacture of cider and other fruit wines,Fabrication de cidre et de vins de fruits
+Subclass,C,Manufacturing,1104Z,11.04,Manufacture of other non-distilled fermented beverages,Production d'autres boissons fermentées non distillées
+Subclass,C,Manufacturing,1105Z,11.05,Manufacture of beer,Fabrication de bière
+Subclass,C,Manufacturing,1106Z,11.06,Manufacture of malt,Fabrication de malt
+Subclass,C,Manufacturing,1107A,11.07,Bottled water industry,Industrie des eaux de table
+Subclass,C,Manufacturing,1107B,11.07,Production of soft drinks,Production de boissons rafraîchissantes
+Subclass,C,Manufacturing,1200Z,12.00,Manufacture of tobacco products,Fabrication de produits à base de tabac
+Subclass,C,Manufacturing,1310Z,13.10,Preparation and spinning of textile fibres,Préparation de fibres textiles et filature
+Subclass,C,Manufacturing,1320Z,13.20,Weaving of textiles,Tissage
+Subclass,C,Manufacturing,1330Z,13.30,Finishing of textiles,Ennoblissement textile
+Subclass,C,Manufacturing,1391Z,13.91,Manufacture of knitted and crocheted fabrics,Fabrication d'étoffes à mailles
+Subclass,C,Manufacturing,1392Z,13.92,"Manufacture of made-up textile articles, except apparel","Fabrication d'articles textiles, sauf habillement"
+Subclass,C,Manufacturing,1393Z,13.93,Manufacture of carpets and rugs,Fabrication de tapis et moquettes
+Subclass,C,Manufacturing,1394Z,13.94,"Manufacture of cordage, rope, twine and netting","Fabrication de ficelles, cordes et filets"
+Subclass,C,Manufacturing,1395Z,13.95,"Manufacture of non-wovens and articles made from non-wovens, except apparel","Fabrication de non-tissés, sauf habillement"
+Subclass,C,Manufacturing,1396Z,13.96,Manufacture of other technical and industrial textiles,Fabrication d'autres textiles techniques et industriels
+Subclass,C,Manufacturing,1399Z,13.99,Manufacture of other textiles n.e.c.,Fabrication d'autres textiles n.c.a.
+Subclass,C,Manufacturing,1411Z,14.11,Manufacture of leather clothes,Fabrication de vêtements en cuir
+Subclass,C,Manufacturing,1412Z,14.12,Manufacture of workwear,Fabrication de vêtements de travail
+Subclass,C,Manufacturing,1413Z,14.13,Manufacture of other outerwear,Fabrication de vêtements de dessus
+Subclass,C,Manufacturing,1414Z,14.14,Manufacture of underwear,Fabrication de vêtements de dessous
+Subclass,C,Manufacturing,1419Z,14.19,Manufacture of other wearing apparel and accessories,Fabrication d'autres vêtements et accessoires
+Subclass,C,Manufacturing,1420Z,14.20,Manufacture of articles of fur,Fabrication d'articles en fourrure
+Subclass,C,Manufacturing,1431Z,14.31,Manufacture of knitted and crocheted hosiery,Fabrication d'articles chaussants à mailles
+Subclass,C,Manufacturing,1439Z,14.39,Manufacture of other knitted and crocheted apparel,Fabrication d'autres articles à mailles
+Subclass,C,Manufacturing,1511Z,15.11,Tanning and dressing of leather; dressing and dyeing of fur,Apprêt et tannage des cuirs ; préparation et teinture des fourrures
+Subclass,C,Manufacturing,1512Z,15.12,"Manufacture of luggage, handbags and the like, saddlery and harness","Fabrication d'articles de voyage, de maroquinerie et de sellerie"
+Subclass,C,Manufacturing,1520Z,15.20,Manufacture of footwear,Fabrication de chaussures
+Subclass,C,Manufacturing,1610A,16.10,"Sawmilling and planing of wood, except impregnation","Sciage et rabotage du bois, hors imprégnation"
+Subclass,C,Manufacturing,1610B,16.10,Impregnation of wood,Imprégnation du bois
+Subclass,C,Manufacturing,1621Z,16.21,Manufacture of veneer sheets and wood-based panels,Fabrication de placage et de panneaux de bois
+Subclass,C,Manufacturing,1622Z,16.22,Manufacture of assembled parquet floors,Fabrication de parquets assemblés
+Subclass,C,Manufacturing,1623Z,16.23,Manufacture of other builders' carpentry and joinery,Fabrication de charpentes et d'autres menuiseries
+Subclass,C,Manufacturing,1624Z,16.24,Manufacture of wooden containers,Fabrication d'emballages en bois
+Subclass,C,Manufacturing,1629Z,16.29,"Manufacture of other products of wood; manufacture of articles of cork, straw and plaiting materials","Fabrication d'objets divers en bois ; fabrication d'objets en liège, vannerie et sparterie"
+Subclass,C,Manufacturing,1711Z,17.11,Manufacture of pulp,Fabrication de pâte à papier
+Subclass,C,Manufacturing,1712Z,17.12,Manufacture of paper and paperboard,Fabrication de papier et de carton
+Subclass,C,Manufacturing,1721A,17.21,Manufacture of corrugated board,Fabrication de carton ondulé
+Subclass,C,Manufacturing,1721B,17.21,Manufacture of paperboard containers,Fabrication de cartonnages
+Subclass,C,Manufacturing,1721C,17.21,Manufacture of paper packaging,Fabrication d'emballages en papier
+Subclass,C,Manufacturing,1722Z,17.22,Manufacture of household and sanitary goods and of toilet requisites,Fabrication d'articles en papier à usage sanitaire ou domestique
+Subclass,C,Manufacturing,1723Z,17.23,Manufacture of paper stationery,Fabrication d'articles de papeterie
+Subclass,C,Manufacturing,1724Z,17.24,Manufacture of wallpaper,Fabrication de papiers peints
+Subclass,C,Manufacturing,1729Z,17.29,Manufacture of other articles of paper and paperboard,Fabrication d'autres articles en papier ou en carton
+Subclass,C,Manufacturing,1811Z,18.11,Printing of newspapers,Imprimerie de journaux
+Subclass,C,Manufacturing,1812Z,18.12,Other printing,Autre imprimerie (labeur)
+Subclass,C,Manufacturing,1813Z,18.13,Pre-press and pre-media services,Activités de pré-presse
+Subclass,C,Manufacturing,1814Z,18.14,Binding and related services,Reliure et activités connexes
+Subclass,C,Manufacturing,1820Z,18.20,Reproduction of recorded media,Reproduction d'enregistrements
+Subclass,C,Manufacturing,1910Z,19.10,Manufacture of coke oven products,Cokéfaction
+Subclass,C,Manufacturing,1920Z,19.20,Manufacture of refined petroleum products,Raffinage du pétrole
+Subclass,C,Manufacturing,2011Z,20.11,Manufacture of industrial gases,Fabrication de gaz industriels
+Subclass,C,Manufacturing,2012Z,20.12,Manufacture of dyes and pigments,Fabrication de colorants et de pigments
+Subclass,C,Manufacturing,2013A,20.13,Enrichment and reprocessing of nuclear materials,Enrichissement et retraitement de matières nucléaires
+Subclass,C,Manufacturing,2013B,20.13,Manufacture of other inorganic basic chemicals n.e.c.,Fabrication d'autres produits chimiques inorganiques de base n.c.a.
+Subclass,C,Manufacturing,2014Z,20.14,Manufacture of other organic basic chemicals,Fabrication d'autres produits chimiques organiques de base
+Subclass,C,Manufacturing,2015Z,20.15,Manufacture of fertilisers and nitrogen compounds,Fabrication de produits azotés et d'engrais
+Subclass,C,Manufacturing,2016Z,20.16,Manufacture of plastics in primary forms,Fabrication de matières plastiques de base
+Subclass,C,Manufacturing,2017Z,20.17,Manufacture of synthetic rubber in primary forms,Fabrication de caoutchouc synthétique
+Subclass,C,Manufacturing,2020Z,20.20,Manufacture of pesticides and other agrochemical products,Fabrication de pesticides et d'autres produits agrochimiques
+Subclass,C,Manufacturing,2030Z,20.30,"Manufacture of paints, varnishes and similar coatings, printing ink and mastics","Fabrication de peintures, vernis, encres et mastics"
+Subclass,C,Manufacturing,2041Z,20.41,"Manufacture of soap and detergents, cleaning and polishing preparations","Fabrication de savons, détergents et produits d'entretien"
+Subclass,C,Manufacturing,2042Z,20.42,Manufacture of perfumes and toilet preparations,Fabrication de parfums et de produits pour la toilette
+Subclass,C,Manufacturing,2051Z,20.51,Manufacture of explosives,Fabrication de produits explosifs
+Subclass,C,Manufacturing,2052Z,20.52,Manufacture of glues,Fabrication de colles
+Subclass,C,Manufacturing,2053Z,20.53,Manufacture of essential oils,Fabrication d'huiles essentielles
+Subclass,C,Manufacturing,2059Z,20.59,Manufacture of other chemical products n.e.c.,Fabrication d'autres produits chimiques n.c.a.
+Subclass,C,Manufacturing,2060Z,20.60,Manufacture of man-made fibres,Fabrication de fibres artificielles ou synthétiques
+Subclass,C,Manufacturing,2110Z,21.10,Manufacture of basic pharmaceutical products,Fabrication de produits pharmaceutiques de base
+Subclass,C,Manufacturing,2120Z,21.20,Manufacture of pharmaceutical preparations,Fabrication de préparations pharmaceutiques
+Subclass,C,Manufacturing,2211Z,22.11,Manufacture of rubber tyres and tubes; retreading and rebuilding of rubber tyres,Fabrication et rechapage de pneumatiques
+Subclass,C,Manufacturing,2219Z,22.19,Manufacture of other rubber products,Fabrication d'autres articles en caoutchouc
+Subclass,C,Manufacturing,2221Z,22.21,"Manufacture of plastic plates, sheets, tubes and profiles","Fabrication de plaques, feuilles, tubes et profilés en matières plastiques"
+Subclass,C,Manufacturing,2222Z,22.22,Manufacture of plastic packing goods,Fabrication d'emballages en matières plastiques
+Subclass,C,Manufacturing,2223Z,22.23,Manufacture of builders' ware of plastic,Fabrication d'éléments en matières plastiques pour la construction
+Subclass,C,Manufacturing,2229A,22.29,Manufacture of technical plastic parts,Fabrication de pièces techniques à base de matières plastiques
+Subclass,C,Manufacturing,2229B,22.29,Manufacture of plastic consumer goods,Fabrication de produits de consommation courante en matières plastiques
+Subclass,C,Manufacturing,2311Z,23.11,Manufacture of flat glass,Fabrication de verre plat
+Subclass,C,Manufacturing,2312Z,23.12,Shaping and processing of flat glass,Façonnage et transformation du verre plat
+Subclass,C,Manufacturing,2313Z,23.13,Manufacture of hollow glass,Fabrication de verre creux
+Subclass,C,Manufacturing,2314Z,23.14,Manufacture of glass fibres,Fabrication de fibres de verre
+Subclass,C,Manufacturing,2319Z,23.19,"Manufacture and processing of other glass, including technical glassware","Fabrication et façonnage d'autres articles en verre, y compris verre technique"
+Subclass,C,Manufacturing,2320Z,23.20,Manufacture of refractory products,Fabrication de produits réfractaires
+Subclass,C,Manufacturing,2331Z,23.31,Manufacture of ceramic tiles and flags,Fabrication de carreaux en céramique
+Subclass,C,Manufacturing,2332Z,23.32,"Manufacture of bricks, tiles and construction products, in baked clay","Fabrication de briques, tuiles et produits de construction, en terre cuite"
+Subclass,C,Manufacturing,2341Z,23.41,Manufacture of ceramic household and ornamental articles,Fabrication d'articles céramiques à usage domestique ou ornemental
+Subclass,C,Manufacturing,2342Z,23.42,Manufacture of ceramic sanitary fixtures,Fabrication d'appareils sanitaires en céramique
+Subclass,C,Manufacturing,2343Z,23.43,Manufacture of ceramic insulators and insulating fittings,Fabrication d'isolateurs et pièces isolantes en céramique
+Subclass,C,Manufacturing,2344Z,23.44,Manufacture of other technical ceramic products,Fabrication d'autres produits céramiques à usage technique
+Subclass,C,Manufacturing,2349Z,23.49,Manufacture of other ceramic products,Fabrication d'autres produits céramiques
+Subclass,C,Manufacturing,2351Z,23.51,Manufacture of cement,Fabrication de ciment
+Subclass,C,Manufacturing,2352Z,23.52,Manufacture of lime and plaster,Fabrication de chaux et plâtre
+Subclass,C,Manufacturing,2361Z,23.61,Manufacture of concrete products for construction purposes,Fabrication d'éléments en béton pour la construction
+Subclass,C,Manufacturing,2362Z,23.62,Manufacture of plaster products for construction purposes,Fabrication d'éléments en plâtre pour la construction
+Subclass,C,Manufacturing,2363Z,23.63,Manufacture of ready-mixed concrete,Fabrication de béton prêt à l'emploi
+Subclass,C,Manufacturing,2364Z,23.64,Manufacture of mortars,Fabrication de mortiers et bétons secs
+Subclass,C,Manufacturing,2365Z,23.65,Manufacture of fibre cement,Fabrication d'ouvrages en fibre-ciment
+Subclass,C,Manufacturing,2369Z,23.69,"Manufacture of other articles of concrete, plaster and cement","Fabrication d'autres ouvrages en béton, en ciment ou en plâtre"
+Subclass,C,Manufacturing,2370Z,23.70,"Cutting, shaping and finishing of stone","Taille, façonnage et finissage de pierres"
+Subclass,C,Manufacturing,2391Z,23.91,Production of abrasive products,Fabrication de produits abrasifs
+Subclass,C,Manufacturing,2399Z,23.99,Manufacture of other non-metallic mineral products n.e.c.,Fabrication d'autres produits minéraux non métalliques n.c.a.
+Subclass,C,Manufacturing,2410Z,24.10,Manufacture of basic iron and steel and of ferro-alloys,Sidérurgie
+Subclass,C,Manufacturing,2420Z,24.20,"Manufacture of tubes, pipes, hollow profiles and related fittings, of steel","Fabrication de tubes, tuyaux, profilés creux et accessoires correspondants en acier"
+Subclass,C,Manufacturing,2431Z,24.31,Cold drawing of bars,Étirage à froid de barres
+Subclass,C,Manufacturing,2432Z,24.32,Cold rolling of narrow strip,Laminage à froid de feuillards
+Subclass,C,Manufacturing,2433Z,24.33,Cold forming or folding,Profilage à froid par formage ou pliage
+Subclass,C,Manufacturing,2434Z,24.34,Cold drawing of wire,Tréfilage à froid
+Subclass,C,Manufacturing,2441Z,24.41,Precious metals production,Production de métaux précieux
+Subclass,C,Manufacturing,2442Z,24.42,Aluminium production,Métallurgie de l'aluminium
+Subclass,C,Manufacturing,2443Z,24.43,"Lead, zinc and tin production","Métallurgie du plomb, du zinc ou de l'étain"
+Subclass,C,Manufacturing,2444Z,24.44,Copper production,Métallurgie du cuivre
+Subclass,C,Manufacturing,2445Z,24.45,Other non-ferrous metal production,Métallurgie des autres métaux non ferreux
+Subclass,C,Manufacturing,2446Z,24.46,Processing of nuclear fuel,Élaboration et transformation de matières nucléaires
+Subclass,C,Manufacturing,2451Z,24.51,Casting of iron,Fonderie de fonte
+Subclass,C,Manufacturing,2452Z,24.52,Casting of steel,Fonderie d'acier
+Subclass,C,Manufacturing,2453Z,24.53,Casting of light metals,Fonderie de métaux légers
+Subclass,C,Manufacturing,2454Z,24.54,Casting of other non-ferrous metals,Fonderie d'autres métaux non ferreux
+Subclass,C,Manufacturing,2511Z,25.11,Manufacture of metal structures and parts of structures,Fabrication de structures métalliques et de parties de structures
+Subclass,C,Manufacturing,2512Z,25.12,Manufacture of doors and windows of metal,Fabrication de portes et fenêtres en métal
+Subclass,C,Manufacturing,2521Z,25.21,Manufacture of central heating radiators and boilers,Fabrication de radiateurs et de chaudières pour le chauffage central
+Subclass,C,Manufacturing,2529Z,25.29,"Manufacture of other tanks, reservoirs and containers of metal","Fabrication d'autres réservoirs, citernes et conteneurs métalliques"
+Subclass,C,Manufacturing,2530Z,25.30,"Manufacture of steam generators, except central heating hot water boilers","Fabrication de générateurs de vapeur, à l'exception des chaudières pour le chauffage central"
+Subclass,C,Manufacturing,2540Z,25.40,Manufacture of weapons and ammunition,Fabrication d'armes et de munitions
+Subclass,C,Manufacturing,2550A,25.50,"Forging, stamping, die forging; powder metallurgy","Forge, estampage, matriçage ; métallurgie des poudres"
+Subclass,C,Manufacturing,2550B,25.50,Cutting and pressing of metal,"Découpage, emboutissage"
+Subclass,C,Manufacturing,2561Z,25.61,Treatment and coating of metals,Traitement et revêtement des métaux
+Subclass,C,Manufacturing,2562A,25.62,Bar turning (screw machining),Décolletage
+Subclass,C,Manufacturing,2562B,25.62,Industrial machining,Mécanique industrielle
+Subclass,C,Manufacturing,2571Z,25.71,Manufacture of cutlery,Fabrication de coutellerie
+Subclass,C,Manufacturing,2572Z,25.72,Manufacture of locks and hinges,Fabrication de serrures et de ferrures
+Subclass,C,Manufacturing,2573A,25.73,Manufacture of moulds and patterns,Fabrication de moules et modèles
+Subclass,C,Manufacturing,2573B,25.73,Manufacture of other tools,Fabrication d'autres outillages
+Subclass,C,Manufacturing,2591Z,25.91,Manufacture of steel drums and similar containers,Fabrication de fûts et emballages métalliques similaires
+Subclass,C,Manufacturing,2592Z,25.92,Manufacture of light metal packaging,Fabrication d'emballages métalliques légers
+Subclass,C,Manufacturing,2593Z,25.93,"Manufacture of wire products, chain and springs","Fabrication d'articles en fils métalliques, de chaînes et de ressorts"
+Subclass,C,Manufacturing,2594Z,25.94,Manufacture of fasteners and screw machine products,Fabrication de vis et de boulons
+Subclass,C,Manufacturing,2599A,25.99,Manufacture of household metal articles,Fabrication d'articles métalliques ménagers
+Subclass,C,Manufacturing,2599B,25.99,Manufacture of other fabricated metal products,Fabrication d'autres articles métalliques
+Subclass,C,Manufacturing,2611Z,26.11,Manufacture of electronic components,Fabrication de composants électroniques
+Subclass,C,Manufacturing,2612Z,26.12,Manufacture of loaded electronic boards,Fabrication de cartes électroniques assemblées
+Subclass,C,Manufacturing,2620Z,26.20,Manufacture of computers and peripheral equipment,Fabrication d'ordinateurs et d'équipements périphériques
+Subclass,C,Manufacturing,2630Z,26.30,Manufacture of communication equipment,Fabrication d'équipements de communication
+Subclass,C,Manufacturing,2640Z,26.40,Manufacture of consumer electronics,Fabrication de produits électroniques grand public
+Subclass,C,Manufacturing,2651A,26.51,Manufacture of navigational aid equipment,Fabrication d'équipements d'aide à la navigation
+Subclass,C,Manufacturing,2651B,26.51,Manufacture of scientific and technical instrumentation,Fabrication d'instrumentation scientifique et technique
+Subclass,C,Manufacturing,2652Z,26.52,Manufacture of watches and clocks,Horlogerie
+Subclass,C,Manufacturing,2660Z,26.60,"Manufacture of irradiation, electromedical and electrotherapeutic equipment","Fabrication d'équipements d'irradiation médicale, d'équipements électromédicaux et électrothérapeutiques"
+Subclass,C,Manufacturing,2670Z,26.70,Manufacture of optical instruments and photographic equipment,Fabrication de matériels optique et photographique
+Subclass,C,Manufacturing,2680Z,26.80,Manufacture of magnetic and optical media,Fabrication de supports magnétiques et optiques
+Subclass,C,Manufacturing,2711Z,27.11,"Manufacture of electric motors, generators and transformers","Fabrication de moteurs, génératrices et transformateurs électriques"
+Subclass,C,Manufacturing,2712Z,27.12,Manufacture of electricity distribution and control apparatus,Fabrication de matériel de distribution et de commande électrique
+Subclass,C,Manufacturing,2720Z,27.20,Manufacture of batteries and accumulators,Fabrication de piles et d'accumulateurs électriques
+Subclass,C,Manufacturing,2731Z,27.31,Manufacture of fibre optic cables,Fabrication de câbles de fibres optiques
+Subclass,C,Manufacturing,2732Z,27.32,Manufacture of other electronic and electric wires and cables,Fabrication d'autres fils et câbles électroniques ou électriques
+Subclass,C,Manufacturing,2733Z,27.33,Manufacture of wiring devices,Fabrication de matériel d'installation électrique
+Subclass,C,Manufacturing,2740Z,27.40,Manufacture of electric lighting equipment,Fabrication d'appareils d'éclairage électrique
+Subclass,C,Manufacturing,2751Z,27.51,Manufacture of electric domestic appliances,Fabrication d'appareils électroménagers
+Subclass,C,Manufacturing,2752Z,27.52,Manufacture of non-electric domestic appliances,Fabrication d'appareils ménagers non électriques
+Subclass,C,Manufacturing,2790Z,27.90,Manufacture of other electrical equipment,Fabrication d'autres matériels électriques
+Subclass,C,Manufacturing,2811Z,28.11,"Manufacture of engines and turbines, except aircraft, vehicle and cycle engines","Fabrication de moteurs et turbines, à l'exception des moteurs d'avions et de véhicules"
+Subclass,C,Manufacturing,2812Z,28.12,Manufacture of fluid power equipment,Fabrication d'équipements hydrauliques et pneumatiques
+Subclass,C,Manufacturing,2813Z,28.13,Manufacture of other pumps and compressors,Fabrication d'autres pompes et compresseurs
+Subclass,C,Manufacturing,2814Z,28.14,Manufacture of other taps and valves,Fabrication d'autres articles de robinetterie
+Subclass,C,Manufacturing,2815Z,28.15,"Manufacture of bearings, gears, gearing and driving elements",Fabrication d'engrenages et d'organes mécaniques de transmission
+Subclass,C,Manufacturing,2821Z,28.21,"Manufacture of ovens, furnaces and furnace burners",Fabrication de fours et brûleurs
+Subclass,C,Manufacturing,2822Z,28.22,Manufacture of lifting and handling equipment,Fabrication de matériel de levage et de manutention
+Subclass,C,Manufacturing,2823Z,28.23,Manufacture of office machinery and equipment (except computers and peripheral equipment),Fabrication de machines et d'équipements de bureau (à l'exception des ordinateurs et équipements périphériques)
+Subclass,C,Manufacturing,2824Z,28.24,Manufacture of power-driven hand tools,Fabrication d'outillage portatif à moteur incorporé
+Subclass,C,Manufacturing,2825Z,28.25,Manufacture of non-domestic cooling and ventilation equipment,Fabrication d'équipements aérauliques et frigorifiques industriels
+Subclass,C,Manufacturing,2829A,28.29,"Manufacture of packaging, packing and weighing equipment","Fabrication d'équipements d'emballage, de conditionnement et de pesage"
+Subclass,C,Manufacturing,2829B,28.29,Manufacture of other general-purpose machinery,Fabrication d'autres machines d'usage général
+Subclass,C,Manufacturing,2830Z,28.30,Manufacture of agricultural and forestry machinery,Fabrication de machines agricoles et forestières
+Subclass,C,Manufacturing,2841Z,28.41,Manufacture of metal forming machinery,Fabrication de machines-outils pour le travail des métaux
+Subclass,C,Manufacturing,2849Z,28.49,Manufacture of other machine tools,Fabrication d'autres machines-outils
+Subclass,C,Manufacturing,2891Z,28.91,Manufacture of machinery for metallurgy,Fabrication de machines pour la métallurgie
+Subclass,C,Manufacturing,2892Z,28.92,"Manufacture of machinery for mining, quarrying and construction",Fabrication de machines pour l'extraction ou la construction
+Subclass,C,Manufacturing,2893Z,28.93,"Manufacture of machinery for food, beverage and tobacco processing",Fabrication de machines pour l'industrie agro-alimentaire
+Subclass,C,Manufacturing,2894Z,28.94,"Manufacture of machinery for textile, apparel and leather production",Fabrication de machines pour les industries textiles
+Subclass,C,Manufacturing,2895Z,28.95,Manufacture of machinery for paper and paperboard production,Fabrication de machines pour les industries du papier et du carton
+Subclass,C,Manufacturing,2896Z,28.96,Manufacture of plastics and rubber machinery,Fabrication de machines pour le travail du caoutchouc ou des plastiques
+Subclass,C,Manufacturing,2899A,28.99,Manufacture of printing machinery,Fabrication de machines d'imprimerie
+Subclass,C,Manufacturing,2899B,28.99,Manufacture of other special-purpose machinery,Fabrication d'autres machines spécialisées
+Subclass,C,Manufacturing,2910Z,29.10,Manufacture of motor vehicles,Construction de véhicules automobiles
+Subclass,C,Manufacturing,2920Z,29.20,Manufacture of bodies (coachwork) for motor vehicles; manufacture of trailers and semi-trailers,Fabrication de carrosseries et remorques
+Subclass,C,Manufacturing,2931Z,29.31,Manufacture of electrical and electronic equipment for motor vehicles,Fabrication d'équipements électriques et électroniques automobiles
+Subclass,C,Manufacturing,2932Z,29.32,Manufacture of other parts and accessories for motor vehicles,Fabrication d'autres équipements automobiles
+Subclass,C,Manufacturing,3011Z,30.11,Building of ships and floating structures,Construction de navires et de structures flottantes
+Subclass,C,Manufacturing,3012Z,30.12,Building of pleasure and sporting boats,Construction de bateaux de plaisance
+Subclass,C,Manufacturing,3020Z,30.20,Manufacture of railway locomotives and rolling stock,Construction de locomotives et d'autre matériel ferroviaire roulant
+Subclass,C,Manufacturing,3030Z,30.30,Manufacture of air and spacecraft and related machinery,Construction aéronautique et spatiale
+Subclass,C,Manufacturing,3040Z,30.40,Manufacture of military fighting vehicles,Construction de véhicules militaires de combat
+Subclass,C,Manufacturing,3091Z,30.91,Manufacture of motorcycles,Fabrication de motocycles
+Subclass,C,Manufacturing,3092Z,30.92,Manufacture of bicycles and invalid carriages,Fabrication de bicyclettes et de véhicules pour invalides
+Subclass,C,Manufacturing,3099Z,30.99,Manufacture of other transport equipment n.e.c.,Fabrication d'autres équipements de transport n.c.a.
+Subclass,C,Manufacturing,3101Z,31.01,Manufacture of office and shop furniture,Fabrication de meubles de bureau et de magasin
+Subclass,C,Manufacturing,3102Z,31.02,Manufacture of kitchen furniture,Fabrication de meubles de cuisine
+Subclass,C,Manufacturing,3103Z,31.03,Manufacture of mattresses,Fabrication de matelas
+Subclass,C,Manufacturing,3109A,31.09,Manufacture of indoor upholstered seating,Fabrication de sièges d'ameublement d'intérieur
+Subclass,C,Manufacturing,3109B,31.09,Manufacture of other furniture and related furnishing industries,Fabrication d'autres meubles et industries connexes de l'ameublement
+Subclass,C,Manufacturing,3211Z,32.11,Striking of coins,Frappe de monnaie
+Subclass,C,Manufacturing,3212Z,32.12,Manufacture of jewellery and related articles,Fabrication d'articles de joaillerie et bijouterie
+Subclass,C,Manufacturing,3213Z,32.13,Manufacture of imitation jewellery and related articles,Fabrication d'articles de bijouterie fantaisie et articles similaires
+Subclass,C,Manufacturing,3220Z,32.20,Manufacture of musical instruments,Fabrication d'instruments de musique
+Subclass,C,Manufacturing,3230Z,32.30,Manufacture of sports goods,Fabrication d'articles de sport
+Subclass,C,Manufacturing,3240Z,32.40,Manufacture of games and toys,Fabrication de jeux et jouets
+Subclass,C,Manufacturing,3250A,32.50,"Manufacture of medical, surgical and dental equipment",Fabrication de matériel médico-chirurgical et dentaire
+Subclass,C,Manufacturing,3250B,32.50,Manufacture of eyeglasses,Fabrication de lunettes
+Subclass,C,Manufacturing,3291Z,32.91,Manufacture of brooms and brushes,Fabrication d'articles de brosserie
+Subclass,C,Manufacturing,3299Z,32.99,Other manufacturing n.e.c.,Autres activités manufacturières n.c.a.
+Subclass,C,Manufacturing,3311Z,33.11,Repair of fabricated metal products,Réparation d'ouvrages en métaux
+Subclass,C,Manufacturing,3312Z,33.12,Repair of machinery,Réparation de machines et équipements mécaniques
+Subclass,C,Manufacturing,3313Z,33.13,Repair of electronic and optical equipment,Réparation de matériels électroniques et optiques
+Subclass,C,Manufacturing,3314Z,33.14,Repair of electrical equipment,Réparation d'équipements électriques
+Subclass,C,Manufacturing,3315Z,33.15,Repair and maintenance of ships and boats,Réparation et maintenance navale
+Subclass,C,Manufacturing,3316Z,33.16,Repair and maintenance of aircraft and spacecraft,Réparation et maintenance d'aéronefs et d'engins spatiaux
+Subclass,C,Manufacturing,3317Z,33.17,Repair and maintenance of other transport equipment,Réparation et maintenance d'autres équipements de transport
+Subclass,C,Manufacturing,3319Z,33.19,Repair of other equipment,Réparation d'autres équipements
+Subclass,C,Manufacturing,3320A,33.20,"Installation of metal structures, boilermaking and piping","Installation de structures métalliques, chaudronnées et de tuyauterie"
+Subclass,C,Manufacturing,3320B,33.20,Installation of machinery and mechanical equipment,Installation de machines et équipements mécaniques
+Subclass,C,Manufacturing,3320C,33.20,Overall design and on-site assembly of industrial process control equipment,Conception d'ensemble et assemblage sur site industriel d'équipements de contrôle des processus industriels
+Subclass,C,Manufacturing,3320D,33.20,"Installation of electrical equipment, electronic and optical equipment or other equipment","Installation d'équipements électriques, de matériels électroniques et optiques ou d'autres matériels"
+Subclass,D,"Electricity, gas, steam and air conditioning supply",3511Z,35.11,Production of electricity,Production d'électricité
+Subclass,D,"Electricity, gas, steam and air conditioning supply",3512Z,35.12,Transmission of electricity,Transport d'électricité
+Subclass,D,"Electricity, gas, steam and air conditioning supply",3513Z,35.13,Distribution of electricity,Distribution d'électricité
+Subclass,D,"Electricity, gas, steam and air conditioning supply",3514Z,35.14,Trade of electricity,Commerce d'électricité
+Subclass,D,"Electricity, gas, steam and air conditioning supply",3521Z,35.21,Manufacture of gas,Production de combustibles gazeux
+Subclass,D,"Electricity, gas, steam and air conditioning supply",3522Z,35.22,Distribution of gaseous fuels through mains,Distribution de combustibles gazeux par conduites
+Subclass,D,"Electricity, gas, steam and air conditioning supply",3523Z,35.23,Trade of gas through mains,Commerce de combustibles gazeux par conduites
+Subclass,D,"Electricity, gas, steam and air conditioning supply",3530Z,35.30,Steam and air conditioning supply,Production et distribution de vapeur et d'air conditionné
+Subclass,E,"Water supply; sewerage, waste management and remediation",3600Z,36.00,"Water collection, treatment and supply","Captage, traitement et distribution d'eau"
+Subclass,E,"Water supply; sewerage, waste management and remediation",3700Z,37.00,Sewerage,Collecte et traitement des eaux usées
+Subclass,E,"Water supply; sewerage, waste management and remediation",3811Z,38.11,Collection of non-hazardous waste,Collecte des déchets non dangereux
+Subclass,E,"Water supply; sewerage, waste management and remediation",3812Z,38.12,Collection of hazardous waste,Collecte des déchets dangereux
+Subclass,E,"Water supply; sewerage, waste management and remediation",3821Z,38.21,Treatment and disposal of non-hazardous waste,Traitement et élimination des déchets non dangereux
+Subclass,E,"Water supply; sewerage, waste management and remediation",3822Z,38.22,Treatment and disposal of hazardous waste,Traitement et élimination des déchets dangereux
+Subclass,E,"Water supply; sewerage, waste management and remediation",3831Z,38.31,Dismantling of wrecks,Démantèlement d'épaves
+Subclass,E,"Water supply; sewerage, waste management and remediation",3832Z,38.32,Recovery of sorted materials,Récupération de déchets triés
+Subclass,E,"Water supply; sewerage, waste management and remediation",3900Z,39.00,Remediation activities and other waste management services,Dépollution et autres services de gestion des déchets
+Subclass,F,Construction,4110A,41.10,Residential real estate development,Promotion immobilière de logements
+Subclass,F,Construction,4110B,41.10,Office real estate development,Promotion immobilière de bureaux
+Subclass,F,Construction,4110C,41.10,Real estate development of other buildings,Promotion immobilière d'autres bâtiments
+Subclass,F,Construction,4110D,41.10,Legal entities for development programmes,Supports juridiques de programmes
+Subclass,F,Construction,4120A,41.20,Construction of single-family houses,Construction de maisons individuelles
+Subclass,F,Construction,4120B,41.20,Construction of other buildings,Construction d'autres bâtiments
+Subclass,F,Construction,4211Z,42.11,Construction of roads and motorways,Construction de routes et autoroutes
+Subclass,F,Construction,4212Z,42.12,Construction of railways and underground railways,Construction de voies ferrées de surface et souterraines
+Subclass,F,Construction,4213A,42.13,Construction of bridges and civil engineering structures,Construction d'ouvrages d'art
+Subclass,F,Construction,4213B,42.13,Construction and maintenance of tunnels,Construction et entretien de tunnels
+Subclass,F,Construction,4221Z,42.21,Construction of utility projects for fluids,Construction de réseaux pour fluides
+Subclass,F,Construction,4222Z,42.22,Construction of utility projects for electricity and telecommunications,Construction de réseaux électriques et de télécommunications
+Subclass,F,Construction,4291Z,42.91,Construction of water projects,Construction d'ouvrages maritimes et fluviaux
+Subclass,F,Construction,4299Z,42.99,Construction of other civil engineering projects n.e.c.,Construction d'autres ouvrages de génie civil n.c.a.
+Subclass,F,Construction,4311Z,43.11,Demolition,Travaux de démolition
+Subclass,F,Construction,4312A,43.12,General earthmoving and site preparation works,Travaux de terrassement courants et travaux préparatoires
+Subclass,F,Construction,4312B,43.12,Specialised or large-scale earthmoving works,Travaux de terrassement spécialisés ou de grande masse
+Subclass,F,Construction,4313Z,43.13,Test drilling and boring,Forages et sondages
+Subclass,F,Construction,4321A,43.21,Electrical installation work in all premises,Travaux d'installation électrique dans tous locaux
+Subclass,F,Construction,4321B,43.21,Electrical installation work on public roads,Travaux d'installation électrique sur la voie publique
+Subclass,F,Construction,4322A,43.22,Water and gas installation work in all premises,Travaux d'installation d'eau et de gaz en tous locaux
+Subclass,F,Construction,4322B,43.22,Installation of heating and air conditioning equipment,Travaux d'installation d'équipements thermiques et de climatisation
+Subclass,F,Construction,4329A,43.29,Insulation work,Travaux d'isolation
+Subclass,F,Construction,4329B,43.29,Other construction installation n.e.c.,Autres travaux d'installation n.c.a.
+Subclass,F,Construction,4331Z,43.31,Plastering,Travaux de plâtrerie
+Subclass,F,Construction,4332A,43.32,Wood and PVC joinery installation,Travaux de menuiserie bois et PVC
+Subclass,F,Construction,4332B,43.32,Metal joinery and locksmithing work,Travaux de menuiserie métallique et serrurerie
+Subclass,F,Construction,4332C,43.32,Fitting out of retail premises,Agencement de lieux de vente
+Subclass,F,Construction,4333Z,43.33,Floor and wall covering,Travaux de revêtement des sols et des murs
+Subclass,F,Construction,4334Z,43.34,Painting and glazing,Travaux de peinture et vitrerie
+Subclass,F,Construction,4339Z,43.39,Other building completion and finishing,Autres travaux de finition
+Subclass,F,Construction,4391A,43.91,Roof framing work,Travaux de charpente
+Subclass,F,Construction,4391B,43.91,Roof covering work,Travaux de couverture par éléments
+Subclass,F,Construction,4399A,43.99,Waterproofing work,Travaux d'étanchéification
+Subclass,F,Construction,4399B,43.99,Erection of steel structures,Travaux de montage de structures métalliques
+Subclass,F,Construction,4399C,43.99,General masonry and structural building work,Travaux de maçonnerie générale et gros œuvre de bâtiment
+Subclass,F,Construction,4399D,43.99,Other specialised construction activities,Autres travaux spécialisés de construction
+Subclass,F,Construction,4399E,43.99,Rental of construction equipment with operator,Location avec opérateur de matériel de construction
+Subclass,G,Wholesale and retail trade; repair of motor vehicles and motorcycles,4511Z,45.11,Sale of cars and light motor vehicles,Commerce de voitures et de véhicules automobiles légers
+Subclass,G,Wholesale and retail trade; repair of motor vehicles and motorcycles,4519Z,45.19,Sale of other motor vehicles,Commerce d'autres véhicules automobiles
+Subclass,G,Wholesale and retail trade; repair of motor vehicles and motorcycles,4520A,45.20,Maintenance and repair of cars and light motor vehicles,Entretien et réparation de véhicules automobiles légers
+Subclass,G,Wholesale and retail trade; repair of motor vehicles and motorcycles,4520B,45.20,Maintenance and repair of other motor vehicles,Entretien et réparation d'autres véhicules automobiles
+Subclass,G,Wholesale and retail trade; repair of motor vehicles and motorcycles,4531Z,45.31,Wholesale trade of motor vehicle parts and accessories,Commerce de gros d'équipements automobiles
+Subclass,G,Wholesale and retail trade; repair of motor vehicles and motorcycles,4532Z,45.32,Retail trade of motor vehicle parts and accessories,Commerce de détail d'équipements automobiles
+Subclass,G,Wholesale and retail trade; repair of motor vehicles and motorcycles,4540Z,45.40,"Sale, maintenance and repair of motorcycles and related parts and accessories",Commerce et réparation de motocycles
+Subclass,G,Wholesale and retail trade; repair of motor vehicles and motorcycles,4611Z,46.11,"Agents involved in the sale of agricultural raw materials, live animals, textile raw materials and semi-finished goods","Intermédiaires du commerce en matières premières agricoles, animaux vivants, matières premières textiles et produits semi-finis"
+Subclass,G,Wholesale and retail trade; repair of motor vehicles and motorcycles,4612A,46.12,Fuel purchasing centres,Centrales d'achat de carburant
+Subclass,G,Wholesale and retail trade; repair of motor vehicles and motorcycles,4612B,46.12,"Other agents involved in the sale of fuels, ores, metals and industrial chemicals","Autres intermédiaires du commerce en combustibles, métaux, minéraux et produits chimiques"
+Subclass,G,Wholesale and retail trade; repair of motor vehicles and motorcycles,4613Z,46.13,Agents involved in the sale of timber and building materials,Intermédiaires du commerce en bois et matériaux de construction
+Subclass,G,Wholesale and retail trade; repair of motor vehicles and motorcycles,4614Z,46.14,"Agents involved in the sale of machinery, industrial equipment, ships and aircraft","Intermédiaires du commerce en machines, équipements industriels, navires et avions"
+Subclass,G,Wholesale and retail trade; repair of motor vehicles and motorcycles,4615Z,46.15,"Agents involved in the sale of furniture, household goods, hardware and ironmongery","Intermédiaires du commerce en meubles, articles de ménage et quincaillerie"
+Subclass,G,Wholesale and retail trade; repair of motor vehicles and motorcycles,4616Z,46.16,"Agents involved in the sale of textiles, clothing, fur, footwear and leather goods","Intermédiaires du commerce en textiles, habillement, fourrures, chaussures et articles en cuir"
+Subclass,G,Wholesale and retail trade; repair of motor vehicles and motorcycles,4617A,46.17,Food purchasing centres,Centrales d'achat alimentaires
+Subclass,G,Wholesale and retail trade; repair of motor vehicles and motorcycles,4617B,46.17,"Other agents involved in the sale of food, beverages and tobacco","Autres intermédiaires du commerce en denrées, boissons et tabac"
+Subclass,G,Wholesale and retail trade; repair of motor vehicles and motorcycles,4618Z,46.18,Agents specialised in the sale of other particular products,Intermédiaires spécialisés dans le commerce d'autres produits spécifiques
+Subclass,G,Wholesale and retail trade; repair of motor vehicles and motorcycles,4619A,46.19,Non-food purchasing centres,Centrales d'achat non alimentaires
+Subclass,G,Wholesale and retail trade; repair of motor vehicles and motorcycles,4619B,46.19,Other agents involved in the sale of a variety of goods,Autres intermédiaires du commerce en produits divers
+Subclass,G,Wholesale and retail trade; repair of motor vehicles and motorcycles,4621Z,46.21,"Wholesale of grain, unmanufactured tobacco, seeds and animal feeds","Commerce de gros (commerce interentreprises) de céréales, de tabac non manufacturé, de semences et d'aliments pour le bétail"
+Subclass,G,Wholesale and retail trade; repair of motor vehicles and motorcycles,4622Z,46.22,Wholesale of flowers and plants,Commerce de gros (commerce interentreprises) de fleurs et plantes
+Subclass,G,Wholesale and retail trade; repair of motor vehicles and motorcycles,4623Z,46.23,Wholesale of live animals,Commerce de gros (commerce interentreprises) d'animaux vivants
+Subclass,G,Wholesale and retail trade; repair of motor vehicles and motorcycles,4624Z,46.24,"Wholesale of hides, skins and leather",Commerce de gros (commerce interentreprises) de cuirs et peaux
+Subclass,G,Wholesale and retail trade; repair of motor vehicles and motorcycles,4631Z,46.31,Wholesale of fruit and vegetables,Commerce de gros (commerce interentreprises) de fruits et légumes
+Subclass,G,Wholesale and retail trade; repair of motor vehicles and motorcycles,4632A,46.32,Wholesale of butchers' meat,Commerce de gros (commerce interentreprises) de viandes de boucherie
+Subclass,G,Wholesale and retail trade; repair of motor vehicles and motorcycles,4632B,46.32,Wholesale of meat products,Commerce de gros (commerce interentreprises) de produits à base de viande
+Subclass,G,Wholesale and retail trade; repair of motor vehicles and motorcycles,4632C,46.32,Wholesale of poultry and game,Commerce de gros (commerce interentreprises) de volailles et gibier
+Subclass,G,Wholesale and retail trade; repair of motor vehicles and motorcycles,4633Z,46.33,"Wholesale of dairy products, eggs and edible oils and fats","Commerce de gros (commerce interentreprises) de produits laitiers, œufs, huiles et matières grasses comestibles"
+Subclass,G,Wholesale and retail trade; repair of motor vehicles and motorcycles,4634Z,46.34,Wholesale of beverages,Commerce de gros (commerce interentreprises) de boissons
+Subclass,G,Wholesale and retail trade; repair of motor vehicles and motorcycles,4635Z,46.35,Wholesale of tobacco products,Commerce de gros (commerce interentreprises) de produits à base de tabac
+Subclass,G,Wholesale and retail trade; repair of motor vehicles and motorcycles,4636Z,46.36,Wholesale of sugar and chocolate and sugar confectionery,"Commerce de gros (commerce interentreprises) de sucre, chocolat et confiserie"
+Subclass,G,Wholesale and retail trade; repair of motor vehicles and motorcycles,4637Z,46.37,"Wholesale of coffee, tea, cocoa and spices","Commerce de gros (commerce interentreprises) de café, thé, cacao et épices"
+Subclass,G,Wholesale and retail trade; repair of motor vehicles and motorcycles,4638A,46.38,"Wholesale of fish, crustaceans and molluscs","Commerce de gros (commerce interentreprises) de poissons, crustacés et mollusques"
+Subclass,G,Wholesale and retail trade; repair of motor vehicles and motorcycles,4638B,46.38,Miscellaneous specialised wholesale of food,Commerce de gros (commerce interentreprises) alimentaire spécialisé divers
+Subclass,G,Wholesale and retail trade; repair of motor vehicles and motorcycles,4639A,46.39,Wholesale of frozen food products,Commerce de gros (commerce interentreprises) de produits surgelés
+Subclass,G,Wholesale and retail trade; repair of motor vehicles and motorcycles,4639B,46.39,Non-specialised wholesale of food,Commerce de gros (commerce interentreprises) alimentaire non spécialisé
+Subclass,G,Wholesale and retail trade; repair of motor vehicles and motorcycles,4641Z,46.41,Wholesale of textiles,Commerce de gros (commerce interentreprises) de textiles
+Subclass,G,Wholesale and retail trade; repair of motor vehicles and motorcycles,4642Z,46.42,Wholesale of clothing and footwear,Commerce de gros (commerce interentreprises) d'habillement et de chaussures
+Subclass,G,Wholesale and retail trade; repair of motor vehicles and motorcycles,4643Z,46.43,Wholesale of electrical household appliances,Commerce de gros (commerce interentreprises) d'appareils électroménagers
+Subclass,G,Wholesale and retail trade; repair of motor vehicles and motorcycles,4644Z,46.44,Wholesale of china and glassware and cleaning materials,"Commerce de gros (commerce interentreprises) de vaisselle, verrerie et produits d'entretien"
+Subclass,G,Wholesale and retail trade; repair of motor vehicles and motorcycles,4645Z,46.45,Wholesale of perfume and cosmetics,Commerce de gros (commerce interentreprises) de parfumerie et de produits de beauté
+Subclass,G,Wholesale and retail trade; repair of motor vehicles and motorcycles,4646Z,46.46,Wholesale of pharmaceutical goods,Commerce de gros (commerce interentreprises) de produits pharmaceutiques
+Subclass,G,Wholesale and retail trade; repair of motor vehicles and motorcycles,4647Z,46.47,"Wholesale of furniture, carpets and lighting equipment","Commerce de gros (commerce interentreprises) de meubles, de tapis et d'appareils d'éclairage"
+Subclass,G,Wholesale and retail trade; repair of motor vehicles and motorcycles,4648Z,46.48,Wholesale of watches and jewellery,Commerce de gros (commerce interentreprises) d'articles d'horlogerie et de bijouterie
+Subclass,G,Wholesale and retail trade; repair of motor vehicles and motorcycles,4649Z,46.49,Wholesale of other household goods,Commerce de gros (commerce interentreprises) d'autres biens domestiques
+Subclass,G,Wholesale and retail trade; repair of motor vehicles and motorcycles,4651Z,46.51,"Wholesale of computers, computer peripheral equipment and software","Commerce de gros (commerce interentreprises) d'ordinateurs, d'équipements informatiques périphériques et de logiciels"
+Subclass,G,Wholesale and retail trade; repair of motor vehicles and motorcycles,4652Z,46.52,Wholesale of electronic and telecommunications equipment and parts,Commerce de gros (commerce interentreprises) de composants et d'équipements électroniques et de télécommunication
+Subclass,G,Wholesale and retail trade; repair of motor vehicles and motorcycles,4661Z,46.61,"Wholesale of agricultural machinery, equipment and supplies",Commerce de gros (commerce interentreprises) de matériel agricole
+Subclass,G,Wholesale and retail trade; repair of motor vehicles and motorcycles,4662Z,46.62,Wholesale of machine tools,Commerce de gros (commerce interentreprises) de machines-outils
+Subclass,G,Wholesale and retail trade; repair of motor vehicles and motorcycles,4663Z,46.63,"Wholesale of mining, construction and civil engineering machinery","Commerce de gros (commerce interentreprises) de machines pour l'extraction, la construction et le génie civil"
+Subclass,G,Wholesale and retail trade; repair of motor vehicles and motorcycles,4664Z,46.64,Wholesale of machinery for the textile industry and of sewing and knitting machines,Commerce de gros (commerce interentreprises) de machines pour l'industrie textile et l'habillement
+Subclass,G,Wholesale and retail trade; repair of motor vehicles and motorcycles,4665Z,46.65,Wholesale of office furniture,Commerce de gros (commerce interentreprises) de mobilier de bureau
+Subclass,G,Wholesale and retail trade; repair of motor vehicles and motorcycles,4666Z,46.66,Wholesale of other office machinery and equipment,Commerce de gros (commerce interentreprises) d'autres machines et équipements de bureau
+Subclass,G,Wholesale and retail trade; repair of motor vehicles and motorcycles,4669A,46.69,Wholesale of electrical equipment,Commerce de gros (commerce interentreprises) de matériel électrique
+Subclass,G,Wholesale and retail trade; repair of motor vehicles and motorcycles,4669B,46.69,Wholesale of miscellaneous industrial supplies and equipment,Commerce de gros (commerce interentreprises) de fournitures et équipements industriels divers
+Subclass,G,Wholesale and retail trade; repair of motor vehicles and motorcycles,4669C,46.69,Wholesale of miscellaneous supplies and equipment for trade and services,Commerce de gros (commerce interentreprises) de fournitures et équipements divers pour le commerce et les services
+Subclass,G,Wholesale and retail trade; repair of motor vehicles and motorcycles,4671Z,46.71,"Wholesale of solid, liquid and gaseous fuels and related products",Commerce de gros (commerce interentreprises) de combustibles et de produits annexes
+Subclass,G,Wholesale and retail trade; repair of motor vehicles and motorcycles,4672Z,46.72,Wholesale of metals and metal ores,Commerce de gros (commerce interentreprises) de minerais et métaux
+Subclass,G,Wholesale and retail trade; repair of motor vehicles and motorcycles,4673A,46.73,Wholesale of wood and construction materials,Commerce de gros (commerce interentreprises) de bois et de matériaux de construction
+Subclass,G,Wholesale and retail trade; repair of motor vehicles and motorcycles,4673B,46.73,Wholesale of sanitary equipment and decoration products,Commerce de gros (commerce interentreprises) d'appareils sanitaires et de produits de décoration
+Subclass,G,Wholesale and retail trade; repair of motor vehicles and motorcycles,4674A,46.74,Wholesale of hardware,Commerce de gros (commerce interentreprises) de quincaillerie
+Subclass,G,Wholesale and retail trade; repair of motor vehicles and motorcycles,4674B,46.74,Wholesale of plumbing and heating supplies,Commerce de gros (commerce interentreprises) de fournitures pour la plomberie et le chauffage
+Subclass,G,Wholesale and retail trade; repair of motor vehicles and motorcycles,4675Z,46.75,Wholesale of chemical products,Commerce de gros (commerce interentreprises) de produits chimiques
+Subclass,G,Wholesale and retail trade; repair of motor vehicles and motorcycles,4676Z,46.76,Wholesale of other intermediate products,Commerce de gros (commerce interentreprises) d'autres produits intermédiaires
+Subclass,G,Wholesale and retail trade; repair of motor vehicles and motorcycles,4677Z,46.77,Wholesale of waste and scrap,Commerce de gros (commerce interentreprises) de déchets et débris
+Subclass,G,Wholesale and retail trade; repair of motor vehicles and motorcycles,4690Z,46.90,Non-specialised wholesale trade,Commerce de gros (commerce interentreprises) non spécialisé
+Subclass,G,Wholesale and retail trade; repair of motor vehicles and motorcycles,4711A,47.11,Retail sale of frozen food products,Commerce de détail de produits surgelés
+Subclass,G,Wholesale and retail trade; repair of motor vehicles and motorcycles,4711B,47.11,General food retail,Commerce d'alimentation générale
+Subclass,G,Wholesale and retail trade; repair of motor vehicles and motorcycles,4711C,47.11,Convenience stores (superettes),Supérettes
+Subclass,G,Wholesale and retail trade; repair of motor vehicles and motorcycles,4711D,47.11,Supermarkets,Supermarchés
+Subclass,G,Wholesale and retail trade; repair of motor vehicles and motorcycles,4711E,47.11,Multi-store retail outlets,Magasins multi-commerces
+Subclass,G,Wholesale and retail trade; repair of motor vehicles and motorcycles,4711F,47.11,Hypermarkets,Hypermarchés
+Subclass,G,Wholesale and retail trade; repair of motor vehicles and motorcycles,4719A,47.19,Department stores,Grands magasins
+Subclass,G,Wholesale and retail trade; repair of motor vehicles and motorcycles,4719B,47.19,Other retail sale in non-specialised stores,Autres commerces de détail en magasin non spécialisé
+Subclass,G,Wholesale and retail trade; repair of motor vehicles and motorcycles,4721Z,47.21,Retail sale of fruit and vegetables in specialised stores,Commerce de détail de fruits et légumes en magasin spécialisé
+Subclass,G,Wholesale and retail trade; repair of motor vehicles and motorcycles,4722Z,47.22,Retail sale of meat and meat products in specialised stores,Commerce de détail de viandes et de produits à base de viande en magasin spécialisé
+Subclass,G,Wholesale and retail trade; repair of motor vehicles and motorcycles,4723Z,47.23,"Retail sale of fish, crustaceans and molluscs in specialised stores","Commerce de détail de poissons, crustacés et mollusques en magasin spécialisé"
+Subclass,G,Wholesale and retail trade; repair of motor vehicles and motorcycles,4724Z,47.24,"Retail sale of bread, cakes, flour confectionery and sugar confectionery in specialised stores","Commerce de détail de pain, pâtisserie et confiserie en magasin spécialisé"
+Subclass,G,Wholesale and retail trade; repair of motor vehicles and motorcycles,4725Z,47.25,Retail sale of beverages in specialised stores,Commerce de détail de boissons en magasin spécialisé
+Subclass,G,Wholesale and retail trade; repair of motor vehicles and motorcycles,4726Z,47.26,Retail sale of tobacco products in specialised stores,Commerce de détail de produits à base de tabac en magasin spécialisé
+Subclass,G,Wholesale and retail trade; repair of motor vehicles and motorcycles,4729Z,47.29,Other retail sale of food in specialised stores,Autres commerces de détail alimentaires en magasin spécialisé
+Subclass,G,Wholesale and retail trade; repair of motor vehicles and motorcycles,4730Z,47.30,Retail sale of automotive fuel in specialised stores,Commerce de détail de carburants en magasin spécialisé
+Subclass,G,Wholesale and retail trade; repair of motor vehicles and motorcycles,4741Z,47.41,"Retail sale of computers, peripheral units and software in specialised stores","Commerce de détail d'ordinateurs, d'unités périphériques et de logiciels en magasin spécialisé"
+Subclass,G,Wholesale and retail trade; repair of motor vehicles and motorcycles,4742Z,47.42,Retail sale of telecommunications equipment in specialised stores,Commerce de détail de matériels de télécommunication en magasin spécialisé
+Subclass,G,Wholesale and retail trade; repair of motor vehicles and motorcycles,4743Z,47.43,Retail sale of audio and video equipment in specialised stores,Commerce de détail de matériels audio et vidéo en magasin spécialisé
+Subclass,G,Wholesale and retail trade; repair of motor vehicles and motorcycles,4751Z,47.51,Retail sale of textiles in specialised stores,Commerce de détail de textiles en magasin spécialisé
+Subclass,G,Wholesale and retail trade; repair of motor vehicles and motorcycles,4752A,47.52,"Retail sale of hardware, paints and glass in small stores (under 400 m2)","Commerce de détail de quincaillerie, peintures et verres en petites surfaces (moins de 400 m²)"
+Subclass,G,Wholesale and retail trade; repair of motor vehicles and motorcycles,4752B,47.52,"Retail sale of hardware, paints and glass in large stores (400 m2 and over)","Commerce de détail de quincaillerie, peintures et verres en grandes surfaces (400 m² et plus)"
+Subclass,G,Wholesale and retail trade; repair of motor vehicles and motorcycles,4753Z,47.53,"Retail sale of carpets, rugs, wall and floor coverings in specialised stores","Commerce de détail de tapis, moquettes et revêtements de murs et de sols en magasin spécialisé"
+Subclass,G,Wholesale and retail trade; repair of motor vehicles and motorcycles,4754Z,47.54,Retail sale of electrical household appliances in specialised stores,Commerce de détail d'appareils électroménagers en magasin spécialisé
+Subclass,G,Wholesale and retail trade; repair of motor vehicles and motorcycles,4759A,47.59,Retail sale of furniture,Commerce de détail de meubles
+Subclass,G,Wholesale and retail trade; repair of motor vehicles and motorcycles,4759B,47.59,Retail sale of other household equipment,Commerce de détail d'autres équipements du foyer
+Subclass,G,Wholesale and retail trade; repair of motor vehicles and motorcycles,4761Z,47.61,Retail sale of books in specialised stores,Commerce de détail de livres en magasin spécialisé
+Subclass,G,Wholesale and retail trade; repair of motor vehicles and motorcycles,4762Z,47.62,Retail sale of newspapers and stationery in specialised stores,Commerce de détail de journaux et papeterie en magasin spécialisé
+Subclass,G,Wholesale and retail trade; repair of motor vehicles and motorcycles,4763Z,47.63,Retail sale of music and video recordings in specialised stores,Commerce de détail d'enregistrements musicaux et vidéo en magasin spécialisé
+Subclass,G,Wholesale and retail trade; repair of motor vehicles and motorcycles,4764Z,47.64,Retail sale of sporting equipment in specialised stores,Commerce de détail d'articles de sport en magasin spécialisé
+Subclass,G,Wholesale and retail trade; repair of motor vehicles and motorcycles,4765Z,47.65,Retail sale of games and toys in specialised stores,Commerce de détail de jeux et jouets en magasin spécialisé
+Subclass,G,Wholesale and retail trade; repair of motor vehicles and motorcycles,4771Z,47.71,Retail sale of clothing in specialised stores,Commerce de détail d'habillement en magasin spécialisé
+Subclass,G,Wholesale and retail trade; repair of motor vehicles and motorcycles,4772A,47.72,Retail sale of footwear,Commerce de détail de la chaussure
+Subclass,G,Wholesale and retail trade; repair of motor vehicles and motorcycles,4772B,47.72,Retail sale of leather goods and travel articles,Commerce de détail de maroquinerie et d'articles de voyage
+Subclass,G,Wholesale and retail trade; repair of motor vehicles and motorcycles,4773Z,47.73,Dispensing chemist in specialised stores,Commerce de détail de produits pharmaceutiques en magasin spécialisé
+Subclass,G,Wholesale and retail trade; repair of motor vehicles and motorcycles,4774Z,47.74,Retail sale of medical and orthopaedic goods in specialised stores,Commerce de détail d'articles médicaux et orthopédiques en magasin spécialisé
+Subclass,G,Wholesale and retail trade; repair of motor vehicles and motorcycles,4775Z,47.75,Retail sale of cosmetic and toilet articles in specialised stores,Commerce de détail de parfumerie et de produits de beauté en magasin spécialisé
+Subclass,G,Wholesale and retail trade; repair of motor vehicles and motorcycles,4776Z,47.76,"Retail sale of flowers, plants, seeds, fertilisers, pet animals and pet food in specialised stores","Commerce de détail de fleurs, plantes, graines, engrais, animaux de compagnie et aliments pour ces animaux en magasin spécialisé"
+Subclass,G,Wholesale and retail trade; repair of motor vehicles and motorcycles,4777Z,47.77,Retail sale of watches and jewellery in specialised stores,Commerce de détail d'articles d'horlogerie et de bijouterie en magasin spécialisé
+Subclass,G,Wholesale and retail trade; repair of motor vehicles and motorcycles,4778A,47.78,Retail sale of optical goods,Commerces de détail d'optique
+Subclass,G,Wholesale and retail trade; repair of motor vehicles and motorcycles,4778B,47.78,Retail sale of coal and fuels,Commerces de détail de charbons et combustibles
+Subclass,G,Wholesale and retail trade; repair of motor vehicles and motorcycles,4778C,47.78,Other miscellaneous specialised retail sale,Autres commerces de détail spécialisés divers
+Subclass,G,Wholesale and retail trade; repair of motor vehicles and motorcycles,4779Z,47.79,Retail sale of second-hand goods in stores,Commerce de détail de biens d'occasion en magasin
+Subclass,G,Wholesale and retail trade; repair of motor vehicles and motorcycles,4781Z,47.81,"Retail sale via stalls and markets of food, beverages and tobacco products",Commerce de détail alimentaire sur éventaires et marchés
+Subclass,G,Wholesale and retail trade; repair of motor vehicles and motorcycles,4782Z,47.82,"Retail sale via stalls and markets of textiles, clothing and footwear","Commerce de détail de textiles, d'habillement et de chaussures sur éventaires et marchés"
+Subclass,G,Wholesale and retail trade; repair of motor vehicles and motorcycles,4789Z,47.89,Retail sale via stalls and markets of other goods,Autres commerces de détail sur éventaires et marchés
+Subclass,G,Wholesale and retail trade; repair of motor vehicles and motorcycles,4791A,47.91,Distance selling by general catalogue,Vente à distance sur catalogue général
+Subclass,G,Wholesale and retail trade; repair of motor vehicles and motorcycles,4791B,47.91,Distance selling by specialised catalogue,Vente à distance sur catalogue spécialisé
+Subclass,G,Wholesale and retail trade; repair of motor vehicles and motorcycles,4799A,47.99,Door-to-door selling,Vente à domicile
+Subclass,G,Wholesale and retail trade; repair of motor vehicles and motorcycles,4799B,47.99,"Vending machine sales and other retail sale not in stores, stalls or markets n.e.c.","Vente par automates et autres commerces de détail hors magasin, éventaires ou marchés n.c.a."
+Subclass,H,Transportation and storage,4910Z,49.10,"Passenger rail transport, interurban",Transport ferroviaire interurbain de voyageurs
+Subclass,H,Transportation and storage,4920Z,49.20,Freight rail transport,Transports ferroviaires de fret
+Subclass,H,Transportation and storage,4931Z,49.31,Urban and suburban passenger land transport,Transports urbains et suburbains de voyageurs
+Subclass,H,Transportation and storage,4932Z,49.32,Taxi operation,Transports de voyageurs par taxis
+Subclass,H,Transportation and storage,4939A,49.39,Scheduled passenger road transport,Transports routiers réguliers de voyageurs
+Subclass,H,Transportation and storage,4939B,49.39,Other passenger road transport,Autres transports routiers de voyageurs
+Subclass,H,Transportation and storage,4939C,49.39,Cable cars and ski lifts,Téléphériques et remontées mécaniques
+Subclass,H,Transportation and storage,4941A,49.41,Interurban freight transport by road,Transports routiers de fret interurbains
+Subclass,H,Transportation and storage,4941B,49.41,Local freight transport by road,Transports routiers de fret de proximité
+Subclass,H,Transportation and storage,4941C,49.41,Rental of trucks with driver,Location de camions avec chauffeur
+Subclass,H,Transportation and storage,4942Z,49.42,Removal services,Services de déménagement
+Subclass,H,Transportation and storage,4950Z,49.50,Transport via pipeline,Transports par conduites
+Subclass,H,Transportation and storage,5010Z,50.10,Sea and coastal passenger water transport,Transports maritimes et côtiers de passagers
+Subclass,H,Transportation and storage,5020Z,50.20,Sea and coastal freight water transport,Transports maritimes et côtiers de fret
+Subclass,H,Transportation and storage,5030Z,50.30,Inland passenger water transport,Transports fluviaux de passagers
+Subclass,H,Transportation and storage,5040Z,50.40,Inland freight water transport,Transports fluviaux de fret
+Subclass,H,Transportation and storage,5110Z,51.10,Passenger air transport,Transports aériens de passagers
+Subclass,H,Transportation and storage,5121Z,51.21,Freight air transport,Transports aériens de fret
+Subclass,H,Transportation and storage,5122Z,51.22,Space transport,Transports spatiaux
+Subclass,H,Transportation and storage,5210A,52.10,Refrigerated warehousing and storage,Entreposage et stockage frigorifique
+Subclass,H,Transportation and storage,5210B,52.10,Non-refrigerated warehousing and storage,Entreposage et stockage non frigorifique
+Subclass,H,Transportation and storage,5221Z,52.21,Service activities incidental to land transportation,Services auxiliaires des transports terrestres
+Subclass,H,Transportation and storage,5222Z,52.22,Service activities incidental to water transportation,Services auxiliaires des transports par eau
+Subclass,H,Transportation and storage,5223Z,52.23,Service activities incidental to air transportation,Services auxiliaires des transports aériens
+Subclass,H,Transportation and storage,5224A,52.24,Port cargo handling,Manutention portuaire
+Subclass,H,Transportation and storage,5224B,52.24,Non-port cargo handling,Manutention non portuaire
+Subclass,H,Transportation and storage,5229A,52.29,Parcel delivery and express freight,"Messagerie, fret express"
+Subclass,H,Transportation and storage,5229B,52.29,Freight chartering and transport organisation,Affrètement et organisation des transports
+Subclass,H,Transportation and storage,5310Z,53.10,Postal activities under universal service obligation,Activités de poste dans le cadre d'une obligation de service universel
+Subclass,H,Transportation and storage,5320Z,53.20,Other postal and courier activities,Autres activités de poste et de courrier
+Subclass,I,Accommodation and food service activities,5510Z,55.10,Hotels and similar accommodation,Hôtels et hébergement similaire
+Subclass,I,Accommodation and food service activities,5520Z,55.20,Holiday and other short-stay accommodation,Hébergement touristique et autre hébergement de courte durée
+Subclass,I,Accommodation and food service activities,5530Z,55.30,"Camping grounds, recreational vehicle parks and trailer parks",Terrains de camping et parcs pour caravanes ou véhicules de loisirs
+Subclass,I,Accommodation and food service activities,5590Z,55.90,Other accommodation,Autres hébergements
+Subclass,I,Accommodation and food service activities,5610A,56.10,Traditional restaurants,Restauration traditionnelle
+Subclass,I,Accommodation and food service activities,5610B,56.10,Cafeterias and other self-service restaurants,Cafétérias et autres libres-services
+Subclass,I,Accommodation and food service activities,5610C,56.10,Fast food restaurants,Restauration de type rapide
+Subclass,I,Accommodation and food service activities,5621Z,56.21,Event catering activities,Services des traiteurs
+Subclass,I,Accommodation and food service activities,5629A,56.29,Contract catering,Restauration collective sous contrat
+Subclass,I,Accommodation and food service activities,5629B,56.29,Other food service activities n.e.c.,Autres services de restauration n.c.a.
+Subclass,I,Accommodation and food service activities,5630Z,56.30,Beverage serving activities,Débits de boissons
+Subclass,J,Information and communication,5811Z,58.11,Book publishing,Édition de livres
+Subclass,J,Information and communication,5812Z,58.12,Publishing of directories and mailing lists,Édition de répertoires et de fichiers d'adresses
+Subclass,J,Information and communication,5813Z,58.13,Publishing of newspapers,Édition de journaux
+Subclass,J,Information and communication,5814Z,58.14,Publishing of journals and periodicals,Édition de revues et périodiques
+Subclass,J,Information and communication,5819Z,58.19,Other publishing activities,Autres activités d'édition
+Subclass,J,Information and communication,5821Z,58.21,Publishing of computer games,Édition de jeux électroniques
+Subclass,J,Information and communication,5829A,58.29,Publishing of system and network software,Édition de logiciels système et de réseau
+Subclass,J,Information and communication,5829B,58.29,Publishing of development tools and programming language software,Édition de logiciels outils de développement et de langages
+Subclass,J,Information and communication,5829C,58.29,Publishing of application software,Édition de logiciels applicatifs
+Subclass,J,Information and communication,5911A,59.11,Production of films and programmes for television,Production de films et de programmes pour la télévision
+Subclass,J,Information and communication,5911B,59.11,Production of corporate and advertising films,Production de films institutionnels et publicitaires
+Subclass,J,Information and communication,5911C,59.11,Production of feature films for cinema,Production de films pour le cinéma
+Subclass,J,Information and communication,5912Z,59.12,"Motion picture, video and television programme post-production activities","Post-production de films cinématographiques, de vidéo et de programmes de télévision"
+Subclass,J,Information and communication,5913A,59.13,Motion picture distribution,Distribution de films cinématographiques
+Subclass,J,Information and communication,5913B,59.13,Video publishing and distribution,Édition et distribution vidéo
+Subclass,J,Information and communication,5914Z,59.14,Motion picture projection activities,Projection de films cinématographiques
+Subclass,J,Information and communication,5920Z,59.20,Sound recording and music publishing activities,Enregistrement sonore et édition musicale
+Subclass,J,Information and communication,6010Z,60.10,Radio broadcasting,Édition et diffusion de programmes radio
+Subclass,J,Information and communication,6020A,60.20,General-interest television channels,Édition de chaînes généralistes
+Subclass,J,Information and communication,6020B,60.20,Thematic television channels,Édition de chaînes thématiques
+Subclass,J,Information and communication,6110Z,61.10,Wired telecommunications activities,Télécommunications filaires
+Subclass,J,Information and communication,6120Z,61.20,Wireless telecommunications activities,Télécommunications sans fil
+Subclass,J,Information and communication,6130Z,61.30,Satellite telecommunications activities,Télécommunications par satellite
+Subclass,J,Information and communication,6190Z,61.90,Other telecommunications activities,Autres activités de télécommunication
+Subclass,J,Information and communication,6201Z,62.01,Computer programming activities,Programmation informatique
+Subclass,J,Information and communication,6202A,62.02,Computer systems and software consultancy,Conseil en systèmes et logiciels informatiques
+Subclass,J,Information and communication,6202B,62.02,Third-party maintenance of computer systems and applications,Tierce maintenance de systèmes et d'applications informatiques
+Subclass,J,Information and communication,6203Z,62.03,Computer facilities management activities,Gestion d'installations informatiques
+Subclass,J,Information and communication,6209Z,62.09,Other information technology and computer service activities,Autres activités informatiques
+Subclass,J,Information and communication,6311Z,63.11,"Data processing, hosting and related activities","Traitement de données, hébergement et activités connexes"
+Subclass,J,Information and communication,6312Z,63.12,Web portals,Portails Internet
+Subclass,J,Information and communication,6391Z,63.91,News agency activities,Activités des agences de presse
+Subclass,J,Information and communication,6399Z,63.99,Other information service activities n.e.c.,Autres services d'information n.c.a.
+Subclass,K,Financial and insurance activities,6411Z,64.11,Central banking,Activités de banque centrale
+Subclass,K,Financial and insurance activities,6419Z,64.19,Other monetary intermediation,Autres intermédiations monétaires
+Subclass,K,Financial and insurance activities,6420Z,64.20,Activities of holding companies,Activités des sociétés holding
+Subclass,K,Financial and insurance activities,6430Z,64.30,"Trusts, funds and similar financial entities",Fonds de placement et entités financières similaires
+Subclass,K,Financial and insurance activities,6491Z,64.91,Financial leasing,Crédit-bail
+Subclass,K,Financial and insurance activities,6492Z,64.92,Other credit granting,Autre distribution de crédit
+Subclass,K,Financial and insurance activities,6499Z,64.99,"Other financial service activities, except insurance and pension funding n.e.c.","Autres activités des services financiers, hors assurance et caisses de retraite, n.c.a."
+Subclass,K,Financial and insurance activities,6511Z,65.11,Life insurance,Assurance vie
+Subclass,K,Financial and insurance activities,6512Z,65.12,Non-life insurance,Autres assurances
+Subclass,K,Financial and insurance activities,6520Z,65.20,Reinsurance,Réassurance
+Subclass,K,Financial and insurance activities,6530Z,65.30,Pension funding,Caisses de retraite
+Subclass,K,Financial and insurance activities,6611Z,66.11,Administration of financial markets,Administration de marchés financiers
+Subclass,K,Financial and insurance activities,6612Z,66.12,Security and commodity contracts brokerage,Courtage de valeurs mobilières et de marchandises
+Subclass,K,Financial and insurance activities,6619A,66.19,Legal entities for managing securities portfolios,Supports juridiques de gestion de patrimoine mobilier
+Subclass,K,Financial and insurance activities,6619B,66.19,"Other activities auxiliary to financial services, except insurance and pension funding n.e.c.","Autres activités auxiliaires de services financiers, hors assurance et caisses de retraite, n.c.a."
+Subclass,K,Financial and insurance activities,6621Z,66.21,Risk and damage evaluation,Évaluation des risques et dommages
+Subclass,K,Financial and insurance activities,6622Z,66.22,Activities of insurance agents and brokers,Activités des agents et courtiers d'assurances
+Subclass,K,Financial and insurance activities,6629Z,66.29,Other activities auxiliary to insurance and pension funding,Autres activités auxiliaires d'assurance et de caisses de retraite
+Subclass,K,Financial and insurance activities,6630Z,66.30,Fund management activities,Gestion de fonds
+Subclass,L,Real estate activities,6810Z,68.10,Buying and selling of own real estate,Activités des marchands de biens immobiliers
+Subclass,L,Real estate activities,6820A,68.20,Renting of dwellings,Location de logements
+Subclass,L,Real estate activities,6820B,68.20,Renting of land and other real estate,Location de terrains et d'autres biens immobiliers
+Subclass,L,Real estate activities,6831Z,68.31,Real estate agencies,Agences immobilières
+Subclass,L,Real estate activities,6832A,68.32,Management of buildings and other real estate,Administration d'immeubles et autres biens immobiliers
+Subclass,L,Real estate activities,6832B,68.32,Legal entities for managing real estate holdings,Supports juridiques de gestion de patrimoine immobilier
+Subclass,M,"Professional, scientific and technical activities",6910Z,69.10,Legal activities,Activités juridiques
+Subclass,M,"Professional, scientific and technical activities",6920Z,69.20,"Accounting, bookkeeping and auditing activities; tax consultancy",Activités comptables
+Subclass,M,"Professional, scientific and technical activities",7010Z,70.10,Activities of head offices,Activités des sièges sociaux
+Subclass,M,"Professional, scientific and technical activities",7021Z,70.21,Public relations and communication activities,Conseil en relations publiques et communication
+Subclass,M,"Professional, scientific and technical activities",7022Z,70.22,Business and other management consultancy activities,Conseil pour les affaires et autres conseils de gestion
+Subclass,M,"Professional, scientific and technical activities",7111Z,71.11,Architectural activities,Activités d'architecture
+Subclass,M,"Professional, scientific and technical activities",7112A,71.12,Surveying activities,Activité des géomètres
+Subclass,M,"Professional, scientific and technical activities",7112B,71.12,Engineering and related technical consultancy,"Ingénierie, études techniques"
+Subclass,M,"Professional, scientific and technical activities",7120A,71.20,Motor vehicle roadworthiness testing,Contrôle technique automobile
+Subclass,M,"Professional, scientific and technical activities",7120B,71.20,Technical testing and analysis,"Analyses, essais et inspections techniques"
+Subclass,M,"Professional, scientific and technical activities",7211Z,72.11,Research and experimental development on biotechnology,Recherche-développement en biotechnologie
+Subclass,M,"Professional, scientific and technical activities",7219Z,72.19,Other research and experimental development on natural sciences and engineering,Recherche-développement en autres sciences physiques et naturelles
+Subclass,M,"Professional, scientific and technical activities",7220Z,72.20,Research and experimental development on social sciences and humanities,Recherche-développement en sciences humaines et sociales
+Subclass,M,"Professional, scientific and technical activities",7311Z,73.11,Advertising agencies,Activités des agences de publicité
+Subclass,M,"Professional, scientific and technical activities",7312Z,73.12,Media representation,Régie publicitaire de médias
+Subclass,M,"Professional, scientific and technical activities",7320Z,73.20,Market research and public opinion polling,Études de marché et sondages
+Subclass,M,"Professional, scientific and technical activities",7410Z,74.10,Specialised design activities,Activités spécialisées de design
+Subclass,M,"Professional, scientific and technical activities",7420Z,74.20,Photographic activities,Activités photographiques
+Subclass,M,"Professional, scientific and technical activities",7430Z,74.30,Translation and interpretation activities,Traduction et interprétation
+Subclass,M,"Professional, scientific and technical activities",7490A,74.90,Quantity surveying (construction economists),Activité des économistes de la construction
+Subclass,M,"Professional, scientific and technical activities",7490B,74.90,"Other professional, scientific and technical activities","Activités spécialisées, scientifiques et techniques diverses"
+Subclass,M,"Professional, scientific and technical activities",7500Z,75.00,Veterinary activities,Activités vétérinaires
+Subclass,N,Administrative and support service activities,7711A,77.11,Short-term rental of cars and light motor vehicles,Location de courte durée de voitures et de véhicules automobiles légers
+Subclass,N,Administrative and support service activities,7711B,77.11,Long-term rental of cars and light motor vehicles,Location de longue durée de voitures et de véhicules automobiles légers
+Subclass,N,Administrative and support service activities,7712Z,77.12,Renting and leasing of trucks,Location et location-bail de camions
+Subclass,N,Administrative and support service activities,7721Z,77.21,Renting and leasing of recreational and sports goods,Location et location-bail d'articles de loisirs et de sport
+Subclass,N,Administrative and support service activities,7722Z,77.22,Renting of video tapes and disks,Location de vidéocassettes et disques vidéo
+Subclass,N,Administrative and support service activities,7729Z,77.29,Renting and leasing of other personal and household goods,Location et location-bail d'autres biens personnels et domestiques
+Subclass,N,Administrative and support service activities,7731Z,77.31,Renting and leasing of agricultural machinery and equipment,Location et location-bail de machines et équipements agricoles
+Subclass,N,Administrative and support service activities,7732Z,77.32,Renting and leasing of construction and civil engineering machinery and equipment,Location et location-bail de machines et équipements pour la construction
+Subclass,N,Administrative and support service activities,7733Z,77.33,Renting and leasing of office machinery and equipment (including computers),Location et location-bail de machines de bureau et de matériel informatique
+Subclass,N,Administrative and support service activities,7734Z,77.34,Renting and leasing of water transport equipment,Location et location-bail de matériels de transport par eau
+Subclass,N,Administrative and support service activities,7735Z,77.35,Renting and leasing of air transport equipment,Location et location-bail de matériels de transport aérien
+Subclass,N,Administrative and support service activities,7739Z,77.39,"Renting and leasing of other machinery, equipment and tangible goods n.e.c.","Location et location-bail d'autres machines, équipements et biens matériels n.c.a."
+Subclass,N,Administrative and support service activities,7740Z,77.40,"Leasing of intellectual property and similar products, except copyrighted works","Location-bail de propriété intellectuelle et de produits similaires, à l'exception des œuvres soumises à copyright"
+Subclass,N,Administrative and support service activities,7810Z,78.10,Activities of employment placement agencies,Activités des agences de placement de main-d'œuvre
+Subclass,N,Administrative and support service activities,7820Z,78.20,Temporary employment agency activities,Activités des agences de travail temporaire
+Subclass,N,Administrative and support service activities,7830Z,78.30,Other human resources provision,Autre mise à disposition de ressources humaines
+Subclass,N,Administrative and support service activities,7911Z,79.11,Travel agency activities,Activités des agences de voyage
+Subclass,N,Administrative and support service activities,7912Z,79.12,Tour operator activities,Activités des voyagistes
+Subclass,N,Administrative and support service activities,7990Z,79.90,Other reservation service and related activities,Autres services de réservation et activités connexes
+Subclass,N,Administrative and support service activities,8010Z,80.10,Private security activities,Activités de sécurité privée
+Subclass,N,Administrative and support service activities,8020Z,80.20,Security systems service activities,Activités liées aux systèmes de sécurité
+Subclass,N,Administrative and support service activities,8030Z,80.30,Investigation activities,Activités d'enquête
+Subclass,N,Administrative and support service activities,8110Z,81.10,Combined facilities support activities,Activités combinées de soutien lié aux bâtiments
+Subclass,N,Administrative and support service activities,8121Z,81.21,General cleaning of buildings,Nettoyage courant des bâtiments
+Subclass,N,Administrative and support service activities,8122Z,81.22,Other building and industrial cleaning activities,Autres activités de nettoyage des bâtiments et nettoyage industriel
+Subclass,N,Administrative and support service activities,8129A,81.29,"Disinfection, insect control and rodent control","Désinfection, désinsectisation, dératisation"
+Subclass,N,Administrative and support service activities,8129B,81.29,Other cleaning activities n.e.c.,Autres activités de nettoyage n.c.a.
+Subclass,N,Administrative and support service activities,8130Z,81.30,Landscape service activities,Services d'aménagement paysager
+Subclass,N,Administrative and support service activities,8211Z,82.11,Combined office administrative service activities,Services administratifs combinés de bureau
+Subclass,N,Administrative and support service activities,8219Z,82.19,"Photocopying, document preparation and other specialised office support activities","Photocopie, préparation de documents et autres activités spécialisées de soutien de bureau"
+Subclass,N,Administrative and support service activities,8220Z,82.20,Activities of call centres,Activités de centres d'appels
+Subclass,N,Administrative and support service activities,8230Z,82.30,Organisation of conventions and trade shows,"Organisation de foires, salons professionnels et congrès"
+Subclass,N,Administrative and support service activities,8291Z,82.91,Activities of collection agencies and credit bureaus,Activités des agences de recouvrement de factures et des sociétés d'information financière sur la clientèle
+Subclass,N,Administrative and support service activities,8292Z,82.92,Packaging activities,Activités de conditionnement
+Subclass,N,Administrative and support service activities,8299Z,82.99,Other business support service activities n.e.c.,Autres activités de soutien aux entreprises n.c.a.
+Subclass,O,Public administration,8411Z,84.11,General public administration activities,Administration publique générale
+Subclass,O,Public administration,8412Z,84.12,"Regulation of the activities of providing health care, education, cultural services and other social services, excluding social security","Administration publique (tutelle) de la santé, de la formation, de la culture et des services sociaux, autre que sécurité sociale"
+Subclass,O,Public administration,8413Z,84.13,Regulation of and contribution to more efficient operation of businesses,Administration publique (tutelle) des activités économiques
+Subclass,O,Public administration,8421Z,84.21,Foreign affairs,Affaires étrangères
+Subclass,O,Public administration,8422Z,84.22,Defence activities,Défense
+Subclass,O,Public administration,8423Z,84.23,Justice and judicial activities,Justice
+Subclass,O,Public administration,8424Z,84.24,Public order and safety activities,Activités d'ordre public et de sécurité
+Subclass,O,Public administration,8425Z,84.25,Fire service activities,Services du feu et de secours
+Subclass,O,Public administration,8430A,84.30,General social security activities,Activités générales de sécurité sociale
+Subclass,O,Public administration,8430B,84.30,Management of supplementary pension schemes,Gestion des retraites complémentaires
+Subclass,O,Public administration,8430C,84.30,Social distribution of income,Distribution sociale de revenus
+Subclass,P,Education,8510Z,85.10,Pre-primary education,Enseignement pré-primaire
+Subclass,P,Education,8520Z,85.20,Primary education,Enseignement primaire
+Subclass,P,Education,8531Z,85.31,General secondary education,Enseignement secondaire général
+Subclass,P,Education,8532Z,85.32,Technical and vocational secondary education,Enseignement secondaire technique ou professionnel
+Subclass,P,Education,8541Z,85.41,Post-secondary non-tertiary education,Enseignement post-secondaire non supérieur
+Subclass,P,Education,8542Z,85.42,Tertiary education,Enseignement supérieur
+Subclass,P,Education,8551Z,85.51,Sports and recreation education,Enseignement de disciplines sportives et d'activités de loisirs
+Subclass,P,Education,8552Z,85.52,Cultural education,Enseignement culturel
+Subclass,P,Education,8553Z,85.53,Driving school activities,Enseignement de la conduite
+Subclass,P,Education,8559A,85.59,Continuing adult education,Formation continue d'adultes
+Subclass,P,Education,8559B,85.59,Other education,Autres enseignements
+Subclass,P,Education,8560Z,85.60,Educational support activities,Activités de soutien à l'enseignement
+Subclass,Q,Human health and social work activities,8610Z,86.10,Hospital activities,Activités hospitalières
+Subclass,Q,Human health and social work activities,8621Z,86.21,General medical practice activities,Activité des médecins généralistes
+Subclass,Q,Human health and social work activities,8622A,86.22,Radiodiagnosis and radiotherapy activities,Activités de radiodiagnostic et de radiothérapie
+Subclass,Q,Human health and social work activities,8622B,86.22,Surgical activities,Activités chirurgicales
+Subclass,Q,Human health and social work activities,8622C,86.22,Other specialist medical practice activities,Autres activités des médecins spécialistes
+Subclass,Q,Human health and social work activities,8623Z,86.23,Dental practice activities,Pratique dentaire
+Subclass,Q,Human health and social work activities,8690A,86.90,Ambulance services,Ambulances
+Subclass,Q,Human health and social work activities,8690B,86.90,Medical analysis laboratories,Laboratoires d'analyses médicales
+Subclass,Q,Human health and social work activities,8690C,86.90,Collection centres and organ banks,Centres de collecte et banques d'organes
+Subclass,Q,Human health and social work activities,8690D,86.90,Activities of nurses and midwives,Activités des infirmiers et des sages-femmes
+Subclass,Q,Human health and social work activities,8690E,86.90,Activities of rehabilitation and orthotics professionals and chiropodists-podiatrists,"Activités des professionnels de la rééducation, de l'appareillage et des pédicures-podologues"
+Subclass,Q,Human health and social work activities,8690F,86.90,Human health activities not elsewhere classified,Activités de santé humaine non classées ailleurs
+Subclass,Q,Human health and social work activities,8710A,87.10,Residential nursing care for the elderly,Hébergement médicalisé pour personnes âgées
+Subclass,Q,Human health and social work activities,8710B,87.10,Residential nursing care for disabled children,Hébergement médicalisé pour enfants handicapés
+Subclass,Q,Human health and social work activities,8710C,87.10,Residential nursing care for disabled adults and other residential nursing care,Hébergement médicalisé pour adultes handicapés et autre hébergement médicalisé
+Subclass,Q,Human health and social work activities,8720A,87.20,Residential care for people with intellectual disabilities and mental illness,Hébergement social pour handicapés mentaux et malades mentaux
+Subclass,Q,Human health and social work activities,8720B,87.20,Residential care for substance abusers,Hébergement social pour toxicomanes
+Subclass,Q,Human health and social work activities,8730A,87.30,Residential care for the elderly,Hébergement social pour personnes âgées
+Subclass,Q,Human health and social work activities,8730B,87.30,Residential care for the physically disabled,Hébergement social pour handicapés physiques
+Subclass,Q,Human health and social work activities,8790A,87.90,Residential care for children in difficulty,Hébergement social pour enfants en difficultés
+Subclass,Q,Human health and social work activities,8790B,87.90,Residential care for adults and families in difficulty and other residential care,Hébergement social pour adultes et familles en difficultés et autre hébergement social
+Subclass,Q,Human health and social work activities,8810A,88.10,Home help services,Aide à domicile
+Subclass,Q,Human health and social work activities,8810B,88.10,Non-residential care or support for disabled adults or the elderly,Accueil ou accompagnement sans hébergement d'adultes handicapés ou de personnes âgées
+Subclass,Q,Human health and social work activities,8810C,88.10,Sheltered employment,Aide par le travail
+Subclass,Q,Human health and social work activities,8891A,88.91,Childcare for young children,Accueil de jeunes enfants
+Subclass,Q,Human health and social work activities,8891B,88.91,Non-residential care or support for disabled children,Accueil ou accompagnement sans hébergement d'enfants handicapés
+Subclass,Q,Human health and social work activities,8899A,88.99,Other non-residential care or support for children and adolescents,Autre accueil ou accompagnement sans hébergement d'enfants et d'adolescents
+Subclass,Q,Human health and social work activities,8899B,88.99,Other social work activities without accommodation n.e.c.,Action sociale sans hébergement n.c.a.
+Subclass,R,"Arts, entertainment and recreation",9001Z,90.01,Performing arts,Arts du spectacle vivant
+Subclass,R,"Arts, entertainment and recreation",9002Z,90.02,Support activities to performing arts,Activités de soutien au spectacle vivant
+Subclass,R,"Arts, entertainment and recreation",9003A,90.03,Artistic creation in the visual arts,Création artistique relevant des arts plastiques
+Subclass,R,"Arts, entertainment and recreation",9003B,90.03,Other artistic creation,Autre création artistique
+Subclass,R,"Arts, entertainment and recreation",9004Z,90.04,Operation of arts facilities,Gestion de salles de spectacles
+Subclass,R,"Arts, entertainment and recreation",9101Z,91.01,Library and archives activities,Gestion des bibliothèques et des archives
+Subclass,R,"Arts, entertainment and recreation",9102Z,91.02,Museums activities,Gestion des musées
+Subclass,R,"Arts, entertainment and recreation",9103Z,91.03,Operation of historical sites and buildings and similar visitor attractions,Gestion des sites et monuments historiques et des attractions touristiques similaires
+Subclass,R,"Arts, entertainment and recreation",9104Z,91.04,Botanical and zoological gardens and nature reserves activities,Gestion des jardins botaniques et zoologiques et des réserves naturelles
+Subclass,R,"Arts, entertainment and recreation",9200Z,92.00,Gambling and betting activities,Organisation de jeux de hasard et d'argent
+Subclass,R,"Arts, entertainment and recreation",9311Z,93.11,Operation of sports facilities,Gestion d'installations sportives
+Subclass,R,"Arts, entertainment and recreation",9312Z,93.12,Activities of sport clubs,Activités de clubs de sports
+Subclass,R,"Arts, entertainment and recreation",9313Z,93.13,Fitness facilities,Activités des centres de culture physique
+Subclass,R,"Arts, entertainment and recreation",9319Z,93.19,Other sports activities,Autres activités liées au sport
+Subclass,R,"Arts, entertainment and recreation",9321Z,93.21,Activities of amusement parks and theme parks,Activités des parcs d'attractions et parcs à thèmes
+Subclass,R,"Arts, entertainment and recreation",9329Z,93.29,Other amusement and recreation activities,Autres activités récréatives et de loisirs
+Subclass,S,Other service activities,9411Z,94.11,"Activities of business, employers and chamber organisations",Activités des organisations patronales et consulaires
+Subclass,S,Other service activities,9412Z,94.12,Activities of professional membership organisations,Activités des organisations professionnelles
+Subclass,S,Other service activities,9420Z,94.20,Activities of trade unions,Activités des syndicats de salariés
+Subclass,S,Other service activities,9491Z,94.91,Activities of religious organisations,Activités des organisations religieuses
+Subclass,S,Other service activities,9492Z,94.92,Activities of political organisations,Activités des organisations politiques
+Subclass,S,Other service activities,9499Z,94.99,Activities of other membership organisations n.e.c.,Autres organisations fonctionnant par adhésion volontaire
+Subclass,S,Other service activities,9511Z,95.11,Repair of computers and peripheral equipment,Réparation d'ordinateurs et d'équipements périphériques
+Subclass,S,Other service activities,9512Z,95.12,Repair of communication equipment,Réparation d'équipements de communication
+Subclass,S,Other service activities,9521Z,95.21,Repair of consumer electronics,Réparation de produits électroniques grand public
+Subclass,S,Other service activities,9522Z,95.22,Repair of household appliances and home and garden equipment,Réparation d'appareils électroménagers et d'équipements pour la maison et le jardin
+Subclass,S,Other service activities,9523Z,95.23,Repair of footwear and leather goods,Réparation de chaussures et d'articles en cuir
+Subclass,S,Other service activities,9524Z,95.24,Repair of furniture and home furnishings,Réparation de meubles et d'équipements du foyer
+Subclass,S,Other service activities,9525Z,95.25,"Repair of watches, clocks and jewellery",Réparation d'articles d'horlogerie et de bijouterie
+Subclass,S,Other service activities,9529Z,95.29,Repair of other personal and household goods,Réparation d'autres biens personnels et domestiques
+Subclass,S,Other service activities,9601A,96.01,Industrial laundry and dry cleaning,Blanchisserie-teinturerie de gros
+Subclass,S,Other service activities,9601B,96.01,Retail laundry and dry cleaning,Blanchisserie-teinturerie de détail
+Subclass,S,Other service activities,9602A,96.02,Hairdressing,Coiffure
+Subclass,S,Other service activities,9602B,96.02,Beauty treatment,Soins de beauté
+Subclass,S,Other service activities,9603Z,96.03,Funeral and related activities,Services funéraires
+Subclass,S,Other service activities,9604Z,96.04,Physical well-being activities,Entretien corporel
+Subclass,S,Other service activities,9609Z,96.09,Other personal service activities n.e.c.,Autres services personnels n.c.a.
+Subclass,T,Activities of households as employers,9700Z,97.00,Activities of households as employers of domestic personnel,Activités des ménages en tant qu'employeurs de personnel domestique
+Subclass,T,Activities of households as employers,9810Z,98.10,Undifferentiated goods-producing activities of private households for own use,Activités indifférenciées des ménages en tant que producteurs de biens pour usage propre
+Subclass,T,Activities of households as employers,9820Z,98.20,Undifferentiated service-producing activities of private households for own use,Activités indifférenciées des ménages en tant que producteurs de services pour usage propre
+Subclass,U,Activities of extraterritorial organisations,9900Z,99.00,Activities of extraterritorial organisations and bodies,Activités des organisations et organismes extraterritoriaux
+Subclass,x,Sector not known,,,Sector not known,Valeur manquante

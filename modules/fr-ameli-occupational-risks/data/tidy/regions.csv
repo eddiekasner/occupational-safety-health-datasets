@@ -1,0 +1,1521 @@
+year,region_code,region,risk,claims,employees,frequency_index
+2005,01,Guadeloupe,Commuting accidents,214,86011,2.5
+2005,01,Guadeloupe,Work accidents,1396,86011,16.2
+2005,01,Guadeloupe,Occupational diseases,20,86011,
+2005,01,Guadeloupe,All risks,1630,86011,
+2005,02,Martinique,Commuting accidents,185,89687,2.1
+2005,02,Martinique,Work accidents,1520,89687,16.9
+2005,02,Martinique,Occupational diseases,2,89687,
+2005,02,Martinique,All risks,1707,89687,
+2005,03,Guyane,Commuting accidents,48,29082,1.7
+2005,03,Guyane,Work accidents,428,29082,14.7
+2005,03,Guyane,Occupational diseases,5,29082,
+2005,03,Guyane,All risks,481,29082,
+2005,04,La Réunion,Commuting accidents,389,154410,2.5
+2005,04,La Réunion,Work accidents,3766,154410,24.4
+2005,04,La Réunion,Occupational diseases,89,154410,
+2005,04,La Réunion,All risks,4244,154410,
+2005,06,Mayotte,Commuting accidents,0,0,
+2005,06,Mayotte,Work accidents,0,0,
+2005,06,Mayotte,Occupational diseases,0,0,
+2005,06,Mayotte,All risks,0,0,
+2005,11,Ile-de-France,Commuting accidents,23218,4467957,5.2
+2005,11,Ile-de-France,Work accidents,118545,4467957,26.5
+2005,11,Ile-de-France,Occupational diseases,2611,4467957,
+2005,11,Ile-de-France,All risks,144374,4467957,
+2005,24,Centre-Val de Loire,Commuting accidents,3072,667926,4.6
+2005,24,Centre-Val de Loire,Work accidents,30023,667926,44.9
+2005,24,Centre-Val de Loire,Occupational diseases,1396,667926,
+2005,24,Centre-Val de Loire,All risks,34491,667926,
+2005,27,Bourgogne-Franche-Comté,Commuting accidents,2966,735624,4
+2005,27,Bourgogne-Franche-Comté,Work accidents,31965,735624,43.5
+2005,27,Bourgogne-Franche-Comté,Occupational diseases,1680,735624,
+2005,27,Bourgogne-Franche-Comté,All risks,36611,735624,
+2005,28,Normandie,Commuting accidents,3774,910513,4.1
+2005,28,Normandie,Work accidents,36532,910513,40.1
+2005,28,Normandie,Occupational diseases,1528,910513,
+2005,28,Normandie,All risks,41834,910513,
+2005,32,Hauts-de-France,Commuting accidents,5674,1578455,3.6
+2005,32,Hauts-de-France,Work accidents,63591,1578455,40.3
+2005,32,Hauts-de-France,Occupational diseases,1105,1578455,
+2005,32,Hauts-de-France,All risks,70370,1578455,
+2005,44,Grand Est,Commuting accidents,6142,1463724,4.2
+2005,44,Grand Est,Work accidents,63031,1463724,43.1
+2005,44,Grand Est,Occupational diseases,3583,1463724,
+2005,44,Grand Est,All risks,72756,1463724,
+2005,52,Pays de la Loire,Commuting accidents,4264,991699,4.3
+2005,52,Pays de la Loire,Work accidents,42581,991699,42.9
+2005,52,Pays de la Loire,Occupational diseases,2576,991699,
+2005,52,Pays de la Loire,All risks,49421,991699,
+2005,53,Bretagne,Commuting accidents,2927,809696,3.6
+2005,53,Bretagne,Work accidents,36227,809696,44.7
+2005,53,Bretagne,Occupational diseases,3665,809696,
+2005,53,Bretagne,All risks,42819,809696,
+2005,75,Nouvelle-Aquitaine,Commuting accidents,5547,1391769,4
+2005,75,Nouvelle-Aquitaine,Work accidents,56839,1391769,40.8
+2005,75,Nouvelle-Aquitaine,Occupational diseases,1447,1391769,
+2005,75,Nouvelle-Aquitaine,All risks,63833,1391769,
+2005,76,Occitanie,Commuting accidents,5157,1280732,4
+2005,76,Occitanie,Work accidents,54214,1280732,42.3
+2005,76,Occitanie,Occupational diseases,1109,1280732,
+2005,76,Occitanie,All risks,60480,1280732,
+2005,84,Auvergne-Rhône-Alpes,Commuting accidents,9257,2237916,4.1
+2005,84,Auvergne-Rhône-Alpes,Work accidents,96685,2237916,43.2
+2005,84,Auvergne-Rhône-Alpes,Occupational diseases,2176,2237916,
+2005,84,Auvergne-Rhône-Alpes,All risks,108118,2237916,
+2005,93,Provence-Alpes-Côte d'Azur,Commuting accidents,6377,1250413,5.1
+2005,93,Provence-Alpes-Côte d'Azur,Work accidents,54049,1250413,43.2
+2005,93,Provence-Alpes-Côte d'Azur,Occupational diseases,1178,1250413,
+2005,93,Provence-Alpes-Côte d'Azur,All risks,61604,1250413,
+2005,94,Corse,Commuting accidents,314,66383,4.7
+2005,94,Corse,Work accidents,3330,66383,50.2
+2005,94,Corse,Occupational diseases,151,66383,
+2005,94,Corse,All risks,3795,66383,
+2005,99,France,Commuting accidents,79525,18211997,4.4
+2005,99,France,Work accidents,694722,18211997,38.1
+2005,99,France,Occupational diseases,24321,18211997,
+2005,99,France,All risks,798568,18211997,
+2006,01,Guadeloupe,Commuting accidents,175,86983,2
+2006,01,Guadeloupe,Work accidents,1192,86983,13.7
+2006,01,Guadeloupe,Occupational diseases,19,86983,
+2006,01,Guadeloupe,All risks,1386,86983,
+2006,02,Martinique,Commuting accidents,279,92607,3
+2006,02,Martinique,Work accidents,2203,92607,23.8
+2006,02,Martinique,Occupational diseases,4,92607,
+2006,02,Martinique,All risks,2486,92607,
+2006,03,Guyane,Commuting accidents,48,29653,1.6
+2006,03,Guyane,Work accidents,373,29653,12.6
+2006,03,Guyane,Occupational diseases,10,29653,
+2006,03,Guyane,All risks,431,29653,
+2006,04,La Réunion,Commuting accidents,433,160937,2.7
+2006,04,La Réunion,Work accidents,3728,160937,23.2
+2006,04,La Réunion,Occupational diseases,76,160937,
+2006,04,La Réunion,All risks,4237,160937,
+2006,06,Mayotte,Commuting accidents,0,0,
+2006,06,Mayotte,Work accidents,0,0,
+2006,06,Mayotte,Occupational diseases,0,0,
+2006,06,Mayotte,All risks,0,0,
+2006,11,Ile-de-France,Commuting accidents,22760,4525851,5
+2006,11,Ile-de-France,Work accidents,118561,4525851,26.2
+2006,11,Ile-de-France,Occupational diseases,2698,4525851,
+2006,11,Ile-de-France,All risks,144019,4525851,
+2006,24,Centre-Val de Loire,Commuting accidents,2860,657062,4.4
+2006,24,Centre-Val de Loire,Work accidents,29232,657062,44.5
+2006,24,Centre-Val de Loire,Occupational diseases,1341,657062,
+2006,24,Centre-Val de Loire,All risks,33433,657062,
+2006,27,Bourgogne-Franche-Comté,Commuting accidents,3131,726686,4.3
+2006,27,Bourgogne-Franche-Comté,Work accidents,32374,726686,44.6
+2006,27,Bourgogne-Franche-Comté,Occupational diseases,1632,726686,
+2006,27,Bourgogne-Franche-Comté,All risks,37137,726686,
+2006,28,Normandie,Commuting accidents,3868,897563,4.3
+2006,28,Normandie,Work accidents,36477,897563,40.6
+2006,28,Normandie,Occupational diseases,1681,897563,
+2006,28,Normandie,All risks,42026,897563,
+2006,32,Hauts-de-France,Commuting accidents,5506,1530260,3.6
+2006,32,Hauts-de-France,Work accidents,61452,1530260,40.2
+2006,32,Hauts-de-France,Occupational diseases,965,1530260,
+2006,32,Hauts-de-France,All risks,67923,1530260,
+2006,44,Grand Est,Commuting accidents,5921,1447610,4.1
+2006,44,Grand Est,Work accidents,60972,1447610,42.1
+2006,44,Grand Est,Occupational diseases,3805,1447610,
+2006,44,Grand Est,All risks,70698,1447610,
+2006,52,Pays de la Loire,Commuting accidents,4336,994769,4.4
+2006,52,Pays de la Loire,Work accidents,43992,994769,44.2
+2006,52,Pays de la Loire,Occupational diseases,3542,994769,
+2006,52,Pays de la Loire,All risks,51870,994769,
+2006,53,Bretagne,Commuting accidents,3054,812658,3.8
+2006,53,Bretagne,Work accidents,37100,812658,45.7
+2006,53,Bretagne,Occupational diseases,3751,812658,
+2006,53,Bretagne,All risks,43905,812658,
+2006,75,Nouvelle-Aquitaine,Commuting accidents,5816,1390781,4.2
+2006,75,Nouvelle-Aquitaine,Work accidents,58452,1390781,42
+2006,75,Nouvelle-Aquitaine,Occupational diseases,1442,1390781,
+2006,75,Nouvelle-Aquitaine,All risks,65710,1390781,
+2006,76,Occitanie,Commuting accidents,5074,1296310,3.9
+2006,76,Occitanie,Work accidents,55062,1296310,42.5
+2006,76,Occitanie,Occupational diseases,1227,1296310,
+2006,76,Occitanie,All risks,61363,1296310,
+2006,84,Auvergne-Rhône-Alpes,Commuting accidents,9424,2206732,4.3
+2006,84,Auvergne-Rhône-Alpes,Work accidents,96710,2206732,43.8
+2006,84,Auvergne-Rhône-Alpes,Occupational diseases,2081,2206732,
+2006,84,Auvergne-Rhône-Alpes,All risks,108215,2206732,
+2006,93,Provence-Alpes-Côte d'Azur,Commuting accidents,6686,1243180,5.4
+2006,93,Provence-Alpes-Côte d'Azur,Work accidents,54798,1243180,44.1
+2006,93,Provence-Alpes-Côte d'Azur,Occupational diseases,1230,1243180,
+2006,93,Provence-Alpes-Côte d'Azur,All risks,62714,1243180,
+2006,94,Corse,Commuting accidents,348,66407,5.2
+2006,94,Corse,Work accidents,3267,66407,49.2
+2006,94,Corse,Occupational diseases,138,66407,
+2006,94,Corse,All risks,3753,66407,
+2006,99,France,Commuting accidents,79719,18166049,4.4
+2006,99,France,Work accidents,695945,18166049,38.3
+2006,99,France,Occupational diseases,25642,18166049,
+2006,99,France,All risks,801306,18166049,
+2007,01,Guadeloupe,Commuting accidents,214,88320,2.4
+2007,01,Guadeloupe,Work accidents,1499,88320,17
+2007,01,Guadeloupe,Occupational diseases,28,88320,
+2007,01,Guadeloupe,All risks,1741,88320,
+2007,02,Martinique,Commuting accidents,224,88316,2.5
+2007,02,Martinique,Work accidents,2217,88316,25.1
+2007,02,Martinique,Occupational diseases,1,88316,
+2007,02,Martinique,All risks,2442,88316,
+2007,03,Guyane,Commuting accidents,25,28340,0.9
+2007,03,Guyane,Work accidents,370,28340,13.1
+2007,03,Guyane,Occupational diseases,8,28340,
+2007,03,Guyane,All risks,403,28340,
+2007,04,La Réunion,Commuting accidents,520,165841,3.1
+2007,04,La Réunion,Work accidents,3937,165841,23.7
+2007,04,La Réunion,Occupational diseases,68,165841,
+2007,04,La Réunion,All risks,4525,165841,
+2007,06,Mayotte,Commuting accidents,0,0,
+2007,06,Mayotte,Work accidents,0,0,
+2007,06,Mayotte,Occupational diseases,0,0,
+2007,06,Mayotte,All risks,0,0,
+2007,11,Ile-de-France,Commuting accidents,23820,4639175,5.1
+2007,11,Ile-de-France,Work accidents,121675,4639175,26.2
+2007,11,Ile-de-France,Occupational diseases,3589,4639175,
+2007,11,Ile-de-France,All risks,149084,4639175,
+2007,24,Centre-Val de Loire,Commuting accidents,2791,671892,4.2
+2007,24,Centre-Val de Loire,Work accidents,30550,671892,45.5
+2007,24,Centre-Val de Loire,Occupational diseases,1394,671892,
+2007,24,Centre-Val de Loire,All risks,34735,671892,
+2007,27,Bourgogne-Franche-Comté,Commuting accidents,3091,740009,4.2
+2007,27,Bourgogne-Franche-Comté,Work accidents,32805,740009,44.3
+2007,27,Bourgogne-Franche-Comté,Occupational diseases,1815,740009,
+2007,27,Bourgogne-Franche-Comté,All risks,37711,740009,
+2007,28,Normandie,Commuting accidents,3936,911985,4.3
+2007,28,Normandie,Work accidents,37390,911985,41
+2007,28,Normandie,Occupational diseases,2070,911985,
+2007,28,Normandie,All risks,43396,911985,
+2007,32,Hauts-de-France,Commuting accidents,5902,1588010,3.7
+2007,32,Hauts-de-France,Work accidents,65962,1588010,41.5
+2007,32,Hauts-de-France,Occupational diseases,3146,1588010,
+2007,32,Hauts-de-France,All risks,75010,1588010,
+2007,44,Grand Est,Commuting accidents,5864,1485534,3.9
+2007,44,Grand Est,Work accidents,62675,1485534,42.2
+2007,44,Grand Est,Occupational diseases,4220,1485534,
+2007,44,Grand Est,All risks,72759,1485534,
+2007,52,Pays de la Loire,Commuting accidents,4462,1016119,4.4
+2007,52,Pays de la Loire,Work accidents,43891,1016119,43.2
+2007,52,Pays de la Loire,Occupational diseases,3416,1016119,
+2007,52,Pays de la Loire,All risks,51769,1016119,
+2007,53,Bretagne,Commuting accidents,2866,815967,3.5
+2007,53,Bretagne,Work accidents,37422,815967,45.9
+2007,53,Bretagne,Occupational diseases,3695,815967,
+2007,53,Bretagne,All risks,43983,815967,
+2007,75,Nouvelle-Aquitaine,Commuting accidents,6246,1456760,4.3
+2007,75,Nouvelle-Aquitaine,Work accidents,62056,1456760,42.6
+2007,75,Nouvelle-Aquitaine,Occupational diseases,2107,1456760,
+2007,75,Nouvelle-Aquitaine,All risks,70409,1456760,
+2007,76,Occitanie,Commuting accidents,5524,1328006,4.2
+2007,76,Occitanie,Work accidents,57227,1328006,43.1
+2007,76,Occitanie,Occupational diseases,1297,1328006,
+2007,76,Occitanie,All risks,64048,1328006,
+2007,84,Auvergne-Rhône-Alpes,Commuting accidents,9751,2251076,4.3
+2007,84,Auvergne-Rhône-Alpes,Work accidents,100495,2251076,44.6
+2007,84,Auvergne-Rhône-Alpes,Occupational diseases,3281,2251076,
+2007,84,Auvergne-Rhône-Alpes,All risks,113527,2251076,
+2007,93,Provence-Alpes-Côte d'Azur,Commuting accidents,7025,1295338,5.4
+2007,93,Provence-Alpes-Côte d'Azur,Work accidents,54042,1295338,41.7
+2007,93,Provence-Alpes-Côte d'Azur,Occupational diseases,1338,1295338,
+2007,93,Provence-Alpes-Côte d'Azur,All risks,62405,1295338,
+2007,94,Corse,Commuting accidents,387,69706,5.6
+2007,94,Corse,Work accidents,3181,69706,45.6
+2007,94,Corse,Occupational diseases,140,69706,
+2007,94,Corse,All risks,3708,69706,
+2007,99,France,Commuting accidents,82648,18640394,4.4
+2007,99,France,Work accidents,717394,18640394,38.5
+2007,99,France,Occupational diseases,31613,18640394,
+2007,99,France,All risks,831655,18640394,
+2008,01,Guadeloupe,Commuting accidents,146,88469,1.7
+2008,01,Guadeloupe,Work accidents,1245,88469,14.1
+2008,01,Guadeloupe,Occupational diseases,33,88469,
+2008,01,Guadeloupe,All risks,1424,88469,
+2008,02,Martinique,Commuting accidents,244,92983,2.6
+2008,02,Martinique,Work accidents,2135,92983,23
+2008,02,Martinique,Occupational diseases,31,92983,
+2008,02,Martinique,All risks,2410,92983,
+2008,03,Guyane,Commuting accidents,38,29975,1.3
+2008,03,Guyane,Work accidents,486,29975,16.2
+2008,03,Guyane,Occupational diseases,12,29975,
+2008,03,Guyane,All risks,536,29975,
+2008,04,La Réunion,Commuting accidents,504,171005,2.9
+2008,04,La Réunion,Work accidents,4284,171005,25.1
+2008,04,La Réunion,Occupational diseases,82,171005,
+2008,04,La Réunion,All risks,4870,171005,
+2008,06,Mayotte,Commuting accidents,0,0,
+2008,06,Mayotte,Work accidents,0,0,
+2008,06,Mayotte,Occupational diseases,0,0,
+2008,06,Mayotte,All risks,0,0,
+2008,11,Ile-de-France,Commuting accidents,25188,4709508,5.3
+2008,11,Ile-de-France,Work accidents,118657,4709508,25.2
+2008,11,Ile-de-France,Occupational diseases,4050,4709508,
+2008,11,Ile-de-France,All risks,147895,4709508,
+2008,24,Centre-Val de Loire,Commuting accidents,2908,672877,4.3
+2008,24,Centre-Val de Loire,Work accidents,29215,672877,43.4
+2008,24,Centre-Val de Loire,Occupational diseases,1569,672877,
+2008,24,Centre-Val de Loire,All risks,33692,672877,
+2008,27,Bourgogne-Franche-Comté,Commuting accidents,3120,746134,4.2
+2008,27,Bourgogne-Franche-Comté,Work accidents,32002,746134,42.9
+2008,27,Bourgogne-Franche-Comté,Occupational diseases,2061,746134,
+2008,27,Bourgogne-Franche-Comté,All risks,37183,746134,
+2008,28,Normandie,Commuting accidents,4014,916990,4.4
+2008,28,Normandie,Work accidents,36714,916990,40
+2008,28,Normandie,Occupational diseases,2328,916990,
+2008,28,Normandie,All risks,43056,916990,
+2008,32,Hauts-de-France,Commuting accidents,6097,1603701,3.8
+2008,32,Hauts-de-France,Work accidents,63613,1603701,39.7
+2008,32,Hauts-de-France,Occupational diseases,3678,1603701,
+2008,32,Hauts-de-France,All risks,73388,1603701,
+2008,44,Grand Est,Commuting accidents,5905,1497381,3.9
+2008,44,Grand Est,Work accidents,59547,1497381,39.8
+2008,44,Grand Est,Occupational diseases,4276,1497381,
+2008,44,Grand Est,All risks,69728,1497381,
+2008,52,Pays de la Loire,Commuting accidents,4675,1029127,4.5
+2008,52,Pays de la Loire,Work accidents,45316,1029127,44
+2008,52,Pays de la Loire,Occupational diseases,3679,1029127,
+2008,52,Pays de la Loire,All risks,53670,1029127,
+2008,53,Bretagne,Commuting accidents,3004,832920,3.6
+2008,53,Bretagne,Work accidents,36694,832920,44.1
+2008,53,Bretagne,Occupational diseases,3536,832920,
+2008,53,Bretagne,All risks,43234,832920,
+2008,75,Nouvelle-Aquitaine,Commuting accidents,6241,1462938,4.3
+2008,75,Nouvelle-Aquitaine,Work accidents,61767,1462938,42.2
+2008,75,Nouvelle-Aquitaine,Occupational diseases,3446,1462938,
+2008,75,Nouvelle-Aquitaine,All risks,71454,1462938,
+2008,76,Occitanie,Commuting accidents,5863,1363354,4.3
+2008,76,Occitanie,Work accidents,57619,1363354,42.3
+2008,76,Occitanie,Occupational diseases,1451,1363354,
+2008,76,Occitanie,All risks,64933,1363354,
+2008,84,Auvergne-Rhône-Alpes,Commuting accidents,9771,2276200,4.3
+2008,84,Auvergne-Rhône-Alpes,Work accidents,97602,2276200,42.9
+2008,84,Auvergne-Rhône-Alpes,Occupational diseases,4016,2276200,
+2008,84,Auvergne-Rhône-Alpes,All risks,111389,2276200,
+2008,93,Provence-Alpes-Côte d'Azur,Commuting accidents,7657,1300693,5.9
+2008,93,Provence-Alpes-Côte d'Azur,Work accidents,53453,1300693,41.1
+2008,93,Provence-Alpes-Côte d'Azur,Occupational diseases,1494,1300693,
+2008,93,Provence-Alpes-Côte d'Azur,All risks,62604,1300693,
+2008,94,Corse,Commuting accidents,293,70859,4.1
+2008,94,Corse,Work accidents,2705,70859,38.2
+2008,94,Corse,Occupational diseases,157,70859,
+2008,94,Corse,All risks,3155,70859,
+2008,99,France,Commuting accidents,85668,18865114,4.5
+2008,99,France,Work accidents,703054,18865114,37.3
+2008,99,France,Occupational diseases,35899,18865114,
+2008,99,France,All risks,824621,18865114,
+2009,01,Guadeloupe,Commuting accidents,122,83981,1.5
+2009,01,Guadeloupe,Work accidents,844,83981,10
+2009,01,Guadeloupe,Occupational diseases,21,83981,
+2009,01,Guadeloupe,All risks,987,83981,
+2009,02,Martinique,Commuting accidents,220,91606,2.4
+2009,02,Martinique,Work accidents,1910,91606,20.9
+2009,02,Martinique,Occupational diseases,41,91606,
+2009,02,Martinique,All risks,2171,91606,
+2009,03,Guyane,Commuting accidents,40,31857,1.3
+2009,03,Guyane,Work accidents,355,31857,11.1
+2009,03,Guyane,Occupational diseases,11,31857,
+2009,03,Guyane,All risks,406,31857,
+2009,04,La Réunion,Commuting accidents,460,165831,2.8
+2009,04,La Réunion,Work accidents,3830,165831,23.1
+2009,04,La Réunion,Occupational diseases,85,165831,
+2009,04,La Réunion,All risks,4375,165831,
+2009,06,Mayotte,Commuting accidents,0,0,
+2009,06,Mayotte,Work accidents,0,0,
+2009,06,Mayotte,Occupational diseases,0,0,
+2009,06,Mayotte,All risks,0,0,
+2009,11,Ile-de-France,Commuting accidents,27853,4639679,6
+2009,11,Ile-de-France,Work accidents,116396,4639679,25.1
+2009,11,Ile-de-France,Occupational diseases,4682,4639679,
+2009,11,Ile-de-France,All risks,148931,4639679,
+2009,24,Centre-Val de Loire,Commuting accidents,3054,659712,4.6
+2009,24,Centre-Val de Loire,Work accidents,25471,659712,38.6
+2009,24,Centre-Val de Loire,Occupational diseases,1610,659712,
+2009,24,Centre-Val de Loire,All risks,30135,659712,
+2009,27,Bourgogne-Franche-Comté,Commuting accidents,3139,718450,4.4
+2009,27,Bourgogne-Franche-Comté,Work accidents,28229,718450,39.3
+2009,27,Bourgogne-Franche-Comté,Occupational diseases,2186,718450,
+2009,27,Bourgogne-Franche-Comté,All risks,33554,718450,
+2009,28,Normandie,Commuting accidents,3899,893883,4.4
+2009,28,Normandie,Work accidents,32314,893883,36.2
+2009,28,Normandie,Occupational diseases,2615,893883,
+2009,28,Normandie,All risks,38828,893883,
+2009,32,Hauts-de-France,Commuting accidents,6584,1555129,4.2
+2009,32,Hauts-de-France,Work accidents,59273,1555129,38.1
+2009,32,Hauts-de-France,Occupational diseases,3776,1555129,
+2009,32,Hauts-de-France,All risks,69633,1555129,
+2009,44,Grand Est,Commuting accidents,6222,1454429,4.3
+2009,44,Grand Est,Work accidents,54599,1454429,37.5
+2009,44,Grand Est,Occupational diseases,4573,1454429,
+2009,44,Grand Est,All risks,65394,1454429,
+2009,52,Pays de la Loire,Commuting accidents,4651,1007623,4.6
+2009,52,Pays de la Loire,Work accidents,40654,1007623,40.3
+2009,52,Pays de la Loire,Occupational diseases,4208,1007623,
+2009,52,Pays de la Loire,All risks,49513,1007623,
+2009,53,Bretagne,Commuting accidents,3451,830239,4.2
+2009,53,Bretagne,Work accidents,34553,830239,41.6
+2009,53,Bretagne,Occupational diseases,4239,830239,
+2009,53,Bretagne,All risks,42243,830239,
+2009,75,Nouvelle-Aquitaine,Commuting accidents,6266,1438461,4.4
+2009,75,Nouvelle-Aquitaine,Work accidents,54717,1438461,38
+2009,75,Nouvelle-Aquitaine,Occupational diseases,3861,1438461,
+2009,75,Nouvelle-Aquitaine,All risks,64844,1438461,
+2009,76,Occitanie,Commuting accidents,6055,1353548,4.5
+2009,76,Occitanie,Work accidents,54655,1353548,40.4
+2009,76,Occitanie,Occupational diseases,1815,1353548,
+2009,76,Occitanie,All risks,62525,1353548,
+2009,84,Auvergne-Rhône-Alpes,Commuting accidents,10832,2223892,4.9
+2009,84,Auvergne-Rhône-Alpes,Work accidents,88381,2223892,39.7
+2009,84,Auvergne-Rhône-Alpes,Occupational diseases,4683,2223892,
+2009,84,Auvergne-Rhône-Alpes,All risks,103896,2223892,
+2009,93,Provence-Alpes-Côte d'Azur,Commuting accidents,8392,1280872,6.6
+2009,93,Provence-Alpes-Côte d'Azur,Work accidents,52000,1280872,40.6
+2009,93,Provence-Alpes-Côte d'Azur,Occupational diseases,1850,1280872,
+2009,93,Provence-Alpes-Côte d'Azur,All risks,62242,1280872,
+2009,94,Corse,Commuting accidents,381,72254,5.3
+2009,94,Corse,Work accidents,2848,72254,39.4
+2009,94,Corse,Occupational diseases,176,72254,
+2009,94,Corse,All risks,3405,72254,
+2009,99,France,Commuting accidents,91621,18501446,5
+2009,99,France,Work accidents,651029,18501446,35.2
+2009,99,France,Occupational diseases,40432,18501446,
+2009,99,France,All risks,783082,18501446,
+2010,01,Guadeloupe,Commuting accidents,120,88920,1.3
+2010,01,Guadeloupe,Work accidents,939,88920,10.6
+2010,01,Guadeloupe,Occupational diseases,29,88920,
+2010,01,Guadeloupe,All risks,1088,88920,
+2010,02,Martinique,Commuting accidents,274,93291,2.9
+2010,02,Martinique,Work accidents,2556,93291,27.4
+2010,02,Martinique,Occupational diseases,58,93291,
+2010,02,Martinique,All risks,2888,93291,
+2010,03,Guyane,Commuting accidents,63,33684,1.9
+2010,03,Guyane,Work accidents,379,33684,11.3
+2010,03,Guyane,Occupational diseases,13,33684,
+2010,03,Guyane,All risks,455,33684,
+2010,04,La Réunion,Commuting accidents,368,168270,2.2
+2010,04,La Réunion,Work accidents,3528,168270,21
+2010,04,La Réunion,Occupational diseases,110,168270,
+2010,04,La Réunion,All risks,4006,168270,
+2010,06,Mayotte,Commuting accidents,0,0,
+2010,06,Mayotte,Work accidents,0,0,
+2010,06,Mayotte,Occupational diseases,0,0,
+2010,06,Mayotte,All risks,0,0,
+2010,11,Ile-de-France,Commuting accidents,28536,4691760,6.1
+2010,11,Ile-de-France,Work accidents,116797,4691760,24.9
+2010,11,Ile-de-France,Occupational diseases,5125,4691760,
+2010,11,Ile-de-France,All risks,150458,4691760,
+2010,24,Centre-Val de Loire,Commuting accidents,3499,661273,5.3
+2010,24,Centre-Val de Loire,Work accidents,26621,661273,40.3
+2010,24,Centre-Val de Loire,Occupational diseases,1605,661273,
+2010,24,Centre-Val de Loire,All risks,31725,661273,
+2010,27,Bourgogne-Franche-Comté,Commuting accidents,3455,723509,4.8
+2010,27,Bourgogne-Franche-Comté,Work accidents,29062,723509,40.2
+2010,27,Bourgogne-Franche-Comté,Occupational diseases,2190,723509,
+2010,27,Bourgogne-Franche-Comté,All risks,34707,723509,
+2010,28,Normandie,Commuting accidents,4624,890689,5.2
+2010,28,Normandie,Work accidents,34708,890689,39
+2010,28,Normandie,Occupational diseases,2931,890689,
+2010,28,Normandie,All risks,42263,890689,
+2010,32,Hauts-de-France,Commuting accidents,6576,1568008,4.2
+2010,32,Hauts-de-France,Work accidents,60082,1568008,38.3
+2010,32,Hauts-de-France,Occupational diseases,3851,1568008,
+2010,32,Hauts-de-France,All risks,70509,1568008,
+2010,44,Grand Est,Commuting accidents,6264,1458567,4.3
+2010,44,Grand Est,Work accidents,53032,1458567,36.4
+2010,44,Grand Est,Occupational diseases,4588,1458567,
+2010,44,Grand Est,All risks,63884,1458567,
+2010,52,Pays de la Loire,Commuting accidents,4813,1021419,4.7
+2010,52,Pays de la Loire,Work accidents,39974,1021419,39.1
+2010,52,Pays de la Loire,Occupational diseases,4541,1021419,
+2010,52,Pays de la Loire,All risks,49328,1021419,
+2010,53,Bretagne,Commuting accidents,3622,845482,4.3
+2010,53,Bretagne,Work accidents,33441,845482,39.6
+2010,53,Bretagne,Occupational diseases,4044,845482,
+2010,53,Bretagne,All risks,41107,845482,
+2010,75,Nouvelle-Aquitaine,Commuting accidents,6709,1449291,4.6
+2010,75,Nouvelle-Aquitaine,Work accidents,58234,1449291,40.2
+2010,75,Nouvelle-Aquitaine,Occupational diseases,4562,1449291,
+2010,75,Nouvelle-Aquitaine,All risks,69505,1449291,
+2010,76,Occitanie,Commuting accidents,6672,1375606,4.9
+2010,76,Occitanie,Work accidents,55293,1375606,40.2
+2010,76,Occitanie,Occupational diseases,1824,1375606,
+2010,76,Occitanie,All risks,63789,1375606,
+2010,84,Auvergne-Rhône-Alpes,Commuting accidents,11653,2249645,5.2
+2010,84,Auvergne-Rhône-Alpes,Work accidents,90394,2249645,40.2
+2010,84,Auvergne-Rhône-Alpes,Occupational diseases,4722,2249645,
+2010,84,Auvergne-Rhône-Alpes,All risks,106769,2249645,
+2010,93,Provence-Alpes-Côte d'Azur,Commuting accidents,8417,1290019,6.5
+2010,93,Provence-Alpes-Côte d'Azur,Work accidents,50626,1290019,39.2
+2010,93,Provence-Alpes-Côte d'Azur,Occupational diseases,2047,1290019,
+2010,93,Provence-Alpes-Côte d'Azur,All risks,61090,1290019,
+2010,94,Corse,Commuting accidents,403,74694,5.4
+2010,94,Corse,Work accidents,3018,74694,40.4
+2010,94,Corse,Occupational diseases,183,74694,
+2010,94,Corse,All risks,3604,74694,
+2010,99,France,Commuting accidents,96068,18684127,5.1
+2010,99,France,Work accidents,658684,18684127,35.3
+2010,99,France,Occupational diseases,42423,18684127,
+2010,99,France,All risks,797175,18684127,
+2011,01,Guadeloupe,Commuting accidents,170,87886,1.9
+2011,01,Guadeloupe,Work accidents,1314,87886,15
+2011,01,Guadeloupe,Occupational diseases,25,87886,
+2011,01,Guadeloupe,All risks,1509,87886,
+2011,02,Martinique,Commuting accidents,264,91516,2.9
+2011,02,Martinique,Work accidents,2533,91516,27.7
+2011,02,Martinique,Occupational diseases,105,91516,
+2011,02,Martinique,All risks,2902,91516,
+2011,03,Guyane,Commuting accidents,42,35396,1.2
+2011,03,Guyane,Work accidents,404,35396,11.4
+2011,03,Guyane,Occupational diseases,21,35396,
+2011,03,Guyane,All risks,467,35396,
+2011,04,La Réunion,Commuting accidents,458,172952,2.6
+2011,04,La Réunion,Work accidents,3807,172952,22
+2011,04,La Réunion,Occupational diseases,86,172952,
+2011,04,La Réunion,All risks,4351,172952,
+2011,06,Mayotte,Commuting accidents,0,0,
+2011,06,Mayotte,Work accidents,0,0,
+2011,06,Mayotte,Occupational diseases,0,0,
+2011,06,Mayotte,All risks,0,0,
+2011,11,Ile-de-France,Commuting accidents,31611,4727698,6.7
+2011,11,Ile-de-France,Work accidents,114866,4727698,24.3
+2011,11,Ile-de-France,Occupational diseases,5316,4727698,
+2011,11,Ile-de-France,All risks,151793,4727698,
+2011,24,Centre-Val de Loire,Commuting accidents,3606,667860,5.4
+2011,24,Centre-Val de Loire,Work accidents,26803,667860,40.1
+2011,24,Centre-Val de Loire,Occupational diseases,1697,667860,
+2011,24,Centre-Val de Loire,All risks,32106,667860,
+2011,27,Bourgogne-Franche-Comté,Commuting accidents,3270,730800,4.5
+2011,27,Bourgogne-Franche-Comté,Work accidents,28548,730800,39.1
+2011,27,Bourgogne-Franche-Comté,Occupational diseases,2478,730800,
+2011,27,Bourgogne-Franche-Comté,All risks,34296,730800,
+2011,28,Normandie,Commuting accidents,4210,903784,4.7
+2011,28,Normandie,Work accidents,34852,903784,38.6
+2011,28,Normandie,Occupational diseases,3490,903784,
+2011,28,Normandie,All risks,42552,903784,
+2011,32,Hauts-de-France,Commuting accidents,6848,1565087,4.4
+2011,32,Hauts-de-France,Work accidents,62598,1565087,40
+2011,32,Hauts-de-France,Occupational diseases,4611,1565087,
+2011,32,Hauts-de-France,All risks,74057,1565087,
+2011,44,Grand Est,Commuting accidents,6728,1464522,4.6
+2011,44,Grand Est,Work accidents,55671,1464522,38
+2011,44,Grand Est,Occupational diseases,4541,1464522,
+2011,44,Grand Est,All risks,66940,1464522,
+2011,52,Pays de la Loire,Commuting accidents,4484,1038944,4.3
+2011,52,Pays de la Loire,Work accidents,43136,1038944,41.5
+2011,52,Pays de la Loire,Occupational diseases,5110,1038944,
+2011,52,Pays de la Loire,All risks,52730,1038944,
+2011,53,Bretagne,Commuting accidents,3164,851928,3.7
+2011,53,Bretagne,Work accidents,36480,851928,42.8
+2011,53,Bretagne,Occupational diseases,4628,851928,
+2011,53,Bretagne,All risks,44272,851928,
+2011,75,Nouvelle-Aquitaine,Commuting accidents,6380,1466167,4.4
+2011,75,Nouvelle-Aquitaine,Work accidents,56309,1466167,38.4
+2011,75,Nouvelle-Aquitaine,Occupational diseases,4189,1466167,
+2011,75,Nouvelle-Aquitaine,All risks,66878,1466167,
+2011,76,Occitanie,Commuting accidents,6248,1382297,4.5
+2011,76,Occitanie,Work accidents,56650,1382297,41
+2011,76,Occitanie,Occupational diseases,2128,1382297,
+2011,76,Occitanie,All risks,65026,1382297,
+2011,84,Auvergne-Rhône-Alpes,Commuting accidents,11271,2283992,4.9
+2011,84,Auvergne-Rhône-Alpes,Work accidents,91496,2283992,40.1
+2011,84,Auvergne-Rhône-Alpes,Occupational diseases,5371,2283992,
+2011,84,Auvergne-Rhône-Alpes,All risks,108138,2283992,
+2011,93,Provence-Alpes-Côte d'Azur,Commuting accidents,8436,1328589,6.3
+2011,93,Provence-Alpes-Côte d'Azur,Work accidents,51026,1328589,38.4
+2011,93,Provence-Alpes-Côte d'Azur,Occupational diseases,2291,1328589,
+2011,93,Provence-Alpes-Côte d'Azur,All risks,61753,1328589,
+2011,94,Corse,Commuting accidents,450,77973,5.8
+2011,94,Corse,Work accidents,3091,77973,39.6
+2011,94,Corse,Occupational diseases,208,77973,
+2011,94,Corse,All risks,3749,77973,
+2011,99,France,Commuting accidents,97640,18877391,5.2
+2011,99,France,Work accidents,669584,18877391,35.5
+2011,99,France,Occupational diseases,46295,18877391,
+2011,99,France,All risks,813519,18877391,
+2012,01,Guadeloupe,Commuting accidents,243,88364,2.7
+2012,01,Guadeloupe,Work accidents,1649,88364,18.7
+2012,01,Guadeloupe,Occupational diseases,43,88364,
+2012,01,Guadeloupe,All risks,1935,88364,
+2012,02,Martinique,Commuting accidents,298,90296,3.3
+2012,02,Martinique,Work accidents,2398,90296,26.6
+2012,02,Martinique,Occupational diseases,102,90296,
+2012,02,Martinique,All risks,2798,90296,
+2012,03,Guyane,Commuting accidents,57,35630,1.6
+2012,03,Guyane,Work accidents,436,35630,12.2
+2012,03,Guyane,Occupational diseases,33,35630,
+2012,03,Guyane,All risks,526,35630,
+2012,04,La Réunion,Commuting accidents,365,176976,2.1
+2012,04,La Réunion,Work accidents,3229,176976,18.2
+2012,04,La Réunion,Occupational diseases,27,176976,
+2012,04,La Réunion,All risks,3621,176976,
+2012,06,Mayotte,Commuting accidents,0,0,
+2012,06,Mayotte,Work accidents,0,0,
+2012,06,Mayotte,Occupational diseases,0,0,
+2012,06,Mayotte,All risks,0,0,
+2012,11,Ile-de-France,Commuting accidents,26366,4710638,5.6
+2012,11,Ile-de-France,Work accidents,112180,4710638,23.8
+2012,11,Ile-de-France,Occupational diseases,5192,4710638,
+2012,11,Ile-de-France,All risks,143738,4710638,
+2012,24,Centre-Val de Loire,Commuting accidents,2930,656747,4.5
+2012,24,Centre-Val de Loire,Work accidents,25399,656747,38.7
+2012,24,Centre-Val de Loire,Occupational diseases,1620,656747,
+2012,24,Centre-Val de Loire,All risks,29949,656747,
+2012,27,Bourgogne-Franche-Comté,Commuting accidents,2967,716261,4.1
+2012,27,Bourgogne-Franche-Comté,Work accidents,27184,716261,38
+2012,27,Bourgogne-Franche-Comté,Occupational diseases,2418,716261,
+2012,27,Bourgogne-Franche-Comté,All risks,32569,716261,
+2012,28,Normandie,Commuting accidents,3822,880786,4.3
+2012,28,Normandie,Work accidents,32775,880786,37.2
+2012,28,Normandie,Occupational diseases,3318,880786,
+2012,28,Normandie,All risks,39915,880786,
+2012,32,Hauts-de-France,Commuting accidents,5796,1529136,3.8
+2012,32,Hauts-de-France,Work accidents,58817,1529136,38.5
+2012,32,Hauts-de-France,Occupational diseases,4191,1529136,
+2012,32,Hauts-de-France,All risks,68804,1529136,
+2012,44,Grand Est,Commuting accidents,5382,1424350,3.8
+2012,44,Grand Est,Work accidents,50970,1424350,35.8
+2012,44,Grand Est,Occupational diseases,5035,1424350,
+2012,44,Grand Est,All risks,61387,1424350,
+2012,52,Pays de la Loire,Commuting accidents,4324,1040683,4.2
+2012,52,Pays de la Loire,Work accidents,40371,1040683,38.8
+2012,52,Pays de la Loire,Occupational diseases,4910,1040683,
+2012,52,Pays de la Loire,All risks,49605,1040683,
+2012,53,Bretagne,Commuting accidents,2833,843418,3.4
+2012,53,Bretagne,Work accidents,34055,843418,40.4
+2012,53,Bretagne,Occupational diseases,4056,843418,
+2012,53,Bretagne,All risks,40944,843418,
+2012,75,Nouvelle-Aquitaine,Commuting accidents,6253,1457965,4.3
+2012,75,Nouvelle-Aquitaine,Work accidents,55875,1457965,38.3
+2012,75,Nouvelle-Aquitaine,Occupational diseases,4559,1457965,
+2012,75,Nouvelle-Aquitaine,All risks,66687,1457965,
+2012,76,Occitanie,Commuting accidents,6535,1372771,4.8
+2012,76,Occitanie,Work accidents,55049,1372771,40.1
+2012,76,Occitanie,Occupational diseases,2052,1372771,
+2012,76,Occitanie,All risks,63636,1372771,
+2012,84,Auvergne-Rhône-Alpes,Commuting accidents,10915,2265235,4.8
+2012,84,Auvergne-Rhône-Alpes,Work accidents,88499,2265235,39.1
+2012,84,Auvergne-Rhône-Alpes,Occupational diseases,5012,2265235,
+2012,84,Auvergne-Rhône-Alpes,All risks,104426,2265235,
+2012,93,Provence-Alpes-Côte d'Azur,Commuting accidents,8466,1307943,6.5
+2012,93,Provence-Alpes-Côte d'Azur,Work accidents,48769,1307943,37.3
+2012,93,Provence-Alpes-Côte d'Azur,Occupational diseases,1851,1307943,
+2012,93,Provence-Alpes-Côte d'Azur,All risks,59086,1307943,
+2012,94,Corse,Commuting accidents,422,77209,5.5
+2012,94,Corse,Work accidents,2595,77209,33.6
+2012,94,Corse,Occupational diseases,207,77209,
+2012,94,Corse,All risks,3224,77209,
+2012,99,France,Commuting accidents,87974,18674408,4.7
+2012,99,France,Work accidents,640250,18674408,34.3
+2012,99,France,Occupational diseases,44626,18674408,
+2012,99,France,All risks,772850,18674408,
+2013,01,Guadeloupe,Commuting accidents,230,87221,2.6
+2013,01,Guadeloupe,Work accidents,1809,87221,20.7
+2013,01,Guadeloupe,Occupational diseases,47,87221,
+2013,01,Guadeloupe,All risks,2086,87221,
+2013,02,Martinique,Commuting accidents,269,90362,3
+2013,02,Martinique,Work accidents,2063,90362,22.8
+2013,02,Martinique,Occupational diseases,96,90362,
+2013,02,Martinique,All risks,2428,90362,
+2013,03,Guyane,Commuting accidents,35,37574,0.9
+2013,03,Guyane,Work accidents,346,37574,9.2
+2013,03,Guyane,Occupational diseases,8,37574,
+2013,03,Guyane,All risks,389,37574,
+2013,04,La Réunion,Commuting accidents,486,179618,2.7
+2013,04,La Réunion,Work accidents,3634,179618,20.2
+2013,04,La Réunion,Occupational diseases,169,179618,
+2013,04,La Réunion,All risks,4289,179618,
+2013,06,Mayotte,Commuting accidents,0,0,
+2013,06,Mayotte,Work accidents,0,0,
+2013,06,Mayotte,Occupational diseases,0,0,
+2013,06,Mayotte,All risks,0,0,
+2013,11,Ile-de-France,Commuting accidents,27974,4685443,6
+2013,11,Ile-de-France,Work accidents,107105,4685443,22.9
+2013,11,Ile-de-France,Occupational diseases,5170,4685443,
+2013,11,Ile-de-France,All risks,140249,4685443,
+2013,24,Centre-Val de Loire,Commuting accidents,2858,651938,4.4
+2013,24,Centre-Val de Loire,Work accidents,24145,651938,37
+2013,24,Centre-Val de Loire,Occupational diseases,1437,651938,
+2013,24,Centre-Val de Loire,All risks,28440,651938,
+2013,27,Bourgogne-Franche-Comté,Commuting accidents,3017,709981,4.2
+2013,27,Bourgogne-Franche-Comté,Work accidents,25573,709981,36
+2013,27,Bourgogne-Franche-Comté,Occupational diseases,2096,709981,
+2013,27,Bourgogne-Franche-Comté,All risks,30686,709981,
+2013,28,Normandie,Commuting accidents,3867,878025,4.4
+2013,28,Normandie,Work accidents,31057,878025,35.4
+2013,28,Normandie,Occupational diseases,3081,878025,
+2013,28,Normandie,All risks,38005,878025,
+2013,32,Hauts-de-France,Commuting accidents,7342,1515776,4.8
+2013,32,Hauts-de-France,Work accidents,57671,1515776,38
+2013,32,Hauts-de-France,Occupational diseases,4542,1515776,
+2013,32,Hauts-de-France,All risks,69555,1515776,
+2013,44,Grand Est,Commuting accidents,5741,1414411,4.1
+2013,44,Grand Est,Work accidents,48630,1414411,34.4
+2013,44,Grand Est,Occupational diseases,4625,1414411,
+2013,44,Grand Est,All risks,58996,1414411,
+2013,52,Pays de la Loire,Commuting accidents,4088,1035312,3.9
+2013,52,Pays de la Loire,Work accidents,38787,1035312,37.5
+2013,52,Pays de la Loire,Occupational diseases,4883,1035312,
+2013,52,Pays de la Loire,All risks,47758,1035312,
+2013,53,Bretagne,Commuting accidents,3007,849203,3.5
+2013,53,Bretagne,Work accidents,33342,849203,39.3
+2013,53,Bretagne,Occupational diseases,3718,849203,
+2013,53,Bretagne,All risks,40067,849203,
+2013,75,Nouvelle-Aquitaine,Commuting accidents,6118,1466107,4.2
+2013,75,Nouvelle-Aquitaine,Work accidents,53601,1466107,36.6
+2013,75,Nouvelle-Aquitaine,Occupational diseases,4481,1466107,
+2013,75,Nouvelle-Aquitaine,All risks,64200,1466107,
+2013,76,Occitanie,Commuting accidents,6297,1381414,4.6
+2013,76,Occitanie,Work accidents,52638,1381414,38.1
+2013,76,Occitanie,Occupational diseases,2012,1381414,
+2013,76,Occitanie,All risks,60947,1381414,
+2013,84,Auvergne-Rhône-Alpes,Commuting accidents,11002,2263812,4.9
+2013,84,Auvergne-Rhône-Alpes,Work accidents,84625,2263812,37.4
+2013,84,Auvergne-Rhône-Alpes,Occupational diseases,4688,2263812,
+2013,84,Auvergne-Rhône-Alpes,All risks,100315,2263812,
+2013,93,Provence-Alpes-Côte d'Azur,Commuting accidents,8449,1320240,6.4
+2013,93,Provence-Alpes-Côte d'Azur,Work accidents,48616,1320240,36.8
+2013,93,Provence-Alpes-Côte d'Azur,Occupational diseases,1920,1320240,
+2013,93,Provence-Alpes-Côte d'Azur,All risks,58985,1320240,
+2013,94,Corse,Commuting accidents,415,78921,5.3
+2013,94,Corse,Work accidents,3081,78921,39
+2013,94,Corse,Occupational diseases,164,78921,
+2013,94,Corse,All risks,3660,78921,
+2013,99,France,Commuting accidents,91195,18645358,4.9
+2013,99,France,Work accidents,616723,18645358,33.1
+2013,99,France,Occupational diseases,43137,18645358,
+2013,99,France,All risks,751055,18645358,
+2014,01,Guadeloupe,Commuting accidents,143,89760,1.6
+2014,01,Guadeloupe,Work accidents,1207,89760,13.4
+2014,01,Guadeloupe,Occupational diseases,37,89760,
+2014,01,Guadeloupe,All risks,1387,89760,
+2014,02,Martinique,Commuting accidents,227,90793,2.5
+2014,02,Martinique,Work accidents,1852,90793,20.4
+2014,02,Martinique,Occupational diseases,77,90793,
+2014,02,Martinique,All risks,2156,90793,
+2014,03,Guyane,Commuting accidents,63,38439,1.6
+2014,03,Guyane,Work accidents,402,38439,10.5
+2014,03,Guyane,Occupational diseases,25,38439,
+2014,03,Guyane,All risks,490,38439,
+2014,04,La Réunion,Commuting accidents,456,182764,2.5
+2014,04,La Réunion,Work accidents,3614,182764,19.8
+2014,04,La Réunion,Occupational diseases,171,182764,
+2014,04,La Réunion,All risks,4241,182764,
+2014,06,Mayotte,Commuting accidents,0,0,
+2014,06,Mayotte,Work accidents,0,0,
+2014,06,Mayotte,Occupational diseases,0,0,
+2014,06,Mayotte,All risks,0,0,
+2014,11,Ile-de-France,Commuting accidents,25848,4693051,5.5
+2014,11,Ile-de-France,Work accidents,109194,4693051,23.3
+2014,11,Ile-de-France,Occupational diseases,5463,4693051,
+2014,11,Ile-de-France,All risks,140505,4693051,
+2014,24,Centre-Val de Loire,Commuting accidents,2766,648000,4.3
+2014,24,Centre-Val de Loire,Work accidents,24590,648000,37.9
+2014,24,Centre-Val de Loire,Occupational diseases,1526,648000,
+2014,24,Centre-Val de Loire,All risks,28882,648000,
+2014,27,Bourgogne-Franche-Comté,Commuting accidents,2702,701414,3.9
+2014,27,Bourgogne-Franche-Comté,Work accidents,25551,701414,36.4
+2014,27,Bourgogne-Franche-Comté,Occupational diseases,2191,701414,
+2014,27,Bourgogne-Franche-Comté,All risks,30444,701414,
+2014,28,Normandie,Commuting accidents,3545,865623,4.1
+2014,28,Normandie,Work accidents,31519,865623,36.4
+2014,28,Normandie,Occupational diseases,2932,865623,
+2014,28,Normandie,All risks,37996,865623,
+2014,32,Hauts-de-France,Commuting accidents,5705,1525808,3.7
+2014,32,Hauts-de-France,Work accidents,56663,1525808,37.1
+2014,32,Hauts-de-France,Occupational diseases,4649,1525808,
+2014,32,Hauts-de-France,All risks,67017,1525808,
+2014,44,Grand Est,Commuting accidents,4957,1402386,3.5
+2014,44,Grand Est,Work accidents,48196,1402386,34.4
+2014,44,Grand Est,Occupational diseases,4768,1402386,
+2014,44,Grand Est,All risks,57921,1402386,
+2014,52,Pays de la Loire,Commuting accidents,4028,1038709,3.9
+2014,52,Pays de la Loire,Work accidents,38828,1038709,37.4
+2014,52,Pays de la Loire,Occupational diseases,5024,1038709,
+2014,52,Pays de la Loire,All risks,47880,1038709,
+2014,53,Bretagne,Commuting accidents,2881,832603,3.5
+2014,53,Bretagne,Work accidents,32464,832603,39
+2014,53,Bretagne,Occupational diseases,3352,832603,
+2014,53,Bretagne,All risks,38697,832603,
+2014,75,Nouvelle-Aquitaine,Commuting accidents,6062,1453052,4.2
+2014,75,Nouvelle-Aquitaine,Work accidents,55638,1453052,38.3
+2014,75,Nouvelle-Aquitaine,Occupational diseases,4678,1453052,
+2014,75,Nouvelle-Aquitaine,All risks,66378,1453052,
+2014,76,Occitanie,Commuting accidents,6306,1380124,4.6
+2014,76,Occitanie,Work accidents,53955,1380124,39.1
+2014,76,Occitanie,Occupational diseases,2109,1380124,
+2014,76,Occitanie,All risks,62370,1380124,
+2014,84,Auvergne-Rhône-Alpes,Commuting accidents,10083,2266180,4.4
+2014,84,Auvergne-Rhône-Alpes,Work accidents,83703,2266180,36.9
+2014,84,Auvergne-Rhône-Alpes,Occupational diseases,5125,2266180,
+2014,84,Auvergne-Rhône-Alpes,All risks,98911,2266180,
+2014,93,Provence-Alpes-Côte d'Azur,Commuting accidents,8619,1322768,6.5
+2014,93,Provence-Alpes-Côte d'Azur,Work accidents,48688,1322768,36.8
+2014,93,Provence-Alpes-Côte d'Azur,Occupational diseases,1858,1322768,
+2014,93,Provence-Alpes-Côte d'Azur,All risks,59165,1322768,
+2014,94,Corse,Commuting accidents,425,79234,5.4
+2014,94,Corse,Work accidents,3096,79234,39.1
+2014,94,Corse,Occupational diseases,170,79234,
+2014,94,Corse,All risks,3691,79234,
+2014,99,France,Commuting accidents,84816,18610708,4.6
+2014,99,France,Work accidents,619160,18610708,33.3
+2014,99,France,Occupational diseases,44155,18610708,
+2014,99,France,All risks,748131,18610708,
+2015,01,Guadeloupe,Commuting accidents,136,90669,1.5
+2015,01,Guadeloupe,Work accidents,1301,90669,14.3
+2015,01,Guadeloupe,Occupational diseases,25,90669,
+2015,01,Guadeloupe,All risks,1462,90669,
+2015,02,Martinique,Commuting accidents,293,90872,3.2
+2015,02,Martinique,Work accidents,2351,90872,25.9
+2015,02,Martinique,Occupational diseases,111,90872,
+2015,02,Martinique,All risks,2755,90872,
+2015,03,Guyane,Commuting accidents,42,39593,1.1
+2015,03,Guyane,Work accidents,359,39593,9.1
+2015,03,Guyane,Occupational diseases,27,39593,
+2015,03,Guyane,All risks,428,39593,
+2015,04,La Réunion,Commuting accidents,589,188945,3.1
+2015,04,La Réunion,Work accidents,4242,188945,22.5
+2015,04,La Réunion,Occupational diseases,234,188945,
+2015,04,La Réunion,All risks,5065,188945,
+2015,06,Mayotte,Commuting accidents,0,0,
+2015,06,Mayotte,Work accidents,0,0,
+2015,06,Mayotte,Occupational diseases,0,0,
+2015,06,Mayotte,All risks,0,0,
+2015,11,Ile-de-France,Commuting accidents,26063,4784394,5.4
+2015,11,Ile-de-France,Work accidents,109746,4784394,22.9
+2015,11,Ile-de-France,Occupational diseases,5680,4784394,
+2015,11,Ile-de-France,All risks,141489,4784394,
+2015,24,Centre-Val de Loire,Commuting accidents,2625,646136,4.1
+2015,24,Centre-Val de Loire,Work accidents,24528,646136,38
+2015,24,Centre-Val de Loire,Occupational diseases,1514,646136,
+2015,24,Centre-Val de Loire,All risks,28667,646136,
+2015,27,Bourgogne-Franche-Comté,Commuting accidents,2670,699224,3.8
+2015,27,Bourgogne-Franche-Comté,Work accidents,25580,699224,36.6
+2015,27,Bourgogne-Franche-Comté,Occupational diseases,2161,699224,
+2015,27,Bourgogne-Franche-Comté,All risks,30411,699224,
+2015,28,Normandie,Commuting accidents,3606,862176,4.2
+2015,28,Normandie,Work accidents,31521,862176,36.6
+2015,28,Normandie,Occupational diseases,2776,862176,
+2015,28,Normandie,All risks,37903,862176,
+2015,32,Hauts-de-France,Commuting accidents,5994,1528410,3.9
+2015,32,Hauts-de-France,Work accidents,56802,1528410,37.2
+2015,32,Hauts-de-France,Occupational diseases,4368,1528410,
+2015,32,Hauts-de-France,All risks,67164,1528410,
+2015,44,Grand Est,Commuting accidents,5365,1397587,3.8
+2015,44,Grand Est,Work accidents,47957,1397587,34.3
+2015,44,Grand Est,Occupational diseases,4787,1397587,
+2015,44,Grand Est,All risks,58109,1397587,
+2015,52,Pays de la Loire,Commuting accidents,4201,1045312,4
+2015,52,Pays de la Loire,Work accidents,39730,1045312,38
+2015,52,Pays de la Loire,Occupational diseases,4813,1045312,
+2015,52,Pays de la Loire,All risks,48744,1045312,
+2015,53,Bretagne,Commuting accidents,2827,836797,3.4
+2015,53,Bretagne,Work accidents,32279,836797,38.6
+2015,53,Bretagne,Occupational diseases,3328,836797,
+2015,53,Bretagne,All risks,38434,836797,
+2015,75,Nouvelle-Aquitaine,Commuting accidents,6066,1461429,4.2
+2015,75,Nouvelle-Aquitaine,Work accidents,55900,1461429,38.3
+2015,75,Nouvelle-Aquitaine,Occupational diseases,4440,1461429,
+2015,75,Nouvelle-Aquitaine,All risks,66406,1461429,
+2015,76,Occitanie,Commuting accidents,6517,1395880,4.7
+2015,76,Occitanie,Work accidents,53878,1395880,38.6
+2015,76,Occitanie,Occupational diseases,2173,1395880,
+2015,76,Occitanie,All risks,62568,1395880,
+2015,84,Auvergne-Rhône-Alpes,Commuting accidents,10085,2290224,4.4
+2015,84,Auvergne-Rhône-Alpes,Work accidents,84398,2290224,36.9
+2015,84,Auvergne-Rhône-Alpes,Occupational diseases,5097,2290224,
+2015,84,Auvergne-Rhône-Alpes,All risks,99580,2290224,
+2015,93,Provence-Alpes-Côte d'Azur,Commuting accidents,8704,1333434,6.5
+2015,93,Provence-Alpes-Côte d'Azur,Work accidents,48922,1333434,36.7
+2015,93,Provence-Alpes-Côte d'Azur,Occupational diseases,1839,1333434,
+2015,93,Provence-Alpes-Côte d'Azur,All risks,59465,1333434,
+2015,94,Corse,Commuting accidents,440,79314,5.5
+2015,94,Corse,Work accidents,3041,79314,38.3
+2015,94,Corse,Occupational diseases,158,79314,
+2015,94,Corse,All risks,3639,79314,
+2015,99,France,Commuting accidents,86223,18770396,4.6
+2015,99,France,Work accidents,622535,18770396,33.2
+2015,99,France,Occupational diseases,43531,18770396,
+2015,99,France,All risks,752289,18770396,
+2016,01,Guadeloupe,Commuting accidents,169,91216,1.9
+2016,01,Guadeloupe,Work accidents,1394,91216,15.3
+2016,01,Guadeloupe,Occupational diseases,42,91216,
+2016,01,Guadeloupe,All risks,1605,91216,
+2016,02,Martinique,Commuting accidents,312,91626,3.4
+2016,02,Martinique,Work accidents,2494,91626,27.2
+2016,02,Martinique,Occupational diseases,99,91626,
+2016,02,Martinique,All risks,2905,91626,
+2016,03,Guyane,Commuting accidents,86,39870,2.2
+2016,03,Guyane,Work accidents,549,39870,13.8
+2016,03,Guyane,Occupational diseases,19,39870,
+2016,03,Guyane,All risks,654,39870,
+2016,04,La Réunion,Commuting accidents,620,193090,3.2
+2016,04,La Réunion,Work accidents,4934,193090,25.6
+2016,04,La Réunion,Occupational diseases,261,193090,
+2016,04,La Réunion,All risks,5815,193090,
+2016,06,Mayotte,Commuting accidents,0,0,
+2016,06,Mayotte,Work accidents,0,0,
+2016,06,Mayotte,Occupational diseases,0,0,
+2016,06,Mayotte,All risks,0,0,
+2016,11,Ile-de-France,Commuting accidents,25955,4812729,5.4
+2016,11,Ile-de-France,Work accidents,109120,4812729,22.7
+2016,11,Ile-de-France,Occupational diseases,5585,4812729,
+2016,11,Ile-de-France,All risks,140660,4812729,
+2016,24,Centre-Val de Loire,Commuting accidents,2760,643959,4.3
+2016,24,Centre-Val de Loire,Work accidents,23762,643959,36.9
+2016,24,Centre-Val de Loire,Occupational diseases,1264,643959,
+2016,24,Centre-Val de Loire,All risks,27786,643959,
+2016,27,Bourgogne-Franche-Comté,Commuting accidents,2679,697880,3.8
+2016,27,Bourgogne-Franche-Comté,Work accidents,26696,697880,38.3
+2016,27,Bourgogne-Franche-Comté,Occupational diseases,2008,697880,
+2016,27,Bourgogne-Franche-Comté,All risks,31383,697880,
+2016,28,Normandie,Commuting accidents,3536,855262,4.1
+2016,28,Normandie,Work accidents,31811,855262,37.2
+2016,28,Normandie,Occupational diseases,2573,855262,
+2016,28,Normandie,All risks,37920,855262,
+2016,32,Hauts-de-France,Commuting accidents,6072,1528016,4
+2016,32,Hauts-de-France,Work accidents,56909,1528016,37.2
+2016,32,Hauts-de-France,Occupational diseases,4160,1528016,
+2016,32,Hauts-de-France,All risks,67141,1528016,
+2016,44,Grand Est,Commuting accidents,5045,1396339,3.6
+2016,44,Grand Est,Work accidents,46940,1396339,33.6
+2016,44,Grand Est,Occupational diseases,4506,1396339,
+2016,44,Grand Est,All risks,56491,1396339,
+2016,52,Pays de la Loire,Commuting accidents,4104,1056604,3.9
+2016,52,Pays de la Loire,Work accidents,40279,1056604,38.1
+2016,52,Pays de la Loire,Occupational diseases,4704,1056604,
+2016,52,Pays de la Loire,All risks,49087,1056604,
+2016,53,Bretagne,Commuting accidents,3010,842589,3.6
+2016,53,Bretagne,Work accidents,32577,842589,38.7
+2016,53,Bretagne,Occupational diseases,3135,842589,
+2016,53,Bretagne,All risks,38722,842589,
+2016,75,Nouvelle-Aquitaine,Commuting accidents,6429,1470269,4.4
+2016,75,Nouvelle-Aquitaine,Work accidents,56787,1470269,38.6
+2016,75,Nouvelle-Aquitaine,Occupational diseases,4373,1470269,
+2016,75,Nouvelle-Aquitaine,All risks,67589,1470269,
+2016,76,Occitanie,Commuting accidents,6680,1407164,4.7
+2016,76,Occitanie,Work accidents,54480,1407164,38.7
+2016,76,Occitanie,Occupational diseases,2121,1407164,
+2016,76,Occitanie,All risks,63281,1407164,
+2016,84,Auvergne-Rhône-Alpes,Commuting accidents,10481,2299920,4.6
+2016,84,Auvergne-Rhône-Alpes,Work accidents,83913,2299920,36.5
+2016,84,Auvergne-Rhône-Alpes,Occupational diseases,5052,2299920,
+2016,84,Auvergne-Rhône-Alpes,All risks,99446,2299920,
+2016,93,Provence-Alpes-Côte d'Azur,Commuting accidents,9028,1344251,6.7
+2016,93,Provence-Alpes-Côte d'Azur,Work accidents,48387,1344251,36
+2016,93,Provence-Alpes-Côte d'Azur,Occupational diseases,1699,1344251,
+2016,93,Provence-Alpes-Côte d'Azur,All risks,59114,1344251,
+2016,94,Corse,Commuting accidents,430,80456,5.3
+2016,94,Corse,Work accidents,3228,80456,40.1
+2016,94,Corse,Occupational diseases,144,80456,
+2016,94,Corse,All risks,3802,80456,
+2016,99,France,Commuting accidents,87396,18851240,4.6
+2016,99,France,Work accidents,624260,18851240,33.1
+2016,99,France,Occupational diseases,41745,18851240,
+2016,99,France,All risks,753401,18851240,
+2017,01,Guadeloupe,Commuting accidents,252,90041,2.8
+2017,01,Guadeloupe,Work accidents,2232,90041,24.8
+2017,01,Guadeloupe,Occupational diseases,38,90041,
+2017,01,Guadeloupe,All risks,2522,90041,
+2017,02,Martinique,Commuting accidents,276,89921,3.1
+2017,02,Martinique,Work accidents,2331,89921,25.9
+2017,02,Martinique,Occupational diseases,78,89921,
+2017,02,Martinique,All risks,2685,89921,
+2017,03,Guyane,Commuting accidents,55,39717,1.4
+2017,03,Guyane,Work accidents,450,39717,11.3
+2017,03,Guyane,Occupational diseases,23,39717,
+2017,03,Guyane,All risks,528,39717,
+2017,04,La Réunion,Commuting accidents,601,192383,3.1
+2017,04,La Réunion,Work accidents,4957,192383,25.8
+2017,04,La Réunion,Occupational diseases,266,192383,
+2017,04,La Réunion,All risks,5824,192383,
+2017,06,Mayotte,Commuting accidents,0,0,
+2017,06,Mayotte,Work accidents,0,0,
+2017,06,Mayotte,Occupational diseases,0,0,
+2017,06,Mayotte,All risks,0,0,
+2017,11,Ile-de-France,Commuting accidents,27143,4875421,5.6
+2017,11,Ile-de-France,Work accidents,106962,4875421,21.9
+2017,11,Ile-de-France,Occupational diseases,5262,4875421,
+2017,11,Ile-de-France,All risks,139367,4875421,
+2017,24,Centre-Val de Loire,Commuting accidents,2771,661578,4.2
+2017,24,Centre-Val de Loire,Work accidents,24273,661578,36.7
+2017,24,Centre-Val de Loire,Occupational diseases,1399,661578,
+2017,24,Centre-Val de Loire,All risks,28443,661578,
+2017,27,Bourgogne-Franche-Comté,Commuting accidents,2735,712235,3.8
+2017,27,Bourgogne-Franche-Comté,Work accidents,26639,712235,37.4
+2017,27,Bourgogne-Franche-Comté,Occupational diseases,2052,712235,
+2017,27,Bourgogne-Franche-Comté,All risks,31426,712235,
+2017,28,Normandie,Commuting accidents,3675,867530,4.2
+2017,28,Normandie,Work accidents,31867,867530,36.7
+2017,28,Normandie,Occupational diseases,2650,867530,
+2017,28,Normandie,All risks,38192,867530,
+2017,32,Hauts-de-France,Commuting accidents,6375,1549280,4.1
+2017,32,Hauts-de-France,Work accidents,58180,1549280,37.6
+2017,32,Hauts-de-France,Occupational diseases,4479,1549280,
+2017,32,Hauts-de-France,All risks,69034,1549280,
+2017,44,Grand Est,Commuting accidents,5466,1439510,3.8
+2017,44,Grand Est,Work accidents,47730,1439510,33.2
+2017,44,Grand Est,Occupational diseases,4671,1439510,
+2017,44,Grand Est,All risks,57867,1439510,
+2017,52,Pays de la Loire,Commuting accidents,4371,1102581,4
+2017,52,Pays de la Loire,Work accidents,40718,1102581,36.9
+2017,52,Pays de la Loire,Occupational diseases,4752,1102581,
+2017,52,Pays de la Loire,All risks,49841,1102581,
+2017,53,Bretagne,Commuting accidents,3362,869334,3.9
+2017,53,Bretagne,Work accidents,34028,869334,39.1
+2017,53,Bretagne,Occupational diseases,3230,869334,
+2017,53,Bretagne,All risks,40620,869334,
+2017,75,Nouvelle-Aquitaine,Commuting accidents,6520,1509113,4.3
+2017,75,Nouvelle-Aquitaine,Work accidents,58467,1509113,38.7
+2017,75,Nouvelle-Aquitaine,Occupational diseases,4496,1509113,
+2017,75,Nouvelle-Aquitaine,All risks,69483,1509113,
+2017,76,Occitanie,Commuting accidents,6880,1449044,4.7
+2017,76,Occitanie,Work accidents,54221,1449044,37.4
+2017,76,Occitanie,Occupational diseases,2124,1449044,
+2017,76,Occitanie,All risks,63225,1449044,
+2017,84,Auvergne-Rhône-Alpes,Commuting accidents,11238,2342139,4.8
+2017,84,Auvergne-Rhône-Alpes,Work accidents,85695,2342139,36.6
+2017,84,Auvergne-Rhône-Alpes,Occupational diseases,5242,2342139,
+2017,84,Auvergne-Rhône-Alpes,All risks,102175,2342139,
+2017,93,Provence-Alpes-Côte d'Azur,Commuting accidents,8972,1375386,6.5
+2017,93,Provence-Alpes-Côte d'Azur,Work accidents,49341,1375386,35.9
+2017,93,Provence-Alpes-Côte d'Azur,Occupational diseases,1842,1375386,
+2017,93,Provence-Alpes-Côte d'Azur,All risks,60155,1375386,
+2017,94,Corse,Commuting accidents,444,84585,5.2
+2017,94,Corse,Work accidents,3114,84585,36.8
+2017,94,Corse,Occupational diseases,160,84585,
+2017,94,Corse,All risks,3718,84585,
+2017,99,France,Commuting accidents,91136,19249798,4.7
+2017,99,France,Work accidents,631205,19249798,32.8
+2017,99,France,Occupational diseases,42764,19249798,
+2017,99,France,All risks,765105,19249798,
+2018,01,Guadeloupe,Commuting accidents,179,84496,2.1
+2018,01,Guadeloupe,Work accidents,1612,84496,19.1
+2018,01,Guadeloupe,Occupational diseases,52,84496,
+2018,01,Guadeloupe,All risks,1843,84496,
+2018,02,Martinique,Commuting accidents,285,87170,3.3
+2018,02,Martinique,Work accidents,2329,87170,26.7
+2018,02,Martinique,Occupational diseases,85,87170,
+2018,02,Martinique,All risks,2699,87170,
+2018,03,Guyane,Commuting accidents,50,40765,1.2
+2018,03,Guyane,Work accidents,366,40765,9
+2018,03,Guyane,Occupational diseases,12,40765,
+2018,03,Guyane,All risks,428,40765,
+2018,04,La Réunion,Commuting accidents,671,186519,3.6
+2018,04,La Réunion,Work accidents,5106,186519,27.4
+2018,04,La Réunion,Occupational diseases,278,186519,
+2018,04,La Réunion,All risks,6055,186519,
+2018,06,Mayotte,Commuting accidents,0,0,
+2018,06,Mayotte,Work accidents,0,0,
+2018,06,Mayotte,Occupational diseases,0,0,
+2018,06,Mayotte,All risks,0,0,
+2018,11,Ile-de-France,Commuting accidents,30080,4869064,6.2
+2018,11,Ile-de-France,Work accidents,105956,4869064,21.8
+2018,11,Ile-de-France,Occupational diseases,5501,4869064,
+2018,11,Ile-de-France,All risks,141537,4869064,
+2018,24,Centre-Val de Loire,Commuting accidents,3081,651219,4.7
+2018,24,Centre-Val de Loire,Work accidents,25086,651219,38.5
+2018,24,Centre-Val de Loire,Occupational diseases,1377,651219,
+2018,24,Centre-Val de Loire,All risks,29544,651219,
+2018,27,Bourgogne-Franche-Comté,Commuting accidents,2865,702975,4.1
+2018,27,Bourgogne-Franche-Comté,Work accidents,26803,702975,38.1
+2018,27,Bourgogne-Franche-Comté,Occupational diseases,2164,702975,
+2018,27,Bourgogne-Franche-Comté,All risks,31832,702975,
+2018,28,Normandie,Commuting accidents,4118,879087,4.7
+2018,28,Normandie,Work accidents,33108,879087,37.7
+2018,28,Normandie,Occupational diseases,3142,879087,
+2018,28,Normandie,All risks,40368,879087,
+2018,32,Hauts-de-France,Commuting accidents,6728,1526637,4.4
+2018,32,Hauts-de-France,Work accidents,60073,1526637,39.3
+2018,32,Hauts-de-France,Occupational diseases,4694,1526637,
+2018,32,Hauts-de-France,All risks,71495,1526637,
+2018,44,Grand Est,Commuting accidents,5561,1425013,3.9
+2018,44,Grand Est,Work accidents,48981,1425013,34.4
+2018,44,Grand Est,Occupational diseases,4869,1425013,
+2018,44,Grand Est,All risks,59411,1425013,
+2018,52,Pays de la Loire,Commuting accidents,5100,1095342,4.7
+2018,52,Pays de la Loire,Work accidents,44616,1095342,40.7
+2018,52,Pays de la Loire,Occupational diseases,5389,1095342,
+2018,52,Pays de la Loire,All risks,55105,1095342,
+2018,53,Bretagne,Commuting accidents,3333,860895,3.9
+2018,53,Bretagne,Work accidents,34608,860895,40.2
+2018,53,Bretagne,Occupational diseases,3462,860895,
+2018,53,Bretagne,All risks,41403,860895,
+2018,75,Nouvelle-Aquitaine,Commuting accidents,6956,1517782,4.6
+2018,75,Nouvelle-Aquitaine,Work accidents,61158,1517782,40.3
+2018,75,Nouvelle-Aquitaine,Occupational diseases,4717,1517782,
+2018,75,Nouvelle-Aquitaine,All risks,72831,1517782,
+2018,76,Occitanie,Commuting accidents,7309,1447490,5
+2018,76,Occitanie,Work accidents,56419,1447490,39
+2018,76,Occitanie,Occupational diseases,2355,1447490,
+2018,76,Occitanie,All risks,66083,1447490,
+2018,84,Auvergne-Rhône-Alpes,Commuting accidents,11246,2341862,4.8
+2018,84,Auvergne-Rhône-Alpes,Work accidents,88592,2341862,37.8
+2018,84,Auvergne-Rhône-Alpes,Occupational diseases,5412,2341862,
+2018,84,Auvergne-Rhône-Alpes,All risks,105250,2341862,
+2018,93,Provence-Alpes-Côte d'Azur,Commuting accidents,9513,1368612,7
+2018,93,Provence-Alpes-Côte d'Azur,Work accidents,51381,1368612,37.5
+2018,93,Provence-Alpes-Côte d'Azur,Occupational diseases,2117,1368612,
+2018,93,Provence-Alpes-Côte d'Azur,All risks,63011,1368612,
+2018,94,Corse,Commuting accidents,463,87003,5.3
+2018,94,Corse,Work accidents,3341,87003,38.4
+2018,94,Corse,Occupational diseases,153,87003,
+2018,94,Corse,All risks,3957,87003,
+2018,99,France,Commuting accidents,97538,19171931,5.1
+2018,99,France,Work accidents,649535,19171931,33.9
+2018,99,France,Occupational diseases,45779,19171931,
+2018,99,France,All risks,792852,19171931,
+2019,01,Guadeloupe,Commuting accidents,191,89176,2.1
+2019,01,Guadeloupe,Work accidents,1660,89176,18.6
+2019,01,Guadeloupe,Occupational diseases,57,89176,
+2019,01,Guadeloupe,All risks,1908,89176,
+2019,02,Martinique,Commuting accidents,296,88763,3.3
+2019,02,Martinique,Work accidents,2295,88763,25.9
+2019,02,Martinique,Occupational diseases,76,88763,
+2019,02,Martinique,All risks,2667,88763,
+2019,03,Guyane,Commuting accidents,40,42847,0.9
+2019,03,Guyane,Work accidents,334,42847,7.8
+2019,03,Guyane,Occupational diseases,6,42847,
+2019,03,Guyane,All risks,380,42847,
+2019,04,La Réunion,Commuting accidents,734,192949,3.8
+2019,04,La Réunion,Work accidents,5642,192949,29.2
+2019,04,La Réunion,Occupational diseases,291,192949,
+2019,04,La Réunion,All risks,6667,192949,
+2019,06,Mayotte,Commuting accidents,0,0,
+2019,06,Mayotte,Work accidents,0,0,
+2019,06,Mayotte,Occupational diseases,0,0,
+2019,06,Mayotte,All risks,0,0,
+2019,11,Ile-de-France,Commuting accidents,28262,4981481,5.7
+2019,11,Ile-de-France,Work accidents,107013,4981481,21.5
+2019,11,Ile-de-France,Occupational diseases,5743,4981481,
+2019,11,Ile-de-France,All risks,141018,4981481,
+2019,24,Centre-Val de Loire,Commuting accidents,3077,657679,4.7
+2019,24,Centre-Val de Loire,Work accidents,25729,657679,39.1
+2019,24,Centre-Val de Loire,Occupational diseases,1440,657679,
+2019,24,Centre-Val de Loire,All risks,30246,657679,
+2019,27,Bourgogne-Franche-Comté,Commuting accidents,2872,709106,4.1
+2019,27,Bourgogne-Franche-Comté,Work accidents,26157,709106,36.9
+2019,27,Bourgogne-Franche-Comté,Occupational diseases,2367,709106,
+2019,27,Bourgogne-Franche-Comté,All risks,31396,709106,
+2019,28,Normandie,Commuting accidents,4010,896103,4.5
+2019,28,Normandie,Work accidents,33105,896103,36.9
+2019,28,Normandie,Occupational diseases,2875,896103,
+2019,28,Normandie,All risks,39990,896103,
+2019,32,Hauts-de-France,Commuting accidents,7072,1547686,4.6
+2019,32,Hauts-de-France,Work accidents,59924,1547686,38.7
+2019,32,Hauts-de-France,Occupational diseases,4867,1547686,
+2019,32,Hauts-de-France,All risks,71863,1547686,
+2019,44,Grand Est,Commuting accidents,6070,1432603,4.2
+2019,44,Grand Est,Work accidents,49720,1432603,34.7
+2019,44,Grand Est,Occupational diseases,4864,1432603,
+2019,44,Grand Est,All risks,60654,1432603,
+2019,52,Pays de la Loire,Commuting accidents,5124,1121917,4.6
+2019,52,Pays de la Loire,Work accidents,45572,1121917,40.6
+2019,52,Pays de la Loire,Occupational diseases,5463,1121917,
+2019,52,Pays de la Loire,All risks,56159,1121917,
+2019,53,Bretagne,Commuting accidents,3389,884357,3.8
+2019,53,Bretagne,Work accidents,36588,884357,41.4
+2019,53,Bretagne,Occupational diseases,3227,884357,
+2019,53,Bretagne,All risks,43204,884357,
+2019,75,Nouvelle-Aquitaine,Commuting accidents,7086,1541477,4.6
+2019,75,Nouvelle-Aquitaine,Work accidents,60228,1541477,39.1
+2019,75,Nouvelle-Aquitaine,Occupational diseases,5036,1541477,
+2019,75,Nouvelle-Aquitaine,All risks,72350,1541477,
+2019,76,Occitanie,Commuting accidents,7303,1487005,4.9
+2019,76,Occitanie,Work accidents,56744,1487005,38.2
+2019,76,Occitanie,Occupational diseases,2402,1487005,
+2019,76,Occitanie,All risks,66449,1487005,
+2019,84,Auvergne-Rhône-Alpes,Commuting accidents,12384,2394901,5.2
+2019,84,Auvergne-Rhône-Alpes,Work accidents,88057,2394901,36.8
+2019,84,Auvergne-Rhône-Alpes,Occupational diseases,5983,2394901,
+2019,84,Auvergne-Rhône-Alpes,All risks,106424,2394901,
+2019,93,Provence-Alpes-Côte d'Azur,Commuting accidents,10042,1400591,7.2
+2019,93,Provence-Alpes-Côte d'Azur,Work accidents,51752,1400591,37
+2019,93,Provence-Alpes-Côte d'Azur,Occupational diseases,2211,1400591,
+2019,93,Provence-Alpes-Côte d'Azur,All risks,64005,1400591,
+2019,94,Corse,Commuting accidents,498,88082,5.7
+2019,94,Corse,Work accidents,3327,88082,37.8
+2019,94,Corse,Occupational diseases,182,88082,
+2019,94,Corse,All risks,4007,88082,
+2019,99,France,Commuting accidents,98450,19556723,5
+2019,99,France,Work accidents,653847,19556723,33.4
+2019,99,France,Occupational diseases,47090,19556723,
+2019,99,France,All risks,799387,19556723,
+2020,01,Guadeloupe,Commuting accidents,189,87252,
+2020,01,Guadeloupe,Work accidents,1710,87252,
+2020,01,Guadeloupe,Occupational diseases,49,87252,
+2020,01,Guadeloupe,All risks,1948,87252,
+2020,02,Martinique,Commuting accidents,210,88238,
+2020,02,Martinique,Work accidents,1706,88238,
+2020,02,Martinique,Occupational diseases,99,88238,
+2020,02,Martinique,All risks,2015,88238,
+2020,03,Guyane,Commuting accidents,45,43306,
+2020,03,Guyane,Work accidents,293,43306,
+2020,03,Guyane,Occupational diseases,6,43306,
+2020,03,Guyane,All risks,344,43306,
+2020,04,La Réunion,Commuting accidents,609,195904,
+2020,04,La Réunion,Work accidents,5235,195904,
+2020,04,La Réunion,Occupational diseases,253,195904,
+2020,04,La Réunion,All risks,6097,195904,
+2020,06,Mayotte,Commuting accidents,0,0,
+2020,06,Mayotte,Work accidents,0,0,
+2020,06,Mayotte,Occupational diseases,0,0,
+2020,06,Mayotte,All risks,0,0,
+2020,11,Ile-de-France,Commuting accidents,23429,4917030,
+2020,11,Ile-de-France,Work accidents,82605,4917030,
+2020,11,Ile-de-France,Occupational diseases,5057,4917030,
+2020,11,Ile-de-France,All risks,111091,4917030,
+2020,24,Centre-Val de Loire,Commuting accidents,2467,649825,
+2020,24,Centre-Val de Loire,Work accidents,20913,649825,
+2020,24,Centre-Val de Loire,Occupational diseases,1269,649825,
+2020,24,Centre-Val de Loire,All risks,24649,649825,
+2020,27,Bourgogne-Franche-Comté,Commuting accidents,2352,695532,
+2020,27,Bourgogne-Franche-Comté,Work accidents,21851,695532,
+2020,27,Bourgogne-Franche-Comté,Occupational diseases,1892,695532,
+2020,27,Bourgogne-Franche-Comté,All risks,26095,695532,
+2020,28,Normandie,Commuting accidents,3142,872787,
+2020,28,Normandie,Work accidents,27551,872787,
+2020,28,Normandie,Occupational diseases,2400,872787,
+2020,28,Normandie,All risks,33093,872787,
+2020,32,Hauts-de-France,Commuting accidents,5444,1523027,
+2020,32,Hauts-de-France,Work accidents,50389,1523027,
+2020,32,Hauts-de-France,Occupational diseases,3967,1523027,
+2020,32,Hauts-de-France,All risks,59800,1523027,
+2020,44,Grand Est,Commuting accidents,4641,1406680,
+2020,44,Grand Est,Work accidents,40235,1406680,
+2020,44,Grand Est,Occupational diseases,3615,1406680,
+2020,44,Grand Est,All risks,48491,1406680,
+2020,52,Pays de la Loire,Commuting accidents,4119,1117642,
+2020,52,Pays de la Loire,Work accidents,36993,1117642,
+2020,52,Pays de la Loire,Occupational diseases,3955,1117642,
+2020,52,Pays de la Loire,All risks,45067,1117642,
+2020,53,Bretagne,Commuting accidents,2769,881569,
+2020,53,Bretagne,Work accidents,31260,881569,
+2020,53,Bretagne,Occupational diseases,2743,881569,
+2020,53,Bretagne,All risks,36772,881569,
+2020,75,Nouvelle-Aquitaine,Commuting accidents,6050,1534900,
+2020,75,Nouvelle-Aquitaine,Work accidents,53260,1534900,
+2020,75,Nouvelle-Aquitaine,Occupational diseases,4139,1534900,
+2020,75,Nouvelle-Aquitaine,All risks,63449,1534900,
+2020,76,Occitanie,Commuting accidents,5877,1486853,
+2020,76,Occitanie,Work accidents,47478,1486853,
+2020,76,Occitanie,Occupational diseases,1878,1486853,
+2020,76,Occitanie,All risks,55233,1486853,
+2020,84,Auvergne-Rhône-Alpes,Commuting accidents,9268,2374947,
+2020,84,Auvergne-Rhône-Alpes,Work accidents,70922,2374947,
+2020,84,Auvergne-Rhône-Alpes,Occupational diseases,4910,2374947,
+2020,84,Auvergne-Rhône-Alpes,All risks,85100,2374947,
+2020,93,Provence-Alpes-Côte d'Azur,Commuting accidents,8188,1383709,
+2020,93,Provence-Alpes-Côte d'Azur,Work accidents,43399,1383709,
+2020,93,Provence-Alpes-Côte d'Azur,Occupational diseases,1762,1383709,
+2020,93,Provence-Alpes-Côte d'Azur,All risks,53349,1383709,
+2020,94,Corse,Commuting accidents,345,84728,
+2020,94,Corse,Work accidents,2891,84728,
+2020,94,Corse,Occupational diseases,159,84728,
+2020,94,Corse,All risks,3395,84728,
+2020,99,France,Commuting accidents,79144,19343929,
+2020,99,France,Work accidents,538691,19343929,
+2020,99,France,Occupational diseases,38153,19343929,
+2020,99,France,All risks,655988,19343929,
+2021,01,Guadeloupe,Commuting accidents,223,89638,2.5
+2021,01,Guadeloupe,Work accidents,1911,89638,21.3
+2021,01,Guadeloupe,Occupational diseases,54,89638,
+2021,01,Guadeloupe,All risks,2188,89638,
+2021,02,Martinique,Commuting accidents,246,91933,2.7
+2021,02,Martinique,Work accidents,2341,91933,25.5
+2021,02,Martinique,Occupational diseases,73,91933,
+2021,02,Martinique,All risks,2660,91933,
+2021,03,Guyane,Commuting accidents,36,45380,0.8
+2021,03,Guyane,Work accidents,340,45380,7.5
+2021,03,Guyane,Occupational diseases,5,45380,
+2021,03,Guyane,All risks,381,45380,
+2021,04,La Réunion,Commuting accidents,799,210168,3.8
+2021,04,La Réunion,Work accidents,6437,210168,30.6
+2021,04,La Réunion,Occupational diseases,346,210168,
+2021,04,La Réunion,All risks,7582,210168,
+2021,06,Mayotte,Commuting accidents,5,42309,0.1
+2021,06,Mayotte,Work accidents,5,42309,0.1
+2021,06,Mayotte,Occupational diseases,0,42309,
+2021,06,Mayotte,All risks,10,42309,
+2021,11,Ile-de-France,Commuting accidents,22405,5051933,4.4
+2021,11,Ile-de-France,Work accidents,89275,5051933,17.7
+2021,11,Ile-de-France,Occupational diseases,5694,5051933,
+2021,11,Ile-de-France,All risks,117374,5051933,
+2021,24,Centre-Val de Loire,Commuting accidents,2706,671540,4
+2021,24,Centre-Val de Loire,Work accidents,21632,671540,32.2
+2021,24,Centre-Val de Loire,Occupational diseases,1215,671540,
+2021,24,Centre-Val de Loire,All risks,25553,671540,
+2021,27,Bourgogne-Franche-Comté,Commuting accidents,2836,714536,4
+2021,27,Bourgogne-Franche-Comté,Work accidents,24651,714536,34.5
+2021,27,Bourgogne-Franche-Comté,Occupational diseases,2058,714536,
+2021,27,Bourgogne-Franche-Comté,All risks,29545,714536,
+2021,28,Normandie,Commuting accidents,3630,903247,4
+2021,28,Normandie,Work accidents,30808,903247,34.1
+2021,28,Normandie,Occupational diseases,2886,903247,
+2021,28,Normandie,All risks,37324,903247,
+2021,32,Hauts-de-France,Commuting accidents,6449,1578424,4.1
+2021,32,Hauts-de-France,Work accidents,56679,1578424,35.9
+2021,32,Hauts-de-France,Occupational diseases,4388,1578424,
+2021,32,Hauts-de-France,All risks,67516,1578424,
+2021,44,Grand Est,Commuting accidents,5793,1455405,4
+2021,44,Grand Est,Work accidents,44970,1455405,30.9
+2021,44,Grand Est,Occupational diseases,4636,1455405,
+2021,44,Grand Est,All risks,55399,1455405,
+2021,52,Pays de la Loire,Commuting accidents,5162,1162381,4.4
+2021,52,Pays de la Loire,Work accidents,43644,1162381,37.5
+2021,52,Pays de la Loire,Occupational diseases,4750,1162381,
+2021,52,Pays de la Loire,All risks,53556,1162381,
+2021,53,Bretagne,Commuting accidents,3588,918539,3.9
+2021,53,Bretagne,Work accidents,35548,918539,38.7
+2021,53,Bretagne,Occupational diseases,3077,918539,
+2021,53,Bretagne,All risks,42213,918539,
+2021,75,Nouvelle-Aquitaine,Commuting accidents,6894,1589685,4.3
+2021,75,Nouvelle-Aquitaine,Work accidents,58814,1589685,37
+2021,75,Nouvelle-Aquitaine,Occupational diseases,4973,1589685,
+2021,75,Nouvelle-Aquitaine,All risks,70681,1589685,
+2021,76,Occitanie,Commuting accidents,6964,1558285,4.5
+2021,76,Occitanie,Work accidents,54154,1558285,34.8
+2021,76,Occitanie,Occupational diseases,2281,1558285,
+2021,76,Occitanie,All risks,63399,1558285,
+2021,84,Auvergne-Rhône-Alpes,Commuting accidents,11126,2439804,4.6
+2021,84,Auvergne-Rhône-Alpes,Work accidents,79707,2439804,32.7
+2021,84,Auvergne-Rhône-Alpes,Occupational diseases,5579,2439804,
+2021,84,Auvergne-Rhône-Alpes,All risks,96412,2439804,
+2021,93,Provence-Alpes-Côte d'Azur,Commuting accidents,9591,1449262,6.6
+2021,93,Provence-Alpes-Côte d'Azur,Work accidents,48931,1449262,33.8
+2021,93,Provence-Alpes-Côte d'Azur,Occupational diseases,2044,1449262,
+2021,93,Provence-Alpes-Côte d'Azur,All risks,60566,1449262,
+2021,94,Corse,Commuting accidents,455,90704,5
+2021,94,Corse,Work accidents,3268,90704,36
+2021,94,Corse,Occupational diseases,180,90704,
+2021,94,Corse,All risks,3903,90704,
+2021,99,France,Commuting accidents,88908,20063173,4.4
+2021,99,France,Work accidents,603115,20063173,30.1
+2021,99,France,Occupational diseases,44239,20063173,
+2021,99,France,All risks,736262,20063173,
+2022,01,Guadeloupe,Commuting accidents,205,99777,2.1
+2022,01,Guadeloupe,Work accidents,1495,99777,15
+2022,01,Guadeloupe,Occupational diseases,69,99777,
+2022,01,Guadeloupe,All risks,1769,99777,
+2022,02,Martinique,Commuting accidents,260,98956,2.6
+2022,02,Martinique,Work accidents,1962,98956,19.8
+2022,02,Martinique,Occupational diseases,67,98956,
+2022,02,Martinique,All risks,2289,98956,
+2022,03,Guyane,Commuting accidents,38,48441,0.8
+2022,03,Guyane,Work accidents,314,48441,6.5
+2022,03,Guyane,Occupational diseases,13,48441,
+2022,03,Guyane,All risks,365,48441,
+2022,04,La Réunion,Commuting accidents,775,223740,3.5
+2022,04,La Réunion,Work accidents,5674,223740,25.4
+2022,04,La Réunion,Occupational diseases,303,223740,
+2022,04,La Réunion,All risks,6752,223740,
+2022,06,Mayotte,Commuting accidents,0,37308,0
+2022,06,Mayotte,Work accidents,3,37308,0.1
+2022,06,Mayotte,Occupational diseases,1,37308,
+2022,06,Mayotte,All risks,4,37308,
+2022,11,Ile-de-France,Commuting accidents,21473,5167453,4.2
+2022,11,Ile-de-France,Work accidents,84046,5167453,16.3
+2022,11,Ile-de-France,Occupational diseases,5357,5167453,
+2022,11,Ile-de-France,All risks,110876,5167453,
+2022,24,Centre-Val de Loire,Commuting accidents,2865,679885,4.2
+2022,24,Centre-Val de Loire,Work accidents,21314,679885,31.3
+2022,24,Centre-Val de Loire,Occupational diseases,1312,679885,
+2022,24,Centre-Val de Loire,All risks,25491,679885,
+2022,27,Bourgogne-Franche-Comté,Commuting accidents,2793,729249,3.8
+2022,27,Bourgogne-Franche-Comté,Work accidents,22211,729249,30.5
+2022,27,Bourgogne-Franche-Comté,Occupational diseases,1999,729249,
+2022,27,Bourgogne-Franche-Comté,All risks,27003,729249,
+2022,28,Normandie,Commuting accidents,3706,925077,4
+2022,28,Normandie,Work accidents,28745,925077,31.1
+2022,28,Normandie,Occupational diseases,2618,925077,
+2022,28,Normandie,All risks,35069,925077,
+2022,32,Hauts-de-France,Commuting accidents,6549,1615198,4.1
+2022,32,Hauts-de-France,Work accidents,53631,1615198,33.2
+2022,32,Hauts-de-France,Occupational diseases,4207,1615198,
+2022,32,Hauts-de-France,All risks,64387,1615198,
+2022,44,Grand Est,Commuting accidents,5288,1500784,3.5
+2022,44,Grand Est,Work accidents,40350,1500784,26.9
+2022,44,Grand Est,Occupational diseases,4157,1500784,
+2022,44,Grand Est,All risks,49795,1500784,
+2022,52,Pays de la Loire,Commuting accidents,4714,1195316,3.9
+2022,52,Pays de la Loire,Work accidents,36631,1195316,30.6
+2022,52,Pays de la Loire,Occupational diseases,4026,1195316,
+2022,52,Pays de la Loire,All risks,45371,1195316,
+2022,53,Bretagne,Commuting accidents,3239,937857,3.5
+2022,53,Bretagne,Work accidents,31657,937857,33.8
+2022,53,Bretagne,Occupational diseases,2849,937857,
+2022,53,Bretagne,All risks,37745,937857,
+2022,75,Nouvelle-Aquitaine,Commuting accidents,7214,1666358,4.3
+2022,75,Nouvelle-Aquitaine,Work accidents,54556,1666358,32.7
+2022,75,Nouvelle-Aquitaine,Occupational diseases,4526,1666358,
+2022,75,Nouvelle-Aquitaine,All risks,66296,1666358,
+2022,76,Occitanie,Commuting accidents,7643,1624365,4.7
+2022,76,Occitanie,Work accidents,51831,1624365,31.9
+2022,76,Occitanie,Occupational diseases,2309,1624365,
+2022,76,Occitanie,All risks,61783,1624365,
+2022,84,Auvergne-Rhône-Alpes,Commuting accidents,11788,2526907,4.7
+2022,84,Auvergne-Rhône-Alpes,Work accidents,77525,2526907,30.7
+2022,84,Auvergne-Rhône-Alpes,Occupational diseases,5505,2526907,
+2022,84,Auvergne-Rhône-Alpes,All risks,94818,2526907,
+2022,93,Provence-Alpes-Côte d'Azur,Commuting accidents,10219,1500788,6.8
+2022,93,Provence-Alpes-Côte d'Azur,Work accidents,47787,1500788,31.8
+2022,93,Provence-Alpes-Côte d'Azur,Occupational diseases,2158,1500788,
+2022,93,Provence-Alpes-Côte d'Azur,All risks,60164,1500788,
+2022,94,Corse,Commuting accidents,408,94238,4.3
+2022,94,Corse,Work accidents,3163,94238,33.6
+2022,94,Corse,Occupational diseases,156,94238,
+2022,94,Corse,All risks,3727,94238,
+2022,99,France,Commuting accidents,89177,20671697,4.3
+2022,99,France,Work accidents,562895,20671697,27.2
+2022,99,France,Occupational diseases,41632,20671697,
+2022,99,France,All risks,693704,20671697,
+2023,01,Guadeloupe,Commuting accidents,234,98791,2.4
+2023,01,Guadeloupe,Work accidents,1499,98791,15.2
+2023,01,Guadeloupe,Occupational diseases,80,98791,
+2023,01,Guadeloupe,All risks,1813,98791,
+2023,02,Martinique,Commuting accidents,274,97945,2.8
+2023,02,Martinique,Work accidents,2238,97945,22.8
+2023,02,Martinique,Occupational diseases,79,97945,
+2023,02,Martinique,All risks,2591,97945,
+2023,03,Guyane,Commuting accidents,41,50937,0.8
+2023,03,Guyane,Work accidents,321,50937,6.3
+2023,03,Guyane,Occupational diseases,12,50937,
+2023,03,Guyane,All risks,374,50937,
+2023,04,La Réunion,Commuting accidents,867,222493,3.9
+2023,04,La Réunion,Work accidents,6151,222493,27.6
+2023,04,La Réunion,Occupational diseases,314,222493,
+2023,04,La Réunion,All risks,7332,222493,
+2023,06,Mayotte,Commuting accidents,3,38460,0.1
+2023,06,Mayotte,Work accidents,10,38460,0.3
+2023,06,Mayotte,Occupational diseases,0,38460,
+2023,06,Mayotte,All risks,13,38460,
+2023,11,Ile-de-France,Commuting accidents,22687,5249110,4.3
+2023,11,Ile-de-France,Work accidents,81533,5249110,15.5
+2023,11,Ile-de-France,Occupational diseases,5501,5249110,
+2023,11,Ile-de-France,All risks,109721,5249110,
+2023,24,Centre-Val de Loire,Commuting accidents,3050,680330,4.5
+2023,24,Centre-Val de Loire,Work accidents,20786,680330,30.6
+2023,24,Centre-Val de Loire,Occupational diseases,1370,680330,
+2023,24,Centre-Val de Loire,All risks,25206,680330,
+2023,27,Bourgogne-Franche-Comté,Commuting accidents,2874,727207,4
+2023,27,Bourgogne-Franche-Comté,Work accidents,21682,727207,29.8
+2023,27,Bourgogne-Franche-Comté,Occupational diseases,1923,727207,
+2023,27,Bourgogne-Franche-Comté,All risks,26479,727207,
+2023,28,Normandie,Commuting accidents,3962,923444,4.3
+2023,28,Normandie,Work accidents,27721,923444,30
+2023,28,Normandie,Occupational diseases,2705,923444,
+2023,28,Normandie,All risks,34388,923444,
+2023,32,Hauts-de-France,Commuting accidents,6959,1593983,4.4
+2023,32,Hauts-de-France,Work accidents,51926,1593983,32.6
+2023,32,Hauts-de-France,Occupational diseases,4679,1593983,
+2023,32,Hauts-de-France,All risks,63564,1593983,
+2023,44,Grand Est,Commuting accidents,6048,1491171,4.1
+2023,44,Grand Est,Work accidents,40843,1491171,27.4
+2023,44,Grand Est,Occupational diseases,4565,1491171,
+2023,44,Grand Est,All risks,51456,1491171,
+2023,52,Pays de la Loire,Commuting accidents,5508,1200587,4.6
+2023,52,Pays de la Loire,Work accidents,39718,1200587,33.1
+2023,52,Pays de la Loire,Occupational diseases,4528,1200587,
+2023,52,Pays de la Loire,All risks,49754,1200587,
+2023,53,Bretagne,Commuting accidents,3688,944521,3.9
+2023,53,Bretagne,Work accidents,32460,944521,34.4
+2023,53,Bretagne,Occupational diseases,3204,944521,
+2023,53,Bretagne,All risks,39352,944521,
+2023,75,Nouvelle-Aquitaine,Commuting accidents,7591,1651120,4.6
+2023,75,Nouvelle-Aquitaine,Work accidents,54221,1651120,32.8
+2023,75,Nouvelle-Aquitaine,Occupational diseases,4910,1651120,
+2023,75,Nouvelle-Aquitaine,All risks,66722,1651120,
+2023,76,Occitanie,Commuting accidents,7595,1631998,4.7
+2023,76,Occitanie,Work accidents,50675,1631998,31.1
+2023,76,Occitanie,Occupational diseases,2733,1631998,
+2023,76,Occitanie,All risks,61003,1631998,
+2023,84,Auvergne-Rhône-Alpes,Commuting accidents,11969,2536987,4.7
+2023,84,Auvergne-Rhône-Alpes,Work accidents,73924,2536987,29.1
+2023,84,Auvergne-Rhône-Alpes,Occupational diseases,5932,2536987,
+2023,84,Auvergne-Rhône-Alpes,All risks,91825,2536987,
+2023,93,Provence-Alpes-Côte d'Azur,Commuting accidents,10024,1503296,6.7
+2023,93,Provence-Alpes-Côte d'Azur,Work accidents,45943,1503296,30.6
+2023,93,Provence-Alpes-Côte d'Azur,Occupational diseases,2187,1503296,
+2023,93,Provence-Alpes-Côte d'Azur,All risks,58154,1503296,
+2023,94,Corse,Commuting accidents,403,94841,4.2
+2023,94,Corse,Work accidents,2942,94841,31
+2023,94,Corse,Occupational diseases,183,94841,
+2023,94,Corse,All risks,3528,94841,
+2023,99,France,Commuting accidents,93777,20737221,4.5
+2023,99,France,Work accidents,554593,20737221,26.7
+2023,99,France,Occupational diseases,44905,20737221,
+2023,99,France,All risks,693275,20737221,
+2024,01,Guadeloupe,Commuting accidents,257,99102,2.6
+2024,01,Guadeloupe,Work accidents,1671,99102,16.9
+2024,01,Guadeloupe,Occupational diseases,97,99102,
+2024,01,Guadeloupe,All risks,2025,99102,
+2024,02,Martinique,Commuting accidents,302,97935,3.1
+2024,02,Martinique,Work accidents,2220,97935,22.7
+2024,02,Martinique,Occupational diseases,117,97935,
+2024,02,Martinique,All risks,2639,97935,
+2024,03,Guyane,Commuting accidents,63,51987,1.2
+2024,03,Guyane,Work accidents,281,51987,5.4
+2024,03,Guyane,Occupational diseases,18,51987,
+2024,03,Guyane,All risks,362,51987,
+2024,04,La Réunion,Commuting accidents,956,222888,4.3
+2024,04,La Réunion,Work accidents,6537,222888,29.3
+2024,04,La Réunion,Occupational diseases,381,222888,
+2024,04,La Réunion,All risks,7874,222888,
+2024,06,Mayotte,Commuting accidents,4,38204,0.1
+2024,06,Mayotte,Work accidents,3,38204,0.1
+2024,06,Mayotte,Occupational diseases,1,38204,
+2024,06,Mayotte,All risks,8,38204,
+2024,11,Ile-de-France,Commuting accidents,23562,5285552,4.5
+2024,11,Ile-de-France,Work accidents,81628,5285552,15.4
+2024,11,Ile-de-France,Occupational diseases,6159,5285552,
+2024,11,Ile-de-France,All risks,111349,5285552,
+2024,24,Centre-Val de Loire,Commuting accidents,2949,681535,4.3
+2024,24,Centre-Val de Loire,Work accidents,20186,681535,29.6
+2024,24,Centre-Val de Loire,Occupational diseases,1536,681535,
+2024,24,Centre-Val de Loire,All risks,24671,681535,
+2024,27,Bourgogne-Franche-Comté,Commuting accidents,2952,721886,4.1
+2024,27,Bourgogne-Franche-Comté,Work accidents,21173,721886,29.3
+2024,27,Bourgogne-Franche-Comté,Occupational diseases,2136,721886,
+2024,27,Bourgogne-Franche-Comté,All risks,26261,721886,
+2024,28,Normandie,Commuting accidents,3993,922346,4.3
+2024,28,Normandie,Work accidents,27741,922346,30.1
+2024,28,Normandie,Occupational diseases,3037,922346,
+2024,28,Normandie,All risks,34771,922346,
+2024,32,Hauts-de-France,Commuting accidents,7090,1595433,4.4
+2024,32,Hauts-de-France,Work accidents,50724,1595433,31.8
+2024,32,Hauts-de-France,Occupational diseases,4899,1595433,
+2024,32,Hauts-de-France,All risks,62713,1595433,
+2024,44,Grand Est,Commuting accidents,6268,1482089,4.2
+2024,44,Grand Est,Work accidents,41380,1482089,27.9
+2024,44,Grand Est,Occupational diseases,4914,1482089,
+2024,44,Grand Est,All risks,52562,1482089,
+2024,52,Pays de la Loire,Commuting accidents,5183,1204909,4.3
+2024,52,Pays de la Loire,Work accidents,38541,1204909,32
+2024,52,Pays de la Loire,Occupational diseases,4254,1204909,
+2024,52,Pays de la Loire,All risks,47978,1204909,
+2024,53,Bretagne,Commuting accidents,3612,951518,3.8
+2024,53,Bretagne,Work accidents,32914,951518,34.6
+2024,53,Bretagne,Occupational diseases,3397,951518,
+2024,53,Bretagne,All risks,39923,951518,
+2024,75,Nouvelle-Aquitaine,Commuting accidents,7287,1650907,4.4
+2024,75,Nouvelle-Aquitaine,Work accidents,53037,1650907,32.1
+2024,75,Nouvelle-Aquitaine,Occupational diseases,5152,1650907,
+2024,75,Nouvelle-Aquitaine,All risks,65476,1650907,
+2024,76,Occitanie,Commuting accidents,7392,1632552,4.5
+2024,76,Occitanie,Work accidents,48997,1632552,30
+2024,76,Occitanie,Occupational diseases,2879,1632552,
+2024,76,Occitanie,All risks,59268,1632552,
+2024,84,Auvergne-Rhône-Alpes,Commuting accidents,11881,2551877,4.7
+2024,84,Auvergne-Rhône-Alpes,Work accidents,72532,2551877,28.4
+2024,84,Auvergne-Rhône-Alpes,Occupational diseases,6356,2551877,
+2024,84,Auvergne-Rhône-Alpes,All risks,90769,2551877,
+2024,93,Provence-Alpes-Côte d'Azur,Commuting accidents,10255,1513721,6.8
+2024,93,Provence-Alpes-Côte d'Azur,Work accidents,45867,1513721,30.3
+2024,93,Provence-Alpes-Côte d'Azur,Occupational diseases,2517,1513721,
+2024,93,Provence-Alpes-Côte d'Azur,All risks,58639,1513721,
+2024,94,Corse,Commuting accidents,425,94556,4.5
+2024,94,Corse,Work accidents,3118,94556,33
+2024,94,Corse,Occupational diseases,186,94556,
+2024,94,Corse,All risks,3729,94556,
+2024,99,France,Commuting accidents,94431,20798997,4.5
+2024,99,France,Work accidents,548550,20798997,26.4
+2024,99,France,Occupational diseases,48036,20798997,
+2024,99,France,All risks,691017,20798997,
