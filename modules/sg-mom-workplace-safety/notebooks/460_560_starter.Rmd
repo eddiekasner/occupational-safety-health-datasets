@@ -1,0 +1,308 @@
+---
+title: "Singapore Workplace Safety and Health: Starter Notebook"
+subtitle: "ENVH 460/560"
+author: "Your name"
+output:
+  html_document:
+    toc: true
+    df_print: paged
+---
+
+Singapore's Ministry of Manpower (MOM) collects reports of workplace injuries from employers under
+the Work Injury Compensation Act and of occupational diseases from doctors, and publishes national
+statistics each year. This notebook uses fatal, major and minor injuries, occupational diseases and
+man-days lost from 2018 to 2025, by industry, with rates per 100,000 workers. Read the module
+[README](../README.md) and [data dictionary](../data_dictionary.md) first.
+
+**How to use this notebook**
+
+- Run each code chunk in order (the green arrow in RStudio, or Ctrl/Cmd + Shift + Enter).
+- Answer the questions under each **Your answer** heading.
+- When you are done, click **Knit** to produce an HTML report to submit.
+
+# Part 0. Load the data
+
+```{r setup, message = FALSE}
+library(readr)
+library(dplyr)
+library(tidyr)
+library(ggplot2)
+library(forcats)
+
+base <- "https://raw.githubusercontent.com/eddiekasner/occupational-safety-health-datasets/main/modules/sg-mom-workplace-safety/data"
+read_module <- function(folder, name, ...) {
+  local <- file.path("..", "data", folder, name)
+  read_csv(if (file.exists(local)) local else file.path(base, folder, name), show_col_types = FALSE,
+           ...)
+}
+
+# Injuries, occupational diseases and man-days lost by industry (counts and rates)
+by_industry <- read_module("tidy", "injuries_by_industry.csv")
+# Major and minor injuries by type of injury
+injury_types <- read_module("tidy", "injury_types.csv")
+# Occupational diseases by type
+diseases <- read_module("tidy", "occupational_diseases.csv")
+
+# National figures are the "All industries" rows; industries without a parent are the main ones
+national <- by_industry |> filter(industry == "All industries")
+main_industries <- by_industry |> filter(is.na(parent), industry != "All industries")
+```
+
+Rates are **per 100,000 workers**. From 2021 employers must report every injury with any medical
+leave or light duty; MOM publishes minor injuries both ways (`series`). Read the README before
+comparing years.
+
+# Part 1. National trends
+
+```{r trend}
+national |>
+  filter(statistic == "rate") |>
+  select(year, measure, series, value) |>
+  pivot_wider(names_from = year, values_from = value)
+
+national |>
+  filter(measure == "Fatal injuries") |>
+  select(year, statistic, value) |>
+  pivot_wider(names_from = statistic, values_from = value) |>
+  ggplot(aes(year, count)) +
+  geom_col() +
+  geom_text(aes(label = rate), vjust = -0.5, size = 3) +
+  labs(title = "Workplace fatal injuries (labels: rate per 100,000 workers)", x = NULL,
+       y = "Deaths")
+
+national |>
+  filter(measure == "Minor injuries", statistic == "count") |>
+  ggplot(aes(year, value, colour = series)) +
+  geom_line() +
+  geom_point() +
+  expand_limits(y = 0) +
+  scale_y_continuous(labels = scales::label_comma()) +
+  labs(title = "Workplace minor injuries", x = NULL, y = "Injuries", colour = "Reporting rule")
+```
+
+**Questions**
+
+1. How did the number and rate of fatal injuries change from 2018 to 2025? Which year stands out?
+2. Under the new reporting rule, about twice as many minor injuries are counted as under the old
+   one. What kinds of injuries does the old rule leave out? Which series would you use to describe
+   the burden of injury, and which to look at trends since 2018?
+3. Singapore's fatal injury rate is about 1 per 100,000 workers. Singapore has set a national target
+   of below 1.0 by 2028. Why do you think a government chooses the fatal injury rate as its headline
+   target, and what are the drawbacks?
+
+**Your answer:**
+
+
+
+# Part 2. Industries
+
+```{r industries}
+main_industries |>
+  filter(measure == "Fatal injuries", statistic == "rate", year >= 2023) |>
+  select(year, industry, value) |>
+  pivot_wider(names_from = year, values_from = value)
+
+main_industries |>
+  filter(measure == "Fatal injuries", statistic == "count") |>
+  group_by(industry) |>
+  summarise(deaths_2018_2025 = sum(value, na.rm = TRUE)) |>
+  slice_max(deaths_2018_2025, n = 8) |>
+  ggplot(aes(deaths_2018_2025, fct_reorder(industry, deaths_2018_2025))) +
+  geom_col() +
+  labs(title = "Workplace fatal injuries, 2018 to 2025", x = "Deaths", y = NULL)
+
+main_industries |>
+  filter(measure == "Fatal injuries", statistic == "rate",
+         industry %in% c("Construction", "Marine", "Transportation & storage", "Manufacturing")) |>
+  ggplot(aes(year, value, colour = industry)) +
+  geom_line() +
+  geom_point() +
+  labs(title = "Fatal injury rate per 100,000 workers", x = NULL, y = NULL, colour = NULL)
+```
+
+**Questions**
+
+1. Which industry has the most workplace deaths, and which the highest fatal injury rate? Why can
+   they differ?
+2. The marine industry (shipbuilding and repair) has a high but very changeable rate. How many
+   deaths does it take to change its rate a lot? What does that tell you about rates for small
+   industries?
+3. MOM reports only selected industries in each table, and the list changes. What problems does
+   that create when you compare years?
+
+**Your answer:**
+
+
+
+# Part 3. Types of injury
+
+```{r injury-types}
+injury_types |>
+  filter(severity == "Major", year >= 2022, injury_type != "Total") |>
+  group_by(injury_type) |>
+  summarise(injuries = sum(value, na.rm = TRUE)) |>
+  arrange(desc(injuries))
+
+injury_types |>
+  filter(severity == "Minor", series == "New (any medical leave)", year == 2025,
+         injury_type != "Total") |>
+  mutate(share = round(value / sum(value), 3)) |>
+  arrange(desc(value)) |>
+  select(injury_type, injuries = value, share)
+```
+
+**Questions**
+
+1. What are the most common types of major injury, and of minor injury? Which major injuries
+   always count as major, whatever the time off work?
+2. Amputations are about a sixth of major injuries. In which kinds of work would you expect them,
+   and what controls prevent them?
+3. A large share of minor injuries are "Others". Why does a large "Others" group limit what you can
+   learn, and how could reporting be improved?
+
+**Your answer:**
+
+
+
+# Part 4. Occupational diseases
+
+```{r diseases}
+diseases |>
+  filter(is.na(group), disease != "Total") |>
+  ggplot(aes(year, value, fill = fct_reorder(disease, value, .fun = sum))) +
+  geom_col() +
+  labs(title = "Confirmed occupational disease cases", x = NULL, y = "Cases", fill = NULL)
+
+diseases |>
+  filter(disease %in% c("Total", "Noise-induced hearing loss",
+                        "Work-related musculoskeletal disorders", "Occupational skin disease")) |>
+  select(year, disease, value) |>
+  pivot_wider(names_from = disease, values_from = value)
+
+main_industries |>
+  filter(measure == "Occupational diseases", statistic == "count", year == 2025) |>
+  select(industry, cases = value) |>
+  arrange(desc(cases))
+```
+
+**Questions**
+
+1. Which two diseases make up most occupational disease cases? Which industry has the most cases?
+2. Noise-induced hearing loss cases rose almost fivefold from 2021 to 2023 and then fell. Most cases
+   are found by the audiometric examinations that workers exposed to noise must have. Suggest
+   reasons for the rise and fall that are about surveillance rather than about noise.
+3. Only a few cases of occupational cancer and lung disease are confirmed each year. Why are these
+   diseases likely to be under-counted compared with injuries?
+
+**Your answer:**
+
+
+
+# Part 5. Man-days lost
+
+MOM estimates the working days lost to workplace injuries with a table of scheduled charges from
+the U.S. National Institute for Occupational Safety and Health: each death, or permanent total
+incapacity, counts as 6,000 days, and other injuries are scored by the part of the body, the degree
+of incapacity and the days of medical leave.
+
+```{r man-days}
+main_industries |>
+  filter(measure == "Man-days lost", series == "New (any medical leave)", year == 2025) |>
+  select(industry, man_days = value) |>
+  arrange(desc(man_days)) |>
+  mutate(share = round(man_days / sum(man_days, na.rm = TRUE), 3))
+
+national |>
+  filter(measure == "Man-days lost", year == 2025) |>
+  select(series, value)
+```
+
+**Questions**
+
+1. Which industries account for most man-days lost? Is the ranking the same as for deaths?
+2. In 2025, the 34 deaths of employees (not counting platform workers) count as 204,000 man-days.
+   What share of the total is that? Is counting a fixed number of days for each death a good way to
+   combine fatal and non-fatal harm? What else could you use?
+
+**Your answer:**
+
+
+
+# Part 6. A change in the rules (ENVH 460/560)
+
+```{r series}
+national |>
+  filter(measure %in% c("Minor injuries", "Man-days lost"), statistic == "count", year >= 2021) |>
+  select(year, measure, series, value) |>
+  pivot_wider(names_from = series, values_from = value) |>
+  mutate(ratio_new_to_standard = round(`New (any medical leave)` / Standard, 2))
+
+by_industry |>
+  filter(measure == "Minor injuries", statistic == "count", year == 2025, is.na(parent)) |>
+  select(industry, series, value) |>
+  pivot_wider(names_from = series, values_from = value) |>
+  mutate(ratio = round(`New (any medical leave)` / Standard, 2)) |>
+  arrange(desc(ratio))
+```
+
+**Questions**
+
+1. Under the new rule, how many more minor injuries are counted than under the old one? Does the
+   ratio differ by industry? What kinds of jobs might have many injuries with only one to three
+   days of medical leave?
+2. In September 2020 the law changed what employers must report. Explain how a reporting change
+   can look like a change in injury risk, and how this report avoids that trap by publishing both
+   series.
+3. Under-reporting by employers is a known problem in many countries. How could a regulator check
+   whether injuries are being reported?
+
+**Your answer:**
+
+
+
+# Part 7. Inside construction and manufacturing (ENVH 460/560)
+
+```{r sub-industries}
+by_industry |>
+  filter(parent %in% c("Construction", "Manufacturing"), statistic == "count",
+         measure %in% c("Fatal injuries", "Major injuries"), year >= 2022) |>
+  group_by(parent, industry, measure) |>
+  summarise(injuries = sum(value, na.rm = TRUE), .groups = "drop") |>
+  pivot_wider(names_from = measure, values_from = injuries) |>
+  arrange(parent, desc(`Major injuries`))
+```
+
+**Questions**
+
+1. Since 2022, MOM has reported "smaller scale works" (renovation, addition and alteration works)
+   separately from regular construction. Why might small works be more dangerous per worker than
+   large projects? What makes them harder to regulate?
+2. Within manufacturing, which activity has the most major injuries? Name two hazards typical of
+   that activity.
+
+**Your answer:**
+
+
+
+# Part 8. Comparing countries (ENVH 460/560)
+
+```{r compare}
+national |>
+  filter(measure == "Fatal injuries", statistic == "rate") |>
+  summarise(mean_fatal_rate_2018_2025 = mean(value))
+```
+
+**Questions**
+
+1. Find the fatal injury rate per 100,000 workers for two other countries in this repository (for
+   example, the Japan, South Korea or UK modules, or the ILOSTAT module). How does Singapore
+   compare?
+2. Singapore's workforce includes many migrant workers in construction, marine and manufacturing,
+   who live in dormitories and are often driven to work in the back of lorries. MOM counts
+   work-related traffic accidents, but its definitions do not mention commuting (see the README).
+   Which of these workers' deaths might not be counted as workplace fatal injuries, and what would
+   you need to know to be sure?
+3. Write a short paragraph for a policy maker on what these data can and cannot tell them about
+   whether work in Singapore is getting safer.
+
+**Your answer:**

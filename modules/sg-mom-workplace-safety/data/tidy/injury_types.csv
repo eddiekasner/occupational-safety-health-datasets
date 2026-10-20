@@ -1,0 +1,234 @@
+year,severity,series,injury_type,value,label,source_report
+2018,Major,,Amputations,106,Amputations,2019
+2018,Major,,Blindness,1,Blindness,2019
+2018,Major,,Burns (more than 20 days of medical leave),66,"Burns, with more than 20 MC days",2019
+2018,Major,,Concussion (more than 20 days of medical leave),15,"Concussion, with more than 20 MC days",2019
+2018,Major,,"Crushing, fractures & dislocations",358,"Crushing, Fractures and Dislocations",2019
+2018,Major,,Deafness,1,Deafness,2019
+2018,Major,,Electric current,10,Exposure to/ contact with Electric Current,2019
+2018,Major,,Exposure to biological materials,0,Exposure to Biological Materials,2019
+2018,Major,,Mosquito-borne disease,0,Mosquito Borne,2019
+2018,Major,,Multiple injuries,38,Multiple Injuries,2019
+2018,Major,,Paralysis,1,Paralysis,2019
+2018,Major,,Total,596,Total,2019
+2019,Major,,Amputations,132,Amputations,2021
+2019,Major,,Blindness,3,Blindness,2021
+2019,Major,,Burns (more than 20 days of medical leave),57,"Burns, With More Than 20 MC Days",2021
+2019,Major,,Concussion (more than 20 days of medical leave),13,"Concussion, With More Than 20 MC Days",2021
+2019,Major,,"Crushing, fractures & dislocations",368,"Crushing, Fractures & Dislocations",2021
+2019,Major,,Electric current,14,Exposure To/ Contact With Electric Current,2021
+2019,Major,,Mosquito-borne disease,1,Mosquito Borne,2021
+2019,Major,,Multiple injuries,38,Multiple Injuries,2021
+2019,Major,,Others,2,Others,2021
+2019,Major,,Paralysis,1,Paralysis,2021
+2019,Major,,Total,629,Total,2021
+2020,Major,,Amputations,87,Amputations,2021
+2020,Major,,Blindness,1,Blindness,2021
+2020,Major,,Burns (more than 20 days of medical leave),58,"Burns, With More Than 20 MC Days",2021
+2020,Major,,Concussion (more than 20 days of medical leave),11,"Concussion, With More Than 20 MC Days",2021
+2020,Major,,"Crushing, fractures & dislocations",253,"Crushing, Fractures & Dislocations",2021
+2020,Major,,Electric current,9,Exposure To/ Contact With Electric Current,2021
+2020,Major,,Mosquito-borne disease,6,Mosquito Borne,2021
+2020,Major,,Multiple injuries,36,Multiple Injuries,2021
+2020,Major,,Others,2,Others,2021
+2020,Major,,Paralysis,0,Paralysis,2021
+2020,Major,,Total,463,Total,2021
+2021,Major,,Amputations,102,Amputations,2021
+2021,Major,,Blindness,2,Blindness,2021
+2021,Major,,Burns (more than 20 days of medical leave),70,"Burns, With More Than 20 MC Days",2021
+2021,Major,,Concussion (more than 20 days of medical leave),17,"Concussion, With More Than 20 MC Days",2021
+2021,Major,,"Crushing, fractures & dislocations",360,"Crushing, Fractures & Dislocations",2021
+2021,Major,,Electric current,10,Exposure To/ Contact With Electric Current,2021
+2021,Major,,Mosquito-borne disease,2,Mosquito Borne,2021
+2021,Major,,Multiple injuries,44,Multiple Injuries,2021
+2021,Major,,Others,3,Others,2021
+2021,Major,,Paralysis,0,Paralysis,2021
+2021,Major,,Total,610,Total,2021
+2022,Major,,Amputations,114,Amputations,2023
+2022,Major,,Blindness,1,Blindness,2023
+2022,Major,,Burns (more than 20 days of medical leave),67,"Burns, With More Than 20 MC Days",2023
+2022,Major,,Concussion (more than 20 days of medical leave),16,"Concussion, With More Than 20 MC Days",2023
+2022,Major,,"Crushing, fractures & dislocations",356,"Crushing, Fractures and Dislocations: Head, Back, Chest and Abdomen, Neck, Hip and Pelvis",2023
+2022,Major,,Drowning,1,Drowning,2023
+2022,Major,,Electric current,13,Exposure to/ Contact with Electric Current,2023
+2022,Major,,Multiple injuries,44,Multiple Injuries,2023
+2022,Major,,Others,2,Others,2023
+2022,Major,,Total,614,Total,2023
+2023,Major,,Amputations,115,Amputations,2023
+2023,Major,,Blindness,2,Blindness,2023
+2023,Major,,Burns (more than 20 days of medical leave),49,"Burns, With More Than 20 MC Days",2023
+2023,Major,,Concussion (more than 20 days of medical leave),23,"Concussion, With More Than 20 MC Days",2023
+2023,Major,,"Crushing, fractures & dislocations",346,"Crushing, Fractures and Dislocations: Head, Back, Chest and Abdomen, Neck, Hip and Pelvis",2023
+2023,Major,,Drowning,0,Drowning,2023
+2023,Major,,Electric current,12,Exposure to/ Contact with Electric Current,2023
+2023,Major,,Multiple injuries,41,Multiple Injuries,2023
+2023,Major,,Others,2,Others,2023
+2023,Major,,Total,590,Total,2023
+2024,Major,,Amputations,105,Amputations,2025
+2024,Major,,Blindness,1,Blindness,2025
+2024,Major,,Burns (more than 20 days of medical leave),45,"Burns, With More Than 20 MC Days",2025
+2024,Major,,Concussion (more than 20 days of medical leave),9,"Concussion, With More Than 20 MC Days",2025
+2024,Major,,"Crushing, fractures & dislocations",354,"Crushing, Fractures and Dislocations: Head, Back, Chest and Abdomen, Neck, Hip and Pelvis",2025
+2024,Major,,Deafness,1,Deafness,2025
+2024,Major,,Electric current,20,Exposure to/ Contact with Electric Current,2025
+2024,Major,,Multiple injuries,51,Multiple Injuries,2025
+2024,Major,,Others,0,Others,2025
+2024,Major,,Sprains & strains,1,Sprains and Strains,2025
+2024,Major,,Total,587,Total (Excluding PWs),2025
+2025,Major,,Amputations,94,Amputations,2025
+2025,Major,,Blindness,0,Blindness,2025
+2025,Major,,Burns (more than 20 days of medical leave),45,"Burns, With More Than 20 MC Days",2025
+2025,Major,,Concussion (more than 20 days of medical leave),12,"Concussion, With More Than 20 MC Days",2025
+2025,Major,,"Crushing, fractures & dislocations",368,"Crushing, Fractures and Dislocations: Head, Back, Chest and Abdomen, Neck, Hip and Pelvis",2025
+2025,Major,,Deafness,1,Deafness,2025
+2025,Major,,Electric current,12,Exposure to/ Contact with Electric Current,2025
+2025,Major,,Multiple injuries,51,Multiple Injuries,2025
+2025,Major,,Others,2,Others,2025
+2025,Major,,Sprains & strains,0,Sprains and Strains,2025
+2025,Major,,Total,586,Total (Excluding PWs),2025
+2021,Minor,New (any medical leave),Bites & stings,273,Bites and Stings,2021
+2021,Minor,New (any medical leave),Burns,823,Burns,2021
+2021,Minor,New (any medical leave),Concussion,96,Concussions,2021
+2021,Minor,New (any medical leave),"Crushing, fractures & dislocations",3349,"Crushing, Fractures and Dislocations",2021
+2021,Minor,New (any medical leave),Cuts & bruises,8356,Cuts and Bruises,2021
+2021,Minor,New (any medical leave),Mosquito-borne disease,24,Mosquito Borne,2021
+2021,Minor,New (any medical leave),Multiple injuries,337,Multiple Injuries,2021
+2021,Minor,New (any medical leave),Others,4339,Others,2021
+2021,Minor,New (any medical leave),Puncture wounds,320,Puncture Wounds,2021
+2021,Minor,New (any medical leave),Sprains & strains,3622,Sprains & Strains,2021
+2021,Minor,New (any medical leave),Total,21539,Total,2021
+2022,Minor,New (any medical leave),Bites & stings,253,Bites and Stings,2023
+2022,Minor,New (any medical leave),Burns,836,Burns,2023
+2022,Minor,New (any medical leave),Concussion,120,Concussions,2023
+2022,Minor,New (any medical leave),"Crushing, fractures & dislocations",3038,"Crushing, Fractures and Dislocations: Head, Back, Chest and Abdomen, Neck, Hip and Pelvis",2023
+2022,Minor,New (any medical leave),Cuts & bruises,8268,Cuts and Bruises,2023
+2022,Minor,New (any medical leave),Mosquito-borne disease,12,Mosquito Borne,2023
+2022,Minor,New (any medical leave),Multiple injuries,358,Multiple Injuries,2023
+2022,Minor,New (any medical leave),Others,4321,Others,2023
+2022,Minor,New (any medical leave),Puncture wounds,290,Puncture Wounds,2023
+2022,Minor,New (any medical leave),Sprains & strains,3610,Sprains & Strains,2023
+2022,Minor,New (any medical leave),Total,21106,Total,2023
+2023,Minor,New (any medical leave),Bites & stings,300,Bites and Stings,2023
+2023,Minor,New (any medical leave),Burns,955,Burns,2023
+2023,Minor,New (any medical leave),Concussion,108,Concussions,2023
+2023,Minor,New (any medical leave),"Crushing, fractures & dislocations",3313,"Crushing, Fractures and Dislocations: Head, Back, Chest and Abdomen, Neck, Hip and Pelvis",2023
+2023,Minor,New (any medical leave),Cuts & bruises,8539,Cuts and Bruises,2023
+2023,Minor,New (any medical leave),Mosquito-borne disease,9,Mosquito Borne,2023
+2023,Minor,New (any medical leave),Multiple injuries,373,Multiple Injuries,2023
+2023,Minor,New (any medical leave),Others,4618,Others,2023
+2023,Minor,New (any medical leave),Puncture wounds,281,Puncture Wounds,2023
+2023,Minor,New (any medical leave),Sprains & strains,3665,Sprains & Strains,2023
+2023,Minor,New (any medical leave),Total,22161,Total,2023
+2024,Minor,New (any medical leave),Bites & stings,276,Bites and Stings,2025
+2024,Minor,New (any medical leave),Burns,868,Burns,2025
+2024,Minor,New (any medical leave),Concussion,94,Concussions,2025
+2024,Minor,New (any medical leave),"Crushing, fractures & dislocations",3090,"Crushing, Fractures and Dislocations",2025
+2024,Minor,New (any medical leave),Cuts & bruises,8108,Cuts and Bruises,2025
+2024,Minor,New (any medical leave),Electric current,18,Exposure to/ Contact with Electric Current,2025
+2024,Minor,New (any medical leave),Mosquito-borne disease,9,Mosquito Borne,2025
+2024,Minor,New (any medical leave),Multiple injuries,352,Multiple Injuries,2025
+2024,Minor,New (any medical leave),Others,5004,Others,2025
+2024,Minor,New (any medical leave),Puncture wounds,254,Puncture Wounds,2025
+2024,Minor,New (any medical leave),Sprains & strains,3454,Sprains & Strains,2025
+2024,Minor,New (any medical leave),Total,21527,Total (Excluding PWs),2025
+2025,Minor,New (any medical leave),Bites & stings,406,Bites and Stings,2025
+2025,Minor,New (any medical leave),Burns,830,Burns,2025
+2025,Minor,New (any medical leave),Concussion,101,Concussions,2025
+2025,Minor,New (any medical leave),"Crushing, fractures & dislocations",3029,"Crushing, Fractures and Dislocations",2025
+2025,Minor,New (any medical leave),Cuts & bruises,7825,Cuts and Bruises,2025
+2025,Minor,New (any medical leave),Electric current,15,Exposure to/ Contact with Electric Current,2025
+2025,Minor,New (any medical leave),Mosquito-borne disease,4,Mosquito Borne,2025
+2025,Minor,New (any medical leave),Multiple injuries,361,Multiple Injuries,2025
+2025,Minor,New (any medical leave),Others,5694,Others,2025
+2025,Minor,New (any medical leave),Puncture wounds,270,Puncture Wounds,2025
+2025,Minor,New (any medical leave),Sprains & strains,3555,Sprains & Strains,2025
+2025,Minor,New (any medical leave),Total,22090,Total (Excluding PWs),2025
+2018,Minor,Standard,Bites & stings,94,Bites and Stings,2019
+2018,Minor,Standard,Burns,433,Burns,2019
+2018,Minor,Standard,Concussion,74,Concussion,2019
+2018,Minor,Standard,"Crushing, fractures & dislocations",3127,"Crushing, Fractures and Dislocations",2019
+2018,Minor,Standard,Cuts & bruises,4041,Cuts and Bruises,2019
+2018,Minor,Standard,Multiple injuries,260,Multiple Injuries,2019
+2018,Minor,Standard,Others,2258,Others,2019
+2018,Minor,Standard,Puncture wounds,162,Puncture Wound,2019
+2018,Minor,Standard,Sprains & strains,1724,Sprains & Strains,2019
+2018,Minor,Standard,Total,12173,Total,2019
+2019,Minor,Standard,Bites & stings,102,Bites and Stings,2021
+2019,Minor,Standard,Burns,459,Burns,2021
+2019,Minor,Standard,Concussion,85,Concussions,2021
+2019,Minor,Standard,"Crushing, fractures & dislocations",3107,"Crushing, Fractures and Dislocations",2021
+2019,Minor,Standard,Cuts & bruises,4500,Cuts and Bruises,2021
+2019,Minor,Standard,Mosquito-borne disease,14,Mosquito Borne,2021
+2019,Minor,Standard,Multiple injuries,276,Multiple Injuries,2021
+2019,Minor,Standard,Others,2418,Others,2021
+2019,Minor,Standard,Puncture wounds,168,Puncture Wounds,2021
+2019,Minor,Standard,Sprains & strains,1982,Sprains & Strains,2021
+2019,Minor,Standard,Total,13111,Total,2021
+2020,Minor,Standard,Bites & stings,82,Bites and Stings,2021
+2020,Minor,Standard,Burns,394,Burns,2021
+2020,Minor,Standard,Concussion,56,Concussions,2021
+2020,Minor,Standard,"Crushing, fractures & dislocations",2577,"Crushing, Fractures and Dislocations",2021
+2020,Minor,Standard,Cuts & bruises,3895,Cuts and Bruises,2021
+2020,Minor,Standard,Mosquito-borne disease,55,Mosquito Borne,2021
+2020,Minor,Standard,Multiple injuries,182,Multiple Injuries,2021
+2020,Minor,Standard,Others,1675,Others,2021
+2020,Minor,Standard,Puncture wounds,150,Puncture Wounds,2021
+2020,Minor,Standard,Sprains & strains,1791,Sprains & Strains,2021
+2020,Minor,Standard,Total,10857,Total,2021
+2021,Minor,Standard,Bites & stings,85,Bites and Stings,2021
+2021,Minor,Standard,Burns,397,Burns,2021
+2021,Minor,Standard,Concussion,58,Concussions,2021
+2021,Minor,Standard,"Crushing, fractures & dislocations",2950,"Crushing, Fractures and Dislocations",2021
+2021,Minor,Standard,Cuts & bruises,4263,Cuts and Bruises,2021
+2021,Minor,Standard,Mosquito-borne disease,23,Mosquito Borne,2021
+2021,Minor,Standard,Multiple injuries,232,Multiple Injuries,2021
+2021,Minor,Standard,Others,2100,Others,2021
+2021,Minor,Standard,Puncture wounds,182,Puncture Wounds,2021
+2021,Minor,Standard,Sprains & strains,1829,Sprains & Strains,2021
+2021,Minor,Standard,Total,12119,Total,2021
+2022,Minor,Standard,Bites & stings,79,Bites and Stings,2023
+2022,Minor,Standard,Burns,442,Burns,2023
+2022,Minor,Standard,Concussion,74,Concussions,2023
+2022,Minor,Standard,"Crushing, fractures & dislocations",2759,"Crushing, Fractures and Dislocations: Head, Back, Chest and Abdomen, Neck, Hip and Pelvis",2023
+2022,Minor,Standard,Cuts & bruises,4333,Cuts and Bruises,2023
+2022,Minor,Standard,Mosquito-borne disease,11,Mosquito Borne,2023
+2022,Minor,Standard,Multiple injuries,241,Multiple Injuries,2023
+2022,Minor,Standard,Others,2022,Others,2023
+2022,Minor,Standard,Puncture wounds,176,Puncture Wounds,2023
+2022,Minor,Standard,Sprains & strains,1778,Sprains & Strains,2023
+2022,Minor,Standard,Total,11915,Total,2023
+2023,Minor,Standard,Bites & stings,86,Bites and Stings,2023
+2023,Minor,Standard,Burns,448,Burns,2023
+2023,Minor,Standard,Concussion,65,Concussions,2023
+2023,Minor,Standard,"Crushing, fractures & dislocations",2953,"Crushing, Fractures and Dislocations: Head, Back, Chest and Abdomen, Neck, Hip and Pelvis",2023
+2023,Minor,Standard,Cuts & bruises,4373,Cuts and Bruises,2023
+2023,Minor,Standard,Mosquito-borne disease,8,Mosquito Borne,2023
+2023,Minor,Standard,Multiple injuries,253,Multiple Injuries,2023
+2023,Minor,Standard,Others,2140,Others,2023
+2023,Minor,Standard,Puncture wounds,186,Puncture Wounds,2023
+2023,Minor,Standard,Sprains & strains,1807,Sprains & Strains,2023
+2023,Minor,Standard,Total,12319,Total,2023
+2024,Minor,Standard,Bites & stings,79,Bites and Stings,2025
+2024,Minor,Standard,Burns,363,Burns,2025
+2024,Minor,Standard,Concussion,53,Concussions,2025
+2024,Minor,Standard,"Crushing, fractures & dislocations",2798,"Crushing, Fractures and Dislocations",2025
+2024,Minor,Standard,Cuts & bruises,3950,Cuts and Bruises,2025
+2024,Minor,Standard,Electric current,0,Exposure to/ Contact with Electric Current,2025
+2024,Minor,Standard,Mosquito-borne disease,8,Mosquito Borne,2025
+2024,Minor,Standard,Multiple injuries,250,Multiple Injuries,2025
+2024,Minor,Standard,Others,2109,Others,2025
+2024,Minor,Standard,Puncture wounds,152,Puncture Wounds,2025
+2024,Minor,Standard,Sprains & strains,1668,Sprains & Strains,2025
+2024,Minor,Standard,Total,11430,Total (Excluding PWs),2025
+2025,Minor,Standard,Bites & stings,115,Bites and Stings,2025
+2025,Minor,Standard,Burns,348,Burns,2025
+2025,Minor,Standard,Concussion,58,Concussions,2025
+2025,Minor,Standard,"Crushing, fractures & dislocations",2749,"Crushing, Fractures and Dislocations",2025
+2025,Minor,Standard,Cuts & bruises,3600,Cuts and Bruises,2025
+2025,Minor,Standard,Electric current,1,Exposure to/ Contact with Electric Current,2025
+2025,Minor,Standard,Mosquito-borne disease,4,Mosquito Borne,2025
+2025,Minor,Standard,Multiple injuries,235,Multiple Injuries,2025
+2025,Minor,Standard,Others,2408,Others,2025
+2025,Minor,Standard,Puncture wounds,166,Puncture Wounds,2025
+2025,Minor,Standard,Sprains & strains,1677,Sprains & Strains,2025
+2025,Minor,Standard,Total,11361,Total (Excluding PWs),2025

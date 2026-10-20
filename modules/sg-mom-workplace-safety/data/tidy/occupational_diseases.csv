@@ -1,0 +1,246 @@
+year,disease,group,value,label,source_report
+2018,Barotrauma,,5,Barotrauma,2019
+2018,Aural barotrauma,Barotrauma,3,Aural,2019
+2018,Pulmonary barotrauma,Barotrauma,1,Pulmonary,2019
+2018,Sinus barotrauma,Barotrauma,1,Sinus,2019
+2018,Cancers,,6,Cancers,2019
+2018,Mesothelioma,Cancers,6,Mesothelioma,2019
+2018,Compressed air illness,,2,Compressed Air Illness,2019
+2018,"Compressed air illness, type 1",Compressed air illness,1,CAI Type 1,2019
+2018,"Compressed air illness, type 2",Compressed air illness,1,CAI Type 2,2019
+2018,Heat disorders,,3,Heat Disorder,2019
+2018,Infectious disease,,3,Infectious Disease,2019
+2018,Noise-induced hearing loss,,163,Noise Induced Deafness,2019
+2018,"Noise-induced hearing loss, advanced",Noise-induced hearing loss,15,NID (A) - Advanced,2019
+2018,"Noise-induced hearing loss, early",Noise-induced hearing loss,148,NID (E) - Early,2019
+2018,Occupational lung disease,,6,Occupational Lung Disease,2019
+2018,Asbestosis,Occupational lung disease,2,Asbestosis,2019
+2018,Occupational asthma,Occupational lung disease,3,Occupational Asthma,2019
+2018,Silicosis,Occupational lung disease,1,Silicosis,2019
+2018,Occupational skin disease,,48,Occupational Skin Disease,2019
+2018,Eczema,Occupational skin disease,47,Eczema,2019
+2018,Others (Occupational skin disease),Occupational skin disease,1,Others,2019
+2018,Others,,1,Others,2019
+2018,Total,,563,Total,2019
+2018,Work-related musculoskeletal disorders,,326,Work-related Musculoskeletal Disorders,2019
+2018,Back injuries due to ergonomic risks,Work-related musculoskeletal disorders,297,Back injuries due to ergonomic risks,2019
+2018,Lateral epicondylitis (tennis elbow),Work-related musculoskeletal disorders,2,Lateral Epicondylitis (Tennis Elbow),2019
+2018,Musculoskeletal disorder of the back,Work-related musculoskeletal disorders,3,Musculoskeletal Disorder of the Back,2019
+2018,Nerve disorders (e.g. carpal tunnel syndrome),Work-related musculoskeletal disorders,4,"Nerve Disorder such as Carpal Tunnel Syndrome, Cubital Tunnel",2019
+2018,Others (Work-related musculoskeletal disorders),Work-related musculoskeletal disorders,6,Others,2019
+2018,Tendinitis,Work-related musculoskeletal disorders,10,Tendinitis,2019
+2018,Tenosynovitis,Work-related musculoskeletal disorders,0,Tenosynovitis,2019
+2018,Trigger finger/thumb,Work-related musculoskeletal disorders,4,Trigger Finger/Thumb,2019
+2019,Barotrauma,,2,Barotrauma,2021
+2019,Aural barotrauma,Barotrauma,0,Aural,2021
+2019,Sinus barotrauma,Barotrauma,2,Sinus,2021
+2019,Cancers,,2,Cancers,2021
+2019,Mesothelioma,Cancers,2,Mesothelioma,2021
+2019,Occupational lung cancer,Cancers,0,Occupational Lung Cancer,2021
+2019,Compressed air illness,,2,Compressed Air Illness,2021
+2019,"Compressed air illness, type 1",Compressed air illness,2,CAI Type 1,2021
+2019,"Compressed air illness, type 2",Compressed air illness,0,CAI Type 2,2021
+2019,Heat disorders,,2,Heat Disorder,2021
+2019,Infectious disease,,2,Infectious Disease,2021
+2019,Noise-induced hearing loss,,169,Noise-induced Deafness,2021
+2019,"Noise-induced hearing loss, advanced",Noise-induced hearing loss,6,NID (A) - Advanced,2021
+2019,"Noise-induced hearing loss, early",Noise-induced hearing loss,163,NID (E) - Early,2021
+2019,Occupational lung disease,,4,Occupational Lung Disease,2021
+2019,Occupational asthma,Occupational lung disease,3,Occupational Asthma,2021
+2019,Silicosis,Occupational lung disease,1,Silicosis,2021
+2019,Occupational skin disease,,39,Occupational Skin Disease,2021
+2019,Eczema,Occupational skin disease,36,Eczema,2021
+2019,Others (Occupational skin disease),Occupational skin disease,3,Others,2021
+2019,Others,,2,Others,2021
+2019,Poisoning,,0,Poisoning,2021
+2019,Total,,517,Total,2021
+2019,Work-related musculoskeletal disorders,,293,Work-related Musculoskeletal Disorders,2021
+2019,Back injuries due to ergonomic risks,Work-related musculoskeletal disorders,279,Back injuries due to ergonomic risks,2021
+2019,Lateral epicondylitis (tennis elbow),Work-related musculoskeletal disorders,0,Lateral Epicondylitis (Tennis elbow),2021
+2019,Nerve disorders (e.g. carpal tunnel syndrome),Work-related musculoskeletal disorders,3,"Nerve Disorder such as Carpal Tunnel Syndrome, Cubital Tunnel Syndrome",2021
+2019,Others (Work-related musculoskeletal disorders),Work-related musculoskeletal disorders,0,Others,2021
+2019,Tendinitis,Work-related musculoskeletal disorders,6,Tendinitis,2021
+2019,Tenosynovitis,Work-related musculoskeletal disorders,1,Tenosynovitis,2021
+2019,Trigger finger/thumb,Work-related musculoskeletal disorders,4,Trigger Finger/Thumb,2021
+2020,Barotrauma,,6,Barotrauma,2021
+2020,Aural barotrauma,Barotrauma,5,Aural,2021
+2020,Sinus barotrauma,Barotrauma,1,Sinus,2021
+2020,Cancers,,2,Cancers,2021
+2020,Mesothelioma,Cancers,1,Mesothelioma,2021
+2020,Occupational lung cancer,Cancers,1,Occupational Lung Cancer,2021
+2020,Compressed air illness,,5,Compressed Air Illness,2021
+2020,"Compressed air illness, type 1",Compressed air illness,5,CAI Type 1,2021
+2020,"Compressed air illness, type 2",Compressed air illness,0,CAI Type 2,2021
+2020,Heat disorders,,5,Heat Disorder,2021
+2020,Infectious disease,,0,Infectious Disease,2021
+2020,Noise-induced hearing loss,,110,Noise-induced Deafness,2021
+2020,"Noise-induced hearing loss, advanced",Noise-induced hearing loss,2,NID (A) - Advanced,2021
+2020,"Noise-induced hearing loss, early",Noise-induced hearing loss,108,NID (E) - Early,2021
+2020,Occupational lung disease,,5,Occupational Lung Disease,2021
+2020,Occupational asthma,Occupational lung disease,3,Occupational Asthma,2021
+2020,Silicosis,Occupational lung disease,2,Silicosis,2021
+2020,Occupational skin disease,,30,Occupational Skin Disease,2021
+2020,Eczema,Occupational skin disease,29,Eczema,2021
+2020,Others (Occupational skin disease),Occupational skin disease,1,Others,2021
+2020,Others,,0,Others,2021
+2020,Poisoning,,3,Poisoning,2021
+2020,Total,,494,Total,2021
+2020,Work-related musculoskeletal disorders,,328,Work-related Musculoskeletal Disorders,2021
+2020,Back injuries due to ergonomic risks,Work-related musculoskeletal disorders,307,Back injuries due to ergonomic risks,2021
+2020,Lateral epicondylitis (tennis elbow),Work-related musculoskeletal disorders,0,Lateral Epicondylitis (Tennis elbow),2021
+2020,Nerve disorders (e.g. carpal tunnel syndrome),Work-related musculoskeletal disorders,4,"Nerve Disorder such as Carpal Tunnel Syndrome, Cubital Tunnel Syndrome",2021
+2020,Others (Work-related musculoskeletal disorders),Work-related musculoskeletal disorders,2,Others,2021
+2020,Tendinitis,Work-related musculoskeletal disorders,11,Tendinitis,2021
+2020,Tenosynovitis,Work-related musculoskeletal disorders,0,Tenosynovitis,2021
+2020,Trigger finger/thumb,Work-related musculoskeletal disorders,4,Trigger Finger/Thumb,2021
+2021,Barotrauma,,8,Barotrauma,2021
+2021,Aural barotrauma,Barotrauma,4,Aural,2021
+2021,Sinus barotrauma,Barotrauma,4,Sinus,2021
+2021,Cancers,,5,Cancers,2021
+2021,Mesothelioma,Cancers,5,Mesothelioma,2021
+2021,Occupational lung cancer,Cancers,0,Occupational Lung Cancer,2021
+2021,Compressed air illness,,9,Compressed Air Illness,2021
+2021,"Compressed air illness, type 1",Compressed air illness,7,CAI Type 1,2021
+2021,"Compressed air illness, type 2",Compressed air illness,2,CAI Type 2,2021
+2021,Heat disorders,,5,Heat Disorder,2021
+2021,Infectious disease,,2,Infectious Disease,2021
+2021,Noise-induced hearing loss,,168,Noise-induced Deafness,2021
+2021,"Noise-induced hearing loss, advanced",Noise-induced hearing loss,3,NID (A) - Advanced,2021
+2021,"Noise-induced hearing loss, early",Noise-induced hearing loss,165,NID (E) - Early,2021
+2021,Occupational lung disease,,2,Occupational Lung Disease,2021
+2021,Occupational asthma,Occupational lung disease,1,Occupational Asthma,2021
+2021,Silicosis,Occupational lung disease,1,Silicosis,2021
+2021,Occupational skin disease,,79,Occupational Skin Disease,2021
+2021,Eczema,Occupational skin disease,74,Eczema,2021
+2021,Others (Occupational skin disease),Occupational skin disease,5,Others,2021
+2021,Others,,2,Others,2021
+2021,Poisoning,,0,Poisoning,2021
+2021,Total,,659,Total,2021
+2021,Work-related musculoskeletal disorders,,379,Work-related Musculoskeletal Disorders,2021
+2021,Back injuries due to ergonomic risks,Work-related musculoskeletal disorders,323,Back injuries due to ergonomic risks,2021
+2021,Lateral epicondylitis (tennis elbow),Work-related musculoskeletal disorders,3,Lateral Epicondylitis (Tennis elbow),2021
+2021,Nerve disorders (e.g. carpal tunnel syndrome),Work-related musculoskeletal disorders,8,"Nerve Disorder such as Carpal Tunnel Syndrome, Cubital Tunnel Syndrome",2021
+2021,Others (Work-related musculoskeletal disorders),Work-related musculoskeletal disorders,18,Others,2021
+2021,Tendinitis,Work-related musculoskeletal disorders,21,Tendinitis,2021
+2021,Tenosynovitis,Work-related musculoskeletal disorders,0,Tenosynovitis,2021
+2021,Trigger finger/thumb,Work-related musculoskeletal disorders,6,Trigger Finger/Thumb,2021
+2022,Barotrauma,,0,Barotrauma,2023
+2022,Aural barotrauma,Barotrauma,0,Aural,2023
+2022,Sinus barotrauma,Barotrauma,0,Sinus,2023
+2022,Cancers,,5,Cancers,2023
+2022,Mesothelioma,Cancers,5,Mesothelioma,2023
+2022,Compressed air illness,,7,Compressed Air Illness,2023
+2022,"Compressed air illness, type 1",Compressed air illness,5,CAI Type 1,2023
+2022,"Compressed air illness, type 2",Compressed air illness,1,CAI Type 2,2023
+2022,Heat disorders,,1,Heat Disorder,2023
+2022,Infectious disease,,2,Infectious Disease,2023
+2022,Noise-induced hearing loss,,624,Noise-induced Deafness,2023
+2022,"Noise-induced hearing loss, advanced",Noise-induced hearing loss,6,NID (A) - Advanced,2023
+2022,"Noise-induced hearing loss, early",Noise-induced hearing loss,618,NID (E) - Early,2023
+2022,Occupational lung disease,,3,Occupational Lung Disease,2023
+2022,Asbestosis,Occupational lung disease,1,Asbestosis,2023
+2022,Occupational asthma,Occupational lung disease,1,Occupational Asthma,2023
+2022,Silicosis,Occupational lung disease,1,Silicosis,2023
+2022,Occupational skin disease,,63,Occupational Skin Disease,2023
+2022,Eczema,Occupational skin disease,59,Eczema,2023
+2022,Others (Occupational skin disease),Occupational skin disease,4,Others,2023
+2022,Others,,7,Others,2023
+2022,Total,,1052,Total,2023
+2022,Work-related musculoskeletal disorders,,340,Work-related Musculoskeletal Disorders,2023
+2022,Back injuries due to ergonomic risks,Work-related musculoskeletal disorders,310,Back injuries due to ergonomic risks,2023
+2022,Lateral epicondylitis (tennis elbow),Work-related musculoskeletal disorders,2,Lateral Epicondylitis (Tennis elbow),2023
+2022,Nerve disorders (e.g. carpal tunnel syndrome),Work-related musculoskeletal disorders,2,"Nerve Disorder such as Carpal Tunnel Syndrome, Cubital Tunnel Syndrome",2023
+2022,Others (Work-related musculoskeletal disorders),Work-related musculoskeletal disorders,18,Others,2023
+2022,Tendinitis,Work-related musculoskeletal disorders,6,Tendinitis,2023
+2022,Tenosynovitis,Work-related musculoskeletal disorders,1,Tenosynovitis,2023
+2022,Trigger finger/thumb,Work-related musculoskeletal disorders,1,Trigger Finger/Thumb,2023
+2023,Barotrauma,,2,Barotrauma,2023
+2023,Aural barotrauma,Barotrauma,2,Aural,2023
+2023,Sinus barotrauma,Barotrauma,0,Sinus,2023
+2023,Cancers,,6,Cancers,2023
+2023,Mesothelioma,Cancers,5,Mesothelioma,2023
+2023,Compressed air illness,,0,Compressed Air Illness,2023
+2023,"Compressed air illness, type 1",Compressed air illness,0,CAI Type 1,2023
+2023,"Compressed air illness, type 2",Compressed air illness,0,CAI Type 2,2023
+2023,Heat disorders,,4,Heat Disorder,2023
+2023,Infectious disease,,2,Infectious Disease,2023
+2023,Noise-induced hearing loss,,804,Noise-induced Deafness,2023
+2023,"Noise-induced hearing loss, advanced",Noise-induced hearing loss,14,NID (A) - Advanced,2023
+2023,"Noise-induced hearing loss, early",Noise-induced hearing loss,790,NID (E) - Early,2023
+2023,Occupational lung disease,,3,Occupational Lung Disease,2023
+2023,Asbestosis,Occupational lung disease,0,Asbestosis,2023
+2023,Occupational asthma,Occupational lung disease,1,Occupational Asthma,2023
+2023,Silicosis,Occupational lung disease,2,Silicosis,2023
+2023,Occupational skin disease,,46,Occupational Skin Disease,2023
+2023,Eczema,Occupational skin disease,45,Eczema,2023
+2023,Others (Occupational skin disease),Occupational skin disease,1,Others,2023
+2023,Others,,9,Others,2023
+2023,Total,,1229,Total,2023
+2023,Work-related musculoskeletal disorders,,353,Work-related Musculoskeletal Disorders,2023
+2023,Back injuries due to ergonomic risks,Work-related musculoskeletal disorders,334,Back injuries due to ergonomic risks,2023
+2023,Lateral epicondylitis (tennis elbow),Work-related musculoskeletal disorders,0,Lateral Epicondylitis (Tennis elbow),2023
+2023,Nerve disorders (e.g. carpal tunnel syndrome),Work-related musculoskeletal disorders,1,"Nerve Disorder such as Carpal Tunnel Syndrome, Cubital Tunnel Syndrome",2023
+2023,Others (Work-related musculoskeletal disorders),Work-related musculoskeletal disorders,16,Others,2023
+2023,Tendinitis,Work-related musculoskeletal disorders,2,Tendinitis,2023
+2023,Tenosynovitis,Work-related musculoskeletal disorders,0,Tenosynovitis,2023
+2023,Trigger finger/thumb,Work-related musculoskeletal disorders,0,Trigger Finger/Thumb,2023
+2024,Barotrauma,,3,Barotrauma,2025
+2024,Aural barotrauma,Barotrauma,2,Aural,2025
+2024,Sinus barotrauma,Barotrauma,1,Sinus,2025
+2024,Cancers,,2,Cancers,2025
+2024,Mesothelioma,Cancers,2,Mesothelioma,2025
+2024,Compressed air illness,,3,Compressed Air Illness,2025
+2024,"Compressed air illness, type 1",Compressed air illness,1,CAI Type 1,2025
+2024,"Compressed air illness, type 2",Compressed air illness,2,CAI Type 2,2025
+2024,Heat disorders,,1,Heat Disorder & Diseases caused by excessive heat,2025
+2024,Infectious disease,,0,Infectious Disease,2025
+2024,Noise-induced hearing loss,,519,Noise-induced Hearing Loss,2025
+2024,"Noise-induced hearing loss, advanced",Noise-induced hearing loss,7,NIHL (A) - Advanced,2025
+2024,"Noise-induced hearing loss, early",Noise-induced hearing loss,445,NIHL (E) - Early,2025
+2024,Occupational lung disease,,3,Occupational Lung Disease,2025
+2024,Asbestosis,Occupational lung disease,1,Asbestosis,2025
+2024,Occupational asthma,Occupational lung disease,1,Occupational Asthma,2025
+2024,Silicosis,Occupational lung disease,1,Silicosis,2025
+2024,Occupational skin disease,,94,Occupational Skin Disease,2025
+2024,Eczema,Occupational skin disease,80,Eczema,2025
+2024,Others (Occupational skin disease),Occupational skin disease,14,Others,2025
+2024,Others,,25,Others,2025
+2024,Total,,899,Total,2025
+2024,Work-related musculoskeletal disorders,,249,Work-related Musculoskeletal Disorders,2025
+2024,Back injuries due to ergonomic risks,Work-related musculoskeletal disorders,229,Back injuries due to ergonomic risks,2025
+2024,Lateral epicondylitis (tennis elbow),Work-related musculoskeletal disorders,1,Lateral Epicondylitis (Tennis elbow),2025
+2024,Nerve disorders (e.g. carpal tunnel syndrome),Work-related musculoskeletal disorders,0,"Nerve Disorder such as Carpal Tunnel Syndrome, Cubital Tunnel Syndrome",2025
+2024,Others (Work-related musculoskeletal disorders),Work-related musculoskeletal disorders,13,Others,2025
+2024,Tendinitis,Work-related musculoskeletal disorders,4,Tendinitis,2025
+2024,Tenosynovitis,Work-related musculoskeletal disorders,1,Tenosynovitis,2025
+2024,Trigger finger/thumb,Work-related musculoskeletal disorders,1,Trigger Finger/Thumb,2025
+2025,Barotrauma,,10,Barotrauma,2025
+2025,Aural barotrauma,Barotrauma,8,Aural,2025
+2025,Sinus barotrauma,Barotrauma,1,Sinus,2025
+2025,Cancers,,2,Cancers,2025
+2025,Mesothelioma,Cancers,2,Mesothelioma,2025
+2025,Compressed air illness,,1,Compressed Air Illness,2025
+2025,"Compressed air illness, type 1",Compressed air illness,1,CAI Type 1,2025
+2025,"Compressed air illness, type 2",Compressed air illness,0,CAI Type 2,2025
+2025,Heat disorders,,13,Heat Disorder & Diseases caused by excessive heat,2025
+2025,Infectious disease,,0,Infectious Disease,2025
+2025,Noise-induced hearing loss,,550,Noise-induced Hearing Loss,2025
+2025,"Noise-induced hearing loss, advanced",Noise-induced hearing loss,2,NIHL (A) - Advanced,2025
+2025,"Noise-induced hearing loss, early",Noise-induced hearing loss,446,NIHL (E) - Early,2025
+2025,Occupational lung disease,,4,Occupational Lung Disease,2025
+2025,Asbestosis,Occupational lung disease,1,Asbestosis,2025
+2025,Occupational asthma,Occupational lung disease,1,Occupational Asthma,2025
+2025,Silicosis,Occupational lung disease,2,Silicosis,2025
+2025,Occupational skin disease,,117,Occupational Skin Disease,2025
+2025,Eczema,Occupational skin disease,91,Eczema,2025
+2025,Others (Occupational skin disease),Occupational skin disease,26,Others,2025
+2025,Others,,14,Others,2025
+2025,Total,,1028,Total,2025
+2025,Work-related musculoskeletal disorders,,317,Work-related Musculoskeletal Disorders,2025
+2025,Back injuries due to ergonomic risks,Work-related musculoskeletal disorders,268,Back injuries due to ergonomic risks,2025
+2025,Lateral epicondylitis (tennis elbow),Work-related musculoskeletal disorders,3,Lateral Epicondylitis (Tennis elbow),2025
+2025,Nerve disorders (e.g. carpal tunnel syndrome),Work-related musculoskeletal disorders,1,"Nerve Disorder such as Carpal Tunnel Syndrome, Cubital Tunnel Syndrome",2025
+2025,Others (Work-related musculoskeletal disorders),Work-related musculoskeletal disorders,31,Others,2025
+2025,Tendinitis,Work-related musculoskeletal disorders,11,Tendinitis,2025
+2025,Tenosynovitis,Work-related musculoskeletal disorders,2,Tenosynovitis,2025
+2025,Trigger finger/thumb,Work-related musculoskeletal disorders,1,Trigger Finger/Thumb,2025
