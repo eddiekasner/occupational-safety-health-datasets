@@ -1,0 +1,41 @@
+table,title,measure,breakdown,years,units,values
+hsw_ac1,Persons reporting an accident at work by educational attainment level,Accident at work,Education,"2007, 2013, 2020",PC_EMP_PREEMP_M12,4340
+hsw_ac2,Persons reporting an accident at work resulting in time off work by educational attainment level,Accident at work with time off work,Education,"2007, 2013, 2020","PC_EMP_PREEMP_M12, PC_PER_ACC",7286
+hsw_ac3,Persons reporting an accident at work resulting in time off work by period off,Accident at work with time off work,Time off work,"2007, 2013, 2020","PC_EMP_PREEMP_M12, PC_PER_ACC",1012
+hsw_ac4,Persons reporting a road traffic accident,Road traffic accident at work,None,"2007, 2013, 2020","PC_EMP_PREEMP_M12, PC_PER_ACC",167
+hsw_ac5a,Persons reporting an accident at work by NACE Rev. 1.1 activity (2007),Accident at work,Activity (NACE Rev. 1.1),2007,PC_EMP_PREEMP_M12,1779
+hsw_ac5b,Persons reporting an accident at work by NACE Rev. 2 activity,Accident at work,Activity (NACE Rev. 2),"2013, 2020",PC_EMP_PREEMP_M12,3636
+hsw_ac6a,Persons reporting an accident at work resulting in sick leave by NACE Rev. 1.1 activity (2007),Accident at work with time off work,Activity (NACE Rev. 1.1),2007,"PC_EMP_PREEMP_M12, PC_PER_ACC",3165
+hsw_ac6b,Persons reporting an accident at work resulting in time off work by NACE Rev. 2 activity,Accident at work with time off work,Activity (NACE Rev. 2),"2013, 2020","PC_EMP_PREEMP_M12, PC_PER_ACC",5518
+hsw_ac7,Persons reporting an accident at work by occupation,Accident at work,Occupation,"2007, 2013, 2020",PC_EMP_PREEMP_M12,5164
+hsw_ac8,Persons reporting an accident at work by professional status,Accident at work,Professional status,"2007, 2013, 2020",PC_EMP_PREEMP_M12,3518
+hsw_ac9,Persons reporting an accident at work by size of the local unit,Accident at work,Size of local unit,"2007, 2013, 2020",PC_EMP_PREEMP_M12,4374
+hsw_ac10,Persons reporting an accident at work by full-time/part-time employment,Accident at work,Full-time or part-time,"2007, 2013, 2020",PC_EMP_PREEMP_M12,973
+hsw_ac11,Persons reporting an accident at work by atypical working time,Accident at work,Atypical working time,"2007, 2013, 2020",PC_EMP_PREEMP_M12,1305
+hsw_ac12,Persons reporting an accident at work by country of birth,Accident at work,Country of birth,"2007, 2013, 2020",PC_EMP_PREEMP_M12,1292
+hsw_ac13,Persons reporting an accident at work resulting in time off work by country of birth,Accident at work with time off work,Country of birth,"2007, 2013, 2020","PC_EMP_PREEMP_M12, PC_PER_ACC",2348
+hsw_ac14,Persons reporting an accident at work while working from home,Accident at work,Working from home,"2007, 2013, 2020",PC_EMP_PREEMP_M12,1026
+hsw_pb1,Persons reporting a work-related health problem by educational attainment level,Work-related health problem,Education,"2007, 2013, 2020",PC_EMP_PREEMP,5888
+hsw_pb2,Persons reporting a work-related health problem resulting in time off work by educational attainment level,Work-related health problem with time off work,Education,"2007, 2013, 2020","PC_EMP_PREEMP, PC_PER_HPB",10719
+hsw_pb3,Persons reporting a work-related health problem resulting in time off work by period off,Work-related health problem with time off work,Time off work,"2007, 2013, 2020","PC_EMP_PREEMP, PC_PER_HPB",1233
+hsw_pb4,Persons reporting a work-related health problem resulting in limitations of daily activities,Work-related health problem limiting daily activities,Limitation of daily activities,"2007, 2013, 2020","PC_EMP_PREEMP, PC_PER_HPB",766
+hsw_pb5,Persons reporting a work-related health problem by type of diagnose,Work-related health problem,Type of health problem,"2007, 2013, 2020","PC_EMP_PREEMP, PC_PER_HPB",16120
+hsw_pb6a,Persons reporting a work-related health problem by NACE Rev. 1.1 activity (2007),Work-related health problem,Activity (NACE Rev. 1.1),2007,PC_EMP_PREEMP,2333
+hsw_pb6b,Persons reporting a work-related health problem by NACE Rev. 2 activity,Work-related health problem,Activity (NACE Rev. 2),"2013, 2020",PC_EMP_PREEMP,5085
+hsw_pb7,Persons reporting a work-related health problem by occupation,Work-related health problem,Occupation,"2007, 2013, 2020",PC_EMP_PREEMP,6868
+hsw_pb8,Persons reporting a work-related health problem by professional status,Work-related health problem,Professional status,"2007, 2013, 2020",PC_EMP_PREEMP,4536
+hsw_pb9,Persons reporting a work-related health problem by size of the local unit,Work-related health problem,Size of local unit,"2007, 2013, 2020",PC_EMP_PREEMP,5525
+hsw_pb10,Persons reporting a work-related health problem by full-time/part-time employment,Work-related health problem,Full-time or part-time,"2007, 2013, 2020",PC_EMP_PREEMP,4258
+hsw_pb11,Persons reporting a work-related health problem by country of birth,Work-related health problem,Country of birth,"2007, 2013, 2020",PC_EMP_PREEMP,5697
+hsw_pb12,Persons reporting a work-related health problem resulting in time off work by country of birth,Work-related health problem with time off work,Country of birth,"2007, 2013, 2020","PC_EMP_PREEMP, PC_PER_HPB",9791
+hsw_pb13,Persons reporting a work-related health problem by working from home,Work-related health problem,Working from home,"2007, 2013, 2020",PC_EMP_PREEMP,4606
+hsw_exp1,Persons reporting exposure to risk factors that can adversely affect mental well-being by educational attainment level,Exposure to risk factors for mental well-being,Education,"2007, 2013, 2020",PC_EMP,6213
+hsw_exp2,Persons reporting exposure to risk factors that can adversely affect physical health by educational attainment level,Exposure to risk factors for physical health,Education,"2007, 2013, 2020",PC_EMP,6354
+hsw_exp3,Persons reporting exposure to risk factors that can adversely affect mental well-being by type of factor,Exposure to risk factors for mental well-being,Risk factor,"2007, 2013, 2020",PC_EMP,6684
+hsw_exp4,Persons reporting exposure to risk factors that can adversely affect physical health by type of factor,Exposure to risk factors for physical health,Risk factor,"2007, 2013, 2020",PC_EMP,10462
+hsw_exp5a,"Persons reporting exposure to risk factors that can adversely affect mental well-being by sex, age and NACE Rev. 1.1 activity",Exposure to risk factors for mental well-being,Activity (NACE Rev. 1.1),2007,PC_EMP,2436
+hsw_exp5b,Persons reporting exposure to risk factors that can adversely affect mental well-being by NACE Rev. 2 activity,Exposure to risk factors for mental well-being,Activity (NACE Rev. 2),"2013, 2020",PC_EMP,6047
+hsw_exp6a,"Persons reporting exposure to risk factors that can adversely affect physical health by sex, age and NACE Rev. 1.1 activity",Exposure to risk factors for physical health,Activity (NACE Rev. 1.1),2007,PC_EMP,2628
+hsw_exp6b,Persons reporting exposure to risk factors that can adversely affect physical health by NACE Rev. 2 activity,Exposure to risk factors for physical health,Activity (NACE Rev. 2),"2013, 2020",PC_EMP,6402
+hsw_exp9,Persons reporting exposure to risk factors that can adversely affect mental well-being by size of the local unit,Exposure to risk factors for mental well-being,Size of local unit,"2007, 2013, 2020",PC_EMP,6178
+hsw_exp10,Persons reporting exposure to risk factors that can adversely affect physical health by size of the local unit,Exposure to risk factors for physical health,Size of local unit,"2007, 2013, 2020",PC_EMP,6302
