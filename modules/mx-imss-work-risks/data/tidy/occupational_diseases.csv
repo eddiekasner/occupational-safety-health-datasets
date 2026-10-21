@@ -1,0 +1,385 @@
+year,disease,disease_es,cases,source_yearbook
+2011,Total,Total,4105,2016
+2011,Hearing loss,Hipoacusias,1341,2016
+2011,Pneumoconiosis,Neumoconiosis,792,2016
+2011,"Other, less frequent",Varios de frecuencia menor,574,2016
+2011,"Respiratory conditions from inhaled gases, fumes, vapours and chemicals","Afecciones respiratorias debidas a la inhalación de gases, humos, vapores y sustancias químicas",239,2016
+2011,Carpal tunnel syndrome,Síndrome del túnel Carpiano,147,2016
+2011,"Other synovitis, tenosynovitis and bursitis","Otras Sinovitis, Tenosinovitis y Bursitis",144,2016
+2011,De Quervain's tenosynovitis,Tenosinovitis de Estiloides Radial de Quervain,140,2016
+2011,Back disorders (dorsopathies),Dorsopatías,124,2016
+2011,Other enthesopathies,Otras Entesopatías,123,2016
+2011,Contact dermatitis,Dermatitis de contacto,123,2016
+2011,Shoulder lesions,Lesiones del Hombro,110,2016
+2011,Epicondylitis,Epicondilitis,44,2016
+2011,Infectious and parasitic diseases,Enfermedades infecciosas y parasitarias,42,2016
+2011,Diseases of the eye and adnexa,Enfermedad del Ojo y sus anexos,35,2016
+2011,Poisoning,Intoxicaciones,33,2016
+2011,Mental and behavioural disorders,Trastornos mentales y del comportamiento,31,2016
+2011,Osteoarthritis,Artrosis,25,2016
+2011,Peripheral vascular disease,Enfermedad vascular periférica,22,2016
+2011,Asthma,Asma,11,2016
+2011,Occupational cancer,Cáncer ocupacional,3,2016
+2011,Decompression sickness,Enfermedad por Descompresión,2,2016
+2012,Total,Total,4853,2017
+2012,Hearing loss,Hipoacusias,1333,2017
+2012,Pneumoconiosis,Neumoconiosis,768,2017
+2012,"Other, less frequent",Varios de frecuencia menor,639,2017
+2012,"Other synovitis, tenosynovitis and bursitis","Otras Sinovitis, Tenosinovitis y Bursitis",241,2017
+2012,Other enthesopathies,Otras Entesopatías,227,2017
+2012,Carpal tunnel syndrome,Síndrome del túnel Carpiano,225,2017
+2012,Shoulder lesions,Lesiones del Hombro,210,2017
+2012,De Quervain's tenosynovitis,Tenosinovitis de Estiloides Radial de Quervain,207,2017
+2012,Back disorders (dorsopathies),Dorsopatías,199,2017
+2012,"Respiratory conditions from inhaled gases, fumes, vapours and chemicals","Afecciones respiratorias debidas a la inhalación de gases, humos, vapores y sustancias químicas",195,2017
+2012,Contact dermatitis,Dermatitis de contacto,191,2017
+2012,Infectious and parasitic diseases,Enfermedades infecciosas y parasitarias,67,2017
+2012,Diseases of the eye and adnexa,Enfermedad del Ojo y sus anexos,66,2017
+2012,Epicondylitis,Epicondilitis,66,2017
+2012,Poisoning,Intoxicaciones,59,2017
+2012,Chronic lower respiratory diseases,Enfermedades crónicas de las vías respiratorias inferiores,58,2017
+2012,Mental and behavioural disorders,Trastornos mentales y del comportamiento,34,2017
+2012,Osteoarthritis,Artrosis,28,2017
+2012,Peripheral vascular disease,Enfermedad vascular periférica,14,2017
+2012,Asthma,Asma,13,2017
+2012,Occupational cancer,Cáncer ocupacional,6,2017
+2012,Decompression sickness,Enfermedad por Descompresión,3,2017
+2012,Hypersensitivity pneumonitis due to organic dust,Neumonitis debida a hipersensibilidad al polvo orgánico,2,2017
+2012,Airway diseases due to specific organic dusts,Enfermedades de las vías aéreas debidas a polvos orgánicos específicos,2,2017
+2013,Total,Total,6364,2017
+2013,Hearing loss,Hipoacusias,1489,2017
+2013,Pneumoconiosis,Neumoconiosis,914,2017
+2013,"Other, less frequent",Varios de frecuencia menor,612,2017
+2013,Back disorders (dorsopathies),Dorsopatías,424,2017
+2013,Other enthesopathies,Otras Entesopatías,369,2017
+2013,Carpal tunnel syndrome,Síndrome del túnel Carpiano,336,2017
+2013,Infectious and parasitic diseases,Enfermedades infecciosas y parasitarias,283,2017
+2013,Shoulder lesions,Lesiones del Hombro,281,2017
+2013,De Quervain's tenosynovitis,Tenosinovitis de Estiloides Radial de Quervain,256,2017
+2013,Contact dermatitis,Dermatitis de contacto,242,2017
+2013,"Other synovitis, tenosynovitis and bursitis","Otras Sinovitis, Tenosinovitis y Bursitis",227,2017
+2013,"Respiratory conditions from inhaled gases, fumes, vapours and chemicals","Afecciones respiratorias debidas a la inhalación de gases, humos, vapores y sustancias químicas",201,2017
+2013,Diseases of the eye and adnexa,Enfermedad del Ojo y sus anexos,174,2017
+2013,Poisoning,Intoxicaciones,143,2017
+2013,Epicondylitis,Epicondilitis,102,2017
+2013,Mental and behavioural disorders,Trastornos mentales y del comportamiento,91,2017
+2013,Peripheral vascular disease,Enfermedad vascular periférica,51,2017
+2013,Chronic lower respiratory diseases,Enfermedades crónicas de las vías respiratorias inferiores,48,2017
+2013,Osteoarthritis,Artrosis,45,2017
+2013,Decompression sickness,Enfermedad por Descompresión,33,2017
+2013,Occupational cancer,Cáncer ocupacional,15,2017
+2013,Asthma,Asma,10,2017
+2013,Hypersensitivity pneumonitis due to organic dust,Neumonitis debida a hipersensibilidad al polvo orgánico,10,2017
+2013,Airway diseases due to specific organic dusts,Enfermedades de las vías aéreas debidas a polvos orgánicos específicos,8,2017
+2014,Total,Total,8301,2018
+2014,Hearing loss,Hipoacusias,1636,2018
+2014,"Other, less frequent",Varios de frecuencia menor,867,2018
+2014,Pneumoconiosis,Neumoconiosis,859,2018
+2014,Back disorders (dorsopathies),Dorsopatías,740,2018
+2014,Diseases of the eye and adnexa,Enfermedad del Ojo y sus anexos,507,2018
+2014,Other enthesopathies,Otras Entesopatías,473,2018
+2014,Carpal tunnel syndrome,Síndrome del túnel Carpiano,418,2018
+2014,Contact dermatitis,Dermatitis de contacto,418,2018
+2014,Shoulder lesions,Lesiones del Hombro,398,2018
+2014,Poisoning,Intoxicaciones,388,2018
+2014,"Respiratory conditions from inhaled gases, fumes, vapours and chemicals","Afecciones respiratorias debidas a la inhalación de gases, humos, vapores y sustancias químicas",378,2018
+2014,De Quervain's tenosynovitis,Tenosinovitis de Estiloides Radial de Quervain,291,2018
+2014,"Other synovitis, tenosynovitis and bursitis","Otras Sinovitis, Tenosinovitis y Bursitis",284,2018
+2014,Epicondylitis,Epicondilitis,138,2018
+2014,Infectious and parasitic diseases,Enfermedades infecciosas y parasitarias,124,2018
+2014,Decompression sickness,Enfermedad por Descompresión,122,2018
+2014,Mental and behavioural disorders,Trastornos mentales y del comportamiento,95,2018
+2014,Osteoarthritis,Artrosis,53,2018
+2014,Peripheral vascular disease,Enfermedad vascular periférica,50,2018
+2014,Asthma,Asma,31,2018
+2014,Occupational cancer,Cáncer ocupacional,15,2018
+2014,Airway diseases due to specific organic dusts,Enfermedades de las vías aéreas debidas a polvos orgánicos específicos,9,2018
+2014,Chronic lower respiratory diseases,Enfermedades crónicas de las vías respiratorias inferiores,4,2018
+2014,Hypersensitivity pneumonitis due to organic dust,Neumonitis debida a hipersensibilidad al polvo orgánico,3,2018
+2015,Total,Total,12009,2019
+2015,Hearing loss,Hipoacusias,1790,2019
+2015,"Other, less frequent",Varios de frecuencia menor,1618,2019
+2015,Back disorders (dorsopathies),Dorsopatías,1242,2019
+2015,Pneumoconiosis,Neumoconiosis,1106,2019
+2015,Diseases of the eye and adnexa,Enfermedad del Ojo y sus anexos,993,2019
+2015,Poisoning,Intoxicaciones,917,2019
+2015,Other enthesopathies,Otras Entesopatías,651,2019
+2015,Contact dermatitis,Dermatitis de contacto,568,2019
+2015,Carpal tunnel syndrome,Síndrome del túnel Carpiano,540,2019
+2015,Shoulder lesions,Lesiones del Hombro,516,2019
+2015,De Quervain's tenosynovitis,Tenosinovitis de Estiloides Radial de Quervain,432,2019
+2015,"Respiratory conditions from inhaled gases, fumes, vapours and chemicals","Afecciones respiratorias debidas a la inhalación de gases, humos, vapores y sustancias químicas",362,2019
+2015,"Other synovitis, tenosynovitis and bursitis","Otras Sinovitis, Tenosinovitis y Bursitis",341,2019
+2015,Infectious and parasitic diseases,Enfermedades infecciosas y parasitarias,217,2019
+2015,Epicondylitis,Epicondilitis,159,2019
+2015,Mental and behavioural disorders,Trastornos mentales y del comportamiento,140,2019
+2015,Decompression sickness,Enfermedad por Descompresión,139,2019
+2015,Osteoarthritis,Artrosis,110,2019
+2015,Peripheral vascular disease,Enfermedad vascular periférica,51,2019
+2015,Asthma,Asma,39,2019
+2015,Occupational cancer,Cáncer ocupacional,32,2019
+2015,Chronic lower respiratory diseases,Enfermedades crónicas de las vías respiratorias inferiores,21,2019
+2015,Airway diseases due to specific organic dusts,Enfermedades de las vías aéreas debidas a polvos orgánicos específicos,13,2019
+2015,Hypersensitivity pneumonitis due to organic dust,Neumonitis debida a hipersensibilidad al polvo orgánico,7,2019
+2015,Cardiovascular disease,Enfermedad Cardiovascular,3,2019
+2015,Cerebrovascular diseases,Enfermedades Cerebrovasculares,2,2019
+2016,Total,Total,12622,2020
+2016,Hearing loss,Hipoacusias,1873,2020
+2016,Back disorders (dorsopathies),Dorsopatías,1663,2020
+2016,Diseases of the eye and adnexa,Enfermedad del Ojo y sus anexos,1364,2020
+2016,"Other, less frequent",Varios de frecuencia menor,1245,2020
+2016,Pneumoconiosis,Neumoconiosis,1017,2020
+2016,Poisoning,Intoxicaciones,876,2020
+2016,Other enthesopathies,Otras Entesopatías,700,2020
+2016,Carpal tunnel syndrome,Síndrome del túnel Carpiano,636,2020
+2016,Contact dermatitis,Dermatitis de contacto,580,2020
+2016,Shoulder lesions,Lesiones del Hombro,503,2020
+2016,De Quervain's tenosynovitis,Tenosinovitis de Estiloides Radial de Quervain,422,2020
+2016,"Respiratory conditions from inhaled gases, fumes, vapours and chemicals","Afecciones respiratorias debidas a la inhalación de gases, humos, vapores y sustancias químicas",378,2020
+2016,"Other synovitis, tenosynovitis and bursitis","Otras Sinovitis, Tenosinovitis y Bursitis",349,2020
+2016,Infectious and parasitic diseases,Enfermedades infecciosas y parasitarias,229,2020
+2016,Epicondylitis,Epicondilitis,184,2020
+2016,Mental and behavioural disorders,Trastornos mentales y del comportamiento,168,2020
+2016,Osteoarthritis,Artrosis,150,2020
+2016,Decompression sickness,Enfermedad por Descompresión,108,2020
+2016,Peripheral vascular disease,Enfermedad vascular periférica,76,2020
+2016,Occupational cancer,Cáncer ocupacional,35,2020
+2016,Asthma,Asma,30,2020
+2016,Airway diseases due to specific organic dusts,Enfermedades de las vías aéreas debidas a polvos orgánicos específicos,10,2020
+2016,Hypersensitivity pneumonitis due to organic dust,Neumonitis debida a hipersensibilidad al polvo orgánico,7,2020
+2016,Chronic lower respiratory diseases,Enfermedades crónicas de las vías respiratorias inferiores,7,2020
+2016,Cardiovascular disease,Enfermedad Cardiovascular,6,2019
+2016,Cerebrovascular diseases,Enfermedades Cerebrovasculares,6,2020
+2016,Heart disease,Enfermedad Cardiaca,6,2020
+2017,Total,Total,14159,2021
+2017,Back disorders (dorsopathies),Dorsopatías,2109,2021
+2017,Hearing loss,Hipoacusias,1910,2021
+2017,Diseases of the eye and adnexa,Enfermedad del Ojo y sus anexos,1555,2021
+2017,"Other, less frequent",Varios de frecuencia menor,1424,2021
+2017,Pneumoconiosis,Neumoconiosis,1063,2021
+2017,Poisoning,Intoxicaciones,913,2021
+2017,Other enthesopathies,Otras Entesopatías,796,2021
+2017,Carpal tunnel syndrome,Síndrome del túnel Carpiano,748,2021
+2017,Shoulder lesions,Lesiones del Hombro,646,2021
+2017,Contact dermatitis,Dermatitis de contacto,641,2021
+2017,De Quervain's tenosynovitis,Tenosinovitis de Estiloides Radial de Quervain,479,2021
+2017,"Other synovitis, tenosynovitis and bursitis","Otras Sinovitis, Tenosinovitis y Bursitis",377,2021
+2017,"Respiratory conditions from inhaled gases, fumes, vapours and chemicals","Afecciones respiratorias debidas a la inhalación de gases, humos, vapores y sustancias químicas",377,2021
+2017,Infectious and parasitic diseases,Enfermedades infecciosas y parasitarias,272,2021
+2017,Epicondylitis,Epicondilitis,210,2021
+2017,Mental and behavioural disorders,Trastornos mentales y del comportamiento,175,2021
+2017,Osteoarthritis,Artrosis,171,2021
+2017,Decompression sickness,Enfermedad por Descompresión,119,2021
+2017,Peripheral vascular disease,Enfermedad vascular periférica,83,2021
+2017,Occupational cancer,Cáncer ocupacional,33,2021
+2017,Hypersensitivity pneumonitis due to organic dust,Neumonitis debida a hipersensibilidad al polvo orgánico,25,2021
+2017,Asthma,Asma,21,2021
+2017,Airway diseases due to specific organic dusts,Enfermedades de las vías aéreas debidas a polvos orgánicos específicos,9,2021
+2017,Cardiovascular disease,Enfermedad Cardiovascular,5,2019
+2017,Chronic lower respiratory diseases,Enfermedades crónicas de las vías respiratorias inferiores,3,2021
+2017,Cerebrovascular diseases,Enfermedades Cerebrovasculares,0,2021
+2017,Heart disease,Enfermedad Cardiaca,0,2021
+2017,COVID-19,COVID-19,0,2021
+2017,COVID-19-related respiratory diseases,Enfermedades respiratorias asociadas a COVID-19,0,2021
+2018,Total,Total,15182,2022
+2018,Back disorders (dorsopathies),Dorsopatías,2644,2022
+2018,Hearing loss,Hipoacusias,2230,2022
+2018,"Other, less frequent",Varios de frecuencia menor,1640,2022
+2018,Pneumoconiosis,Neumoconiosis,1165,2022
+2018,Diseases of the eye and adnexa,Enfermedad del Ojo y sus anexos,1114,2022
+2018,Other enthesopathies,Otras Entesopatías,881,2022
+2018,Poisoning,Intoxicaciones,871,2022
+2018,Carpal tunnel syndrome,Síndrome del túnel Carpiano,818,2022
+2018,Shoulder lesions,Lesiones del Hombro,683,2022
+2018,Contact dermatitis,Dermatitis de contacto,554,2022
+2018,De Quervain's tenosynovitis,Tenosinovitis de Estiloides Radial de Quervain,469,2022
+2018,"Other synovitis, tenosynovitis and bursitis","Otras Sinovitis, Tenosinovitis y Bursitis",413,2022
+2018,"Respiratory conditions from inhaled gases, fumes, vapours and chemicals","Afecciones respiratorias debidas a la inhalación de gases, humos, vapores y sustancias químicas",403,2022
+2018,Osteoarthritis,Artrosis,305,2022
+2018,Infectious and parasitic diseases,Enfermedades infecciosas y parasitarias,245,2022
+2018,Epicondylitis,Epicondilitis,219,2022
+2018,Mental and behavioural disorders,Trastornos mentales y del comportamiento,161,2022
+2018,Peripheral vascular disease,Enfermedad vascular periférica,125,2022
+2018,Decompression sickness,Enfermedad por Descompresión,123,2022
+2018,Occupational cancer,Cáncer ocupacional,43,2022
+2018,Asthma,Asma,40,2022
+2018,Hypersensitivity pneumonitis due to organic dust,Neumonitis debida a hipersensibilidad al polvo orgánico,14,2022
+2018,Airway diseases due to specific organic dusts,Enfermedades de las vías aéreas debidas a polvos orgánicos específicos,11,2022
+2018,Chronic lower respiratory diseases,Enfermedades crónicas de las vías respiratorias inferiores,11,2022
+2018,Cardiovascular disease,Enfermedad Cardiovascular,9,2019
+2018,Cerebrovascular diseases,Enfermedades Cerebrovasculares,0,2022
+2018,Heart disease,Enfermedad Cardiaca,0,2022
+2018,COVID-19,COVID-19,0,2022
+2018,COVID-19-related respiratory diseases,Enfermedades respiratorias asociadas a COVID-19,0,2022
+2019,Total,Total,13319,2023
+2019,Back disorders (dorsopathies),Dorsopatías,2435,2023
+2019,Hearing loss,Hipoacusias,1712,2023
+2019,"Other, less frequent",Varios de frecuencia menor,1354,2023
+2019,Pneumoconiosis,Neumoconiosis,992,2023
+2019,Carpal tunnel syndrome,Síndrome del túnel Carpiano,851,2023
+2019,Poisoning,Intoxicaciones,796,2023
+2019,Shoulder lesions,Lesiones del Hombro,751,2023
+2019,Other enthesopathies,Otras Entesopatías,709,2023
+2019,Diseases of the eye and adnexa,Enfermedad del Ojo y sus anexos,589,2023
+2019,De Quervain's tenosynovitis,Tenosinovitis de Estiloides Radial de Quervain,559,2023
+2019,Contact dermatitis,Dermatitis de contacto,501,2023
+2019,"Other synovitis, tenosynovitis and bursitis","Otras Sinovitis, Tenosinovitis y Bursitis",450,2023
+2019,"Respiratory conditions from inhaled gases, fumes, vapours and chemicals","Afecciones respiratorias debidas a la inhalación de gases, humos, vapores y sustancias químicas",368,2023
+2019,Osteoarthritis,Artrosis,307,2023
+2019,Epicondylitis,Epicondilitis,235,2023
+2019,Infectious and parasitic diseases,Enfermedades infecciosas y parasitarias,193,2023
+2019,Mental and behavioural disorders,Trastornos mentales y del comportamiento,137,2023
+2019,Decompression sickness,Enfermedad por Descompresión,136,2023
+2019,Peripheral vascular disease,Enfermedad vascular periférica,111,2023
+2019,Occupational cancer,Cáncer ocupacional,44,2023
+2019,Asthma,Asma,28,2023
+2019,Chronic lower respiratory diseases,Enfermedades crónicas de las vías respiratorias inferiores,16,2023
+2019,Cardiovascular disease,Enfermedad Cardiovascular,13,2019
+2019,Heart disease,Enfermedad Cardiaca,13,2023
+2019,Airway diseases due to specific organic dusts,Enfermedades de las vías aéreas debidas a polvos orgánicos específicos,12,2023
+2019,Cerebrovascular diseases,Enfermedades Cerebrovasculares,11,2023
+2019,Hypersensitivity pneumonitis due to organic dust,Neumonitis debida a hipersensibilidad al polvo orgánico,9,2023
+2019,COVID-19,COVID-19,0,2023
+2019,COVID-19-related respiratory diseases,Enfermedades respiratorias asociadas a COVID-19,0,2023
+2020,Total,Total,119474,2024
+2020,COVID-19,COVID-19,109287,2024
+2020,Back disorders (dorsopathies),Dorsopatías,1670,2024
+2020,Infectious and parasitic diseases,Enfermedades infecciosas y parasitarias,1401,2024
+2020,Hearing loss,Hipoacusias,1153,2024
+2020,"Other, less frequent",Varios de frecuencia menor,1110,2023
+2020,Shoulder lesions,Lesiones del Hombro,584,2024
+2020,Carpal tunnel syndrome,Síndrome del túnel Carpiano,566,2024
+2020,Pneumoconiosis,Neumoconiosis,526,2024
+2020,Poisoning,Intoxicaciones,504,2024
+2020,Other enthesopathies,Otras Entesopatías,431,2024
+2020,De Quervain's tenosynovitis,Tenosinovitis de Estiloides Radial de Quervain,323,2024
+2020,Contact dermatitis,Dermatitis de contacto,308,2024
+2020,Diseases of the eye and adnexa,Enfermedad del Ojo y sus anexos,306,2024
+2020,"Other synovitis, tenosynovitis and bursitis","Otras Sinovitis, Tenosinovitis y Bursitis",237,2024
+2020,"Respiratory conditions from inhaled gases, fumes, vapours and chemicals","Afecciones respiratorias debidas a la inhalación de gases, humos, vapores y sustancias químicas",210,2024
+2020,Osteoarthritis,Artrosis,207,2024
+2020,COVID-19-related respiratory diseases,Enfermedades respiratorias asociadas a COVID-19,168,2024
+2020,Epicondylitis,Epicondilitis,135,2024
+2020,Decompression sickness,Enfermedad por Descompresión,119,2024
+2020,Mental and behavioural disorders,Trastornos mentales y del comportamiento,107,2024
+2020,Peripheral vascular disease,Enfermedad vascular periférica,58,2024
+2020,Occupational cancer,Cáncer ocupacional,27,2024
+2020,Asthma,Asma,19,2024
+2020,Cerebrovascular diseases,Enfermedades Cerebrovasculares,5,2024
+2020,Heart disease,Enfermedad Cardiaca,5,2024
+2020,Hypersensitivity pneumonitis due to organic dust,Neumonitis debida a hipersensibilidad al polvo orgánico,4,2024
+2020,Airway diseases due to specific organic dusts,Enfermedades de las vías aéreas debidas a polvos orgánicos específicos,4,2024
+2020,Chronic lower respiratory diseases,Enfermedades crónicas de las vías respiratorias inferiores,0,2024
+2021,Total,Total,86757,2024
+2021,COVID-19,COVID-19,74494,2024
+2021,Hearing loss,Hipoacusias,1874,2024
+2021,Back disorders (dorsopathies),Dorsopatías,1811,2024
+2021,"Other, less frequent",Varios de frecuencia menor,1232,2023
+2021,Infectious and parasitic diseases,Enfermedades infecciosas y parasitarias,986,2024
+2021,Pneumoconiosis,Neumoconiosis,952,2024
+2021,Shoulder lesions,Lesiones del Hombro,760,2024
+2021,Carpal tunnel syndrome,Síndrome del túnel Carpiano,732,2024
+2021,Poisoning,Intoxicaciones,517,2024
+2021,Other enthesopathies,Otras Entesopatías,481,2024
+2021,De Quervain's tenosynovitis,Tenosinovitis de Estiloides Radial de Quervain,436,2024
+2021,"Other synovitis, tenosynovitis and bursitis","Otras Sinovitis, Tenosinovitis y Bursitis",379,2024
+2021,Diseases of the eye and adnexa,Enfermedad del Ojo y sus anexos,343,2024
+2021,COVID-19-related respiratory diseases,Enfermedades respiratorias asociadas a COVID-19,327,2024
+2021,Contact dermatitis,Dermatitis de contacto,300,2024
+2021,Osteoarthritis,Artrosis,291,2024
+2021,"Respiratory conditions from inhaled gases, fumes, vapours and chemicals","Afecciones respiratorias debidas a la inhalación de gases, humos, vapores y sustancias químicas",237,2024
+2021,Epicondylitis,Epicondilitis,218,2024
+2021,Mental and behavioural disorders,Trastornos mentales y del comportamiento,136,2024
+2021,Peripheral vascular disease,Enfermedad vascular periférica,90,2024
+2021,Decompression sickness,Enfermedad por Descompresión,74,2024
+2021,Occupational cancer,Cáncer ocupacional,27,2024
+2021,Asthma,Asma,27,2024
+2021,Cerebrovascular diseases,Enfermedades Cerebrovasculares,9,2024
+2021,Heart disease,Enfermedad Cardiaca,8,2024
+2021,Airway diseases due to specific organic dusts,Enfermedades de las vías aéreas debidas a polvos orgánicos específicos,7,2024
+2021,Chronic lower respiratory diseases,Enfermedades crónicas de las vías respiratorias inferiores,5,2024
+2021,Hypersensitivity pneumonitis due to organic dust,Neumonitis debida a hipersensibilidad al polvo orgánico,4,2024
+2022,Total,Total,78647,2024
+2022,COVID-19,COVID-19,63405,2024
+2022,Back disorders (dorsopathies),Dorsopatías,2836,2024
+2022,Hearing loss,Hipoacusias,2149,2024
+2022,Shoulder lesions,Lesiones del Hombro,1223,2024
+2022,Carpal tunnel syndrome,Síndrome del túnel Carpiano,1144,2024
+2022,Pneumoconiosis,Neumoconiosis,1031,2024
+2022,Infectious and parasitic diseases,Enfermedades infecciosas y parasitarias,803,2024
+2022,Osteoarthritis,Artrosis,632,2024
+2022,Poisoning,Intoxicaciones,627,2024
+2022,De Quervain's tenosynovitis,Tenosinovitis de Estiloides Radial de Quervain,626,2024
+2022,"Other synovitis, tenosynovitis and bursitis","Otras Sinovitis, Tenosinovitis y Bursitis",563,2024
+2022,Other enthesopathies,Otras Entesopatías,539,2024
+2022,Diseases of the eye and adnexa,Enfermedad del Ojo y sus anexos,348,2024
+2022,Contact dermatitis,Dermatitis de contacto,315,2024
+2022,Epicondylitis,Epicondilitis,312,2024
+2022,"Respiratory conditions from inhaled gases, fumes, vapours and chemicals","Afecciones respiratorias debidas a la inhalación de gases, humos, vapores y sustancias químicas",257,2024
+2022,Mental and behavioural disorders,Trastornos mentales y del comportamiento,131,2024
+2022,Peripheral vascular disease,Enfermedad vascular periférica,92,2024
+2022,COVID-19-related respiratory diseases,Enfermedades respiratorias asociadas a COVID-19,76,2024
+2022,Decompression sickness,Enfermedad por Descompresión,67,2024
+2022,Occupational cancer,Cáncer ocupacional,32,2024
+2022,Cerebrovascular diseases,Enfermedades Cerebrovasculares,18,2024
+2022,Asthma,Asma,13,2024
+2022,Heart disease,Enfermedad Cardiaca,9,2024
+2022,Hypersensitivity pneumonitis due to organic dust,Neumonitis debida a hipersensibilidad al polvo orgánico,9,2024
+2022,Chronic lower respiratory diseases,Enfermedades crónicas de las vías respiratorias inferiores,8,2024
+2022,Airway diseases due to specific organic dusts,Enfermedades de las vías aéreas debidas a polvos orgánicos específicos,4,2024
+2023,Total,Total,18489,2024
+2023,Back disorders (dorsopathies),Dorsopatías,2856,2024
+2023,COVID-19,COVID-19,2545,2024
+2023,Hearing loss,Hipoacusias,1680,2024
+2023,Shoulder lesions,Lesiones del Hombro,1471,2024
+2023,Carpal tunnel syndrome,Síndrome del túnel Carpiano,1371,2024
+2023,Pneumoconiosis,Neumoconiosis,829,2024
+2023,De Quervain's tenosynovitis,Tenosinovitis de Estiloides Radial de Quervain,756,2024
+2023,"Other synovitis, tenosynovitis and bursitis","Otras Sinovitis, Tenosinovitis y Bursitis",756,2024
+2023,Osteoarthritis,Artrosis,745,2024
+2023,Poisoning,Intoxicaciones,737,2024
+2023,Other enthesopathies,Otras Entesopatías,666,2024
+2023,Diseases of the eye and adnexa,Enfermedad del Ojo y sus anexos,401,2024
+2023,Contact dermatitis,Dermatitis de contacto,394,2024
+2023,Epicondylitis,Epicondilitis,376,2024
+2023,"Respiratory conditions from inhaled gases, fumes, vapours and chemicals","Afecciones respiratorias debidas a la inhalación de gases, humos, vapores y sustancias químicas",302,2024
+2023,Mental and behavioural disorders,Trastornos mentales y del comportamiento,160,2024
+2023,Infectious and parasitic diseases,Enfermedades infecciosas y parasitarias,132,2024
+2023,Decompression sickness,Enfermedad por Descompresión,103,2024
+2023,Peripheral vascular disease,Enfermedad vascular periférica,86,2024
+2023,COVID-19-related respiratory diseases,Enfermedades respiratorias asociadas a COVID-19,65,2024
+2023,Occupational cancer,Cáncer ocupacional,52,2024
+2023,Asthma,Asma,20,2024
+2023,Hypersensitivity pneumonitis due to organic dust,Neumonitis debida a hipersensibilidad al polvo orgánico,15,2024
+2023,Cerebrovascular diseases,Enfermedades Cerebrovasculares,12,2024
+2023,Heart disease,Enfermedad Cardiaca,7,2024
+2023,Airway diseases due to specific organic dusts,Enfermedades de las vías aéreas debidas a polvos orgánicos específicos,3,2024
+2023,Chronic lower respiratory diseases,Enfermedades crónicas de las vías respiratorias inferiores,2,2024
+2024,Total,Total,16880,2024
+2024,Back disorders (dorsopathies),Dorsopatías,2940,2024
+2024,Hearing loss,Hipoacusias,2187,2024
+2024,Shoulder lesions,Lesiones del Hombro,1568,2024
+2024,Carpal tunnel syndrome,Síndrome del túnel Carpiano,1518,2024
+2024,De Quervain's tenosynovitis,Tenosinovitis de Estiloides Radial de Quervain,932,2024
+2024,"Other synovitis, tenosynovitis and bursitis","Otras Sinovitis, Tenosinovitis y Bursitis",868,2024
+2024,Osteoarthritis,Artrosis,765,2024
+2024,Poisoning,Intoxicaciones,671,2024
+2024,Contact dermatitis,Dermatitis de contacto,499,2024
+2024,Diseases of the eye and adnexa,Enfermedad del Ojo y sus anexos,435,2024
+2024,Epicondylitis,Epicondilitis,402,2024
+2024,"Respiratory conditions from inhaled gases, fumes, vapours and chemicals","Afecciones respiratorias debidas a la inhalación de gases, humos, vapores y sustancias químicas",360,2024
+2024,Pneumoconiosis,Neumoconiosis,356,2024
+2024,Other enthesopathies,Otras Entesopatías,292,2024
+2024,COVID-19,COVID-19,251,2024
+2024,Mental and behavioural disorders,Trastornos mentales y del comportamiento,217,2024
+2024,Infectious and parasitic diseases,Enfermedades infecciosas y parasitarias,200,2024
+2024,Decompression sickness,Enfermedad por Descompresión,88,2024
+2024,COVID-19-related respiratory diseases,Enfermedades respiratorias asociadas a COVID-19,78,2024
+2024,Peripheral vascular disease,Enfermedad vascular periférica,77,2024
+2024,Occupational cancer,Cáncer ocupacional,60,2024
+2024,Asthma,Asma,32,2024
+2024,Heart disease,Enfermedad Cardiaca,11,2024
+2024,Hypersensitivity pneumonitis due to organic dust,Neumonitis debida a hipersensibilidad al polvo orgánico,11,2024
+2024,Cerebrovascular diseases,Enfermedades Cerebrovasculares,10,2024
+2024,Chronic lower respiratory diseases,Enfermedades crónicas de las vías respiratorias inferiores,10,2024
+2024,Airway diseases due to specific organic dusts,Enfermedades de las vías aéreas debidas a polvos orgánicos específicos,5,2024

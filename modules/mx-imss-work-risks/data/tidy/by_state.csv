@@ -1,0 +1,2022 @@
+year,office,office_es,state,companies,workers,risk,cases,permanent_incapacities,deaths
+2016,National,Nacional,National,895829,18206112,All work risks,529356,32216,1408
+2016,National,Nacional,National,895829,18206112,Commuting accidents,122532,3791,399
+2016,National,Nacional,National,895829,18206112,Occupational diseases,12622,7343,23
+2016,National,Nacional,National,895829,18206112,Work accidents,394202,21082,986
+2016,National,Nacional,National,895829,18206112,Work accidents and diseases,406824,,
+2016,Aguascalientes,Aguascalientes,Aguascalientes,13863,284658,All work risks,7953,333,25
+2016,Aguascalientes,Aguascalientes,Aguascalientes,13863,284658,Commuting accidents,1544,31,9
+2016,Aguascalientes,Aguascalientes,Aguascalientes,13863,284658,Occupational diseases,123,35,1
+2016,Aguascalientes,Aguascalientes,Aguascalientes,13863,284658,Work accidents,6286,267,15
+2016,Aguascalientes,Aguascalientes,Aguascalientes,13863,284658,Work accidents and diseases,6409,,
+2016,Baja California,Baja California,Baja California,36177,832280,All work risks,25737,1395,46
+2016,Baja California,Baja California,Baja California,36177,832280,Commuting accidents,4844,189,16
+2016,Baja California,Baja California,Baja California,36177,832280,Occupational diseases,612,116,0
+2016,Baja California,Baja California,Baja California,36177,832280,Work accidents,20281,1090,30
+2016,Baja California,Baja California,Baja California,36177,832280,Work accidents and diseases,20893,,
+2016,Baja California Sur,Baja California Sur,Baja California Sur,11185,163146,All work risks,5700,280,8
+2016,Baja California Sur,Baja California Sur,Baja California Sur,11185,163146,Commuting accidents,456,9,1
+2016,Baja California Sur,Baja California Sur,Baja California Sur,11185,163146,Occupational diseases,169,75,0
+2016,Baja California Sur,Baja California Sur,Baja California Sur,11185,163146,Work accidents,5075,196,7
+2016,Baja California Sur,Baja California Sur,Baja California Sur,11185,163146,Work accidents and diseases,5244,,
+2016,Campeche,Campeche,Campeche,6157,119332,All work risks,2008,171,8
+2016,Campeche,Campeche,Campeche,6157,119332,Commuting accidents,345,29,0
+2016,Campeche,Campeche,Campeche,6157,119332,Occupational diseases,52,27,1
+2016,Campeche,Campeche,Campeche,6157,119332,Work accidents,1611,115,7
+2016,Campeche,Campeche,Campeche,6157,119332,Work accidents and diseases,1663,,
+2016,Chiapas,Chiapas,Chiapas,13587,238119,All work risks,3372,167,8
+2016,Chiapas,Chiapas,Chiapas,13587,238119,Commuting accidents,461,24,1
+2016,Chiapas,Chiapas,Chiapas,13587,238119,Occupational diseases,38,6,0
+2016,Chiapas,Chiapas,Chiapas,13587,238119,Work accidents,2873,137,7
+2016,Chiapas,Chiapas,Chiapas,13587,238119,Work accidents and diseases,2911,,
+2016,Chihuahua,Chihuahua,Chihuahua,35150,842296,All work risks,20475,1809,43
+2016,Chihuahua,Chihuahua,Chihuahua,35150,842296,Commuting accidents,4792,191,12
+2016,Chihuahua,Chihuahua,Chihuahua,35150,842296,Occupational diseases,556,421,0
+2016,Chihuahua,Chihuahua,Chihuahua,35150,842296,Work accidents,15127,1197,31
+2016,Chihuahua,Chihuahua,Chihuahua,35150,842296,Work accidents and diseases,15683,,
+2016,Mexico City North,Ciudad de México Norte,Mexico City,45767,829310,All work risks,20730,771,19
+2016,Mexico City North,Ciudad de México Norte,Mexico City,45767,829310,Commuting accidents,5686,85,6
+2016,Mexico City North,Ciudad de México Norte,Mexico City,45767,829310,Occupational diseases,167,119,0
+2016,Mexico City North,Ciudad de México Norte,Mexico City,45767,829310,Work accidents,14877,567,13
+2016,Mexico City North,Ciudad de México Norte,Mexico City,45767,829310,Work accidents and diseases,15044,,
+2016,Mexico City South,Ciudad de México Sur,Mexico City,63821,1260420,All work risks,33897,1352,28
+2016,Mexico City South,Ciudad de México Sur,Mexico City,63821,1260420,Commuting accidents,9420,210,11
+2016,Mexico City South,Ciudad de México Sur,Mexico City,63821,1260420,Occupational diseases,334,112,0
+2016,Mexico City South,Ciudad de México Sur,Mexico City,63821,1260420,Work accidents,24143,1030,17
+2016,Mexico City South,Ciudad de México Sur,Mexico City,63821,1260420,Work accidents and diseases,24477,,
+2016,Coahuila,Coahuila,Coahuila,31258,739763,All work risks,21549,4319,49
+2016,Coahuila,Coahuila,Coahuila,31258,739763,Commuting accidents,4376,194,12
+2016,Coahuila,Coahuila,Coahuila,31258,739763,Occupational diseases,2478,2900,2
+2016,Coahuila,Coahuila,Coahuila,31258,739763,Work accidents,14695,1225,35
+2016,Coahuila,Coahuila,Coahuila,31258,739763,Work accidents and diseases,17173,,
+2016,Colima,Colima,Colima,9114,133755,All work risks,5442,166,15
+2016,Colima,Colima,Colima,9114,133755,Commuting accidents,723,23,5
+2016,Colima,Colima,Colima,9114,133755,Occupational diseases,83,3,0
+2016,Colima,Colima,Colima,9114,133755,Work accidents,4636,140,10
+2016,Colima,Colima,Colima,9114,133755,Work accidents and diseases,4719,,
+2016,Durango,Durango,Durango,13010,251409,All work risks,6592,540,40
+2016,Durango,Durango,Durango,13010,251409,Commuting accidents,947,55,8
+2016,Durango,Durango,Durango,13010,251409,Occupational diseases,115,35,2
+2016,Durango,Durango,Durango,13010,251409,Work accidents,5530,450,30
+2016,Durango,Durango,Durango,13010,251409,Work accidents and diseases,5645,,
+2016,Guanajuato,Guanajuato,Guanajuato,44150,903543,All work risks,25380,1506,96
+2016,Guanajuato,Guanajuato,Guanajuato,44150,903543,Commuting accidents,7334,241,35
+2016,Guanajuato,Guanajuato,Guanajuato,44150,903543,Occupational diseases,447,182,1
+2016,Guanajuato,Guanajuato,Guanajuato,44150,903543,Work accidents,17599,1083,60
+2016,Guanajuato,Guanajuato,Guanajuato,44150,903543,Work accidents and diseases,18046,,
+2016,Guerrero,Guerrero,Guerrero,12828,173204,All work risks,4538,164,15
+2016,Guerrero,Guerrero,Guerrero,12828,173204,Commuting accidents,720,24,6
+2016,Guerrero,Guerrero,Guerrero,12828,173204,Occupational diseases,146,36,1
+2016,Guerrero,Guerrero,Guerrero,12828,173204,Work accidents,3672,104,8
+2016,Guerrero,Guerrero,Guerrero,12828,173204,Work accidents and diseases,3818,,
+2016,Hidalgo,Hidalgo,Hidalgo,13829,236806,All work risks,8176,908,32
+2016,Hidalgo,Hidalgo,Hidalgo,13829,236806,Commuting accidents,1893,52,11
+2016,Hidalgo,Hidalgo,Hidalgo,13829,236806,Occupational diseases,530,515,0
+2016,Hidalgo,Hidalgo,Hidalgo,13829,236806,Work accidents,5753,341,21
+2016,Hidalgo,Hidalgo,Hidalgo,13829,236806,Work accidents and diseases,6283,,
+2016,Jalisco,Jalisco,Jalisco,83932,1573392,All work risks,61155,2594,101
+2016,Jalisco,Jalisco,Jalisco,83932,1573392,Commuting accidents,14370,375,28
+2016,Jalisco,Jalisco,Jalisco,83932,1573392,Occupational diseases,875,230,2
+2016,Jalisco,Jalisco,Jalisco,83932,1573392,Work accidents,45910,1989,71
+2016,Jalisco,Jalisco,Jalisco,83932,1573392,Work accidents and diseases,46785,,
+2016,Michoacán,Michoacán,Michoacán,30819,425716,All work risks,11169,817,59
+2016,Michoacán,Michoacán,Michoacán,30819,425716,Commuting accidents,1805,81,21
+2016,Michoacán,Michoacán,Michoacán,30819,425716,Occupational diseases,245,138,0
+2016,Michoacán,Michoacán,Michoacán,30819,425716,Work accidents,9119,598,38
+2016,Michoacán,Michoacán,Michoacán,30819,425716,Work accidents and diseases,9364,,
+2016,Morelos,Morelos,Morelos,11406,227267,All work risks,5705,204,6
+2016,Morelos,Morelos,Morelos,11406,227267,Commuting accidents,1378,21,1
+2016,Morelos,Morelos,Morelos,11406,227267,Occupational diseases,81,40,0
+2016,Morelos,Morelos,Morelos,11406,227267,Work accidents,4246,143,5
+2016,Morelos,Morelos,Morelos,11406,227267,Work accidents and diseases,4327,,
+2016,State of Mexico East,México Oriente,State of Mexico,39848,1401393,All work risks,53414,2652,142
+2016,State of Mexico East,México Oriente,State of Mexico,39848,1401393,Commuting accidents,16381,414,47
+2016,State of Mexico East,México Oriente,State of Mexico,39848,1401393,Occupational diseases,531,459,0
+2016,State of Mexico East,México Oriente,State of Mexico,39848,1401393,Work accidents,36502,1779,95
+2016,State of Mexico East,México Oriente,State of Mexico,39848,1401393,Work accidents and diseases,37033,,
+2016,State of Mexico West,México Poniente,State of Mexico,23358,767505,All work risks,22561,1024,59
+2016,State of Mexico West,México Poniente,State of Mexico,23358,767505,Commuting accidents,6397,113,16
+2016,State of Mexico West,México Poniente,State of Mexico,23358,767505,Occupational diseases,584,221,1
+2016,State of Mexico West,México Poniente,State of Mexico,23358,767505,Work accidents,15580,690,42
+2016,State of Mexico West,México Poniente,State of Mexico,23358,767505,Work accidents and diseases,16164,,
+2016,Nayarit,Nayarit,Nayarit,11097,139752,All work risks,6232,213,20
+2016,Nayarit,Nayarit,Nayarit,11097,139752,Commuting accidents,692,21,8
+2016,Nayarit,Nayarit,Nayarit,11097,139752,Occupational diseases,250,20,1
+2016,Nayarit,Nayarit,Nayarit,11097,139752,Work accidents,5290,172,11
+2016,Nayarit,Nayarit,Nayarit,11097,139752,Work accidents and diseases,5540,,
+2016,Nuevo León,Nuevo León,Nuevo León,61912,1403671,All work risks,33143,1840,82
+2016,Nuevo León,Nuevo León,Nuevo León,61912,1403671,Commuting accidents,6708,227,16
+2016,Nuevo León,Nuevo León,Nuevo León,61912,1403671,Occupational diseases,535,75,1
+2016,Nuevo León,Nuevo León,Nuevo León,61912,1403671,Work accidents,25900,1538,65
+2016,Nuevo León,Nuevo León,Nuevo León,61912,1403671,Work accidents and diseases,26435,,
+2016,Oaxaca,Oaxaca,Oaxaca,12644,183527,All work risks,5039,152,21
+2016,Oaxaca,Oaxaca,Oaxaca,12644,183527,Commuting accidents,752,26,6
+2016,Oaxaca,Oaxaca,Oaxaca,12644,183527,Occupational diseases,34,6,0
+2016,Oaxaca,Oaxaca,Oaxaca,12644,183527,Work accidents,4253,120,15
+2016,Oaxaca,Oaxaca,Oaxaca,12644,183527,Work accidents and diseases,4287,,
+2016,Puebla,Puebla,Puebla,29102,566211,All work risks,17798,811,60
+2016,Puebla,Puebla,Puebla,29102,566211,Commuting accidents,4844,115,9
+2016,Puebla,Puebla,Puebla,29102,566211,Occupational diseases,140,40,1
+2016,Puebla,Puebla,Puebla,29102,566211,Work accidents,12814,656,50
+2016,Puebla,Puebla,Puebla,29102,566211,Work accidents and diseases,12954,,
+2016,Querétaro,Querétaro,Querétaro,20901,471952,All work risks,11174,397,18
+2016,Querétaro,Querétaro,Querétaro,20901,471952,Commuting accidents,2454,33,2
+2016,Querétaro,Querétaro,Querétaro,20901,471952,Occupational diseases,126,39,0
+2016,Querétaro,Querétaro,Querétaro,20901,471952,Work accidents,8594,325,16
+2016,Querétaro,Querétaro,Querétaro,20901,471952,Work accidents and diseases,8720,,
+2016,Quintana Roo,Quintana Roo,Quintana Roo,13475,375618,All work risks,10706,362,16
+2016,Quintana Roo,Quintana Roo,Quintana Roo,13475,375618,Commuting accidents,1169,67,4
+2016,Quintana Roo,Quintana Roo,Quintana Roo,13475,375618,Occupational diseases,548,6,0
+2016,Quintana Roo,Quintana Roo,Quintana Roo,13475,375618,Work accidents,8989,289,12
+2016,Quintana Roo,Quintana Roo,Quintana Roo,13475,375618,Work accidents and diseases,9537,,
+2016,San Luis Potosí,San Luis Potosí,San Luis Potosí,20823,403364,All work risks,13046,941,39
+2016,San Luis Potosí,San Luis Potosí,San Luis Potosí,20823,403364,Commuting accidents,4392,142,11
+2016,San Luis Potosí,San Luis Potosí,San Luis Potosí,20823,403364,Occupational diseases,438,209,0
+2016,San Luis Potosí,San Luis Potosí,San Luis Potosí,20823,403364,Work accidents,8216,590,28
+2016,San Luis Potosí,San Luis Potosí,San Luis Potosí,20823,403364,Work accidents and diseases,8654,,
+2016,Sinaloa,Sinaloa,Sinaloa,34699,501655,All work risks,14676,1308,71
+2016,Sinaloa,Sinaloa,Sinaloa,34699,501655,Commuting accidents,2723,217,20
+2016,Sinaloa,Sinaloa,Sinaloa,34699,501655,Occupational diseases,473,98,2
+2016,Sinaloa,Sinaloa,Sinaloa,34699,501655,Work accidents,11480,993,49
+2016,Sinaloa,Sinaloa,Sinaloa,34699,501655,Work accidents and diseases,11953,,
+2016,Sonora,Sonora,Sonora,34407,569855,All work risks,18122,1398,37
+2016,Sonora,Sonora,Sonora,34407,569855,Commuting accidents,3582,149,5
+2016,Sonora,Sonora,Sonora,34407,569855,Occupational diseases,579,261,1
+2016,Sonora,Sonora,Sonora,34407,569855,Work accidents,13961,988,31
+2016,Sonora,Sonora,Sonora,34407,569855,Work accidents and diseases,14540,,
+2016,Tabasco,Tabasco,Tabasco,10742,202673,All work risks,4198,199,27
+2016,Tabasco,Tabasco,Tabasco,10742,202673,Commuting accidents,1022,48,15
+2016,Tabasco,Tabasco,Tabasco,10742,202673,Occupational diseases,45,16,1
+2016,Tabasco,Tabasco,Tabasco,10742,202673,Work accidents,3131,135,11
+2016,Tabasco,Tabasco,Tabasco,10742,202673,Work accidents and diseases,3176,,
+2016,Tamaulipas,Tamaulipas,Tamaulipas,31326,664745,All work risks,16173,1116,63
+2016,Tamaulipas,Tamaulipas,Tamaulipas,31326,664745,Commuting accidents,4070,151,19
+2016,Tamaulipas,Tamaulipas,Tamaulipas,31326,664745,Occupational diseases,234,131,3
+2016,Tamaulipas,Tamaulipas,Tamaulipas,31326,664745,Work accidents,11869,834,41
+2016,Tamaulipas,Tamaulipas,Tamaulipas,31326,664745,Work accidents and diseases,12103,,
+2016,Tlaxcala,Tlaxcala,Tlaxcala,4504,114872,All work risks,2151,191,15
+2016,Tlaxcala,Tlaxcala,Tlaxcala,4504,114872,Commuting accidents,457,18,5
+2016,Tlaxcala,Tlaxcala,Tlaxcala,4504,114872,Occupational diseases,95,79,0
+2016,Tlaxcala,Tlaxcala,Tlaxcala,4504,114872,Work accidents,1599,94,10
+2016,Tlaxcala,Tlaxcala,Tlaxcala,4504,114872,Work accidents and diseases,1694,,
+2016,Veracruz North,Veracruz Norte,Veracruz,26406,405500,All work risks,9628,631,28
+2016,Veracruz North,Veracruz Norte,Veracruz,26406,405500,Commuting accidents,2000,88,6
+2016,Veracruz North,Veracruz Norte,Veracruz,26406,405500,Occupational diseases,188,84,2
+2016,Veracruz North,Veracruz Norte,Veracruz,26406,405500,Work accidents,7440,459,20
+2016,Veracruz North,Veracruz Norte,Veracruz,26406,405500,Work accidents and diseases,7628,,
+2016,Veracruz South,Veracruz Sur,Veracruz,15981,289020,All work risks,7594,535,69
+2016,Veracruz South,Veracruz Sur,Veracruz,15981,289020,Commuting accidents,1264,38,8
+2016,Veracruz South,Veracruz Sur,Veracruz,15981,289020,Occupational diseases,185,160,0
+2016,Veracruz South,Veracruz Sur,Veracruz,15981,289020,Work accidents,6145,337,61
+2016,Veracruz South,Veracruz Sur,Veracruz,15981,289020,Work accidents and diseases,6330,,
+2016,Yucatán,Yucatán,Yucatán,17591,334136,All work risks,8751,322,17
+2016,Yucatán,Yucatán,Yucatán,17591,334136,Commuting accidents,1587,54,7
+2016,Yucatán,Yucatán,Yucatán,17591,334136,Occupational diseases,249,27,0
+2016,Yucatán,Yucatán,Yucatán,17591,334136,Work accidents,6915,241,10
+2016,Yucatán,Yucatán,Yucatán,17591,334136,Work accidents and diseases,7164,,
+2016,Zacatecas,Zacatecas,Zacatecas,10960,176247,All work risks,5372,628,26
+2016,Zacatecas,Zacatecas,Zacatecas,10960,176247,Commuting accidents,944,36,12
+2016,Zacatecas,Zacatecas,Zacatecas,10960,176247,Occupational diseases,337,422,0
+2016,Zacatecas,Zacatecas,Zacatecas,10960,176247,Work accidents,4091,170,14
+2016,Zacatecas,Zacatecas,Zacatecas,10960,176247,Work accidents and diseases,4428,,
+2017,National,Nacional,National,928946,18740283,All work risks,562849,34270,1398
+2017,National,Nacional,National,928946,18740283,Commuting accidents,138424,4414,405
+2017,National,Nacional,National,928946,18740283,Occupational diseases,14159,8295,19
+2017,National,Nacional,National,928946,18740283,Work accidents,410266,21561,974
+2017,National,Nacional,National,928946,18740283,Work accidents and diseases,424425,,
+2017,Aguascalientes,Aguascalientes,Aguascalientes,14483,272952,All work risks,8861,357,17
+2017,Aguascalientes,Aguascalientes,Aguascalientes,14483,272952,Commuting accidents,1996,35,8
+2017,Aguascalientes,Aguascalientes,Aguascalientes,14483,272952,Occupational diseases,159,26,0
+2017,Aguascalientes,Aguascalientes,Aguascalientes,14483,272952,Work accidents,6706,296,9
+2017,Aguascalientes,Aguascalientes,Aguascalientes,14483,272952,Work accidents and diseases,6865,,
+2017,Baja California,Baja California,Baja California,37719,874135,All work risks,26657,1593,38
+2017,Baja California,Baja California,Baja California,37719,874135,Commuting accidents,5403,239,13
+2017,Baja California,Baja California,Baja California,37719,874135,Occupational diseases,913,159,0
+2017,Baja California,Baja California,Baja California,37719,874135,Work accidents,20341,1195,25
+2017,Baja California,Baja California,Baja California,37719,874135,Work accidents and diseases,21254,,
+2017,Baja California Sur,Baja California Sur,Baja California Sur,11759,173669,All work risks,6703,316,10
+2017,Baja California Sur,Baja California Sur,Baja California Sur,11759,173669,Commuting accidents,499,25,3
+2017,Baja California Sur,Baja California Sur,Baja California Sur,11759,173669,Occupational diseases,213,62,0
+2017,Baja California Sur,Baja California Sur,Baja California Sur,11759,173669,Work accidents,5991,229,7
+2017,Baja California Sur,Baja California Sur,Baja California Sur,11759,173669,Work accidents and diseases,6204,,
+2017,Campeche,Campeche,Campeche,6047,117977,All work risks,2241,205,3
+2017,Campeche,Campeche,Campeche,6047,117977,Commuting accidents,422,29,2
+2017,Campeche,Campeche,Campeche,6047,117977,Occupational diseases,79,57,0
+2017,Campeche,Campeche,Campeche,6047,117977,Work accidents,1740,119,1
+2017,Campeche,Campeche,Campeche,6047,117977,Work accidents and diseases,1819,,
+2017,Chiapas,Chiapas,Chiapas,13889,219920,All work risks,3566,174,18
+2017,Chiapas,Chiapas,Chiapas,13889,219920,Commuting accidents,588,21,3
+2017,Chiapas,Chiapas,Chiapas,13889,219920,Occupational diseases,31,2,0
+2017,Chiapas,Chiapas,Chiapas,13889,219920,Work accidents,2947,151,15
+2017,Chiapas,Chiapas,Chiapas,13889,219920,Work accidents and diseases,2978,,
+2017,Chihuahua,Chihuahua,Chihuahua,36782,868853,All work risks,22137,1923,47
+2017,Chihuahua,Chihuahua,Chihuahua,36782,868853,Commuting accidents,5528,230,16
+2017,Chihuahua,Chihuahua,Chihuahua,36782,868853,Occupational diseases,504,443,0
+2017,Chihuahua,Chihuahua,Chihuahua,36782,868853,Work accidents,16105,1250,31
+2017,Chihuahua,Chihuahua,Chihuahua,36782,868853,Work accidents and diseases,16609,,
+2017,Mexico City North,Ciudad de México Norte,Mexico City,47138,859505,All work risks,22032,799,22
+2017,Mexico City North,Ciudad de México Norte,Mexico City,47138,859505,Commuting accidents,6732,106,5
+2017,Mexico City North,Ciudad de México Norte,Mexico City,47138,859505,Occupational diseases,196,124,2
+2017,Mexico City North,Ciudad de México Norte,Mexico City,47138,859505,Work accidents,15104,569,15
+2017,Mexico City North,Ciudad de México Norte,Mexico City,47138,859505,Work accidents and diseases,15300,,
+2017,Mexico City South,Ciudad de México Sur,Mexico City,65157,1305077,All work risks,36721,1418,41
+2017,Mexico City South,Ciudad de México Sur,Mexico City,65157,1305077,Commuting accidents,10819,238,7
+2017,Mexico City South,Ciudad de México Sur,Mexico City,65157,1305077,Occupational diseases,437,133,0
+2017,Mexico City South,Ciudad de México Sur,Mexico City,65157,1305077,Work accidents,25465,1047,34
+2017,Mexico City South,Ciudad de México Sur,Mexico City,65157,1305077,Work accidents and diseases,25902,,
+2017,Coahuila,Coahuila,Coahuila,32341,768474,All work risks,21863,5106,49
+2017,Coahuila,Coahuila,Coahuila,32341,768474,Commuting accidents,4413,203,11
+2017,Coahuila,Coahuila,Coahuila,32341,768474,Occupational diseases,2926,3650,0
+2017,Coahuila,Coahuila,Coahuila,32341,768474,Work accidents,14524,1253,38
+2017,Coahuila,Coahuila,Coahuila,32341,768474,Work accidents and diseases,17450,,
+2017,Colima,Colima,Colima,9556,140329,All work risks,5882,165,17
+2017,Colima,Colima,Colima,9556,140329,Commuting accidents,832,24,3
+2017,Colima,Colima,Colima,9556,140329,Occupational diseases,73,5,0
+2017,Colima,Colima,Colima,9556,140329,Work accidents,4977,136,14
+2017,Colima,Colima,Colima,9556,140329,Work accidents and diseases,5050,,
+2017,Durango,Durango,Durango,13437,259515,All work risks,7192,575,35
+2017,Durango,Durango,Durango,13437,259515,Commuting accidents,1277,71,10
+2017,Durango,Durango,Durango,13437,259515,Occupational diseases,138,32,0
+2017,Durango,Durango,Durango,13437,259515,Work accidents,5777,472,25
+2017,Durango,Durango,Durango,13437,259515,Work accidents and diseases,5915,,
+2017,Guanajuato,Guanajuato,Guanajuato,46060,955309,All work risks,27677,1635,123
+2017,Guanajuato,Guanajuato,Guanajuato,46060,955309,Commuting accidents,8378,321,50
+2017,Guanajuato,Guanajuato,Guanajuato,46060,955309,Occupational diseases,485,227,4
+2017,Guanajuato,Guanajuato,Guanajuato,46060,955309,Work accidents,18814,1087,69
+2017,Guanajuato,Guanajuato,Guanajuato,46060,955309,Work accidents and diseases,19299,,
+2017,Guerrero,Guerrero,Guerrero,13118,175708,All work risks,4602,221,19
+2017,Guerrero,Guerrero,Guerrero,13118,175708,Commuting accidents,832,28,5
+2017,Guerrero,Guerrero,Guerrero,13118,175708,Occupational diseases,147,50,1
+2017,Guerrero,Guerrero,Guerrero,13118,175708,Work accidents,3623,143,13
+2017,Guerrero,Guerrero,Guerrero,13118,175708,Work accidents and diseases,3770,,
+2017,Hidalgo,Hidalgo,Hidalgo,14391,247124,All work risks,8511,958,31
+2017,Hidalgo,Hidalgo,Hidalgo,14391,247124,Commuting accidents,2018,59,7
+2017,Hidalgo,Hidalgo,Hidalgo,14391,247124,Occupational diseases,545,564,2
+2017,Hidalgo,Hidalgo,Hidalgo,14391,247124,Work accidents,5948,335,22
+2017,Hidalgo,Hidalgo,Hidalgo,14391,247124,Work accidents and diseases,6493,,
+2017,Jalisco,Jalisco,Jalisco,87893,1528328,All work risks,69596,2588,106
+2017,Jalisco,Jalisco,Jalisco,87893,1528328,Commuting accidents,17527,465,24
+2017,Jalisco,Jalisco,Jalisco,87893,1528328,Occupational diseases,869,124,2
+2017,Jalisco,Jalisco,Jalisco,87893,1528328,Work accidents,51200,1999,80
+2017,Jalisco,Jalisco,Jalisco,87893,1528328,Work accidents and diseases,52069,,
+2017,Michoacán,Michoacán,Michoacán,32679,450970,All work risks,12516,739,80
+2017,Michoacán,Michoacán,Michoacán,32679,450970,Commuting accidents,1903,90,29
+2017,Michoacán,Michoacán,Michoacán,32679,450970,Occupational diseases,355,128,0
+2017,Michoacán,Michoacán,Michoacán,32679,450970,Work accidents,10258,521,51
+2017,Michoacán,Michoacán,Michoacán,32679,450970,Work accidents and diseases,10613,,
+2017,Morelos,Morelos,Morelos,11633,232372,All work risks,6406,295,21
+2017,Morelos,Morelos,Morelos,11633,232372,Commuting accidents,1378,21,9
+2017,Morelos,Morelos,Morelos,11633,232372,Occupational diseases,150,73,1
+2017,Morelos,Morelos,Morelos,11633,232372,Work accidents,4878,201,11
+2017,Morelos,Morelos,Morelos,11633,232372,Work accidents and diseases,5028,,
+2017,State of Mexico East,México Oriente,State of Mexico,41729,1458842,All work risks,55710,2632,111
+2017,State of Mexico East,México Oriente,State of Mexico,41729,1458842,Commuting accidents,18844,426,34
+2017,State of Mexico East,México Oriente,State of Mexico,41729,1458842,Occupational diseases,520,414,1
+2017,State of Mexico East,México Oriente,State of Mexico,41729,1458842,Work accidents,36346,1792,76
+2017,State of Mexico East,México Oriente,State of Mexico,41729,1458842,Work accidents and diseases,36866,,
+2017,State of Mexico West,México Poniente,State of Mexico,24312,801982,All work risks,23827,977,57
+2017,State of Mexico West,México Poniente,State of Mexico,24312,801982,Commuting accidents,7074,111,15
+2017,State of Mexico West,México Poniente,State of Mexico,24312,801982,Occupational diseases,639,172,1
+2017,State of Mexico West,México Poniente,State of Mexico,24312,801982,Work accidents,16114,694,41
+2017,State of Mexico West,México Poniente,State of Mexico,24312,801982,Work accidents and diseases,16753,,
+2017,Nayarit,Nayarit,Nayarit,11517,144615,All work risks,6617,248,11
+2017,Nayarit,Nayarit,Nayarit,11517,144615,Commuting accidents,701,39,3
+2017,Nayarit,Nayarit,Nayarit,11517,144615,Occupational diseases,239,27,0
+2017,Nayarit,Nayarit,Nayarit,11517,144615,Work accidents,5677,182,8
+2017,Nayarit,Nayarit,Nayarit,11517,144615,Work accidents and diseases,5916,,
+2017,Nuevo León,Nuevo León,Nuevo León,63942,1461464,All work risks,31479,1653,72
+2017,Nuevo León,Nuevo León,Nuevo León,63942,1461464,Commuting accidents,6313,183,14
+2017,Nuevo León,Nuevo León,Nuevo León,63942,1461464,Occupational diseases,636,108,2
+2017,Nuevo León,Nuevo León,Nuevo León,63942,1461464,Work accidents,24530,1362,56
+2017,Nuevo León,Nuevo León,Nuevo León,63942,1461464,Work accidents and diseases,25166,,
+2017,Oaxaca,Oaxaca,Oaxaca,12936,186306,All work risks,5527,178,27
+2017,Oaxaca,Oaxaca,Oaxaca,12936,186306,Commuting accidents,750,30,7
+2017,Oaxaca,Oaxaca,Oaxaca,12936,186306,Occupational diseases,47,17,0
+2017,Oaxaca,Oaxaca,Oaxaca,12936,186306,Work accidents,4730,131,20
+2017,Oaxaca,Oaxaca,Oaxaca,12936,186306,Work accidents and diseases,4777,,
+2017,Puebla,Puebla,Puebla,30630,596727,All work risks,18818,730,48
+2017,Puebla,Puebla,Puebla,30630,596727,Commuting accidents,5551,124,10
+2017,Puebla,Puebla,Puebla,30630,596727,Occupational diseases,141,33,0
+2017,Puebla,Puebla,Puebla,30630,596727,Work accidents,13126,573,38
+2017,Puebla,Puebla,Puebla,30630,596727,Work accidents and diseases,13267,,
+2017,Querétaro,Querétaro,Querétaro,22360,509010,All work risks,12673,443,32
+2017,Querétaro,Querétaro,Querétaro,22360,509010,Commuting accidents,3101,53,8
+2017,Querétaro,Querétaro,Querétaro,22360,509010,Occupational diseases,118,24,0
+2017,Querétaro,Querétaro,Querétaro,22360,509010,Work accidents,9454,366,24
+2017,Querétaro,Querétaro,Querétaro,22360,509010,Work accidents and diseases,9572,,
+2017,Quintana Roo,Quintana Roo,Quintana Roo,14531,404453,All work risks,10812,377,14
+2017,Quintana Roo,Quintana Roo,Quintana Roo,14531,404453,Commuting accidents,1212,88,2
+2017,Quintana Roo,Quintana Roo,Quintana Roo,14531,404453,Occupational diseases,427,7,0
+2017,Quintana Roo,Quintana Roo,Quintana Roo,14531,404453,Work accidents,9173,282,12
+2017,Quintana Roo,Quintana Roo,Quintana Roo,14531,404453,Work accidents and diseases,9600,,
+2017,San Luis Potosí,San Luis Potosí,San Luis Potosí,21467,408287,All work risks,14754,1066,42
+2017,San Luis Potosí,San Luis Potosí,San Luis Potosí,21467,408287,Commuting accidents,5014,182,18
+2017,San Luis Potosí,San Luis Potosí,San Luis Potosí,21467,408287,Occupational diseases,464,259,1
+2017,San Luis Potosí,San Luis Potosí,San Luis Potosí,21467,408287,Work accidents,9276,625,23
+2017,San Luis Potosí,San Luis Potosí,San Luis Potosí,21467,408287,Work accidents and diseases,9740,,
+2017,Sinaloa,Sinaloa,Sinaloa,36352,521137,All work risks,14641,1400,64
+2017,Sinaloa,Sinaloa,Sinaloa,36352,521137,Commuting accidents,3031,260,24
+2017,Sinaloa,Sinaloa,Sinaloa,36352,521137,Occupational diseases,521,114,0
+2017,Sinaloa,Sinaloa,Sinaloa,36352,521137,Work accidents,11089,1026,40
+2017,Sinaloa,Sinaloa,Sinaloa,36352,521137,Work accidents and diseases,11610,,
+2017,Sonora,Sonora,Sonora,35489,587633,All work risks,19506,1581,42
+2017,Sonora,Sonora,Sonora,35489,587633,Commuting accidents,3979,199,14
+2017,Sonora,Sonora,Sonora,35489,587633,Occupational diseases,679,275,0
+2017,Sonora,Sonora,Sonora,35489,587633,Work accidents,14848,1107,28
+2017,Sonora,Sonora,Sonora,35489,587633,Work accidents and diseases,15527,,
+2017,Tabasco,Tabasco,Tabasco,10588,199661,All work risks,4402,212,37
+2017,Tabasco,Tabasco,Tabasco,10588,199661,Commuting accidents,1049,47,18
+2017,Tabasco,Tabasco,Tabasco,10588,199661,Occupational diseases,114,28,1
+2017,Tabasco,Tabasco,Tabasco,10588,199661,Work accidents,3239,137,18
+2017,Tabasco,Tabasco,Tabasco,10588,199661,Work accidents and diseases,3353,,
+2017,Tamaulipas,Tamaulipas,Tamaulipas,32189,690141,All work risks,16388,1277,45
+2017,Tamaulipas,Tamaulipas,Tamaulipas,32189,690141,Commuting accidents,4293,186,5
+2017,Tamaulipas,Tamaulipas,Tamaulipas,32189,690141,Occupational diseases,269,158,1
+2017,Tamaulipas,Tamaulipas,Tamaulipas,32189,690141,Work accidents,11826,933,39
+2017,Tamaulipas,Tamaulipas,Tamaulipas,32189,690141,Work accidents and diseases,12095,,
+2017,Tlaxcala,Tlaxcala,Tlaxcala,4701,125479,All work risks,2375,214,9
+2017,Tlaxcala,Tlaxcala,Tlaxcala,4701,125479,Commuting accidents,485,12,3
+2017,Tlaxcala,Tlaxcala,Tlaxcala,4701,125479,Occupational diseases,104,80,0
+2017,Tlaxcala,Tlaxcala,Tlaxcala,4701,125479,Work accidents,1786,122,6
+2017,Tlaxcala,Tlaxcala,Tlaxcala,4701,125479,Work accidents and diseases,1890,,
+2017,Veracruz North,Veracruz Norte,Veracruz,26630,410961,All work risks,9984,598,20
+2017,Veracruz North,Veracruz Norte,Veracruz,26630,410961,Commuting accidents,2137,130,3
+2017,Veracruz North,Veracruz Norte,Veracruz,26630,410961,Occupational diseases,165,41,0
+2017,Veracruz North,Veracruz Norte,Veracruz,26630,410961,Work accidents,7682,427,17
+2017,Veracruz North,Veracruz Norte,Veracruz,26630,410961,Work accidents and diseases,7847,,
+2017,Veracruz South,Veracruz Sur,Veracruz,15906,291943,All work risks,7294,655,38
+2017,Veracruz South,Veracruz Sur,Veracruz,15906,291943,Commuting accidents,1295,62,7
+2017,Veracruz South,Veracruz Sur,Veracruz,15906,291943,Occupational diseases,259,210,0
+2017,Veracruz South,Veracruz Sur,Veracruz,15906,291943,Work accidents,5740,383,31
+2017,Veracruz South,Veracruz Sur,Veracruz,15906,291943,Work accidents and diseases,5999,,
+2017,Yucatán,Yucatán,Yucatán,18219,309097,All work risks,8816,255,25
+2017,Yucatán,Yucatán,Yucatán,18219,309097,Commuting accidents,1756,42,8
+2017,Yucatán,Yucatán,Yucatán,18219,309097,Occupational diseases,315,16,0
+2017,Yucatán,Yucatán,Yucatán,18219,309097,Work accidents,6745,197,17
+2017,Yucatán,Yucatán,Yucatán,18219,309097,Work accidents and diseases,7060,,
+2017,Zacatecas,Zacatecas,Zacatecas,11366,182328,All work risks,6063,707,27
+2017,Zacatecas,Zacatecas,Zacatecas,11366,182328,Commuting accidents,1294,35,7
+2017,Zacatecas,Zacatecas,Zacatecas,11366,182328,Occupational diseases,282,453,0
+2017,Zacatecas,Zacatecas,Zacatecas,11366,182328,Work accidents,4487,219,20
+2017,Zacatecas,Zacatecas,Zacatecas,11366,182328,Work accidents and diseases,4769,,
+2018,National,Nacional,National,961196,19516567,All work risks,555010,38209,1381
+2018,National,Nacional,National,961196,19516567,Commuting accidents,141088,5159,419
+2018,National,Nacional,National,961196,19516567,Occupational diseases,15182,10208,27
+2018,National,Nacional,National,961196,19516567,Work accidents,398740,22842,935
+2018,National,Nacional,National,961196,19516567,Work accidents and diseases,413922,,
+2018,Aguascalientes,Aguascalientes,Aguascalientes,15112,288542,All work risks,8675,375,21
+2018,Aguascalientes,Aguascalientes,Aguascalientes,15112,288542,Commuting accidents,2015,48,5
+2018,Aguascalientes,Aguascalientes,Aguascalientes,15112,288542,Occupational diseases,177,37,0
+2018,Aguascalientes,Aguascalientes,Aguascalientes,15112,288542,Work accidents,6483,290,16
+2018,Aguascalientes,Aguascalientes,Aguascalientes,15112,288542,Work accidents and diseases,6660,,
+2018,Baja California,Baja California,Baja California,39373,910191,All work risks,26734,1649,41
+2018,Baja California,Baja California,Baja California,39373,910191,Commuting accidents,5150,241,13
+2018,Baja California,Baja California,Baja California,39373,910191,Occupational diseases,926,184,2
+2018,Baja California,Baja California,Baja California,39373,910191,Work accidents,20658,1224,26
+2018,Baja California,Baja California,Baja California,39373,910191,Work accidents and diseases,21584,,
+2018,Baja California Sur,Baja California Sur,Baja California Sur,12165,183408,All work risks,6789,335,7
+2018,Baja California Sur,Baja California Sur,Baja California Sur,12165,183408,Commuting accidents,475,22,0
+2018,Baja California Sur,Baja California Sur,Baja California Sur,12165,183408,Occupational diseases,172,81,0
+2018,Baja California Sur,Baja California Sur,Baja California Sur,12165,183408,Work accidents,6142,232,7
+2018,Baja California Sur,Baja California Sur,Baja California Sur,12165,183408,Work accidents and diseases,6314,,
+2018,Mexico City North,Ciudad de México Norte,Mexico City,47930,867641,All work risks,20096,794,36
+2018,Mexico City North,Ciudad de México Norte,Mexico City,47930,867641,Commuting accidents,6410,98,10
+2018,Mexico City North,Ciudad de México Norte,Mexico City,47930,867641,Occupational diseases,314,177,1
+2018,Mexico City North,Ciudad de México Norte,Mexico City,47930,867641,Work accidents,13372,519,25
+2018,Mexico City North,Ciudad de México Norte,Mexico City,47930,867641,Work accidents and diseases,13686,,
+2018,Mexico City South,Ciudad de México Sur,Mexico City,66647,1326989,All work risks,35418,1555,42
+2018,Mexico City South,Ciudad de México Sur,Mexico City,66647,1326989,Commuting accidents,11116,296,15
+2018,Mexico City South,Ciudad de México Sur,Mexico City,66647,1326989,Occupational diseases,486,201,1
+2018,Mexico City South,Ciudad de México Sur,Mexico City,66647,1326989,Work accidents,23816,1058,26
+2018,Mexico City South,Ciudad de México Sur,Mexico City,66647,1326989,Work accidents and diseases,24302,,
+2018,Campeche,Campeche,Campeche,6054,122071,All work risks,2048,225,3
+2018,Campeche,Campeche,Campeche,6054,122071,Commuting accidents,377,33,2
+2018,Campeche,Campeche,Campeche,6054,122071,Occupational diseases,76,45,0
+2018,Campeche,Campeche,Campeche,6054,122071,Work accidents,1595,147,1
+2018,Campeche,Campeche,Campeche,6054,122071,Work accidents and diseases,1671,,
+2018,Chiapas,Chiapas,Chiapas,14220,236751,All work risks,3706,179,18
+2018,Chiapas,Chiapas,Chiapas,14220,236751,Commuting accidents,635,28,2
+2018,Chiapas,Chiapas,Chiapas,14220,236751,Occupational diseases,43,11,0
+2018,Chiapas,Chiapas,Chiapas,14220,236751,Work accidents,3028,140,16
+2018,Chiapas,Chiapas,Chiapas,14220,236751,Work accidents and diseases,3071,,
+2018,Chihuahua,Chihuahua,Chihuahua,38270,892473,All work risks,20665,2158,51
+2018,Chihuahua,Chihuahua,Chihuahua,38270,892473,Commuting accidents,5075,239,11
+2018,Chihuahua,Chihuahua,Chihuahua,38270,892473,Occupational diseases,620,556,1
+2018,Chihuahua,Chihuahua,Chihuahua,38270,892473,Work accidents,14970,1363,39
+2018,Chihuahua,Chihuahua,Chihuahua,38270,892473,Work accidents and diseases,15590,,
+2018,Coahuila,Coahuila,Coahuila,33228,797623,All work risks,22990,6504,59
+2018,Coahuila,Coahuila,Coahuila,33228,797623,Commuting accidents,4658,247,22
+2018,Coahuila,Coahuila,Coahuila,33228,797623,Occupational diseases,3729,4884,0
+2018,Coahuila,Coahuila,Coahuila,33228,797623,Work accidents,14603,1373,37
+2018,Coahuila,Coahuila,Coahuila,33228,797623,Work accidents and diseases,18332,,
+2018,Colima,Colima,Colima,9962,146176,All work risks,6140,145,18
+2018,Colima,Colima,Colima,9962,146176,Commuting accidents,972,21,2
+2018,Colima,Colima,Colima,9962,146176,Occupational diseases,83,2,0
+2018,Colima,Colima,Colima,9962,146176,Work accidents,5085,122,16
+2018,Colima,Colima,Colima,9962,146176,Work accidents and diseases,5168,,
+2018,Durango,Durango,Durango,13851,270598,All work risks,7110,658,35
+2018,Durango,Durango,Durango,13851,270598,Commuting accidents,1243,89,10
+2018,Durango,Durango,Durango,13851,270598,Occupational diseases,116,41,1
+2018,Durango,Durango,Durango,13851,270598,Work accidents,5751,528,24
+2018,Durango,Durango,Durango,13851,270598,Work accidents and diseases,5867,,
+2018,Guanajuato,Guanajuato,Guanajuato,47589,1003163,All work risks,27867,1656,99
+2018,Guanajuato,Guanajuato,Guanajuato,47589,1003163,Commuting accidents,8229,331,34
+2018,Guanajuato,Guanajuato,Guanajuato,47589,1003163,Occupational diseases,550,265,2
+2018,Guanajuato,Guanajuato,Guanajuato,47589,1003163,Work accidents,19088,1060,63
+2018,Guanajuato,Guanajuato,Guanajuato,47589,1003163,Work accidents and diseases,19638,,
+2018,Guerrero,Guerrero,Guerrero,13420,185905,All work risks,4542,247,18
+2018,Guerrero,Guerrero,Guerrero,13420,185905,Commuting accidents,949,39,5
+2018,Guerrero,Guerrero,Guerrero,13420,185905,Occupational diseases,112,39,0
+2018,Guerrero,Guerrero,Guerrero,13420,185905,Work accidents,3481,169,13
+2018,Guerrero,Guerrero,Guerrero,13420,185905,Work accidents and diseases,3593,,
+2018,Hidalgo,Hidalgo,Hidalgo,14844,261124,All work risks,8533,810,39
+2018,Hidalgo,Hidalgo,Hidalgo,14844,261124,Commuting accidents,2120,64,14
+2018,Hidalgo,Hidalgo,Hidalgo,14844,261124,Occupational diseases,343,356,0
+2018,Hidalgo,Hidalgo,Hidalgo,14844,261124,Work accidents,6070,390,25
+2018,Hidalgo,Hidalgo,Hidalgo,14844,261124,Work accidents and diseases,6413,,
+2018,Jalisco,Jalisco,Jalisco,91700,1591012,All work risks,64669,2828,108
+2018,Jalisco,Jalisco,Jalisco,91700,1591012,Commuting accidents,16544,549,19
+2018,Jalisco,Jalisco,Jalisco,91700,1591012,Occupational diseases,787,189,1
+2018,Jalisco,Jalisco,Jalisco,91700,1591012,Work accidents,47338,2090,88
+2018,Jalisco,Jalisco,Jalisco,91700,1591012,Work accidents and diseases,48125,,
+2018,Michoacán,Michoacán,Michoacán,34224,476323,All work risks,13012,982,56
+2018,Michoacán,Michoacán,Michoacán,34224,476323,Commuting accidents,2004,114,13
+2018,Michoacán,Michoacán,Michoacán,34224,476323,Occupational diseases,194,148,1
+2018,Michoacán,Michoacán,Michoacán,34224,476323,Work accidents,10814,720,42
+2018,Michoacán,Michoacán,Michoacán,34224,476323,Work accidents and diseases,11008,,
+2018,Morelos,Morelos,Morelos,11871,240545,All work risks,6143,328,12
+2018,Morelos,Morelos,Morelos,11871,240545,Commuting accidents,1368,52,4
+2018,Morelos,Morelos,Morelos,11871,240545,Occupational diseases,158,105,0
+2018,Morelos,Morelos,Morelos,11871,240545,Work accidents,4617,171,8
+2018,Morelos,Morelos,Morelos,11871,240545,Work accidents and diseases,4775,,
+2018,State of Mexico East,México Oriente,State of Mexico,43936,1521514,All work risks,55479,3432,144
+2018,State of Mexico East,México Oriente,State of Mexico,43936,1521514,Commuting accidents,19611,601,52
+2018,State of Mexico East,México Oriente,State of Mexico,43936,1521514,Occupational diseases,876,743,2
+2018,State of Mexico East,México Oriente,State of Mexico,43936,1521514,Work accidents,34992,2088,90
+2018,State of Mexico East,México Oriente,State of Mexico,43936,1521514,Work accidents and diseases,35868,,
+2018,State of Mexico West,México Poniente,State of Mexico,25376,842976,All work risks,24158,1078,59
+2018,State of Mexico West,México Poniente,State of Mexico,25376,842976,Commuting accidents,7731,150,18
+2018,State of Mexico West,México Poniente,State of Mexico,25376,842976,Occupational diseases,530,199,0
+2018,State of Mexico West,México Poniente,State of Mexico,25376,842976,Work accidents,15897,729,41
+2018,State of Mexico West,México Poniente,State of Mexico,25376,842976,Work accidents and diseases,16427,,
+2018,Nayarit,Nayarit,Nayarit,11994,150117,All work risks,6326,267,14
+2018,Nayarit,Nayarit,Nayarit,11994,150117,Commuting accidents,862,45,3
+2018,Nayarit,Nayarit,Nayarit,11994,150117,Occupational diseases,200,28,0
+2018,Nayarit,Nayarit,Nayarit,11994,150117,Work accidents,5264,194,11
+2018,Nayarit,Nayarit,Nayarit,11994,150117,Work accidents and diseases,5464,,
+2018,Nuevo León,Nuevo León,Nuevo León,66217,1506321,All work risks,31902,1905,63
+2018,Nuevo León,Nuevo León,Nuevo León,66217,1506321,Commuting accidents,6543,192,11
+2018,Nuevo León,Nuevo León,Nuevo León,66217,1506321,Occupational diseases,674,172,2
+2018,Nuevo León,Nuevo León,Nuevo León,66217,1506321,Work accidents,24685,1541,50
+2018,Nuevo León,Nuevo León,Nuevo León,66217,1506321,Work accidents and diseases,25359,,
+2018,Oaxaca,Oaxaca,Oaxaca,13271,196716,All work risks,5297,200,19
+2018,Oaxaca,Oaxaca,Oaxaca,13271,196716,Commuting accidents,766,31,5
+2018,Oaxaca,Oaxaca,Oaxaca,13271,196716,Occupational diseases,66,17,0
+2018,Oaxaca,Oaxaca,Oaxaca,13271,196716,Work accidents,4465,152,14
+2018,Oaxaca,Oaxaca,Oaxaca,13271,196716,Work accidents and diseases,4531,,
+2018,Puebla,Puebla,Puebla,31659,625663,All work risks,19246,815,40
+2018,Puebla,Puebla,Puebla,31659,625663,Commuting accidents,5899,137,8
+2018,Puebla,Puebla,Puebla,31659,625663,Occupational diseases,212,42,0
+2018,Puebla,Puebla,Puebla,31659,625663,Work accidents,13135,636,32
+2018,Puebla,Puebla,Puebla,31659,625663,Work accidents and diseases,13347,,
+2018,Querétaro,Querétaro,Querétaro,23589,531440,All work risks,11168,387,30
+2018,Querétaro,Querétaro,Querétaro,23589,531440,Commuting accidents,3028,49,8
+2018,Querétaro,Querétaro,Querétaro,23589,531440,Occupational diseases,82,32,0
+2018,Querétaro,Querétaro,Querétaro,23589,531440,Work accidents,8058,306,22
+2018,Querétaro,Querétaro,Querétaro,23589,531440,Work accidents and diseases,8140,,
+2018,Quintana Roo,Quintana Roo,Quintana Roo,15754,431758,All work risks,11315,492,22
+2018,Quintana Roo,Quintana Roo,Quintana Roo,15754,431758,Commuting accidents,1597,96,6
+2018,Quintana Roo,Quintana Roo,Quintana Roo,15754,431758,Occupational diseases,410,22,1
+2018,Quintana Roo,Quintana Roo,Quintana Roo,15754,431758,Work accidents,9308,374,15
+2018,Quintana Roo,Quintana Roo,Quintana Roo,15754,431758,Work accidents and diseases,9718,,
+2018,San Luis Potosí,San Luis Potosí,San Luis Potosí,22074,432026,All work risks,14617,1350,52
+2018,San Luis Potosí,San Luis Potosí,San Luis Potosí,22074,432026,Commuting accidents,5011,284,32
+2018,San Luis Potosí,San Luis Potosí,San Luis Potosí,22074,432026,Occupational diseases,610,312,1
+2018,San Luis Potosí,San Luis Potosí,San Luis Potosí,22074,432026,Work accidents,8996,754,19
+2018,San Luis Potosí,San Luis Potosí,San Luis Potosí,22074,432026,Work accidents and diseases,9606,,
+2018,Sinaloa,Sinaloa,Sinaloa,37952,544670,All work risks,15381,1390,45
+2018,Sinaloa,Sinaloa,Sinaloa,37952,544670,Commuting accidents,3045,290,12
+2018,Sinaloa,Sinaloa,Sinaloa,37952,544670,Occupational diseases,512,138,2
+2018,Sinaloa,Sinaloa,Sinaloa,37952,544670,Work accidents,11824,962,31
+2018,Sinaloa,Sinaloa,Sinaloa,37952,544670,Work accidents and diseases,12336,,
+2018,Sonora,Sonora,Sonora,36587,606971,All work risks,18556,1701,43
+2018,Sonora,Sonora,Sonora,36587,606971,Commuting accidents,3909,220,20
+2018,Sonora,Sonora,Sonora,36587,606971,Occupational diseases,740,295,0
+2018,Sonora,Sonora,Sonora,36587,606971,Work accidents,13907,1186,23
+2018,Sonora,Sonora,Sonora,36587,606971,Work accidents and diseases,14647,,
+2018,Tabasco,Tabasco,Tabasco,10516,210679,All work risks,4552,169,26
+2018,Tabasco,Tabasco,Tabasco,10516,210679,Commuting accidents,1146,40,8
+2018,Tabasco,Tabasco,Tabasco,10516,210679,Occupational diseases,74,19,3
+2018,Tabasco,Tabasco,Tabasco,10516,210679,Work accidents,3332,110,15
+2018,Tabasco,Tabasco,Tabasco,10516,210679,Work accidents and diseases,3406,,
+2018,Tamaulipas,Tamaulipas,Tamaulipas,33163,722722,All work risks,18723,1364,42
+2018,Tamaulipas,Tamaulipas,Tamaulipas,33163,722722,Commuting accidents,5161,220,17
+2018,Tamaulipas,Tamaulipas,Tamaulipas,33163,722722,Occupational diseases,348,193,1
+2018,Tamaulipas,Tamaulipas,Tamaulipas,33163,722722,Work accidents,13214,951,24
+2018,Tamaulipas,Tamaulipas,Tamaulipas,33163,722722,Work accidents and diseases,13562,,
+2018,Tlaxcala,Tlaxcala,Tlaxcala,4864,134626,All work risks,2380,218,13
+2018,Tlaxcala,Tlaxcala,Tlaxcala,4864,134626,Commuting accidents,580,21,3
+2018,Tlaxcala,Tlaxcala,Tlaxcala,4864,134626,Occupational diseases,129,94,1
+2018,Tlaxcala,Tlaxcala,Tlaxcala,4864,134626,Work accidents,1671,103,9
+2018,Tlaxcala,Tlaxcala,Tlaxcala,4864,134626,Work accidents and diseases,1800,,
+2018,Veracruz North,Veracruz Norte,Veracruz,27151,433574,All work risks,9190,628,22
+2018,Veracruz North,Veracruz Norte,Veracruz,27151,433574,Commuting accidents,2149,128,8
+2018,Veracruz North,Veracruz Norte,Veracruz,27151,433574,Occupational diseases,117,24,0
+2018,Veracruz North,Veracruz Norte,Veracruz,27151,433574,Work accidents,6924,476,14
+2018,Veracruz North,Veracruz Norte,Veracruz,27151,433574,Work accidents and diseases,7041,,
+2018,Veracruz South,Veracruz Sur,Veracruz,16129,304598,All work risks,6838,463,38
+2018,Veracruz South,Veracruz Sur,Veracruz,16129,304598,Commuting accidents,1316,61,7
+2018,Veracruz South,Veracruz Sur,Veracruz,16129,304598,Occupational diseases,141,108,1
+2018,Veracruz South,Veracruz Sur,Veracruz,16129,304598,Work accidents,5381,294,30
+2018,Veracruz South,Veracruz Sur,Veracruz,16129,304598,Work accidents and diseases,5522,,
+2018,Yucatán,Yucatán,Yucatán,18866,323733,All work risks,8343,304,17
+2018,Yucatán,Yucatán,Yucatán,18866,323733,Commuting accidents,1731,52,9
+2018,Yucatán,Yucatán,Yucatán,18866,323733,Occupational diseases,278,27,0
+2018,Yucatán,Yucatán,Yucatán,18866,323733,Work accidents,6334,225,8
+2018,Yucatán,Yucatán,Yucatán,18866,323733,Work accidents and diseases,6612,,
+2018,Zacatecas,Zacatecas,Zacatecas,11638,195928,All work risks,6402,618,29
+2018,Zacatecas,Zacatecas,Zacatecas,11638,195928,Commuting accidents,1663,31,11
+2018,Zacatecas,Zacatecas,Zacatecas,11638,195928,Occupational diseases,297,422,3
+2018,Zacatecas,Zacatecas,Zacatecas,11638,195928,Work accidents,4442,165,15
+2018,Zacatecas,Zacatecas,Zacatecas,11638,195928,Work accidents and diseases,4739,,
+2019,National,Nacional,National,986574,19974508,All work risks,554858,38802,1348
+2019,National,Nacional,National,986574,19974508,Commuting accidents,141730,5724,409
+2019,National,Nacional,National,986574,19974508,Occupational diseases,13319,9651,33
+2019,National,Nacional,National,986574,19974508,Work accidents,399809,23427,906
+2019,National,Nacional,National,986574,19974508,Work accidents and diseases,413128,,
+2019,Aguascalientes,Aguascalientes,Aguascalientes,15678,297692,All work risks,8999,503,22
+2019,Aguascalientes,Aguascalientes,Aguascalientes,15678,297692,Commuting accidents,2238,78,5
+2019,Aguascalientes,Aguascalientes,Aguascalientes,15678,297692,Occupational diseases,228,47,1
+2019,Aguascalientes,Aguascalientes,Aguascalientes,15678,297692,Work accidents,6533,378,16
+2019,Aguascalientes,Aguascalientes,Aguascalientes,15678,297692,Work accidents and diseases,6761,,
+2019,Baja California,Baja California,Baja California,40338,941538,All work risks,27599,1934,41
+2019,Baja California,Baja California,Baja California,40338,941538,Commuting accidents,5681,308,20
+2019,Baja California,Baja California,Baja California,40338,941538,Occupational diseases,809,243,1
+2019,Baja California,Baja California,Baja California,40338,941538,Work accidents,21109,1383,20
+2019,Baja California,Baja California,Baja California,40338,941538,Work accidents and diseases,21918,,
+2019,Baja California Sur,Baja California Sur,Baja California Sur,12532,190357,All work risks,6983,400,7
+2019,Baja California Sur,Baja California Sur,Baja California Sur,12532,190357,Commuting accidents,604,35,3
+2019,Baja California Sur,Baja California Sur,Baja California Sur,12532,190357,Occupational diseases,219,106,0
+2019,Baja California Sur,Baja California Sur,Baja California Sur,12532,190357,Work accidents,6160,259,4
+2019,Baja California Sur,Baja California Sur,Baja California Sur,12532,190357,Work accidents and diseases,6379,,
+2019,Mexico City North,Ciudad de México Norte,Mexico City,48814,866412,All work risks,19074,779,19
+2019,Mexico City North,Ciudad de México Norte,Mexico City,48814,866412,Commuting accidents,6012,125,2
+2019,Mexico City North,Ciudad de México Norte,Mexico City,48814,866412,Occupational diseases,232,127,0
+2019,Mexico City North,Ciudad de México Norte,Mexico City,48814,866412,Work accidents,12830,527,17
+2019,Mexico City North,Ciudad de México Norte,Mexico City,48814,866412,Work accidents and diseases,13062,,
+2019,Mexico City South,Ciudad de México Sur,Mexico City,67683,1335487,All work risks,34328,1603,26
+2019,Mexico City South,Ciudad de México Sur,Mexico City,67683,1335487,Commuting accidents,10993,352,6
+2019,Mexico City South,Ciudad de México Sur,Mexico City,67683,1335487,Occupational diseases,473,256,2
+2019,Mexico City South,Ciudad de México Sur,Mexico City,67683,1335487,Work accidents,22862,995,18
+2019,Mexico City South,Ciudad de México Sur,Mexico City,67683,1335487,Work accidents and diseases,23335,,
+2019,Campeche,Campeche,Campeche,6016,125682,All work risks,1966,238,7
+2019,Campeche,Campeche,Campeche,6016,125682,Commuting accidents,425,33,2
+2019,Campeche,Campeche,Campeche,6016,125682,Occupational diseases,52,62,0
+2019,Campeche,Campeche,Campeche,6016,125682,Work accidents,1489,143,5
+2019,Campeche,Campeche,Campeche,6016,125682,Work accidents and diseases,1541,,
+2019,Chiapas,Chiapas,Chiapas,14266,247970,All work risks,3875,214,18
+2019,Chiapas,Chiapas,Chiapas,14266,247970,Commuting accidents,642,35,2
+2019,Chiapas,Chiapas,Chiapas,14266,247970,Occupational diseases,40,11,0
+2019,Chiapas,Chiapas,Chiapas,14266,247970,Work accidents,3193,168,16
+2019,Chiapas,Chiapas,Chiapas,14266,247970,Work accidents and diseases,3233,,
+2019,Chihuahua,Chihuahua,Chihuahua,39172,908575,All work risks,20275,2143,47
+2019,Chihuahua,Chihuahua,Chihuahua,39172,908575,Commuting accidents,5028,294,19
+2019,Chihuahua,Chihuahua,Chihuahua,39172,908575,Occupational diseases,518,496,1
+2019,Chihuahua,Chihuahua,Chihuahua,39172,908575,Work accidents,14729,1353,27
+2019,Chihuahua,Chihuahua,Chihuahua,39172,908575,Work accidents and diseases,15247,,
+2019,Coahuila,Coahuila,Coahuila,34150,807187,All work risks,21489,5530,50
+2019,Coahuila,Coahuila,Coahuila,34150,807187,Commuting accidents,4523,229,19
+2019,Coahuila,Coahuila,Coahuila,34150,807187,Occupational diseases,2757,3997,2
+2019,Coahuila,Coahuila,Coahuila,34150,807187,Work accidents,14209,1304,29
+2019,Coahuila,Coahuila,Coahuila,34150,807187,Work accidents and diseases,16966,,
+2019,Colima,Colima,Colima,10298,146483,All work risks,5967,212,13
+2019,Colima,Colima,Colima,10298,146483,Commuting accidents,825,32,3
+2019,Colima,Colima,Colima,10298,146483,Occupational diseases,118,13,0
+2019,Colima,Colima,Colima,10298,146483,Work accidents,5024,167,10
+2019,Colima,Colima,Colima,10298,146483,Work accidents and diseases,5142,,
+2019,Durango,Durango,Durango,14142,275375,All work risks,7305,706,22
+2019,Durango,Durango,Durango,14142,275375,Commuting accidents,1118,90,8
+2019,Durango,Durango,Durango,14142,275375,Occupational diseases,165,80,0
+2019,Durango,Durango,Durango,14142,275375,Work accidents,6022,536,14
+2019,Durango,Durango,Durango,14142,275375,Work accidents and diseases,6187,,
+2019,Guanajuato,Guanajuato,Guanajuato,48417,1033654,All work risks,27975,1709,113
+2019,Guanajuato,Guanajuato,Guanajuato,48417,1033654,Commuting accidents,8475,344,45
+2019,Guanajuato,Guanajuato,Guanajuato,48417,1033654,Occupational diseases,662,373,2
+2019,Guanajuato,Guanajuato,Guanajuato,48417,1033654,Work accidents,18838,992,66
+2019,Guanajuato,Guanajuato,Guanajuato,48417,1033654,Work accidents and diseases,19500,,
+2019,Guerrero,Guerrero,Guerrero,13495,190065,All work risks,4522,206,23
+2019,Guerrero,Guerrero,Guerrero,13495,190065,Commuting accidents,983,36,5
+2019,Guerrero,Guerrero,Guerrero,13495,190065,Occupational diseases,94,37,0
+2019,Guerrero,Guerrero,Guerrero,13495,190065,Work accidents,3445,133,18
+2019,Guerrero,Guerrero,Guerrero,13495,190065,Work accidents and diseases,3539,,
+2019,Hidalgo,Hidalgo,Hidalgo,15391,270993,All work risks,9081,816,26
+2019,Hidalgo,Hidalgo,Hidalgo,15391,270993,Commuting accidents,2324,89,7
+2019,Hidalgo,Hidalgo,Hidalgo,15391,270993,Occupational diseases,328,332,0
+2019,Hidalgo,Hidalgo,Hidalgo,15391,270993,Work accidents,6429,395,19
+2019,Hidalgo,Hidalgo,Hidalgo,15391,270993,Work accidents and diseases,6757,,
+2019,Jalisco,Jalisco,Jalisco,95317,1634342,All work risks,59626,2735,86
+2019,Jalisco,Jalisco,Jalisco,95317,1634342,Commuting accidents,15640,547,19
+2019,Jalisco,Jalisco,Jalisco,95317,1634342,Occupational diseases,572,169,2
+2019,Jalisco,Jalisco,Jalisco,95317,1634342,Work accidents,43414,2019,65
+2019,Jalisco,Jalisco,Jalisco,95317,1634342,Work accidents and diseases,43986,,
+2019,Michoacán,Michoacán,Michoacán,35351,488092,All work risks,13025,926,70
+2019,Michoacán,Michoacán,Michoacán,35351,488092,Commuting accidents,2016,113,9
+2019,Michoacán,Michoacán,Michoacán,35351,488092,Occupational diseases,139,170,2
+2019,Michoacán,Michoacán,Michoacán,35351,488092,Work accidents,10870,643,59
+2019,Michoacán,Michoacán,Michoacán,35351,488092,Work accidents and diseases,11009,,
+2019,Morelos,Morelos,Morelos,12000,243547,All work risks,5555,325,22
+2019,Morelos,Morelos,Morelos,12000,243547,Commuting accidents,1384,38,4
+2019,Morelos,Morelos,Morelos,12000,243547,Occupational diseases,170,113,2
+2019,Morelos,Morelos,Morelos,12000,243547,Work accidents,4001,174,16
+2019,Morelos,Morelos,Morelos,12000,243547,Work accidents and diseases,4171,,
+2019,State of Mexico East,México Oriente,State of Mexico,45379,1552104,All work risks,57690,3470,161
+2019,State of Mexico East,México Oriente,State of Mexico,45379,1552104,Commuting accidents,19729,667,55
+2019,State of Mexico East,México Oriente,State of Mexico,45379,1552104,Occupational diseases,872,710,2
+2019,State of Mexico East,México Oriente,State of Mexico,45379,1552104,Work accidents,37089,2093,104
+2019,State of Mexico East,México Oriente,State of Mexico,45379,1552104,Work accidents and diseases,37961,,
+2019,State of Mexico West,México Poniente,State of Mexico,26177,859897,All work risks,21997,1014,74
+2019,State of Mexico West,México Poniente,State of Mexico,26177,859897,Commuting accidents,7177,172,23
+2019,State of Mexico West,México Poniente,State of Mexico,26177,859897,Occupational diseases,376,160,1
+2019,State of Mexico West,México Poniente,State of Mexico,26177,859897,Work accidents,14444,682,50
+2019,State of Mexico West,México Poniente,State of Mexico,26177,859897,Work accidents and diseases,14820,,
+2019,Nayarit,Nayarit,Nayarit,12438,157547,All work risks,6524,262,11
+2019,Nayarit,Nayarit,Nayarit,12438,157547,Commuting accidents,845,40,2
+2019,Nayarit,Nayarit,Nayarit,12438,157547,Occupational diseases,161,25,0
+2019,Nayarit,Nayarit,Nayarit,12438,157547,Work accidents,5518,197,9
+2019,Nayarit,Nayarit,Nayarit,12438,157547,Work accidents and diseases,5679,,
+2019,Nuevo León,Nuevo León,Nuevo León,68092,1537328,All work risks,33938,2239,53
+2019,Nuevo León,Nuevo León,Nuevo León,68092,1537328,Commuting accidents,7129,279,13
+2019,Nuevo León,Nuevo León,Nuevo León,68092,1537328,Occupational diseases,685,230,2
+2019,Nuevo León,Nuevo León,Nuevo León,68092,1537328,Work accidents,26124,1730,38
+2019,Nuevo León,Nuevo León,Nuevo León,68092,1537328,Work accidents and diseases,26809,,
+2019,Oaxaca,Oaxaca,Oaxaca,13705,203805,All work risks,5034,174,18
+2019,Oaxaca,Oaxaca,Oaxaca,13705,203805,Commuting accidents,748,23,4
+2019,Oaxaca,Oaxaca,Oaxaca,13705,203805,Occupational diseases,68,15,0
+2019,Oaxaca,Oaxaca,Oaxaca,13705,203805,Work accidents,4218,136,14
+2019,Oaxaca,Oaxaca,Oaxaca,13705,203805,Work accidents and diseases,4286,,
+2019,Puebla,Puebla,Puebla,32697,639089,All work risks,20501,936,54
+2019,Puebla,Puebla,Puebla,32697,639089,Commuting accidents,6407,184,15
+2019,Puebla,Puebla,Puebla,32697,639089,Occupational diseases,265,69,0
+2019,Puebla,Puebla,Puebla,32697,639089,Work accidents,13829,683,39
+2019,Puebla,Puebla,Puebla,32697,639089,Work accidents and diseases,14094,,
+2019,Querétaro,Querétaro,Querétaro,24757,551497,All work risks,11737,464,22
+2019,Querétaro,Querétaro,Querétaro,24757,551497,Commuting accidents,3253,64,6
+2019,Querétaro,Querétaro,Querétaro,24757,551497,Occupational diseases,112,27,0
+2019,Querétaro,Querétaro,Querétaro,24757,551497,Work accidents,8372,373,16
+2019,Querétaro,Querétaro,Querétaro,24757,551497,Work accidents and diseases,8484,,
+2019,Quintana Roo,Quintana Roo,Quintana Roo,16729,447721,All work risks,12442,550,24
+2019,Quintana Roo,Quintana Roo,Quintana Roo,16729,447721,Commuting accidents,1751,120,7
+2019,Quintana Roo,Quintana Roo,Quintana Roo,16729,447721,Occupational diseases,263,40,1
+2019,Quintana Roo,Quintana Roo,Quintana Roo,16729,447721,Work accidents,10428,390,16
+2019,Quintana Roo,Quintana Roo,Quintana Roo,16729,447721,Work accidents and diseases,10691,,
+2019,San Luis Potosí,San Luis Potosí,San Luis Potosí,22645,444880,All work risks,13705,1330,39
+2019,San Luis Potosí,San Luis Potosí,San Luis Potosí,22645,444880,Commuting accidents,4801,240,14
+2019,San Luis Potosí,San Luis Potosí,San Luis Potosí,22645,444880,Occupational diseases,471,313,1
+2019,San Luis Potosí,San Luis Potosí,San Luis Potosí,22645,444880,Work accidents,8433,777,24
+2019,San Luis Potosí,San Luis Potosí,San Luis Potosí,22645,444880,Work accidents and diseases,8904,,
+2019,Sinaloa,Sinaloa,Sinaloa,39354,564961,All work risks,16312,1384,49
+2019,Sinaloa,Sinaloa,Sinaloa,39354,564961,Commuting accidents,3313,272,19
+2019,Sinaloa,Sinaloa,Sinaloa,39354,564961,Occupational diseases,418,140,0
+2019,Sinaloa,Sinaloa,Sinaloa,39354,564961,Work accidents,12581,972,30
+2019,Sinaloa,Sinaloa,Sinaloa,39354,564961,Work accidents and diseases,12999,,
+2019,Sonora,Sonora,Sonora,37494,618880,All work risks,18011,1739,39
+2019,Sonora,Sonora,Sonora,37494,618880,Commuting accidents,3914,255,14
+2019,Sonora,Sonora,Sonora,37494,618880,Occupational diseases,586,321,2
+2019,Sonora,Sonora,Sonora,37494,618880,Work accidents,13511,1163,23
+2019,Sonora,Sonora,Sonora,37494,618880,Work accidents and diseases,14097,,
+2019,Tabasco,Tabasco,Tabasco,10551,217876,All work risks,4721,147,26
+2019,Tabasco,Tabasco,Tabasco,10551,217876,Commuting accidents,1126,31,12
+2019,Tabasco,Tabasco,Tabasco,10551,217876,Occupational diseases,56,20,1
+2019,Tabasco,Tabasco,Tabasco,10551,217876,Work accidents,3539,96,13
+2019,Tabasco,Tabasco,Tabasco,10551,217876,Work accidents and diseases,3595,,
+2019,Tamaulipas,Tamaulipas,Tamaulipas,33555,739122,All work risks,20131,1563,47
+2019,Tamaulipas,Tamaulipas,Tamaulipas,33555,739122,Commuting accidents,5116,258,17
+2019,Tamaulipas,Tamaulipas,Tamaulipas,33555,739122,Occupational diseases,326,193,2
+2019,Tamaulipas,Tamaulipas,Tamaulipas,33555,739122,Work accidents,14689,1112,28
+2019,Tamaulipas,Tamaulipas,Tamaulipas,33555,739122,Work accidents and diseases,15015,,
+2019,Tlaxcala,Tlaxcala,Tlaxcala,5073,140004,All work risks,2513,242,10
+2019,Tlaxcala,Tlaxcala,Tlaxcala,5073,140004,Commuting accidents,674,19,3
+2019,Tlaxcala,Tlaxcala,Tlaxcala,5073,140004,Occupational diseases,127,105,0
+2019,Tlaxcala,Tlaxcala,Tlaxcala,5073,140004,Work accidents,1712,118,7
+2019,Tlaxcala,Tlaxcala,Tlaxcala,5073,140004,Work accidents and diseases,1839,,
+2019,Veracruz North,Veracruz Norte,Veracruz,27498,444931,All work risks,9358,679,22
+2019,Veracruz North,Veracruz Norte,Veracruz,27498,444931,Commuting accidents,2043,152,5
+2019,Veracruz North,Veracruz Norte,Veracruz,27498,444931,Occupational diseases,85,22,0
+2019,Veracruz North,Veracruz Norte,Veracruz,27498,444931,Work accidents,7230,505,17
+2019,Veracruz North,Veracruz Norte,Veracruz,27498,444931,Work accidents and diseases,7315,,
+2019,Veracruz South,Veracruz Sur,Veracruz,16096,309110,All work risks,6762,582,31
+2019,Veracruz South,Veracruz Sur,Veracruz,16096,309110,Commuting accidents,1328,69,6
+2019,Veracruz South,Veracruz Sur,Veracruz,16096,309110,Occupational diseases,124,126,0
+2019,Veracruz South,Veracruz Sur,Veracruz,16096,309110,Work accidents,5310,387,25
+2019,Veracruz South,Veracruz Sur,Veracruz,16096,309110,Work accidents and diseases,5434,,
+2019,Yucatán,Yucatán,Yucatán,19501,339917,All work risks,8843,327,18
+2019,Yucatán,Yucatán,Yucatán,19501,339917,Commuting accidents,1870,66,6
+2019,Yucatán,Yucatán,Yucatán,19501,339917,Occupational diseases,345,27,1
+2019,Yucatán,Yucatán,Yucatán,19501,339917,Work accidents,6628,234,11
+2019,Yucatán,Yucatán,Yucatán,19501,339917,Work accidents and diseases,6973,,
+2019,Zacatecas,Zacatecas,Zacatecas,11773,202388,All work risks,6995,721,38
+2019,Zacatecas,Zacatecas,Zacatecas,11773,202388,Commuting accidents,1595,35,10
+2019,Zacatecas,Zacatecas,Zacatecas,11773,202388,Occupational diseases,403,476,5
+2019,Zacatecas,Zacatecas,Zacatecas,11773,202388,Work accidents,4997,210,23
+2019,Zacatecas,Zacatecas,Zacatecas,11773,202388,Work accidents and diseases,5400,,
+2020,National,Nacional,National,999254,19457040,All work risks,492684,34834,1667
+2020,National,Nacional,National,999254,19457040,COVID-19,109287,24,526
+2020,National,Nacional,National,999254,19457040,COVID-19-related respiratory diseases,168,5,11
+2020,National,Nacional,National,999254,19457040,Commuting accidents,95026,5489,319
+2020,National,Nacional,National,999254,19457040,Occupational diseases,119474,8274,682
+2020,National,Nacional,National,999254,19457040,Occupational diseases excluding COVID-19,10019,8245,145
+2020,National,Nacional,National,999254,19457040,Work accidents,278184,21071,666
+2020,National,Nacional,National,999254,19457040,Work accidents and diseases,397658,,
+2020,Aguascalientes,Aguascalientes,Aguascalientes,15939,292788,All work risks,7183,398,38
+2020,Aguascalientes,Aguascalientes,Aguascalientes,15939,292788,COVID-19,844,0,10
+2020,Aguascalientes,Aguascalientes,Aguascalientes,15939,292788,COVID-19-related respiratory diseases,3,1,0
+2020,Aguascalientes,Aguascalientes,Aguascalientes,15939,292788,Commuting accidents,1513,67,9
+2020,Aguascalientes,Aguascalientes,Aguascalientes,15939,292788,Occupational diseases,981,46,14
+2020,Aguascalientes,Aguascalientes,Aguascalientes,15939,292788,Occupational diseases excluding COVID-19,134,45,4
+2020,Aguascalientes,Aguascalientes,Aguascalientes,15939,292788,Work accidents,4689,285,15
+2020,Aguascalientes,Aguascalientes,Aguascalientes,15939,292788,Work accidents and diseases,5670,,
+2020,Baja California,Baja California,Baja California,40699,944879,All work risks,24956,1806,58
+2020,Baja California,Baja California,Baja California,40699,944879,COVID-19,5499,7,30
+2020,Baja California,Baja California,Baja California,40699,944879,COVID-19-related respiratory diseases,13,0,0
+2020,Baja California,Baja California,Baja California,40699,944879,Commuting accidents,3919,263,7
+2020,Baja California,Baja California,Baja California,40699,944879,Occupational diseases,6073,270,36
+2020,Baja California,Baja California,Baja California,40699,944879,Occupational diseases excluding COVID-19,561,263,6
+2020,Baja California,Baja California,Baja California,40699,944879,Work accidents,14964,1273,15
+2020,Baja California,Baja California,Baja California,40699,944879,Work accidents and diseases,21037,,
+2020,Baja California Sur,Baja California Sur,Baja California Sur,12714,180577,All work risks,5940,310,10
+2020,Baja California Sur,Baja California Sur,Baja California Sur,12714,180577,COVID-19,1465,0,8
+2020,Baja California Sur,Baja California Sur,Baja California Sur,12714,180577,Commuting accidents,409,26,1
+2020,Baja California Sur,Baja California Sur,Baja California Sur,12714,180577,Occupational diseases,1600,102,8
+2020,Baja California Sur,Baja California Sur,Baja California Sur,12714,180577,Occupational diseases excluding COVID-19,135,102,0
+2020,Baja California Sur,Baja California Sur,Baja California Sur,12714,180577,Work accidents,3931,182,1
+2020,Baja California Sur,Baja California Sur,Baja California Sur,12714,180577,Work accidents and diseases,5531,,
+2020,Mexico City North,Ciudad de México Norte,Mexico City,49479,826589,All work risks,18728,695,97
+2020,Mexico City North,Ciudad de México Norte,Mexico City,49479,826589,COVID-19,7709,1,64
+2020,Mexico City North,Ciudad de México Norte,Mexico City,49479,826589,COVID-19-related respiratory diseases,21,1,3
+2020,Mexico City North,Ciudad de México Norte,Mexico City,49479,826589,Commuting accidents,3114,116,5
+2020,Mexico City North,Ciudad de México Norte,Mexico City,49479,826589,Occupational diseases,7895,108,77
+2020,Mexico City North,Ciudad de México Norte,Mexico City,49479,826589,Occupational diseases excluding COVID-19,165,106,10
+2020,Mexico City North,Ciudad de México Norte,Mexico City,49479,826589,Work accidents,7719,471,15
+2020,Mexico City North,Ciudad de México Norte,Mexico City,49479,826589,Work accidents and diseases,15614,,
+2020,Mexico City South,Ciudad de México Sur,Mexico City,69225,1276758,All work risks,29332,1238,111
+2020,Mexico City South,Ciudad de México Sur,Mexico City,69225,1276758,COVID-19,9105,1,78
+2020,Mexico City South,Ciudad de México Sur,Mexico City,69225,1276758,COVID-19-related respiratory diseases,6,0,0
+2020,Mexico City South,Ciudad de México Sur,Mexico City,69225,1276758,Commuting accidents,5740,301,2
+2020,Mexico City South,Ciudad de México Sur,Mexico City,69225,1276758,Occupational diseases,9620,125,93
+2020,Mexico City South,Ciudad de México Sur,Mexico City,69225,1276758,Occupational diseases excluding COVID-19,509,124,15
+2020,Mexico City South,Ciudad de México Sur,Mexico City,69225,1276758,Work accidents,13972,812,16
+2020,Mexico City South,Ciudad de México Sur,Mexico City,69225,1276758,Work accidents and diseases,23592,,
+2020,Campeche,Campeche,Campeche,5901,121429,All work risks,1847,181,6
+2020,Campeche,Campeche,Campeche,5901,121429,COVID-19,464,0,1
+2020,Campeche,Campeche,Campeche,5901,121429,Commuting accidents,264,26,1
+2020,Campeche,Campeche,Campeche,5901,121429,Occupational diseases,501,46,3
+2020,Campeche,Campeche,Campeche,5901,121429,Occupational diseases excluding COVID-19,37,46,2
+2020,Campeche,Campeche,Campeche,5901,121429,Work accidents,1082,109,2
+2020,Campeche,Campeche,Campeche,5901,121429,Work accidents and diseases,1583,,
+2020,Chiapas,Chiapas,Chiapas,14314,241681,All work risks,3692,140,13
+2020,Chiapas,Chiapas,Chiapas,14314,241681,COVID-19,1028,0,1
+2020,Chiapas,Chiapas,Chiapas,14314,241681,Commuting accidents,521,19,6
+2020,Chiapas,Chiapas,Chiapas,14314,241681,Occupational diseases,1057,9,2
+2020,Chiapas,Chiapas,Chiapas,14314,241681,Occupational diseases excluding COVID-19,29,9,1
+2020,Chiapas,Chiapas,Chiapas,14314,241681,Work accidents,2114,112,5
+2020,Chiapas,Chiapas,Chiapas,14314,241681,Work accidents and diseases,3171,,
+2020,Chihuahua,Chihuahua,Chihuahua,39692,903544,All work risks,18144,1743,65
+2020,Chihuahua,Chihuahua,Chihuahua,39692,903544,COVID-19,3436,1,14
+2020,Chihuahua,Chihuahua,Chihuahua,39692,903544,COVID-19-related respiratory diseases,3,0,0
+2020,Chihuahua,Chihuahua,Chihuahua,39692,903544,Commuting accidents,3688,218,13
+2020,Chihuahua,Chihuahua,Chihuahua,39692,903544,Occupational diseases,3859,327,27
+2020,Chihuahua,Chihuahua,Chihuahua,39692,903544,Occupational diseases excluding COVID-19,420,326,13
+2020,Chihuahua,Chihuahua,Chihuahua,39692,903544,Work accidents,10597,1198,25
+2020,Chihuahua,Chihuahua,Chihuahua,39692,903544,Work accidents and diseases,14456,,
+2020,Coahuila,Coahuila,Coahuila,34232,774731,All work risks,20308,4656,67
+2020,Coahuila,Coahuila,Coahuila,34232,774731,COVID-19,6662,0,33
+2020,Coahuila,Coahuila,Coahuila,34232,774731,COVID-19-related respiratory diseases,3,0,0
+2020,Coahuila,Coahuila,Coahuila,34232,774731,Commuting accidents,3142,243,11
+2020,Coahuila,Coahuila,Coahuila,34232,774731,Occupational diseases,8268,3278,36
+2020,Coahuila,Coahuila,Coahuila,34232,774731,Occupational diseases excluding COVID-19,1603,3278,3
+2020,Coahuila,Coahuila,Coahuila,34232,774731,Work accidents,8898,1135,20
+2020,Coahuila,Coahuila,Coahuila,34232,774731,Work accidents and diseases,17166,,
+2020,Colima,Colima,Colima,10651,144117,All work risks,5800,215,15
+2020,Colima,Colima,Colima,10651,144117,COVID-19,844,0,4
+2020,Colima,Colima,Colima,10651,144117,COVID-19-related respiratory diseases,1,1,0
+2020,Colima,Colima,Colima,10651,144117,Commuting accidents,794,32,3
+2020,Colima,Colima,Colima,10651,144117,Occupational diseases,931,11,4
+2020,Colima,Colima,Colima,10651,144117,Occupational diseases excluding COVID-19,86,10,0
+2020,Colima,Colima,Colima,10651,144117,Work accidents,4075,172,8
+2020,Colima,Colima,Colima,10651,144117,Work accidents and diseases,5006,,
+2020,Durango,Durango,Durango,14272,271861,All work risks,7450,622,31
+2020,Durango,Durango,Durango,14272,271861,COVID-19,1880,0,6
+2020,Durango,Durango,Durango,14272,271861,COVID-19-related respiratory diseases,1,0,0
+2020,Durango,Durango,Durango,14272,271861,Commuting accidents,857,78,11
+2020,Durango,Durango,Durango,14272,271861,Occupational diseases,2042,57,10
+2020,Durango,Durango,Durango,14272,271861,Occupational diseases excluding COVID-19,161,57,4
+2020,Durango,Durango,Durango,14272,271861,Work accidents,4551,487,10
+2020,Durango,Durango,Durango,14272,271861,Work accidents and diseases,6593,,
+2020,Guanajuato,Guanajuato,Guanajuato,48017,1009581,All work risks,22292,2020,119
+2020,Guanajuato,Guanajuato,Guanajuato,48017,1009581,COVID-19,1467,0,6
+2020,Guanajuato,Guanajuato,Guanajuato,48017,1009581,COVID-19-related respiratory diseases,1,0,0
+2020,Guanajuato,Guanajuato,Guanajuato,48017,1009581,Commuting accidents,6360,405,43
+2020,Guanajuato,Guanajuato,Guanajuato,48017,1009581,Occupational diseases,1970,487,10
+2020,Guanajuato,Guanajuato,Guanajuato,48017,1009581,Occupational diseases excluding COVID-19,502,487,4
+2020,Guanajuato,Guanajuato,Guanajuato,48017,1009581,Work accidents,13962,1128,66
+2020,Guanajuato,Guanajuato,Guanajuato,48017,1009581,Work accidents and diseases,15932,,
+2020,Guerrero,Guerrero,Guerrero,13494,181067,All work risks,5342,253,29
+2020,Guerrero,Guerrero,Guerrero,13494,181067,COVID-19,1784,1,8
+2020,Guerrero,Guerrero,Guerrero,13494,181067,COVID-19-related respiratory diseases,2,0,0
+2020,Guerrero,Guerrero,Guerrero,13494,181067,Commuting accidents,727,34,5
+2020,Guerrero,Guerrero,Guerrero,13494,181067,Occupational diseases,1873,54,8
+2020,Guerrero,Guerrero,Guerrero,13494,181067,Occupational diseases excluding COVID-19,87,53,0
+2020,Guerrero,Guerrero,Guerrero,13494,181067,Work accidents,2742,165,16
+2020,Guerrero,Guerrero,Guerrero,13494,181067,Work accidents and diseases,4615,,
+2020,Hidalgo,Hidalgo,Hidalgo,15499,266644,All work risks,7764,763,29
+2020,Hidalgo,Hidalgo,Hidalgo,15499,266644,COVID-19,1577,0,10
+2020,Hidalgo,Hidalgo,Hidalgo,15499,266644,COVID-19-related respiratory diseases,5,0,0
+2020,Hidalgo,Hidalgo,Hidalgo,15499,266644,Commuting accidents,1561,83,6
+2020,Hidalgo,Hidalgo,Hidalgo,15499,266644,Occupational diseases,1817,244,10
+2020,Hidalgo,Hidalgo,Hidalgo,15499,266644,Occupational diseases excluding COVID-19,235,244,0
+2020,Hidalgo,Hidalgo,Hidalgo,15499,266644,Work accidents,4386,436,13
+2020,Hidalgo,Hidalgo,Hidalgo,15499,266644,Work accidents and diseases,6203,,
+2020,Jalisco,Jalisco,Jalisco,97762,1612425,All work risks,55953,2817,87
+2020,Jalisco,Jalisco,Jalisco,97762,1612425,COVID-19,9300,2,5
+2020,Jalisco,Jalisco,Jalisco,97762,1612425,COVID-19-related respiratory diseases,12,0,0
+2020,Jalisco,Jalisco,Jalisco,97762,1612425,Commuting accidents,12050,615,28
+2020,Jalisco,Jalisco,Jalisco,97762,1612425,Occupational diseases,9787,223,6
+2020,Jalisco,Jalisco,Jalisco,97762,1612425,Occupational diseases excluding COVID-19,475,221,1
+2020,Jalisco,Jalisco,Jalisco,97762,1612425,Work accidents,34116,1979,53
+2020,Jalisco,Jalisco,Jalisco,97762,1612425,Work accidents and diseases,43903,,
+2020,Michoacán,Michoacán,Michoacán,35931,488195,All work risks,11940,790,47
+2020,Michoacán,Michoacán,Michoacán,35931,488195,COVID-19,2389,0,2
+2020,Michoacán,Michoacán,Michoacán,35931,488195,COVID-19-related respiratory diseases,4,0,0
+2020,Michoacán,Michoacán,Michoacán,35931,488195,Commuting accidents,1568,95,6
+2020,Michoacán,Michoacán,Michoacán,35931,488195,Occupational diseases,2472,121,7
+2020,Michoacán,Michoacán,Michoacán,35931,488195,Occupational diseases excluding COVID-19,79,121,5
+2020,Michoacán,Michoacán,Michoacán,35931,488195,Work accidents,7900,574,34
+2020,Michoacán,Michoacán,Michoacán,35931,488195,Work accidents and diseases,10372,,
+2020,Morelos,Morelos,Morelos,12026,238465,All work risks,5299,299,23
+2020,Morelos,Morelos,Morelos,12026,238465,COVID-19,1204,0,10
+2020,Morelos,Morelos,Morelos,12026,238465,COVID-19-related respiratory diseases,1,0,0
+2020,Morelos,Morelos,Morelos,12026,238465,Commuting accidents,1138,59,2
+2020,Morelos,Morelos,Morelos,12026,238465,Occupational diseases,1319,85,10
+2020,Morelos,Morelos,Morelos,12026,238465,Occupational diseases excluding COVID-19,114,85,0
+2020,Morelos,Morelos,Morelos,12026,238465,Work accidents,2842,155,11
+2020,Morelos,Morelos,Morelos,12026,238465,Work accidents and diseases,4161,,
+2020,State of Mexico East,México Oriente,State of Mexico,45979,1508527,All work risks,49585,2815,161
+2020,State of Mexico East,México Oriente,State of Mexico,45979,1508527,COVID-19,11175,4,36
+2020,State of Mexico East,México Oriente,State of Mexico,45979,1508527,COVID-19-related respiratory diseases,14,1,3
+2020,State of Mexico East,México Oriente,State of Mexico,45979,1508527,Commuting accidents,12728,589,47
+2020,State of Mexico East,México Oriente,State of Mexico,45979,1508527,Occupational diseases,11749,465,50
+2020,State of Mexico East,México Oriente,State of Mexico,45979,1508527,Occupational diseases excluding COVID-19,560,460,11
+2020,State of Mexico East,México Oriente,State of Mexico,45979,1508527,Work accidents,25108,1761,64
+2020,State of Mexico East,México Oriente,State of Mexico,45979,1508527,Work accidents and diseases,36857,,
+2020,State of Mexico West,México Poniente,State of Mexico,26549,833672,All work risks,18100,892,56
+2020,State of Mexico West,México Poniente,State of Mexico,26549,833672,COVID-19,4111,0,13
+2020,State of Mexico West,México Poniente,State of Mexico,26549,833672,COVID-19-related respiratory diseases,4,0,0
+2020,State of Mexico West,México Poniente,State of Mexico,26549,833672,Commuting accidents,4260,145,13
+2020,State of Mexico West,México Poniente,State of Mexico,26549,833672,Occupational diseases,4416,138,16
+2020,State of Mexico West,México Poniente,State of Mexico,26549,833672,Occupational diseases excluding COVID-19,301,138,3
+2020,State of Mexico West,México Poniente,State of Mexico,26549,833672,Work accidents,9424,609,27
+2020,State of Mexico West,México Poniente,State of Mexico,26549,833672,Work accidents and diseases,13840,,
+2020,Nayarit,Nayarit,Nayarit,12722,155702,All work risks,6145,247,16
+2020,Nayarit,Nayarit,Nayarit,12722,155702,COVID-19,1385,1,1
+2020,Nayarit,Nayarit,Nayarit,12722,155702,COVID-19-related respiratory diseases,1,0,0
+2020,Nayarit,Nayarit,Nayarit,12722,155702,Commuting accidents,651,57,5
+2020,Nayarit,Nayarit,Nayarit,12722,155702,Occupational diseases,1481,19,3
+2020,Nayarit,Nayarit,Nayarit,12722,155702,Occupational diseases excluding COVID-19,95,18,2
+2020,Nayarit,Nayarit,Nayarit,12722,155702,Work accidents,4013,171,8
+2020,Nayarit,Nayarit,Nayarit,12722,155702,Work accidents and diseases,5494,,
+2020,Nuevo León,Nuevo León,Nuevo León,69539,1507120,All work risks,29403,2319,86
+2020,Nuevo León,Nuevo León,Nuevo León,69539,1507120,COVID-19,5156,0,8
+2020,Nuevo León,Nuevo León,Nuevo León,69539,1507120,COVID-19-related respiratory diseases,10,0,0
+2020,Nuevo León,Nuevo León,Nuevo León,69539,1507120,Commuting accidents,4696,266,15
+2020,Nuevo León,Nuevo León,Nuevo León,69539,1507120,Occupational diseases,5775,389,35
+2020,Nuevo León,Nuevo León,Nuevo León,69539,1507120,Occupational diseases excluding COVID-19,609,389,27
+2020,Nuevo León,Nuevo León,Nuevo León,69539,1507120,Work accidents,18932,1664,36
+2020,Nuevo León,Nuevo León,Nuevo León,69539,1507120,Work accidents and diseases,24707,,
+2020,Oaxaca,Oaxaca,Oaxaca,13857,200254,All work risks,4824,155,22
+2020,Oaxaca,Oaxaca,Oaxaca,13857,200254,COVID-19,956,0,3
+2020,Oaxaca,Oaxaca,Oaxaca,13857,200254,COVID-19-related respiratory diseases,4,0,0
+2020,Oaxaca,Oaxaca,Oaxaca,13857,200254,Commuting accidents,589,27,3
+2020,Oaxaca,Oaxaca,Oaxaca,13857,200254,Occupational diseases,1021,7,5
+2020,Oaxaca,Oaxaca,Oaxaca,13857,200254,Occupational diseases excluding COVID-19,61,7,2
+2020,Oaxaca,Oaxaca,Oaxaca,13857,200254,Work accidents,3214,121,14
+2020,Oaxaca,Oaxaca,Oaxaca,13857,200254,Work accidents and diseases,4235,,
+2020,Puebla,Puebla,Puebla,33151,617937,All work risks,14378,864,42
+2020,Puebla,Puebla,Puebla,33151,617937,COVID-19,1970,2,3
+2020,Puebla,Puebla,Puebla,33151,617937,COVID-19-related respiratory diseases,2,0,1
+2020,Puebla,Puebla,Puebla,33151,617937,Commuting accidents,3664,184,13
+2020,Puebla,Puebla,Puebla,33151,617937,Occupational diseases,2176,57,7
+2020,Puebla,Puebla,Puebla,33151,617937,Occupational diseases excluding COVID-19,204,55,3
+2020,Puebla,Puebla,Puebla,33151,617937,Work accidents,8538,623,22
+2020,Puebla,Puebla,Puebla,33151,617937,Work accidents and diseases,10714,,
+2020,Querétaro,Querétaro,Querétaro,25569,544108,All work risks,10124,435,20
+2020,Querétaro,Querétaro,Querétaro,25569,544108,COVID-19,1785,0,1
+2020,Querétaro,Querétaro,Querétaro,25569,544108,COVID-19-related respiratory diseases,3,0,0
+2020,Querétaro,Querétaro,Querétaro,25569,544108,Commuting accidents,2144,62,4
+2020,Querétaro,Querétaro,Querétaro,25569,544108,Occupational diseases,1885,29,1
+2020,Querétaro,Querétaro,Querétaro,25569,544108,Occupational diseases excluding COVID-19,97,29,0
+2020,Querétaro,Querétaro,Querétaro,25569,544108,Work accidents,6095,344,15
+2020,Querétaro,Querétaro,Querétaro,25569,544108,Work accidents and diseases,7980,,
+2020,Quintana Roo,Quintana Roo,Quintana Roo,16970,383546,All work risks,8993,429,20
+2020,Quintana Roo,Quintana Roo,Quintana Roo,16970,383546,COVID-19,1310,0,4
+2020,Quintana Roo,Quintana Roo,Quintana Roo,16970,383546,COVID-19-related respiratory diseases,2,0,0
+2020,Quintana Roo,Quintana Roo,Quintana Roo,16970,383546,Commuting accidents,1084,96,5
+2020,Quintana Roo,Quintana Roo,Quintana Roo,16970,383546,Occupational diseases,1489,54,7
+2020,Quintana Roo,Quintana Roo,Quintana Roo,16970,383546,Occupational diseases excluding COVID-19,177,54,3
+2020,Quintana Roo,Quintana Roo,Quintana Roo,16970,383546,Work accidents,6420,279,8
+2020,Quintana Roo,Quintana Roo,Quintana Roo,16970,383546,Work accidents and diseases,7909,,
+2020,San Luis Potosí,San Luis Potosí,San Luis Potosí,22943,436132,All work risks,11726,1111,49
+2020,San Luis Potosí,San Luis Potosí,San Luis Potosí,22943,436132,COVID-19,1915,0,4
+2020,San Luis Potosí,San Luis Potosí,San Luis Potosí,22943,436132,COVID-19-related respiratory diseases,4,0,0
+2020,San Luis Potosí,San Luis Potosí,San Luis Potosí,22943,436132,Commuting accidents,3248,249,16
+2020,San Luis Potosí,San Luis Potosí,San Luis Potosí,22943,436132,Occupational diseases,2256,241,15
+2020,San Luis Potosí,San Luis Potosí,San Luis Potosí,22943,436132,Occupational diseases excluding COVID-19,337,241,11
+2020,San Luis Potosí,San Luis Potosí,San Luis Potosí,22943,436132,Work accidents,6222,621,18
+2020,San Luis Potosí,San Luis Potosí,San Luis Potosí,22943,436132,Work accidents and diseases,8478,,
+2020,Sinaloa,Sinaloa,Sinaloa,40134,559545,All work risks,15322,1299,63
+2020,Sinaloa,Sinaloa,Sinaloa,40134,559545,COVID-19,4293,0,21
+2020,Sinaloa,Sinaloa,Sinaloa,40134,559545,COVID-19-related respiratory diseases,6,1,1
+2020,Sinaloa,Sinaloa,Sinaloa,40134,559545,Commuting accidents,2284,305,9
+2020,Sinaloa,Sinaloa,Sinaloa,40134,559545,Occupational diseases,4499,105,24
+2020,Sinaloa,Sinaloa,Sinaloa,40134,559545,Occupational diseases excluding COVID-19,200,104,2
+2020,Sinaloa,Sinaloa,Sinaloa,40134,559545,Work accidents,8539,889,30
+2020,Sinaloa,Sinaloa,Sinaloa,40134,559545,Work accidents and diseases,13038,,
+2020,Sonora,Sonora,Sonora,37589,609795,All work risks,17480,1492,60
+2020,Sonora,Sonora,Sonora,37589,609795,COVID-19,4842,0,33
+2020,Sonora,Sonora,Sonora,37589,609795,COVID-19-related respiratory diseases,5,0,0
+2020,Sonora,Sonora,Sonora,37589,609795,Commuting accidents,2854,237,8
+2020,Sonora,Sonora,Sonora,37589,609795,Occupational diseases,5285,265,36
+2020,Sonora,Sonora,Sonora,37589,609795,Occupational diseases excluding COVID-19,438,265,3
+2020,Sonora,Sonora,Sonora,37589,609795,Work accidents,9341,990,16
+2020,Sonora,Sonora,Sonora,37589,609795,Work accidents and diseases,14626,,
+2020,Tabasco,Tabasco,Tabasco,10710,213088,All work risks,4816,167,33
+2020,Tabasco,Tabasco,Tabasco,10710,213088,COVID-19,1072,1,12
+2020,Tabasco,Tabasco,Tabasco,10710,213088,COVID-19-related respiratory diseases,1,0,0
+2020,Tabasco,Tabasco,Tabasco,10710,213088,Commuting accidents,849,26,5
+2020,Tabasco,Tabasco,Tabasco,10710,213088,Occupational diseases,1377,23,14
+2020,Tabasco,Tabasco,Tabasco,10710,213088,Occupational diseases excluding COVID-19,304,22,2
+2020,Tabasco,Tabasco,Tabasco,10710,213088,Work accidents,2590,118,14
+2020,Tabasco,Tabasco,Tabasco,10710,213088,Work accidents and diseases,3967,,
+2020,Tamaulipas,Tamaulipas,Tamaulipas,33749,717861,All work risks,17139,1460,47
+2020,Tamaulipas,Tamaulipas,Tamaulipas,33749,717861,COVID-19,3854,0,21
+2020,Tamaulipas,Tamaulipas,Tamaulipas,33749,717861,COVID-19-related respiratory diseases,10,0,0
+2020,Tamaulipas,Tamaulipas,Tamaulipas,33749,717861,Commuting accidents,3388,273,4
+2020,Tamaulipas,Tamaulipas,Tamaulipas,33749,717861,Occupational diseases,4131,202,21
+2020,Tamaulipas,Tamaulipas,Tamaulipas,33749,717861,Occupational diseases excluding COVID-19,267,202,0
+2020,Tamaulipas,Tamaulipas,Tamaulipas,33749,717861,Work accidents,9620,985,22
+2020,Tamaulipas,Tamaulipas,Tamaulipas,33749,717861,Work accidents and diseases,13751,,
+2020,Tlaxcala,Tlaxcala,Tlaxcala,5146,137120,All work risks,2437,207,18
+2020,Tlaxcala,Tlaxcala,Tlaxcala,5146,137120,COVID-19,671,1,8
+2020,Tlaxcala,Tlaxcala,Tlaxcala,5146,137120,COVID-19-related respiratory diseases,2,0,0
+2020,Tlaxcala,Tlaxcala,Tlaxcala,5146,137120,Commuting accidents,484,26,3
+2020,Tlaxcala,Tlaxcala,Tlaxcala,5146,137120,Occupational diseases,764,79,9
+2020,Tlaxcala,Tlaxcala,Tlaxcala,5146,137120,Occupational diseases excluding COVID-19,91,78,1
+2020,Tlaxcala,Tlaxcala,Tlaxcala,5146,137120,Work accidents,1189,102,6
+2020,Tlaxcala,Tlaxcala,Tlaxcala,5146,137120,Work accidents and diseases,1953,,
+2020,Veracruz North,Veracruz Norte,Veracruz,27466,428787,All work risks,8748,510,33
+2020,Veracruz North,Veracruz Norte,Veracruz,27466,428787,COVID-19,2758,0,18
+2020,Veracruz North,Veracruz Norte,Veracruz,27466,428787,COVID-19-related respiratory diseases,1,0,0
+2020,Veracruz North,Veracruz Norte,Veracruz,27466,428787,Commuting accidents,1246,106,1
+2020,Veracruz North,Veracruz Norte,Veracruz,27466,428787,Occupational diseases,2828,20,20
+2020,Veracruz North,Veracruz Norte,Veracruz,27466,428787,Occupational diseases excluding COVID-19,69,20,2
+2020,Veracruz North,Veracruz Norte,Veracruz,27466,428787,Work accidents,4674,384,12
+2020,Veracruz North,Veracruz Norte,Veracruz,27466,428787,Work accidents and diseases,7502,,
+2020,Veracruz South,Veracruz Sur,Veracruz,15905,299402,All work risks,7096,515,58
+2020,Veracruz South,Veracruz Sur,Veracruz,15905,299402,COVID-19,2403,1,35
+2020,Veracruz South,Veracruz Sur,Veracruz,15905,299402,COVID-19-related respiratory diseases,11,0,3
+2020,Veracruz South,Veracruz Sur,Veracruz,15905,299402,Commuting accidents,965,75,2
+2020,Veracruz South,Veracruz Sur,Veracruz,15905,299402,Occupational diseases,2564,143,42
+2020,Veracruz South,Veracruz Sur,Veracruz,15905,299402,Occupational diseases excluding COVID-19,150,142,4
+2020,Veracruz South,Veracruz Sur,Veracruz,15905,299402,Work accidents,3567,297,14
+2020,Veracruz South,Veracruz Sur,Veracruz,15905,299402,Work accidents and diseases,6131,,
+2020,Yucatán,Yucatán,Yucatán,19675,327477,All work risks,8232,225,20
+2020,Yucatán,Yucatán,Yucatán,19675,327477,COVID-19,2080,0,11
+2020,Yucatán,Yucatán,Yucatán,19675,327477,COVID-19-related respiratory diseases,5,0,0
+2020,Yucatán,Yucatán,Yucatán,19675,327477,Commuting accidents,1330,39,3
+2020,Yucatán,Yucatán,Yucatán,19675,327477,Occupational diseases,2345,14,11
+2020,Yucatán,Yucatán,Yucatán,19675,327477,Occupational diseases excluding COVID-19,260,14,0
+2020,Yucatán,Yucatán,Yucatán,19675,327477,Work accidents,4557,172,6
+2020,Yucatán,Yucatán,Yucatán,19675,327477,Work accidents and diseases,6902,,
+2020,Zacatecas,Zacatecas,Zacatecas,11754,201636,All work risks,6166,746,18
+2020,Zacatecas,Zacatecas,Zacatecas,11754,201636,COVID-19,894,1,4
+2020,Zacatecas,Zacatecas,Zacatecas,11754,201636,COVID-19-related respiratory diseases,7,0,0
+2020,Zacatecas,Zacatecas,Zacatecas,11754,201636,Commuting accidents,1197,47,4
+2020,Zacatecas,Zacatecas,Zacatecas,11754,201636,Occupational diseases,1368,431,5
+2020,Zacatecas,Zacatecas,Zacatecas,11754,201636,Occupational diseases excluding COVID-19,467,430,1
+2020,Zacatecas,Zacatecas,Zacatecas,11754,201636,Work accidents,3601,268,9
+2020,Zacatecas,Zacatecas,Zacatecas,11754,201636,Work accidents and diseases,4969,,
+2021,National,Nacional,National,1025010,19843230,All work risks,501915,35962,1526
+2021,National,Nacional,National,1025010,19843230,COVID-19,74494,204,450
+2021,National,Nacional,National,1025010,19843230,COVID-19-related respiratory diseases,327,57,70
+2021,National,Nacional,National,1025010,19843230,Commuting accidents,109512,5318,273
+2021,National,Nacional,National,1025010,19843230,Occupational diseases,86757,9656,640
+2021,National,Nacional,National,1025010,19843230,Occupational diseases excluding COVID-19,11936,9395,120
+2021,National,Nacional,National,1025010,19843230,Work accidents,305646,20988,613
+2021,National,Nacional,National,1025010,19843230,Work accidents and diseases,392403,,
+2021,Aguascalientes,Aguascalientes,Aguascalientes,16400,299838,All work risks,8450,474,21
+2021,Aguascalientes,Aguascalientes,Aguascalientes,16400,299838,COVID-19,635,1,4
+2021,Aguascalientes,Aguascalientes,Aguascalientes,16400,299838,COVID-19-related respiratory diseases,2,1,0
+2021,Aguascalientes,Aguascalientes,Aguascalientes,16400,299838,Commuting accidents,1987,85,5
+2021,Aguascalientes,Aguascalientes,Aguascalientes,16400,299838,Occupational diseases,840,60,5
+2021,Aguascalientes,Aguascalientes,Aguascalientes,16400,299838,Occupational diseases excluding COVID-19,203,58,1
+2021,Aguascalientes,Aguascalientes,Aguascalientes,16400,299838,Work accidents,5623,329,11
+2021,Aguascalientes,Aguascalientes,Aguascalientes,16400,299838,Work accidents and diseases,6463,,
+2021,Baja California,Baja California,Baja California,42608,984500,All work risks,26907,1788,50
+2021,Baja California,Baja California,Baja California,42608,984500,COVID-19,3896,13,20
+2021,Baja California,Baja California,Baja California,42608,984500,COVID-19-related respiratory diseases,2,0,0
+2021,Baja California,Baja California,Baja California,42608,984500,Commuting accidents,4768,256,12
+2021,Baja California,Baja California,Baja California,42608,984500,Occupational diseases,4566,308,20
+2021,Baja California,Baja California,Baja California,42608,984500,Occupational diseases excluding COVID-19,668,295,0
+2021,Baja California,Baja California,Baja California,42608,984500,Work accidents,17573,1224,18
+2021,Baja California,Baja California,Baja California,42608,984500,Work accidents and diseases,22139,,
+2021,Baja California Sur,Baja California Sur,Baja California Sur,13404,188733,All work risks,6563,354,9
+2021,Baja California Sur,Baja California Sur,Baja California Sur,13404,188733,COVID-19,1051,0,7
+2021,Baja California Sur,Baja California Sur,Baja California Sur,13404,188733,COVID-19-related respiratory diseases,1,0,0
+2021,Baja California Sur,Baja California Sur,Baja California Sur,13404,188733,Commuting accidents,421,29,0
+2021,Baja California Sur,Baja California Sur,Baja California Sur,13404,188733,Occupational diseases,1232,116,7
+2021,Baja California Sur,Baja California Sur,Baja California Sur,13404,188733,Occupational diseases excluding COVID-19,180,116,0
+2021,Baja California Sur,Baja California Sur,Baja California Sur,13404,188733,Work accidents,4910,209,2
+2021,Baja California Sur,Baja California Sur,Baja California Sur,13404,188733,Work accidents and diseases,6142,,
+2021,Mexico City North,Ciudad de México Norte,Mexico City,50537,823369,All work risks,17760,864,65
+2021,Mexico City North,Ciudad de México Norte,Mexico City,50537,823369,COVID-19,5243,29,47
+2021,Mexico City North,Ciudad de México Norte,Mexico City,50537,823369,COVID-19-related respiratory diseases,3,1,0
+2021,Mexico City North,Ciudad de México Norte,Mexico City,50537,823369,Commuting accidents,3499,126,6
+2021,Mexico City North,Ciudad de México Norte,Mexico City,50537,823369,Occupational diseases,5388,180,48
+2021,Mexico City North,Ciudad de México Norte,Mexico City,50537,823369,Occupational diseases excluding COVID-19,142,150,1
+2021,Mexico City North,Ciudad de México Norte,Mexico City,50537,823369,Work accidents,8873,558,11
+2021,Mexico City North,Ciudad de México Norte,Mexico City,50537,823369,Work accidents and diseases,14261,,
+2021,Mexico City South,Ciudad de México Sur,Mexico City,71046,1262241,All work risks,27072,1305,103
+2021,Mexico City South,Ciudad de México Sur,Mexico City,71046,1262241,COVID-19,5117,15,71
+2021,Mexico City South,Ciudad de México Sur,Mexico City,71046,1262241,COVID-19-related respiratory diseases,4,0,1
+2021,Mexico City South,Ciudad de México Sur,Mexico City,71046,1262241,Commuting accidents,6360,267,9
+2021,Mexico City South,Ciudad de México Sur,Mexico City,71046,1262241,Occupational diseases,5414,204,80
+2021,Mexico City South,Ciudad de México Sur,Mexico City,71046,1262241,Occupational diseases excluding COVID-19,293,189,8
+2021,Mexico City South,Ciudad de México Sur,Mexico City,71046,1262241,Work accidents,15298,834,14
+2021,Mexico City South,Ciudad de México Sur,Mexico City,71046,1262241,Work accidents and diseases,20712,,
+2021,Campeche,Campeche,Campeche,6048,121604,All work risks,2181,177,7
+2021,Campeche,Campeche,Campeche,6048,121604,COVID-19,553,1,1
+2021,Campeche,Campeche,Campeche,6048,121604,Commuting accidents,371,23,1
+2021,Campeche,Campeche,Campeche,6048,121604,Occupational diseases,599,41,2
+2021,Campeche,Campeche,Campeche,6048,121604,Occupational diseases excluding COVID-19,46,40,1
+2021,Campeche,Campeche,Campeche,6048,121604,Work accidents,1211,113,4
+2021,Campeche,Campeche,Campeche,6048,121604,Work accidents and diseases,1810,,
+2021,Chiapas,Chiapas,Chiapas,14562,249089,All work risks,3687,133,23
+2021,Chiapas,Chiapas,Chiapas,14562,249089,COVID-19,592,1,6
+2021,Chiapas,Chiapas,Chiapas,14562,249089,Commuting accidents,532,18,3
+2021,Chiapas,Chiapas,Chiapas,14562,249089,Occupational diseases,636,10,8
+2021,Chiapas,Chiapas,Chiapas,14562,249089,Occupational diseases excluding COVID-19,44,9,2
+2021,Chiapas,Chiapas,Chiapas,14562,249089,Work accidents,2519,105,12
+2021,Chiapas,Chiapas,Chiapas,14562,249089,Work accidents and diseases,3155,,
+2021,Chihuahua,Chihuahua,Chihuahua,40896,933822,All work risks,20125,1905,34
+2021,Chihuahua,Chihuahua,Chihuahua,40896,933822,COVID-19,1919,5,6
+2021,Chihuahua,Chihuahua,Chihuahua,40896,933822,Commuting accidents,4863,248,7
+2021,Chihuahua,Chihuahua,Chihuahua,40896,933822,Occupational diseases,2374,401,11
+2021,Chihuahua,Chihuahua,Chihuahua,40896,933822,Occupational diseases excluding COVID-19,455,396,5
+2021,Chihuahua,Chihuahua,Chihuahua,40896,933822,Work accidents,12888,1256,16
+2021,Chihuahua,Chihuahua,Chihuahua,40896,933822,Work accidents and diseases,15262,,
+2021,Coahuila,Coahuila,Coahuila,34913,791861,All work risks,21113,5155,50
+2021,Coahuila,Coahuila,Coahuila,34913,791861,COVID-19,3048,17,9
+2021,Coahuila,Coahuila,Coahuila,34913,791861,COVID-19-related respiratory diseases,2,0,0
+2021,Coahuila,Coahuila,Coahuila,34913,791861,Commuting accidents,4121,195,10
+2021,Coahuila,Coahuila,Coahuila,34913,791861,Occupational diseases,5844,3880,10
+2021,Coahuila,Coahuila,Coahuila,34913,791861,Occupational diseases excluding COVID-19,2794,3863,1
+2021,Coahuila,Coahuila,Coahuila,34913,791861,Work accidents,11148,1080,30
+2021,Coahuila,Coahuila,Coahuila,34913,791861,Work accidents and diseases,16992,,
+2021,Colima,Colima,Colima,11063,144874,All work risks,5422,192,8
+2021,Colima,Colima,Colima,11063,144874,COVID-19,693,1,3
+2021,Colima,Colima,Colima,11063,144874,Commuting accidents,701,31,1
+2021,Colima,Colima,Colima,11063,144874,Occupational diseases,728,30,3
+2021,Colima,Colima,Colima,11063,144874,Occupational diseases excluding COVID-19,35,29,0
+2021,Colima,Colima,Colima,11063,144874,Work accidents,3993,131,4
+2021,Colima,Colima,Colima,11063,144874,Work accidents and diseases,4721,,
+2021,Durango,Durango,Durango,14488,278888,All work risks,6919,661,28
+2021,Durango,Durango,Durango,14488,278888,COVID-19,748,4,2
+2021,Durango,Durango,Durango,14488,278888,COVID-19-related respiratory diseases,2,0,0
+2021,Durango,Durango,Durango,14488,278888,Commuting accidents,1276,77,4
+2021,Durango,Durango,Durango,14488,278888,Occupational diseases,870,87,7
+2021,Durango,Durango,Durango,14488,278888,Occupational diseases excluding COVID-19,120,83,5
+2021,Durango,Durango,Durango,14488,278888,Work accidents,4773,497,17
+2021,Durango,Durango,Durango,14488,278888,Work accidents and diseases,5643,,
+2021,Guanajuato,Guanajuato,Guanajuato,48567,1027376,All work risks,25946,1746,94
+2021,Guanajuato,Guanajuato,Guanajuato,48567,1027376,COVID-19,2577,8,12
+2021,Guanajuato,Guanajuato,Guanajuato,48567,1027376,Commuting accidents,7545,355,32
+2021,Guanajuato,Guanajuato,Guanajuato,48567,1027376,Occupational diseases,3149,437,14
+2021,Guanajuato,Guanajuato,Guanajuato,48567,1027376,Occupational diseases excluding COVID-19,572,429,2
+2021,Guanajuato,Guanajuato,Guanajuato,48567,1027376,Work accidents,15252,954,48
+2021,Guanajuato,Guanajuato,Guanajuato,48567,1027376,Work accidents and diseases,18401,,
+2021,Guerrero,Guerrero,Guerrero,13431,182907,All work risks,5222,184,21
+2021,Guerrero,Guerrero,Guerrero,13431,182907,COVID-19,907,2,5
+2021,Guerrero,Guerrero,Guerrero,13431,182907,COVID-19-related respiratory diseases,2,0,0
+2021,Guerrero,Guerrero,Guerrero,13431,182907,Commuting accidents,778,28,2
+2021,Guerrero,Guerrero,Guerrero,13431,182907,Occupational diseases,1014,39,5
+2021,Guerrero,Guerrero,Guerrero,13431,182907,Occupational diseases excluding COVID-19,105,37,0
+2021,Guerrero,Guerrero,Guerrero,13431,182907,Work accidents,3430,117,14
+2021,Guerrero,Guerrero,Guerrero,13431,182907,Work accidents and diseases,4444,,
+2021,Hidalgo,Hidalgo,Hidalgo,15680,276473,All work risks,7994,722,27
+2021,Hidalgo,Hidalgo,Hidalgo,15680,276473,COVID-19,1420,8,6
+2021,Hidalgo,Hidalgo,Hidalgo,15680,276473,COVID-19-related respiratory diseases,0,1,0
+2021,Hidalgo,Hidalgo,Hidalgo,15680,276473,Commuting accidents,1849,82,5
+2021,Hidalgo,Hidalgo,Hidalgo,15680,276473,Occupational diseases,1613,267,7
+2021,Hidalgo,Hidalgo,Hidalgo,15680,276473,Occupational diseases excluding COVID-19,193,258,1
+2021,Hidalgo,Hidalgo,Hidalgo,15680,276473,Work accidents,4532,373,15
+2021,Hidalgo,Hidalgo,Hidalgo,15680,276473,Work accidents and diseases,6145,,
+2021,Jalisco,Jalisco,Jalisco,100698,1647927,All work risks,55921,2721,99
+2021,Jalisco,Jalisco,Jalisco,100698,1647927,COVID-19,7858,6,14
+2021,Jalisco,Jalisco,Jalisco,100698,1647927,COVID-19-related respiratory diseases,2,0,0
+2021,Jalisco,Jalisco,Jalisco,100698,1647927,Commuting accidents,12794,528,27
+2021,Jalisco,Jalisco,Jalisco,100698,1647927,Occupational diseases,8404,241,22
+2021,Jalisco,Jalisco,Jalisco,100698,1647927,Occupational diseases excluding COVID-19,544,235,8
+2021,Jalisco,Jalisco,Jalisco,100698,1647927,Work accidents,34723,1952,50
+2021,Jalisco,Jalisco,Jalisco,100698,1647927,Work accidents and diseases,43127,,
+2021,Michoacán,Michoacán,Michoacán,36480,491318,All work risks,12794,788,60
+2021,Michoacán,Michoacán,Michoacán,36480,491318,COVID-19,2328,0,3
+2021,Michoacán,Michoacán,Michoacán,36480,491318,COVID-19-related respiratory diseases,6,2,4
+2021,Michoacán,Michoacán,Michoacán,36480,491318,Commuting accidents,1663,104,15
+2021,Michoacán,Michoacán,Michoacán,36480,491318,Occupational diseases,2443,94,24
+2021,Michoacán,Michoacán,Michoacán,36480,491318,Occupational diseases excluding COVID-19,109,92,17
+2021,Michoacán,Michoacán,Michoacán,36480,491318,Work accidents,8688,590,21
+2021,Michoacán,Michoacán,Michoacán,36480,491318,Work accidents and diseases,11131,,
+2021,Morelos,Morelos,Morelos,12266,239386,All work risks,5689,313,24
+2021,Morelos,Morelos,Morelos,12266,239386,COVID-19,1263,2,16
+2021,Morelos,Morelos,Morelos,12266,239386,Commuting accidents,1273,52,3
+2021,Morelos,Morelos,Morelos,12266,239386,Occupational diseases,1426,106,16
+2021,Morelos,Morelos,Morelos,12266,239386,Occupational diseases excluding COVID-19,163,104,0
+2021,Morelos,Morelos,Morelos,12266,239386,Work accidents,2990,155,5
+2021,Morelos,Morelos,Morelos,12266,239386,Work accidents and diseases,4416,,
+2021,State of Mexico East,México Oriente,State of Mexico,47382,1524835,All work risks,47562,3350,192
+2021,State of Mexico East,México Oriente,State of Mexico,47382,1524835,COVID-19,6644,16,48
+2021,State of Mexico East,México Oriente,State of Mexico,47382,1524835,COVID-19-related respiratory diseases,111,36,49
+2021,State of Mexico East,México Oriente,State of Mexico,47382,1524835,Commuting accidents,13983,707,32
+2021,State of Mexico East,México Oriente,State of Mexico,47382,1524835,Occupational diseases,7411,689,103
+2021,State of Mexico East,México Oriente,State of Mexico,47382,1524835,Occupational diseases excluding COVID-19,656,637,6
+2021,State of Mexico East,México Oriente,State of Mexico,47382,1524835,Work accidents,26168,1954,57
+2021,State of Mexico East,México Oriente,State of Mexico,47382,1524835,Work accidents and diseases,33579,,
+2021,State of Mexico West,México Poniente,State of Mexico,27031,843230,All work risks,19455,865,80
+2021,State of Mexico West,México Poniente,State of Mexico,27031,843230,COVID-19,2826,14,39
+2021,State of Mexico West,México Poniente,State of Mexico,27031,843230,COVID-19-related respiratory diseases,11,7,3
+2021,State of Mexico West,México Poniente,State of Mexico,27031,843230,Commuting accidents,5389,126,5
+2021,State of Mexico West,México Poniente,State of Mexico,27031,843230,Occupational diseases,3102,156,47
+2021,State of Mexico West,México Poniente,State of Mexico,27031,843230,Occupational diseases excluding COVID-19,265,135,5
+2021,State of Mexico West,México Poniente,State of Mexico,27031,843230,Work accidents,10964,583,28
+2021,State of Mexico West,México Poniente,State of Mexico,27031,843230,Work accidents and diseases,14066,,
+2021,Nayarit,Nayarit,Nayarit,13202,162391,All work risks,6302,310,15
+2021,Nayarit,Nayarit,Nayarit,13202,162391,COVID-19,1053,0,4
+2021,Nayarit,Nayarit,Nayarit,13202,162391,COVID-19-related respiratory diseases,1,0,0
+2021,Nayarit,Nayarit,Nayarit,13202,162391,Commuting accidents,847,53,5
+2021,Nayarit,Nayarit,Nayarit,13202,162391,Occupational diseases,1165,25,4
+2021,Nayarit,Nayarit,Nayarit,13202,162391,Occupational diseases excluding COVID-19,111,25,0
+2021,Nayarit,Nayarit,Nayarit,13202,162391,Work accidents,4290,232,6
+2021,Nayarit,Nayarit,Nayarit,13202,162391,Work accidents and diseases,5455,,
+2021,Nuevo León,Nuevo León,Nuevo León,72130,1554678,All work risks,32417,2456,63
+2021,Nuevo León,Nuevo León,Nuevo León,72130,1554678,COVID-19,4064,5,6
+2021,Nuevo León,Nuevo León,Nuevo León,72130,1554678,COVID-19-related respiratory diseases,149,6,6
+2021,Nuevo León,Nuevo León,Nuevo León,72130,1554678,Commuting accidents,5553,287,4
+2021,Nuevo León,Nuevo León,Nuevo León,72130,1554678,Occupational diseases,4902,421,26
+2021,Nuevo León,Nuevo León,Nuevo León,72130,1554678,Occupational diseases excluding COVID-19,689,410,14
+2021,Nuevo León,Nuevo León,Nuevo León,72130,1554678,Work accidents,21962,1748,33
+2021,Nuevo León,Nuevo León,Nuevo León,72130,1554678,Work accidents and diseases,26864,,
+2021,Oaxaca,Oaxaca,Oaxaca,14151,201098,All work risks,5133,207,22
+2021,Oaxaca,Oaxaca,Oaxaca,14151,201098,COVID-19,1041,1,4
+2021,Oaxaca,Oaxaca,Oaxaca,14151,201098,COVID-19-related respiratory diseases,1,0,0
+2021,Oaxaca,Oaxaca,Oaxaca,14151,201098,Commuting accidents,702,34,3
+2021,Oaxaca,Oaxaca,Oaxaca,14151,201098,Occupational diseases,1216,17,5
+2021,Oaxaca,Oaxaca,Oaxaca,14151,201098,Occupational diseases excluding COVID-19,174,16,1
+2021,Oaxaca,Oaxaca,Oaxaca,14151,201098,Work accidents,3215,156,14
+2021,Oaxaca,Oaxaca,Oaxaca,14151,201098,Work accidents and diseases,4431,,
+2021,Puebla,Puebla,Puebla,33625,626160,All work risks,16325,717,52
+2021,Puebla,Puebla,Puebla,33625,626160,COVID-19,2009,4,17
+2021,Puebla,Puebla,Puebla,33625,626160,COVID-19-related respiratory diseases,2,0,1
+2021,Puebla,Puebla,Puebla,33625,626160,Commuting accidents,4386,146,10
+2021,Puebla,Puebla,Puebla,33625,626160,Occupational diseases,2190,44,23
+2021,Puebla,Puebla,Puebla,33625,626160,Occupational diseases excluding COVID-19,179,40,5
+2021,Puebla,Puebla,Puebla,33625,626160,Work accidents,9749,527,19
+2021,Puebla,Puebla,Puebla,33625,626160,Work accidents and diseases,11939,,
+2021,Querétaro,Querétaro,Querétaro,26907,564170,All work risks,10737,399,24
+2021,Querétaro,Querétaro,Querétaro,26907,564170,COVID-19,1246,0,2
+2021,Querétaro,Querétaro,Querétaro,26907,564170,COVID-19-related respiratory diseases,1,0,0
+2021,Querétaro,Querétaro,Querétaro,26907,564170,Commuting accidents,2641,59,4
+2021,Querétaro,Querétaro,Querétaro,26907,564170,Occupational diseases,1384,36,5
+2021,Querétaro,Querétaro,Querétaro,26907,564170,Occupational diseases excluding COVID-19,137,36,3
+2021,Querétaro,Querétaro,Querétaro,26907,564170,Work accidents,6712,304,15
+2021,Querétaro,Querétaro,Querétaro,26907,564170,Work accidents and diseases,8096,,
+2021,Quintana Roo,Quintana Roo,Quintana Roo,18031,410201,All work risks,9631,437,27
+2021,Quintana Roo,Quintana Roo,Quintana Roo,18031,410201,COVID-19,871,2,1
+2021,Quintana Roo,Quintana Roo,Quintana Roo,18031,410201,COVID-19-related respiratory diseases,4,0,0
+2021,Quintana Roo,Quintana Roo,Quintana Roo,18031,410201,Commuting accidents,1317,109,7
+2021,Quintana Roo,Quintana Roo,Quintana Roo,18031,410201,Occupational diseases,1064,61,6
+2021,Quintana Roo,Quintana Roo,Quintana Roo,18031,410201,Occupational diseases excluding COVID-19,189,59,5
+2021,Quintana Roo,Quintana Roo,Quintana Roo,18031,410201,Work accidents,7250,267,14
+2021,Quintana Roo,Quintana Roo,Quintana Roo,18031,410201,Work accidents and diseases,8314,,
+2021,San Luis Potosí,San Luis Potosí,San Luis Potosí,23320,445558,All work risks,11435,1243,28
+2021,San Luis Potosí,San Luis Potosí,San Luis Potosí,23320,445558,COVID-19,1037,3,5
+2021,San Luis Potosí,San Luis Potosí,San Luis Potosí,23320,445558,COVID-19-related respiratory diseases,1,1,0
+2021,San Luis Potosí,San Luis Potosí,San Luis Potosí,23320,445558,Commuting accidents,3724,247,6
+2021,San Luis Potosí,San Luis Potosí,San Luis Potosí,23320,445558,Occupational diseases,1470,275,10
+2021,San Luis Potosí,San Luis Potosí,San Luis Potosí,23320,445558,Occupational diseases excluding COVID-19,432,271,5
+2021,San Luis Potosí,San Luis Potosí,San Luis Potosí,23320,445558,Work accidents,6241,721,12
+2021,San Luis Potosí,San Luis Potosí,San Luis Potosí,23320,445558,Work accidents and diseases,7711,,
+2021,Sinaloa,Sinaloa,Sinaloa,41500,577422,All work risks,14475,1189,57
+2021,Sinaloa,Sinaloa,Sinaloa,41500,577422,COVID-19,2160,3,12
+2021,Sinaloa,Sinaloa,Sinaloa,41500,577422,COVID-19-related respiratory diseases,6,0,4
+2021,Sinaloa,Sinaloa,Sinaloa,41500,577422,Commuting accidents,2714,280,13
+2021,Sinaloa,Sinaloa,Sinaloa,41500,577422,Occupational diseases,2455,121,21
+2021,Sinaloa,Sinaloa,Sinaloa,41500,577422,Occupational diseases excluding COVID-19,289,118,5
+2021,Sinaloa,Sinaloa,Sinaloa,41500,577422,Work accidents,9306,788,23
+2021,Sinaloa,Sinaloa,Sinaloa,41500,577422,Work accidents and diseases,11761,,
+2021,Sonora,Sonora,Sonora,38321,620718,All work risks,17300,1611,45
+2021,Sonora,Sonora,Sonora,38321,620718,COVID-19,2413,3,16
+2021,Sonora,Sonora,Sonora,38321,620718,COVID-19-related respiratory diseases,3,1,0
+2021,Sonora,Sonora,Sonora,38321,620718,Commuting accidents,3404,273,11
+2021,Sonora,Sonora,Sonora,38321,620718,Occupational diseases,3042,259,17
+2021,Sonora,Sonora,Sonora,38321,620718,Occupational diseases excluding COVID-19,626,255,1
+2021,Sonora,Sonora,Sonora,38321,620718,Work accidents,10854,1079,17
+2021,Sonora,Sonora,Sonora,38321,620718,Work accidents and diseases,13896,,
+2021,Tabasco,Tabasco,Tabasco,11226,227164,All work risks,4906,156,20
+2021,Tabasco,Tabasco,Tabasco,11226,227164,COVID-19,463,3,2
+2021,Tabasco,Tabasco,Tabasco,11226,227164,COVID-19-related respiratory diseases,1,0,0
+2021,Tabasco,Tabasco,Tabasco,11226,227164,Commuting accidents,1150,26,5
+2021,Tabasco,Tabasco,Tabasco,11226,227164,Occupational diseases,744,18,5
+2021,Tabasco,Tabasco,Tabasco,11226,227164,Occupational diseases excluding COVID-19,280,15,3
+2021,Tabasco,Tabasco,Tabasco,11226,227164,Work accidents,3012,112,10
+2021,Tabasco,Tabasco,Tabasco,11226,227164,Work accidents and diseases,3756,,
+2021,Tamaulipas,Tamaulipas,Tamaulipas,34034,725536,All work risks,15130,1300,45
+2021,Tamaulipas,Tamaulipas,Tamaulipas,34034,725536,COVID-19,2189,11,12
+2021,Tamaulipas,Tamaulipas,Tamaulipas,34034,725536,COVID-19-related respiratory diseases,2,0,1
+2021,Tamaulipas,Tamaulipas,Tamaulipas,34034,725536,Commuting accidents,3318,194,12
+2021,Tamaulipas,Tamaulipas,Tamaulipas,34034,725536,Occupational diseases,2499,211,15
+2021,Tamaulipas,Tamaulipas,Tamaulipas,34034,725536,Occupational diseases excluding COVID-19,308,200,2
+2021,Tamaulipas,Tamaulipas,Tamaulipas,34034,725536,Work accidents,9313,895,18
+2021,Tamaulipas,Tamaulipas,Tamaulipas,34034,725536,Work accidents and diseases,11812,,
+2021,Tlaxcala,Tlaxcala,Tlaxcala,5282,141267,All work risks,2587,183,14
+2021,Tlaxcala,Tlaxcala,Tlaxcala,5282,141267,COVID-19,752,4,5
+2021,Tlaxcala,Tlaxcala,Tlaxcala,5282,141267,Commuting accidents,546,23,0
+2021,Tlaxcala,Tlaxcala,Tlaxcala,5282,141267,Occupational diseases,795,39,7
+2021,Tlaxcala,Tlaxcala,Tlaxcala,5282,141267,Occupational diseases excluding COVID-19,43,35,2
+2021,Tlaxcala,Tlaxcala,Tlaxcala,5282,141267,Work accidents,1246,121,7
+2021,Tlaxcala,Tlaxcala,Tlaxcala,5282,141267,Work accidents and diseases,2041,,
+2021,Veracruz North,Veracruz Norte,Veracruz,27805,431261,All work risks,8175,494,32
+2021,Veracruz North,Veracruz Norte,Veracruz,27805,431261,COVID-19,1442,4,15
+2021,Veracruz North,Veracruz Norte,Veracruz,27805,431261,Commuting accidents,1240,98,5
+2021,Veracruz North,Veracruz Norte,Veracruz,27805,431261,Occupational diseases,1479,25,15
+2021,Veracruz North,Veracruz Norte,Veracruz,27805,431261,Occupational diseases excluding COVID-19,37,21,0
+2021,Veracruz North,Veracruz Norte,Veracruz,27805,431261,Work accidents,5456,371,12
+2021,Veracruz North,Veracruz Norte,Veracruz,27805,431261,Work accidents and diseases,6935,,
+2021,Veracruz South,Veracruz Sur,Veracruz,15911,301844,All work risks,6852,565,36
+2021,Veracruz South,Veracruz Sur,Veracruz,15911,301844,COVID-19,1819,11,12
+2021,Veracruz South,Veracruz Sur,Veracruz,15911,301844,COVID-19-related respiratory diseases,3,1,1
+2021,Veracruz South,Veracruz Sur,Veracruz,15911,301844,Commuting accidents,1200,77,5
+2021,Veracruz South,Veracruz Sur,Veracruz,15911,301844,Occupational diseases,1954,140,20
+2021,Veracruz South,Veracruz Sur,Veracruz,15911,301844,Occupational diseases excluding COVID-19,132,128,7
+2021,Veracruz South,Veracruz Sur,Veracruz,15911,301844,Work accidents,3698,348,11
+2021,Veracruz South,Veracruz Sur,Veracruz,15911,301844,Work accidents and diseases,5652,,
+2021,Yucatán,Yucatán,Yucatán,20129,336091,All work risks,7252,185,16
+2021,Yucatán,Yucatán,Yucatán,20129,336091,COVID-19,1796,4,10
+2021,Yucatán,Yucatán,Yucatán,20129,336091,COVID-19-related respiratory diseases,1,0,0
+2021,Yucatán,Yucatán,Yucatán,20129,336091,Commuting accidents,1356,51,0
+2021,Yucatán,Yucatán,Yucatán,20129,336091,Occupational diseases,1995,12,11
+2021,Yucatán,Yucatán,Yucatán,20129,336091,Occupational diseases excluding COVID-19,198,8,1
+2021,Yucatán,Yucatán,Yucatán,20129,336091,Work accidents,3901,122,5
+2021,Yucatán,Yucatán,Yucatán,20129,336091,Work accidents and diseases,5896,,
+2021,Zacatecas,Zacatecas,Zacatecas,11936,205400,All work risks,6476,813,35
+2021,Zacatecas,Zacatecas,Zacatecas,11936,205400,COVID-19,821,3,8
+2021,Zacatecas,Zacatecas,Zacatecas,11936,205400,COVID-19-related respiratory diseases,4,0,0
+2021,Zacatecas,Zacatecas,Zacatecas,11936,205400,Commuting accidents,1241,24,4
+2021,Zacatecas,Zacatecas,Zacatecas,11936,205400,Occupational diseases,1350,606,11
+2021,Zacatecas,Zacatecas,Zacatecas,11936,205400,Occupational diseases excluding COVID-19,525,603,3
+2021,Zacatecas,Zacatecas,Zacatecas,11936,205400,Work accidents,3885,183,20
+2021,Zacatecas,Zacatecas,Zacatecas,11936,205400,Work accidents and diseases,5235,,
+2022,National,Nacional,National,1064182,20717849,All work risks,565473,36894,1016
+2022,National,Nacional,National,1064182,20717849,COVID-19,63405,174,75
+2022,National,Nacional,National,1064182,20717849,COVID-19-related respiratory diseases,76,22,5
+2022,National,Nacional,National,1064182,20717849,Commuting accidents,134365,5939,286
+2022,National,Nacional,National,1064182,20717849,Occupational diseases,78647,9312,120
+2022,National,Nacional,National,1064182,20717849,Occupational diseases excluding COVID-19,15166,9116,40
+2022,National,Nacional,National,1064182,20717849,Work accidents,352461,21643,610
+2022,National,Nacional,National,1064182,20717849,Work accidents and diseases,431108,,
+2022,Aguascalientes,Aguascalientes,Aguascalientes,16720,307410,All work risks,9979,512,18
+2022,Aguascalientes,Aguascalientes,Aguascalientes,16720,307410,COVID-19,1504,2,2
+2022,Aguascalientes,Aguascalientes,Aguascalientes,16720,307410,COVID-19-related respiratory diseases,2,0,0
+2022,Aguascalientes,Aguascalientes,Aguascalientes,16720,307410,Commuting accidents,2272,89,8
+2022,Aguascalientes,Aguascalientes,Aguascalientes,16720,307410,Occupational diseases,1750,77,3
+2022,Aguascalientes,Aguascalientes,Aguascalientes,16720,307410,Occupational diseases excluding COVID-19,244,75,1
+2022,Aguascalientes,Aguascalientes,Aguascalientes,16720,307410,Work accidents,5957,346,7
+2022,Aguascalientes,Aguascalientes,Aguascalientes,16720,307410,Work accidents and diseases,7707,,
+2022,Baja California,Baja California,Baja California,44269,1027531,All work risks,29633,2144,17
+2022,Baja California,Baja California,Baja California,44269,1027531,COVID-19,4073,9,1
+2022,Baja California,Baja California,Baja California,44269,1027531,COVID-19-related respiratory diseases,4,0,0
+2022,Baja California,Baja California,Baja California,44269,1027531,Commuting accidents,5408,298,6
+2022,Baja California,Baja California,Baja California,44269,1027531,Occupational diseases,4925,394,1
+2022,Baja California,Baja California,Baja California,44269,1027531,Occupational diseases excluding COVID-19,848,385,0
+2022,Baja California,Baja California,Baja California,44269,1027531,Work accidents,19300,1452,10
+2022,Baja California,Baja California,Baja California,44269,1027531,Work accidents and diseases,24225,,
+2022,Baja California Sur,Baja California Sur,Baja California Sur,14515,204217,All work risks,8799,306,3
+2022,Baja California Sur,Baja California Sur,Baja California Sur,14515,204217,COVID-19,1455,1,0
+2022,Baja California Sur,Baja California Sur,Baja California Sur,14515,204217,COVID-19-related respiratory diseases,2,0,0
+2022,Baja California Sur,Baja California Sur,Baja California Sur,14515,204217,Commuting accidents,636,25,1
+2022,Baja California Sur,Baja California Sur,Baja California Sur,14515,204217,Occupational diseases,1700,124,0
+2022,Baja California Sur,Baja California Sur,Baja California Sur,14515,204217,Occupational diseases excluding COVID-19,243,123,0
+2022,Baja California Sur,Baja California Sur,Baja California Sur,14515,204217,Work accidents,6463,157,2
+2022,Baja California Sur,Baja California Sur,Baja California Sur,14515,204217,Work accidents and diseases,8163,,
+2022,Mexico City North,Ciudad de México Norte,Mexico City,53992,862152,All work risks,19951,780,26
+2022,Mexico City North,Ciudad de México Norte,Mexico City,53992,862152,COVID-19,4499,11,6
+2022,Mexico City North,Ciudad de México Norte,Mexico City,53992,862152,COVID-19-related respiratory diseases,3,0,0
+2022,Mexico City North,Ciudad de México Norte,Mexico City,53992,862152,Commuting accidents,4832,141,2
+2022,Mexico City North,Ciudad de México Norte,Mexico City,53992,862152,Occupational diseases,4689,115,7
+2022,Mexico City North,Ciudad de México Norte,Mexico City,53992,862152,Occupational diseases excluding COVID-19,187,104,1
+2022,Mexico City North,Ciudad de México Norte,Mexico City,53992,862152,Work accidents,10430,524,17
+2022,Mexico City North,Ciudad de México Norte,Mexico City,53992,862152,Work accidents and diseases,15119,,
+2022,Mexico City South,Ciudad de México Sur,Mexico City,73020,1314014,All work risks,32539,1092,30
+2022,Mexico City South,Ciudad de México Sur,Mexico City,73020,1314014,COVID-19,5268,22,9
+2022,Mexico City South,Ciudad de México Sur,Mexico City,73020,1314014,COVID-19-related respiratory diseases,2,0,0
+2022,Mexico City South,Ciudad de México Sur,Mexico City,73020,1314014,Commuting accidents,8595,252,9
+2022,Mexico City South,Ciudad de México Sur,Mexico City,73020,1314014,Occupational diseases,5573,134,9
+2022,Mexico City South,Ciudad de México Sur,Mexico City,73020,1314014,Occupational diseases excluding COVID-19,303,112,0
+2022,Mexico City South,Ciudad de México Sur,Mexico City,73020,1314014,Work accidents,18371,706,12
+2022,Mexico City South,Ciudad de México Sur,Mexico City,73020,1314014,Work accidents and diseases,23944,,
+2022,Campeche,Campeche,Campeche,6404,127675,All work risks,2415,186,4
+2022,Campeche,Campeche,Campeche,6404,127675,COVID-19,391,1,0
+2022,Campeche,Campeche,Campeche,6404,127675,Commuting accidents,459,27,2
+2022,Campeche,Campeche,Campeche,6404,127675,Occupational diseases,502,39,0
+2022,Campeche,Campeche,Campeche,6404,127675,Occupational diseases excluding COVID-19,111,38,0
+2022,Campeche,Campeche,Campeche,6404,127675,Work accidents,1454,120,2
+2022,Campeche,Campeche,Campeche,6404,127675,Work accidents and diseases,1956,,
+2022,Chiapas,Chiapas,Chiapas,14813,259556,All work risks,3695,194,9
+2022,Chiapas,Chiapas,Chiapas,14813,259556,COVID-19,367,0,0
+2022,Chiapas,Chiapas,Chiapas,14813,259556,Commuting accidents,516,34,2
+2022,Chiapas,Chiapas,Chiapas,14813,259556,Occupational diseases,411,17,0
+2022,Chiapas,Chiapas,Chiapas,14813,259556,Occupational diseases excluding COVID-19,44,17,0
+2022,Chiapas,Chiapas,Chiapas,14813,259556,Work accidents,2768,143,7
+2022,Chiapas,Chiapas,Chiapas,14813,259556,Work accidents and diseases,3179,,
+2022,Chihuahua,Chihuahua,Chihuahua,42398,966924,All work risks,21355,1631,31
+2022,Chihuahua,Chihuahua,Chihuahua,42398,966924,COVID-19,2500,4,2
+2022,Chihuahua,Chihuahua,Chihuahua,42398,966924,COVID-19-related respiratory diseases,2,0,0
+2022,Chihuahua,Chihuahua,Chihuahua,42398,966924,Commuting accidents,5068,205,8
+2022,Chihuahua,Chihuahua,Chihuahua,42398,966924,Occupational diseases,2952,292,2
+2022,Chihuahua,Chihuahua,Chihuahua,42398,966924,Occupational diseases excluding COVID-19,450,288,0
+2022,Chihuahua,Chihuahua,Chihuahua,42398,966924,Work accidents,13335,1134,21
+2022,Chihuahua,Chihuahua,Chihuahua,42398,966924,Work accidents and diseases,16287,,
+2022,Coahuila,Coahuila,Coahuila,35912,825810,All work risks,23465,4451,41
+2022,Coahuila,Coahuila,Coahuila,35912,825810,COVID-19,2132,13,0
+2022,Coahuila,Coahuila,Coahuila,35912,825810,COVID-19-related respiratory diseases,1,0,0
+2022,Coahuila,Coahuila,Coahuila,35912,825810,Commuting accidents,5151,238,6
+2022,Coahuila,Coahuila,Coahuila,35912,825810,Occupational diseases,5295,3108,0
+2022,Coahuila,Coahuila,Coahuila,35912,825810,Occupational diseases excluding COVID-19,3162,3095,0
+2022,Coahuila,Coahuila,Coahuila,35912,825810,Work accidents,13019,1105,35
+2022,Coahuila,Coahuila,Coahuila,35912,825810,Work accidents and diseases,18314,,
+2022,Colima,Colima,Colima,11553,149776,All work risks,6022,279,22
+2022,Colima,Colima,Colima,11553,149776,COVID-19,336,1,0
+2022,Colima,Colima,Colima,11553,149776,COVID-19-related respiratory diseases,1,0,0
+2022,Colima,Colima,Colima,11553,149776,Commuting accidents,1096,44,10
+2022,Colima,Colima,Colima,11553,149776,Occupational diseases,414,28,0
+2022,Colima,Colima,Colima,11553,149776,Occupational diseases excluding COVID-19,77,27,0
+2022,Colima,Colima,Colima,11553,149776,Work accidents,4512,207,12
+2022,Colima,Colima,Colima,11553,149776,Work accidents and diseases,4926,,
+2022,Durango,Durango,Durango,14663,287191,All work risks,7489,639,33
+2022,Durango,Durango,Durango,14663,287191,COVID-19,1079,0,2
+2022,Durango,Durango,Durango,14663,287191,Commuting accidents,1163,73,4
+2022,Durango,Durango,Durango,14663,287191,Occupational diseases,1261,77,4
+2022,Durango,Durango,Durango,14663,287191,Occupational diseases excluding COVID-19,182,77,2
+2022,Durango,Durango,Durango,14663,287191,Work accidents,5065,489,25
+2022,Durango,Durango,Durango,14663,287191,Work accidents and diseases,6326,,
+2022,Guanajuato,Guanajuato,Guanajuato,49695,1064036,All work risks,27293,1806,66
+2022,Guanajuato,Guanajuato,Guanajuato,49695,1064036,COVID-19,1267,7,3
+2022,Guanajuato,Guanajuato,Guanajuato,49695,1064036,COVID-19-related respiratory diseases,1,0,1
+2022,Guanajuato,Guanajuato,Guanajuato,49695,1064036,Commuting accidents,8711,387,24
+2022,Guanajuato,Guanajuato,Guanajuato,49695,1064036,Occupational diseases,1863,453,4
+2022,Guanajuato,Guanajuato,Guanajuato,49695,1064036,Occupational diseases excluding COVID-19,595,446,0
+2022,Guanajuato,Guanajuato,Guanajuato,49695,1064036,Work accidents,16719,966,38
+2022,Guanajuato,Guanajuato,Guanajuato,49695,1064036,Work accidents and diseases,18582,,
+2022,Guerrero,Guerrero,Guerrero,13622,189671,All work risks,6417,178,14
+2022,Guerrero,Guerrero,Guerrero,13622,189671,COVID-19,977,2,0
+2022,Guerrero,Guerrero,Guerrero,13622,189671,COVID-19-related respiratory diseases,4,0,0
+2022,Guerrero,Guerrero,Guerrero,13622,189671,Commuting accidents,1149,29,2
+2022,Guerrero,Guerrero,Guerrero,13622,189671,Occupational diseases,1117,29,1
+2022,Guerrero,Guerrero,Guerrero,13622,189671,Occupational diseases excluding COVID-19,136,27,1
+2022,Guerrero,Guerrero,Guerrero,13622,189671,Work accidents,4151,120,11
+2022,Guerrero,Guerrero,Guerrero,13622,189671,Work accidents and diseases,5268,,
+2022,Hidalgo,Hidalgo,Hidalgo,16201,297974,All work risks,8656,672,21
+2022,Hidalgo,Hidalgo,Hidalgo,16201,297974,COVID-19,713,3,3
+2022,Hidalgo,Hidalgo,Hidalgo,16201,297974,COVID-19-related respiratory diseases,3,0,0
+2022,Hidalgo,Hidalgo,Hidalgo,16201,297974,Commuting accidents,2353,90,7
+2022,Hidalgo,Hidalgo,Hidalgo,16201,297974,Occupational diseases,961,204,3
+2022,Hidalgo,Hidalgo,Hidalgo,16201,297974,Occupational diseases excluding COVID-19,245,201,0
+2022,Hidalgo,Hidalgo,Hidalgo,16201,297974,Work accidents,5342,378,11
+2022,Hidalgo,Hidalgo,Hidalgo,16201,297974,Work accidents and diseases,6303,,
+2022,Jalisco,Jalisco,Jalisco,104910,1714183,All work risks,63009,3334,105
+2022,Jalisco,Jalisco,Jalisco,104910,1714183,COVID-19,6302,15,12
+2022,Jalisco,Jalisco,Jalisco,104910,1714183,COVID-19-related respiratory diseases,1,0,0
+2022,Jalisco,Jalisco,Jalisco,104910,1714183,Commuting accidents,15494,720,34
+2022,Jalisco,Jalisco,Jalisco,104910,1714183,Occupational diseases,7105,376,18
+2022,Jalisco,Jalisco,Jalisco,104910,1714183,Occupational diseases excluding COVID-19,802,361,6
+2022,Jalisco,Jalisco,Jalisco,104910,1714183,Work accidents,40410,2238,53
+2022,Jalisco,Jalisco,Jalisco,104910,1714183,Work accidents and diseases,47515,,
+2022,Michoacán,Michoacán,Michoacán,37112,500138,All work risks,12270,714,35
+2022,Michoacán,Michoacán,Michoacán,37112,500138,COVID-19,602,0,1
+2022,Michoacán,Michoacán,Michoacán,37112,500138,COVID-19-related respiratory diseases,3,1,2
+2022,Michoacán,Michoacán,Michoacán,37112,500138,Commuting accidents,1874,103,12
+2022,Michoacán,Michoacán,Michoacán,37112,500138,Occupational diseases,708,74,3
+2022,Michoacán,Michoacán,Michoacán,37112,500138,Occupational diseases excluding COVID-19,103,73,0
+2022,Michoacán,Michoacán,Michoacán,37112,500138,Work accidents,9688,537,20
+2022,Michoacán,Michoacán,Michoacán,37112,500138,Work accidents and diseases,10396,,
+2022,Morelos,Morelos,Morelos,12598,245842,All work risks,5360,336,17
+2022,Morelos,Morelos,Morelos,12598,245842,COVID-19,639,1,5
+2022,Morelos,Morelos,Morelos,12598,245842,Commuting accidents,1469,77,2
+2022,Morelos,Morelos,Morelos,12598,245842,Occupational diseases,772,96,5
+2022,Morelos,Morelos,Morelos,12598,245842,Occupational diseases excluding COVID-19,133,95,0
+2022,Morelos,Morelos,Morelos,12598,245842,Work accidents,3119,163,10
+2022,Morelos,Morelos,Morelos,12598,245842,Work accidents and diseases,3891,,
+2022,State of Mexico East,México Oriente,State of Mexico,49700,1601449,All work risks,53501,3316,97
+2022,State of Mexico East,México Oriente,State of Mexico,49700,1601449,COVID-19,4021,15,9
+2022,State of Mexico East,México Oriente,State of Mexico,49700,1601449,COVID-19-related respiratory diseases,23,16,1
+2022,State of Mexico East,México Oriente,State of Mexico,49700,1601449,Commuting accidents,17425,692,27
+2022,State of Mexico East,México Oriente,State of Mexico,49700,1601449,Occupational diseases,4999,676,20
+2022,State of Mexico East,México Oriente,State of Mexico,49700,1601449,Occupational diseases excluding COVID-19,955,645,10
+2022,State of Mexico East,México Oriente,State of Mexico,49700,1601449,Work accidents,31077,1948,50
+2022,State of Mexico East,México Oriente,State of Mexico,49700,1601449,Work accidents and diseases,36076,,
+2022,State of Mexico West,México Poniente,State of Mexico,28526,890335,All work risks,23167,876,36
+2022,State of Mexico West,México Poniente,State of Mexico,28526,890335,COVID-19,1891,6,2
+2022,State of Mexico West,México Poniente,State of Mexico,28526,890335,COVID-19-related respiratory diseases,3,2,0
+2022,State of Mexico West,México Poniente,State of Mexico,28526,890335,Commuting accidents,7559,160,8
+2022,State of Mexico West,México Poniente,State of Mexico,28526,890335,Occupational diseases,2187,122,2
+2022,State of Mexico West,México Poniente,State of Mexico,28526,890335,Occupational diseases excluding COVID-19,293,114,0
+2022,State of Mexico West,México Poniente,State of Mexico,28526,890335,Work accidents,13421,594,26
+2022,State of Mexico West,México Poniente,State of Mexico,28526,890335,Work accidents and diseases,15608,,
+2022,Nayarit,Nayarit,Nayarit,13764,171745,All work risks,8126,298,9
+2022,Nayarit,Nayarit,Nayarit,13764,171745,COVID-19,902,3,2
+2022,Nayarit,Nayarit,Nayarit,13764,171745,COVID-19-related respiratory diseases,2,1,0
+2022,Nayarit,Nayarit,Nayarit,13764,171745,Commuting accidents,1131,71,1
+2022,Nayarit,Nayarit,Nayarit,13764,171745,Occupational diseases,1106,36,3
+2022,Nayarit,Nayarit,Nayarit,13764,171745,Occupational diseases excluding COVID-19,202,32,1
+2022,Nayarit,Nayarit,Nayarit,13764,171745,Work accidents,5889,191,5
+2022,Nayarit,Nayarit,Nayarit,13764,171745,Work accidents and diseases,6995,,
+2022,Nuevo León,Nuevo León,Nuevo León,76001,1632177,All work risks,36773,2611,40
+2022,Nuevo León,Nuevo León,Nuevo León,76001,1632177,COVID-19,4698,3,1
+2022,Nuevo León,Nuevo León,Nuevo León,76001,1632177,COVID-19-related respiratory diseases,7,1,0
+2022,Nuevo León,Nuevo León,Nuevo León,76001,1632177,Commuting accidents,7010,298,10
+2022,Nuevo León,Nuevo León,Nuevo León,76001,1632177,Occupational diseases,5960,659,4
+2022,Nuevo León,Nuevo León,Nuevo León,76001,1632177,Occupational diseases excluding COVID-19,1255,655,3
+2022,Nuevo León,Nuevo León,Nuevo León,76001,1632177,Work accidents,23803,1654,26
+2022,Nuevo León,Nuevo León,Nuevo León,76001,1632177,Work accidents and diseases,29763,,
+2022,Oaxaca,Oaxaca,Oaxaca,14514,207970,All work risks,5327,189,14
+2022,Oaxaca,Oaxaca,Oaxaca,14514,207970,COVID-19,786,3,2
+2022,Oaxaca,Oaxaca,Oaxaca,14514,207970,COVID-19-related respiratory diseases,1,0,0
+2022,Oaxaca,Oaxaca,Oaxaca,14514,207970,Commuting accidents,856,31,0
+2022,Oaxaca,Oaxaca,Oaxaca,14514,207970,Occupational diseases,843,14,2
+2022,Oaxaca,Oaxaca,Oaxaca,14514,207970,Occupational diseases excluding COVID-19,56,11,0
+2022,Oaxaca,Oaxaca,Oaxaca,14514,207970,Work accidents,3628,144,12
+2022,Oaxaca,Oaxaca,Oaxaca,14514,207970,Work accidents and diseases,4471,,
+2022,Puebla,Puebla,Puebla,34884,654740,All work risks,16814,795,24
+2022,Puebla,Puebla,Puebla,34884,654740,COVID-19,784,2,1
+2022,Puebla,Puebla,Puebla,34884,654740,COVID-19-related respiratory diseases,1,0,0
+2022,Puebla,Puebla,Puebla,34884,654740,Commuting accidents,5375,180,5
+2022,Puebla,Puebla,Puebla,34884,654740,Occupational diseases,963,50,3
+2022,Puebla,Puebla,Puebla,34884,654740,Occupational diseases excluding COVID-19,178,48,2
+2022,Puebla,Puebla,Puebla,34884,654740,Work accidents,10476,565,16
+2022,Puebla,Puebla,Puebla,34884,654740,Work accidents and diseases,11439,,
+2022,Querétaro,Querétaro,Querétaro,28926,593527,All work risks,11931,571,19
+2022,Querétaro,Querétaro,Querétaro,28926,593527,COVID-19,1411,8,1
+2022,Querétaro,Querétaro,Querétaro,28926,593527,Commuting accidents,2859,86,6
+2022,Querétaro,Querétaro,Querétaro,28926,593527,Occupational diseases,1590,67,1
+2022,Querétaro,Querétaro,Querétaro,28926,593527,Occupational diseases excluding COVID-19,179,59,0
+2022,Querétaro,Querétaro,Querétaro,28926,593527,Work accidents,7482,418,12
+2022,Querétaro,Querétaro,Querétaro,28926,593527,Work accidents and diseases,9072,,
+2022,Quintana Roo,Quintana Roo,Quintana Roo,20263,454988,All work risks,14160,531,21
+2022,Quintana Roo,Quintana Roo,Quintana Roo,20263,454988,COVID-19,1200,1,0
+2022,Quintana Roo,Quintana Roo,Quintana Roo,20263,454988,COVID-19-related respiratory diseases,3,0,0
+2022,Quintana Roo,Quintana Roo,Quintana Roo,20263,454988,Commuting accidents,2124,136,10
+2022,Quintana Roo,Quintana Roo,Quintana Roo,20263,454988,Occupational diseases,1405,66,1
+2022,Quintana Roo,Quintana Roo,Quintana Roo,20263,454988,Occupational diseases excluding COVID-19,202,65,1
+2022,Quintana Roo,Quintana Roo,Quintana Roo,20263,454988,Work accidents,10631,329,10
+2022,Quintana Roo,Quintana Roo,Quintana Roo,20263,454988,Work accidents and diseases,12036,,
+2022,San Luis Potosí,San Luis Potosí,San Luis Potosí,23865,457024,All work risks,12672,1268,26
+2022,San Luis Potosí,San Luis Potosí,San Luis Potosí,23865,457024,COVID-19,932,7,0
+2022,San Luis Potosí,San Luis Potosí,San Luis Potosí,23865,457024,COVID-19-related respiratory diseases,1,0,0
+2022,San Luis Potosí,San Luis Potosí,San Luis Potosí,23865,457024,Commuting accidents,4258,262,7
+2022,San Luis Potosí,San Luis Potosí,San Luis Potosí,23865,457024,Occupational diseases,1436,297,4
+2022,San Luis Potosí,San Luis Potosí,San Luis Potosí,23865,457024,Occupational diseases excluding COVID-19,503,290,4
+2022,San Luis Potosí,San Luis Potosí,San Luis Potosí,23865,457024,Work accidents,6978,709,15
+2022,San Luis Potosí,San Luis Potosí,San Luis Potosí,23865,457024,Work accidents and diseases,8414,,
+2022,Sinaloa,Sinaloa,Sinaloa,42956,593204,All work risks,17474,1378,59
+2022,Sinaloa,Sinaloa,Sinaloa,42956,593204,COVID-19,2515,5,2
+2022,Sinaloa,Sinaloa,Sinaloa,42956,593204,COVID-19-related respiratory diseases,2,0,0
+2022,Sinaloa,Sinaloa,Sinaloa,42956,593204,Commuting accidents,3360,311,21
+2022,Sinaloa,Sinaloa,Sinaloa,42956,593204,Occupational diseases,2881,136,5
+2022,Sinaloa,Sinaloa,Sinaloa,42956,593204,Occupational diseases excluding COVID-19,364,131,3
+2022,Sinaloa,Sinaloa,Sinaloa,42956,593204,Work accidents,11233,931,33
+2022,Sinaloa,Sinaloa,Sinaloa,42956,593204,Work accidents and diseases,14114,,
+2022,Sonora,Sonora,Sonora,39298,638175,All work risks,18930,1801,16
+2022,Sonora,Sonora,Sonora,39298,638175,COVID-19,1494,1,0
+2022,Sonora,Sonora,Sonora,39298,638175,COVID-19-related respiratory diseases,1,1,0
+2022,Sonora,Sonora,Sonora,39298,638175,Commuting accidents,4191,305,5
+2022,Sonora,Sonora,Sonora,39298,638175,Occupational diseases,2385,330,0
+2022,Sonora,Sonora,Sonora,39298,638175,Occupational diseases excluding COVID-19,890,328,0
+2022,Sonora,Sonora,Sonora,39298,638175,Work accidents,12354,1166,11
+2022,Sonora,Sonora,Sonora,39298,638175,Work accidents and diseases,14739,,
+2022,Tabasco,Tabasco,Tabasco,11703,250683,All work risks,5989,233,15
+2022,Tabasco,Tabasco,Tabasco,11703,250683,COVID-19,284,0,1
+2022,Tabasco,Tabasco,Tabasco,11703,250683,Commuting accidents,1451,50,8
+2022,Tabasco,Tabasco,Tabasco,11703,250683,Occupational diseases,839,28,1
+2022,Tabasco,Tabasco,Tabasco,11703,250683,Occupational diseases excluding COVID-19,555,28,0
+2022,Tabasco,Tabasco,Tabasco,11703,250683,Work accidents,3699,155,6
+2022,Tabasco,Tabasco,Tabasco,11703,250683,Work accidents and diseases,4538,,
+2022,Tamaulipas,Tamaulipas,Tamaulipas,34445,750716,All work risks,17452,1421,24
+2022,Tamaulipas,Tamaulipas,Tamaulipas,34445,750716,COVID-19,2438,13,2
+2022,Tamaulipas,Tamaulipas,Tamaulipas,34445,750716,Commuting accidents,3944,233,3
+2022,Tamaulipas,Tamaulipas,Tamaulipas,34445,750716,Occupational diseases,3019,289,3
+2022,Tamaulipas,Tamaulipas,Tamaulipas,34445,750716,Occupational diseases excluding COVID-19,581,276,1
+2022,Tamaulipas,Tamaulipas,Tamaulipas,34445,750716,Work accidents,10489,899,18
+2022,Tamaulipas,Tamaulipas,Tamaulipas,34445,750716,Work accidents and diseases,13508,,
+2022,Tlaxcala,Tlaxcala,Tlaxcala,5489,149316,All work risks,2449,157,6
+2022,Tlaxcala,Tlaxcala,Tlaxcala,5489,149316,COVID-19,266,2,0
+2022,Tlaxcala,Tlaxcala,Tlaxcala,5489,149316,Commuting accidents,740,18,2
+2022,Tlaxcala,Tlaxcala,Tlaxcala,5489,149316,Occupational diseases,302,26,0
+2022,Tlaxcala,Tlaxcala,Tlaxcala,5489,149316,Occupational diseases excluding COVID-19,36,24,0
+2022,Tlaxcala,Tlaxcala,Tlaxcala,5489,149316,Work accidents,1407,113,4
+2022,Tlaxcala,Tlaxcala,Tlaxcala,5489,149316,Work accidents and diseases,1709,,
+2022,Veracruz North,Veracruz Norte,Veracruz,28255,446478,All work risks,9217,443,26
+2022,Veracruz North,Veracruz Norte,Veracruz,28255,446478,COVID-19,1532,3,2
+2022,Veracruz North,Veracruz Norte,Veracruz,28255,446478,Commuting accidents,1512,94,10
+2022,Veracruz North,Veracruz Norte,Veracruz,28255,446478,Occupational diseases,1581,22,2
+2022,Veracruz North,Veracruz Norte,Veracruz,28255,446478,Occupational diseases excluding COVID-19,49,19,0
+2022,Veracruz North,Veracruz Norte,Veracruz,28255,446478,Work accidents,6124,327,14
+2022,Veracruz North,Veracruz Norte,Veracruz,28255,446478,Work accidents and diseases,7705,,
+2022,Veracruz South,Veracruz Sur,Veracruz,15955,312194,All work risks,7240,575,24
+2022,Veracruz South,Veracruz Sur,Veracruz,15955,312194,COVID-19,1056,5,0
+2022,Veracruz South,Veracruz Sur,Veracruz,15955,312194,Commuting accidents,1417,79,7
+2022,Veracruz South,Veracruz Sur,Veracruz,15955,312194,Occupational diseases,1213,131,0
+2022,Veracruz South,Veracruz Sur,Veracruz,15955,312194,Occupational diseases excluding COVID-19,157,126,0
+2022,Veracruz South,Veracruz Sur,Veracruz,15955,312194,Work accidents,4610,365,17
+2022,Veracruz South,Veracruz Sur,Veracruz,15955,312194,Work accidents and diseases,5823,,
+2022,Yucatán,Yucatán,Yucatán,21207,360671,All work risks,8507,188,15
+2022,Yucatán,Yucatán,Yucatán,21207,360671,COVID-19,2011,2,0
+2022,Yucatán,Yucatán,Yucatán,21207,360671,COVID-19-related respiratory diseases,2,0,0
+2022,Yucatán,Yucatán,Yucatán,21207,360671,Commuting accidents,1539,45,4
+2022,Yucatán,Yucatán,Yucatán,21207,360671,Occupational diseases,2159,11,0
+2022,Yucatán,Yucatán,Yucatán,21207,360671,Occupational diseases excluding COVID-19,146,9,0
+2022,Yucatán,Yucatán,Yucatán,21207,360671,Work accidents,4809,132,11
+2022,Yucatán,Yucatán,Yucatán,21207,360671,Work accidents and diseases,6968,,
+2022,Zacatecas,Zacatecas,Zacatecas,12034,208357,All work risks,7397,989,53
+2022,Zacatecas,Zacatecas,Zacatecas,12034,208357,COVID-19,1080,3,4
+2022,Zacatecas,Zacatecas,Zacatecas,12034,208357,COVID-19-related respiratory diseases,1,0,1
+2022,Zacatecas,Zacatecas,Zacatecas,12034,208357,Commuting accidents,1368,56,13
+2022,Zacatecas,Zacatecas,Zacatecas,12034,208357,Occupational diseases,1781,715,9
+2022,Zacatecas,Zacatecas,Zacatecas,12034,208357,Occupational diseases excluding COVID-19,700,712,4
+2022,Zacatecas,Zacatecas,Zacatecas,12034,208357,Work accidents,4248,218,31
+2022,Zacatecas,Zacatecas,Zacatecas,12034,208357,Work accidents and diseases,6029,,
+2023,National,Nacional,National,1071503,21467972,All work risks,569766,38783,1090
+2023,National,Nacional,National,1071503,21467972,COVID-19,2545,154,9
+2023,National,Nacional,National,1071503,21467972,COVID-19-related respiratory diseases,65,6,1
+2023,National,Nacional,National,1071503,21467972,Commuting accidents,157472,6364,326
+2023,National,Nacional,National,1071503,21467972,Occupational diseases,18489,10653,31
+2023,National,Nacional,National,1071503,21467972,Occupational diseases excluding COVID-19,15879,10493,21
+2023,National,Nacional,National,1071503,21467972,Work accidents,393805,21766,733
+2023,National,Nacional,National,1071503,21467972,Work accidents and diseases,412294,,
+2023,Aguascalientes,Aguascalientes,Aguascalientes,16655,319409,All work risks,10754,624,20
+2023,Aguascalientes,Aguascalientes,Aguascalientes,16655,319409,COVID-19,148,2,0
+2023,Aguascalientes,Aguascalientes,Aguascalientes,16655,319409,COVID-19-related respiratory diseases,2,0,0
+2023,Aguascalientes,Aguascalientes,Aguascalientes,16655,319409,Commuting accidents,2803,100,5
+2023,Aguascalientes,Aguascalientes,Aguascalientes,16655,319409,Occupational diseases,465,124,1
+2023,Aguascalientes,Aguascalientes,Aguascalientes,16655,319409,Occupational diseases excluding COVID-19,315,122,1
+2023,Aguascalientes,Aguascalientes,Aguascalientes,16655,319409,Work accidents,7486,400,14
+2023,Aguascalientes,Aguascalientes,Aguascalientes,16655,319409,Work accidents and diseases,7951,,
+2023,Baja California,Baja California,Baja California,44463,1042058,All work risks,29701,2321,33
+2023,Baja California,Baja California,Baja California,44463,1042058,COVID-19,210,11,0
+2023,Baja California,Baja California,Baja California,44463,1042058,COVID-19-related respiratory diseases,5,0,0
+2023,Baja California,Baja California,Baja California,44463,1042058,Commuting accidents,6454,339,9
+2023,Baja California,Baja California,Baja California,44463,1042058,Occupational diseases,1369,455,0
+2023,Baja California,Baja California,Baja California,44463,1042058,Occupational diseases excluding COVID-19,1154,444,0
+2023,Baja California,Baja California,Baja California,44463,1042058,Work accidents,21878,1527,24
+2023,Baja California,Baja California,Baja California,44463,1042058,Work accidents and diseases,23247,,
+2023,Baja California Sur,Baja California Sur,Baja California Sur,15078,214434,All work risks,9691,431,5
+2023,Baja California Sur,Baja California Sur,Baja California Sur,15078,214434,COVID-19,61,0,0
+2023,Baja California Sur,Baja California Sur,Baja California Sur,15078,214434,COVID-19-related respiratory diseases,1,0,0
+2023,Baja California Sur,Baja California Sur,Baja California Sur,15078,214434,Commuting accidents,891,36,2
+2023,Baja California Sur,Baja California Sur,Baja California Sur,15078,214434,Occupational diseases,311,165,1
+2023,Baja California Sur,Baja California Sur,Baja California Sur,15078,214434,Occupational diseases excluding COVID-19,249,165,1
+2023,Baja California Sur,Baja California Sur,Baja California Sur,15078,214434,Work accidents,8489,230,2
+2023,Baja California Sur,Baja California Sur,Baja California Sur,15078,214434,Work accidents and diseases,8800,,
+2023,Mexico City North,Ciudad de México Norte,Mexico City,54005,898975,All work risks,18054,893,18
+2023,Mexico City North,Ciudad de México Norte,Mexico City,54005,898975,COVID-19,101,13,1
+2023,Mexico City North,Ciudad de México Norte,Mexico City,54005,898975,COVID-19-related respiratory diseases,0,1,0
+2023,Mexico City North,Ciudad de México Norte,Mexico City,54005,898975,Commuting accidents,5897,170,5
+2023,Mexico City North,Ciudad de México Norte,Mexico City,54005,898975,Occupational diseases,444,169,1
+2023,Mexico City North,Ciudad de México Norte,Mexico City,54005,898975,Occupational diseases excluding COVID-19,343,155,0
+2023,Mexico City North,Ciudad de México Norte,Mexico City,54005,898975,Work accidents,11713,554,12
+2023,Mexico City North,Ciudad de México Norte,Mexico City,54005,898975,Work accidents and diseases,12157,,
+2023,Mexico City South,Ciudad de México Sur,Mexico City,73365,1349296,All work risks,32730,1159,21
+2023,Mexico City South,Ciudad de México Sur,Mexico City,73365,1349296,COVID-19,141,22,3
+2023,Mexico City South,Ciudad de México Sur,Mexico City,73365,1349296,COVID-19-related respiratory diseases,3,1,0
+2023,Mexico City South,Ciudad de México Sur,Mexico City,73365,1349296,Commuting accidents,10819,270,8
+2023,Mexico City South,Ciudad de México Sur,Mexico City,73365,1349296,Occupational diseases,487,152,3
+2023,Mexico City South,Ciudad de México Sur,Mexico City,73365,1349296,Occupational diseases excluding COVID-19,343,129,0
+2023,Mexico City South,Ciudad de México Sur,Mexico City,73365,1349296,Work accidents,21424,737,10
+2023,Mexico City South,Ciudad de México Sur,Mexico City,73365,1349296,Work accidents and diseases,21911,,
+2023,Campeche,Campeche,Campeche,6474,135080,All work risks,2547,211,5
+2023,Campeche,Campeche,Campeche,6474,135080,COVID-19,3,3,0
+2023,Campeche,Campeche,Campeche,6474,135080,Commuting accidents,598,32,1
+2023,Campeche,Campeche,Campeche,6474,135080,Occupational diseases,115,69,1
+2023,Campeche,Campeche,Campeche,6474,135080,Occupational diseases excluding COVID-19,112,66,1
+2023,Campeche,Campeche,Campeche,6474,135080,Work accidents,1834,110,3
+2023,Campeche,Campeche,Campeche,6474,135080,Work accidents and diseases,1949,,
+2023,Chiapas,Chiapas,Chiapas,14971,272859,All work risks,3935,239,14
+2023,Chiapas,Chiapas,Chiapas,14971,272859,COVID-19,1,0,0
+2023,Chiapas,Chiapas,Chiapas,14971,272859,Commuting accidents,720,36,5
+2023,Chiapas,Chiapas,Chiapas,14971,272859,Occupational diseases,73,18,0
+2023,Chiapas,Chiapas,Chiapas,14971,272859,Occupational diseases excluding COVID-19,72,18,0
+2023,Chiapas,Chiapas,Chiapas,14971,272859,Work accidents,3142,185,9
+2023,Chiapas,Chiapas,Chiapas,14971,272859,Work accidents and diseases,3215,,
+2023,Chihuahua,Chihuahua,Chihuahua,42612,971849,All work risks,20570,1705,39
+2023,Chihuahua,Chihuahua,Chihuahua,42612,971849,COVID-19,67,0,0
+2023,Chihuahua,Chihuahua,Chihuahua,42612,971849,COVID-19-related respiratory diseases,2,0,0
+2023,Chihuahua,Chihuahua,Chihuahua,42612,971849,Commuting accidents,5523,220,7
+2023,Chihuahua,Chihuahua,Chihuahua,42612,971849,Occupational diseases,575,313,2
+2023,Chihuahua,Chihuahua,Chihuahua,42612,971849,Occupational diseases excluding COVID-19,506,313,2
+2023,Chihuahua,Chihuahua,Chihuahua,42612,971849,Work accidents,14472,1172,30
+2023,Chihuahua,Chihuahua,Chihuahua,42612,971849,Work accidents and diseases,15047,,
+2023,Coahuila,Coahuila,Coahuila,35890,852071,All work risks,22320,4953,45
+2023,Coahuila,Coahuila,Coahuila,35890,852071,COVID-19,44,5,0
+2023,Coahuila,Coahuila,Coahuila,35890,852071,COVID-19-related respiratory diseases,2,1,0
+2023,Coahuila,Coahuila,Coahuila,35890,852071,Commuting accidents,5675,230,9
+2023,Coahuila,Coahuila,Coahuila,35890,852071,Occupational diseases,2517,3739,0
+2023,Coahuila,Coahuila,Coahuila,35890,852071,Occupational diseases excluding COVID-19,2471,3733,0
+2023,Coahuila,Coahuila,Coahuila,35890,852071,Work accidents,14128,984,36
+2023,Coahuila,Coahuila,Coahuila,35890,852071,Work accidents and diseases,16645,,
+2023,Colima,Colima,Colima,11775,155960,All work risks,5744,261,17
+2023,Colima,Colima,Colima,11775,155960,COVID-19,4,2,0
+2023,Colima,Colima,Colima,11775,155960,Commuting accidents,1149,58,4
+2023,Colima,Colima,Colima,11775,155960,Occupational diseases,115,43,0
+2023,Colima,Colima,Colima,11775,155960,Occupational diseases excluding COVID-19,111,41,0
+2023,Colima,Colima,Colima,11775,155960,Work accidents,4480,160,13
+2023,Colima,Colima,Colima,11775,155960,Work accidents and diseases,4595,,
+2023,Durango,Durango,Durango,14572,288736,All work risks,7344,677,19
+2023,Durango,Durango,Durango,14572,288736,COVID-19,52,0,1
+2023,Durango,Durango,Durango,14572,288736,COVID-19-related respiratory diseases,1,0,0
+2023,Durango,Durango,Durango,14572,288736,Commuting accidents,1528,93,7
+2023,Durango,Durango,Durango,14572,288736,Occupational diseases,394,133,1
+2023,Durango,Durango,Durango,14572,288736,Occupational diseases excluding COVID-19,341,133,0
+2023,Durango,Durango,Durango,14572,288736,Work accidents,5422,451,11
+2023,Durango,Durango,Durango,14572,288736,Work accidents and diseases,5816,,
+2023,Guanajuato,Guanajuato,Guanajuato,49868,1099339,All work risks,29283,1988,80
+2023,Guanajuato,Guanajuato,Guanajuato,49868,1099339,COVID-19,51,4,0
+2023,Guanajuato,Guanajuato,Guanajuato,49868,1099339,COVID-19-related respiratory diseases,3,0,0
+2023,Guanajuato,Guanajuato,Guanajuato,49868,1099339,Commuting accidents,9909,451,33
+2023,Guanajuato,Guanajuato,Guanajuato,49868,1099339,Occupational diseases,634,416,0
+2023,Guanajuato,Guanajuato,Guanajuato,49868,1099339,Occupational diseases excluding COVID-19,580,412,0
+2023,Guanajuato,Guanajuato,Guanajuato,49868,1099339,Work accidents,18740,1121,47
+2023,Guanajuato,Guanajuato,Guanajuato,49868,1099339,Work accidents and diseases,19374,,
+2023,Guerrero,Guerrero,Guerrero,13509,190963,All work risks,5880,212,16
+2023,Guerrero,Guerrero,Guerrero,13509,190963,COVID-19,67,5,0
+2023,Guerrero,Guerrero,Guerrero,13509,190963,COVID-19-related respiratory diseases,4,0,0
+2023,Guerrero,Guerrero,Guerrero,13509,190963,Commuting accidents,1239,42,6
+2023,Guerrero,Guerrero,Guerrero,13509,190963,Occupational diseases,258,49,0
+2023,Guerrero,Guerrero,Guerrero,13509,190963,Occupational diseases excluding COVID-19,187,44,0
+2023,Guerrero,Guerrero,Guerrero,13509,190963,Work accidents,4383,121,10
+2023,Guerrero,Guerrero,Guerrero,13509,190963,Work accidents and diseases,4641,,
+2023,Hidalgo,Hidalgo,Hidalgo,16574,317655,All work risks,9283,954,24
+2023,Hidalgo,Hidalgo,Hidalgo,16574,317655,COVID-19,30,5,0
+2023,Hidalgo,Hidalgo,Hidalgo,16574,317655,COVID-19-related respiratory diseases,2,0,0
+2023,Hidalgo,Hidalgo,Hidalgo,16574,317655,Commuting accidents,2997,130,9
+2023,Hidalgo,Hidalgo,Hidalgo,16574,317655,Occupational diseases,316,347,0
+2023,Hidalgo,Hidalgo,Hidalgo,16574,317655,Occupational diseases excluding COVID-19,284,342,0
+2023,Hidalgo,Hidalgo,Hidalgo,16574,317655,Work accidents,5970,477,15
+2023,Hidalgo,Hidalgo,Hidalgo,16574,317655,Work accidents and diseases,6286,,
+2023,Jalisco,Jalisco,Jalisco,106792,1782598,All work risks,60834,3024,88
+2023,Jalisco,Jalisco,Jalisco,106792,1782598,COVID-19,145,5,1
+2023,Jalisco,Jalisco,Jalisco,106792,1782598,COVID-19-related respiratory diseases,7,0,0
+2023,Jalisco,Jalisco,Jalisco,106792,1782598,Commuting accidents,17458,643,30
+2023,Jalisco,Jalisco,Jalisco,106792,1782598,Occupational diseases,787,307,3
+2023,Jalisco,Jalisco,Jalisco,106792,1782598,Occupational diseases excluding COVID-19,635,302,2
+2023,Jalisco,Jalisco,Jalisco,106792,1782598,Work accidents,42589,2074,55
+2023,Jalisco,Jalisco,Jalisco,106792,1782598,Work accidents and diseases,43376,,
+2023,Michoacán,Michoacán,Michoacán,36875,520045,All work risks,12807,716,34
+2023,Michoacán,Michoacán,Michoacán,36875,520045,COVID-19,39,0,0
+2023,Michoacán,Michoacán,Michoacán,36875,520045,COVID-19-related respiratory diseases,2,0,0
+2023,Michoacán,Michoacán,Michoacán,36875,520045,Commuting accidents,2181,119,9
+2023,Michoacán,Michoacán,Michoacán,36875,520045,Occupational diseases,156,62,0
+2023,Michoacán,Michoacán,Michoacán,36875,520045,Occupational diseases excluding COVID-19,115,62,0
+2023,Michoacán,Michoacán,Michoacán,36875,520045,Work accidents,10470,535,25
+2023,Michoacán,Michoacán,Michoacán,36875,520045,Work accidents and diseases,10626,,
+2023,Morelos,Morelos,Morelos,12560,257913,All work risks,5181,326,21
+2023,Morelos,Morelos,Morelos,12560,257913,COVID-19,23,2,0
+2023,Morelos,Morelos,Morelos,12560,257913,Commuting accidents,1578,63,4
+2023,Morelos,Morelos,Morelos,12560,257913,Occupational diseases,140,89,0
+2023,Morelos,Morelos,Morelos,12560,257913,Occupational diseases excluding COVID-19,117,87,0
+2023,Morelos,Morelos,Morelos,12560,257913,Work accidents,3463,174,17
+2023,Morelos,Morelos,Morelos,12560,257913,Work accidents and diseases,3603,,
+2023,State of Mexico East,México Oriente,State of Mexico,49534,1672150,All work risks,58477,3233,98
+2023,State of Mexico East,México Oriente,State of Mexico,49534,1672150,COVID-19,84,21,2
+2023,State of Mexico East,México Oriente,State of Mexico,49534,1672150,COVID-19-related respiratory diseases,7,3,1
+2023,State of Mexico East,México Oriente,State of Mexico,49534,1672150,Commuting accidents,20796,719,35
+2023,State of Mexico East,México Oriente,State of Mexico,49534,1672150,Occupational diseases,1220,706,6
+2023,State of Mexico East,México Oriente,State of Mexico,49534,1672150,Occupational diseases excluding COVID-19,1129,682,3
+2023,State of Mexico East,México Oriente,State of Mexico,49534,1672150,Work accidents,36461,1808,57
+2023,State of Mexico East,México Oriente,State of Mexico,49534,1672150,Work accidents and diseases,37681,,
+2023,State of Mexico West,México Poniente,State of Mexico,28892,933042,All work risks,25503,853,70
+2023,State of Mexico West,México Poniente,State of Mexico,28892,933042,COVID-19,77,6,0
+2023,State of Mexico West,México Poniente,State of Mexico,28892,933042,COVID-19-related respiratory diseases,3,0,0
+2023,State of Mexico West,México Poniente,State of Mexico,28892,933042,Commuting accidents,9419,164,24
+2023,State of Mexico West,México Poniente,State of Mexico,28892,933042,Occupational diseases,372,85,1
+2023,State of Mexico West,México Poniente,State of Mexico,28892,933042,Occupational diseases excluding COVID-19,292,79,1
+2023,State of Mexico West,México Poniente,State of Mexico,28892,933042,Work accidents,15712,604,45
+2023,State of Mexico West,México Poniente,State of Mexico,28892,933042,Work accidents and diseases,16084,,
+2023,Nayarit,Nayarit,Nayarit,13902,182515,All work risks,8108,384,15
+2023,Nayarit,Nayarit,Nayarit,13902,182515,COVID-19,50,1,1
+2023,Nayarit,Nayarit,Nayarit,13902,182515,COVID-19-related respiratory diseases,1,0,0
+2023,Nayarit,Nayarit,Nayarit,13902,182515,Commuting accidents,1187,70,5
+2023,Nayarit,Nayarit,Nayarit,13902,182515,Occupational diseases,255,33,1
+2023,Nayarit,Nayarit,Nayarit,13902,182515,Occupational diseases excluding COVID-19,204,32,0
+2023,Nayarit,Nayarit,Nayarit,13902,182515,Work accidents,6666,281,9
+2023,Nayarit,Nayarit,Nayarit,13902,182515,Work accidents and diseases,6921,,
+2023,Nuevo León,Nuevo León,Nuevo León,77030,1697149,All work risks,36772,2725,50
+2023,Nuevo León,Nuevo León,Nuevo León,77030,1697149,COVID-19,654,13,0
+2023,Nuevo León,Nuevo León,Nuevo León,77030,1697149,COVID-19-related respiratory diseases,5,0,0
+2023,Nuevo León,Nuevo León,Nuevo León,77030,1697149,Commuting accidents,8445,333,10
+2023,Nuevo León,Nuevo León,Nuevo León,77030,1697149,Occupational diseases,2209,708,2
+2023,Nuevo León,Nuevo León,Nuevo León,77030,1697149,Occupational diseases excluding COVID-19,1550,695,2
+2023,Nuevo León,Nuevo León,Nuevo León,77030,1697149,Work accidents,26118,1684,38
+2023,Nuevo León,Nuevo León,Nuevo León,77030,1697149,Work accidents and diseases,28327,,
+2023,Oaxaca,Oaxaca,Oaxaca,14722,220098,All work risks,4989,164,15
+2023,Oaxaca,Oaxaca,Oaxaca,14722,220098,COVID-19,14,1,0
+2023,Oaxaca,Oaxaca,Oaxaca,14722,220098,Commuting accidents,959,31,0
+2023,Oaxaca,Oaxaca,Oaxaca,14722,220098,Occupational diseases,88,13,1
+2023,Oaxaca,Oaxaca,Oaxaca,14722,220098,Occupational diseases excluding COVID-19,74,12,1
+2023,Oaxaca,Oaxaca,Oaxaca,14722,220098,Work accidents,3942,120,14
+2023,Oaxaca,Oaxaca,Oaxaca,14722,220098,Work accidents and diseases,4030,,
+2023,Puebla,Puebla,Puebla,35367,685287,All work risks,17281,786,24
+2023,Puebla,Puebla,Puebla,35367,685287,COVID-19,15,1,0
+2023,Puebla,Puebla,Puebla,35367,685287,COVID-19-related respiratory diseases,6,0,0
+2023,Puebla,Puebla,Puebla,35367,685287,Commuting accidents,5963,185,7
+2023,Puebla,Puebla,Puebla,35367,685287,Occupational diseases,184,48,0
+2023,Puebla,Puebla,Puebla,35367,685287,Occupational diseases excluding COVID-19,163,47,0
+2023,Puebla,Puebla,Puebla,35367,685287,Work accidents,11134,553,17
+2023,Puebla,Puebla,Puebla,35367,685287,Work accidents and diseases,11318,,
+2023,Querétaro,Querétaro,Querétaro,29581,623232,All work risks,11871,515,28
+2023,Querétaro,Querétaro,Querétaro,29581,623232,COVID-19,36,1,0
+2023,Querétaro,Querétaro,Querétaro,29581,623232,Commuting accidents,3801,88,7
+2023,Querétaro,Querétaro,Querétaro,29581,623232,Occupational diseases,232,54,1
+2023,Querétaro,Querétaro,Querétaro,29581,623232,Occupational diseases excluding COVID-19,196,53,1
+2023,Querétaro,Querétaro,Querétaro,29581,623232,Work accidents,7838,373,20
+2023,Querétaro,Querétaro,Querétaro,29581,623232,Work accidents and diseases,8070,,
+2023,Quintana Roo,Quintana Roo,Quintana Roo,21419,495888,All work risks,13883,545,16
+2023,Quintana Roo,Quintana Roo,Quintana Roo,21419,495888,COVID-19,13,2,0
+2023,Quintana Roo,Quintana Roo,Quintana Roo,21419,495888,Commuting accidents,2648,154,8
+2023,Quintana Roo,Quintana Roo,Quintana Roo,21419,495888,Occupational diseases,213,67,0
+2023,Quintana Roo,Quintana Roo,Quintana Roo,21419,495888,Occupational diseases excluding COVID-19,200,65,0
+2023,Quintana Roo,Quintana Roo,Quintana Roo,21419,495888,Work accidents,11022,324,8
+2023,Quintana Roo,Quintana Roo,Quintana Roo,21419,495888,Work accidents and diseases,11235,,
+2023,San Luis Potosí,San Luis Potosí,San Luis Potosí,23960,475060,All work risks,13243,1293,32
+2023,San Luis Potosí,San Luis Potosí,San Luis Potosí,23960,475060,COVID-19,23,5,0
+2023,San Luis Potosí,San Luis Potosí,San Luis Potosí,23960,475060,COVID-19-related respiratory diseases,2,0,0
+2023,San Luis Potosí,San Luis Potosí,San Luis Potosí,23960,475060,Commuting accidents,4749,281,13
+2023,San Luis Potosí,San Luis Potosí,San Luis Potosí,23960,475060,Occupational diseases,504,267,1
+2023,San Luis Potosí,San Luis Potosí,San Luis Potosí,23960,475060,Occupational diseases excluding COVID-19,479,262,1
+2023,San Luis Potosí,San Luis Potosí,San Luis Potosí,23960,475060,Work accidents,7990,745,18
+2023,San Luis Potosí,San Luis Potosí,San Luis Potosí,23960,475060,Work accidents and diseases,8494,,
+2023,Sinaloa,Sinaloa,Sinaloa,43317,612402,All work risks,17964,1435,39
+2023,Sinaloa,Sinaloa,Sinaloa,43317,612402,COVID-19,59,4,0
+2023,Sinaloa,Sinaloa,Sinaloa,43317,612402,COVID-19-related respiratory diseases,1,0,0
+2023,Sinaloa,Sinaloa,Sinaloa,43317,612402,Commuting accidents,4138,344,16
+2023,Sinaloa,Sinaloa,Sinaloa,43317,612402,Occupational diseases,469,163,2
+2023,Sinaloa,Sinaloa,Sinaloa,43317,612402,Occupational diseases excluding COVID-19,409,159,2
+2023,Sinaloa,Sinaloa,Sinaloa,43317,612402,Work accidents,13357,928,21
+2023,Sinaloa,Sinaloa,Sinaloa,43317,612402,Work accidents and diseases,13826,,
+2023,Sonora,Sonora,Sonora,38966,639271,All work risks,18586,1830,33
+2023,Sonora,Sonora,Sonora,38966,639271,COVID-19,16,4,0
+2023,Sonora,Sonora,Sonora,38966,639271,COVID-19-related respiratory diseases,1,0,0
+2023,Sonora,Sonora,Sonora,38966,639271,Commuting accidents,4522,333,5
+2023,Sonora,Sonora,Sonora,38966,639271,Occupational diseases,962,412,0
+2023,Sonora,Sonora,Sonora,38966,639271,Occupational diseases excluding COVID-19,945,408,0
+2023,Sonora,Sonora,Sonora,38966,639271,Work accidents,13102,1085,28
+2023,Sonora,Sonora,Sonora,38966,639271,Work accidents and diseases,14064,,
+2023,Tabasco,Tabasco,Tabasco,12032,268195,All work risks,6105,224,21
+2023,Tabasco,Tabasco,Tabasco,12032,268195,COVID-19,11,2,0
+2023,Tabasco,Tabasco,Tabasco,12032,268195,Commuting accidents,1546,67,8
+2023,Tabasco,Tabasco,Tabasco,12032,268195,Occupational diseases,91,20,1
+2023,Tabasco,Tabasco,Tabasco,12032,268195,Occupational diseases excluding COVID-19,80,18,1
+2023,Tabasco,Tabasco,Tabasco,12032,268195,Work accidents,4468,137,12
+2023,Tabasco,Tabasco,Tabasco,12032,268195,Work accidents and diseases,4559,,
+2023,Tamaulipas,Tamaulipas,Tamaulipas,33905,749982,All work risks,16635,1409,32
+2023,Tamaulipas,Tamaulipas,Tamaulipas,33905,749982,COVID-19,35,7,0
+2023,Tamaulipas,Tamaulipas,Tamaulipas,33905,749982,COVID-19-related respiratory diseases,2,0,0
+2023,Tamaulipas,Tamaulipas,Tamaulipas,33905,749982,Commuting accidents,4072,225,7
+2023,Tamaulipas,Tamaulipas,Tamaulipas,33905,749982,Occupational diseases,797,326,0
+2023,Tamaulipas,Tamaulipas,Tamaulipas,33905,749982,Occupational diseases excluding COVID-19,760,319,0
+2023,Tamaulipas,Tamaulipas,Tamaulipas,33905,749982,Work accidents,11766,858,25
+2023,Tamaulipas,Tamaulipas,Tamaulipas,33905,749982,Work accidents and diseases,12563,,
+2023,Tlaxcala,Tlaxcala,Tlaxcala,5536,158531,All work risks,2677,159,7
+2023,Tlaxcala,Tlaxcala,Tlaxcala,5536,158531,COVID-19,67,1,0
+2023,Tlaxcala,Tlaxcala,Tlaxcala,5536,158531,Commuting accidents,843,20,2
+2023,Tlaxcala,Tlaxcala,Tlaxcala,5536,158531,Occupational diseases,111,24,0
+2023,Tlaxcala,Tlaxcala,Tlaxcala,5536,158531,Occupational diseases excluding COVID-19,44,23,0
+2023,Tlaxcala,Tlaxcala,Tlaxcala,5536,158531,Work accidents,1723,115,5
+2023,Tlaxcala,Tlaxcala,Tlaxcala,5536,158531,Work accidents and diseases,1834,,
+2023,Veracruz North,Veracruz Norte,Veracruz,27967,464837,All work risks,9002,427,15
+2023,Veracruz North,Veracruz Norte,Veracruz,27967,464837,COVID-19,13,0,0
+2023,Veracruz North,Veracruz Norte,Veracruz,27967,464837,COVID-19-related respiratory diseases,1,0,0
+2023,Veracruz North,Veracruz Norte,Veracruz,27967,464837,Commuting accidents,1744,76,3
+2023,Veracruz North,Veracruz Norte,Veracruz,27967,464837,Occupational diseases,104,27,0
+2023,Veracruz North,Veracruz Norte,Veracruz,27967,464837,Occupational diseases excluding COVID-19,90,27,0
+2023,Veracruz North,Veracruz Norte,Veracruz,27967,464837,Work accidents,7154,324,12
+2023,Veracruz North,Veracruz Norte,Veracruz,27967,464837,Work accidents and diseases,7258,,
+2023,Veracruz South,Veracruz Sur,Veracruz,15605,322262,All work risks,6723,654,28
+2023,Veracruz South,Veracruz Sur,Veracruz,15605,322262,COVID-19,126,3,0
+2023,Veracruz South,Veracruz Sur,Veracruz,15605,322262,Commuting accidents,1565,86,3
+2023,Veracruz South,Veracruz Sur,Veracruz,15605,322262,Occupational diseases,404,229,1
+2023,Veracruz South,Veracruz Sur,Veracruz,15605,322262,Occupational diseases excluding COVID-19,278,226,1
+2023,Veracruz South,Veracruz Sur,Veracruz,15605,322262,Work accidents,4754,339,24
+2023,Veracruz South,Veracruz Sur,Veracruz,15605,322262,Work accidents and diseases,5158,,
+2023,Yucatán,Yucatán,Yucatán,21834,387177,All work risks,7996,191,21
+2023,Yucatán,Yucatán,Yucatán,21834,387177,COVID-19,1,0,0
+2023,Yucatán,Yucatán,Yucatán,21834,387177,COVID-19-related respiratory diseases,1,0,0
+2023,Yucatán,Yucatán,Yucatán,21834,387177,Commuting accidents,1931,44,8
+2023,Yucatán,Yucatán,Yucatán,21834,387177,Occupational diseases,224,10,0
+2023,Yucatán,Yucatán,Yucatán,21834,387177,Occupational diseases excluding COVID-19,222,10,0
+2023,Yucatán,Yucatán,Yucatán,21834,387177,Work accidents,5841,137,13
+2023,Yucatán,Yucatán,Yucatán,21834,387177,Work accidents and diseases,6065,,
+2023,Zacatecas,Zacatecas,Zacatecas,11896,211654,All work risks,7293,1262,47
+2023,Zacatecas,Zacatecas,Zacatecas,11896,211654,COVID-19,64,3,0
+2023,Zacatecas,Zacatecas,Zacatecas,11896,211654,COVID-19-related respiratory diseases,1,0,0
+2023,Zacatecas,Zacatecas,Zacatecas,11896,211654,Commuting accidents,1725,112,12
+2023,Zacatecas,Zacatecas,Zacatecas,11896,211654,Occupational diseases,894,811,1
+2023,Zacatecas,Zacatecas,Zacatecas,11896,211654,Occupational diseases excluding COVID-19,829,808,1
+2023,Zacatecas,Zacatecas,Zacatecas,11896,211654,Work accidents,4674,339,34
+2023,Zacatecas,Zacatecas,Zacatecas,11896,211654,Work accidents and diseases,5568,,
+2024,National,Nacional,National,1069403,21905614,All work risks,610751,44509,1274
+2024,National,Nacional,National,1069403,21905614,Commuting accidents,175357,7552,375
+2024,National,Nacional,National,1069403,21905614,Occupational diseases,16880,11875,40
+2024,National,Nacional,National,1069403,21905614,Work accidents,418514,25082,859
+2024,National,Nacional,National,1069403,21905614,Work accidents and diseases,435394,,
+2024,Aguascalientes,Aguascalientes,Aguascalientes,16573,325927,All work risks,11714,711,18
+2024,Aguascalientes,Aguascalientes,Aguascalientes,16573,325927,Commuting accidents,3056,118,7
+2024,Aguascalientes,Aguascalientes,Aguascalientes,16573,325927,Occupational diseases,405,121,0
+2024,Aguascalientes,Aguascalientes,Aguascalientes,16573,325927,Work accidents,8253,472,11
+2024,Aguascalientes,Aguascalientes,Aguascalientes,16573,325927,Work accidents and diseases,8658,,
+2024,Baja California,Baja California,Baja California,43189,1060977,All work risks,30781,2559,34
+2024,Baja California,Baja California,Baja California,43189,1060977,Commuting accidents,6993,383,10
+2024,Baja California,Baja California,Baja California,43189,1060977,Occupational diseases,1127,562,0
+2024,Baja California,Baja California,Baja California,43189,1060977,Work accidents,22661,1614,24
+2024,Baja California,Baja California,Baja California,43189,1060977,Work accidents and diseases,23788,,
+2024,Baja California Sur,Baja California Sur,Baja California Sur,15236,221047,All work risks,9354,409,6
+2024,Baja California Sur,Baja California Sur,Baja California Sur,15236,221047,Commuting accidents,986,32,1
+2024,Baja California Sur,Baja California Sur,Baja California Sur,15236,221047,Occupational diseases,241,180,0
+2024,Baja California Sur,Baja California Sur,Baja California Sur,15236,221047,Work accidents,8127,197,5
+2024,Baja California Sur,Baja California Sur,Baja California Sur,15236,221047,Work accidents and diseases,8368,,
+2024,Mexico City North,Ciudad de México Norte,Mexico City,53602,916229,All work risks,19215,1002,25
+2024,Mexico City North,Ciudad de México Norte,Mexico City,53602,916229,Commuting accidents,6791,233,4
+2024,Mexico City North,Ciudad de México Norte,Mexico City,53602,916229,Occupational diseases,305,128,0
+2024,Mexico City North,Ciudad de México Norte,Mexico City,53602,916229,Work accidents,12119,641,21
+2024,Mexico City North,Ciudad de México Norte,Mexico City,53602,916229,Work accidents and diseases,12424,,
+2024,Mexico City South,Ciudad de México Sur,Mexico City,73508,1374569,All work risks,33264,1448,38
+2024,Mexico City South,Ciudad de México Sur,Mexico City,73508,1374569,Commuting accidents,11552,367,10
+2024,Mexico City South,Ciudad de México Sur,Mexico City,73508,1374569,Occupational diseases,385,186,1
+2024,Mexico City South,Ciudad de México Sur,Mexico City,73508,1374569,Work accidents,21327,895,27
+2024,Mexico City South,Ciudad de México Sur,Mexico City,73508,1374569,Work accidents and diseases,21712,,
+2024,Campeche,Campeche,Campeche,6467,135066,All work risks,3219,255,8
+2024,Campeche,Campeche,Campeche,6467,135066,Commuting accidents,717,45,0
+2024,Campeche,Campeche,Campeche,6467,135066,Occupational diseases,115,71,2
+2024,Campeche,Campeche,Campeche,6467,135066,Work accidents,2387,139,6
+2024,Campeche,Campeche,Campeche,6467,135066,Work accidents and diseases,2502,,
+2024,Chiapas,Chiapas,Chiapas,14927,279556,All work risks,4174,212,15
+2024,Chiapas,Chiapas,Chiapas,14927,279556,Commuting accidents,807,40,7
+2024,Chiapas,Chiapas,Chiapas,14927,279556,Occupational diseases,66,23,0
+2024,Chiapas,Chiapas,Chiapas,14927,279556,Work accidents,3301,149,8
+2024,Chiapas,Chiapas,Chiapas,14927,279556,Work accidents and diseases,3367,,
+2024,Chihuahua,Chihuahua,Chihuahua,42393,988859,All work risks,21729,1902,43
+2024,Chihuahua,Chihuahua,Chihuahua,42393,988859,Commuting accidents,5795,266,11
+2024,Chihuahua,Chihuahua,Chihuahua,42393,988859,Occupational diseases,622,403,3
+2024,Chihuahua,Chihuahua,Chihuahua,42393,988859,Work accidents,15312,1233,29
+2024,Chihuahua,Chihuahua,Chihuahua,42393,988859,Work accidents and diseases,15934,,
+2024,Coahuila,Coahuila,Coahuila,35956,870889,All work risks,24175,5288,30
+2024,Coahuila,Coahuila,Coahuila,35956,870889,Commuting accidents,6417,298,9
+2024,Coahuila,Coahuila,Coahuila,35956,870889,Occupational diseases,3355,3800,2
+2024,Coahuila,Coahuila,Coahuila,35956,870889,Work accidents,14403,1190,19
+2024,Coahuila,Coahuila,Coahuila,35956,870889,Work accidents and diseases,17758,,
+2024,Colima,Colima,Colima,11906,158011,All work risks,5321,328,39
+2024,Colima,Colima,Colima,11906,158011,Commuting accidents,1131,64,16
+2024,Colima,Colima,Colima,11906,158011,Occupational diseases,105,52,0
+2024,Colima,Colima,Colima,11906,158011,Work accidents,4085,212,23
+2024,Colima,Colima,Colima,11906,158011,Work accidents and diseases,4190,,
+2024,Durango,Durango,Durango,14437,295301,All work risks,7743,893,36
+2024,Durango,Durango,Durango,14437,295301,Commuting accidents,1585,128,14
+2024,Durango,Durango,Durango,14437,295301,Occupational diseases,318,185,0
+2024,Durango,Durango,Durango,14437,295301,Work accidents,5840,580,22
+2024,Durango,Durango,Durango,14437,295301,Work accidents and diseases,6158,,
+2024,Guanajuato,Guanajuato,Guanajuato,49590,1128184,All work risks,32504,2111,96
+2024,Guanajuato,Guanajuato,Guanajuato,49590,1128184,Commuting accidents,11791,485,38
+2024,Guanajuato,Guanajuato,Guanajuato,49590,1128184,Occupational diseases,622,454,2
+2024,Guanajuato,Guanajuato,Guanajuato,49590,1128184,Work accidents,20091,1172,56
+2024,Guanajuato,Guanajuato,Guanajuato,49590,1128184,Work accidents and diseases,20713,,
+2024,Guerrero,Guerrero,Guerrero,13170,195094,All work risks,6073,278,21
+2024,Guerrero,Guerrero,Guerrero,13170,195094,Commuting accidents,1306,50,6
+2024,Guerrero,Guerrero,Guerrero,13170,195094,Occupational diseases,194,63,1
+2024,Guerrero,Guerrero,Guerrero,13170,195094,Work accidents,4573,165,14
+2024,Guerrero,Guerrero,Guerrero,13170,195094,Work accidents and diseases,4767,,
+2024,Hidalgo,Hidalgo,Hidalgo,16988,330583,All work risks,10688,958,39
+2024,Hidalgo,Hidalgo,Hidalgo,16988,330583,Commuting accidents,3591,159,11
+2024,Hidalgo,Hidalgo,Hidalgo,16988,330583,Occupational diseases,322,297,3
+2024,Hidalgo,Hidalgo,Hidalgo,16988,330583,Work accidents,6775,502,25
+2024,Hidalgo,Hidalgo,Hidalgo,16988,330583,Work accidents and diseases,7097,,
+2024,Jalisco,Jalisco,Jalisco,107109,1816409,All work risks,66525,3570,121
+2024,Jalisco,Jalisco,Jalisco,107109,1816409,Commuting accidents,19533,814,35
+2024,Jalisco,Jalisco,Jalisco,107109,1816409,Occupational diseases,616,363,0
+2024,Jalisco,Jalisco,Jalisco,107109,1816409,Work accidents,46376,2393,86
+2024,Jalisco,Jalisco,Jalisco,107109,1816409,Work accidents and diseases,46992,,
+2024,Michoacán,Michoacán,Michoacán,36142,522994,All work risks,12576,776,40
+2024,Michoacán,Michoacán,Michoacán,36142,522994,Commuting accidents,2408,138,12
+2024,Michoacán,Michoacán,Michoacán,36142,522994,Occupational diseases,132,78,1
+2024,Michoacán,Michoacán,Michoacán,36142,522994,Work accidents,10036,560,27
+2024,Michoacán,Michoacán,Michoacán,36142,522994,Work accidents and diseases,10168,,
+2024,Morelos,Morelos,Morelos,12332,260585,All work risks,5087,328,11
+2024,Morelos,Morelos,Morelos,12332,260585,Commuting accidents,1660,72,3
+2024,Morelos,Morelos,Morelos,12332,260585,Occupational diseases,128,86,2
+2024,Morelos,Morelos,Morelos,12332,260585,Work accidents,3299,170,6
+2024,Morelos,Morelos,Morelos,12332,260585,Work accidents and diseases,3427,,
+2024,State of Mexico East,México Oriente,State of Mexico,49213,1708950,All work risks,61529,3459,127
+2024,State of Mexico East,México Oriente,State of Mexico,49213,1708950,Commuting accidents,22304,700,34
+2024,State of Mexico East,México Oriente,State of Mexico,49213,1708950,Occupational diseases,908,687,6
+2024,State of Mexico East,México Oriente,State of Mexico,49213,1708950,Work accidents,38317,2072,87
+2024,State of Mexico East,México Oriente,State of Mexico,49213,1708950,Work accidents and diseases,39225,,
+2024,State of Mexico West,México Poniente,State of Mexico,29408,962260,All work risks,26380,942,56
+2024,State of Mexico West,México Poniente,State of Mexico,29408,962260,Commuting accidents,10345,186,21
+2024,State of Mexico West,México Poniente,State of Mexico,29408,962260,Occupational diseases,297,86,2
+2024,State of Mexico West,México Poniente,State of Mexico,29408,962260,Work accidents,15738,670,33
+2024,State of Mexico West,México Poniente,State of Mexico,29408,962260,Work accidents and diseases,16035,,
+2024,Nayarit,Nayarit,Nayarit,13830,190580,All work risks,7704,418,10
+2024,Nayarit,Nayarit,Nayarit,13830,190580,Commuting accidents,1296,80,5
+2024,Nayarit,Nayarit,Nayarit,13830,190580,Occupational diseases,167,48,0
+2024,Nayarit,Nayarit,Nayarit,13830,190580,Work accidents,6241,290,5
+2024,Nayarit,Nayarit,Nayarit,13830,190580,Work accidents and diseases,6408,,
+2024,Nuevo León,Nuevo León,Nuevo León,78143,1750347,All work risks,38944,3203,44
+2024,Nuevo León,Nuevo León,Nuevo León,78143,1750347,Commuting accidents,9392,415,9
+2024,Nuevo León,Nuevo León,Nuevo León,78143,1750347,Occupational diseases,1413,838,4
+2024,Nuevo León,Nuevo León,Nuevo León,78143,1750347,Work accidents,28139,1950,31
+2024,Nuevo León,Nuevo León,Nuevo León,78143,1750347,Work accidents and diseases,29552,,
+2024,Oaxaca,Oaxaca,Oaxaca,14960,224638,All work risks,6254,203,19
+2024,Oaxaca,Oaxaca,Oaxaca,14960,224638,Commuting accidents,1377,31,7
+2024,Oaxaca,Oaxaca,Oaxaca,14960,224638,Occupational diseases,80,23,0
+2024,Oaxaca,Oaxaca,Oaxaca,14960,224638,Work accidents,4797,149,12
+2024,Oaxaca,Oaxaca,Oaxaca,14960,224638,Work accidents and diseases,4877,,
+2024,Puebla,Puebla,Puebla,35448,699264,All work risks,19549,887,42
+2024,Puebla,Puebla,Puebla,35448,699264,Commuting accidents,6574,214,8
+2024,Puebla,Puebla,Puebla,35448,699264,Occupational diseases,213,64,1
+2024,Puebla,Puebla,Puebla,35448,699264,Work accidents,12762,609,33
+2024,Puebla,Puebla,Puebla,35448,699264,Work accidents and diseases,12975,,
+2024,Querétaro,Querétaro,Querétaro,30316,643102,All work risks,13774,670,30
+2024,Querétaro,Querétaro,Querétaro,30316,643102,Commuting accidents,4250,112,8
+2024,Querétaro,Querétaro,Querétaro,30316,643102,Occupational diseases,195,65,0
+2024,Querétaro,Querétaro,Querétaro,30316,643102,Work accidents,9329,493,22
+2024,Querétaro,Querétaro,Querétaro,30316,643102,Work accidents and diseases,9524,,
+2024,Quintana Roo,Quintana Roo,Quintana Roo,22109,508157,All work risks,18309,636,25
+2024,Quintana Roo,Quintana Roo,Quintana Roo,22109,508157,Commuting accidents,3803,180,12
+2024,Quintana Roo,Quintana Roo,Quintana Roo,22109,508157,Occupational diseases,181,75,1
+2024,Quintana Roo,Quintana Roo,Quintana Roo,22109,508157,Work accidents,14325,381,12
+2024,Quintana Roo,Quintana Roo,Quintana Roo,22109,508157,Work accidents and diseases,14506,,
+2024,San Luis Potosí,San Luis Potosí,San Luis Potosí,24005,486766,All work risks,14468,1554,31
+2024,San Luis Potosí,San Luis Potosí,San Luis Potosí,24005,486766,Commuting accidents,5263,338,10
+2024,San Luis Potosí,San Luis Potosí,San Luis Potosí,24005,486766,Occupational diseases,596,381,1
+2024,San Luis Potosí,San Luis Potosí,San Luis Potosí,24005,486766,Work accidents,8609,835,20
+2024,San Luis Potosí,San Luis Potosí,San Luis Potosí,24005,486766,Work accidents and diseases,9205,,
+2024,Sinaloa,Sinaloa,Sinaloa,42677,613744,All work risks,18455,1884,57
+2024,Sinaloa,Sinaloa,Sinaloa,42677,613744,Commuting accidents,4246,442,13
+2024,Sinaloa,Sinaloa,Sinaloa,42677,613744,Occupational diseases,517,264,0
+2024,Sinaloa,Sinaloa,Sinaloa,42677,613744,Work accidents,13692,1178,44
+2024,Sinaloa,Sinaloa,Sinaloa,42677,613744,Work accidents and diseases,14209,,
+2024,Sonora,Sonora,Sonora,38380,652808,All work risks,18595,2274,24
+2024,Sonora,Sonora,Sonora,38380,652808,Commuting accidents,4830,360,4
+2024,Sonora,Sonora,Sonora,38380,652808,Occupational diseases,760,514,2
+2024,Sonora,Sonora,Sonora,38380,652808,Work accidents,13005,1400,18
+2024,Sonora,Sonora,Sonora,38380,652808,Work accidents and diseases,13765,,
+2024,Tabasco,Tabasco,Tabasco,12253,266319,All work risks,6787,320,32
+2024,Tabasco,Tabasco,Tabasco,12253,266319,Commuting accidents,1735,97,11
+2024,Tabasco,Tabasco,Tabasco,12253,266319,Occupational diseases,171,49,1
+2024,Tabasco,Tabasco,Tabasco,12253,266319,Work accidents,4881,174,20
+2024,Tabasco,Tabasco,Tabasco,12253,266319,Work accidents and diseases,5052,,
+2024,Tamaulipas,Tamaulipas,Tamaulipas,33156,760762,All work risks,19446,1931,35
+2024,Tamaulipas,Tamaulipas,Tamaulipas,33156,760762,Commuting accidents,5209,297,7
+2024,Tamaulipas,Tamaulipas,Tamaulipas,33156,760762,Occupational diseases,858,535,1
+2024,Tamaulipas,Tamaulipas,Tamaulipas,33156,760762,Work accidents,13379,1099,27
+2024,Tamaulipas,Tamaulipas,Tamaulipas,33156,760762,Work accidents and diseases,14237,,
+2024,Tlaxcala,Tlaxcala,Tlaxcala,5623,164140,All work risks,2715,164,24
+2024,Tlaxcala,Tlaxcala,Tlaxcala,5623,164140,Commuting accidents,815,21,7
+2024,Tlaxcala,Tlaxcala,Tlaxcala,5623,164140,Occupational diseases,52,14,1
+2024,Tlaxcala,Tlaxcala,Tlaxcala,5623,164140,Work accidents,1848,129,16
+2024,Tlaxcala,Tlaxcala,Tlaxcala,5623,164140,Work accidents and diseases,1900,,
+2024,Veracruz North,Veracruz Norte,Veracruz,27568,471397,All work risks,9305,454,24
+2024,Veracruz North,Veracruz Norte,Veracruz,27568,471397,Commuting accidents,1737,88,4
+2024,Veracruz North,Veracruz Norte,Veracruz,27568,471397,Occupational diseases,74,21,3
+2024,Veracruz North,Veracruz Norte,Veracruz,27568,471397,Work accidents,7494,345,17
+2024,Veracruz North,Veracruz Norte,Veracruz,27568,471397,Work accidents and diseases,7568,,
+2024,Veracruz South,Veracruz Sur,Veracruz,15149,319795,All work risks,7140,722,30
+2024,Veracruz South,Veracruz Sur,Veracruz,15149,319795,Commuting accidents,1853,115,8
+2024,Veracruz South,Veracruz Sur,Veracruz,15149,319795,Occupational diseases,264,192,0
+2024,Veracruz South,Veracruz Sur,Veracruz,15149,319795,Work accidents,5023,415,22
+2024,Veracruz South,Veracruz Sur,Veracruz,15149,319795,Work accidents and diseases,5287,,
+2024,Yucatán,Yucatán,Yucatán,22082,392242,All work risks,9869,256,19
+2024,Yucatán,Yucatán,Yucatán,22082,392242,Commuting accidents,2519,67,4
+2024,Yucatán,Yucatán,Yucatán,22082,392242,Occupational diseases,251,23,0
+2024,Yucatán,Yucatán,Yucatán,22082,392242,Work accidents,7099,166,15
+2024,Yucatán,Yucatán,Yucatán,22082,392242,Work accidents and diseases,7350,,
+2024,Zacatecas,Zacatecas,Zacatecas,11558,210063,All work risks,7386,1504,25
+2024,Zacatecas,Zacatecas,Zacatecas,11558,210063,Commuting accidents,1690,117,9
+2024,Zacatecas,Zacatecas,Zacatecas,11558,210063,Occupational diseases,825,944,0
+2024,Zacatecas,Zacatecas,Zacatecas,11558,210063,Work accidents,4871,443,16
+2024,Zacatecas,Zacatecas,Zacatecas,11558,210063,Work accidents and diseases,5696,,

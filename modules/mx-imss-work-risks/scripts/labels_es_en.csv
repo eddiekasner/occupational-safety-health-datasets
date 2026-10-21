@@ -1,0 +1,133 @@
+variable,spanish,english
+state,Ciudad de México Norte,Mexico City North
+state,CDMX Norte,Mexico City North
+state,Ciudad de México Sur,Mexico City South
+state,CDMX Sur,Mexico City South
+state,México Oriente,State of Mexico East
+state,México Zona Oriente,State of Mexico East
+state,México Poniente,State of Mexico West
+state,México Zona Poniente,State of Mexico West
+state,Veracruz Norte,Veracruz North
+state,Veracruz Sur,Veracruz South
+state,Michoacán,Michoacán
+state,Nuevo León,Nuevo León
+state,Querétaro,Querétaro
+state,San Luis Potosí,San Luis Potosí
+state,Yucatán,Yucatán
+activity,"Agricultura, ganadería, silvicultura, pesca y caza","Agriculture, livestock, forestry, fishing and hunting"
+activity,Comercio,Commerce
+activity,Industria de la construcción,Construction
+activity,Industria eléctrica y captación y suministro de agua potable,Electricity and water supply
+activity,Industrias de la transformación,Manufacturing
+activity,Industrias de transformación,Manufacturing
+activity,Industrias extractivas,Mining and quarrying
+activity,No identificados,Not identified
+activity,"Servicios para empresas, personas y el hogar","Services to businesses, people and households"
+activity,Servicios sociales y comunales,Social and community services
+activity,Transportes y comunicaciones,Transport and communications
+disease,"Afecciones respiratorias debidas a la inhalación de gases, humos, vapores y sustancias químicas","Respiratory conditions from inhaled gases, fumes, vapours and chemicals"
+disease,Artrosis,Osteoarthritis
+disease,Asma,Asthma
+disease,Cáncer ocupacional,Occupational cancer
+disease,COVID-19,COVID-19
+disease,Dermatitis de contacto,Contact dermatitis
+disease,Dorsopatías,Back disorders (dorsopathies)
+disease,Enfermedad Cardiaca,Heart disease
+disease,Enfermedad Cardiovascular,Cardiovascular disease
+disease,Enfermedad del Ojo y sus anexos,Diseases of the eye and adnexa
+disease,Enfermedad por Descompresión,Decompression sickness
+disease,Enfermedad vascular periférica,Peripheral vascular disease
+disease,Enfermedades Cerebrovasculares,Cerebrovascular diseases
+disease,Enfermedades crónicas de las vías respiratorias inferiores,Chronic lower respiratory diseases
+disease,Enfermedades de las vías aéreas debidas a polvos orgánicos específicos,Airway diseases due to specific organic dusts
+disease,Enfermedades infecciosas y parasitarias,Infectious and parasitic diseases
+disease,Enfermedades respiratorias asociadas a COVID-19,COVID-19-related respiratory diseases
+disease,Epicondilitis,Epicondylitis
+disease,Hipoacusias,Hearing loss
+disease,Intoxicaciones,Poisoning
+disease,Lesiones del Hombro,Shoulder lesions
+disease,Neumoconiosis,Pneumoconiosis
+disease,Neumonitis debida a hipersensibilidad al polvo orgánico,Hypersensitivity pneumonitis due to organic dust
+disease,Otras Entesopatías,Other enthesopathies
+disease,"Otras Sinovitis, Tenosinovitis y Bursitis","Other synovitis, tenosynovitis and bursitis"
+disease,Síndrome del túnel Carpiano,Carpal tunnel syndrome
+disease,Tenosinovitis de Estiloides Radial de Quervain,De Quervain's tenosynovitis
+disease,Tenosinovitis de Estiloides Radial de (Quervain),De Quervain's tenosynovitis
+disease,Trastornos mentales y del comportamiento,Mental and behavioural disorders
+disease,Varios de frecuencia menor,"Other, less frequent"
+cause,Agresiones,Assault
+cause,Caídas,Falls
+cause,Ciclista lesionado en accidente de transporte,Cyclist injured in transport accident
+cause,Contacto con calor y sustancias calientes,Contact with heat and hot substances
+cause,"Exceso de esfuerzo, viajes y privación","Overexertion, travel and privation"
+cause,"Exposición a factores de riesgo ocupacional, socioeconómicos y psicosociales","Exposure to occupational, socioeconomic and psychosocial risk factors"
+cause,Exposición a fuerzas mecánicas animadas,Exposure to animate mechanical forces
+cause,Exposición a fuerzas mecánicas inanimadas,Exposure to inanimate mechanical forces
+cause,Motociclista lesionado en accidente de transporte,Motorcyclist injured in transport accident
+cause,Ocupante de autobús lesionado en accidente de transporte,Bus occupant injured in transport accident
+cause,Ocupante de automóvil lesionado en accidente de transporte,Car occupant injured in transport accident
+cause,Ocupante de camioneta o furgoneta lesionado en accidente de transporte,Pick-up truck or van occupant injured in transport accident
+cause,Ocupante de vehículo de motor de tres ruedas lesionado en accidente de transporte,Three-wheeled motor vehicle occupant injured in transport accident
+cause,Peatón lesionado en accidente de transporte,Pedestrian injured in transport accident
+cause,Otras causas externas de frecuencia menor,"Other, less frequent"
+cause,Varios de frecuencia menor,"Other, less frequent"
+body_region,"Abdomen, región lumbosacra, columna lumbar y pelvis","Abdomen, lower back, lumbar spine and pelvis"
+body_region,Cabeza y cuello (excluye lesión en ojo y sus anexos),Head and neck (excluding eye)
+body_region,Cuerpo en general (incluye lesiones múltiples),Whole body (including multiple injuries)
+body_region,Miembro inferior (excluye tobillo y pie),Lower limb (excluding ankle and foot)
+body_region,Miembro superior (excluye muñeca y mano),Upper limb (excluding wrist and hand)
+body_region,Muñeca y mano,Wrist and hand
+body_region,Ojo (incluye lesiones en ojo y sus anexos),Eye and adnexa
+body_region,Tobillo y pie,Ankle and foot
+body_region,Tórax (incluye lesiones en órganos intratorácicos),Thorax (including intrathoracic organs)
+body_region,Varios de frecuencia menor,"Other, less frequent"
+injury,Amputaciones,Amputations
+injury,Cuerpo extraño,Foreign body
+injury,Fracturas,Fractures
+injury,Heridas,Wounds
+injury,Intoxicaciones,Poisoning
+injury,"Luxaciones, esguinces y desgarros","Dislocations, sprains and strains"
+injury,Quemaduras y corrosiones,Burns and corrosions
+injury,Traumatismos,Other injuries (traumatismos)
+injury,Traumatismos superficiales,Superficial injuries
+injury,Varios de frecuencia menor,"Other, less frequent"
+occupation,Agentes y representantes de ventas y consignatarios,Sales agents and representatives
+occupation,"Albañiles, mamposteros y afines","Bricklayers, stonemasons and related workers"
+occupation,Ayudantes en la preparación de alimentos,Food preparation assistants
+occupation,Barrenderos y trabajadores de limpieza (excepto en hoteles y restaurantes),Street sweepers and cleaners (except in hotels and restaurants)
+occupation,"Cajeros, taquilleros y receptores de apuestas","Cashiers, ticket clerks and bet takers"
+occupation,"Cajeros, taquilleros, receptores de apuestas y similares","Cashiers, ticket clerks and bet takers"
+occupation,Cargadores,Loaders and porters
+occupation,Choferes vendedores,Driver-salespeople
+occupation,"Cobradores, pagadores y prestamistas","Debt collectors, paymasters and moneylenders"
+occupation,Cocineros,Cooks
+occupation,"Conductores de autobuses, camiones, camionetas, taxis y automóviles de pasajeros","Bus, taxi and passenger vehicle drivers"
+occupation,"Conductores de camiones, camionetas y automóviles de carga",Truck and delivery vehicle drivers
+occupation,Conductores de motocicleta,Motorcycle drivers
+occupation,Demostradores y promotores,Product demonstrators and promoters
+occupation,"Empleados de ventas, despachadores y dependientes en comercios",Shop sales workers and assistants
+occupation,Encargados y trabajadores en control de almacén y bodega,Warehouse and storeroom workers
+occupation,Trabajadores en control de almacén y bodega,Warehouse and storeroom workers
+occupation,"Ensambladores y montadores de herramientas, maquinaria y productos metálicos","Assemblers of tools, machinery and metal products"
+occupation,Ensambladores y montadores de partes eléctricas y electrónicas,Electrical and electronic parts assemblers
+occupation,Mecánicos en mantenimiento y reparación de vehículos de motor,Motor vehicle mechanics
+occupation,Operadores de máquinas para la elaboración y ensamble de productos de plástico y hule,Plastic and rubber products machine operators
+occupation,"Operadores de máquinas que cortan, perforan, doblan, troquelan, sueldan, etc., piezas y productos metálicos","Metal cutting, drilling, bending, stamping and welding machine operators"
+occupation,"Otros comerciantes, empleados en ventas y agentes de ventas en establecimientos, no clasificados anteriormente","Other sales workers in establishments, not elsewhere classified"
+occupation,"Otros operadores de instalaciones y maquinaria fija industrial, no clasificados anteriormente","Other stationary plant and machine operators, not elsewhere classified"
+occupation,"Otros operadores de maquinaria industrial, ensambladores y conductores de transporte, no clasificados anteriormente","Other machine operators, assemblers and drivers, not elsewhere classified"
+occupation,Otros técnicos no clasificados anteriormente,"Other technicians, not elsewhere classified"
+occupation,"Otros trabajadores en actividades elementales y de apoyo, no clasificados anteriormente","Other elementary and support workers, not elsewhere classified"
+occupation,Policías y agentes de tránsito,Police and traffic officers
+occupation,Recamaristas y camaristas,Hotel room attendants
+occupation,Soldadores y oxicortadores,Welders and flame cutters
+occupation,Supervisores de operadores de maquinaria industrial,Supervisors of industrial machine operators
+occupation,Trabajadores de apoyo en actividades administrativas diversas,Administrative support workers
+occupation,Trabajadores de apoyo en la construcción,Construction labourers
+occupation,"Trabajadores de apoyo en la industria, no clasificados anteriormente","Manufacturing labourers, not elsewhere classified"
+occupation,"Trabajadores en la elaboración de productos de carne, pescado y sus derivados","Meat, fish and related products processing workers"
+occupation,Varios de frecuencia menor,"Other, less frequent"
+occupation,Vigilantes y guardias en establecimientos,Security guards
+age_group,<15,Under 15
+age_group,Menores de 15,Under 15
+age_group,75 y más,75 and over
