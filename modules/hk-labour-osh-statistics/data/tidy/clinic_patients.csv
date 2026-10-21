@@ -1,0 +1,73 @@
+year,disease_group,new_patients
+2017,Musculoskeletal diseases,1345
+2017,Injuries,153
+2017,Auditory diseases,14
+2017,Respiratory diseases,4
+2017,Neurological diseases,8
+2017,Skin diseases,7
+2017,Visual diseases,1
+2017,Other diseases,21
+2018,Musculoskeletal diseases,1267
+2018,Injuries,120
+2018,Auditory diseases,8
+2018,Respiratory diseases,8
+2018,Neurological diseases,13
+2018,Skin diseases,8
+2018,Visual diseases,5
+2018,Other diseases,26
+2019,Musculoskeletal diseases,1176
+2019,Injuries,150
+2019,Auditory diseases,16
+2019,Respiratory diseases,10
+2019,Neurological diseases,17
+2019,Skin diseases,28
+2019,Visual diseases,3
+2019,Other diseases,31
+2020,Musculoskeletal diseases,627
+2020,Injuries,64
+2020,Auditory diseases,10
+2020,Respiratory diseases,4
+2020,Neurological diseases,9
+2020,Skin diseases,4
+2020,Visual diseases,4
+2020,Other diseases,8
+2021,Musculoskeletal diseases,1558
+2021,Injuries,153
+2021,Auditory diseases,6
+2021,Respiratory diseases,8
+2021,Neurological diseases,21
+2021,Skin diseases,8
+2021,Visual diseases,6
+2021,Other diseases,25
+2022,Musculoskeletal diseases,1492
+2022,Injuries,156
+2022,Auditory diseases,8
+2022,Respiratory diseases,4
+2022,Neurological diseases,18
+2022,Skin diseases,8
+2022,Visual diseases,3
+2022,Other diseases,25
+2023,Musculoskeletal diseases,1771
+2023,Injuries,189
+2023,Auditory diseases,14
+2023,Respiratory diseases,7
+2023,Neurological diseases,23
+2023,Skin diseases,2
+2023,Visual diseases,10
+2023,Other diseases,22
+2024,Musculoskeletal diseases,1563
+2024,Injuries,140
+2024,Auditory diseases,18
+2024,Respiratory diseases,6
+2024,Neurological diseases,19
+2024,Skin diseases,7
+2024,Visual diseases,5
+2024,Other diseases,19
+2025,Musculoskeletal diseases,1697
+2025,Injuries,188
+2025,Auditory diseases,12
+2025,Respiratory diseases,2
+2025,Neurological diseases,8
+2025,Skin diseases,7
+2025,Visual diseases,6
+2025,Other diseases,17

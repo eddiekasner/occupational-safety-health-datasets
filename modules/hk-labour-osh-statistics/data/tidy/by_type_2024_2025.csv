@@ -1,0 +1,1345 @@
+statistic,industry,parent,accident_type,year,cases,fatalities
+Industrial accidents,Total,,Trapped in or between objects,2024,222,5
+Industrial accidents,Total,,Trapped in or between objects,2025,202,3
+Industrial accidents,Total,,Injured whilst lifting or carrying,2024,1246,0
+Industrial accidents,Total,,Injured whilst lifting or carrying,2025,1034,0
+Industrial accidents,Total,,"Slip, trip or fall on same level",2024,2048,0
+Industrial accidents,Total,,"Slip, trip or fall on same level",2025,1786,0
+Industrial accidents,Total,,Fall of person from height,2024,276,5
+Industrial accidents,Total,,Fall of person from height,2025,278,6
+Industrial accidents,Total,,Striking against fixed or stationary object,2024,659,0
+Industrial accidents,Total,,Striking against fixed or stationary object,2025,532,0
+Industrial accidents,Total,,Striking against or struck by moving object,2024,660,5
+Industrial accidents,Total,,Striking against or struck by moving object,2025,581,2
+Industrial accidents,Total,,Stepping on object,2024,56,0
+Industrial accidents,Total,,Stepping on object,2025,43,0
+Industrial accidents,Total,,Exposure to or contact with harmful substance,2024,71,2
+Industrial accidents,Total,,Exposure to or contact with harmful substance,2025,61,0
+Industrial accidents,Total,,Contact with electricity or electric discharge,2024,13,0
+Industrial accidents,Total,,Contact with electricity or electric discharge,2025,5,0
+Industrial accidents,Total,,Trapped by collapsing or overturning object,2024,14,0
+Industrial accidents,Total,,Trapped by collapsing or overturning object,2025,21,1
+Industrial accidents,Total,,Struck by falling object,2024,139,3
+Industrial accidents,Total,,Struck by falling object,2025,136,3
+Industrial accidents,Total,,Struck by moving vehicle,2024,43,1
+Industrial accidents,Total,,Struck by moving vehicle,2025,49,0
+Industrial accidents,Total,,Contact with moving machinery or object being machined,2024,355,0
+Industrial accidents,Total,,Contact with moving machinery or object being machined,2025,329,1
+Industrial accidents,Total,,Drowning,2024,1,1
+Industrial accidents,Total,,Drowning,2025,1,1
+Industrial accidents,Total,,Exposure to fire,2024,11,0
+Industrial accidents,Total,,Exposure to fire,2025,4,0
+Industrial accidents,Total,,Exposure to explosion,2024,6,0
+Industrial accidents,Total,,Exposure to explosion,2025,1,0
+Industrial accidents,Total,,Injured by hand tool,2024,659,0
+Industrial accidents,Total,,Injured by hand tool,2025,583,0
+Industrial accidents,Total,,Injured by fall of ground,2024,0,0
+Industrial accidents,Total,,Injured by fall of ground,2025,0,0
+Industrial accidents,Total,,Asphyxiation,2024,0,0
+Industrial accidents,Total,,Asphyxiation,2025,4,4
+Industrial accidents,Total,,Contact with hot surface or substance,2024,773,0
+Industrial accidents,Total,,Contact with hot surface or substance,2025,777,0
+Industrial accidents,Total,,Injured by animal,2024,22,0
+Industrial accidents,Total,,Injured by animal,2025,9,0
+Industrial accidents,Total,,Injured in workplace violence,2024,0,0
+Industrial accidents,Total,,Injured in workplace violence,2025,0,0
+Industrial accidents,Total,,Others,2024,97,0
+Industrial accidents,Total,,Others,2025,50,1
+Industrial accidents,Total,,Total,2024,7371,22
+Industrial accidents,Total,,Total,2025,6486,22
+Industrial accidents,Manufacturing,,Trapped in or between objects,2024,30,0
+Industrial accidents,Manufacturing,,Trapped in or between objects,2025,35,0
+Industrial accidents,Manufacturing,,Injured whilst lifting or carrying,2024,146,0
+Industrial accidents,Manufacturing,,Injured whilst lifting or carrying,2025,119,0
+Industrial accidents,Manufacturing,,"Slip, trip or fall on same level",2024,159,0
+Industrial accidents,Manufacturing,,"Slip, trip or fall on same level",2025,133,0
+Industrial accidents,Manufacturing,,Fall of person from height,2024,15,0
+Industrial accidents,Manufacturing,,Fall of person from height,2025,21,0
+Industrial accidents,Manufacturing,,Striking against fixed or stationary object,2024,63,0
+Industrial accidents,Manufacturing,,Striking against fixed or stationary object,2025,66,0
+Industrial accidents,Manufacturing,,Striking against or struck by moving object,2024,83,1
+Industrial accidents,Manufacturing,,Striking against or struck by moving object,2025,82,0
+Industrial accidents,Manufacturing,,Stepping on object,2024,5,0
+Industrial accidents,Manufacturing,,Stepping on object,2025,3,0
+Industrial accidents,Manufacturing,,Exposure to or contact with harmful substance,2024,14,0
+Industrial accidents,Manufacturing,,Exposure to or contact with harmful substance,2025,2,0
+Industrial accidents,Manufacturing,,Contact with electricity or electric discharge,2024,0,0
+Industrial accidents,Manufacturing,,Contact with electricity or electric discharge,2025,2,0
+Industrial accidents,Manufacturing,,Trapped by collapsing or overturning object,2024,1,0
+Industrial accidents,Manufacturing,,Trapped by collapsing or overturning object,2025,3,0
+Industrial accidents,Manufacturing,,Struck by falling object,2024,15,0
+Industrial accidents,Manufacturing,,Struck by falling object,2025,12,0
+Industrial accidents,Manufacturing,,Struck by moving vehicle,2024,7,0
+Industrial accidents,Manufacturing,,Struck by moving vehicle,2025,12,0
+Industrial accidents,Manufacturing,,Contact with moving machinery or object being machined,2024,96,0
+Industrial accidents,Manufacturing,,Contact with moving machinery or object being machined,2025,90,0
+Industrial accidents,Manufacturing,,Drowning,2024,0,0
+Industrial accidents,Manufacturing,,Drowning,2025,0,0
+Industrial accidents,Manufacturing,,Exposure to fire,2024,1,0
+Industrial accidents,Manufacturing,,Exposure to fire,2025,0,0
+Industrial accidents,Manufacturing,,Exposure to explosion,2024,0,0
+Industrial accidents,Manufacturing,,Exposure to explosion,2025,0,0
+Industrial accidents,Manufacturing,,Injured by hand tool,2024,36,0
+Industrial accidents,Manufacturing,,Injured by hand tool,2025,50,0
+Industrial accidents,Manufacturing,,Injured by fall of ground,2024,0,0
+Industrial accidents,Manufacturing,,Injured by fall of ground,2025,0,0
+Industrial accidents,Manufacturing,,Asphyxiation,2024,0,0
+Industrial accidents,Manufacturing,,Asphyxiation,2025,0,0
+Industrial accidents,Manufacturing,,Contact with hot surface or substance,2024,63,0
+Industrial accidents,Manufacturing,,Contact with hot surface or substance,2025,52,0
+Industrial accidents,Manufacturing,,Injured by animal,2024,0,0
+Industrial accidents,Manufacturing,,Injured by animal,2025,0,0
+Industrial accidents,Manufacturing,,Injured in workplace violence,2024,0,0
+Industrial accidents,Manufacturing,,Injured in workplace violence,2025,0,0
+Industrial accidents,Manufacturing,,Others,2024,9,0
+Industrial accidents,Manufacturing,,Others,2025,4,0
+Industrial accidents,Manufacturing,,Total,2024,743,1
+Industrial accidents,Manufacturing,,Total,2025,686,0
+Industrial accidents,Textiles,Manufacturing,Trapped in or between objects,2024,0,0
+Industrial accidents,Textiles,Manufacturing,Trapped in or between objects,2025,0,0
+Industrial accidents,Textiles,Manufacturing,Injured whilst lifting or carrying,2024,1,0
+Industrial accidents,Textiles,Manufacturing,Injured whilst lifting or carrying,2025,0,0
+Industrial accidents,Textiles,Manufacturing,"Slip, trip or fall on same level",2024,2,0
+Industrial accidents,Textiles,Manufacturing,"Slip, trip or fall on same level",2025,1,0
+Industrial accidents,Textiles,Manufacturing,Fall of person from height,2024,0,0
+Industrial accidents,Textiles,Manufacturing,Fall of person from height,2025,0,0
+Industrial accidents,Textiles,Manufacturing,Striking against fixed or stationary object,2024,0,0
+Industrial accidents,Textiles,Manufacturing,Striking against fixed or stationary object,2025,0,0
+Industrial accidents,Textiles,Manufacturing,Striking against or struck by moving object,2024,0,0
+Industrial accidents,Textiles,Manufacturing,Striking against or struck by moving object,2025,0,0
+Industrial accidents,Textiles,Manufacturing,Stepping on object,2024,0,0
+Industrial accidents,Textiles,Manufacturing,Stepping on object,2025,0,0
+Industrial accidents,Textiles,Manufacturing,Exposure to or contact with harmful substance,2024,0,0
+Industrial accidents,Textiles,Manufacturing,Exposure to or contact with harmful substance,2025,0,0
+Industrial accidents,Textiles,Manufacturing,Contact with electricity or electric discharge,2024,0,0
+Industrial accidents,Textiles,Manufacturing,Contact with electricity or electric discharge,2025,0,0
+Industrial accidents,Textiles,Manufacturing,Trapped by collapsing or overturning object,2024,0,0
+Industrial accidents,Textiles,Manufacturing,Trapped by collapsing or overturning object,2025,0,0
+Industrial accidents,Textiles,Manufacturing,Struck by falling object,2024,0,0
+Industrial accidents,Textiles,Manufacturing,Struck by falling object,2025,0,0
+Industrial accidents,Textiles,Manufacturing,Struck by moving vehicle,2024,0,0
+Industrial accidents,Textiles,Manufacturing,Struck by moving vehicle,2025,0,0
+Industrial accidents,Textiles,Manufacturing,Contact with moving machinery or object being machined,2024,2,0
+Industrial accidents,Textiles,Manufacturing,Contact with moving machinery or object being machined,2025,0,0
+Industrial accidents,Textiles,Manufacturing,Drowning,2024,0,0
+Industrial accidents,Textiles,Manufacturing,Drowning,2025,0,0
+Industrial accidents,Textiles,Manufacturing,Exposure to fire,2024,0,0
+Industrial accidents,Textiles,Manufacturing,Exposure to fire,2025,0,0
+Industrial accidents,Textiles,Manufacturing,Exposure to explosion,2024,0,0
+Industrial accidents,Textiles,Manufacturing,Exposure to explosion,2025,0,0
+Industrial accidents,Textiles,Manufacturing,Injured by hand tool,2024,0,0
+Industrial accidents,Textiles,Manufacturing,Injured by hand tool,2025,1,0
+Industrial accidents,Textiles,Manufacturing,Injured by fall of ground,2024,0,0
+Industrial accidents,Textiles,Manufacturing,Injured by fall of ground,2025,0,0
+Industrial accidents,Textiles,Manufacturing,Asphyxiation,2024,0,0
+Industrial accidents,Textiles,Manufacturing,Asphyxiation,2025,0,0
+Industrial accidents,Textiles,Manufacturing,Contact with hot surface or substance,2024,0,0
+Industrial accidents,Textiles,Manufacturing,Contact with hot surface or substance,2025,0,0
+Industrial accidents,Textiles,Manufacturing,Injured by animal,2024,0,0
+Industrial accidents,Textiles,Manufacturing,Injured by animal,2025,0,0
+Industrial accidents,Textiles,Manufacturing,Injured in workplace violence,2024,0,0
+Industrial accidents,Textiles,Manufacturing,Injured in workplace violence,2025,0,0
+Industrial accidents,Textiles,Manufacturing,Others,2024,1,0
+Industrial accidents,Textiles,Manufacturing,Others,2025,0,0
+Industrial accidents,Textiles,Manufacturing,Total,2024,6,0
+Industrial accidents,Textiles,Manufacturing,Total,2025,2,0
+Industrial accidents,Wearing apparel,Manufacturing,Trapped in or between objects,2024,0,0
+Industrial accidents,Wearing apparel,Manufacturing,Trapped in or between objects,2025,0,0
+Industrial accidents,Wearing apparel,Manufacturing,Injured whilst lifting or carrying,2024,2,0
+Industrial accidents,Wearing apparel,Manufacturing,Injured whilst lifting or carrying,2025,0,0
+Industrial accidents,Wearing apparel,Manufacturing,"Slip, trip or fall on same level",2024,0,0
+Industrial accidents,Wearing apparel,Manufacturing,"Slip, trip or fall on same level",2025,0,0
+Industrial accidents,Wearing apparel,Manufacturing,Fall of person from height,2024,0,0
+Industrial accidents,Wearing apparel,Manufacturing,Fall of person from height,2025,0,0
+Industrial accidents,Wearing apparel,Manufacturing,Striking against fixed or stationary object,2024,0,0
+Industrial accidents,Wearing apparel,Manufacturing,Striking against fixed or stationary object,2025,0,0
+Industrial accidents,Wearing apparel,Manufacturing,Striking against or struck by moving object,2024,0,0
+Industrial accidents,Wearing apparel,Manufacturing,Striking against or struck by moving object,2025,0,0
+Industrial accidents,Wearing apparel,Manufacturing,Stepping on object,2024,1,0
+Industrial accidents,Wearing apparel,Manufacturing,Stepping on object,2025,0,0
+Industrial accidents,Wearing apparel,Manufacturing,Exposure to or contact with harmful substance,2024,0,0
+Industrial accidents,Wearing apparel,Manufacturing,Exposure to or contact with harmful substance,2025,0,0
+Industrial accidents,Wearing apparel,Manufacturing,Contact with electricity or electric discharge,2024,0,0
+Industrial accidents,Wearing apparel,Manufacturing,Contact with electricity or electric discharge,2025,0,0
+Industrial accidents,Wearing apparel,Manufacturing,Trapped by collapsing or overturning object,2024,0,0
+Industrial accidents,Wearing apparel,Manufacturing,Trapped by collapsing or overturning object,2025,0,0
+Industrial accidents,Wearing apparel,Manufacturing,Struck by falling object,2024,0,0
+Industrial accidents,Wearing apparel,Manufacturing,Struck by falling object,2025,0,0
+Industrial accidents,Wearing apparel,Manufacturing,Struck by moving vehicle,2024,0,0
+Industrial accidents,Wearing apparel,Manufacturing,Struck by moving vehicle,2025,0,0
+Industrial accidents,Wearing apparel,Manufacturing,Contact with moving machinery or object being machined,2024,1,0
+Industrial accidents,Wearing apparel,Manufacturing,Contact with moving machinery or object being machined,2025,1,0
+Industrial accidents,Wearing apparel,Manufacturing,Drowning,2024,0,0
+Industrial accidents,Wearing apparel,Manufacturing,Drowning,2025,0,0
+Industrial accidents,Wearing apparel,Manufacturing,Exposure to fire,2024,0,0
+Industrial accidents,Wearing apparel,Manufacturing,Exposure to fire,2025,0,0
+Industrial accidents,Wearing apparel,Manufacturing,Exposure to explosion,2024,0,0
+Industrial accidents,Wearing apparel,Manufacturing,Exposure to explosion,2025,0,0
+Industrial accidents,Wearing apparel,Manufacturing,Injured by hand tool,2024,0,0
+Industrial accidents,Wearing apparel,Manufacturing,Injured by hand tool,2025,0,0
+Industrial accidents,Wearing apparel,Manufacturing,Injured by fall of ground,2024,0,0
+Industrial accidents,Wearing apparel,Manufacturing,Injured by fall of ground,2025,0,0
+Industrial accidents,Wearing apparel,Manufacturing,Asphyxiation,2024,0,0
+Industrial accidents,Wearing apparel,Manufacturing,Asphyxiation,2025,0,0
+Industrial accidents,Wearing apparel,Manufacturing,Contact with hot surface or substance,2024,0,0
+Industrial accidents,Wearing apparel,Manufacturing,Contact with hot surface or substance,2025,0,0
+Industrial accidents,Wearing apparel,Manufacturing,Injured by animal,2024,0,0
+Industrial accidents,Wearing apparel,Manufacturing,Injured by animal,2025,0,0
+Industrial accidents,Wearing apparel,Manufacturing,Injured in workplace violence,2024,0,0
+Industrial accidents,Wearing apparel,Manufacturing,Injured in workplace violence,2025,0,0
+Industrial accidents,Wearing apparel,Manufacturing,Others,2024,0,0
+Industrial accidents,Wearing apparel,Manufacturing,Others,2025,0,0
+Industrial accidents,Wearing apparel,Manufacturing,Total,2024,4,0
+Industrial accidents,Wearing apparel,Manufacturing,Total,2025,1,0
+Industrial accidents,Electronics,Manufacturing,Trapped in or between objects,2024,1,0
+Industrial accidents,Electronics,Manufacturing,Trapped in or between objects,2025,0,0
+Industrial accidents,Electronics,Manufacturing,Injured whilst lifting or carrying,2024,1,0
+Industrial accidents,Electronics,Manufacturing,Injured whilst lifting or carrying,2025,0,0
+Industrial accidents,Electronics,Manufacturing,"Slip, trip or fall on same level",2024,2,0
+Industrial accidents,Electronics,Manufacturing,"Slip, trip or fall on same level",2025,1,0
+Industrial accidents,Electronics,Manufacturing,Fall of person from height,2024,0,0
+Industrial accidents,Electronics,Manufacturing,Fall of person from height,2025,0,0
+Industrial accidents,Electronics,Manufacturing,Striking against fixed or stationary object,2024,0,0
+Industrial accidents,Electronics,Manufacturing,Striking against fixed or stationary object,2025,0,0
+Industrial accidents,Electronics,Manufacturing,Striking against or struck by moving object,2024,1,0
+Industrial accidents,Electronics,Manufacturing,Striking against or struck by moving object,2025,1,0
+Industrial accidents,Electronics,Manufacturing,Stepping on object,2024,0,0
+Industrial accidents,Electronics,Manufacturing,Stepping on object,2025,0,0
+Industrial accidents,Electronics,Manufacturing,Exposure to or contact with harmful substance,2024,0,0
+Industrial accidents,Electronics,Manufacturing,Exposure to or contact with harmful substance,2025,0,0
+Industrial accidents,Electronics,Manufacturing,Contact with electricity or electric discharge,2024,0,0
+Industrial accidents,Electronics,Manufacturing,Contact with electricity or electric discharge,2025,0,0
+Industrial accidents,Electronics,Manufacturing,Trapped by collapsing or overturning object,2024,0,0
+Industrial accidents,Electronics,Manufacturing,Trapped by collapsing or overturning object,2025,0,0
+Industrial accidents,Electronics,Manufacturing,Struck by falling object,2024,0,0
+Industrial accidents,Electronics,Manufacturing,Struck by falling object,2025,0,0
+Industrial accidents,Electronics,Manufacturing,Struck by moving vehicle,2024,0,0
+Industrial accidents,Electronics,Manufacturing,Struck by moving vehicle,2025,0,0
+Industrial accidents,Electronics,Manufacturing,Contact with moving machinery or object being machined,2024,2,0
+Industrial accidents,Electronics,Manufacturing,Contact with moving machinery or object being machined,2025,1,0
+Industrial accidents,Electronics,Manufacturing,Drowning,2024,0,0
+Industrial accidents,Electronics,Manufacturing,Drowning,2025,0,0
+Industrial accidents,Electronics,Manufacturing,Exposure to fire,2024,0,0
+Industrial accidents,Electronics,Manufacturing,Exposure to fire,2025,0,0
+Industrial accidents,Electronics,Manufacturing,Exposure to explosion,2024,0,0
+Industrial accidents,Electronics,Manufacturing,Exposure to explosion,2025,0,0
+Industrial accidents,Electronics,Manufacturing,Injured by hand tool,2024,0,0
+Industrial accidents,Electronics,Manufacturing,Injured by hand tool,2025,0,0
+Industrial accidents,Electronics,Manufacturing,Injured by fall of ground,2024,0,0
+Industrial accidents,Electronics,Manufacturing,Injured by fall of ground,2025,0,0
+Industrial accidents,Electronics,Manufacturing,Asphyxiation,2024,0,0
+Industrial accidents,Electronics,Manufacturing,Asphyxiation,2025,0,0
+Industrial accidents,Electronics,Manufacturing,Contact with hot surface or substance,2024,0,0
+Industrial accidents,Electronics,Manufacturing,Contact with hot surface or substance,2025,0,0
+Industrial accidents,Electronics,Manufacturing,Injured by animal,2024,0,0
+Industrial accidents,Electronics,Manufacturing,Injured by animal,2025,0,0
+Industrial accidents,Electronics,Manufacturing,Injured in workplace violence,2024,0,0
+Industrial accidents,Electronics,Manufacturing,Injured in workplace violence,2025,0,0
+Industrial accidents,Electronics,Manufacturing,Others,2024,1,0
+Industrial accidents,Electronics,Manufacturing,Others,2025,0,0
+Industrial accidents,Electronics,Manufacturing,Total,2024,8,0
+Industrial accidents,Electronics,Manufacturing,Total,2025,3,0
+Industrial accidents,Fabricated metal products,Manufacturing,Trapped in or between objects,2024,4,0
+Industrial accidents,Fabricated metal products,Manufacturing,Trapped in or between objects,2025,4,0
+Industrial accidents,Fabricated metal products,Manufacturing,Injured whilst lifting or carrying,2024,5,0
+Industrial accidents,Fabricated metal products,Manufacturing,Injured whilst lifting or carrying,2025,2,0
+Industrial accidents,Fabricated metal products,Manufacturing,"Slip, trip or fall on same level",2024,1,0
+Industrial accidents,Fabricated metal products,Manufacturing,"Slip, trip or fall on same level",2025,3,0
+Industrial accidents,Fabricated metal products,Manufacturing,Fall of person from height,2024,0,0
+Industrial accidents,Fabricated metal products,Manufacturing,Fall of person from height,2025,1,0
+Industrial accidents,Fabricated metal products,Manufacturing,Striking against fixed or stationary object,2024,0,0
+Industrial accidents,Fabricated metal products,Manufacturing,Striking against fixed or stationary object,2025,3,0
+Industrial accidents,Fabricated metal products,Manufacturing,Striking against or struck by moving object,2024,5,0
+Industrial accidents,Fabricated metal products,Manufacturing,Striking against or struck by moving object,2025,5,0
+Industrial accidents,Fabricated metal products,Manufacturing,Stepping on object,2024,0,0
+Industrial accidents,Fabricated metal products,Manufacturing,Stepping on object,2025,0,0
+Industrial accidents,Fabricated metal products,Manufacturing,Exposure to or contact with harmful substance,2024,1,0
+Industrial accidents,Fabricated metal products,Manufacturing,Exposure to or contact with harmful substance,2025,0,0
+Industrial accidents,Fabricated metal products,Manufacturing,Contact with electricity or electric discharge,2024,0,0
+Industrial accidents,Fabricated metal products,Manufacturing,Contact with electricity or electric discharge,2025,0,0
+Industrial accidents,Fabricated metal products,Manufacturing,Trapped by collapsing or overturning object,2024,0,0
+Industrial accidents,Fabricated metal products,Manufacturing,Trapped by collapsing or overturning object,2025,0,0
+Industrial accidents,Fabricated metal products,Manufacturing,Struck by falling object,2024,0,0
+Industrial accidents,Fabricated metal products,Manufacturing,Struck by falling object,2025,1,0
+Industrial accidents,Fabricated metal products,Manufacturing,Struck by moving vehicle,2024,0,0
+Industrial accidents,Fabricated metal products,Manufacturing,Struck by moving vehicle,2025,0,0
+Industrial accidents,Fabricated metal products,Manufacturing,Contact with moving machinery or object being machined,2024,1,0
+Industrial accidents,Fabricated metal products,Manufacturing,Contact with moving machinery or object being machined,2025,6,0
+Industrial accidents,Fabricated metal products,Manufacturing,Drowning,2024,0,0
+Industrial accidents,Fabricated metal products,Manufacturing,Drowning,2025,0,0
+Industrial accidents,Fabricated metal products,Manufacturing,Exposure to fire,2024,0,0
+Industrial accidents,Fabricated metal products,Manufacturing,Exposure to fire,2025,0,0
+Industrial accidents,Fabricated metal products,Manufacturing,Exposure to explosion,2024,0,0
+Industrial accidents,Fabricated metal products,Manufacturing,Exposure to explosion,2025,0,0
+Industrial accidents,Fabricated metal products,Manufacturing,Injured by hand tool,2024,0,0
+Industrial accidents,Fabricated metal products,Manufacturing,Injured by hand tool,2025,1,0
+Industrial accidents,Fabricated metal products,Manufacturing,Injured by fall of ground,2024,0,0
+Industrial accidents,Fabricated metal products,Manufacturing,Injured by fall of ground,2025,0,0
+Industrial accidents,Fabricated metal products,Manufacturing,Asphyxiation,2024,0,0
+Industrial accidents,Fabricated metal products,Manufacturing,Asphyxiation,2025,0,0
+Industrial accidents,Fabricated metal products,Manufacturing,Contact with hot surface or substance,2024,0,0
+Industrial accidents,Fabricated metal products,Manufacturing,Contact with hot surface or substance,2025,0,0
+Industrial accidents,Fabricated metal products,Manufacturing,Injured by animal,2024,0,0
+Industrial accidents,Fabricated metal products,Manufacturing,Injured by animal,2025,0,0
+Industrial accidents,Fabricated metal products,Manufacturing,Injured in workplace violence,2024,0,0
+Industrial accidents,Fabricated metal products,Manufacturing,Injured in workplace violence,2025,0,0
+Industrial accidents,Fabricated metal products,Manufacturing,Others,2024,0,0
+Industrial accidents,Fabricated metal products,Manufacturing,Others,2025,0,0
+Industrial accidents,Fabricated metal products,Manufacturing,Total,2024,17,0
+Industrial accidents,Fabricated metal products,Manufacturing,Total,2025,26,0
+Industrial accidents,Rubber and plastics products,Manufacturing,Trapped in or between objects,2024,0,0
+Industrial accidents,Rubber and plastics products,Manufacturing,Trapped in or between objects,2025,0,0
+Industrial accidents,Rubber and plastics products,Manufacturing,Injured whilst lifting or carrying,2024,0,0
+Industrial accidents,Rubber and plastics products,Manufacturing,Injured whilst lifting or carrying,2025,1,0
+Industrial accidents,Rubber and plastics products,Manufacturing,"Slip, trip or fall on same level",2024,1,0
+Industrial accidents,Rubber and plastics products,Manufacturing,"Slip, trip or fall on same level",2025,0,0
+Industrial accidents,Rubber and plastics products,Manufacturing,Fall of person from height,2024,0,0
+Industrial accidents,Rubber and plastics products,Manufacturing,Fall of person from height,2025,1,0
+Industrial accidents,Rubber and plastics products,Manufacturing,Striking against fixed or stationary object,2024,0,0
+Industrial accidents,Rubber and plastics products,Manufacturing,Striking against fixed or stationary object,2025,0,0
+Industrial accidents,Rubber and plastics products,Manufacturing,Striking against or struck by moving object,2024,0,0
+Industrial accidents,Rubber and plastics products,Manufacturing,Striking against or struck by moving object,2025,0,0
+Industrial accidents,Rubber and plastics products,Manufacturing,Stepping on object,2024,0,0
+Industrial accidents,Rubber and plastics products,Manufacturing,Stepping on object,2025,0,0
+Industrial accidents,Rubber and plastics products,Manufacturing,Exposure to or contact with harmful substance,2024,0,0
+Industrial accidents,Rubber and plastics products,Manufacturing,Exposure to or contact with harmful substance,2025,0,0
+Industrial accidents,Rubber and plastics products,Manufacturing,Contact with electricity or electric discharge,2024,0,0
+Industrial accidents,Rubber and plastics products,Manufacturing,Contact with electricity or electric discharge,2025,0,0
+Industrial accidents,Rubber and plastics products,Manufacturing,Trapped by collapsing or overturning object,2024,0,0
+Industrial accidents,Rubber and plastics products,Manufacturing,Trapped by collapsing or overturning object,2025,0,0
+Industrial accidents,Rubber and plastics products,Manufacturing,Struck by falling object,2024,0,0
+Industrial accidents,Rubber and plastics products,Manufacturing,Struck by falling object,2025,0,0
+Industrial accidents,Rubber and plastics products,Manufacturing,Struck by moving vehicle,2024,0,0
+Industrial accidents,Rubber and plastics products,Manufacturing,Struck by moving vehicle,2025,1,0
+Industrial accidents,Rubber and plastics products,Manufacturing,Contact with moving machinery or object being machined,2024,2,0
+Industrial accidents,Rubber and plastics products,Manufacturing,Contact with moving machinery or object being machined,2025,0,0
+Industrial accidents,Rubber and plastics products,Manufacturing,Drowning,2024,0,0
+Industrial accidents,Rubber and plastics products,Manufacturing,Drowning,2025,0,0
+Industrial accidents,Rubber and plastics products,Manufacturing,Exposure to fire,2024,1,0
+Industrial accidents,Rubber and plastics products,Manufacturing,Exposure to fire,2025,0,0
+Industrial accidents,Rubber and plastics products,Manufacturing,Exposure to explosion,2024,0,0
+Industrial accidents,Rubber and plastics products,Manufacturing,Exposure to explosion,2025,0,0
+Industrial accidents,Rubber and plastics products,Manufacturing,Injured by hand tool,2024,0,0
+Industrial accidents,Rubber and plastics products,Manufacturing,Injured by hand tool,2025,0,0
+Industrial accidents,Rubber and plastics products,Manufacturing,Injured by fall of ground,2024,0,0
+Industrial accidents,Rubber and plastics products,Manufacturing,Injured by fall of ground,2025,0,0
+Industrial accidents,Rubber and plastics products,Manufacturing,Asphyxiation,2024,0,0
+Industrial accidents,Rubber and plastics products,Manufacturing,Asphyxiation,2025,0,0
+Industrial accidents,Rubber and plastics products,Manufacturing,Contact with hot surface or substance,2024,0,0
+Industrial accidents,Rubber and plastics products,Manufacturing,Contact with hot surface or substance,2025,0,0
+Industrial accidents,Rubber and plastics products,Manufacturing,Injured by animal,2024,0,0
+Industrial accidents,Rubber and plastics products,Manufacturing,Injured by animal,2025,0,0
+Industrial accidents,Rubber and plastics products,Manufacturing,Injured in workplace violence,2024,0,0
+Industrial accidents,Rubber and plastics products,Manufacturing,Injured in workplace violence,2025,0,0
+Industrial accidents,Rubber and plastics products,Manufacturing,Others,2024,0,0
+Industrial accidents,Rubber and plastics products,Manufacturing,Others,2025,0,0
+Industrial accidents,Rubber and plastics products,Manufacturing,Total,2024,4,0
+Industrial accidents,Rubber and plastics products,Manufacturing,Total,2025,3,0
+Industrial accidents,Shipbuilding and shiprepairing,Manufacturing,Trapped in or between objects,2024,1,0
+Industrial accidents,Shipbuilding and shiprepairing,Manufacturing,Trapped in or between objects,2025,1,0
+Industrial accidents,Shipbuilding and shiprepairing,Manufacturing,Injured whilst lifting or carrying,2024,2,0
+Industrial accidents,Shipbuilding and shiprepairing,Manufacturing,Injured whilst lifting or carrying,2025,4,0
+Industrial accidents,Shipbuilding and shiprepairing,Manufacturing,"Slip, trip or fall on same level",2024,3,0
+Industrial accidents,Shipbuilding and shiprepairing,Manufacturing,"Slip, trip or fall on same level",2025,3,0
+Industrial accidents,Shipbuilding and shiprepairing,Manufacturing,Fall of person from height,2024,0,0
+Industrial accidents,Shipbuilding and shiprepairing,Manufacturing,Fall of person from height,2025,3,0
+Industrial accidents,Shipbuilding and shiprepairing,Manufacturing,Striking against fixed or stationary object,2024,2,0
+Industrial accidents,Shipbuilding and shiprepairing,Manufacturing,Striking against fixed or stationary object,2025,1,0
+Industrial accidents,Shipbuilding and shiprepairing,Manufacturing,Striking against or struck by moving object,2024,1,0
+Industrial accidents,Shipbuilding and shiprepairing,Manufacturing,Striking against or struck by moving object,2025,1,0
+Industrial accidents,Shipbuilding and shiprepairing,Manufacturing,Stepping on object,2024,0,0
+Industrial accidents,Shipbuilding and shiprepairing,Manufacturing,Stepping on object,2025,2,0
+Industrial accidents,Shipbuilding and shiprepairing,Manufacturing,Exposure to or contact with harmful substance,2024,0,0
+Industrial accidents,Shipbuilding and shiprepairing,Manufacturing,Exposure to or contact with harmful substance,2025,0,0
+Industrial accidents,Shipbuilding and shiprepairing,Manufacturing,Contact with electricity or electric discharge,2024,0,0
+Industrial accidents,Shipbuilding and shiprepairing,Manufacturing,Contact with electricity or electric discharge,2025,0,0
+Industrial accidents,Shipbuilding and shiprepairing,Manufacturing,Trapped by collapsing or overturning object,2024,0,0
+Industrial accidents,Shipbuilding and shiprepairing,Manufacturing,Trapped by collapsing or overturning object,2025,0,0
+Industrial accidents,Shipbuilding and shiprepairing,Manufacturing,Struck by falling object,2024,0,0
+Industrial accidents,Shipbuilding and shiprepairing,Manufacturing,Struck by falling object,2025,0,0
+Industrial accidents,Shipbuilding and shiprepairing,Manufacturing,Struck by moving vehicle,2024,0,0
+Industrial accidents,Shipbuilding and shiprepairing,Manufacturing,Struck by moving vehicle,2025,0,0
+Industrial accidents,Shipbuilding and shiprepairing,Manufacturing,Contact with moving machinery or object being machined,2024,0,0
+Industrial accidents,Shipbuilding and shiprepairing,Manufacturing,Contact with moving machinery or object being machined,2025,2,0
+Industrial accidents,Shipbuilding and shiprepairing,Manufacturing,Drowning,2024,0,0
+Industrial accidents,Shipbuilding and shiprepairing,Manufacturing,Drowning,2025,0,0
+Industrial accidents,Shipbuilding and shiprepairing,Manufacturing,Exposure to fire,2024,0,0
+Industrial accidents,Shipbuilding and shiprepairing,Manufacturing,Exposure to fire,2025,0,0
+Industrial accidents,Shipbuilding and shiprepairing,Manufacturing,Exposure to explosion,2024,0,0
+Industrial accidents,Shipbuilding and shiprepairing,Manufacturing,Exposure to explosion,2025,0,0
+Industrial accidents,Shipbuilding and shiprepairing,Manufacturing,Injured by hand tool,2024,0,0
+Industrial accidents,Shipbuilding and shiprepairing,Manufacturing,Injured by hand tool,2025,0,0
+Industrial accidents,Shipbuilding and shiprepairing,Manufacturing,Injured by fall of ground,2024,0,0
+Industrial accidents,Shipbuilding and shiprepairing,Manufacturing,Injured by fall of ground,2025,0,0
+Industrial accidents,Shipbuilding and shiprepairing,Manufacturing,Asphyxiation,2024,0,0
+Industrial accidents,Shipbuilding and shiprepairing,Manufacturing,Asphyxiation,2025,0,0
+Industrial accidents,Shipbuilding and shiprepairing,Manufacturing,Contact with hot surface or substance,2024,0,0
+Industrial accidents,Shipbuilding and shiprepairing,Manufacturing,Contact with hot surface or substance,2025,0,0
+Industrial accidents,Shipbuilding and shiprepairing,Manufacturing,Injured by animal,2024,0,0
+Industrial accidents,Shipbuilding and shiprepairing,Manufacturing,Injured by animal,2025,0,0
+Industrial accidents,Shipbuilding and shiprepairing,Manufacturing,Injured in workplace violence,2024,0,0
+Industrial accidents,Shipbuilding and shiprepairing,Manufacturing,Injured in workplace violence,2025,0,0
+Industrial accidents,Shipbuilding and shiprepairing,Manufacturing,Others,2024,0,0
+Industrial accidents,Shipbuilding and shiprepairing,Manufacturing,Others,2025,0,0
+Industrial accidents,Shipbuilding and shiprepairing,Manufacturing,Total,2024,9,0
+Industrial accidents,Shipbuilding and shiprepairing,Manufacturing,Total,2025,17,0
+Industrial accidents,Printing and reproduction of recorded media,Manufacturing,Trapped in or between objects,2024,0,0
+Industrial accidents,Printing and reproduction of recorded media,Manufacturing,Trapped in or between objects,2025,0,0
+Industrial accidents,Printing and reproduction of recorded media,Manufacturing,Injured whilst lifting or carrying,2024,5,0
+Industrial accidents,Printing and reproduction of recorded media,Manufacturing,Injured whilst lifting or carrying,2025,4,0
+Industrial accidents,Printing and reproduction of recorded media,Manufacturing,"Slip, trip or fall on same level",2024,5,0
+Industrial accidents,Printing and reproduction of recorded media,Manufacturing,"Slip, trip or fall on same level",2025,3,0
+Industrial accidents,Printing and reproduction of recorded media,Manufacturing,Fall of person from height,2024,1,0
+Industrial accidents,Printing and reproduction of recorded media,Manufacturing,Fall of person from height,2025,1,0
+Industrial accidents,Printing and reproduction of recorded media,Manufacturing,Striking against fixed or stationary object,2024,1,0
+Industrial accidents,Printing and reproduction of recorded media,Manufacturing,Striking against fixed or stationary object,2025,0,0
+Industrial accidents,Printing and reproduction of recorded media,Manufacturing,Striking against or struck by moving object,2024,1,0
+Industrial accidents,Printing and reproduction of recorded media,Manufacturing,Striking against or struck by moving object,2025,4,0
+Industrial accidents,Printing and reproduction of recorded media,Manufacturing,Stepping on object,2024,1,0
+Industrial accidents,Printing and reproduction of recorded media,Manufacturing,Stepping on object,2025,0,0
+Industrial accidents,Printing and reproduction of recorded media,Manufacturing,Exposure to or contact with harmful substance,2024,0,0
+Industrial accidents,Printing and reproduction of recorded media,Manufacturing,Exposure to or contact with harmful substance,2025,0,0
+Industrial accidents,Printing and reproduction of recorded media,Manufacturing,Contact with electricity or electric discharge,2024,0,0
+Industrial accidents,Printing and reproduction of recorded media,Manufacturing,Contact with electricity or electric discharge,2025,0,0
+Industrial accidents,Printing and reproduction of recorded media,Manufacturing,Trapped by collapsing or overturning object,2024,0,0
+Industrial accidents,Printing and reproduction of recorded media,Manufacturing,Trapped by collapsing or overturning object,2025,0,0
+Industrial accidents,Printing and reproduction of recorded media,Manufacturing,Struck by falling object,2024,1,0
+Industrial accidents,Printing and reproduction of recorded media,Manufacturing,Struck by falling object,2025,0,0
+Industrial accidents,Printing and reproduction of recorded media,Manufacturing,Struck by moving vehicle,2024,0,0
+Industrial accidents,Printing and reproduction of recorded media,Manufacturing,Struck by moving vehicle,2025,0,0
+Industrial accidents,Printing and reproduction of recorded media,Manufacturing,Contact with moving machinery or object being machined,2024,6,0
+Industrial accidents,Printing and reproduction of recorded media,Manufacturing,Contact with moving machinery or object being machined,2025,7,0
+Industrial accidents,Printing and reproduction of recorded media,Manufacturing,Drowning,2024,0,0
+Industrial accidents,Printing and reproduction of recorded media,Manufacturing,Drowning,2025,0,0
+Industrial accidents,Printing and reproduction of recorded media,Manufacturing,Exposure to fire,2024,0,0
+Industrial accidents,Printing and reproduction of recorded media,Manufacturing,Exposure to fire,2025,0,0
+Industrial accidents,Printing and reproduction of recorded media,Manufacturing,Exposure to explosion,2024,0,0
+Industrial accidents,Printing and reproduction of recorded media,Manufacturing,Exposure to explosion,2025,0,0
+Industrial accidents,Printing and reproduction of recorded media,Manufacturing,Injured by hand tool,2024,0,0
+Industrial accidents,Printing and reproduction of recorded media,Manufacturing,Injured by hand tool,2025,5,0
+Industrial accidents,Printing and reproduction of recorded media,Manufacturing,Injured by fall of ground,2024,0,0
+Industrial accidents,Printing and reproduction of recorded media,Manufacturing,Injured by fall of ground,2025,0,0
+Industrial accidents,Printing and reproduction of recorded media,Manufacturing,Asphyxiation,2024,0,0
+Industrial accidents,Printing and reproduction of recorded media,Manufacturing,Asphyxiation,2025,0,0
+Industrial accidents,Printing and reproduction of recorded media,Manufacturing,Contact with hot surface or substance,2024,0,0
+Industrial accidents,Printing and reproduction of recorded media,Manufacturing,Contact with hot surface or substance,2025,0,0
+Industrial accidents,Printing and reproduction of recorded media,Manufacturing,Injured by animal,2024,0,0
+Industrial accidents,Printing and reproduction of recorded media,Manufacturing,Injured by animal,2025,0,0
+Industrial accidents,Printing and reproduction of recorded media,Manufacturing,Injured in workplace violence,2024,0,0
+Industrial accidents,Printing and reproduction of recorded media,Manufacturing,Injured in workplace violence,2025,0,0
+Industrial accidents,Printing and reproduction of recorded media,Manufacturing,Others,2024,0,0
+Industrial accidents,Printing and reproduction of recorded media,Manufacturing,Others,2025,0,0
+Industrial accidents,Printing and reproduction of recorded media,Manufacturing,Total,2024,21,0
+Industrial accidents,Printing and reproduction of recorded media,Manufacturing,Total,2025,24,0
+Industrial accidents,Construction,,Trapped in or between objects,2024,133,5
+Industrial accidents,Construction,,Trapped in or between objects,2025,98,2
+Industrial accidents,Construction,,Injured whilst lifting or carrying,2024,565,0
+Industrial accidents,Construction,,Injured whilst lifting or carrying,2025,396,0
+Industrial accidents,Construction,,"Slip, trip or fall on same level",2024,973,0
+Industrial accidents,Construction,,"Slip, trip or fall on same level",2025,770,0
+Industrial accidents,Construction,,Fall of person from height,2024,201,3
+Industrial accidents,Construction,,Fall of person from height,2025,188,6
+Industrial accidents,Construction,,Striking against fixed or stationary object,2024,342,0
+Industrial accidents,Construction,,Striking against fixed or stationary object,2025,248,0
+Industrial accidents,Construction,,Striking against or struck by moving object,2024,336,2
+Industrial accidents,Construction,,Striking against or struck by moving object,2025,268,2
+Industrial accidents,Construction,,Stepping on object,2024,38,0
+Industrial accidents,Construction,,Stepping on object,2025,33,0
+Industrial accidents,Construction,,Exposure to or contact with harmful substance,2024,20,2
+Industrial accidents,Construction,,Exposure to or contact with harmful substance,2025,21,0
+Industrial accidents,Construction,,Contact with electricity or electric discharge,2024,10,0
+Industrial accidents,Construction,,Contact with electricity or electric discharge,2025,2,0
+Industrial accidents,Construction,,Trapped by collapsing or overturning object,2024,9,0
+Industrial accidents,Construction,,Trapped by collapsing or overturning object,2025,14,1
+Industrial accidents,Construction,,Struck by falling object,2024,89,2
+Industrial accidents,Construction,,Struck by falling object,2025,75,3
+Industrial accidents,Construction,,Struck by moving vehicle,2024,12,0
+Industrial accidents,Construction,,Struck by moving vehicle,2025,11,0
+Industrial accidents,Construction,,Contact with moving machinery or object being machined,2024,176,0
+Industrial accidents,Construction,,Contact with moving machinery or object being machined,2025,179,1
+Industrial accidents,Construction,,Drowning,2024,0,0
+Industrial accidents,Construction,,Drowning,2025,1,1
+Industrial accidents,Construction,,Exposure to fire,2024,8,0
+Industrial accidents,Construction,,Exposure to fire,2025,2,0
+Industrial accidents,Construction,,Exposure to explosion,2024,4,0
+Industrial accidents,Construction,,Exposure to explosion,2025,1,0
+Industrial accidents,Construction,,Injured by hand tool,2024,59,0
+Industrial accidents,Construction,,Injured by hand tool,2025,75,0
+Industrial accidents,Construction,,Injured by fall of ground,2024,0,0
+Industrial accidents,Construction,,Injured by fall of ground,2025,0,0
+Industrial accidents,Construction,,Asphyxiation,2024,0,0
+Industrial accidents,Construction,,Asphyxiation,2025,4,4
+Industrial accidents,Construction,,Contact with hot surface or substance,2024,10,0
+Industrial accidents,Construction,,Contact with hot surface or substance,2025,19,0
+Industrial accidents,Construction,,Injured by animal,2024,4,0
+Industrial accidents,Construction,,Injured by animal,2025,2,0
+Industrial accidents,Construction,,Injured in workplace violence,2024,0,0
+Industrial accidents,Construction,,Injured in workplace violence,2025,0,0
+Industrial accidents,Construction,,Others,2024,48,0
+Industrial accidents,Construction,,Others,2025,18,1
+Industrial accidents,Construction,,Total,2024,3037,14
+Industrial accidents,Construction,,Total,2025,2425,21
+Industrial accidents,Food and beverage services,,Trapped in or between objects,2024,39,0
+Industrial accidents,Food and beverage services,,Trapped in or between objects,2025,34,0
+Industrial accidents,Food and beverage services,,Injured whilst lifting or carrying,2024,434,0
+Industrial accidents,Food and beverage services,,Injured whilst lifting or carrying,2025,372,0
+Industrial accidents,Food and beverage services,,"Slip, trip or fall on same level",2024,797,0
+Industrial accidents,Food and beverage services,,"Slip, trip or fall on same level",2025,778,0
+Industrial accidents,Food and beverage services,,Fall of person from height,2024,21,0
+Industrial accidents,Food and beverage services,,Fall of person from height,2025,22,0
+Industrial accidents,Food and beverage services,,Striking against fixed or stationary object,2024,212,0
+Industrial accidents,Food and beverage services,,Striking against fixed or stationary object,2025,181,0
+Industrial accidents,Food and beverage services,,Striking against or struck by moving object,2024,160,0
+Industrial accidents,Food and beverage services,,Striking against or struck by moving object,2025,158,0
+Industrial accidents,Food and beverage services,,Stepping on object,2024,7,0
+Industrial accidents,Food and beverage services,,Stepping on object,2025,4,0
+Industrial accidents,Food and beverage services,,Exposure to or contact with harmful substance,2024,37,0
+Industrial accidents,Food and beverage services,,Exposure to or contact with harmful substance,2025,35,0
+Industrial accidents,Food and beverage services,,Contact with electricity or electric discharge,2024,2,0
+Industrial accidents,Food and beverage services,,Contact with electricity or electric discharge,2025,1,0
+Industrial accidents,Food and beverage services,,Trapped by collapsing or overturning object,2024,1,0
+Industrial accidents,Food and beverage services,,Trapped by collapsing or overturning object,2025,1,0
+Industrial accidents,Food and beverage services,,Struck by falling object,2024,27,0
+Industrial accidents,Food and beverage services,,Struck by falling object,2025,30,0
+Industrial accidents,Food and beverage services,,Struck by moving vehicle,2024,2,0
+Industrial accidents,Food and beverage services,,Struck by moving vehicle,2025,5,0
+Industrial accidents,Food and beverage services,,Contact with moving machinery or object being machined,2024,68,0
+Industrial accidents,Food and beverage services,,Contact with moving machinery or object being machined,2025,38,0
+Industrial accidents,Food and beverage services,,Drowning,2024,0,0
+Industrial accidents,Food and beverage services,,Drowning,2025,0,0
+Industrial accidents,Food and beverage services,,Exposure to fire,2024,2,0
+Industrial accidents,Food and beverage services,,Exposure to fire,2025,0,0
+Industrial accidents,Food and beverage services,,Exposure to explosion,2024,1,0
+Industrial accidents,Food and beverage services,,Exposure to explosion,2025,0,0
+Industrial accidents,Food and beverage services,,Injured by hand tool,2024,551,0
+Industrial accidents,Food and beverage services,,Injured by hand tool,2025,449,0
+Industrial accidents,Food and beverage services,,Injured by fall of ground,2024,0,0
+Industrial accidents,Food and beverage services,,Injured by fall of ground,2025,0,0
+Industrial accidents,Food and beverage services,,Asphyxiation,2024,0,0
+Industrial accidents,Food and beverage services,,Asphyxiation,2025,0,0
+Industrial accidents,Food and beverage services,,Contact with hot surface or substance,2024,694,0
+Industrial accidents,Food and beverage services,,Contact with hot surface or substance,2025,697,0
+Industrial accidents,Food and beverage services,,Injured by animal,2024,18,0
+Industrial accidents,Food and beverage services,,Injured by animal,2025,6,0
+Industrial accidents,Food and beverage services,,Injured in workplace violence,2024,0,0
+Industrial accidents,Food and beverage services,,Injured in workplace violence,2025,0,0
+Industrial accidents,Food and beverage services,,Others,2024,32,0
+Industrial accidents,Food and beverage services,,Others,2025,12,0
+Industrial accidents,Food and beverage services,,Total,2024,3105,0
+Industrial accidents,Food and beverage services,,Total,2025,2823,0
+Occupational injuries,Total,,Trapped in or between objects,2024,818,5
+Occupational injuries,Total,,Trapped in or between objects,2025,789,4
+Occupational injuries,Total,,Injured whilst lifting or carrying,2024,4942,0
+Occupational injuries,Total,,Injured whilst lifting or carrying,2025,4228,0
+Occupational injuries,Total,,"Slip, trip or fall on same level",2024,9962,0
+Occupational injuries,Total,,"Slip, trip or fall on same level",2025,9406,2
+Occupational injuries,Total,,Fall of person from height,2024,794,9
+Occupational injuries,Total,,Fall of person from height,2025,731,8
+Occupational injuries,Total,,Striking against fixed or stationary object,2024,1917,0
+Occupational injuries,Total,,Striking against fixed or stationary object,2025,1719,0
+Occupational injuries,Total,,Striking against or struck by moving object,2024,2327,6
+Occupational injuries,Total,,Striking against or struck by moving object,2025,1981,5
+Occupational injuries,Total,,Stepping on object,2024,193,0
+Occupational injuries,Total,,Stepping on object,2025,159,0
+Occupational injuries,Total,,Exposure to or contact with harmful substance,2024,223,2
+Occupational injuries,Total,,Exposure to or contact with harmful substance,2025,212,0
+Occupational injuries,Total,,Contact with electricity or electric discharge,2024,31,0
+Occupational injuries,Total,,Contact with electricity or electric discharge,2025,17,1
+Occupational injuries,Total,,Trapped by collapsing or overturning object,2024,35,0
+Occupational injuries,Total,,Trapped by collapsing or overturning object,2025,30,1
+Occupational injuries,Total,,Struck by falling object,2024,433,4
+Occupational injuries,Total,,Struck by falling object,2025,392,3
+Occupational injuries,Total,,Struck by moving vehicle,2024,1286,13
+Occupational injuries,Total,,Struck by moving vehicle,2025,1194,14
+Occupational injuries,Total,,Contact with moving machinery or object being machined,2024,469,0
+Occupational injuries,Total,,Contact with moving machinery or object being machined,2025,434,1
+Occupational injuries,Total,,Drowning,2024,2,2
+Occupational injuries,Total,,Drowning,2025,1,1
+Occupational injuries,Total,,Exposure to fire,2024,19,0
+Occupational injuries,Total,,Exposure to fire,2025,16,0
+Occupational injuries,Total,,Exposure to explosion,2024,11,0
+Occupational injuries,Total,,Exposure to explosion,2025,7,0
+Occupational injuries,Total,,Injured by hand tool,2024,1262,0
+Occupational injuries,Total,,Injured by hand tool,2025,1076,1
+Occupational injuries,Total,,Injured by fall of ground,2024,1,0
+Occupational injuries,Total,,Injured by fall of ground,2025,0,0
+Occupational injuries,Total,,Asphyxiation,2024,0,0
+Occupational injuries,Total,,Asphyxiation,2025,4,4
+Occupational injuries,Total,,Contact with hot surface or substance,2024,1156,0
+Occupational injuries,Total,,Contact with hot surface or substance,2025,1109,0
+Occupational injuries,Total,,Injured by animal,2024,378,0
+Occupational injuries,Total,,Injured by animal,2025,401,0
+Occupational injuries,Total,,Injured in workplace violence,2024,865,1
+Occupational injuries,Total,,Injured in workplace violence,2025,783,0
+Occupational injuries,Total,,Others,2024,1488,190
+Occupational injuries,Total,,Others,2025,1676,228
+Occupational injuries,Total,,Total,2024,28612,232
+Occupational injuries,Total,,Total,2025,26365,273
+Occupational injuries,Manufacturing,,Trapped in or between objects,2024,36,0
+Occupational injuries,Manufacturing,,Trapped in or between objects,2025,48,0
+Occupational injuries,Manufacturing,,Injured whilst lifting or carrying,2024,185,0
+Occupational injuries,Manufacturing,,Injured whilst lifting or carrying,2025,154,0
+Occupational injuries,Manufacturing,,"Slip, trip or fall on same level",2024,236,0
+Occupational injuries,Manufacturing,,"Slip, trip or fall on same level",2025,238,0
+Occupational injuries,Manufacturing,,Fall of person from height,2024,21,0
+Occupational injuries,Manufacturing,,Fall of person from height,2025,32,0
+Occupational injuries,Manufacturing,,Striking against fixed or stationary object,2024,86,0
+Occupational injuries,Manufacturing,,Striking against fixed or stationary object,2025,79,0
+Occupational injuries,Manufacturing,,Striking against or struck by moving object,2024,101,1
+Occupational injuries,Manufacturing,,Striking against or struck by moving object,2025,93,0
+Occupational injuries,Manufacturing,,Stepping on object,2024,7,0
+Occupational injuries,Manufacturing,,Stepping on object,2025,3,0
+Occupational injuries,Manufacturing,,Exposure to or contact with harmful substance,2024,14,0
+Occupational injuries,Manufacturing,,Exposure to or contact with harmful substance,2025,4,0
+Occupational injuries,Manufacturing,,Contact with electricity or electric discharge,2024,0,0
+Occupational injuries,Manufacturing,,Contact with electricity or electric discharge,2025,3,1
+Occupational injuries,Manufacturing,,Trapped by collapsing or overturning object,2024,2,0
+Occupational injuries,Manufacturing,,Trapped by collapsing or overturning object,2025,3,0
+Occupational injuries,Manufacturing,,Struck by falling object,2024,22,0
+Occupational injuries,Manufacturing,,Struck by falling object,2025,18,0
+Occupational injuries,Manufacturing,,Struck by moving vehicle,2024,39,0
+Occupational injuries,Manufacturing,,Struck by moving vehicle,2025,34,2
+Occupational injuries,Manufacturing,,Contact with moving machinery or object being machined,2024,96,0
+Occupational injuries,Manufacturing,,Contact with moving machinery or object being machined,2025,92,0
+Occupational injuries,Manufacturing,,Drowning,2024,0,0
+Occupational injuries,Manufacturing,,Drowning,2025,0,0
+Occupational injuries,Manufacturing,,Exposure to fire,2024,1,0
+Occupational injuries,Manufacturing,,Exposure to fire,2025,0,0
+Occupational injuries,Manufacturing,,Exposure to explosion,2024,1,0
+Occupational injuries,Manufacturing,,Exposure to explosion,2025,0,0
+Occupational injuries,Manufacturing,,Injured by hand tool,2024,38,0
+Occupational injuries,Manufacturing,,Injured by hand tool,2025,53,0
+Occupational injuries,Manufacturing,,Injured by fall of ground,2024,0,0
+Occupational injuries,Manufacturing,,Injured by fall of ground,2025,0,0
+Occupational injuries,Manufacturing,,Asphyxiation,2024,0,0
+Occupational injuries,Manufacturing,,Asphyxiation,2025,0,0
+Occupational injuries,Manufacturing,,Contact with hot surface or substance,2024,67,0
+Occupational injuries,Manufacturing,,Contact with hot surface or substance,2025,54,0
+Occupational injuries,Manufacturing,,Injured by animal,2024,1,0
+Occupational injuries,Manufacturing,,Injured by animal,2025,2,0
+Occupational injuries,Manufacturing,,Injured in workplace violence,2024,0,0
+Occupational injuries,Manufacturing,,Injured in workplace violence,2025,5,0
+Occupational injuries,Manufacturing,,Others,2024,35,6
+Occupational injuries,Manufacturing,,Others,2025,40,9
+Occupational injuries,Manufacturing,,Total,2024,988,7
+Occupational injuries,Manufacturing,,Total,2025,955,12
+Occupational injuries,Construction,,Trapped in or between objects,2024,134,5
+Occupational injuries,Construction,,Trapped in or between objects,2025,101,2
+Occupational injuries,Construction,,Injured whilst lifting or carrying,2024,571,0
+Occupational injuries,Construction,,Injured whilst lifting or carrying,2025,412,0
+Occupational injuries,Construction,,"Slip, trip or fall on same level",2024,988,0
+Occupational injuries,Construction,,"Slip, trip or fall on same level",2025,843,0
+Occupational injuries,Construction,,Fall of person from height,2024,203,5
+Occupational injuries,Construction,,Fall of person from height,2025,189,6
+Occupational injuries,Construction,,Striking against fixed or stationary object,2024,343,0
+Occupational injuries,Construction,,Striking against fixed or stationary object,2025,258,0
+Occupational injuries,Construction,,Striking against or struck by moving object,2024,337,2
+Occupational injuries,Construction,,Striking against or struck by moving object,2025,277,2
+Occupational injuries,Construction,,Stepping on object,2024,38,0
+Occupational injuries,Construction,,Stepping on object,2025,34,0
+Occupational injuries,Construction,,Exposure to or contact with harmful substance,2024,20,2
+Occupational injuries,Construction,,Exposure to or contact with harmful substance,2025,22,0
+Occupational injuries,Construction,,Contact with electricity or electric discharge,2024,10,0
+Occupational injuries,Construction,,Contact with electricity or electric discharge,2025,2,0
+Occupational injuries,Construction,,Trapped by collapsing or overturning object,2024,9,0
+Occupational injuries,Construction,,Trapped by collapsing or overturning object,2025,14,1
+Occupational injuries,Construction,,Struck by falling object,2024,89,2
+Occupational injuries,Construction,,Struck by falling object,2025,80,3
+Occupational injuries,Construction,,Struck by moving vehicle,2024,20,0
+Occupational injuries,Construction,,Struck by moving vehicle,2025,25,1
+Occupational injuries,Construction,,Contact with moving machinery or object being machined,2024,176,0
+Occupational injuries,Construction,,Contact with moving machinery or object being machined,2025,181,1
+Occupational injuries,Construction,,Drowning,2024,0,0
+Occupational injuries,Construction,,Drowning,2025,1,1
+Occupational injuries,Construction,,Exposure to fire,2024,8,0
+Occupational injuries,Construction,,Exposure to fire,2025,2,0
+Occupational injuries,Construction,,Exposure to explosion,2024,4,0
+Occupational injuries,Construction,,Exposure to explosion,2025,1,0
+Occupational injuries,Construction,,Injured by hand tool,2024,60,0
+Occupational injuries,Construction,,Injured by hand tool,2025,76,0
+Occupational injuries,Construction,,Injured by fall of ground,2024,0,0
+Occupational injuries,Construction,,Injured by fall of ground,2025,0,0
+Occupational injuries,Construction,,Asphyxiation,2024,0,0
+Occupational injuries,Construction,,Asphyxiation,2025,4,4
+Occupational injuries,Construction,,Contact with hot surface or substance,2024,11,0
+Occupational injuries,Construction,,Contact with hot surface or substance,2025,19,0
+Occupational injuries,Construction,,Injured by animal,2024,7,0
+Occupational injuries,Construction,,Injured by animal,2025,6,0
+Occupational injuries,Construction,,Injured in workplace violence,2024,21,0
+Occupational injuries,Construction,,Injured in workplace violence,2025,8,0
+Occupational injuries,Construction,,Others,2024,166,35
+Occupational injuries,Construction,,Others,2025,144,30
+Occupational injuries,Construction,,Total,2024,3215,51
+Occupational injuries,Construction,,Total,2025,2699,51
+Occupational injuries,Food and beverage services,,Trapped in or between objects,2024,42,0
+Occupational injuries,Food and beverage services,,Trapped in or between objects,2025,38,0
+Occupational injuries,Food and beverage services,,Injured whilst lifting or carrying,2024,452,0
+Occupational injuries,Food and beverage services,,Injured whilst lifting or carrying,2025,385,0
+Occupational injuries,Food and beverage services,,"Slip, trip or fall on same level",2024,921,0
+Occupational injuries,Food and beverage services,,"Slip, trip or fall on same level",2025,869,1
+Occupational injuries,Food and beverage services,,Fall of person from height,2024,25,0
+Occupational injuries,Food and beverage services,,Fall of person from height,2025,22,0
+Occupational injuries,Food and beverage services,,Striking against fixed or stationary object,2024,226,0
+Occupational injuries,Food and beverage services,,Striking against fixed or stationary object,2025,189,0
+Occupational injuries,Food and beverage services,,Striking against or struck by moving object,2024,169,0
+Occupational injuries,Food and beverage services,,Striking against or struck by moving object,2025,164,0
+Occupational injuries,Food and beverage services,,Stepping on object,2024,8,0
+Occupational injuries,Food and beverage services,,Stepping on object,2025,5,0
+Occupational injuries,Food and beverage services,,Exposure to or contact with harmful substance,2024,38,0
+Occupational injuries,Food and beverage services,,Exposure to or contact with harmful substance,2025,36,0
+Occupational injuries,Food and beverage services,,Contact with electricity or electric discharge,2024,2,0
+Occupational injuries,Food and beverage services,,Contact with electricity or electric discharge,2025,1,0
+Occupational injuries,Food and beverage services,,Trapped by collapsing or overturning object,2024,1,0
+Occupational injuries,Food and beverage services,,Trapped by collapsing or overturning object,2025,1,0
+Occupational injuries,Food and beverage services,,Struck by falling object,2024,29,0
+Occupational injuries,Food and beverage services,,Struck by falling object,2025,33,0
+Occupational injuries,Food and beverage services,,Struck by moving vehicle,2024,33,0
+Occupational injuries,Food and beverage services,,Struck by moving vehicle,2025,41,0
+Occupational injuries,Food and beverage services,,Contact with moving machinery or object being machined,2024,69,0
+Occupational injuries,Food and beverage services,,Contact with moving machinery or object being machined,2025,38,0
+Occupational injuries,Food and beverage services,,Drowning,2024,0,0
+Occupational injuries,Food and beverage services,,Drowning,2025,0,0
+Occupational injuries,Food and beverage services,,Exposure to fire,2024,2,0
+Occupational injuries,Food and beverage services,,Exposure to fire,2025,0,0
+Occupational injuries,Food and beverage services,,Exposure to explosion,2024,1,0
+Occupational injuries,Food and beverage services,,Exposure to explosion,2025,0,0
+Occupational injuries,Food and beverage services,,Injured by hand tool,2024,559,0
+Occupational injuries,Food and beverage services,,Injured by hand tool,2025,452,0
+Occupational injuries,Food and beverage services,,Injured by fall of ground,2024,0,0
+Occupational injuries,Food and beverage services,,Injured by fall of ground,2025,0,0
+Occupational injuries,Food and beverage services,,Asphyxiation,2024,0,0
+Occupational injuries,Food and beverage services,,Asphyxiation,2025,0,0
+Occupational injuries,Food and beverage services,,Contact with hot surface or substance,2024,702,0
+Occupational injuries,Food and beverage services,,Contact with hot surface or substance,2025,701,0
+Occupational injuries,Food and beverage services,,Injured by animal,2024,19,0
+Occupational injuries,Food and beverage services,,Injured by animal,2025,8,0
+Occupational injuries,Food and beverage services,,Injured in workplace violence,2024,37,0
+Occupational injuries,Food and beverage services,,Injured in workplace violence,2025,30,0
+Occupational injuries,Food and beverage services,,Others,2024,107,16
+Occupational injuries,Food and beverage services,,Others,2025,93,16
+Occupational injuries,Food and beverage services,,Total,2024,3442,16
+Occupational injuries,Food and beverage services,,Total,2025,3106,17
+Occupational injuries,Import and export trade,,Trapped in or between objects,2024,12,0
+Occupational injuries,Import and export trade,,Trapped in or between objects,2025,5,0
+Occupational injuries,Import and export trade,,Injured whilst lifting or carrying,2024,74,0
+Occupational injuries,Import and export trade,,Injured whilst lifting or carrying,2025,68,0
+Occupational injuries,Import and export trade,,"Slip, trip or fall on same level",2024,136,0
+Occupational injuries,Import and export trade,,"Slip, trip or fall on same level",2025,123,0
+Occupational injuries,Import and export trade,,Fall of person from height,2024,21,0
+Occupational injuries,Import and export trade,,Fall of person from height,2025,12,0
+Occupational injuries,Import and export trade,,Striking against fixed or stationary object,2024,34,0
+Occupational injuries,Import and export trade,,Striking against fixed or stationary object,2025,17,0
+Occupational injuries,Import and export trade,,Striking against or struck by moving object,2024,35,0
+Occupational injuries,Import and export trade,,Striking against or struck by moving object,2025,18,0
+Occupational injuries,Import and export trade,,Stepping on object,2024,3,0
+Occupational injuries,Import and export trade,,Stepping on object,2025,0,0
+Occupational injuries,Import and export trade,,Exposure to or contact with harmful substance,2024,0,0
+Occupational injuries,Import and export trade,,Exposure to or contact with harmful substance,2025,1,0
+Occupational injuries,Import and export trade,,Contact with electricity or electric discharge,2024,0,0
+Occupational injuries,Import and export trade,,Contact with electricity or electric discharge,2025,0,0
+Occupational injuries,Import and export trade,,Trapped by collapsing or overturning object,2024,3,0
+Occupational injuries,Import and export trade,,Trapped by collapsing or overturning object,2025,0,0
+Occupational injuries,Import and export trade,,Struck by falling object,2024,7,0
+Occupational injuries,Import and export trade,,Struck by falling object,2025,5,0
+Occupational injuries,Import and export trade,,Struck by moving vehicle,2024,33,1
+Occupational injuries,Import and export trade,,Struck by moving vehicle,2025,30,1
+Occupational injuries,Import and export trade,,Contact with moving machinery or object being machined,2024,7,0
+Occupational injuries,Import and export trade,,Contact with moving machinery or object being machined,2025,2,0
+Occupational injuries,Import and export trade,,Drowning,2024,0,0
+Occupational injuries,Import and export trade,,Drowning,2025,0,0
+Occupational injuries,Import and export trade,,Exposure to fire,2024,0,0
+Occupational injuries,Import and export trade,,Exposure to fire,2025,0,0
+Occupational injuries,Import and export trade,,Exposure to explosion,2024,0,0
+Occupational injuries,Import and export trade,,Exposure to explosion,2025,0,0
+Occupational injuries,Import and export trade,,Injured by hand tool,2024,18,0
+Occupational injuries,Import and export trade,,Injured by hand tool,2025,10,0
+Occupational injuries,Import and export trade,,Injured by fall of ground,2024,0,0
+Occupational injuries,Import and export trade,,Injured by fall of ground,2025,0,0
+Occupational injuries,Import and export trade,,Asphyxiation,2024,0,0
+Occupational injuries,Import and export trade,,Asphyxiation,2025,0,0
+Occupational injuries,Import and export trade,,Contact with hot surface or substance,2024,3,0
+Occupational injuries,Import and export trade,,Contact with hot surface or substance,2025,2,0
+Occupational injuries,Import and export trade,,Injured by animal,2024,3,0
+Occupational injuries,Import and export trade,,Injured by animal,2025,3,0
+Occupational injuries,Import and export trade,,Injured in workplace violence,2024,3,0
+Occupational injuries,Import and export trade,,Injured in workplace violence,2025,1,0
+Occupational injuries,Import and export trade,,Others,2024,20,11
+Occupational injuries,Import and export trade,,Others,2025,39,11
+Occupational injuries,Import and export trade,,Total,2024,412,12
+Occupational injuries,Import and export trade,,Total,2025,336,12
+Occupational injuries,Wholesale,,Trapped in or between objects,2024,9,0
+Occupational injuries,Wholesale,,Trapped in or between objects,2025,4,0
+Occupational injuries,Wholesale,,Injured whilst lifting or carrying,2024,50,0
+Occupational injuries,Wholesale,,Injured whilst lifting or carrying,2025,42,0
+Occupational injuries,Wholesale,,"Slip, trip or fall on same level",2024,59,0
+Occupational injuries,Wholesale,,"Slip, trip or fall on same level",2025,52,0
+Occupational injuries,Wholesale,,Fall of person from height,2024,8,0
+Occupational injuries,Wholesale,,Fall of person from height,2025,7,0
+Occupational injuries,Wholesale,,Striking against fixed or stationary object,2024,4,0
+Occupational injuries,Wholesale,,Striking against fixed or stationary object,2025,9,0
+Occupational injuries,Wholesale,,Striking against or struck by moving object,2024,18,0
+Occupational injuries,Wholesale,,Striking against or struck by moving object,2025,14,0
+Occupational injuries,Wholesale,,Stepping on object,2024,1,0
+Occupational injuries,Wholesale,,Stepping on object,2025,3,0
+Occupational injuries,Wholesale,,Exposure to or contact with harmful substance,2024,0,0
+Occupational injuries,Wholesale,,Exposure to or contact with harmful substance,2025,1,0
+Occupational injuries,Wholesale,,Contact with electricity or electric discharge,2024,0,0
+Occupational injuries,Wholesale,,Contact with electricity or electric discharge,2025,0,0
+Occupational injuries,Wholesale,,Trapped by collapsing or overturning object,2024,1,0
+Occupational injuries,Wholesale,,Trapped by collapsing or overturning object,2025,0,0
+Occupational injuries,Wholesale,,Struck by falling object,2024,1,0
+Occupational injuries,Wholesale,,Struck by falling object,2025,1,0
+Occupational injuries,Wholesale,,Struck by moving vehicle,2024,14,0
+Occupational injuries,Wholesale,,Struck by moving vehicle,2025,19,0
+Occupational injuries,Wholesale,,Contact with moving machinery or object being machined,2024,7,0
+Occupational injuries,Wholesale,,Contact with moving machinery or object being machined,2025,3,0
+Occupational injuries,Wholesale,,Drowning,2024,0,0
+Occupational injuries,Wholesale,,Drowning,2025,0,0
+Occupational injuries,Wholesale,,Exposure to fire,2024,1,0
+Occupational injuries,Wholesale,,Exposure to fire,2025,0,0
+Occupational injuries,Wholesale,,Exposure to explosion,2024,0,0
+Occupational injuries,Wholesale,,Exposure to explosion,2025,0,0
+Occupational injuries,Wholesale,,Injured by hand tool,2024,9,0
+Occupational injuries,Wholesale,,Injured by hand tool,2025,5,0
+Occupational injuries,Wholesale,,Injured by fall of ground,2024,0,0
+Occupational injuries,Wholesale,,Injured by fall of ground,2025,0,0
+Occupational injuries,Wholesale,,Asphyxiation,2024,0,0
+Occupational injuries,Wholesale,,Asphyxiation,2025,0,0
+Occupational injuries,Wholesale,,Contact with hot surface or substance,2024,3,0
+Occupational injuries,Wholesale,,Contact with hot surface or substance,2025,0,0
+Occupational injuries,Wholesale,,Injured by animal,2024,3,0
+Occupational injuries,Wholesale,,Injured by animal,2025,1,0
+Occupational injuries,Wholesale,,Injured in workplace violence,2024,1,0
+Occupational injuries,Wholesale,,Injured in workplace violence,2025,0,0
+Occupational injuries,Wholesale,,Others,2024,12,5
+Occupational injuries,Wholesale,,Others,2025,14,2
+Occupational injuries,Wholesale,,Total,2024,201,5
+Occupational injuries,Wholesale,,Total,2025,175,2
+Occupational injuries,Retail trade,,Trapped in or between objects,2024,35,0
+Occupational injuries,Retail trade,,Trapped in or between objects,2025,32,0
+Occupational injuries,Retail trade,,Injured whilst lifting or carrying,2024,395,0
+Occupational injuries,Retail trade,,Injured whilst lifting or carrying,2025,351,0
+Occupational injuries,Retail trade,,"Slip, trip or fall on same level",2024,421,0
+Occupational injuries,Retail trade,,"Slip, trip or fall on same level",2025,430,0
+Occupational injuries,Retail trade,,Fall of person from height,2024,77,0
+Occupational injuries,Retail trade,,Fall of person from height,2025,80,0
+Occupational injuries,Retail trade,,Striking against fixed or stationary object,2024,112,0
+Occupational injuries,Retail trade,,Striking against fixed or stationary object,2025,115,0
+Occupational injuries,Retail trade,,Striking against or struck by moving object,2024,114,0
+Occupational injuries,Retail trade,,Striking against or struck by moving object,2025,102,0
+Occupational injuries,Retail trade,,Stepping on object,2024,10,0
+Occupational injuries,Retail trade,,Stepping on object,2025,10,0
+Occupational injuries,Retail trade,,Exposure to or contact with harmful substance,2024,3,0
+Occupational injuries,Retail trade,,Exposure to or contact with harmful substance,2025,6,0
+Occupational injuries,Retail trade,,Contact with electricity or electric discharge,2024,2,0
+Occupational injuries,Retail trade,,Contact with electricity or electric discharge,2025,1,0
+Occupational injuries,Retail trade,,Trapped by collapsing or overturning object,2024,4,0
+Occupational injuries,Retail trade,,Trapped by collapsing or overturning object,2025,1,0
+Occupational injuries,Retail trade,,Struck by falling object,2024,45,0
+Occupational injuries,Retail trade,,Struck by falling object,2025,42,0
+Occupational injuries,Retail trade,,Struck by moving vehicle,2024,37,1
+Occupational injuries,Retail trade,,Struck by moving vehicle,2025,35,0
+Occupational injuries,Retail trade,,Contact with moving machinery or object being machined,2024,20,0
+Occupational injuries,Retail trade,,Contact with moving machinery or object being machined,2025,20,0
+Occupational injuries,Retail trade,,Drowning,2024,0,0
+Occupational injuries,Retail trade,,Drowning,2025,0,0
+Occupational injuries,Retail trade,,Exposure to fire,2024,1,0
+Occupational injuries,Retail trade,,Exposure to fire,2025,0,0
+Occupational injuries,Retail trade,,Exposure to explosion,2024,2,0
+Occupational injuries,Retail trade,,Exposure to explosion,2025,0,0
+Occupational injuries,Retail trade,,Injured by hand tool,2024,115,0
+Occupational injuries,Retail trade,,Injured by hand tool,2025,101,0
+Occupational injuries,Retail trade,,Injured by fall of ground,2024,0,0
+Occupational injuries,Retail trade,,Injured by fall of ground,2025,0,0
+Occupational injuries,Retail trade,,Asphyxiation,2024,0,0
+Occupational injuries,Retail trade,,Asphyxiation,2025,0,0
+Occupational injuries,Retail trade,,Contact with hot surface or substance,2024,24,0
+Occupational injuries,Retail trade,,Contact with hot surface or substance,2025,16,0
+Occupational injuries,Retail trade,,Injured by animal,2024,12,0
+Occupational injuries,Retail trade,,Injured by animal,2025,9,0
+Occupational injuries,Retail trade,,Injured in workplace violence,2024,28,0
+Occupational injuries,Retail trade,,Injured in workplace violence,2025,21,0
+Occupational injuries,Retail trade,,Others,2024,59,4
+Occupational injuries,Retail trade,,Others,2025,66,5
+Occupational injuries,Retail trade,,Total,2024,1516,5
+Occupational injuries,Retail trade,,Total,2025,1438,5
+Occupational injuries,"Transport, warehousing and support services for transportation",,Trapped in or between objects,2024,91,0
+Occupational injuries,"Transport, warehousing and support services for transportation",,Trapped in or between objects,2025,101,2
+Occupational injuries,"Transport, warehousing and support services for transportation",,Injured whilst lifting or carrying,2024,702,0
+Occupational injuries,"Transport, warehousing and support services for transportation",,Injured whilst lifting or carrying,2025,548,0
+Occupational injuries,"Transport, warehousing and support services for transportation",,"Slip, trip or fall on same level",2024,744,0
+Occupational injuries,"Transport, warehousing and support services for transportation",,"Slip, trip or fall on same level",2025,668,1
+Occupational injuries,"Transport, warehousing and support services for transportation",,Fall of person from height,2024,98,2
+Occupational injuries,"Transport, warehousing and support services for transportation",,Fall of person from height,2025,90,0
+Occupational injuries,"Transport, warehousing and support services for transportation",,Striking against fixed or stationary object,2024,195,0
+Occupational injuries,"Transport, warehousing and support services for transportation",,Striking against fixed or stationary object,2025,142,0
+Occupational injuries,"Transport, warehousing and support services for transportation",,Striking against or struck by moving object,2024,252,3
+Occupational injuries,"Transport, warehousing and support services for transportation",,Striking against or struck by moving object,2025,210,1
+Occupational injuries,"Transport, warehousing and support services for transportation",,Stepping on object,2024,12,0
+Occupational injuries,"Transport, warehousing and support services for transportation",,Stepping on object,2025,18,0
+Occupational injuries,"Transport, warehousing and support services for transportation",,Exposure to or contact with harmful substance,2024,5,0
+Occupational injuries,"Transport, warehousing and support services for transportation",,Exposure to or contact with harmful substance,2025,5,0
+Occupational injuries,"Transport, warehousing and support services for transportation",,Contact with electricity or electric discharge,2024,0,0
+Occupational injuries,"Transport, warehousing and support services for transportation",,Contact with electricity or electric discharge,2025,0,0
+Occupational injuries,"Transport, warehousing and support services for transportation",,Trapped by collapsing or overturning object,2024,4,0
+Occupational injuries,"Transport, warehousing and support services for transportation",,Trapped by collapsing or overturning object,2025,4,0
+Occupational injuries,"Transport, warehousing and support services for transportation",,Struck by falling object,2024,48,2
+Occupational injuries,"Transport, warehousing and support services for transportation",,Struck by falling object,2025,44,0
+Occupational injuries,"Transport, warehousing and support services for transportation",,Struck by moving vehicle,2024,501,5
+Occupational injuries,"Transport, warehousing and support services for transportation",,Struck by moving vehicle,2025,471,2
+Occupational injuries,"Transport, warehousing and support services for transportation",,Contact with moving machinery or object being machined,2024,13,0
+Occupational injuries,"Transport, warehousing and support services for transportation",,Contact with moving machinery or object being machined,2025,12,0
+Occupational injuries,"Transport, warehousing and support services for transportation",,Drowning,2024,1,1
+Occupational injuries,"Transport, warehousing and support services for transportation",,Drowning,2025,0,0
+Occupational injuries,"Transport, warehousing and support services for transportation",,Exposure to fire,2024,0,0
+Occupational injuries,"Transport, warehousing and support services for transportation",,Exposure to fire,2025,3,0
+Occupational injuries,"Transport, warehousing and support services for transportation",,Exposure to explosion,2024,1,0
+Occupational injuries,"Transport, warehousing and support services for transportation",,Exposure to explosion,2025,0,0
+Occupational injuries,"Transport, warehousing and support services for transportation",,Injured by hand tool,2024,22,0
+Occupational injuries,"Transport, warehousing and support services for transportation",,Injured by hand tool,2025,16,0
+Occupational injuries,"Transport, warehousing and support services for transportation",,Injured by fall of ground,2024,0,0
+Occupational injuries,"Transport, warehousing and support services for transportation",,Injured by fall of ground,2025,0,0
+Occupational injuries,"Transport, warehousing and support services for transportation",,Asphyxiation,2024,0,0
+Occupational injuries,"Transport, warehousing and support services for transportation",,Asphyxiation,2025,0,0
+Occupational injuries,"Transport, warehousing and support services for transportation",,Contact with hot surface or substance,2024,36,0
+Occupational injuries,"Transport, warehousing and support services for transportation",,Contact with hot surface or substance,2025,34,0
+Occupational injuries,"Transport, warehousing and support services for transportation",,Injured by animal,2024,9,0
+Occupational injuries,"Transport, warehousing and support services for transportation",,Injured by animal,2025,11,0
+Occupational injuries,"Transport, warehousing and support services for transportation",,Injured in workplace violence,2024,82,0
+Occupational injuries,"Transport, warehousing and support services for transportation",,Injured in workplace violence,2025,80,0
+Occupational injuries,"Transport, warehousing and support services for transportation",,Others,2024,143,24
+Occupational injuries,"Transport, warehousing and support services for transportation",,Others,2025,173,29
+Occupational injuries,"Transport, warehousing and support services for transportation",,Total,2024,2959,37
+Occupational injuries,"Transport, warehousing and support services for transportation",,Total,2025,2630,35
+Occupational injuries,Accommodation services,,Trapped in or between objects,2024,35,0
+Occupational injuries,Accommodation services,,Trapped in or between objects,2025,47,0
+Occupational injuries,Accommodation services,,Injured whilst lifting or carrying,2024,181,0
+Occupational injuries,Accommodation services,,Injured whilst lifting or carrying,2025,157,0
+Occupational injuries,Accommodation services,,"Slip, trip or fall on same level",2024,294,0
+Occupational injuries,Accommodation services,,"Slip, trip or fall on same level",2025,275,0
+Occupational injuries,Accommodation services,,Fall of person from height,2024,30,0
+Occupational injuries,Accommodation services,,Fall of person from height,2025,21,0
+Occupational injuries,Accommodation services,,Striking against fixed or stationary object,2024,109,0
+Occupational injuries,Accommodation services,,Striking against fixed or stationary object,2025,123,0
+Occupational injuries,Accommodation services,,Striking against or struck by moving object,2024,109,0
+Occupational injuries,Accommodation services,,Striking against or struck by moving object,2025,106,0
+Occupational injuries,Accommodation services,,Stepping on object,2024,4,0
+Occupational injuries,Accommodation services,,Stepping on object,2025,3,0
+Occupational injuries,Accommodation services,,Exposure to or contact with harmful substance,2024,16,0
+Occupational injuries,Accommodation services,,Exposure to or contact with harmful substance,2025,13,0
+Occupational injuries,Accommodation services,,Contact with electricity or electric discharge,2024,2,0
+Occupational injuries,Accommodation services,,Contact with electricity or electric discharge,2025,2,0
+Occupational injuries,Accommodation services,,Trapped by collapsing or overturning object,2024,1,0
+Occupational injuries,Accommodation services,,Trapped by collapsing or overturning object,2025,0,0
+Occupational injuries,Accommodation services,,Struck by falling object,2024,16,0
+Occupational injuries,Accommodation services,,Struck by falling object,2025,12,0
+Occupational injuries,Accommodation services,,Struck by moving vehicle,2024,8,0
+Occupational injuries,Accommodation services,,Struck by moving vehicle,2025,10,0
+Occupational injuries,Accommodation services,,Contact with moving machinery or object being machined,2024,13,0
+Occupational injuries,Accommodation services,,Contact with moving machinery or object being machined,2025,16,0
+Occupational injuries,Accommodation services,,Drowning,2024,0,0
+Occupational injuries,Accommodation services,,Drowning,2025,0,0
+Occupational injuries,Accommodation services,,Exposure to fire,2024,1,0
+Occupational injuries,Accommodation services,,Exposure to fire,2025,2,0
+Occupational injuries,Accommodation services,,Exposure to explosion,2024,0,0
+Occupational injuries,Accommodation services,,Exposure to explosion,2025,1,0
+Occupational injuries,Accommodation services,,Injured by hand tool,2024,126,0
+Occupational injuries,Accommodation services,,Injured by hand tool,2025,100,0
+Occupational injuries,Accommodation services,,Injured by fall of ground,2024,0,0
+Occupational injuries,Accommodation services,,Injured by fall of ground,2025,0,0
+Occupational injuries,Accommodation services,,Asphyxiation,2024,0,0
+Occupational injuries,Accommodation services,,Asphyxiation,2025,0,0
+Occupational injuries,Accommodation services,,Contact with hot surface or substance,2024,64,0
+Occupational injuries,Accommodation services,,Contact with hot surface or substance,2025,70,0
+Occupational injuries,Accommodation services,,Injured by animal,2024,1,0
+Occupational injuries,Accommodation services,,Injured by animal,2025,3,0
+Occupational injuries,Accommodation services,,Injured in workplace violence,2024,2,0
+Occupational injuries,Accommodation services,,Injured in workplace violence,2025,7,0
+Occupational injuries,Accommodation services,,Others,2024,30,2
+Occupational injuries,Accommodation services,,Others,2025,19,0
+Occupational injuries,Accommodation services,,Total,2024,1042,2
+Occupational injuries,Accommodation services,,Total,2025,987,0
+Occupational injuries,Information and communications,,Trapped in or between objects,2024,2,0
+Occupational injuries,Information and communications,,Trapped in or between objects,2025,0,0
+Occupational injuries,Information and communications,,Injured whilst lifting or carrying,2024,35,0
+Occupational injuries,Information and communications,,Injured whilst lifting or carrying,2025,20,0
+Occupational injuries,Information and communications,,"Slip, trip or fall on same level",2024,91,0
+Occupational injuries,Information and communications,,"Slip, trip or fall on same level",2025,75,0
+Occupational injuries,Information and communications,,Fall of person from height,2024,10,0
+Occupational injuries,Information and communications,,Fall of person from height,2025,8,0
+Occupational injuries,Information and communications,,Striking against fixed or stationary object,2024,13,0
+Occupational injuries,Information and communications,,Striking against fixed or stationary object,2025,7,0
+Occupational injuries,Information and communications,,Striking against or struck by moving object,2024,10,0
+Occupational injuries,Information and communications,,Striking against or struck by moving object,2025,13,0
+Occupational injuries,Information and communications,,Stepping on object,2024,2,0
+Occupational injuries,Information and communications,,Stepping on object,2025,0,0
+Occupational injuries,Information and communications,,Exposure to or contact with harmful substance,2024,2,0
+Occupational injuries,Information and communications,,Exposure to or contact with harmful substance,2025,1,0
+Occupational injuries,Information and communications,,Contact with electricity or electric discharge,2024,0,0
+Occupational injuries,Information and communications,,Contact with electricity or electric discharge,2025,0,0
+Occupational injuries,Information and communications,,Trapped by collapsing or overturning object,2024,0,0
+Occupational injuries,Information and communications,,Trapped by collapsing or overturning object,2025,1,0
+Occupational injuries,Information and communications,,Struck by falling object,2024,3,0
+Occupational injuries,Information and communications,,Struck by falling object,2025,3,0
+Occupational injuries,Information and communications,,Struck by moving vehicle,2024,13,0
+Occupational injuries,Information and communications,,Struck by moving vehicle,2025,18,0
+Occupational injuries,Information and communications,,Contact with moving machinery or object being machined,2024,0,0
+Occupational injuries,Information and communications,,Contact with moving machinery or object being machined,2025,0,0
+Occupational injuries,Information and communications,,Drowning,2024,0,0
+Occupational injuries,Information and communications,,Drowning,2025,0,0
+Occupational injuries,Information and communications,,Exposure to fire,2024,0,0
+Occupational injuries,Information and communications,,Exposure to fire,2025,1,0
+Occupational injuries,Information and communications,,Exposure to explosion,2024,0,0
+Occupational injuries,Information and communications,,Exposure to explosion,2025,0,0
+Occupational injuries,Information and communications,,Injured by hand tool,2024,4,0
+Occupational injuries,Information and communications,,Injured by hand tool,2025,2,0
+Occupational injuries,Information and communications,,Injured by fall of ground,2024,0,0
+Occupational injuries,Information and communications,,Injured by fall of ground,2025,0,0
+Occupational injuries,Information and communications,,Asphyxiation,2024,0,0
+Occupational injuries,Information and communications,,Asphyxiation,2025,0,0
+Occupational injuries,Information and communications,,Contact with hot surface or substance,2024,1,0
+Occupational injuries,Information and communications,,Contact with hot surface or substance,2025,2,0
+Occupational injuries,Information and communications,,Injured by animal,2024,2,0
+Occupational injuries,Information and communications,,Injured by animal,2025,2,0
+Occupational injuries,Information and communications,,Injured in workplace violence,2024,1,0
+Occupational injuries,Information and communications,,Injured in workplace violence,2025,0,0
+Occupational injuries,Information and communications,,Others,2024,11,1
+Occupational injuries,Information and communications,,Others,2025,15,3
+Occupational injuries,Information and communications,,Total,2024,200,1
+Occupational injuries,Information and communications,,Total,2025,168,3
+Occupational injuries,Financing and insurance,,Trapped in or between objects,2024,6,0
+Occupational injuries,Financing and insurance,,Trapped in or between objects,2025,6,0
+Occupational injuries,Financing and insurance,,Injured whilst lifting or carrying,2024,23,0
+Occupational injuries,Financing and insurance,,Injured whilst lifting or carrying,2025,16,0
+Occupational injuries,Financing and insurance,,"Slip, trip or fall on same level",2024,132,0
+Occupational injuries,Financing and insurance,,"Slip, trip or fall on same level",2025,114,0
+Occupational injuries,Financing and insurance,,Fall of person from height,2024,4,0
+Occupational injuries,Financing and insurance,,Fall of person from height,2025,1,0
+Occupational injuries,Financing and insurance,,Striking against fixed or stationary object,2024,16,0
+Occupational injuries,Financing and insurance,,Striking against fixed or stationary object,2025,9,0
+Occupational injuries,Financing and insurance,,Striking against or struck by moving object,2024,14,0
+Occupational injuries,Financing and insurance,,Striking against or struck by moving object,2025,18,0
+Occupational injuries,Financing and insurance,,Stepping on object,2024,2,0
+Occupational injuries,Financing and insurance,,Stepping on object,2025,1,0
+Occupational injuries,Financing and insurance,,Exposure to or contact with harmful substance,2024,0,0
+Occupational injuries,Financing and insurance,,Exposure to or contact with harmful substance,2025,0,0
+Occupational injuries,Financing and insurance,,Contact with electricity or electric discharge,2024,0,0
+Occupational injuries,Financing and insurance,,Contact with electricity or electric discharge,2025,0,0
+Occupational injuries,Financing and insurance,,Trapped by collapsing or overturning object,2024,0,0
+Occupational injuries,Financing and insurance,,Trapped by collapsing or overturning object,2025,0,0
+Occupational injuries,Financing and insurance,,Struck by falling object,2024,8,0
+Occupational injuries,Financing and insurance,,Struck by falling object,2025,3,0
+Occupational injuries,Financing and insurance,,Struck by moving vehicle,2024,16,0
+Occupational injuries,Financing and insurance,,Struck by moving vehicle,2025,10,0
+Occupational injuries,Financing and insurance,,Contact with moving machinery or object being machined,2024,2,0
+Occupational injuries,Financing and insurance,,Contact with moving machinery or object being machined,2025,0,0
+Occupational injuries,Financing and insurance,,Drowning,2024,0,0
+Occupational injuries,Financing and insurance,,Drowning,2025,0,0
+Occupational injuries,Financing and insurance,,Exposure to fire,2024,0,0
+Occupational injuries,Financing and insurance,,Exposure to fire,2025,0,0
+Occupational injuries,Financing and insurance,,Exposure to explosion,2024,0,0
+Occupational injuries,Financing and insurance,,Exposure to explosion,2025,0,0
+Occupational injuries,Financing and insurance,,Injured by hand tool,2024,4,0
+Occupational injuries,Financing and insurance,,Injured by hand tool,2025,3,0
+Occupational injuries,Financing and insurance,,Injured by fall of ground,2024,0,0
+Occupational injuries,Financing and insurance,,Injured by fall of ground,2025,0,0
+Occupational injuries,Financing and insurance,,Asphyxiation,2024,0,0
+Occupational injuries,Financing and insurance,,Asphyxiation,2025,0,0
+Occupational injuries,Financing and insurance,,Contact with hot surface or substance,2024,6,0
+Occupational injuries,Financing and insurance,,Contact with hot surface or substance,2025,4,0
+Occupational injuries,Financing and insurance,,Injured by animal,2024,0,0
+Occupational injuries,Financing and insurance,,Injured by animal,2025,0,0
+Occupational injuries,Financing and insurance,,Injured in workplace violence,2024,1,0
+Occupational injuries,Financing and insurance,,Injured in workplace violence,2025,5,0
+Occupational injuries,Financing and insurance,,Others,2024,36,3
+Occupational injuries,Financing and insurance,,Others,2025,37,1
+Occupational injuries,Financing and insurance,,Total,2024,270,3
+Occupational injuries,Financing and insurance,,Total,2025,227,1
+Occupational injuries,Real estate,,Trapped in or between objects,2024,77,0
+Occupational injuries,Real estate,,Trapped in or between objects,2025,77,0
+Occupational injuries,Real estate,,Injured whilst lifting or carrying,2024,233,0
+Occupational injuries,Real estate,,Injured whilst lifting or carrying,2025,208,0
+Occupational injuries,Real estate,,"Slip, trip or fall on same level",2024,1321,0
+Occupational injuries,Real estate,,"Slip, trip or fall on same level",2025,1437,0
+Occupational injuries,Real estate,,Fall of person from height,2024,40,0
+Occupational injuries,Real estate,,Fall of person from height,2025,48,0
+Occupational injuries,Real estate,,Striking against fixed or stationary object,2024,146,0
+Occupational injuries,Real estate,,Striking against fixed or stationary object,2025,136,0
+Occupational injuries,Real estate,,Striking against or struck by moving object,2024,154,0
+Occupational injuries,Real estate,,Striking against or struck by moving object,2025,124,0
+Occupational injuries,Real estate,,Stepping on object,2024,22,0
+Occupational injuries,Real estate,,Stepping on object,2025,11,0
+Occupational injuries,Real estate,,Exposure to or contact with harmful substance,2024,24,0
+Occupational injuries,Real estate,,Exposure to or contact with harmful substance,2025,24,0
+Occupational injuries,Real estate,,Contact with electricity or electric discharge,2024,3,0
+Occupational injuries,Real estate,,Contact with electricity or electric discharge,2025,1,0
+Occupational injuries,Real estate,,Trapped by collapsing or overturning object,2024,0,0
+Occupational injuries,Real estate,,Trapped by collapsing or overturning object,2025,0,0
+Occupational injuries,Real estate,,Struck by falling object,2024,31,0
+Occupational injuries,Real estate,,Struck by falling object,2025,40,0
+Occupational injuries,Real estate,,Struck by moving vehicle,2024,52,0
+Occupational injuries,Real estate,,Struck by moving vehicle,2025,53,1
+Occupational injuries,Real estate,,Contact with moving machinery or object being machined,2024,4,0
+Occupational injuries,Real estate,,Contact with moving machinery or object being machined,2025,11,0
+Occupational injuries,Real estate,,Drowning,2024,0,0
+Occupational injuries,Real estate,,Drowning,2025,0,0
+Occupational injuries,Real estate,,Exposure to fire,2024,3,0
+Occupational injuries,Real estate,,Exposure to fire,2025,1,0
+Occupational injuries,Real estate,,Exposure to explosion,2024,1,0
+Occupational injuries,Real estate,,Exposure to explosion,2025,0,0
+Occupational injuries,Real estate,,Injured by hand tool,2024,34,0
+Occupational injuries,Real estate,,Injured by hand tool,2025,31,0
+Occupational injuries,Real estate,,Injured by fall of ground,2024,0,0
+Occupational injuries,Real estate,,Injured by fall of ground,2025,0,0
+Occupational injuries,Real estate,,Asphyxiation,2024,0,0
+Occupational injuries,Real estate,,Asphyxiation,2025,0,0
+Occupational injuries,Real estate,,Contact with hot surface or substance,2024,20,0
+Occupational injuries,Real estate,,Contact with hot surface or substance,2025,10,0
+Occupational injuries,Real estate,,Injured by animal,2024,44,0
+Occupational injuries,Real estate,,Injured by animal,2025,57,0
+Occupational injuries,Real estate,,Injured in workplace violence,2024,65,1
+Occupational injuries,Real estate,,Injured in workplace violence,2025,81,0
+Occupational injuries,Real estate,,Others,2024,143,26
+Occupational injuries,Real estate,,Others,2025,171,29
+Occupational injuries,Real estate,,Total,2024,2417,27
+Occupational injuries,Real estate,,Total,2025,2521,30
+Occupational injuries,Education,,Trapped in or between objects,2024,27,0
+Occupational injuries,Education,,Trapped in or between objects,2025,30,0
+Occupational injuries,Education,,Injured whilst lifting or carrying,2024,290,0
+Occupational injuries,Education,,Injured whilst lifting or carrying,2025,269,0
+Occupational injuries,Education,,"Slip, trip or fall on same level",2024,663,0
+Occupational injuries,Education,,"Slip, trip or fall on same level",2025,609,0
+Occupational injuries,Education,,Fall of person from height,2024,53,0
+Occupational injuries,Education,,Fall of person from height,2025,41,0
+Occupational injuries,Education,,Striking against fixed or stationary object,2024,52,0
+Occupational injuries,Education,,Striking against fixed or stationary object,2025,54,0
+Occupational injuries,Education,,Striking against or struck by moving object,2024,131,0
+Occupational injuries,Education,,Striking against or struck by moving object,2025,141,0
+Occupational injuries,Education,,Stepping on object,2024,16,0
+Occupational injuries,Education,,Stepping on object,2025,9,0
+Occupational injuries,Education,,Exposure to or contact with harmful substance,2024,8,0
+Occupational injuries,Education,,Exposure to or contact with harmful substance,2025,4,0
+Occupational injuries,Education,,Contact with electricity or electric discharge,2024,0,0
+Occupational injuries,Education,,Contact with electricity or electric discharge,2025,1,0
+Occupational injuries,Education,,Trapped by collapsing or overturning object,2024,1,0
+Occupational injuries,Education,,Trapped by collapsing or overturning object,2025,0,0
+Occupational injuries,Education,,Struck by falling object,2024,19,0
+Occupational injuries,Education,,Struck by falling object,2025,17,0
+Occupational injuries,Education,,Struck by moving vehicle,2024,26,1
+Occupational injuries,Education,,Struck by moving vehicle,2025,15,0
+Occupational injuries,Education,,Contact with moving machinery or object being machined,2024,7,0
+Occupational injuries,Education,,Contact with moving machinery or object being machined,2025,2,0
+Occupational injuries,Education,,Drowning,2024,0,0
+Occupational injuries,Education,,Drowning,2025,0,0
+Occupational injuries,Education,,Exposure to fire,2024,0,0
+Occupational injuries,Education,,Exposure to fire,2025,1,0
+Occupational injuries,Education,,Exposure to explosion,2024,0,0
+Occupational injuries,Education,,Exposure to explosion,2025,0,0
+Occupational injuries,Education,,Injured by hand tool,2024,43,0
+Occupational injuries,Education,,Injured by hand tool,2025,23,0
+Occupational injuries,Education,,Injured by fall of ground,2024,0,0
+Occupational injuries,Education,,Injured by fall of ground,2025,0,0
+Occupational injuries,Education,,Asphyxiation,2024,0,0
+Occupational injuries,Education,,Asphyxiation,2025,0,0
+Occupational injuries,Education,,Contact with hot surface or substance,2024,25,0
+Occupational injuries,Education,,Contact with hot surface or substance,2025,26,0
+Occupational injuries,Education,,Injured by animal,2024,10,0
+Occupational injuries,Education,,Injured by animal,2025,11,0
+Occupational injuries,Education,,Injured in workplace violence,2024,105,0
+Occupational injuries,Education,,Injured in workplace violence,2025,105,0
+Occupational injuries,Education,,Others,2024,95,2
+Occupational injuries,Education,,Others,2025,116,5
+Occupational injuries,Education,,Total,2024,1571,3
+Occupational injuries,Education,,Total,2025,1474,5
+Occupational injuries,Human health services,,Trapped in or between objects,2024,59,0
+Occupational injuries,Human health services,,Trapped in or between objects,2025,47,0
+Occupational injuries,Human health services,,Injured whilst lifting or carrying,2024,390,0
+Occupational injuries,Human health services,,Injured whilst lifting or carrying,2025,333,0
+Occupational injuries,Human health services,,"Slip, trip or fall on same level",2024,507,0
+Occupational injuries,Human health services,,"Slip, trip or fall on same level",2025,470,0
+Occupational injuries,Human health services,,Fall of person from height,2024,13,0
+Occupational injuries,Human health services,,Fall of person from height,2025,13,0
+Occupational injuries,Human health services,,Striking against fixed or stationary object,2024,84,0
+Occupational injuries,Human health services,,Striking against fixed or stationary object,2025,79,0
+Occupational injuries,Human health services,,Striking against or struck by moving object,2024,154,0
+Occupational injuries,Human health services,,Striking against or struck by moving object,2025,118,0
+Occupational injuries,Human health services,,Stepping on object,2024,9,0
+Occupational injuries,Human health services,,Stepping on object,2025,11,0
+Occupational injuries,Human health services,,Exposure to or contact with harmful substance,2024,13,0
+Occupational injuries,Human health services,,Exposure to or contact with harmful substance,2025,10,0
+Occupational injuries,Human health services,,Contact with electricity or electric discharge,2024,2,0
+Occupational injuries,Human health services,,Contact with electricity or electric discharge,2025,1,0
+Occupational injuries,Human health services,,Trapped by collapsing or overturning object,2024,0,0
+Occupational injuries,Human health services,,Trapped by collapsing or overturning object,2025,1,0
+Occupational injuries,Human health services,,Struck by falling object,2024,20,0
+Occupational injuries,Human health services,,Struck by falling object,2025,14,0
+Occupational injuries,Human health services,,Struck by moving vehicle,2024,51,0
+Occupational injuries,Human health services,,Struck by moving vehicle,2025,40,0
+Occupational injuries,Human health services,,Contact with moving machinery or object being machined,2024,2,0
+Occupational injuries,Human health services,,Contact with moving machinery or object being machined,2025,3,0
+Occupational injuries,Human health services,,Drowning,2024,0,0
+Occupational injuries,Human health services,,Drowning,2025,0,0
+Occupational injuries,Human health services,,Exposure to fire,2024,0,0
+Occupational injuries,Human health services,,Exposure to fire,2025,0,0
+Occupational injuries,Human health services,,Exposure to explosion,2024,0,0
+Occupational injuries,Human health services,,Exposure to explosion,2025,0,0
+Occupational injuries,Human health services,,Injured by hand tool,2024,24,0
+Occupational injuries,Human health services,,Injured by hand tool,2025,18,0
+Occupational injuries,Human health services,,Injured by fall of ground,2024,0,0
+Occupational injuries,Human health services,,Injured by fall of ground,2025,0,0
+Occupational injuries,Human health services,,Asphyxiation,2024,0,0
+Occupational injuries,Human health services,,Asphyxiation,2025,0,0
+Occupational injuries,Human health services,,Contact with hot surface or substance,2024,36,0
+Occupational injuries,Human health services,,Contact with hot surface or substance,2025,29,0
+Occupational injuries,Human health services,,Injured by animal,2024,3,0
+Occupational injuries,Human health services,,Injured by animal,2025,1,0
+Occupational injuries,Human health services,,Injured in workplace violence,2024,113,0
+Occupational injuries,Human health services,,Injured in workplace violence,2025,106,0
+Occupational injuries,Human health services,,Others,2024,53,1
+Occupational injuries,Human health services,,Others,2025,60,2
+Occupational injuries,Human health services,,Total,2024,1533,1
+Occupational injuries,Human health services,,Total,2025,1354,2
+Occupational injuries,Social work services,,Trapped in or between objects,2024,53,0
+Occupational injuries,Social work services,,Trapped in or between objects,2025,42,0
+Occupational injuries,Social work services,,Injured whilst lifting or carrying,2024,385,0
+Occupational injuries,Social work services,,Injured whilst lifting or carrying,2025,389,0
+Occupational injuries,Social work services,,"Slip, trip or fall on same level",2024,514,0
+Occupational injuries,Social work services,,"Slip, trip or fall on same level",2025,459,0
+Occupational injuries,Social work services,,Fall of person from height,2024,22,1
+Occupational injuries,Social work services,,Fall of person from height,2025,17,0
+Occupational injuries,Social work services,,Striking against fixed or stationary object,2024,64,0
+Occupational injuries,Social work services,,Striking against fixed or stationary object,2025,86,0
+Occupational injuries,Social work services,,Striking against or struck by moving object,2024,149,0
+Occupational injuries,Social work services,,Striking against or struck by moving object,2025,108,0
+Occupational injuries,Social work services,,Stepping on object,2024,11,0
+Occupational injuries,Social work services,,Stepping on object,2025,8,0
+Occupational injuries,Social work services,,Exposure to or contact with harmful substance,2024,10,0
+Occupational injuries,Social work services,,Exposure to or contact with harmful substance,2025,10,0
+Occupational injuries,Social work services,,Contact with electricity or electric discharge,2024,3,0
+Occupational injuries,Social work services,,Contact with electricity or electric discharge,2025,1,0
+Occupational injuries,Social work services,,Trapped by collapsing or overturning object,2024,2,0
+Occupational injuries,Social work services,,Trapped by collapsing or overturning object,2025,0,0
+Occupational injuries,Social work services,,Struck by falling object,2024,12,0
+Occupational injuries,Social work services,,Struck by falling object,2025,11,0
+Occupational injuries,Social work services,,Struck by moving vehicle,2024,30,0
+Occupational injuries,Social work services,,Struck by moving vehicle,2025,38,1
+Occupational injuries,Social work services,,Contact with moving machinery or object being machined,2024,3,0
+Occupational injuries,Social work services,,Contact with moving machinery or object being machined,2025,5,0
+Occupational injuries,Social work services,,Drowning,2024,0,0
+Occupational injuries,Social work services,,Drowning,2025,0,0
+Occupational injuries,Social work services,,Exposure to fire,2024,0,0
+Occupational injuries,Social work services,,Exposure to fire,2025,0,0
+Occupational injuries,Social work services,,Exposure to explosion,2024,0,0
+Occupational injuries,Social work services,,Exposure to explosion,2025,0,0
+Occupational injuries,Social work services,,Injured by hand tool,2024,48,0
+Occupational injuries,Social work services,,Injured by hand tool,2025,40,0
+Occupational injuries,Social work services,,Injured by fall of ground,2024,0,0
+Occupational injuries,Social work services,,Injured by fall of ground,2025,0,0
+Occupational injuries,Social work services,,Asphyxiation,2024,0,0
+Occupational injuries,Social work services,,Asphyxiation,2025,0,0
+Occupational injuries,Social work services,,Contact with hot surface or substance,2024,66,0
+Occupational injuries,Social work services,,Contact with hot surface or substance,2025,54,0
+Occupational injuries,Social work services,,Injured by animal,2024,11,0
+Occupational injuries,Social work services,,Injured by animal,2025,11,0
+Occupational injuries,Social work services,,Injured in workplace violence,2024,219,0
+Occupational injuries,Social work services,,Injured in workplace violence,2025,190,0
+Occupational injuries,Social work services,,Others,2024,72,2
+Occupational injuries,Social work services,,Others,2025,80,5
+Occupational injuries,Social work services,,Total,2024,1674,3
+Occupational injuries,Social work services,,Total,2025,1549,6
+Occupational injuries,Professional and business services (excluding pest control and cleaning),,Trapped in or between objects,2024,63,0
+Occupational injuries,Professional and business services (excluding pest control and cleaning),,Trapped in or between objects,2025,59,0
+Occupational injuries,Professional and business services (excluding pest control and cleaning),,Injured whilst lifting or carrying,2024,212,0
+Occupational injuries,Professional and business services (excluding pest control and cleaning),,Injured whilst lifting or carrying,2025,186,0
+Occupational injuries,Professional and business services (excluding pest control and cleaning),,"Slip, trip or fall on same level",2024,844,0
+Occupational injuries,Professional and business services (excluding pest control and cleaning),,"Slip, trip or fall on same level",2025,903,0
+Occupational injuries,Professional and business services (excluding pest control and cleaning),,Fall of person from height,2024,38,1
+Occupational injuries,Professional and business services (excluding pest control and cleaning),,Fall of person from height,2025,38,1
+Occupational injuries,Professional and business services (excluding pest control and cleaning),,Striking against fixed or stationary object,2024,104,0
+Occupational injuries,Professional and business services (excluding pest control and cleaning),,Striking against fixed or stationary object,2025,107,0
+Occupational injuries,Professional and business services (excluding pest control and cleaning),,Striking against or struck by moving object,2024,133,0
+Occupational injuries,Professional and business services (excluding pest control and cleaning),,Striking against or struck by moving object,2025,119,2
+Occupational injuries,Professional and business services (excluding pest control and cleaning),,Stepping on object,2024,14,0
+Occupational injuries,Professional and business services (excluding pest control and cleaning),,Stepping on object,2025,12,0
+Occupational injuries,Professional and business services (excluding pest control and cleaning),,Exposure to or contact with harmful substance,2024,15,0
+Occupational injuries,Professional and business services (excluding pest control and cleaning),,Exposure to or contact with harmful substance,2025,12,0
+Occupational injuries,Professional and business services (excluding pest control and cleaning),,Contact with electricity or electric discharge,2024,1,0
+Occupational injuries,Professional and business services (excluding pest control and cleaning),,Contact with electricity or electric discharge,2025,1,0
+Occupational injuries,Professional and business services (excluding pest control and cleaning),,Trapped by collapsing or overturning object,2024,3,0
+Occupational injuries,Professional and business services (excluding pest control and cleaning),,Trapped by collapsing or overturning object,2025,2,0
+Occupational injuries,Professional and business services (excluding pest control and cleaning),,Struck by falling object,2024,26,0
+Occupational injuries,Professional and business services (excluding pest control and cleaning),,Struck by falling object,2025,23,0
+Occupational injuries,Professional and business services (excluding pest control and cleaning),,Struck by moving vehicle,2024,116,3
+Occupational injuries,Professional and business services (excluding pest control and cleaning),,Struck by moving vehicle,2025,135,3
+Occupational injuries,Professional and business services (excluding pest control and cleaning),,Contact with moving machinery or object being machined,2024,20,0
+Occupational injuries,Professional and business services (excluding pest control and cleaning),,Contact with moving machinery or object being machined,2025,13,0
+Occupational injuries,Professional and business services (excluding pest control and cleaning),,Drowning,2024,0,0
+Occupational injuries,Professional and business services (excluding pest control and cleaning),,Drowning,2025,0,0
+Occupational injuries,Professional and business services (excluding pest control and cleaning),,Exposure to fire,2024,1,0
+Occupational injuries,Professional and business services (excluding pest control and cleaning),,Exposure to fire,2025,2,0
+Occupational injuries,Professional and business services (excluding pest control and cleaning),,Exposure to explosion,2024,0,0
+Occupational injuries,Professional and business services (excluding pest control and cleaning),,Exposure to explosion,2025,1,0
+Occupational injuries,Professional and business services (excluding pest control and cleaning),,Injured by hand tool,2024,32,0
+Occupational injuries,Professional and business services (excluding pest control and cleaning),,Injured by hand tool,2025,29,0
+Occupational injuries,Professional and business services (excluding pest control and cleaning),,Injured by fall of ground,2024,0,0
+Occupational injuries,Professional and business services (excluding pest control and cleaning),,Injured by fall of ground,2025,0,0
+Occupational injuries,Professional and business services (excluding pest control and cleaning),,Asphyxiation,2024,0,0
+Occupational injuries,Professional and business services (excluding pest control and cleaning),,Asphyxiation,2025,0,0
+Occupational injuries,Professional and business services (excluding pest control and cleaning),,Contact with hot surface or substance,2024,12,0
+Occupational injuries,Professional and business services (excluding pest control and cleaning),,Contact with hot surface or substance,2025,9,0
+Occupational injuries,Professional and business services (excluding pest control and cleaning),,Injured by animal,2024,54,0
+Occupational injuries,Professional and business services (excluding pest control and cleaning),,Injured by animal,2025,85,0
+Occupational injuries,Professional and business services (excluding pest control and cleaning),,Injured in workplace violence,2024,43,0
+Occupational injuries,Professional and business services (excluding pest control and cleaning),,Injured in workplace violence,2025,36,0
+Occupational injuries,Professional and business services (excluding pest control and cleaning),,Others,2024,130,21
+Occupational injuries,Professional and business services (excluding pest control and cleaning),,Others,2025,161,30
+Occupational injuries,Professional and business services (excluding pest control and cleaning),,Total,2024,1861,25
+Occupational injuries,Professional and business services (excluding pest control and cleaning),,Total,2025,1933,36
+Occupational injuries,Pest control and cleaning services,,Trapped in or between objects,2024,87,0
+Occupational injuries,Pest control and cleaning services,,Trapped in or between objects,2025,78,0
+Occupational injuries,Pest control and cleaning services,,Injured whilst lifting or carrying,2024,350,0
+Occupational injuries,Pest control and cleaning services,,Injured whilst lifting or carrying,2025,306,0
+Occupational injuries,Pest control and cleaning services,,"Slip, trip or fall on same level",2024,993,0
+Occupational injuries,Pest control and cleaning services,,"Slip, trip or fall on same level",2025,941,0
+Occupational injuries,Pest control and cleaning services,,Fall of person from height,2024,26,0
+Occupational injuries,Pest control and cleaning services,,Fall of person from height,2025,19,0
+Occupational injuries,Pest control and cleaning services,,Striking against fixed or stationary object,2024,147,0
+Occupational injuries,Pest control and cleaning services,,Striking against fixed or stationary object,2025,134,0
+Occupational injuries,Pest control and cleaning services,,Striking against or struck by moving object,2024,201,0
+Occupational injuries,Pest control and cleaning services,,Striking against or struck by moving object,2025,145,0
+Occupational injuries,Pest control and cleaning services,,Stepping on object,2024,16,0
+Occupational injuries,Pest control and cleaning services,,Stepping on object,2025,12,0
+Occupational injuries,Pest control and cleaning services,,Exposure to or contact with harmful substance,2024,36,0
+Occupational injuries,Pest control and cleaning services,,Exposure to or contact with harmful substance,2025,48,0
+Occupational injuries,Pest control and cleaning services,,Contact with electricity or electric discharge,2024,0,0
+Occupational injuries,Pest control and cleaning services,,Contact with electricity or electric discharge,2025,1,0
+Occupational injuries,Pest control and cleaning services,,Trapped by collapsing or overturning object,2024,1,0
+Occupational injuries,Pest control and cleaning services,,Trapped by collapsing or overturning object,2025,0,0
+Occupational injuries,Pest control and cleaning services,,Struck by falling object,2024,27,0
+Occupational injuries,Pest control and cleaning services,,Struck by falling object,2025,18,0
+Occupational injuries,Pest control and cleaning services,,Struck by moving vehicle,2024,79,1
+Occupational injuries,Pest control and cleaning services,,Struck by moving vehicle,2025,71,0
+Occupational injuries,Pest control and cleaning services,,Contact with moving machinery or object being machined,2024,1,0
+Occupational injuries,Pest control and cleaning services,,Contact with moving machinery or object being machined,2025,2,0
+Occupational injuries,Pest control and cleaning services,,Drowning,2024,0,0
+Occupational injuries,Pest control and cleaning services,,Drowning,2025,0,0
+Occupational injuries,Pest control and cleaning services,,Exposure to fire,2024,1,0
+Occupational injuries,Pest control and cleaning services,,Exposure to fire,2025,1,0
+Occupational injuries,Pest control and cleaning services,,Exposure to explosion,2024,0,0
+Occupational injuries,Pest control and cleaning services,,Exposure to explosion,2025,0,0
+Occupational injuries,Pest control and cleaning services,,Injured by hand tool,2024,12,0
+Occupational injuries,Pest control and cleaning services,,Injured by hand tool,2025,22,0
+Occupational injuries,Pest control and cleaning services,,Injured by fall of ground,2024,0,0
+Occupational injuries,Pest control and cleaning services,,Injured by fall of ground,2025,0,0
+Occupational injuries,Pest control and cleaning services,,Asphyxiation,2024,0,0
+Occupational injuries,Pest control and cleaning services,,Asphyxiation,2025,0,0
+Occupational injuries,Pest control and cleaning services,,Contact with hot surface or substance,2024,11,0
+Occupational injuries,Pest control and cleaning services,,Contact with hot surface or substance,2025,14,0
+Occupational injuries,Pest control and cleaning services,,Injured by animal,2024,49,0
+Occupational injuries,Pest control and cleaning services,,Injured by animal,2025,48,0
+Occupational injuries,Pest control and cleaning services,,Injured in workplace violence,2024,39,0
+Occupational injuries,Pest control and cleaning services,,Injured in workplace violence,2025,36,0
+Occupational injuries,Pest control and cleaning services,,Others,2024,150,18
+Occupational injuries,Pest control and cleaning services,,Others,2025,166,11
+Occupational injuries,Pest control and cleaning services,,Total,2024,2226,19
+Occupational injuries,Pest control and cleaning services,,Total,2025,2062,11

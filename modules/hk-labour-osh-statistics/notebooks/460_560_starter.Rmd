@@ -1,0 +1,305 @@
+---
+title: "Hong Kong Occupational Safety and Health Statistics: Starter Notebook"
+subtitle: "ENVH 460/560"
+author: "Your name"
+output:
+  html_document:
+    toc: true
+    df_print: paged
+---
+
+Hong Kong's Labour Department publishes statistics on work accidents and occupational diseases each
+year. This notebook uses industrial accidents in factories, construction sites and restaurants from
+1999 to 2025, occupational injuries in all kinds of work from 2006, occupational diseases, and
+detail by industry and type of accident for 2024 and 2025. Read the module
+[README](../README.md) and [data dictionary](../data_dictionary.md) first.
+
+**How to use this notebook**
+
+- Run each code chunk in order (the green arrow in RStudio, or Ctrl/Cmd + Shift + Enter).
+- Answer the questions under each **Your answer** heading.
+- When you are done, click **Knit** to produce an HTML report to submit.
+
+# Part 0. Load the data
+
+```{r setup, message = FALSE}
+library(readr)
+library(dplyr)
+library(tidyr)
+library(ggplot2)
+library(forcats)
+
+base <- "https://raw.githubusercontent.com/eddiekasner/occupational-safety-health-datasets/main/modules/hk-labour-osh-statistics/data"
+read_module <- function(folder, name, ...) {
+  local <- file.path("..", "data", folder, name)
+  read_csv(if (file.exists(local)) local else file.path(base, folder, name), show_col_types = FALSE,
+           ...)
+}
+
+# Industrial accidents, occupational injuries, fatalities, workers and rates by year
+trends <- read_module("tidy", "trends.csv")
+# Confirmed occupational disease cases by disease
+diseases <- read_module("tidy", "occupational_diseases.csv")
+# 2024 and 2025: by industry, and by industry and type of accident
+by_industry <- read_module("tidy", "by_industry_2024_2025.csv")
+by_type <- read_module("tidy", "by_type_2024_2025.csv")
+# The Labour Department's occupational health clinics
+clinic <- read_module("tidy", "clinic_patients.csv")
+services <- read_module("tidy", "health_services.csv")
+```
+
+Hong Kong counts accidents in two ways. **Industrial accidents** happen in industrial undertakings
+(factories, construction sites, restaurants and some others), with rates per 1,000 workers.
+**Occupational injuries** are all injuries at work with more than three days off, in every kind of
+work, with rates per 1,000 employees. Industries were reclassified in 2009 (see the README).
+
+# Part 1. The long view
+
+```{r long-view}
+trends |>
+  filter(measure == "Industrial accident rate per 1,000 workers") |>
+  ggplot(aes(year, value, colour = industry)) +
+  geom_line() +
+  geom_point(size = 1) +
+  geom_vline(xintercept = 2008.5, linetype = "dashed") +
+  expand_limits(y = 0) +
+  labs(title = "Industrial accident rate per 1,000 workers",
+       subtitle = "Dashed line: change of industry classification (HSIC 1.1 to 2.0)",
+       x = NULL, y = NULL, colour = NULL)
+
+trends |>
+  filter(measure %in% c("Industrial accidents", "Industrial accident fatalities"),
+         industry == "All industries", year %in% c(1999, 2005, 2010, 2015, 2020, 2025)) |>
+  select(year, measure, value) |>
+  pivot_wider(names_from = measure, values_from = value)
+```
+
+**Questions**
+
+1. By how much did the industrial accident rate in construction fall from 2006 to 2025? Which
+   industry has had the highest rate in recent years?
+2. The number of industrial accidents in all industries fell by more than 80% from 1999 to 2025.
+   Give three possible explanations, at least one of which is not about safer work.
+3. Why do the catering and food and beverage lines not join up in 2009? What would you need to
+   compare them across the break?
+
+**Your answer:**
+
+
+
+# Part 2. Two ways of counting
+
+```{r definitions}
+trends |>
+  filter((measure == "Industrial accidents" & industry == "All industries") |
+           measure == "Occupational injuries", year >= 2006) |>
+  ggplot(aes(year, value, colour = measure)) +
+  geom_line() +
+  geom_point(size = 1) +
+  expand_limits(y = 0) +
+  scale_y_continuous(labels = scales::label_comma()) +
+  labs(title = "Industrial accidents and occupational injuries", x = NULL, y = NULL, colour = NULL)
+
+trends |>
+  filter(year >= 2016, measure %in% c("Industrial accident fatalities", "Work fatalities"),
+         industry %in% c("All industries", "All economic activities")) |>
+  select(year, measure, value) |>
+  pivot_wider(names_from = measure, values_from = value)
+```
+
+**Questions**
+
+1. About what share of occupational injuries are industrial accidents? Which kinds of work are
+   counted as occupational injuries but not as industrial accidents?
+2. Occupational injuries come from employers' reports under the Employees' Compensation Ordinance.
+   What kinds of injuries or workers might not be reported?
+3. Work fatalities include deaths in industrial undertakings and at other workplaces. About what
+   share of work deaths happen outside industrial undertakings? Where might they happen?
+
+**Your answer:**
+
+
+
+# Part 3. Types of accident
+
+```{r types}
+by_type |>
+  filter(statistic == "Industrial accidents", industry == "Total", accident_type != "Total",
+         year == 2025) |>
+  slice_max(cases, n = 10) |>
+  ggplot(aes(cases, fct_reorder(accident_type, cases))) +
+  geom_col() +
+  labs(title = "Industrial accidents by type, 2025", x = "Accidents", y = NULL)
+
+by_type |>
+  filter(statistic == "Industrial accidents", industry == "Construction",
+         accident_type != "Total") |>
+  group_by(accident_type) |>
+  summarise(accidents = sum(cases), deaths = sum(fatalities)) |>
+  filter(deaths > 0) |>
+  arrange(desc(deaths))
+```
+
+**Questions**
+
+1. What are the three most common types of industrial accident? Are they the same as the types
+   that kill construction workers?
+2. Falls of a person from height are a fraction of construction accidents but a large share of
+   deaths. Why? List the hierarchy of controls for work at height, from most to least effective.
+3. "Injured whilst lifting or carrying" is one of the most common types. What longer-term health
+   problem is it linked to, and would these statistics capture it?
+
+**Your answer:**
+
+
+
+# Part 4. Industries
+
+```{r industries}
+by_industry |>
+  filter(statistic == "Occupational injuries", industry != "Total") |>
+  select(industry, year, cases) |>
+  pivot_wider(names_from = year, values_from = cases, names_prefix = "injuries_") |>
+  arrange(desc(injuries_2025))
+
+by_industry |>
+  filter(statistic == "Occupational injuries", industry != "Total", year == 2025) |>
+  ggplot(aes(fatalities, fct_reorder(industry, fatalities))) +
+  geom_col() +
+  labs(title = "Deaths among occupational injuries, 2025", x = "Deaths", y = NULL)
+```
+
+**Questions**
+
+1. Which industry section has the most occupational injuries? What kinds of jobs are in it?
+2. Compare the ranking by injuries with the ranking by deaths. Which industries have many deaths
+   for their number of injuries?
+3. These are counts, not rates. What would you need to compare the risk between industries?
+
+**Your answer:**
+
+
+
+# Part 5. Occupational diseases
+
+```{r diseases}
+top <- diseases |>
+  filter(disease != "Total") |>
+  group_by(disease) |>
+  summarise(cases = sum(cases, na.rm = TRUE)) |>
+  slice_max(cases, n = 5) |>
+  pull(disease)
+
+diseases |>
+  filter(disease %in% top, !is.na(cases)) |>
+  ggplot(aes(year, cases, colour = disease)) +
+  geom_line() +
+  geom_point(size = 1) +
+  labs(title = "Confirmed occupational disease cases, five most common diseases", x = NULL,
+       y = "Cases", colour = NULL)
+
+diseases |>
+  filter(disease %in% c("Total", "Occupational deafness", "Silicosis"), year >= 2016) |>
+  select(year, disease, cases) |>
+  pivot_wider(names_from = disease, values_from = cases)
+```
+
+**Questions**
+
+1. Which two diseases make up most cases? Both are caused by exposures that can be measured and
+   controlled. Name the exposures and one control for each.
+2. Occupational deafness cases jumped in 2011 and swing widely from year to year (78 in 2020, 394
+   in 2021). Using the README, explain the jump in 2011, and suggest reasons for the swings that are
+   not about noise exposure.
+3. Silicosis and mesothelioma appear many years after exposure. What do this year's cases tell you
+   about working conditions today?
+
+**Your answer:**
+
+
+
+# Part 6. Rates and small numbers (ENVH 460/560)
+
+```{r rates}
+construction <- trends |>
+  filter(industry == "Construction") |>
+  select(year, measure, value) |>
+  pivot_wider(names_from = measure, values_from = value) |>
+  transmute(year, accidents = `Industrial accidents`, deaths = `Industrial accident fatalities`,
+            workers = `Workers (employment size)`,
+            published_rate = `Industrial accident rate per 1,000 workers`,
+            our_rate = round(1000 * accidents / workers, 1))
+construction
+
+# Death rate per 100,000 workers with an exact Poisson 95% confidence interval
+construction |>
+  filter(year >= 2016) |>
+  rowwise() |>
+  mutate(death_rate = 1e5 * deaths / workers,
+         lower = 1e5 * poisson.test(deaths)$conf.int[1] / workers,
+         upper = 1e5 * poisson.test(deaths)$conf.int[2] / workers) |>
+  ungroup() |>
+  ggplot(aes(year, death_rate)) +
+  geom_pointrange(aes(ymin = lower, ymax = upper)) +
+  labs(title = "Construction: industrial accident deaths per 100,000 workers, with 95% CI",
+       x = NULL, y = NULL)
+```
+
+**Questions**
+
+1. Does your calculated accident rate match the published one? What does the "employment size"
+   for construction count, and who might be missing from it?
+2. Construction deaths range from about 10 to 25 a year. Using the confidence intervals, is there
+   good evidence that the death rate changed between 2016 and 2025?
+3. Convert the 2025 construction death rate to deaths per 100,000 workers and compare it with the
+   construction rate in another module in this repository (for example the US CFOI, UK HSE or
+   Singapore modules). What differences in definitions should you check first?
+
+**Your answer:**
+
+
+
+# Part 7. Occupational health clinics (ENVH 460/560)
+
+```{r clinic}
+clinic |>
+  group_by(year) |>
+  mutate(share = new_patients / sum(new_patients)) |>
+  ungroup() |>
+  filter(disease_group == "Musculoskeletal diseases") |>
+  select(year, new_patients, share)
+
+services |>
+  filter(activity %in% c("Clinical consultations", "Occupational hygiene surveys")) |>
+  ggplot(aes(year, count, colour = activity)) +
+  geom_line() +
+  geom_point() +
+  expand_limits(y = 0) +
+  labs(title = "Labour Department occupational health services", x = NULL, y = NULL,
+       colour = NULL)
+```
+
+**Questions**
+
+1. About what share of new clinic patients have musculoskeletal diseases? Musculoskeletal disorders
+   are not on Hong Kong's list of prescribed occupational diseases (apart from tenosynovitis of the
+   hand or forearm and carpal tunnel syndrome). What does that mean for the official statistics?
+2. Why did services fall in 2020? Is this a good source for estimating how common work-related
+   disease is in Hong Kong? Why or why not?
+
+**Your answer:**
+
+
+
+# Part 8. What the data can tell a policy maker (ENVH 460/560)
+
+**Questions**
+
+1. Hong Kong's industrial accident rate is reported per 1,000 workers and many other countries
+   report per 100,000. Pick one country in this repository and compare its trend since 2010 with
+   Hong Kong's, after putting both on the same scale.
+2. Write a short paragraph for a policy maker on what these statistics can and cannot tell them
+   about whether work in Hong Kong is getting safer. Mention at least one limitation of the
+   definitions and one of the denominators.
+
+**Your answer:**
