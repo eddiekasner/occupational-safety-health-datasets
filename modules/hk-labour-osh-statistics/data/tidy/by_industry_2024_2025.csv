@@ -1,0 +1,57 @@
+statistic,industry,parent,year,cases,fatalities
+Industrial accidents,Manufacturing,,2024,743,1
+Industrial accidents,Manufacturing,,2025,686,0
+Industrial accidents,Textiles,Manufacturing,2024,6,0
+Industrial accidents,Textiles,Manufacturing,2025,2,0
+Industrial accidents,Wearing apparel,Manufacturing,2024,4,0
+Industrial accidents,Wearing apparel,Manufacturing,2025,1,0
+Industrial accidents,Electronics,Manufacturing,2024,8,0
+Industrial accidents,Electronics,Manufacturing,2025,3,0
+Industrial accidents,Fabricated metal products,Manufacturing,2024,17,0
+Industrial accidents,Fabricated metal products,Manufacturing,2025,26,0
+Industrial accidents,Rubber and plastics products,Manufacturing,2024,4,0
+Industrial accidents,Rubber and plastics products,Manufacturing,2025,3,0
+Industrial accidents,Shipbuilding and shiprepairing,Manufacturing,2024,9,0
+Industrial accidents,Shipbuilding and shiprepairing,Manufacturing,2025,17,0
+Industrial accidents,Printing and reproduction of recorded media,Manufacturing,2024,21,0
+Industrial accidents,Printing and reproduction of recorded media,Manufacturing,2025,24,0
+Industrial accidents,Other manufacturing industries,Manufacturing,2024,674,1
+Industrial accidents,Other manufacturing industries,Manufacturing,2025,610,0
+Industrial accidents,Construction,,2024,3037,14
+Industrial accidents,Construction,,2025,2425,21
+Industrial accidents,Food and beverage services,,2024,3105,0
+Industrial accidents,Food and beverage services,,2025,2823,0
+Industrial accidents,Other industries,,2024,486,7
+Industrial accidents,Other industries,,2025,552,1
+Industrial accidents,Total,,2024,7371,22
+Industrial accidents,Total,,2025,6486,22
+Occupational injuries,"Agriculture, forestry and fishing",,2024,27,0
+Occupational injuries,"Agriculture, forestry and fishing",,2025,18,0
+Occupational injuries,Mining and quarrying,,2024,0,0
+Occupational injuries,Mining and quarrying,,2025,0,0
+Occupational injuries,Manufacturing,,2024,988,7
+Occupational injuries,Manufacturing,,2025,955,12
+Occupational injuries,"Electricity, gas and waste management",,2024,116,1
+Occupational injuries,"Electricity, gas and waste management",,2025,119,2
+Occupational injuries,Construction,,2024,3215,51
+Occupational injuries,Construction,,2025,2699,51
+Occupational injuries,"Import/export, wholesale and retail trades",,2024,2129,22
+Occupational injuries,"Import/export, wholesale and retail trades",,2025,1949,19
+Occupational injuries,"Transportation, storage, postal and courier services",,2024,3036,38
+Occupational injuries,"Transportation, storage, postal and courier services",,2025,2702,35
+Occupational injuries,Accommodation and food services,,2024,4484,18
+Occupational injuries,Accommodation and food services,,2025,4093,17
+Occupational injuries,Information and communications,,2024,200,1
+Occupational injuries,Information and communications,,2025,168,3
+Occupational injuries,Financing and insurance,,2024,270,3
+Occupational injuries,Financing and insurance,,2025,227,1
+Occupational injuries,Real estate,,2024,2417,27
+Occupational injuries,Real estate,,2025,2521,30
+Occupational injuries,Professional and business services,,2024,4087,44
+Occupational injuries,Professional and business services,,2025,3995,47
+Occupational injuries,"Public administration, and social and personal services",,2024,7441,15
+Occupational injuries,"Public administration, and social and personal services",,2025,6718,31
+Occupational injuries,Other industries,,2024,202,5
+Occupational injuries,Other industries,,2025,201,25
+Occupational injuries,Total,,2024,28612,232
+Occupational injuries,Total,,2025,26365,273

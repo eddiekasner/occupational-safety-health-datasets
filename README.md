@@ -24,8 +24,9 @@ Each module gives students:
 | [Canada AWCBC work injury, disease and fatality statistics](modules/ca-awcbc-nwisp/) | Canada | AWCBC | Ready |
 | [Eurostat accidents at work (ESAW)](modules/intl-eurostat-esaw/) | Europe | Eurostat | Ready |
 | [Finland occupational accident statistics: accidents, causes and rates](modules/fi-statfin-work-accidents/) | Finland | Statistics Finland | Ready |
-| [France work accidents, commuting accidents and occupational diseases by sector](modules/fr-ameli-occupational-risks/) | France | Assurance Maladie | Ready for review |
+| [France work accidents, commuting accidents and occupational diseases by sector](modules/fr-ameli-occupational-risks/) | France | Assurance Maladie | Ready |
 | [Global Burden of Disease: occupational risks](modules/intl-ihme-gbd-occupational/) (students download the data from IHME) | International | IHME | Draft (not yet tested on real data) |
+| [Hong Kong industrial accidents, occupational injuries and diseases since 1999](modules/hk-labour-osh-statistics/) | Hong Kong | Labour Department | Ready for review |
 | [ILOSTAT occupational safety and health](modules/intl-ilostat-osh/) | International | ILO | Ready |
 | [Italy INAIL work injury reports and occupational disease claims](modules/it-inail-work-injuries/) | Italy | INAIL | Ready |
 | [Japan fatal accident database: every work-related death since 1991](modules/jp-mhlw-fatal-accidents/) | Japan | MHLW | Ready |
@@ -85,6 +86,7 @@ modules/
   ca-awcbc-nwisp/               Canadian accepted lost time claims and fatalities since 1982
   fi-statfin-work-accidents/    Finnish accidents at work and commuting by industry, with ESAW causes and rates
   fr-ameli-occupational-risks/  French accidents and occupational diseases by detailed sector, with causes and costs
+  hk-labour-osh-statistics/     Hong Kong industrial accidents, occupational injuries and diseases since 1999
   intl-eurostat-esaw/           Eurostat accidents at work in Europe
   intl-ihme-gbd-occupational/   GBD deaths and DALYs from occupational risks (download from IHME)
   intl-ilostat-osh/             ILO injury and labour inspection statistics by country
