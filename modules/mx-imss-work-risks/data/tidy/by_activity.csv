@@ -1,0 +1,393 @@
+year,activity,activity_es,workers,risk,cases
+2016,National,Nacional,18206112,Commuting accidents,122532
+2016,National,Nacional,18206112,Occupational diseases,12622
+2016,National,Nacional,18206112,Work accidents,394202
+2016,National,Nacional,18206112,All work risks,529356
+2016,Manufacturing,Industrias de la transformación,4856403,Commuting accidents,42398
+2016,Manufacturing,Industrias de la transformación,4856403,Occupational diseases,5621
+2016,Manufacturing,Industrias de la transformación,4856403,Work accidents,98658
+2016,Manufacturing,Industrias de la transformación,4856403,All work risks,146677
+2016,Commerce,Comercio,3677412,Commuting accidents,27431
+2016,Commerce,Comercio,3677412,Occupational diseases,1463
+2016,Commerce,Comercio,3677412,Work accidents,104016
+2016,Commerce,Comercio,3677412,All work risks,132910
+2016,"Services to businesses, people and households","Servicios para empresas, personas y el hogar",4258504,Commuting accidents,28427
+2016,"Services to businesses, people and households","Servicios para empresas, personas y el hogar",4258504,Occupational diseases,1712
+2016,"Services to businesses, people and households","Servicios para empresas, personas y el hogar",4258504,Work accidents,83019
+2016,"Services to businesses, people and households","Servicios para empresas, personas y el hogar",4258504,All work risks,113158
+2016,Construction,Industria de la construcción,1520838,Commuting accidents,4244
+2016,Construction,Industria de la construcción,1520838,Occupational diseases,805
+2016,Construction,Industria de la construcción,1520838,Work accidents,41874
+2016,Construction,Industria de la construcción,1520838,All work risks,46923
+2016,Social and community services,Servicios sociales y comunales,2026014,Commuting accidents,11584
+2016,Social and community services,Servicios sociales y comunales,2026014,Occupational diseases,687
+2016,Social and community services,Servicios sociales y comunales,2026014,Work accidents,22986
+2016,Social and community services,Servicios sociales y comunales,2026014,All work risks,35257
+2016,Transport and communications,Transportes y comunicaciones,991576,Commuting accidents,6162
+2016,Transport and communications,Transportes y comunicaciones,991576,Occupational diseases,700
+2016,Transport and communications,Transportes y comunicaciones,991576,Work accidents,27454
+2016,Transport and communications,Transportes y comunicaciones,991576,All work risks,34316
+2016,"Agriculture, livestock, forestry, fishing and hunting","Agricultura, ganadería, silvicultura, pesca y caza",610191,Commuting accidents,1404
+2016,"Agriculture, livestock, forestry, fishing and hunting","Agricultura, ganadería, silvicultura, pesca y caza",610191,Occupational diseases,607
+2016,"Agriculture, livestock, forestry, fishing and hunting","Agricultura, ganadería, silvicultura, pesca y caza",610191,Work accidents,11064
+2016,"Agriculture, livestock, forestry, fishing and hunting","Agricultura, ganadería, silvicultura, pesca y caza",610191,All work risks,13075
+2016,Mining and quarrying,Industrias extractivas,121468,Commuting accidents,353
+2016,Mining and quarrying,Industrias extractivas,121468,Occupational diseases,782
+2016,Mining and quarrying,Industrias extractivas,121468,Work accidents,3074
+2016,Mining and quarrying,Industrias extractivas,121468,All work risks,4209
+2016,Electricity and water supply,Industria eléctrica y captación y suministro de agua potable,143706,Commuting accidents,483
+2016,Electricity and water supply,Industria eléctrica y captación y suministro de agua potable,143706,Occupational diseases,233
+2016,Electricity and water supply,Industria eléctrica y captación y suministro de agua potable,143706,Work accidents,1947
+2016,Electricity and water supply,Industria eléctrica y captación y suministro de agua potable,143706,All work risks,2663
+2016,Not identified,No identificados,,Commuting accidents,46
+2016,Not identified,No identificados,,Occupational diseases,12
+2016,Not identified,No identificados,,Work accidents,110
+2016,Not identified,No identificados,,All work risks,168
+2017,National,Nacional,18740283,Commuting accidents,138424
+2017,National,Nacional,18740283,Occupational diseases,14159
+2017,National,Nacional,18740283,Work accidents,410266
+2017,National,Nacional,18740283,All work risks,562849
+2017,Commerce,Comercio,3750462,Commuting accidents,47721
+2017,Commerce,Comercio,3750462,Occupational diseases,6437
+2017,Commerce,Comercio,3750462,Work accidents,104331
+2017,Commerce,Comercio,3750462,All work risks,158489
+2017,Manufacturing,Industrias de la transformación,5051525,Commuting accidents,30895
+2017,Manufacturing,Industrias de la transformación,5051525,Occupational diseases,1768
+2017,Manufacturing,Industrias de la transformación,5051525,Work accidents,105358
+2017,Manufacturing,Industrias de la transformación,5051525,All work risks,138021
+2017,"Services to businesses, people and households","Servicios para empresas, personas y el hogar",4392605,Commuting accidents,32252
+2017,"Services to businesses, people and households","Servicios para empresas, personas y el hogar",4392605,Occupational diseases,1943
+2017,"Services to businesses, people and households","Servicios para empresas, personas y el hogar",4392605,Work accidents,85510
+2017,"Services to businesses, people and households","Servicios para empresas, personas y el hogar",4392605,All work risks,119705
+2017,Construction,Industria de la construcción,1563708,Commuting accidents,5145
+2017,Construction,Industria de la construcción,1563708,Occupational diseases,930
+2017,Construction,Industria de la construcción,1563708,Work accidents,44115
+2017,Construction,Industria de la construcción,1563708,All work risks,50190
+2017,Transport and communications,Transportes y comunicaciones,1035083,Commuting accidents,7341
+2017,Transport and communications,Transportes y comunicaciones,1035083,Occupational diseases,799
+2017,Transport and communications,Transportes y comunicaciones,1035083,Work accidents,29063
+2017,Transport and communications,Transportes y comunicaciones,1035083,All work risks,37203
+2017,Social and community services,Servicios sociales y comunales,2039623,Commuting accidents,12271
+2017,Social and community services,Servicios sociales y comunales,2039623,Occupational diseases,788
+2017,Social and community services,Servicios sociales y comunales,2039623,Work accidents,24132
+2017,Social and community services,Servicios sociales y comunales,2039623,All work risks,37191
+2017,"Agriculture, livestock, forestry, fishing and hunting","Agricultura, ganadería, silvicultura, pesca y caza",643702,Commuting accidents,1745
+2017,"Agriculture, livestock, forestry, fishing and hunting","Agricultura, ganadería, silvicultura, pesca y caza",643702,Occupational diseases,657
+2017,"Agriculture, livestock, forestry, fishing and hunting","Agricultura, ganadería, silvicultura, pesca y caza",643702,Work accidents,12421
+2017,"Agriculture, livestock, forestry, fishing and hunting","Agricultura, ganadería, silvicultura, pesca y caza",643702,All work risks,14823
+2017,Mining and quarrying,Industrias extractivas,123735,Commuting accidents,423
+2017,Mining and quarrying,Industrias extractivas,123735,Occupational diseases,642
+2017,Mining and quarrying,Industrias extractivas,123735,Work accidents,3229
+2017,Mining and quarrying,Industrias extractivas,123735,All work risks,4294
+2017,Electricity and water supply,Industria eléctrica y captación y suministro de agua potable,139840,Commuting accidents,541
+2017,Electricity and water supply,Industria eléctrica y captación y suministro de agua potable,139840,Occupational diseases,189
+2017,Electricity and water supply,Industria eléctrica y captación y suministro de agua potable,139840,Work accidents,1882
+2017,Electricity and water supply,Industria eléctrica y captación y suministro de agua potable,139840,All work risks,2612
+2017,Not identified,No identificados,,Commuting accidents,90
+2017,Not identified,No identificados,,Occupational diseases,6
+2017,Not identified,No identificados,,Work accidents,225
+2017,Not identified,No identificados,,All work risks,321
+2018,National,Nacional,19516567,Commuting accidents,141088
+2018,National,Nacional,19516567,Occupational diseases,15182
+2018,National,Nacional,19516567,Work accidents,398740
+2018,National,Nacional,19516567,All work risks,555010
+2018,Manufacturing,Industrias de la transformación,5280725,Commuting accidents,49108
+2018,Manufacturing,Industrias de la transformación,5280725,Occupational diseases,6899
+2018,Manufacturing,Industrias de la transformación,5280725,Work accidents,101503
+2018,Manufacturing,Industrias de la transformación,5280725,All work risks,157510
+2018,Commerce,Comercio,3877404,Commuting accidents,30908
+2018,Commerce,Comercio,3877404,Occupational diseases,1765
+2018,Commerce,Comercio,3877404,Work accidents,101649
+2018,Commerce,Comercio,3877404,All work risks,134322
+2018,"Services to businesses, people and households","Servicios para empresas, personas y el hogar",4572148,Commuting accidents,32677
+2018,"Services to businesses, people and households","Servicios para empresas, personas y el hogar",4572148,Occupational diseases,1779
+2018,"Services to businesses, people and households","Servicios para empresas, personas y el hogar",4572148,Work accidents,82081
+2018,"Services to businesses, people and households","Servicios para empresas, personas y el hogar",4572148,All work risks,116537
+2018,Construction,Industria de la construcción,1643363,Commuting accidents,5254
+2018,Construction,Industria de la construcción,1643363,Occupational diseases,1008
+2018,Construction,Industria de la construcción,1643363,Work accidents,42786
+2018,Construction,Industria de la construcción,1643363,All work risks,49048
+2018,Transport and communications,Transportes y comunicaciones,1103086,Commuting accidents,7643
+2018,Transport and communications,Transportes y comunicaciones,1103086,Occupational diseases,910
+2018,Transport and communications,Transportes y comunicaciones,1103086,Work accidents,29038
+2018,Transport and communications,Transportes y comunicaciones,1103086,All work risks,37591
+2018,Social and community services,Servicios sociales y comunales,2084456,Commuting accidents,12574
+2018,Social and community services,Servicios sociales y comunales,2084456,Occupational diseases,711
+2018,Social and community services,Servicios sociales y comunales,2084456,Work accidents,24150
+2018,Social and community services,Servicios sociales y comunales,2084456,All work risks,37435
+2018,"Agriculture, livestock, forestry, fishing and hunting","Agricultura, ganadería, silvicultura, pesca y caza",685708,Commuting accidents,1926
+2018,"Agriculture, livestock, forestry, fishing and hunting","Agricultura, ganadería, silvicultura, pesca y caza",685708,Occupational diseases,741
+2018,"Agriculture, livestock, forestry, fishing and hunting","Agricultura, ganadería, silvicultura, pesca y caza",685708,Work accidents,12525
+2018,"Agriculture, livestock, forestry, fishing and hunting","Agricultura, ganadería, silvicultura, pesca y caza",685708,All work risks,15192
+2018,Mining and quarrying,Industrias extractivas,128368,Commuting accidents,481
+2018,Mining and quarrying,Industrias extractivas,128368,Occupational diseases,1251
+2018,Mining and quarrying,Industrias extractivas,128368,Work accidents,3054
+2018,Mining and quarrying,Industrias extractivas,128368,All work risks,4786
+2018,Electricity and water supply,Industria eléctrica y captación y suministro de agua potable,141309,Commuting accidents,492
+2018,Electricity and water supply,Industria eléctrica y captación y suministro de agua potable,141309,Occupational diseases,104
+2018,Electricity and water supply,Industria eléctrica y captación y suministro de agua potable,141309,Work accidents,1854
+2018,Electricity and water supply,Industria eléctrica y captación y suministro de agua potable,141309,All work risks,2450
+2018,Not identified,No identificados,0,Commuting accidents,25
+2018,Not identified,No identificados,0,Occupational diseases,14
+2018,Not identified,No identificados,0,Work accidents,100
+2018,Not identified,No identificados,0,All work risks,139
+2019,National,Nacional,19974508,Commuting accidents,141730
+2019,National,Nacional,19974508,Occupational diseases,13319
+2019,National,Nacional,19974508,Work accidents,399809
+2019,National,Nacional,19974508,All work risks,554858
+2019,Manufacturing,Industrias de la transformación,5406313,Commuting accidents,48915
+2019,Manufacturing,Industrias de la transformación,5406313,Occupational diseases,6233
+2019,Manufacturing,Industrias de la transformación,5406313,Work accidents,100549
+2019,Manufacturing,Industrias de la transformación,5406313,All work risks,155697
+2019,Commerce,Comercio,3985374,Commuting accidents,31382
+2019,Commerce,Comercio,3985374,Occupational diseases,1580
+2019,Commerce,Comercio,3985374,Work accidents,102338
+2019,Commerce,Comercio,3985374,All work risks,135300
+2019,"Services to businesses, people and households","Servicios para empresas, personas y el hogar",4703431,Commuting accidents,32734
+2019,"Services to businesses, people and households","Servicios para empresas, personas y el hogar",4703431,Occupational diseases,1449
+2019,"Services to businesses, people and households","Servicios para empresas, personas y el hogar",4703431,Work accidents,84350
+2019,"Services to businesses, people and households","Servicios para empresas, personas y el hogar",4703431,All work risks,118533
+2019,Construction,Industria de la construcción,1618594,Commuting accidents,5145
+2019,Construction,Industria de la construcción,1618594,Occupational diseases,805
+2019,Construction,Industria de la construcción,1618594,Work accidents,41144
+2019,Construction,Industria de la construcción,1618594,All work risks,47094
+2019,Transport and communications,Transportes y comunicaciones,1161585,Commuting accidents,8166
+2019,Transport and communications,Transportes y comunicaciones,1161585,Occupational diseases,813
+2019,Transport and communications,Transportes y comunicaciones,1161585,Work accidents,30100
+2019,Transport and communications,Transportes y comunicaciones,1161585,All work risks,39079
+2019,Social and community services,Servicios sociales y comunales,2117299,Commuting accidents,12408
+2019,Social and community services,Servicios sociales y comunales,2117299,Occupational diseases,702
+2019,Social and community services,Servicios sociales y comunales,2117299,Work accidents,23807
+2019,Social and community services,Servicios sociales y comunales,2117299,All work risks,36917
+2019,"Agriculture, livestock, forestry, fishing and hunting","Agricultura, ganadería, silvicultura, pesca y caza",712877,Commuting accidents,2025
+2019,"Agriculture, livestock, forestry, fishing and hunting","Agricultura, ganadería, silvicultura, pesca y caza",712877,Occupational diseases,641
+2019,"Agriculture, livestock, forestry, fishing and hunting","Agricultura, ganadería, silvicultura, pesca y caza",712877,Work accidents,12668
+2019,"Agriculture, livestock, forestry, fishing and hunting","Agricultura, ganadería, silvicultura, pesca y caza",712877,All work risks,15334
+2019,Mining and quarrying,Industrias extractivas,126623,Commuting accidents,452
+2019,Mining and quarrying,Industrias extractivas,126623,Occupational diseases,886
+2019,Mining and quarrying,Industrias extractivas,126623,Work accidents,2909
+2019,Mining and quarrying,Industrias extractivas,126623,All work risks,4247
+2019,Electricity and water supply,Industria eléctrica y captación y suministro de agua potable,142412,Commuting accidents,483
+2019,Electricity and water supply,Industria eléctrica y captación y suministro de agua potable,142412,Occupational diseases,205
+2019,Electricity and water supply,Industria eléctrica y captación y suministro de agua potable,142412,Work accidents,1877
+2019,Electricity and water supply,Industria eléctrica y captación y suministro de agua potable,142412,All work risks,2565
+2019,Not identified,No identificados,,Commuting accidents,20
+2019,Not identified,No identificados,,Occupational diseases,5
+2019,Not identified,No identificados,,Work accidents,67
+2019,Not identified,No identificados,,All work risks,92
+2020,National,Nacional,19457040,Commuting accidents,95026
+2020,National,Nacional,19457040,Occupational diseases,119474
+2020,National,Nacional,19457040,Work accidents,278184
+2020,National,Nacional,19457040,All work risks,492393
+2020,Social and community services,Servicios sociales y comunales,2154369,Commuting accidents,8397
+2020,Social and community services,Servicios sociales y comunales,2154369,Occupational diseases,110862
+2020,Social and community services,Servicios sociales y comunales,2154369,Work accidents,16692
+2020,Social and community services,Servicios sociales y comunales,2154369,All work risks,135951
+2020,Manufacturing,Industrias de la transformación,5285184,Commuting accidents,33848
+2020,Manufacturing,Industrias de la transformación,5285184,Occupational diseases,3909
+2020,Manufacturing,Industrias de la transformación,5285184,Work accidents,71501
+2020,Manufacturing,Industrias de la transformación,5285184,All work risks,109258
+2020,Commerce,Comercio,3947810,Commuting accidents,22151
+2020,Commerce,Comercio,3947810,Occupational diseases,1101
+2020,Commerce,Comercio,3947810,Work accidents,74797
+2020,Commerce,Comercio,3947810,All work risks,98049
+2020,"Services to businesses, people and households","Servicios para empresas, personas y el hogar",4417753,Commuting accidents,18997
+2020,"Services to businesses, people and households","Servicios para empresas, personas y el hogar",4417753,Occupational diseases,1052
+2020,"Services to businesses, people and households","Servicios para empresas, personas y el hogar",4417753,Work accidents,51421
+2020,"Services to businesses, people and households","Servicios para empresas, personas y el hogar",4417753,All work risks,71470
+2020,Construction,Industria de la construcción,1484484,Commuting accidents,3529
+2020,Construction,Industria de la construcción,1484484,Occupational diseases,468
+2020,Construction,Industria de la construcción,1484484,Work accidents,28440
+2020,Construction,Industria de la construcción,1484484,All work risks,32437
+2020,Transport and communications,Transportes y comunicaciones,1175685,Commuting accidents,5682
+2020,Transport and communications,Transportes y comunicaciones,1175685,Occupational diseases,648
+2020,Transport and communications,Transportes y comunicaciones,1175685,Work accidents,21952
+2020,Transport and communications,Transportes y comunicaciones,1175685,All work risks,28282
+2020,"Agriculture, livestock, forestry, fishing and hunting","Agricultura, ganadería, silvicultura, pesca y caza",728926,Commuting accidents,1724
+2020,"Agriculture, livestock, forestry, fishing and hunting","Agricultura, ganadería, silvicultura, pesca y caza",728926,Occupational diseases,463
+2020,"Agriculture, livestock, forestry, fishing and hunting","Agricultura, ganadería, silvicultura, pesca y caza",728926,Work accidents,9988
+2020,"Agriculture, livestock, forestry, fishing and hunting","Agricultura, ganadería, silvicultura, pesca y caza",728926,All work risks,12175
+2020,Mining and quarrying,Industrias extractivas,119897,Commuting accidents,317
+2020,Mining and quarrying,Industrias extractivas,119897,Occupational diseases,785
+2020,Mining and quarrying,Industrias extractivas,119897,Work accidents,1922
+2020,Mining and quarrying,Industrias extractivas,119897,All work risks,3024
+2020,Electricity and water supply,Industria eléctrica y captación y suministro de agua potable,142932,Commuting accidents,344
+2020,Electricity and water supply,Industria eléctrica y captación y suministro de agua potable,142932,Occupational diseases,70
+2020,Electricity and water supply,Industria eléctrica y captación y suministro de agua potable,142932,Work accidents,1333
+2020,Electricity and water supply,Industria eléctrica y captación y suministro de agua potable,142932,All work risks,1747
+2020,Not identified,No identificados,,Commuting accidents,37
+2020,Not identified,No identificados,,Occupational diseases,116
+2020,Not identified,No identificados,,Work accidents,138
+2020,Not identified,No identificados,,All work risks,443
+2021,National,Nacional,19843230,Commuting accidents,109512
+2021,National,Nacional,19843230,Occupational diseases,86757
+2021,National,Nacional,19843230,Work accidents,305646
+2021,National,Nacional,19843230,All work risks,501915
+2021,Manufacturing,Industrias de la transformación,5524188,Commuting accidents,42284
+2021,Manufacturing,Industrias de la transformación,5524188,Occupational diseases,4810
+2021,Manufacturing,Industrias de la transformación,5524188,Work accidents,84620
+2021,Manufacturing,Industrias de la transformación,5524188,All work risks,131714
+2021,Commerce,Comercio,4049413,Commuting accidents,24962
+2021,Commerce,Comercio,4049413,Occupational diseases,1261
+2021,Commerce,Comercio,4049413,Work accidents,79504
+2021,Commerce,Comercio,4049413,All work risks,105727
+2021,Social and community services,Servicios sociales y comunales,2175477,Commuting accidents,9207
+2021,Social and community services,Servicios sociales y comunales,2175477,Occupational diseases,75623
+2021,Social and community services,Servicios sociales y comunales,2175477,Work accidents,17390
+2021,Social and community services,Servicios sociales y comunales,2175477,All work risks,102220
+2021,"Services to businesses, people and households","Servicios para empresas, personas y el hogar",4291237,Commuting accidents,19931
+2021,"Services to businesses, people and households","Servicios para empresas, personas y el hogar",4291237,Occupational diseases,1176
+2021,"Services to businesses, people and households","Servicios para empresas, personas y el hogar",4291237,Work accidents,57555
+2021,"Services to businesses, people and households","Servicios para empresas, personas y el hogar",4291237,All work risks,78662
+2021,Construction,Industria de la construcción,1552713,Commuting accidents,4155
+2021,Construction,Industria de la construcción,1552713,Occupational diseases,661
+2021,Construction,Industria de la construcción,1552713,Work accidents,29714
+2021,Construction,Industria de la construcción,1552713,All work risks,34530
+2021,Transport and communications,Transportes y comunicaciones,1244856,Commuting accidents,6489
+2021,Transport and communications,Transportes y comunicaciones,1244856,Occupational diseases,726
+2021,Transport and communications,Transportes y comunicaciones,1244856,Work accidents,23451
+2021,Transport and communications,Transportes y comunicaciones,1244856,All work risks,30666
+2021,"Agriculture, livestock, forestry, fishing and hunting","Agricultura, ganadería, silvicultura, pesca y caza",738217,Commuting accidents,1814
+2021,"Agriculture, livestock, forestry, fishing and hunting","Agricultura, ganadería, silvicultura, pesca y caza",738217,Occupational diseases,453
+2021,"Agriculture, livestock, forestry, fishing and hunting","Agricultura, ganadería, silvicultura, pesca y caza",738217,Work accidents,9747
+2021,"Agriculture, livestock, forestry, fishing and hunting","Agricultura, ganadería, silvicultura, pesca y caza",738217,All work risks,12014
+2021,Mining and quarrying,Industrias extractivas,123877,Commuting accidents,328
+2021,Mining and quarrying,Industrias extractivas,123877,Occupational diseases,1969
+2021,Mining and quarrying,Industrias extractivas,123877,Work accidents,2120
+2021,Mining and quarrying,Industrias extractivas,123877,All work risks,4417
+2021,Electricity and water supply,Industria eléctrica y captación y suministro de agua potable,143252,Commuting accidents,342
+2021,Electricity and water supply,Industria eléctrica y captación y suministro de agua potable,143252,Occupational diseases,78
+2021,Electricity and water supply,Industria eléctrica y captación y suministro de agua potable,143252,Work accidents,1545
+2021,Electricity and water supply,Industria eléctrica y captación y suministro de agua potable,143252,All work risks,1965
+2022,National,Nacional,20717849,Commuting accidents,134365
+2022,National,Nacional,20717849,Occupational diseases,78647
+2022,National,Nacional,20717849,Work accidents,352461
+2022,National,Nacional,20717849,All work risks,565473
+2022,Manufacturing,Industrias de la transformación,5845458,Commuting accidents,50398
+2022,Manufacturing,Industrias de la transformación,5845458,Occupational diseases,6519
+2022,Manufacturing,Industrias de la transformación,5845458,Work accidents,95728
+2022,Manufacturing,Industrias de la transformación,5845458,All work risks,152645
+2022,Commerce,Comercio,4402335,Commuting accidents,29983
+2022,Commerce,Comercio,4402335,Occupational diseases,1695
+2022,Commerce,Comercio,4402335,Work accidents,88278
+2022,Commerce,Comercio,4402335,All work risks,119956
+2022,"Services to businesses, people and households","Servicios para empresas, personas y el hogar",4523624,Commuting accidents,25461
+2022,"Services to businesses, people and households","Servicios para empresas, personas y el hogar",4523624,Occupational diseases,1412
+2022,"Services to businesses, people and households","Servicios para empresas, personas y el hogar",4523624,Work accidents,70278
+2022,"Services to businesses, people and households","Servicios para empresas, personas y el hogar",4523624,All work risks,97151
+2022,Social and community services,Servicios sociales y comunales,1831328,Commuting accidents,11460
+2022,Social and community services,Servicios sociales y comunales,1831328,Occupational diseases,64612
+2022,Social and community services,Servicios sociales y comunales,1831328,Work accidents,20173
+2022,Social and community services,Servicios sociales y comunales,1831328,All work risks,96245
+2022,Construction,Industria de la construcción,1664226,Commuting accidents,5301
+2022,Construction,Industria de la construcción,1664226,Occupational diseases,734
+2022,Construction,Industria de la construcción,1664226,Work accidents,34787
+2022,Construction,Industria de la construcción,1664226,All work risks,40822
+2022,Transport and communications,Transportes y comunicaciones,1420578,Commuting accidents,8874
+2022,Transport and communications,Transportes y comunicaciones,1420578,Occupational diseases,1100
+2022,Transport and communications,Transportes y comunicaciones,1420578,Work accidents,28460
+2022,Transport and communications,Transportes y comunicaciones,1420578,All work risks,38434
+2022,"Agriculture, livestock, forestry, fishing and hunting","Agricultura, ganadería, silvicultura, pesca y caza",750189,Commuting accidents,1990
+2022,"Agriculture, livestock, forestry, fishing and hunting","Agricultura, ganadería, silvicultura, pesca y caza",750189,Occupational diseases,554
+2022,"Agriculture, livestock, forestry, fishing and hunting","Agricultura, ganadería, silvicultura, pesca y caza",750189,Work accidents,10708
+2022,"Agriculture, livestock, forestry, fishing and hunting","Agricultura, ganadería, silvicultura, pesca y caza",750189,All work risks,13252
+2022,Mining and quarrying,Industrias extractivas,130228,Commuting accidents,415
+2022,Mining and quarrying,Industrias extractivas,130228,Occupational diseases,1907
+2022,Mining and quarrying,Industrias extractivas,130228,Work accidents,2373
+2022,Mining and quarrying,Industrias extractivas,130228,All work risks,4695
+2022,Electricity and water supply,Industria eléctrica y captación y suministro de agua potable,149883,Commuting accidents,482
+2022,Electricity and water supply,Industria eléctrica y captación y suministro de agua potable,149883,Occupational diseases,110
+2022,Electricity and water supply,Industria eléctrica y captación y suministro de agua potable,149883,Work accidents,1661
+2022,Electricity and water supply,Industria eléctrica y captación y suministro de agua potable,149883,All work risks,2253
+2022,Not identified,No identificados,,Commuting accidents,1
+2022,Not identified,No identificados,,Occupational diseases,4
+2022,Not identified,No identificados,,Work accidents,15
+2022,Not identified,No identificados,,All work risks,20
+2023,National,Nacional,21467972,Commuting accidents,157472
+2023,National,Nacional,21467972,Occupational diseases,18489
+2023,National,Nacional,21467972,Work accidents,393805
+2023,National,Nacional,21467972,All work risks,569766
+2023,Manufacturing,Industrias de la transformación,5946578,Commuting accidents,57035
+2023,Manufacturing,Industrias de la transformación,5946578,Occupational diseases,7292
+2023,Manufacturing,Industrias de la transformación,5946578,Work accidents,103419
+2023,Manufacturing,Industrias de la transformación,5946578,All work risks,167746
+2023,Commerce,Comercio,4596039,Commuting accidents,35185
+2023,Commerce,Comercio,4596039,Occupational diseases,1857
+2023,Commerce,Comercio,4596039,Work accidents,97997
+2023,Commerce,Comercio,4596039,All work risks,135039
+2023,"Services to businesses, people and households","Servicios para empresas, personas y el hogar",4692929,Commuting accidents,31273
+2023,"Services to businesses, people and households","Servicios para empresas, personas y el hogar",4692929,Occupational diseases,1527
+2023,"Services to businesses, people and households","Servicios para empresas, personas y el hogar",4692929,Work accidents,79800
+2023,"Services to businesses, people and households","Servicios para empresas, personas y el hogar",4692929,All work risks,112600
+2023,Construction,Industria de la construcción,1808416,Commuting accidents,6315
+2023,Construction,Industria de la construcción,1808416,Occupational diseases,906
+2023,Construction,Industria de la construcción,1808416,Work accidents,41017
+2023,Construction,Industria de la construcción,1808416,All work risks,48238
+2023,Transport and communications,Transportes y comunicaciones,1516825,Commuting accidents,11087
+2023,Transport and communications,Transportes y comunicaciones,1516825,Occupational diseases,1134
+2023,Transport and communications,Transportes y comunicaciones,1516825,Work accidents,32334
+2023,Transport and communications,Transportes y comunicaciones,1516825,All work risks,44555
+2023,Social and community services,Servicios sociales y comunales,1883442,Commuting accidents,13178
+2023,Social and community services,Servicios sociales y comunales,1883442,Occupational diseases,3421
+2023,Social and community services,Servicios sociales y comunales,1883442,Work accidents,23491
+2023,Social and community services,Servicios sociales y comunales,1883442,All work risks,40090
+2023,"Agriculture, livestock, forestry, fishing and hunting","Agricultura, ganadería, silvicultura, pesca y caza",743745,Commuting accidents,2421
+2023,"Agriculture, livestock, forestry, fishing and hunting","Agricultura, ganadería, silvicultura, pesca y caza",743745,Occupational diseases,596
+2023,"Agriculture, livestock, forestry, fishing and hunting","Agricultura, ganadería, silvicultura, pesca y caza",743745,Work accidents,11422
+2023,"Agriculture, livestock, forestry, fishing and hunting","Agricultura, ganadería, silvicultura, pesca y caza",743745,All work risks,14439
+2023,Mining and quarrying,Industrias extractivas,126979,Commuting accidents,434
+2023,Mining and quarrying,Industrias extractivas,126979,Occupational diseases,1594
+2023,Mining and quarrying,Industrias extractivas,126979,Work accidents,2489
+2023,Mining and quarrying,Industrias extractivas,126979,All work risks,4517
+2023,Electricity and water supply,Industria eléctrica y captación y suministro de agua potable,153019,Commuting accidents,533
+2023,Electricity and water supply,Industria eléctrica y captación y suministro de agua potable,153019,Occupational diseases,145
+2023,Electricity and water supply,Industria eléctrica y captación y suministro de agua potable,153019,Work accidents,1805
+2023,Electricity and water supply,Industria eléctrica y captación y suministro de agua potable,153019,All work risks,2483
+2023,Not identified,No identificados,,Commuting accidents,11
+2023,Not identified,No identificados,,Occupational diseases,17
+2023,Not identified,No identificados,,Work accidents,31
+2023,Not identified,No identificados,,All work risks,59
+2024,National,Nacional,21905614,Commuting accidents,175357
+2024,National,Nacional,21905614,Occupational diseases,16880
+2024,National,Nacional,21905614,Work accidents,418514
+2024,National,Nacional,21905614,All work risks,610751
+2024,Manufacturing,Industrias de la transformación,6014093,Commuting accidents,62581
+2024,Manufacturing,Industrias de la transformación,6014093,Occupational diseases,8086
+2024,Manufacturing,Industrias de la transformación,6014093,Work accidents,106921
+2024,Manufacturing,Industrias de la transformación,6014093,All work risks,177588
+2024,Commerce,Comercio,4767605,Commuting accidents,39792
+2024,Commerce,Comercio,4767605,Occupational diseases,1912
+2024,Commerce,Comercio,4767605,Work accidents,105802
+2024,Commerce,Comercio,4767605,All work risks,147506
+2024,"Services to businesses, people and households","Servicios para empresas, personas y el hogar",4849379,Commuting accidents,35516
+2024,"Services to businesses, people and households","Servicios para empresas, personas y el hogar",4849379,Occupational diseases,1501
+2024,"Services to businesses, people and households","Servicios para empresas, personas y el hogar",4849379,Work accidents,85407
+2024,"Services to businesses, people and households","Servicios para empresas, personas y el hogar",4849379,All work risks,122424
+2024,Construction,Industria de la construcción,1713268,Commuting accidents,7024
+2024,Construction,Industria de la construcción,1713268,Occupational diseases,984
+2024,Construction,Industria de la construcción,1713268,Work accidents,43309
+2024,Construction,Industria de la construcción,1713268,All work risks,51317
+2024,Transport and communications,Transportes y comunicaciones,1590698,Commuting accidents,13058
+2024,Transport and communications,Transportes y comunicaciones,1590698,Occupational diseases,1089
+2024,Transport and communications,Transportes y comunicaciones,1590698,Work accidents,35058
+2024,Transport and communications,Transportes y comunicaciones,1590698,All work risks,49205
+2024,Social and community services,Servicios sociales y comunales,1948882,Commuting accidents,13975
+2024,Social and community services,Servicios sociales y comunales,1948882,Occupational diseases,1117
+2024,Social and community services,Servicios sociales y comunales,1948882,Work accidents,25460
+2024,Social and community services,Servicios sociales y comunales,1948882,All work risks,40552
+2024,"Agriculture, livestock, forestry, fishing and hunting","Agricultura, ganadería, silvicultura, pesca y caza",733803,Commuting accidents,2343
+2024,"Agriculture, livestock, forestry, fishing and hunting","Agricultura, ganadería, silvicultura, pesca y caza",733803,Occupational diseases,610
+2024,"Agriculture, livestock, forestry, fishing and hunting","Agricultura, ganadería, silvicultura, pesca y caza",733803,Work accidents,12053
+2024,"Agriculture, livestock, forestry, fishing and hunting","Agricultura, ganadería, silvicultura, pesca y caza",733803,All work risks,15006
+2024,Mining and quarrying,Industrias extractivas,129957,Commuting accidents,450
+2024,Mining and quarrying,Industrias extractivas,129957,Occupational diseases,1432
+2024,Mining and quarrying,Industrias extractivas,129957,Work accidents,2427
+2024,Mining and quarrying,Industrias extractivas,129957,All work risks,4309
+2024,Electricity and water supply,Industria eléctrica y captación y suministro de agua potable,157929,Commuting accidents,611
+2024,Electricity and water supply,Industria eléctrica y captación y suministro de agua potable,157929,Occupational diseases,139
+2024,Electricity and water supply,Industria eléctrica y captación y suministro de agua potable,157929,Work accidents,2029
+2024,Electricity and water supply,Industria eléctrica y captación y suministro de agua potable,157929,All work risks,2779
+2024,Not identified,No identificados,,Commuting accidents,7
+2024,Not identified,No identificados,,Occupational diseases,10
+2024,Not identified,No identificados,,Work accidents,48
+2024,Not identified,No identificados,,All work risks,65

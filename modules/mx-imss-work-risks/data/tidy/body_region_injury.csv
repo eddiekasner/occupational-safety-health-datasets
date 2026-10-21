@@ -1,0 +1,1187 @@
+year,body_region,body_region_es,injury,injury_es,sex,cases
+2016,Wrist and hand,Muñeca y mano,Superficial injuries,Traumatismos superficiales,Male,13987
+2016,Wrist and hand,Muñeca y mano,Superficial injuries,Traumatismos superficiales,Female,7611
+2016,Wrist and hand,Muñeca y mano,"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Male,6661
+2016,Wrist and hand,Muñeca y mano,"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Female,5845
+2016,Wrist and hand,Muñeca y mano,Wounds,Heridas,Male,38899
+2016,Wrist and hand,Muñeca y mano,Wounds,Heridas,Female,12551
+2016,Wrist and hand,Muñeca y mano,Fractures,Fracturas,Male,13122
+2016,Wrist and hand,Muñeca y mano,Fractures,Fracturas,Female,2163
+2016,Wrist and hand,Muñeca y mano,Other injuries (traumatismos),Traumatismos,Male,2230
+2016,Wrist and hand,Muñeca y mano,Other injuries (traumatismos),Traumatismos,Female,725
+2016,Wrist and hand,Muñeca y mano,Burns and corrosions,Quemaduras y corrosiones,Male,2023
+2016,Wrist and hand,Muñeca y mano,Burns and corrosions,Quemaduras y corrosiones,Female,1069
+2016,Wrist and hand,Muñeca y mano,Amputations,Amputaciones,Male,2797
+2016,Wrist and hand,Muñeca y mano,Amputations,Amputaciones,Female,444
+2016,Ankle and foot,Tobillo y pie,Superficial injuries,Traumatismos superficiales,Male,10107
+2016,Ankle and foot,Tobillo y pie,Superficial injuries,Traumatismos superficiales,Female,3941
+2016,Ankle and foot,Tobillo y pie,"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Male,16962
+2016,Ankle and foot,Tobillo y pie,"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Female,13634
+2016,Ankle and foot,Tobillo y pie,Wounds,Heridas,Male,3045
+2016,Ankle and foot,Tobillo y pie,Wounds,Heridas,Female,512
+2016,Ankle and foot,Tobillo y pie,Fractures,Fracturas,Male,5138
+2016,Ankle and foot,Tobillo y pie,Fractures,Fracturas,Female,1443
+2016,Ankle and foot,Tobillo y pie,Other injuries (traumatismos),Traumatismos,Male,837
+2016,Ankle and foot,Tobillo y pie,Other injuries (traumatismos),Traumatismos,Female,200
+2016,Ankle and foot,Tobillo y pie,Burns and corrosions,Quemaduras y corrosiones,Male,596
+2016,Ankle and foot,Tobillo y pie,Burns and corrosions,Quemaduras y corrosiones,Female,226
+2016,Ankle and foot,Tobillo y pie,Amputations,Amputaciones,Male,188
+2016,Ankle and foot,Tobillo y pie,Amputations,Amputaciones,Female,22
+2016,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Superficial injuries,Traumatismos superficiales,Male,6530
+2016,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Superficial injuries,Traumatismos superficiales,Female,3916
+2016,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Male,11303
+2016,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Female,9418
+2016,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Wounds,Heridas,Male,7542
+2016,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Wounds,Heridas,Female,1041
+2016,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Fractures,Fracturas,Male,1256
+2016,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Fractures,Fracturas,Female,243
+2016,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Other injuries (traumatismos),Traumatismos,Male,3471
+2016,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Other injuries (traumatismos),Traumatismos,Female,1009
+2016,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Burns and corrosions,Quemaduras y corrosiones,Male,1078
+2016,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Burns and corrosions,Quemaduras y corrosiones,Female,323
+2016,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Amputations,Amputaciones,Male,4
+2016,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Foreign body,Cuerpo extraño,Male,23
+2016,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Foreign body,Cuerpo extraño,Female,8
+2016,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),Superficial injuries,Traumatismos superficiales,Male,12718
+2016,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),Superficial injuries,Traumatismos superficiales,Female,8236
+2016,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Male,7002
+2016,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Female,3040
+2016,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),Wounds,Heridas,Male,4240
+2016,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),Wounds,Heridas,Female,868
+2016,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),Fractures,Fracturas,Male,5434
+2016,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),Fractures,Fracturas,Female,1316
+2016,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),Other injuries (traumatismos),Traumatismos,Male,834
+2016,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),Other injuries (traumatismos),Traumatismos,Female,358
+2016,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),Burns and corrosions,Quemaduras y corrosiones,Male,343
+2016,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),Burns and corrosions,Quemaduras y corrosiones,Female,141
+2016,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),Amputations,Amputaciones,Male,50
+2016,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),Amputations,Amputaciones,Female,1
+2016,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),"Other, less frequent",Varios de frecuencia menor,Male,265
+2016,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),"Other, less frequent",Varios de frecuencia menor,Female,90
+2016,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),Superficial injuries,Traumatismos superficiales,Male,8938
+2016,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),Superficial injuries,Traumatismos superficiales,Female,5100
+2016,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Male,7708
+2016,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Female,3031
+2016,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),Wounds,Heridas,Male,4144
+2016,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),Wounds,Heridas,Female,666
+2016,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),Fractures,Fracturas,Male,5958
+2016,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),Fractures,Fracturas,Female,1843
+2016,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),Other injuries (traumatismos),Traumatismos,Male,585
+2016,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),Other injuries (traumatismos),Traumatismos,Female,232
+2016,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),Burns and corrosions,Quemaduras y corrosiones,Male,1117
+2016,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),Burns and corrosions,Quemaduras y corrosiones,Female,595
+2016,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),Amputations,Amputaciones,Male,55
+2016,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),Amputations,Amputaciones,Female,10
+2016,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),"Other, less frequent",Varios de frecuencia menor,Male,188
+2016,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),"Other, less frequent",Varios de frecuencia menor,Female,164
+2016,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis",Superficial injuries,Traumatismos superficiales,Male,7442
+2016,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis",Superficial injuries,Traumatismos superficiales,Female,7462
+2016,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis","Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Male,9351
+2016,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis","Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Female,3197
+2016,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis",Wounds,Heridas,Male,415
+2016,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis",Wounds,Heridas,Female,65
+2016,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis",Fractures,Fracturas,Male,730
+2016,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis",Fractures,Fracturas,Female,183
+2016,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis",Other injuries (traumatismos),Traumatismos,Male,444
+2016,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis",Other injuries (traumatismos),Traumatismos,Female,207
+2016,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis",Amputations,Amputaciones,Male,7
+2016,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis",Amputations,Amputaciones,Female,1
+2016,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis",Foreign body,Cuerpo extraño,Male,5
+2016,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis",Foreign body,Cuerpo extraño,Female,2
+2016,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis","Other, less frequent",Varios de frecuencia menor,Male,33
+2016,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis","Other, less frequent",Varios de frecuencia menor,Female,10
+2016,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Superficial injuries,Traumatismos superficiales,Male,4961
+2016,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Superficial injuries,Traumatismos superficiales,Female,2255
+2016,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Male,35
+2016,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Female,20
+2016,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Wounds,Heridas,Male,62
+2016,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Wounds,Heridas,Female,4
+2016,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Fractures,Fracturas,Male,58
+2016,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Fractures,Fracturas,Female,2
+2016,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Other injuries (traumatismos),Traumatismos,Male,704
+2016,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Other injuries (traumatismos),Traumatismos,Female,200
+2016,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Burns and corrosions,Quemaduras y corrosiones,Male,954
+2016,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Burns and corrosions,Quemaduras y corrosiones,Female,287
+2016,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Amputations,Amputaciones,Male,10
+2016,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Poisoning,Intoxicaciones,Male,242
+2016,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Poisoning,Intoxicaciones,Female,102
+2016,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),"Other, less frequent",Varios de frecuencia menor,Male,245
+2016,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),"Other, less frequent",Varios de frecuencia menor,Female,52
+2016,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),Superficial injuries,Traumatismos superficiales,Male,4774
+2016,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),Superficial injuries,Traumatismos superficiales,Female,1173
+2016,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Male,315
+2016,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Female,101
+2016,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),Wounds,Heridas,Male,266
+2016,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),Wounds,Heridas,Female,35
+2016,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),Fractures,Fracturas,Male,1154
+2016,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),Fractures,Fracturas,Female,111
+2016,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),Other injuries (traumatismos),Traumatismos,Male,276
+2016,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),Other injuries (traumatismos),Traumatismos,Female,37
+2016,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),Burns and corrosions,Quemaduras y corrosiones,Male,34
+2016,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),Burns and corrosions,Quemaduras y corrosiones,Female,14
+2016,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),Amputations,Amputaciones,Male,15
+2016,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),Amputations,Amputaciones,Female,1
+2016,Eye and adnexa,Ojo (incluye lesiones en ojo y sus anexos),Other injuries (traumatismos),Traumatismos,Male,3070
+2016,Eye and adnexa,Ojo (incluye lesiones en ojo y sus anexos),Other injuries (traumatismos),Traumatismos,Female,583
+2016,Eye and adnexa,Ojo (incluye lesiones en ojo y sus anexos),Burns and corrosions,Quemaduras y corrosiones,Male,379
+2016,Eye and adnexa,Ojo (incluye lesiones en ojo y sus anexos),Burns and corrosions,Quemaduras y corrosiones,Female,133
+2016,Eye and adnexa,Ojo (incluye lesiones en ojo y sus anexos),Foreign body,Cuerpo extraño,Male,2944
+2016,Eye and adnexa,Ojo (incluye lesiones en ojo y sus anexos),Foreign body,Cuerpo extraño,Female,388
+2016,"Other, less frequent",Varios de frecuencia menor,"Other, less frequent",Varios de frecuencia menor,Male,27163
+2016,"Other, less frequent",Varios de frecuencia menor,"Other, less frequent",Varios de frecuencia menor,Female,12076
+2017,Wrist and hand,Muñeca y mano,Superficial injuries,Traumatismos superficiales,Male,14261
+2017,Wrist and hand,Muñeca y mano,Superficial injuries,Traumatismos superficiales,Female,8078
+2017,Wrist and hand,Muñeca y mano,"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Male,7094
+2017,Wrist and hand,Muñeca y mano,"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Female,6603
+2017,Wrist and hand,Muñeca y mano,Wounds,Heridas,Male,39901
+2017,Wrist and hand,Muñeca y mano,Wounds,Heridas,Female,13261
+2017,Wrist and hand,Muñeca y mano,Fractures,Fracturas,Male,13936
+2017,Wrist and hand,Muñeca y mano,Fractures,Fracturas,Female,2347
+2017,Wrist and hand,Muñeca y mano,Other injuries (traumatismos),Traumatismos,Male,2325
+2017,Wrist and hand,Muñeca y mano,Other injuries (traumatismos),Traumatismos,Female,840
+2017,Wrist and hand,Muñeca y mano,Burns and corrosions,Quemaduras y corrosiones,Male,2049
+2017,Wrist and hand,Muñeca y mano,Burns and corrosions,Quemaduras y corrosiones,Female,1285
+2017,Wrist and hand,Muñeca y mano,Amputations,Amputaciones,Male,2845
+2017,Wrist and hand,Muñeca y mano,Amputations,Amputaciones,Female,475
+2017,Ankle and foot,Tobillo y pie,Superficial injuries,Traumatismos superficiales,Male,10214
+2017,Ankle and foot,Tobillo y pie,Superficial injuries,Traumatismos superficiales,Female,4041
+2017,Ankle and foot,Tobillo y pie,"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Male,17548
+2017,Ankle and foot,Tobillo y pie,"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Female,14753
+2017,Ankle and foot,Tobillo y pie,Wounds,Heridas,Male,3133
+2017,Ankle and foot,Tobillo y pie,Wounds,Heridas,Female,546
+2017,Ankle and foot,Tobillo y pie,Fractures,Fracturas,Male,5118
+2017,Ankle and foot,Tobillo y pie,Fractures,Fracturas,Female,1441
+2017,Ankle and foot,Tobillo y pie,Other injuries (traumatismos),Traumatismos,Male,801
+2017,Ankle and foot,Tobillo y pie,Other injuries (traumatismos),Traumatismos,Female,246
+2017,Ankle and foot,Tobillo y pie,Burns and corrosions,Quemaduras y corrosiones,Male,605
+2017,Ankle and foot,Tobillo y pie,Burns and corrosions,Quemaduras y corrosiones,Female,237
+2017,Ankle and foot,Tobillo y pie,Amputations,Amputaciones,Male,203
+2017,Ankle and foot,Tobillo y pie,Amputations,Amputaciones,Female,25
+2017,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Superficial injuries,Traumatismos superficiales,Male,6650
+2017,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Superficial injuries,Traumatismos superficiales,Female,4105
+2017,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Male,10997
+2017,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Female,9285
+2017,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Wounds,Heridas,Male,7891
+2017,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Wounds,Heridas,Female,1149
+2017,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Fractures,Fracturas,Male,1218
+2017,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Fractures,Fracturas,Female,222
+2017,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Other injuries (traumatismos),Traumatismos,Male,3552
+2017,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Other injuries (traumatismos),Traumatismos,Female,1157
+2017,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Burns and corrosions,Quemaduras y corrosiones,Male,1136
+2017,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Burns and corrosions,Quemaduras y corrosiones,Female,377
+2017,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Amputations,Amputaciones,Male,5
+2017,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Amputations,Amputaciones,Female,1
+2017,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Foreign body,Cuerpo extraño,Male,24
+2017,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Foreign body,Cuerpo extraño,Female,8
+2017,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),Superficial injuries,Traumatismos superficiales,Male,12728
+2017,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),Superficial injuries,Traumatismos superficiales,Female,8820
+2017,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Male,7363
+2017,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Female,3445
+2017,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),Wounds,Heridas,Male,4519
+2017,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),Wounds,Heridas,Female,1021
+2017,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),Fractures,Fracturas,Male,5617
+2017,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),Fractures,Fracturas,Female,1425
+2017,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),Other injuries (traumatismos),Traumatismos,Male,829
+2017,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),Other injuries (traumatismos),Traumatismos,Female,342
+2017,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),Burns and corrosions,Quemaduras y corrosiones,Male,377
+2017,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),Burns and corrosions,Quemaduras y corrosiones,Female,173
+2017,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),Amputations,Amputaciones,Male,47
+2017,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),Amputations,Amputaciones,Female,6
+2017,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),"Other, less frequent",Varios de frecuencia menor,Male,255
+2017,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),"Other, less frequent",Varios de frecuencia menor,Female,81
+2017,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),Superficial injuries,Traumatismos superficiales,Male,9352
+2017,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),Superficial injuries,Traumatismos superficiales,Female,5545
+2017,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Male,8139
+2017,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Female,3476
+2017,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),Wounds,Heridas,Male,4237
+2017,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),Wounds,Heridas,Female,680
+2017,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),Fractures,Fracturas,Male,6092
+2017,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),Fractures,Fracturas,Female,1907
+2017,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),Other injuries (traumatismos),Traumatismos,Male,665
+2017,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),Other injuries (traumatismos),Traumatismos,Female,226
+2017,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),Burns and corrosions,Quemaduras y corrosiones,Male,1088
+2017,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),Burns and corrosions,Quemaduras y corrosiones,Female,576
+2017,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),Amputations,Amputaciones,Male,53
+2017,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),Amputations,Amputaciones,Female,7
+2017,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),"Other, less frequent",Varios de frecuencia menor,Male,193
+2017,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),"Other, less frequent",Varios de frecuencia menor,Female,131
+2017,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis",Superficial injuries,Traumatismos superficiales,Male,7470
+2017,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis",Superficial injuries,Traumatismos superficiales,Female,7519
+2017,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis","Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Male,9405
+2017,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis","Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Female,3535
+2017,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis",Wounds,Heridas,Male,462
+2017,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis",Wounds,Heridas,Female,71
+2017,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis",Fractures,Fracturas,Male,744
+2017,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis",Fractures,Fracturas,Female,222
+2017,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis",Other injuries (traumatismos),Traumatismos,Male,398
+2017,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis",Other injuries (traumatismos),Traumatismos,Female,215
+2017,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis",Amputations,Amputaciones,Male,11
+2017,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis",Foreign body,Cuerpo extraño,Male,8
+2017,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis",Foreign body,Cuerpo extraño,Female,7
+2017,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis","Other, less frequent",Varios de frecuencia menor,Male,25
+2017,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis","Other, less frequent",Varios de frecuencia menor,Female,13
+2017,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Superficial injuries,Traumatismos superficiales,Male,4749
+2017,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Superficial injuries,Traumatismos superficiales,Female,2203
+2017,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Male,42
+2017,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Female,33
+2017,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Wounds,Heridas,Male,63
+2017,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Wounds,Heridas,Female,10
+2017,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Fractures,Fracturas,Male,67
+2017,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Fractures,Fracturas,Female,9
+2017,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Other injuries (traumatismos),Traumatismos,Male,823
+2017,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Other injuries (traumatismos),Traumatismos,Female,273
+2017,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Burns and corrosions,Quemaduras y corrosiones,Male,841
+2017,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Burns and corrosions,Quemaduras y corrosiones,Female,305
+2017,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Amputations,Amputaciones,Male,20
+2017,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Amputations,Amputaciones,Female,1
+2017,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Poisoning,Intoxicaciones,Male,225
+2017,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Poisoning,Intoxicaciones,Female,106
+2017,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),"Other, less frequent",Varios de frecuencia menor,Male,224
+2017,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),"Other, less frequent",Varios de frecuencia menor,Female,51
+2017,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),Superficial injuries,Traumatismos superficiales,Male,5033
+2017,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),Superficial injuries,Traumatismos superficiales,Female,1281
+2017,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Male,329
+2017,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Female,95
+2017,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),Wounds,Heridas,Male,316
+2017,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),Wounds,Heridas,Female,33
+2017,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),Fractures,Fracturas,Male,1184
+2017,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),Fractures,Fracturas,Female,120
+2017,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),Other injuries (traumatismos),Traumatismos,Male,352
+2017,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),Other injuries (traumatismos),Traumatismos,Female,48
+2017,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),Burns and corrosions,Quemaduras y corrosiones,Male,23
+2017,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),Burns and corrosions,Quemaduras y corrosiones,Female,22
+2017,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),Amputations,Amputaciones,Male,17
+2017,Eye and adnexa,Ojo (incluye lesiones en ojo y sus anexos),Other injuries (traumatismos),Traumatismos,Male,3200
+2017,Eye and adnexa,Ojo (incluye lesiones en ojo y sus anexos),Other injuries (traumatismos),Traumatismos,Female,622
+2017,Eye and adnexa,Ojo (incluye lesiones en ojo y sus anexos),Burns and corrosions,Quemaduras y corrosiones,Male,415
+2017,Eye and adnexa,Ojo (incluye lesiones en ojo y sus anexos),Burns and corrosions,Quemaduras y corrosiones,Female,144
+2017,Eye and adnexa,Ojo (incluye lesiones en ojo y sus anexos),Foreign body,Cuerpo extraño,Male,3159
+2017,Eye and adnexa,Ojo (incluye lesiones en ojo y sus anexos),Foreign body,Cuerpo extraño,Female,358
+2017,"Other, less frequent",Varios de frecuencia menor,"Other, less frequent",Varios de frecuencia menor,Male,28788
+2017,"Other, less frequent",Varios de frecuencia menor,"Other, less frequent",Varios de frecuencia menor,Female,13174
+2018,Wrist and hand,Muñeca y mano,Superficial injuries,Traumatismos superficiales,Male,13795
+2018,Wrist and hand,Muñeca y mano,Superficial injuries,Traumatismos superficiales,Female,8252
+2018,Wrist and hand,Muñeca y mano,"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Male,6804
+2018,Wrist and hand,Muñeca y mano,"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Female,6798
+2018,Wrist and hand,Muñeca y mano,Wounds,Heridas,Male,37500
+2018,Wrist and hand,Muñeca y mano,Wounds,Heridas,Female,12972
+2018,Wrist and hand,Muñeca y mano,Fractures,Fracturas,Male,13021
+2018,Wrist and hand,Muñeca y mano,Fractures,Fracturas,Female,2279
+2018,Wrist and hand,Muñeca y mano,Other injuries (traumatismos),Traumatismos,Male,2474
+2018,Wrist and hand,Muñeca y mano,Other injuries (traumatismos),Traumatismos,Female,920
+2018,Wrist and hand,Muñeca y mano,Burns and corrosions,Quemaduras y corrosiones,Male,1987
+2018,Wrist and hand,Muñeca y mano,Burns and corrosions,Quemaduras y corrosiones,Female,1187
+2018,Wrist and hand,Muñeca y mano,Amputations,Amputaciones,Male,2819
+2018,Wrist and hand,Muñeca y mano,Amputations,Amputaciones,Female,471
+2018,Ankle and foot,Tobillo y pie,Superficial injuries,Traumatismos superficiales,Male,9594
+2018,Ankle and foot,Tobillo y pie,Superficial injuries,Traumatismos superficiales,Female,3955
+2018,Ankle and foot,Tobillo y pie,"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Male,17278
+2018,Ankle and foot,Tobillo y pie,"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Female,15137
+2018,Ankle and foot,Tobillo y pie,Wounds,Heridas,Male,3050
+2018,Ankle and foot,Tobillo y pie,Wounds,Heridas,Female,587
+2018,Ankle and foot,Tobillo y pie,Fractures,Fracturas,Male,4924
+2018,Ankle and foot,Tobillo y pie,Fractures,Fracturas,Female,1475
+2018,Ankle and foot,Tobillo y pie,Other injuries (traumatismos),Traumatismos,Male,875
+2018,Ankle and foot,Tobillo y pie,Other injuries (traumatismos),Traumatismos,Female,234
+2018,Ankle and foot,Tobillo y pie,Burns and corrosions,Quemaduras y corrosiones,Male,632
+2018,Ankle and foot,Tobillo y pie,Burns and corrosions,Quemaduras y corrosiones,Female,246
+2018,Ankle and foot,Tobillo y pie,Amputations,Amputaciones,Male,221
+2018,Ankle and foot,Tobillo y pie,Amputations,Amputaciones,Female,22
+2018,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),Superficial injuries,Traumatismos superficiales,Male,12410
+2018,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),Superficial injuries,Traumatismos superficiales,Female,9285
+2018,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Male,7424
+2018,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Female,3628
+2018,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),Wounds,Heridas,Male,4196
+2018,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),Wounds,Heridas,Female,996
+2018,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),Fractures,Fracturas,Male,5508
+2018,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),Fractures,Fracturas,Female,1463
+2018,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),Other injuries (traumatismos),Traumatismos,Male,854
+2018,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),Other injuries (traumatismos),Traumatismos,Female,349
+2018,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),Burns and corrosions,Quemaduras y corrosiones,Male,364
+2018,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),Burns and corrosions,Quemaduras y corrosiones,Female,168
+2018,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),Amputations,Amputaciones,Male,55
+2018,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),Amputations,Amputaciones,Female,2
+2018,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),"Other, less frequent",Varios de frecuencia menor,Male,301
+2018,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),"Other, less frequent",Varios de frecuencia menor,Female,116
+2018,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Superficial injuries,Traumatismos superficiales,Male,6737
+2018,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Superficial injuries,Traumatismos superficiales,Female,4162
+2018,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Male,10521
+2018,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Female,9080
+2018,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Wounds,Heridas,Male,7355
+2018,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Wounds,Heridas,Female,1144
+2018,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Fractures,Fracturas,Male,1077
+2018,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Fractures,Fracturas,Female,227
+2018,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Other injuries (traumatismos),Traumatismos,Male,3559
+2018,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Other injuries (traumatismos),Traumatismos,Female,1149
+2018,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Burns and corrosions,Quemaduras y corrosiones,Male,1032
+2018,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Burns and corrosions,Quemaduras y corrosiones,Female,373
+2018,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Amputations,Amputaciones,Male,3
+2018,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Amputations,Amputaciones,Female,1
+2018,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Foreign body,Cuerpo extraño,Male,41
+2018,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Foreign body,Cuerpo extraño,Female,7
+2018,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),"Other, less frequent",Varios de frecuencia menor,Male,0
+2018,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),"Other, less frequent",Varios de frecuencia menor,Female,0
+2018,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),Superficial injuries,Traumatismos superficiales,Male,8985
+2018,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),Superficial injuries,Traumatismos superficiales,Female,5659
+2018,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Male,7954
+2018,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Female,3562
+2018,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),Wounds,Heridas,Male,3866
+2018,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),Wounds,Heridas,Female,681
+2018,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),Fractures,Fracturas,Male,5961
+2018,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),Fractures,Fracturas,Female,2043
+2018,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),Other injuries (traumatismos),Traumatismos,Male,687
+2018,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),Other injuries (traumatismos),Traumatismos,Female,241
+2018,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),Burns and corrosions,Quemaduras y corrosiones,Male,1047
+2018,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),Burns and corrosions,Quemaduras y corrosiones,Female,593
+2018,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),Amputations,Amputaciones,Male,51
+2018,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),Amputations,Amputaciones,Female,5
+2018,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),"Other, less frequent",Varios de frecuencia menor,Male,204
+2018,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),"Other, less frequent",Varios de frecuencia menor,Female,152
+2018,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis",Superficial injuries,Traumatismos superficiales,Male,7228
+2018,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis",Superficial injuries,Traumatismos superficiales,Female,7498
+2018,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis","Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Male,8812
+2018,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis","Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Female,3409
+2018,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis",Wounds,Heridas,Male,423
+2018,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis",Wounds,Heridas,Female,65
+2018,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis",Fractures,Fracturas,Male,748
+2018,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis",Fractures,Fracturas,Female,186
+2018,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis",Other injuries (traumatismos),Traumatismos,Male,399
+2018,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis",Other injuries (traumatismos),Traumatismos,Female,230
+2018,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis",Amputations,Amputaciones,Male,21
+2018,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis",Amputations,Amputaciones,Female,2
+2018,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis",Foreign body,Cuerpo extraño,Male,7
+2018,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis",Foreign body,Cuerpo extraño,Female,8
+2018,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis","Other, less frequent",Varios de frecuencia menor,Male,32
+2018,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis","Other, less frequent",Varios de frecuencia menor,Female,12
+2018,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Superficial injuries,Traumatismos superficiales,Male,4651
+2018,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Superficial injuries,Traumatismos superficiales,Female,2391
+2018,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Male,102
+2018,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Female,102
+2018,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Wounds,Heridas,Male,67
+2018,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Wounds,Heridas,Female,15
+2018,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Fractures,Fracturas,Male,48
+2018,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Fractures,Fracturas,Female,8
+2018,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Other injuries (traumatismos),Traumatismos,Male,447
+2018,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Other injuries (traumatismos),Traumatismos,Female,136
+2018,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Burns and corrosions,Quemaduras y corrosiones,Male,847
+2018,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Burns and corrosions,Quemaduras y corrosiones,Female,276
+2018,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Amputations,Amputaciones,Male,8
+2018,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Amputations,Amputaciones,Female,2
+2018,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Poisoning,Intoxicaciones,Male,267
+2018,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Poisoning,Intoxicaciones,Female,123
+2018,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),"Other, less frequent",Varios de frecuencia menor,Male,219
+2018,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),"Other, less frequent",Varios de frecuencia menor,Female,56
+2018,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),Superficial injuries,Traumatismos superficiales,Male,4917
+2018,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),Superficial injuries,Traumatismos superficiales,Female,1278
+2018,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Male,357
+2018,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Female,89
+2018,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),Wounds,Heridas,Male,313
+2018,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),Wounds,Heridas,Female,34
+2018,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),Fractures,Fracturas,Male,1226
+2018,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),Fractures,Fracturas,Female,134
+2018,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),Other injuries (traumatismos),Traumatismos,Male,317
+2018,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),Other injuries (traumatismos),Traumatismos,Female,47
+2018,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),Burns and corrosions,Quemaduras y corrosiones,Male,40
+2018,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),Burns and corrosions,Quemaduras y corrosiones,Female,14
+2018,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),Amputations,Amputaciones,Male,18
+2018,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),"Other, less frequent",Varios de frecuencia menor,Male,0
+2018,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),"Other, less frequent",Varios de frecuencia menor,Female,0
+2018,Eye and adnexa,Ojo (incluye lesiones en ojo y sus anexos),Other injuries (traumatismos),Traumatismos,Male,2927
+2018,Eye and adnexa,Ojo (incluye lesiones en ojo y sus anexos),Other injuries (traumatismos),Traumatismos,Female,632
+2018,Eye and adnexa,Ojo (incluye lesiones en ojo y sus anexos),Burns and corrosions,Quemaduras y corrosiones,Male,430
+2018,Eye and adnexa,Ojo (incluye lesiones en ojo y sus anexos),Burns and corrosions,Quemaduras y corrosiones,Female,163
+2018,Eye and adnexa,Ojo (incluye lesiones en ojo y sus anexos),Foreign body,Cuerpo extraño,Male,3012
+2018,Eye and adnexa,Ojo (incluye lesiones en ojo y sus anexos),Foreign body,Cuerpo extraño,Female,420
+2018,Eye and adnexa,Ojo (incluye lesiones en ojo y sus anexos),"Other, less frequent",Varios de frecuencia menor,Male,0
+2018,Eye and adnexa,Ojo (incluye lesiones en ojo y sus anexos),"Other, less frequent",Varios de frecuencia menor,Female,0
+2018,"Other, less frequent",Varios de frecuencia menor,"Other, less frequent",Varios de frecuencia menor,Male,26001
+2018,"Other, less frequent",Varios de frecuencia menor,"Other, less frequent",Varios de frecuencia menor,Female,12739
+2019,Wrist and hand,Muñeca y mano,Superficial injuries,Traumatismos superficiales,Male,13412
+2019,Wrist and hand,Muñeca y mano,Superficial injuries,Traumatismos superficiales,Female,8318
+2019,Wrist and hand,Muñeca y mano,"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Male,6935
+2019,Wrist and hand,Muñeca y mano,"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Female,7280
+2019,Wrist and hand,Muñeca y mano,Wounds,Heridas,Male,36088
+2019,Wrist and hand,Muñeca y mano,Wounds,Heridas,Female,13034
+2019,Wrist and hand,Muñeca y mano,Fractures,Fracturas,Male,12411
+2019,Wrist and hand,Muñeca y mano,Fractures,Fracturas,Female,2269
+2019,Wrist and hand,Muñeca y mano,Other injuries (traumatismos),Traumatismos,Male,2702
+2019,Wrist and hand,Muñeca y mano,Other injuries (traumatismos),Traumatismos,Female,1001
+2019,Wrist and hand,Muñeca y mano,Burns and corrosions,Quemaduras y corrosiones,Male,2044
+2019,Wrist and hand,Muñeca y mano,Burns and corrosions,Quemaduras y corrosiones,Female,1249
+2019,Wrist and hand,Muñeca y mano,Amputations,Amputaciones,Male,2646
+2019,Wrist and hand,Muñeca y mano,Amputations,Amputaciones,Female,447
+2019,Ankle and foot,Tobillo y pie,Superficial injuries,Traumatismos superficiales,Male,9330
+2019,Ankle and foot,Tobillo y pie,Superficial injuries,Traumatismos superficiales,Female,3939
+2019,Ankle and foot,Tobillo y pie,"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Male,17422
+2019,Ankle and foot,Tobillo y pie,"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Female,16000
+2019,Ankle and foot,Tobillo y pie,Wounds,Heridas,Male,3091
+2019,Ankle and foot,Tobillo y pie,Wounds,Heridas,Female,568
+2019,Ankle and foot,Tobillo y pie,Fractures,Fracturas,Male,4618
+2019,Ankle and foot,Tobillo y pie,Fractures,Fracturas,Female,1445
+2019,Ankle and foot,Tobillo y pie,Other injuries (traumatismos),Traumatismos,Male,926
+2019,Ankle and foot,Tobillo y pie,Other injuries (traumatismos),Traumatismos,Female,251
+2019,Ankle and foot,Tobillo y pie,Burns and corrosions,Quemaduras y corrosiones,Male,658
+2019,Ankle and foot,Tobillo y pie,Burns and corrosions,Quemaduras y corrosiones,Female,284
+2019,Ankle and foot,Tobillo y pie,Amputations,Amputaciones,Male,190
+2019,Ankle and foot,Tobillo y pie,Amputations,Amputaciones,Female,16
+2019,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),Superficial injuries,Traumatismos superficiales,Male,12225
+2019,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),Superficial injuries,Traumatismos superficiales,Female,9634
+2019,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Male,7524
+2019,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Female,4064
+2019,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),Wounds,Heridas,Male,4301
+2019,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),Wounds,Heridas,Female,1081
+2019,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),Fractures,Fracturas,Male,5254
+2019,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),Fractures,Fracturas,Female,1565
+2019,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),Other injuries (traumatismos),Traumatismos,Male,886
+2019,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),Other injuries (traumatismos),Traumatismos,Female,408
+2019,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),Burns and corrosions,Quemaduras y corrosiones,Male,348
+2019,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),Burns and corrosions,Quemaduras y corrosiones,Female,169
+2019,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),Amputations,Amputaciones,Male,37
+2019,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),Amputations,Amputaciones,Female,2
+2019,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),"Other, less frequent",Varios de frecuencia menor,Male,294
+2019,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),"Other, less frequent",Varios de frecuencia menor,Female,133
+2019,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Superficial injuries,Traumatismos superficiales,Male,6711
+2019,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Superficial injuries,Traumatismos superficiales,Female,4587
+2019,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Male,10005
+2019,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Female,8716
+2019,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Wounds,Heridas,Male,7450
+2019,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Wounds,Heridas,Female,1249
+2019,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Fractures,Fracturas,Male,1073
+2019,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Fractures,Fracturas,Female,199
+2019,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Other injuries (traumatismos),Traumatismos,Male,3387
+2019,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Other injuries (traumatismos),Traumatismos,Female,1104
+2019,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Burns and corrosions,Quemaduras y corrosiones,Male,1065
+2019,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Burns and corrosions,Quemaduras y corrosiones,Female,429
+2019,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Foreign body,Cuerpo extraño,Male,30
+2019,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Foreign body,Cuerpo extraño,Female,9
+2019,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Amputations,Amputaciones,Male,1
+2019,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Amputations,Amputaciones,Female,1
+2019,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),Superficial injuries,Traumatismos superficiales,Male,9261
+2019,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),Superficial injuries,Traumatismos superficiales,Female,5925
+2019,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Male,8240
+2019,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Female,3922
+2019,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),Wounds,Heridas,Male,3850
+2019,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),Wounds,Heridas,Female,680
+2019,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),Fractures,Fracturas,Male,5872
+2019,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),Fractures,Fracturas,Female,2154
+2019,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),Other injuries (traumatismos),Traumatismos,Male,745
+2019,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),Other injuries (traumatismos),Traumatismos,Female,295
+2019,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),Burns and corrosions,Quemaduras y corrosiones,Male,1054
+2019,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),Burns and corrosions,Quemaduras y corrosiones,Female,663
+2019,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),Amputations,Amputaciones,Male,57
+2019,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),Amputations,Amputaciones,Female,9
+2019,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),"Other, less frequent",Varios de frecuencia menor,Male,214
+2019,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),"Other, less frequent",Varios de frecuencia menor,Female,160
+2019,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis",Superficial injuries,Traumatismos superficiales,Male,7417
+2019,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis",Superficial injuries,Traumatismos superficiales,Female,7800
+2019,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis","Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Male,8940
+2019,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis","Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Female,3566
+2019,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis",Wounds,Heridas,Male,421
+2019,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis",Wounds,Heridas,Female,48
+2019,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis",Fractures,Fracturas,Male,715
+2019,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis",Fractures,Fracturas,Female,187
+2019,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis",Other injuries (traumatismos),Traumatismos,Male,368
+2019,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis",Other injuries (traumatismos),Traumatismos,Female,216
+2019,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis",Foreign body,Cuerpo extraño,Male,12
+2019,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis",Foreign body,Cuerpo extraño,Female,5
+2019,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis",Amputations,Amputaciones,Male,12
+2019,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis",Amputations,Amputaciones,Female,2
+2019,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis","Other, less frequent",Varios de frecuencia menor,Male,39
+2019,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis","Other, less frequent",Varios de frecuencia menor,Female,14
+2019,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),Superficial injuries,Traumatismos superficiales,Male,4958
+2019,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),Superficial injuries,Traumatismos superficiales,Female,1315
+2019,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Male,353
+2019,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Female,115
+2019,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),Wounds,Heridas,Male,289
+2019,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),Wounds,Heridas,Female,34
+2019,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),Fractures,Fracturas,Male,1236
+2019,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),Fractures,Fracturas,Female,144
+2019,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),Other injuries (traumatismos),Traumatismos,Male,322
+2019,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),Other injuries (traumatismos),Traumatismos,Female,39
+2019,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),Burns and corrosions,Quemaduras y corrosiones,Male,46
+2019,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),Burns and corrosions,Quemaduras y corrosiones,Female,25
+2019,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),Amputations,Amputaciones,Male,10
+2019,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),Amputations,Amputaciones,Female,2
+2019,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Superficial injuries,Traumatismos superficiales,Male,3853
+2019,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Superficial injuries,Traumatismos superficiales,Female,1983
+2019,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Male,144
+2019,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Female,141
+2019,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Wounds,Heridas,Male,82
+2019,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Wounds,Heridas,Female,13
+2019,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Fractures,Fracturas,Male,59
+2019,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Fractures,Fracturas,Female,7
+2019,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Other injuries (traumatismos),Traumatismos,Male,521
+2019,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Other injuries (traumatismos),Traumatismos,Female,195
+2019,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Burns and corrosions,Quemaduras y corrosiones,Male,813
+2019,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Burns and corrosions,Quemaduras y corrosiones,Female,298
+2019,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Amputations,Amputaciones,Male,14
+2019,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Poisoning,Intoxicaciones,Male,262
+2019,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Poisoning,Intoxicaciones,Female,107
+2019,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),"Other, less frequent",Varios de frecuencia menor,Male,217
+2019,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),"Other, less frequent",Varios de frecuencia menor,Female,68
+2019,Eye and adnexa,Ojo (incluye lesiones en ojo y sus anexos),Other injuries (traumatismos),Traumatismos,Male,3251
+2019,Eye and adnexa,Ojo (incluye lesiones en ojo y sus anexos),Other injuries (traumatismos),Traumatismos,Female,741
+2019,Eye and adnexa,Ojo (incluye lesiones en ojo y sus anexos),Burns and corrosions,Quemaduras y corrosiones,Male,460
+2019,Eye and adnexa,Ojo (incluye lesiones en ojo y sus anexos),Burns and corrosions,Quemaduras y corrosiones,Female,182
+2019,Eye and adnexa,Ojo (incluye lesiones en ojo y sus anexos),Foreign body,Cuerpo extraño,Male,3046
+2019,Eye and adnexa,Ojo (incluye lesiones en ojo y sus anexos),Foreign body,Cuerpo extraño,Female,423
+2019,"Other, less frequent",Varios de frecuencia menor,"Other, less frequent",Varios de frecuencia menor,Male,25581
+2019,"Other, less frequent",Varios de frecuencia menor,"Other, less frequent",Varios de frecuencia menor,Female,13082
+2020,Wrist and hand,Muñeca y mano,Superficial injuries,Traumatismos superficiales,Male,9155
+2020,Wrist and hand,Muñeca y mano,Superficial injuries,Traumatismos superficiales,Female,5488
+2020,Wrist and hand,Muñeca y mano,"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Male,4952
+2020,Wrist and hand,Muñeca y mano,"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Female,4785
+2020,Wrist and hand,Muñeca y mano,Wounds,Heridas,Male,25098
+2020,Wrist and hand,Muñeca y mano,Wounds,Heridas,Female,8558
+2020,Wrist and hand,Muñeca y mano,Fractures,Fracturas,Male,9442
+2020,Wrist and hand,Muñeca y mano,Fractures,Fracturas,Female,1821
+2020,Wrist and hand,Muñeca y mano,Other injuries (traumatismos),Traumatismos,Male,2118
+2020,Wrist and hand,Muñeca y mano,Other injuries (traumatismos),Traumatismos,Female,795
+2020,Wrist and hand,Muñeca y mano,Burns and corrosions,Quemaduras y corrosiones,Male,1299
+2020,Wrist and hand,Muñeca y mano,Burns and corrosions,Quemaduras y corrosiones,Female,751
+2020,Wrist and hand,Muñeca y mano,Amputations,Amputaciones,Male,2154
+2020,Wrist and hand,Muñeca y mano,Amputations,Amputaciones,Female,386
+2020,Ankle and foot,Tobillo y pie,Superficial injuries,Traumatismos superficiales,Male,6493
+2020,Ankle and foot,Tobillo y pie,Superficial injuries,Traumatismos superficiales,Female,2525
+2020,Ankle and foot,Tobillo y pie,"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Male,12668
+2020,Ankle and foot,Tobillo y pie,"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Female,10802
+2020,Ankle and foot,Tobillo y pie,Wounds,Heridas,Male,2275
+2020,Ankle and foot,Tobillo y pie,Wounds,Heridas,Female,329
+2020,Ankle and foot,Tobillo y pie,Fractures,Fracturas,Male,3453
+2020,Ankle and foot,Tobillo y pie,Fractures,Fracturas,Female,1023
+2020,Ankle and foot,Tobillo y pie,Other injuries (traumatismos),Traumatismos,Male,758
+2020,Ankle and foot,Tobillo y pie,Other injuries (traumatismos),Traumatismos,Female,196
+2020,Ankle and foot,Tobillo y pie,Burns and corrosions,Quemaduras y corrosiones,Male,391
+2020,Ankle and foot,Tobillo y pie,Burns and corrosions,Quemaduras y corrosiones,Female,168
+2020,Ankle and foot,Tobillo y pie,Amputations,Amputaciones,Male,180
+2020,Ankle and foot,Tobillo y pie,Amputations,Amputaciones,Female,20
+2020,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),Superficial injuries,Traumatismos superficiales,Male,8666
+2020,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),Superficial injuries,Traumatismos superficiales,Female,6438
+2020,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Male,5516
+2020,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Female,2816
+2020,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),Wounds,Heridas,Male,2922
+2020,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),Wounds,Heridas,Female,701
+2020,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),Fractures,Fracturas,Male,4674
+2020,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),Fractures,Fracturas,Female,1304
+2020,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),Other injuries (traumatismos),Traumatismos,Male,636
+2020,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),Other injuries (traumatismos),Traumatismos,Female,263
+2020,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),Burns and corrosions,Quemaduras y corrosiones,Male,250
+2020,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),Burns and corrosions,Quemaduras y corrosiones,Female,135
+2020,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),Amputations,Amputaciones,Male,37
+2020,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),Amputations,Amputaciones,Female,2
+2020,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),"Other, less frequent",Varios de frecuencia menor,Male,273
+2020,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),"Other, less frequent",Varios de frecuencia menor,Female,106
+2020,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),Superficial injuries,Traumatismos superficiales,Male,6553
+2020,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),Superficial injuries,Traumatismos superficiales,Female,4091
+2020,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Male,6071
+2020,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Female,2855
+2020,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),Wounds,Heridas,Male,2666
+2020,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),Wounds,Heridas,Female,460
+2020,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),Fractures,Fracturas,Male,5013
+2020,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),Fractures,Fracturas,Female,1767
+2020,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),Other injuries (traumatismos),Traumatismos,Male,541
+2020,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),Other injuries (traumatismos),Traumatismos,Female,231
+2020,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),Burns and corrosions,Quemaduras y corrosiones,Male,701
+2020,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),Burns and corrosions,Quemaduras y corrosiones,Female,358
+2020,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),Amputations,Amputaciones,Male,28
+2020,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),Amputations,Amputaciones,Female,8
+2020,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),"Other, less frequent",Varios de frecuencia menor,Male,199
+2020,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),"Other, less frequent",Varios de frecuencia menor,Female,126
+2020,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Superficial injuries,Traumatismos superficiales,Male,4591
+2020,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Superficial injuries,Traumatismos superficiales,Female,2905
+2020,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Male,7099
+2020,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Female,5276
+2020,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Wounds,Heridas,Male,4867
+2020,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Wounds,Heridas,Female,742
+2020,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Fractures,Fracturas,Male,794
+2020,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Fractures,Fracturas,Female,150
+2020,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Other injuries (traumatismos),Traumatismos,Male,2670
+2020,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Other injuries (traumatismos),Traumatismos,Female,751
+2020,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Burns and corrosions,Quemaduras y corrosiones,Male,696
+2020,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Burns and corrosions,Quemaduras y corrosiones,Female,233
+2020,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Amputations,Amputaciones,Male,4
+2020,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Amputations,Amputaciones,Female,1
+2020,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Foreign body,Cuerpo extraño,Male,10
+2020,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Foreign body,Cuerpo extraño,Female,6
+2020,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis",Superficial injuries,Traumatismos superficiales,Male,4914
+2020,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis",Superficial injuries,Traumatismos superficiales,Female,4835
+2020,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis","Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Male,5970
+2020,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis","Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Female,2179
+2020,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis",Wounds,Heridas,Male,288
+2020,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis",Wounds,Heridas,Female,50
+2020,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis",Fractures,Fracturas,Male,559
+2020,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis",Fractures,Fracturas,Female,153
+2020,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis",Other injuries (traumatismos),Traumatismos,Male,277
+2020,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis",Other injuries (traumatismos),Traumatismos,Female,153
+2020,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis",Amputations,Amputaciones,Male,9
+2020,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis",Amputations,Amputaciones,Female,1
+2020,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis",Foreign body,Cuerpo extraño,Male,6
+2020,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis",Foreign body,Cuerpo extraño,Female,4
+2020,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis","Other, less frequent",Varios de frecuencia menor,Male,22
+2020,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis","Other, less frequent",Varios de frecuencia menor,Female,9
+2020,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),Superficial injuries,Traumatismos superficiales,Male,3429
+2020,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),Superficial injuries,Traumatismos superficiales,Female,915
+2020,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Male,181
+2020,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Female,58
+2020,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),Wounds,Heridas,Male,189
+2020,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),Wounds,Heridas,Female,20
+2020,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),Fractures,Fracturas,Male,901
+2020,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),Fractures,Fracturas,Female,89
+2020,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),Other injuries (traumatismos),Traumatismos,Male,256
+2020,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),Other injuries (traumatismos),Traumatismos,Female,27
+2020,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),Burns and corrosions,Quemaduras y corrosiones,Male,31
+2020,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),Burns and corrosions,Quemaduras y corrosiones,Female,15
+2020,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),Amputations,Amputaciones,Male,12
+2020,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),Amputations,Amputaciones,Female,1
+2020,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Superficial injuries,Traumatismos superficiales,Male,2508
+2020,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Superficial injuries,Traumatismos superficiales,Female,1326
+2020,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Male,33
+2020,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Female,24
+2020,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Wounds,Heridas,Male,42
+2020,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Wounds,Heridas,Female,7
+2020,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Fractures,Fracturas,Male,35
+2020,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Fractures,Fracturas,Female,7
+2020,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Other injuries (traumatismos),Traumatismos,Male,253
+2020,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Other injuries (traumatismos),Traumatismos,Female,52
+2020,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Burns and corrosions,Quemaduras y corrosiones,Male,558
+2020,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Burns and corrosions,Quemaduras y corrosiones,Female,187
+2020,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Amputations,Amputaciones,Male,15
+2020,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Amputations,Amputaciones,Female,2
+2020,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Poisoning,Intoxicaciones,Male,199
+2020,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Poisoning,Intoxicaciones,Female,104
+2020,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),"Other, less frequent",Varios de frecuencia menor,Male,178
+2020,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),"Other, less frequent",Varios de frecuencia menor,Female,45
+2020,Eye and adnexa,Ojo (incluye lesiones en ojo y sus anexos),Other injuries (traumatismos),Traumatismos,Male,2200
+2020,Eye and adnexa,Ojo (incluye lesiones en ojo y sus anexos),Other injuries (traumatismos),Traumatismos,Female,465
+2020,Eye and adnexa,Ojo (incluye lesiones en ojo y sus anexos),Burns and corrosions,Quemaduras y corrosiones,Male,389
+2020,Eye and adnexa,Ojo (incluye lesiones en ojo y sus anexos),Burns and corrosions,Quemaduras y corrosiones,Female,123
+2020,Eye and adnexa,Ojo (incluye lesiones en ojo y sus anexos),Foreign body,Cuerpo extraño,Male,1881
+2020,Eye and adnexa,Ojo (incluye lesiones en ojo y sus anexos),Foreign body,Cuerpo extraño,Female,249
+2020,"Other, less frequent",Varios de frecuencia menor,"Other, less frequent",Varios de frecuencia menor,Male,18013
+2020,"Other, less frequent",Varios de frecuencia menor,"Other, less frequent",Varios de frecuencia menor,Female,8451
+2021,Wrist and hand,Muñeca y mano,"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Male,5399
+2021,Wrist and hand,Muñeca y mano,"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Female,5872
+2021,Wrist and hand,Muñeca y mano,Superficial injuries,Traumatismos superficiales,Male,10024
+2021,Wrist and hand,Muñeca y mano,Superficial injuries,Traumatismos superficiales,Female,6567
+2021,Wrist and hand,Muñeca y mano,Wounds,Heridas,Male,27261
+2021,Wrist and hand,Muñeca y mano,Wounds,Heridas,Female,9852
+2021,Wrist and hand,Muñeca y mano,Fractures,Fracturas,Male,9682
+2021,Wrist and hand,Muñeca y mano,Fractures,Fracturas,Female,1937
+2021,Wrist and hand,Muñeca y mano,Other injuries (traumatismos),Traumatismos,Male,2338
+2021,Wrist and hand,Muñeca y mano,Other injuries (traumatismos),Traumatismos,Female,1005
+2021,Wrist and hand,Muñeca y mano,Burns and corrosions,Quemaduras y corrosiones,Male,1439
+2021,Wrist and hand,Muñeca y mano,Burns and corrosions,Quemaduras y corrosiones,Female,968
+2021,Wrist and hand,Muñeca y mano,Amputations,Amputaciones,Male,2374
+2021,Wrist and hand,Muñeca y mano,Amputations,Amputaciones,Female,431
+2021,Ankle and foot,Tobillo y pie,"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Male,13801
+2021,Ankle and foot,Tobillo y pie,"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Female,12697
+2021,Ankle and foot,Tobillo y pie,Superficial injuries,Traumatismos superficiales,Male,6890
+2021,Ankle and foot,Tobillo y pie,Superficial injuries,Traumatismos superficiales,Female,2951
+2021,Ankle and foot,Tobillo y pie,Wounds,Heridas,Male,2380
+2021,Ankle and foot,Tobillo y pie,Wounds,Heridas,Female,384
+2021,Ankle and foot,Tobillo y pie,Fractures,Fracturas,Male,3356
+2021,Ankle and foot,Tobillo y pie,Fractures,Fracturas,Female,964
+2021,Ankle and foot,Tobillo y pie,Other injuries (traumatismos),Traumatismos,Male,884
+2021,Ankle and foot,Tobillo y pie,Other injuries (traumatismos),Traumatismos,Female,210
+2021,Ankle and foot,Tobillo y pie,Burns and corrosions,Quemaduras y corrosiones,Male,510
+2021,Ankle and foot,Tobillo y pie,Burns and corrosions,Quemaduras y corrosiones,Female,207
+2021,Ankle and foot,Tobillo y pie,Amputations,Amputaciones,Male,196
+2021,Ankle and foot,Tobillo y pie,Amputations,Amputaciones,Female,16
+2021,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Male,5777
+2021,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Female,3244
+2021,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),Superficial injuries,Traumatismos superficiales,Male,9233
+2021,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),Superficial injuries,Traumatismos superficiales,Female,7941
+2021,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),Wounds,Heridas,Male,3057
+2021,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),Wounds,Heridas,Female,815
+2021,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),Fractures,Fracturas,Male,4425
+2021,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),Fractures,Fracturas,Female,1234
+2021,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),Other injuries (traumatismos),Traumatismos,Male,749
+2021,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),Other injuries (traumatismos),Traumatismos,Female,349
+2021,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),Burns and corrosions,Quemaduras y corrosiones,Male,295
+2021,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),Burns and corrosions,Quemaduras y corrosiones,Female,133
+2021,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),Amputations,Amputaciones,Male,26
+2021,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),Amputations,Amputaciones,Female,3
+2021,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),"Other, less frequent",Varios de frecuencia menor,Male,281
+2021,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),"Other, less frequent",Varios de frecuencia menor,Female,109
+2021,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Male,6439
+2021,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Female,3193
+2021,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),Superficial injuries,Traumatismos superficiales,Male,7009
+2021,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),Superficial injuries,Traumatismos superficiales,Female,4787
+2021,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),Wounds,Heridas,Male,2858
+2021,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),Wounds,Heridas,Female,543
+2021,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),Fractures,Fracturas,Male,4670
+2021,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),Fractures,Fracturas,Female,1761
+2021,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),Other injuries (traumatismos),Traumatismos,Male,640
+2021,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),Other injuries (traumatismos),Traumatismos,Female,276
+2021,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),Burns and corrosions,Quemaduras y corrosiones,Male,831
+2021,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),Burns and corrosions,Quemaduras y corrosiones,Female,465
+2021,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),Amputations,Amputaciones,Male,51
+2021,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),Amputations,Amputaciones,Female,7
+2021,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),"Other, less frequent",Varios de frecuencia menor,Male,209
+2021,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),"Other, less frequent",Varios de frecuencia menor,Female,154
+2021,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Male,7533
+2021,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Female,5982
+2021,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Superficial injuries,Traumatismos superficiales,Male,207
+2021,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Superficial injuries,Traumatismos superficiales,Female,168
+2021,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Wounds,Heridas,Male,5109
+2021,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Wounds,Heridas,Female,813
+2021,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Fractures,Fracturas,Male,801
+2021,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Fractures,Fracturas,Female,127
+2021,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Other injuries (traumatismos),Traumatismos,Male,2309
+2021,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Other injuries (traumatismos),Traumatismos,Female,868
+2021,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Burns and corrosions,Quemaduras y corrosiones,Male,693
+2021,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Burns and corrosions,Quemaduras y corrosiones,Female,234
+2021,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Amputations,Amputaciones,Male,3
+2021,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Amputations,Amputaciones,Female,1
+2021,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Foreign body,Cuerpo extraño,Male,21
+2021,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Foreign body,Cuerpo extraño,Female,4
+2021,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),"Other, less frequent",Varios de frecuencia menor,Male,5230
+2021,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),"Other, less frequent",Varios de frecuencia menor,Female,3418
+2021,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis","Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Male,6131
+2021,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis","Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Female,2461
+2021,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis",Superficial injuries,Traumatismos superficiales,Male,5115
+2021,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis",Superficial injuries,Traumatismos superficiales,Female,5765
+2021,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis",Wounds,Heridas,Male,330
+2021,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis",Wounds,Heridas,Female,41
+2021,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis",Fractures,Fracturas,Male,555
+2021,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis",Fractures,Fracturas,Female,148
+2021,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis",Other injuries (traumatismos),Traumatismos,Male,313
+2021,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis",Other injuries (traumatismos),Traumatismos,Female,180
+2021,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis",Amputations,Amputaciones,Male,9
+2021,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis",Foreign body,Cuerpo extraño,Male,3
+2021,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis",Foreign body,Cuerpo extraño,Female,1
+2021,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis","Other, less frequent",Varios de frecuencia menor,Male,33
+2021,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis","Other, less frequent",Varios de frecuencia menor,Female,16
+2021,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Male,237
+2021,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Female,84
+2021,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),Superficial injuries,Traumatismos superficiales,Male,3718
+2021,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),Superficial injuries,Traumatismos superficiales,Female,1076
+2021,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),Wounds,Heridas,Male,178
+2021,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),Wounds,Heridas,Female,12
+2021,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),Fractures,Fracturas,Male,923
+2021,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),Fractures,Fracturas,Female,111
+2021,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),Other injuries (traumatismos),Traumatismos,Male,233
+2021,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),Other injuries (traumatismos),Traumatismos,Female,31
+2021,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),Burns and corrosions,Quemaduras y corrosiones,Male,23
+2021,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),Burns and corrosions,Quemaduras y corrosiones,Female,12
+2021,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),Amputations,Amputaciones,Male,13
+2021,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),Amputations,Amputaciones,Female,1
+2021,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Male,17
+2021,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Female,11
+2021,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Superficial injuries,Traumatismos superficiales,Male,2755
+2021,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Superficial injuries,Traumatismos superficiales,Female,1527
+2021,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Wounds,Heridas,Male,38
+2021,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Wounds,Heridas,Female,5
+2021,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Fractures,Fracturas,Male,28
+2021,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Fractures,Fracturas,Female,2
+2021,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Other injuries (traumatismos),Traumatismos,Male,256
+2021,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Other injuries (traumatismos),Traumatismos,Female,56
+2021,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Burns and corrosions,Quemaduras y corrosiones,Male,633
+2021,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Burns and corrosions,Quemaduras y corrosiones,Female,178
+2021,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Amputations,Amputaciones,Male,18
+2021,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Amputations,Amputaciones,Female,2
+2021,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Poisoning,Intoxicaciones,Male,224
+2021,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Poisoning,Intoxicaciones,Female,118
+2021,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),"Other, less frequent",Varios de frecuencia menor,Male,199
+2021,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),"Other, less frequent",Varios de frecuencia menor,Female,48
+2021,Eye and adnexa,Ojo (incluye lesiones en ojo y sus anexos),Other injuries (traumatismos),Traumatismos,Male,2471
+2021,Eye and adnexa,Ojo (incluye lesiones en ojo y sus anexos),Other injuries (traumatismos),Traumatismos,Female,503
+2021,Eye and adnexa,Ojo (incluye lesiones en ojo y sus anexos),Burns and corrosions,Quemaduras y corrosiones,Male,421
+2021,Eye and adnexa,Ojo (incluye lesiones en ojo y sus anexos),Burns and corrosions,Quemaduras y corrosiones,Female,172
+2021,Eye and adnexa,Ojo (incluye lesiones en ojo y sus anexos),Foreign body,Cuerpo extraño,Male,2030
+2021,Eye and adnexa,Ojo (incluye lesiones en ojo y sus anexos),Foreign body,Cuerpo extraño,Female,298
+2021,"Other, less frequent",Varios de frecuencia menor,"Other, less frequent",Varios de frecuencia menor,Male,19921
+2021,"Other, less frequent",Varios de frecuencia menor,"Other, less frequent",Varios de frecuencia menor,Female,10282
+2022,Wrist and hand,Muñeca y mano,Superficial injuries,Traumatismos superficiales,Male,11068
+2022,Wrist and hand,Muñeca y mano,Superficial injuries,Traumatismos superficiales,Female,8129
+2022,Wrist and hand,Muñeca y mano,"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Male,5948
+2022,Wrist and hand,Muñeca y mano,"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Female,6838
+2022,Wrist and hand,Muñeca y mano,Wounds,Heridas,Male,30188
+2022,Wrist and hand,Muñeca y mano,Wounds,Heridas,Female,11297
+2022,Wrist and hand,Muñeca y mano,Fractures,Fracturas,Male,10716
+2022,Wrist and hand,Muñeca y mano,Fractures,Fracturas,Female,2240
+2022,Wrist and hand,Muñeca y mano,Other injuries (traumatismos),Traumatismos,Male,2725
+2022,Wrist and hand,Muñeca y mano,Other injuries (traumatismos),Traumatismos,Female,1154
+2022,Wrist and hand,Muñeca y mano,Burns and corrosions,Quemaduras y corrosiones,Male,1718
+2022,Wrist and hand,Muñeca y mano,Burns and corrosions,Quemaduras y corrosiones,Female,1130
+2022,Wrist and hand,Muñeca y mano,Amputations,Amputaciones,Male,2403
+2022,Wrist and hand,Muñeca y mano,Amputations,Amputaciones,Female,466
+2022,Ankle and foot,Tobillo y pie,Superficial injuries,Traumatismos superficiales,Male,7449
+2022,Ankle and foot,Tobillo y pie,Superficial injuries,Traumatismos superficiales,Female,3440
+2022,Ankle and foot,Tobillo y pie,"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Male,15071
+2022,Ankle and foot,Tobillo y pie,"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Female,15000
+2022,Ankle and foot,Tobillo y pie,Wounds,Heridas,Male,2629
+2022,Ankle and foot,Tobillo y pie,Wounds,Heridas,Female,540
+2022,Ankle and foot,Tobillo y pie,Fractures,Fracturas,Male,3885
+2022,Ankle and foot,Tobillo y pie,Fractures,Fracturas,Female,1169
+2022,Ankle and foot,Tobillo y pie,Other injuries (traumatismos),Traumatismos,Male,984
+2022,Ankle and foot,Tobillo y pie,Other injuries (traumatismos),Traumatismos,Female,313
+2022,Ankle and foot,Tobillo y pie,Burns and corrosions,Quemaduras y corrosiones,Male,518
+2022,Ankle and foot,Tobillo y pie,Burns and corrosions,Quemaduras y corrosiones,Female,249
+2022,Ankle and foot,Tobillo y pie,Amputations,Amputaciones,Male,242
+2022,Ankle and foot,Tobillo y pie,Amputations,Amputaciones,Female,26
+2022,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),Superficial injuries,Traumatismos superficiales,Male,10596
+2022,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),Superficial injuries,Traumatismos superficiales,Female,9696
+2022,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Male,6506
+2022,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Female,3892
+2022,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),Wounds,Heridas,Male,3412
+2022,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),Wounds,Heridas,Female,1071
+2022,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),Fractures,Fracturas,Male,4862
+2022,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),Fractures,Fracturas,Female,1549
+2022,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),Other injuries (traumatismos),Traumatismos,Male,842
+2022,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),Other injuries (traumatismos),Traumatismos,Female,432
+2022,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),Burns and corrosions,Quemaduras y corrosiones,Male,297
+2022,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),Burns and corrosions,Quemaduras y corrosiones,Female,184
+2022,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),Amputations,Amputaciones,Male,31
+2022,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),Amputations,Amputaciones,Female,2
+2022,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),"Other, less frequent",Varios de frecuencia menor,Male,301
+2022,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),"Other, less frequent",Varios de frecuencia menor,Female,130
+2022,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Superficial injuries,Traumatismos superficiales,Male,6652
+2022,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Superficial injuries,Traumatismos superficiales,Female,4788
+2022,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Male,8813
+2022,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Female,7034
+2022,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Wounds,Heridas,Male,5937
+2022,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Wounds,Heridas,Female,1048
+2022,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Fractures,Fracturas,Male,831
+2022,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Fractures,Fracturas,Female,184
+2022,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Other injuries (traumatismos),Traumatismos,Male,3312
+2022,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Other injuries (traumatismos),Traumatismos,Female,1204
+2022,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Burns and corrosions,Quemaduras y corrosiones,Male,865
+2022,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Burns and corrosions,Quemaduras y corrosiones,Female,349
+2022,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Amputations,Amputaciones,Male,4
+2022,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Foreign body,Cuerpo extraño,Male,19
+2022,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Foreign body,Cuerpo extraño,Female,7
+2022,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),Superficial injuries,Traumatismos superficiales,Male,8085
+2022,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),Superficial injuries,Traumatismos superficiales,Female,5887
+2022,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Male,7157
+2022,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Female,3886
+2022,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),Wounds,Heridas,Male,2999
+2022,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),Wounds,Heridas,Female,660
+2022,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),Fractures,Fracturas,Male,5061
+2022,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),Fractures,Fracturas,Female,2027
+2022,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),Other injuries (traumatismos),Traumatismos,Male,818
+2022,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),Other injuries (traumatismos),Traumatismos,Female,334
+2022,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),Burns and corrosions,Quemaduras y corrosiones,Male,863
+2022,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),Burns and corrosions,Quemaduras y corrosiones,Female,571
+2022,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),Amputations,Amputaciones,Male,54
+2022,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),Amputations,Amputaciones,Female,5
+2022,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),"Other, less frequent",Varios de frecuencia menor,Male,227
+2022,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),"Other, less frequent",Varios de frecuencia menor,Female,173
+2022,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis",Superficial injuries,Traumatismos superficiales,Male,5846
+2022,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis",Superficial injuries,Traumatismos superficiales,Female,6599
+2022,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis","Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Male,6575
+2022,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis","Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Female,2849
+2022,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis",Wounds,Heridas,Male,322
+2022,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis",Wounds,Heridas,Female,53
+2022,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis",Fractures,Fracturas,Male,611
+2022,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis",Fractures,Fracturas,Female,169
+2022,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis",Other injuries (traumatismos),Traumatismos,Male,414
+2022,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis",Other injuries (traumatismos),Traumatismos,Female,266
+2022,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis",Amputations,Amputaciones,Male,17
+2022,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis",Amputations,Amputaciones,Female,1
+2022,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis",Foreign body,Cuerpo extraño,Female,1
+2022,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis","Other, less frequent",Varios de frecuencia menor,Male,32
+2022,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis","Other, less frequent",Varios de frecuencia menor,Female,14
+2022,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),Superficial injuries,Traumatismos superficiales,Male,4478
+2022,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),Superficial injuries,Traumatismos superficiales,Female,1374
+2022,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Male,224
+2022,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Female,83
+2022,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),Wounds,Heridas,Male,195
+2022,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),Wounds,Heridas,Female,26
+2022,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),Fractures,Fracturas,Male,1081
+2022,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),Fractures,Fracturas,Female,134
+2022,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),Other injuries (traumatismos),Traumatismos,Male,311
+2022,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),Other injuries (traumatismos),Traumatismos,Female,80
+2022,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),Burns and corrosions,Quemaduras y corrosiones,Male,28
+2022,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),Burns and corrosions,Quemaduras y corrosiones,Female,18
+2022,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),Amputations,Amputaciones,Male,27
+2022,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),Amputations,Amputaciones,Female,7
+2022,Eye and adnexa,Ojo (incluye lesiones en ojo y sus anexos),Other injuries (traumatismos),Traumatismos,Male,2550
+2022,Eye and adnexa,Ojo (incluye lesiones en ojo y sus anexos),Other injuries (traumatismos),Traumatismos,Female,669
+2022,Eye and adnexa,Ojo (incluye lesiones en ojo y sus anexos),Burns and corrosions,Quemaduras y corrosiones,Male,498
+2022,Eye and adnexa,Ojo (incluye lesiones en ojo y sus anexos),Burns and corrosions,Quemaduras y corrosiones,Female,237
+2022,Eye and adnexa,Ojo (incluye lesiones en ojo y sus anexos),Foreign body,Cuerpo extraño,Male,2755
+2022,Eye and adnexa,Ojo (incluye lesiones en ojo y sus anexos),Foreign body,Cuerpo extraño,Female,429
+2022,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Superficial injuries,Traumatismos superficiales,Male,1737
+2022,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Superficial injuries,Traumatismos superficiales,Female,1055
+2022,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Male,22
+2022,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Female,20
+2022,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Wounds,Heridas,Male,53
+2022,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Wounds,Heridas,Female,12
+2022,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Fractures,Fracturas,Male,26
+2022,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Fractures,Fracturas,Female,2
+2022,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Other injuries (traumatismos),Traumatismos,Male,428
+2022,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Other injuries (traumatismos),Traumatismos,Female,209
+2022,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Burns and corrosions,Quemaduras y corrosiones,Male,776
+2022,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Burns and corrosions,Quemaduras y corrosiones,Female,321
+2022,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Amputations,Amputaciones,Male,6
+2022,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Poisoning,Intoxicaciones,Male,286
+2022,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Poisoning,Intoxicaciones,Female,144
+2022,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),"Other, less frequent",Varios de frecuencia menor,Male,241
+2022,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),"Other, less frequent",Varios de frecuencia menor,Female,81
+2022,"Other, less frequent",Varios de frecuencia menor,"Other, less frequent",Varios de frecuencia menor,Male,23528
+2022,"Other, less frequent",Varios de frecuencia menor,"Other, less frequent",Varios de frecuencia menor,Female,13349
+2023,Wrist and hand,Muñeca y mano,Superficial injuries,Traumatismos superficiales,Male,12088
+2023,Wrist and hand,Muñeca y mano,Superficial injuries,Traumatismos superficiales,Female,9584
+2023,Wrist and hand,Muñeca y mano,"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Male,6441
+2023,Wrist and hand,Muñeca y mano,"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Female,8259
+2023,Wrist and hand,Muñeca y mano,Wounds,Heridas,Male,32349
+2023,Wrist and hand,Muñeca y mano,Wounds,Heridas,Female,12692
+2023,Wrist and hand,Muñeca y mano,Fractures,Fracturas,Male,10794
+2023,Wrist and hand,Muñeca y mano,Fractures,Fracturas,Female,2497
+2023,Wrist and hand,Muñeca y mano,Other injuries (traumatismos),Traumatismos,Male,3361
+2023,Wrist and hand,Muñeca y mano,Other injuries (traumatismos),Traumatismos,Female,1644
+2023,Wrist and hand,Muñeca y mano,Burns and corrosions,Quemaduras y corrosiones,Male,1854
+2023,Wrist and hand,Muñeca y mano,Burns and corrosions,Quemaduras y corrosiones,Female,1284
+2023,Wrist and hand,Muñeca y mano,Amputations,Amputaciones,Male,2310
+2023,Wrist and hand,Muñeca y mano,Amputations,Amputaciones,Female,475
+2023,Ankle and foot,Tobillo y pie,Superficial injuries,Traumatismos superficiales,Male,7646
+2023,Ankle and foot,Tobillo y pie,Superficial injuries,Traumatismos superficiales,Female,4044
+2023,Ankle and foot,Tobillo y pie,"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Male,16032
+2023,Ankle and foot,Tobillo y pie,"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Female,15894
+2023,Ankle and foot,Tobillo y pie,Wounds,Heridas,Male,2849
+2023,Ankle and foot,Tobillo y pie,Wounds,Heridas,Female,549
+2023,Ankle and foot,Tobillo y pie,Fractures,Fracturas,Male,3995
+2023,Ankle and foot,Tobillo y pie,Fractures,Fracturas,Female,1348
+2023,Ankle and foot,Tobillo y pie,Other injuries (traumatismos),Traumatismos,Male,1430
+2023,Ankle and foot,Tobillo y pie,Other injuries (traumatismos),Traumatismos,Female,477
+2023,Ankle and foot,Tobillo y pie,Burns and corrosions,Quemaduras y corrosiones,Male,593
+2023,Ankle and foot,Tobillo y pie,Burns and corrosions,Quemaduras y corrosiones,Female,298
+2023,Ankle and foot,Tobillo y pie,Amputations,Amputaciones,Male,296
+2023,Ankle and foot,Tobillo y pie,Amputations,Amputaciones,Female,41
+2023,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Superficial injuries,Traumatismos superficiales,Male,8475
+2023,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Superficial injuries,Traumatismos superficiales,Female,6614
+2023,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Male,8797
+2023,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Female,7740
+2023,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Wounds,Heridas,Male,6781
+2023,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Wounds,Heridas,Female,1222
+2023,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Fractures,Fracturas,Male,895
+2023,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Fractures,Fracturas,Female,217
+2023,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Other injuries (traumatismos),Traumatismos,Male,3754
+2023,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Other injuries (traumatismos),Traumatismos,Female,1632
+2023,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Burns and corrosions,Quemaduras y corrosiones,Male,1029
+2023,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Burns and corrosions,Quemaduras y corrosiones,Female,500
+2023,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Foreign body,Cuerpo extraño,Male,27
+2023,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Foreign body,Cuerpo extraño,Female,6
+2023,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Amputations,Amputaciones,Male,6
+2023,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Amputations,Amputaciones,Female,2
+2023,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),Superficial injuries,Traumatismos superficiales,Male,11123
+2023,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),Superficial injuries,Traumatismos superficiales,Female,10752
+2023,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Male,6908
+2023,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Female,4526
+2023,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),Wounds,Heridas,Male,3576
+2023,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),Wounds,Heridas,Female,1074
+2023,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),Fractures,Fracturas,Male,5052
+2023,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),Fractures,Fracturas,Female,1674
+2023,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),Other injuries (traumatismos),Traumatismos,Male,1156
+2023,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),Other injuries (traumatismos),Traumatismos,Female,626
+2023,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),Burns and corrosions,Quemaduras y corrosiones,Male,308
+2023,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),Burns and corrosions,Quemaduras y corrosiones,Female,202
+2023,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),Amputations,Amputaciones,Male,53
+2023,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),Amputations,Amputaciones,Female,2
+2023,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),"Other, less frequent",Varios de frecuencia menor,Male,317
+2023,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),"Other, less frequent",Varios de frecuencia menor,Female,172
+2023,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),Superficial injuries,Traumatismos superficiales,Male,8894
+2023,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),Superficial injuries,Traumatismos superficiales,Female,7079
+2023,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Male,7724
+2023,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Female,4558
+2023,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),Wounds,Heridas,Male,3220
+2023,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),Wounds,Heridas,Female,693
+2023,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),Fractures,Fracturas,Male,5256
+2023,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),Fractures,Fracturas,Female,2176
+2023,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),Other injuries (traumatismos),Traumatismos,Male,1049
+2023,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),Other injuries (traumatismos),Traumatismos,Female,530
+2023,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),Burns and corrosions,Quemaduras y corrosiones,Male,939
+2023,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),Burns and corrosions,Quemaduras y corrosiones,Female,684
+2023,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),Amputations,Amputaciones,Male,47
+2023,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),Amputations,Amputaciones,Female,11
+2023,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),"Other, less frequent",Varios de frecuencia menor,Male,226
+2023,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),"Other, less frequent",Varios de frecuencia menor,Female,213
+2023,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis",Superficial injuries,Traumatismos superficiales,Male,6108
+2023,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis",Superficial injuries,Traumatismos superficiales,Female,7128
+2023,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis","Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Male,6751
+2023,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis","Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Female,3185
+2023,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis",Wounds,Heridas,Male,350
+2023,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis",Wounds,Heridas,Female,51
+2023,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis",Fractures,Fracturas,Male,662
+2023,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis",Fractures,Fracturas,Female,224
+2023,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis",Other injuries (traumatismos),Traumatismos,Male,467
+2023,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis",Other injuries (traumatismos),Traumatismos,Female,393
+2023,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis",Foreign body,Cuerpo extraño,Male,12
+2023,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis",Foreign body,Cuerpo extraño,Female,6
+2023,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis",Amputations,Amputaciones,Male,29
+2023,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis",Amputations,Amputaciones,Female,8
+2023,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis","Other, less frequent",Varios de frecuencia menor,Male,38
+2023,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis","Other, less frequent",Varios de frecuencia menor,Female,23
+2023,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),Superficial injuries,Traumatismos superficiales,Male,5133
+2023,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),Superficial injuries,Traumatismos superficiales,Female,1707
+2023,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Male,253
+2023,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Female,108
+2023,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),Wounds,Heridas,Male,249
+2023,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),Wounds,Heridas,Female,29
+2023,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),Fractures,Fracturas,Male,1167
+2023,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),Fractures,Fracturas,Female,152
+2023,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),Other injuries (traumatismos),Traumatismos,Male,288
+2023,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),Other injuries (traumatismos),Traumatismos,Female,61
+2023,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),Burns and corrosions,Quemaduras y corrosiones,Male,47
+2023,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),Burns and corrosions,Quemaduras y corrosiones,Female,33
+2023,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),Amputations,Amputaciones,Male,40
+2023,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),Amputations,Amputaciones,Female,5
+2023,Eye and adnexa,Ojo (incluye lesiones en ojo y sus anexos),Other injuries (traumatismos),Traumatismos,Male,2351
+2023,Eye and adnexa,Ojo (incluye lesiones en ojo y sus anexos),Other injuries (traumatismos),Traumatismos,Female,666
+2023,Eye and adnexa,Ojo (incluye lesiones en ojo y sus anexos),Burns and corrosions,Quemaduras y corrosiones,Male,536
+2023,Eye and adnexa,Ojo (incluye lesiones en ojo y sus anexos),Burns and corrosions,Quemaduras y corrosiones,Female,308
+2023,Eye and adnexa,Ojo (incluye lesiones en ojo y sus anexos),Foreign body,Cuerpo extraño,Male,3436
+2023,Eye and adnexa,Ojo (incluye lesiones en ojo y sus anexos),Foreign body,Cuerpo extraño,Female,603
+2023,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Superficial injuries,Traumatismos superficiales,Male,298
+2023,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Superficial injuries,Traumatismos superficiales,Female,193
+2023,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Male,11
+2023,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Female,10
+2023,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Wounds,Heridas,Male,25
+2023,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Wounds,Heridas,Female,4
+2023,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Fractures,Fracturas,Male,10
+2023,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Fractures,Fracturas,Female,1
+2023,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Other injuries (traumatismos),Traumatismos,Male,726
+2023,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Other injuries (traumatismos),Traumatismos,Female,394
+2023,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Burns and corrosions,Quemaduras y corrosiones,Male,859
+2023,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Burns and corrosions,Quemaduras y corrosiones,Female,353
+2023,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Amputations,Amputaciones,Male,8
+2023,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Amputations,Amputaciones,Female,3
+2023,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Poisoning,Intoxicaciones,Male,328
+2023,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Poisoning,Intoxicaciones,Female,185
+2023,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),"Other, less frequent",Varios de frecuencia menor,Male,341
+2023,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),"Other, less frequent",Varios de frecuencia menor,Female,135
+2023,"Other, less frequent",Varios de frecuencia menor,"Other, less frequent",Varios de frecuencia menor,Male,29497
+2023,"Other, less frequent",Varios de frecuencia menor,"Other, less frequent",Varios de frecuencia menor,Female,18176
+2024,Wrist and hand,Muñeca y mano,Superficial injuries,Traumatismos superficiales,Male,13484
+2024,Wrist and hand,Muñeca y mano,Superficial injuries,Traumatismos superficiales,Female,11116
+2024,Wrist and hand,Muñeca y mano,"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Male,6702
+2024,Wrist and hand,Muñeca y mano,"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Female,9074
+2024,Wrist and hand,Muñeca y mano,Wounds,Heridas,Male,33396
+2024,Wrist and hand,Muñeca y mano,Wounds,Heridas,Female,14043
+2024,Wrist and hand,Muñeca y mano,Fractures,Fracturas,Male,10677
+2024,Wrist and hand,Muñeca y mano,Fractures,Fracturas,Female,2650
+2024,Wrist and hand,Muñeca y mano,Other injuries (traumatismos),Traumatismos,Male,3043
+2024,Wrist and hand,Muñeca y mano,Other injuries (traumatismos),Traumatismos,Female,1590
+2024,Wrist and hand,Muñeca y mano,Burns and corrosions,Quemaduras y corrosiones,Male,2103
+2024,Wrist and hand,Muñeca y mano,Burns and corrosions,Quemaduras y corrosiones,Female,1505
+2024,Wrist and hand,Muñeca y mano,Amputations,Amputaciones,Male,2439
+2024,Wrist and hand,Muñeca y mano,Amputations,Amputaciones,Female,503
+2024,Ankle and foot,Tobillo y pie,Superficial injuries,Traumatismos superficiales,Male,8509
+2024,Ankle and foot,Tobillo y pie,Superficial injuries,Traumatismos superficiales,Female,4551
+2024,Ankle and foot,Tobillo y pie,"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Male,16943
+2024,Ankle and foot,Tobillo y pie,"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Female,17379
+2024,Ankle and foot,Tobillo y pie,Wounds,Heridas,Male,3066
+2024,Ankle and foot,Tobillo y pie,Wounds,Heridas,Female,628
+2024,Ankle and foot,Tobillo y pie,Fractures,Fracturas,Male,3928
+2024,Ankle and foot,Tobillo y pie,Fractures,Fracturas,Female,1283
+2024,Ankle and foot,Tobillo y pie,Other injuries (traumatismos),Traumatismos,Male,1395
+2024,Ankle and foot,Tobillo y pie,Other injuries (traumatismos),Traumatismos,Female,497
+2024,Ankle and foot,Tobillo y pie,Burns and corrosions,Quemaduras y corrosiones,Male,687
+2024,Ankle and foot,Tobillo y pie,Burns and corrosions,Quemaduras y corrosiones,Female,333
+2024,Ankle and foot,Tobillo y pie,Amputations,Amputaciones,Male,188
+2024,Ankle and foot,Tobillo y pie,Amputations,Amputaciones,Female,28
+2024,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),Superficial injuries,Traumatismos superficiales,Male,12406
+2024,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),Superficial injuries,Traumatismos superficiales,Female,12766
+2024,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Male,7197
+2024,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Female,4759
+2024,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),Wounds,Heridas,Male,3919
+2024,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),Wounds,Heridas,Female,1235
+2024,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),Fractures,Fracturas,Male,4987
+2024,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),Fractures,Fracturas,Female,1824
+2024,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),Other injuries (traumatismos),Traumatismos,Male,908
+2024,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),Other injuries (traumatismos),Traumatismos,Female,435
+2024,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),Burns and corrosions,Quemaduras y corrosiones,Male,279
+2024,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),Burns and corrosions,Quemaduras y corrosiones,Female,171
+2024,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),Amputations,Amputaciones,Male,47
+2024,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),Amputations,Amputaciones,Female,5
+2024,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),"Other, less frequent",Varios de frecuencia menor,Male,308
+2024,Lower limb (excluding ankle and foot),Miembro inferior (excluye tobillo y pie),"Other, less frequent",Varios de frecuencia menor,Female,150
+2024,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Superficial injuries,Traumatismos superficiales,Male,5872
+2024,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Superficial injuries,Traumatismos superficiales,Female,4627
+2024,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Male,8980
+2024,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Female,8175
+2024,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Wounds,Heridas,Male,7980
+2024,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Wounds,Heridas,Female,1729
+2024,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Fractures,Fracturas,Male,999
+2024,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Fractures,Fracturas,Female,224
+2024,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Other injuries (traumatismos),Traumatismos,Male,5891
+2024,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Other injuries (traumatismos),Traumatismos,Female,3673
+2024,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Burns and corrosions,Quemaduras y corrosiones,Male,980
+2024,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Burns and corrosions,Quemaduras y corrosiones,Female,495
+2024,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Foreign body,Cuerpo extraño,Male,36
+2024,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Foreign body,Cuerpo extraño,Female,15
+2024,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Amputations,Amputaciones,Male,11
+2024,Head and neck (excluding eye),Cabeza y cuello (excluye lesión en ojo y sus anexos),Amputations,Amputaciones,Female,5
+2024,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),Superficial injuries,Traumatismos superficiales,Male,9924
+2024,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),Superficial injuries,Traumatismos superficiales,Female,8502
+2024,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Male,7904
+2024,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Female,5052
+2024,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),Wounds,Heridas,Male,3292
+2024,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),Wounds,Heridas,Female,856
+2024,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),Fractures,Fracturas,Male,5377
+2024,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),Fractures,Fracturas,Female,2385
+2024,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),Other injuries (traumatismos),Traumatismos,Male,1123
+2024,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),Other injuries (traumatismos),Traumatismos,Female,567
+2024,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),Burns and corrosions,Quemaduras y corrosiones,Male,745
+2024,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),Burns and corrosions,Quemaduras y corrosiones,Female,571
+2024,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),Amputations,Amputaciones,Male,58
+2024,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),Amputations,Amputaciones,Female,9
+2024,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),"Other, less frequent",Varios de frecuencia menor,Male,232
+2024,Upper limb (excluding wrist and hand),Miembro superior (excluye muñeca y mano),"Other, less frequent",Varios de frecuencia menor,Female,202
+2024,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis",Superficial injuries,Traumatismos superficiales,Male,6410
+2024,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis",Superficial injuries,Traumatismos superficiales,Female,8021
+2024,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis","Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Male,8502
+2024,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis","Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Female,4354
+2024,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis",Wounds,Heridas,Male,419
+2024,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis",Wounds,Heridas,Female,74
+2024,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis",Fractures,Fracturas,Male,705
+2024,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis",Fractures,Fracturas,Female,216
+2024,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis",Other injuries (traumatismos),Traumatismos,Male,453
+2024,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis",Other injuries (traumatismos),Traumatismos,Female,320
+2024,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis",Foreign body,Cuerpo extraño,Male,12
+2024,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis",Foreign body,Cuerpo extraño,Female,8
+2024,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis",Amputations,Amputaciones,Male,33
+2024,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis",Amputations,Amputaciones,Female,7
+2024,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis","Other, less frequent",Varios de frecuencia menor,Male,47
+2024,"Abdomen, lower back, lumbar spine and pelvis","Abdomen, región lumbosacra, columna lumbar y pelvis","Other, less frequent",Varios de frecuencia menor,Female,20
+2024,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),Superficial injuries,Traumatismos superficiales,Male,5906
+2024,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),Superficial injuries,Traumatismos superficiales,Female,2166
+2024,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Male,245
+2024,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Female,113
+2024,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),Wounds,Heridas,Male,288
+2024,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),Wounds,Heridas,Female,44
+2024,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),Fractures,Fracturas,Male,1184
+2024,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),Fractures,Fracturas,Female,135
+2024,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),Other injuries (traumatismos),Traumatismos,Male,349
+2024,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),Other injuries (traumatismos),Traumatismos,Female,85
+2024,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),Burns and corrosions,Quemaduras y corrosiones,Male,65
+2024,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),Burns and corrosions,Quemaduras y corrosiones,Female,43
+2024,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),Amputations,Amputaciones,Male,40
+2024,Thorax (including intrathoracic organs),Tórax (incluye lesiones en órganos intratorácicos),Amputations,Amputaciones,Female,9
+2024,Eye and adnexa,Ojo (incluye lesiones en ojo y sus anexos),Other injuries (traumatismos),Traumatismos,Male,2276
+2024,Eye and adnexa,Ojo (incluye lesiones en ojo y sus anexos),Other injuries (traumatismos),Traumatismos,Female,730
+2024,Eye and adnexa,Ojo (incluye lesiones en ojo y sus anexos),Burns and corrosions,Quemaduras y corrosiones,Male,682
+2024,Eye and adnexa,Ojo (incluye lesiones en ojo y sus anexos),Burns and corrosions,Quemaduras y corrosiones,Female,390
+2024,Eye and adnexa,Ojo (incluye lesiones en ojo y sus anexos),Foreign body,Cuerpo extraño,Male,3868
+2024,Eye and adnexa,Ojo (incluye lesiones en ojo y sus anexos),Foreign body,Cuerpo extraño,Female,651
+2024,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Superficial injuries,Traumatismos superficiales,Male,202
+2024,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Superficial injuries,Traumatismos superficiales,Female,144
+2024,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Male,44
+2024,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),"Dislocations, sprains and strains","Luxaciones, esguinces y desgarros",Female,35
+2024,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Wounds,Heridas,Male,54
+2024,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Wounds,Heridas,Female,16
+2024,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Fractures,Fracturas,Male,5
+2024,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Fractures,Fracturas,Female,2
+2024,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Other injuries (traumatismos),Traumatismos,Male,381
+2024,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Other injuries (traumatismos),Traumatismos,Female,224
+2024,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Burns and corrosions,Quemaduras y corrosiones,Male,1130
+2024,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Burns and corrosions,Quemaduras y corrosiones,Female,576
+2024,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Amputations,Amputaciones,Male,7
+2024,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Amputations,Amputaciones,Female,2
+2024,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Poisoning,Intoxicaciones,Male,207
+2024,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),Poisoning,Intoxicaciones,Female,126
+2024,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),"Other, less frequent",Varios de frecuencia menor,Male,339
+2024,Whole body (including multiple injuries),Cuerpo en general (incluye lesiones múltiples),"Other, less frequent",Varios de frecuencia menor,Female,165
+2024,"Other, less frequent",Varios de frecuencia menor,"Other, less frequent",Varios de frecuencia menor,Male,28031
+2024,"Other, less frequent",Varios de frecuencia menor,"Other, less frequent",Varios de frecuencia menor,Female,18327

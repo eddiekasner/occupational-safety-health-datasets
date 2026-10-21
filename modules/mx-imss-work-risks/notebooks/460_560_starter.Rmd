@@ -1,0 +1,310 @@
+---
+title: "Mexico IMSS Work Risks: Starter Notebook"
+subtitle: "ENVH 460/560"
+author: "Your name"
+output:
+  html_document:
+    toc: true
+    df_print: paged
+---
+
+The Mexican Social Security Institute (IMSS) insures about 22 million workers against work risks:
+work accidents, commuting accidents and occupational diseases. It publishes the cases it handles
+each year in its statistical yearbook. This notebook uses national figures from 2011 to 2024 and
+detailed tables from 2016 to 2024: state offices, economic activities, age and sex, occupational
+diseases, causes of accidents, injured body regions and occupations. Read the module
+[README](../README.md) and [data dictionary](../data_dictionary.md) first.
+
+**How to use this notebook**
+
+- Run each code chunk in order (the green arrow in RStudio, or Ctrl/Cmd + Shift + Enter).
+- Answer the questions under each **Your answer** heading.
+- When you are done, click **Knit** to produce an HTML report to submit.
+
+# Part 0. Load the data
+
+```{r setup, message = FALSE}
+library(readr)
+library(dplyr)
+library(tidyr)
+library(ggplot2)
+library(forcats)
+
+base <- "https://raw.githubusercontent.com/eddiekasner/occupational-safety-health-datasets/main/modules/mx-imss-work-risks/data"
+read_module <- function(folder, name, ...) {
+  local <- file.path("..", "data", folder, name)
+  read_csv(if (file.exists(local)) local else file.path(base, folder, name), show_col_types = FALSE,
+           ...)
+}
+
+# National companies, workers, cases, permanent incapacities and deaths, 2011 to 2024
+national <- read_module("tidy", "national.csv")
+# The same by IMSS state office, and cases by economic activity and by age and sex, 2016 to 2024
+by_state <- read_module("tidy", "by_state.csv")
+by_activity <- read_module("tidy", "by_activity.csv")
+by_age_sex <- read_module("tidy", "by_age_sex.csv")
+# Occupational diseases by diagnosis, 2011 to 2024
+diseases <- read_module("tidy", "occupational_diseases.csv")
+# Accidents by cause, by body region and type of injury, and by occupation
+causes <- read_module("tidy", "accident_causes.csv")
+body <- read_module("tidy", "body_region_injury.csv")
+occupations <- read_module("tidy", "occupations.csv")
+
+# Workers each year, to compute rates
+workers <- national |> filter(measure == "Workers") |> select(year, workers = value)
+```
+
+Mexican law counts **commuting accidents** (on the way between home and work) as work risks.
+Cases are counted in the year they **end** (medical discharge, permanent incapacity or death).
+Only workers insured by IMSS are covered: mostly private-sector employees in formal jobs.
+
+# Part 1. National trends
+
+```{r trends}
+national |>
+  filter(measure == "Cases",
+         risk %in% c("Work accidents", "Commuting accidents", "Occupational diseases")) |>
+  ggplot(aes(year, value, colour = risk)) +
+  geom_line() +
+  geom_point(size = 1) +
+  scale_y_continuous(labels = scales::label_comma()) +
+  labs(title = "Work risk cases accepted by IMSS", x = NULL, y = "Cases", colour = NULL)
+
+national |>
+  filter(measure %in% c("Cases", "Deaths"), risk == "Work accidents") |>
+  select(year, measure, value) |>
+  pivot_wider(names_from = measure, values_from = value) |>
+  left_join(workers, by = "year") |>
+  mutate(cases_per_100_workers = round(100 * Cases / workers, 2),
+         deaths_per_100000_workers = round(1e5 * Deaths / workers, 1))
+```
+
+**Questions**
+
+1. How did the number of insured workers and the work accident rate per 100 workers change from
+   2011 to 2024? Was the number of work accidents rising or falling?
+2. Work accidents and commuting accidents both dropped in 2020. Commuting accidents then rose to a
+   new high, and work accidents almost returned to their 2011 level. Suggest reasons for the drop
+   and the rebound.
+3. The death rate from work accidents was lowest in 2021 and 2022. Before concluding that work got
+   safer, what other explanations would you check?
+
+**Your answer:**
+
+
+
+# Part 2. COVID-19 as an occupational disease
+
+```{r covid}
+diseases |>
+  filter(disease %in% c("Total", "COVID-19", "COVID-19-related respiratory diseases")) |>
+  select(year, disease, cases) |>
+  pivot_wider(names_from = disease, values_from = cases, values_fill = 0) |>
+  mutate(excluding_covid = Total - `COVID-19` - `COVID-19-related respiratory diseases`)
+
+by_state |>
+  filter(office == "National", year %in% 2020:2023,
+         risk %in% c("COVID-19", "Occupational diseases excluding COVID-19")) |>
+  select(year, risk, cases, deaths)
+```
+
+**Questions**
+
+1. How many occupational disease cases were COVID-19 in 2020, and what share of occupational
+   disease deaths? Which workers do you think made up most of these cases?
+2. For COVID-19 to count as an occupational disease, the infection must be linked to work. What
+   makes that link hard to establish for an infectious disease that is also spreading in the
+   community?
+3. If you wanted a trend in occupational disease from 2011 to 2024, how would you handle 2020 to
+   2023? (Look at the README for the 2022 revision too.)
+
+**Your answer:**
+
+
+
+# Part 3. Who gets hurt
+
+```{r age-sex}
+by_age_sex |>
+  filter(year == 2024, workers > 1000) |>
+  mutate(cases_per_100 = 100 * cases / workers) |>
+  ggplot(aes(age_group, cases_per_100, fill = sex)) +
+  geom_col(position = "dodge") +
+  labs(title = "Work risks per 100 insured workers by age and sex, 2024",
+       subtitle = "All work risks, including commuting accidents and occupational diseases",
+       x = NULL, y = NULL, fill = NULL) +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+by_age_sex |>
+  group_by(year, sex) |>
+  summarise(cases_per_100 = round(100 * sum(cases) / sum(workers), 2), .groups = "drop") |>
+  pivot_wider(names_from = sex, values_from = cases_per_100)
+```
+
+**Questions**
+
+1. Which age groups have the highest rate? Why might young workers be at higher risk?
+2. Men had the higher rate until 2018, the rates were equal in 2019, and women have had the higher
+   rate since 2020. Using Part 2, suggest one reason. What other data would help you check it?
+
+**Your answer:**
+
+
+
+# Part 4. Industries and states
+
+```{r industries}
+by_activity |>
+  filter(year == 2024, risk == "Work accidents", activity != "National", !is.na(workers)) |>
+  mutate(per_100 = 100 * cases / workers) |>
+  ggplot(aes(per_100, fct_reorder(activity, per_100))) +
+  geom_col() +
+  labs(title = "Work accidents per 100 insured workers, 2024", x = NULL, y = NULL)
+
+by_state |>
+  filter(year == 2024, risk == "Work accidents", office != "National") |>
+  mutate(per_100 = round(100 * cases / workers, 2),
+         deaths_per_100000 = round(1e5 * deaths / workers, 1)) |>
+  arrange(desc(per_100)) |>
+  select(office, workers, cases, per_100, deaths, deaths_per_100000)
+```
+
+**Questions**
+
+1. Which division of economic activity has the highest work accident rate? Is it the one with the
+   most accidents?
+2. The work accident rate varies about threefold between state offices. Give two reasons that are
+   about reporting or coverage rather than about safety.
+
+**Your answer:**
+
+
+
+# Part 5. How accidents happen
+
+```{r causes}
+causes |>
+  filter(year == 2024) |>
+  group_by(risk, cause) |>
+  summarise(cases = sum(cases), .groups = "drop_last") |>
+  mutate(share = round(cases / sum(cases), 3)) |>
+  slice_max(cases, n = 5)
+
+body |>
+  filter(year == 2024) |>
+  group_by(body_region, injury) |>
+  summarise(cases = sum(cases), .groups = "drop") |>
+  ggplot(aes(injury, fct_reorder(body_region, cases, .fun = sum), fill = cases)) +
+  geom_tile() +
+  scale_fill_viridis_c(labels = scales::label_comma()) +
+  labs(title = "Work accidents by body region and type of injury, 2024", x = NULL, y = NULL,
+       fill = "Cases") +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+```
+
+**Questions**
+
+1. What are the most common causes of work accidents, and of commuting accidents?
+2. Which combination of body region and type of injury is most common? Name two controls that
+   would prevent it.
+3. "Exposure to inanimate mechanical forces" covers being struck by, caught in or cut by objects
+   and machinery. Why is it a less useful category for prevention than, say, "Falls"?
+
+**Your answer:**
+
+
+
+# Part 6. Commuting accidents and motorcycles (ENVH 460/560)
+
+```{r commuting}
+causes |>
+  filter(risk == "Commuting accidents") |>
+  group_by(year, cause) |>
+  summarise(cases = sum(cases), .groups = "drop") |>
+  filter(cause %in% c("Motorcyclist injured in transport accident", "Falls",
+                      "Car occupant injured in transport accident",
+                      "Bus occupant injured in transport accident",
+                      "Pedestrian injured in transport accident")) |>
+  ggplot(aes(year, cases, colour = cause)) +
+  geom_line() +
+  geom_point() +
+  labs(title = "Commuting accidents by cause", x = NULL, y = "Cases", colour = NULL)
+
+causes |>
+  filter(year == 2024, cause == "Motorcyclist injured in transport accident") |>
+  group_by(risk, sex) |>
+  summarise(cases = sum(cases), .groups = "drop")
+```
+
+**Questions**
+
+1. How did commuting accidents among motorcyclists change from 2019 to 2024? What changes in how
+   people travel to work, and in work itself (for example, deliveries), might explain it?
+2. Many countries do not count commuting accidents as work-related. Make the case for and against
+   counting them. Who can prevent commuting accidents, and how?
+
+**Your answer:**
+
+
+
+# Part 7. Recognised occupational diseases (ENVH 460/560)
+
+```{r diseases}
+diseases |>
+  filter(disease %in% c("Hearing loss", "Back disorders (dorsopathies)", "Pneumoconiosis",
+                        "Shoulder lesions", "Carpal tunnel syndrome")) |>
+  ggplot(aes(year, cases, colour = disease)) +
+  geom_line() +
+  geom_point(size = 1) +
+  labs(title = "Occupational disease cases, selected diagnoses", x = NULL, y = "Cases",
+       colour = NULL)
+
+diseases |>
+  filter(disease == "Total") |>
+  left_join(workers, by = "year") |>
+  mutate(per_100000_workers = round(1e5 * cases / workers, 1)) |>
+  select(year, cases, per_100000_workers)
+```
+
+**Questions**
+
+1. Occupational disease cases tripled from 2011 to 2019, and back disorders rose more than tenfold.
+   Is it more likely that disease increased, or that recognition increased? What evidence would
+   help you decide?
+2. In 2023 and 2024, IMSS accepted about 17,000 to 18,000 occupational disease cases a year among
+   about 22 million workers, roughly 80 per 100,000. Compare this with an estimate of the burden of work-related disease (for example,
+   from the WHO/ILO joint estimates module). What does the gap suggest?
+3. Pneumoconiosis cases fell sharply in 2024. Suggest explanations, and say what you would check
+   before calling it progress.
+
+**Your answer:**
+
+
+
+# Part 8. Occupations and coverage (ENVH 460/560)
+
+```{r occupations}
+occupations |>
+  filter(year == 2024, occupation != "Other, less frequent") |>
+  group_by(occupation) |>
+  summarise(cases = sum(cases),
+            women = sum(cases[sex == "Female"]) / cases,
+            fractures = sum(cases[injury == "Fractures"]) / cases,
+            .groups = "drop") |>
+  mutate(across(c(women, fractures), ~ round(.x, 2))) |>
+  arrange(desc(cases)) |>
+  head(12)
+```
+
+**Questions**
+
+1. Which occupations have the most work accidents in 2024? Which have the highest share of
+   fractures, and why might that be?
+2. These figures have no denominators by occupation. What would you need to say which occupation
+   is the most dangerous?
+3. More than half of Mexico's workers are in informal jobs and are not insured by IMSS. Which
+   occupations and industries do you think are most under-represented here? Write a short
+   paragraph for a policy maker on what these data can and cannot say about work injuries in
+   Mexico.
+
+**Your answer:**

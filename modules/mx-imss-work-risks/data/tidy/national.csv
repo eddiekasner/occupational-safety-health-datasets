@@ -1,0 +1,210 @@
+year,measure,risk,value,source_yearbook
+2011,Cases,All work risks,536322,2016
+2012,Cases,All work risks,557782,2018
+2013,Cases,All work risks,542373,2019
+2014,Cases,All work risks,527844,2020
+2015,Cases,All work risks,549542,2021
+2016,Cases,All work risks,529356,2022
+2017,Cases,All work risks,562849,2022
+2018,Cases,All work risks,555010,2022
+2019,Cases,All work risks,554858,2022
+2020,Cases,All work risks,492684,2024
+2021,Cases,All work risks,501915,2024
+2022,Cases,All work risks,522234,2024
+2023,Cases,All work risks,569766,2024
+2024,Cases,All work risks,610751,2024
+2011,Cases,Commuting accidents,110174,2016
+2012,Cases,Commuting accidents,118329,2018
+2013,Cases,Commuting accidents,120349,2019
+2014,Cases,Commuting accidents,118596,2020
+2015,Cases,Commuting accidents,112470,2021
+2016,Cases,Commuting accidents,122532,2022
+2017,Cases,Commuting accidents,138424,2022
+2018,Cases,Commuting accidents,141088,2022
+2019,Cases,Commuting accidents,141730,2022
+2020,Cases,Commuting accidents,95026,2024
+2021,Cases,Commuting accidents,109512,2024
+2022,Cases,Commuting accidents,134395,2024
+2023,Cases,Commuting accidents,157472,2024
+2024,Cases,Commuting accidents,175357,2024
+2011,Cases,Occupational diseases,4105,2016
+2012,Cases,Occupational diseases,4853,2018
+2013,Cases,Occupational diseases,6364,2019
+2014,Cases,Occupational diseases,8301,2020
+2015,Cases,Occupational diseases,12009,2021
+2016,Cases,Occupational diseases,12622,2022
+2017,Cases,Occupational diseases,14159,2022
+2018,Cases,Occupational diseases,15182,2022
+2019,Cases,Occupational diseases,13319,2022
+2020,Cases,Occupational diseases,119474,2024
+2021,Cases,Occupational diseases,86757,2024
+2022,Cases,Occupational diseases,35344,2024
+2023,Cases,Occupational diseases,18489,2024
+2024,Cases,Occupational diseases,16880,2024
+2011,Cases,Work accidents,422043,2016
+2012,Cases,Work accidents,434600,2018
+2013,Cases,Work accidents,415660,2019
+2014,Cases,Work accidents,400947,2020
+2015,Cases,Work accidents,425063,2021
+2016,Cases,Work accidents,394202,2022
+2017,Cases,Work accidents,410266,2022
+2018,Cases,Work accidents,398740,2022
+2019,Cases,Work accidents,399809,2022
+2020,Cases,Work accidents,278184,2024
+2021,Cases,Work accidents,305646,2024
+2022,Cases,Work accidents,352495,2024
+2023,Cases,Work accidents,393805,2024
+2024,Cases,Work accidents,418514,2024
+2011,Cases,Work accidents and diseases,426148,2016
+2012,Cases,Work accidents and diseases,439453,2018
+2013,Cases,Work accidents and diseases,422024,2019
+2014,Cases,Work accidents and diseases,409248,2020
+2015,Cases,Work accidents and diseases,437072,2021
+2016,Cases,Work accidents and diseases,406824,2022
+2017,Cases,Work accidents and diseases,424425,2022
+2018,Cases,Work accidents and diseases,413922,2022
+2019,Cases,Work accidents and diseases,413128,2022
+2020,Cases,Work accidents and diseases,397658,2024
+2021,Cases,Work accidents and diseases,392403,2024
+2022,Cases,Work accidents and diseases,387839,2024
+2023,Cases,Work accidents and diseases,412294,2024
+2024,Cases,Work accidents and diseases,435394,2024
+2011,Companies,,821572,2016
+2013,Companies,,833105,2019
+2014,Companies,,837502,2020
+2015,Companies,,866055,2021
+2016,Companies,,895829,2022
+2017,Companies,,928946,2022
+2018,Companies,,961196,2022
+2019,Companies,,986574,2022
+2020,Companies,,999254,2024
+2021,Companies,,1025010,2024
+2022,Companies,,1064182,2024
+2023,Companies,,1071503,2024
+2024,Companies,,1069403,2024
+2011,Deaths,All work risks,1578,2016
+2012,Deaths,All work risks,1534,2018
+2013,Deaths,All work risks,1314,2019
+2014,Deaths,All work risks,1330,2020
+2015,Deaths,All work risks,1444,2021
+2016,Deaths,All work risks,1408,2022
+2017,Deaths,All work risks,1398,2022
+2018,Deaths,All work risks,1381,2022
+2019,Deaths,All work risks,1348,2022
+2020,Deaths,All work risks,1667,2024
+2021,Deaths,All work risks,1526,2024
+2022,Deaths,All work risks,1016,2024
+2023,Deaths,All work risks,1090,2024
+2024,Deaths,All work risks,1274,2024
+2011,Deaths,Commuting accidents,357,2016
+2012,Deaths,Commuting accidents,382,2018
+2013,Deaths,Commuting accidents,332,2019
+2014,Deaths,Commuting accidents,318,2020
+2015,Deaths,Commuting accidents,311,2021
+2016,Deaths,Commuting accidents,399,2022
+2017,Deaths,Commuting accidents,405,2023
+2018,Deaths,Commuting accidents,419,2023
+2019,Deaths,Commuting accidents,409,2023
+2020,Deaths,Commuting accidents,319,2024
+2021,Deaths,Commuting accidents,273,2024
+2022,Deaths,Commuting accidents,286,2024
+2023,Deaths,Commuting accidents,326,2024
+2024,Deaths,Commuting accidents,375,2024
+2011,Deaths,Occupational diseases,6,2016
+2012,Deaths,Occupational diseases,8,2018
+2013,Deaths,Occupational diseases,7,2019
+2014,Deaths,Occupational diseases,28,2020
+2015,Deaths,Occupational diseases,26,2021
+2016,Deaths,Occupational diseases,23,2022
+2017,Deaths,Occupational diseases,19,2023
+2018,Deaths,Occupational diseases,27,2023
+2019,Deaths,Occupational diseases,33,2023
+2020,Deaths,Occupational diseases,682,2024
+2021,Deaths,Occupational diseases,640,2024
+2022,Deaths,Occupational diseases,120,2024
+2023,Deaths,Occupational diseases,31,2024
+2024,Deaths,Occupational diseases,40,2024
+2011,Deaths,Work accidents,1215,2016
+2012,Deaths,Work accidents,1144,2018
+2013,Deaths,Work accidents,975,2019
+2014,Deaths,Work accidents,984,2020
+2015,Deaths,Work accidents,1107,2021
+2016,Deaths,Work accidents,986,2022
+2017,Deaths,Work accidents,974,2023
+2018,Deaths,Work accidents,935,2023
+2019,Deaths,Work accidents,906,2023
+2020,Deaths,Work accidents,666,2024
+2021,Deaths,Work accidents,613,2024
+2022,Deaths,Work accidents,610,2024
+2023,Deaths,Work accidents,733,2024
+2024,Deaths,Work accidents,859,2024
+2011,Permanent incapacities,All work risks,26916,2016
+2012,Permanent incapacities,All work risks,27430,2018
+2013,Permanent incapacities,All work risks,28776,2019
+2014,Permanent incapacities,All work risks,28430,2020
+2015,Permanent incapacities,All work risks,32650,2021
+2016,Permanent incapacities,All work risks,32216,2022
+2017,Permanent incapacities,All work risks,34270,2022
+2018,Permanent incapacities,All work risks,38209,2022
+2019,Permanent incapacities,All work risks,38802,2022
+2020,Permanent incapacities,All work risks,34834,2024
+2021,Permanent incapacities,All work risks,35962,2024
+2022,Permanent incapacities,All work risks,36895,2024
+2023,Permanent incapacities,All work risks,38783,2024
+2024,Permanent incapacities,All work risks,44509,2024
+2011,Permanent incapacities,Commuting accidents,2521,2016
+2012,Permanent incapacities,Commuting accidents,2942,2018
+2013,Permanent incapacities,Commuting accidents,3151,2019
+2014,Permanent incapacities,Commuting accidents,3216,2020
+2015,Permanent incapacities,Commuting accidents,3676,2021
+2016,Permanent incapacities,Commuting accidents,3791,2022
+2017,Permanent incapacities,Commuting accidents,4414,2022
+2018,Permanent incapacities,Commuting accidents,5159,2022
+2019,Permanent incapacities,Commuting accidents,5724,2022
+2020,Permanent incapacities,Commuting accidents,5489,2024
+2021,Permanent incapacities,Commuting accidents,5318,2024
+2022,Permanent incapacities,Commuting accidents,5940,2024
+2023,Permanent incapacities,Commuting accidents,6364,2024
+2024,Permanent incapacities,Commuting accidents,7552,2024
+2011,Permanent incapacities,Occupational diseases,7093,2016
+2012,Permanent incapacities,Occupational diseases,5919,2018
+2013,Permanent incapacities,Occupational diseases,5688,2019
+2014,Permanent incapacities,Occupational diseases,6010,2020
+2015,Permanent incapacities,Occupational diseases,7074,2021
+2016,Permanent incapacities,Occupational diseases,7343,2022
+2017,Permanent incapacities,Occupational diseases,8295,2022
+2018,Permanent incapacities,Occupational diseases,10208,2022
+2019,Permanent incapacities,Occupational diseases,9651,2022
+2020,Permanent incapacities,Occupational diseases,8274,2024
+2021,Permanent incapacities,Occupational diseases,9656,2024
+2022,Permanent incapacities,Occupational diseases,9312,2024
+2023,Permanent incapacities,Occupational diseases,10653,2024
+2024,Permanent incapacities,Occupational diseases,11875,2024
+2011,Permanent incapacities,Work accidents,17302,2016
+2012,Permanent incapacities,Work accidents,18569,2018
+2013,Permanent incapacities,Work accidents,19937,2019
+2014,Permanent incapacities,Work accidents,19204,2020
+2015,Permanent incapacities,Work accidents,21900,2021
+2016,Permanent incapacities,Work accidents,21082,2022
+2017,Permanent incapacities,Work accidents,21561,2022
+2018,Permanent incapacities,Work accidents,22842,2022
+2019,Permanent incapacities,Work accidents,23427,2022
+2020,Permanent incapacities,Work accidents,21071,2024
+2021,Permanent incapacities,Work accidents,20988,2024
+2022,Permanent incapacities,Work accidents,21643,2024
+2023,Permanent incapacities,Work accidents,21766,2024
+2024,Permanent incapacities,Work accidents,25082,2024
+2011,Workers,,14971173,2016
+2012,Workers,,15671553,2018
+2013,Workers,,16224336,2019
+2014,Workers,,16803995,2020
+2015,Workers,,17533488,2021
+2016,Workers,,18206112,2022
+2017,Workers,,18740283,2022
+2018,Workers,,19516567,2022
+2019,Workers,,19974508,2022
+2020,Workers,,19457040,2024
+2021,Workers,,19843230,2024
+2022,Workers,,20717849,2024
+2023,Workers,,21467972,2024
+2024,Workers,,21905614,2024
