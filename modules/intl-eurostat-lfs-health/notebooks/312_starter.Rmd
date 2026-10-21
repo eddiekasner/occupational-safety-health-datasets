@@ -1,0 +1,175 @@
+---
+title: "EU Labour Force Survey, Accidents and Work-Related Health Problems: Starter Notebook"
+subtitle: "ENVH 312"
+author: "Your name"
+output:
+  html_document:
+    toc: true
+    df_print: paged
+---
+
+In 2007, 2013 and 2020, the EU Labour Force Survey asked workers in every European country
+whether they had an accident at work in the past year, whether work had caused or worsened a
+health problem, and what risk factors they were exposed to at work. This notebook uses Eurostat's
+40 tables from those surveys. Read the module [README](../README.md) and
+[data dictionary](../data_dictionary.md) first.
+
+**How to use this notebook**
+
+- Run each code chunk in order (the green arrow in RStudio, or Ctrl/Cmd + Shift + Enter).
+- Answer the questions under each **Your answer** heading.
+- When you are done, click **Knit** to produce an HTML report to submit.
+
+# Part 0. Load the data
+
+```{r setup, message = FALSE}
+library(readr)
+library(dplyr)
+library(tidyr)
+library(ggplot2)
+library(forcats)
+
+base <- "https://raw.githubusercontent.com/eddiekasner/occupational-safety-health-datasets/main/modules/intl-eurostat-lfs-health/data"
+read_module <- function(folder, name, ...) {
+  local <- file.path("..", "data", folder, name)
+  read_csv(if (file.exists(local)) local else file.path(base, folder, name), show_col_types = FALSE,
+           ...)
+}
+
+# The 40 Eurostat tables, and the values from each
+tables <- read_module("tidy", "tables.csv")
+accidents <- read_module("tidy", "accidents.csv.gz")
+health <- read_module("tidy", "health_problems.csv.gz")
+exposures <- read_module("tidy", "exposures.csv.gz")
+
+# Countries only (no EU or euro area aggregates)
+aggregates <- c("EU27_2020", "EU28", "EA19")
+```
+
+Every value is a **percentage**. Each table repeats the headline figures, so always pick one
+`table` at a time, and use the age group `15-64`, which every table has. The `flag` column marks
+values with low reliability (`u`) or breaks in series (`b`).
+
+# Part 1. How common are accidents and health problems?
+
+```{r headline}
+bind_rows(accidents |> filter(table == "hsw_ac1"), health |> filter(table == "hsw_pb1")) |>
+  filter(geo == "EU27_2020", age == "15-64", category_code == "TOTAL") |>
+  select(measure, year, sex, value) |>
+  pivot_wider(names_from = sex, values_from = value)
+```
+
+**Questions**
+
+1. About what percentage of EU workers report an accident at work in a year, and a work-related
+   health problem? Which is more common?
+2. Men report more accidents and women more health problems. Suggest reasons, thinking about the
+   jobs men and women do.
+3. Administrative statistics count only accidents that lead to more than three days off work (see
+   the ESAW module). Why would a survey find more accidents than an employer reporting system?
+
+**Your answer:**
+
+
+
+# Part 2. Comparing countries
+
+```{r countries}
+accidents |>
+  filter(table == "hsw_ac1", year == 2020, sex == "Total", age == "15-64",
+         category_code == "TOTAL", !geo %in% aggregates) |>
+  ggplot(aes(value, fct_reorder(country, value), fill = flag == "u")) +
+  geom_col() +
+  scale_fill_manual(values = c(`FALSE` = "grey40", `TRUE` = "orange"),
+                    labels = c("Reliable", "Low reliability"), na.translate = FALSE) +
+  labs(title = "People reporting an accident at work in the past 12 months, 2020",
+       x = "Percentage of people working in the past 12 months", y = NULL, fill = NULL)
+```
+
+**Questions**
+
+1. Which countries report the most and the fewest accidents at work? How many times higher is the
+   highest than the lowest?
+2. Is it plausible that work in Finland is many times more dangerous than in Lithuania? List
+   reasons why people in some countries might be more likely to report an accident in a survey.
+3. What would you need to know before using these figures to rank countries by safety?
+
+**Your answer:**
+
+
+
+# Part 3. Activities and occupations
+
+```{r activities}
+accidents |>
+  filter(table == "hsw_ac5b", geo == "EU27_2020", sex == "Total", age == "15-64") |>
+  select(category, year, value) |>
+  pivot_wider(names_from = year, values_from = value)
+
+health |>
+  filter(table == "hsw_pb7", geo == "EU27_2020", sex == "Total", age == "15-64") |>
+  select(category, year, value) |>
+  pivot_wider(names_from = year, values_from = value)
+```
+
+**Questions**
+
+1. Which activity has the highest accident rate? Which occupation group has the most work-related
+   health problems?
+2. The activity and occupation groups are very broad. What does grouping so many jobs together
+   hide?
+
+**Your answer:**
+
+
+
+# Part 4. Types of health problem
+
+```{r health-types}
+health |>
+  filter(table == "hsw_pb5", geo == "EU27_2020", sex != "Total", age == "15-64",
+         year == 2020, unit == "PC_PER_HPB") |>
+  ggplot(aes(value, fct_reorder(category, value), fill = sex)) +
+  geom_col(position = "dodge") +
+  labs(title = "Most serious work-related health problem, EU, 2020",
+       x = "Percentage of people with a work-related health problem", y = NULL, fill = NULL)
+
+health |>
+  filter(table == "hsw_pb3", geo == "EU27_2020", age == "15-64", unit == "PC_PER_HPB") |>
+  select(category, year, value) |>
+  pivot_wider(names_from = year, values_from = value)
+```
+
+**Questions**
+
+1. What are the two most common types of work-related health problem? Do men and women differ?
+2. About what share of people with a work-related health problem were off work for a month or
+   more? What does that suggest about the cost of these problems?
+3. Most of these health problems are not recognised occupational diseases. Why might a
+   musculoskeletal disorder that a worker attributes to work never be compensated?
+
+**Your answer:**
+
+
+
+# Part 5. Exposure to risk factors
+
+```{r exposures}
+exposures |>
+  filter(table %in% c("hsw_exp3", "hsw_exp4"), geo == "EU27_2020", sex != "Total",
+         age == "15-64", year == 2020) |>
+  ggplot(aes(value, fct_reorder(category, value), fill = sex)) +
+  geom_col(position = "dodge") +
+  facet_wrap(~ measure, ncol = 1, scales = "free_y") +
+  labs(title = "Main risk factor at work, EU, 2020", x = "Percentage of people working",
+       y = NULL, fill = NULL)
+```
+
+**Questions**
+
+1. What is the most common main risk factor for physical health, and for mental well-being? Where
+   do men and women differ most?
+2. Time pressure or overload of work is the most common main risk factor for mental well-being.
+   Which jobs would you expect to have the most, and what organisational changes could reduce it?
+
+**Your answer:**

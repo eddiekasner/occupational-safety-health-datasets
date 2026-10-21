@@ -23,6 +23,7 @@ Each module gives students:
 | [Brazil SINAN work accidents and work-related diseases](modules/br-sinan-work-accidents/) | Brazil | Ministry of Health (DATASUS) | Ready |
 | [Canada AWCBC work injury, disease and fatality statistics](modules/ca-awcbc-nwisp/) | Canada | AWCBC | Ready |
 | [Eurostat accidents at work (ESAW)](modules/intl-eurostat-esaw/) | Europe | Eurostat | Ready |
+| [Eurostat Labour Force Survey: self-reported accidents, work-related health problems and exposures](modules/intl-eurostat-lfs-health/) | Europe | Eurostat | Ready for review |
 | [Finland occupational accident statistics: accidents, causes and rates](modules/fi-statfin-work-accidents/) | Finland | Statistics Finland | Ready |
 | [France work accidents, commuting accidents and occupational diseases by sector](modules/fr-ameli-occupational-risks/) | France | Assurance Maladie | Ready |
 | [Global Burden of Disease: occupational risks](modules/intl-ihme-gbd-occupational/) (students download the data from IHME) | International | IHME | Draft (not yet tested on real data) |
@@ -31,7 +32,7 @@ Each module gives students:
 | [Italy INAIL work injury reports and occupational disease claims](modules/it-inail-work-injuries/) | Italy | INAIL | Ready |
 | [Japan fatal accident database: every work-related death since 1991](modules/jp-mhlw-fatal-accidents/) | Japan | MHLW | Ready |
 | [Korea industrial accidents: microdata since 2017, national totals since 1964, and accident case descriptions](modules/kr-kosha-industrial-accidents/) | South Korea | KOSHA / Ministry of Employment and Labor | Ready |
-| [Mexico IMSS work risks: work and commuting accidents and occupational diseases, including COVID-19](modules/mx-imss-work-risks/) | Mexico | IMSS | Ready for review |
+| [Mexico IMSS work risks: work and commuting accidents and occupational diseases, including COVID-19](modules/mx-imss-work-risks/) | Mexico | IMSS | Ready |
 | [MSHA mine safety: accidents, injury rates and violations](modules/us-msha-mine-safety/) | US | MSHA | Ready |
 | [OSHA Chemical Exposure Health Data](modules/us-osha-chemical-exposure/) | US | OSHA | Ready |
 | [OSHA enforcement: inspections, violations, cited standards and accident investigations](modules/us-osha-enforcement/) | US | OSHA | Ready |
@@ -89,6 +90,7 @@ modules/
   fr-ameli-occupational-risks/  French accidents and occupational diseases by detailed sector, with causes and costs
   hk-labour-osh-statistics/     Hong Kong industrial accidents, occupational injuries and diseases since 1999
   intl-eurostat-esaw/           Eurostat accidents at work in Europe
+  intl-eurostat-lfs-health/     self-reported accidents, health problems and exposures in Europe (2007, 2013, 2020)
   intl-ihme-gbd-occupational/   GBD deaths and DALYs from occupational risks (download from IHME)
   intl-ilostat-osh/             ILO injury and labour inspection statistics by country
   intl-safework-australia/      Australian work-related deaths and workers' compensation claims
