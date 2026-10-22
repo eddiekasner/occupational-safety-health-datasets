@@ -1,0 +1,53 @@
+variable,spanish,english,grouping
+sector,Agricultura y Pesca,Agriculture and fishing,Broad groups
+sector,Minería,Mining,Broad groups
+sector,Industria Manufacturera,Manufacturing,Broad groups
+sector,"Electricidad, Gas y Agua","Electricity, gas and water",Broad groups
+sector,Construcción,Construction,Broad groups
+sector,Comercio,Commerce,Broad groups
+sector,Transportes y Comunicaciones,Transport and communications,Broad groups
+sector,Servicios Financieros,Financial services,Broad groups
+sector,Servicios Comunales y Personales,"Community, social and personal services",Broad groups
+sector,Servicios,Services,Broad groups
+sector,Enseñanza,Education,Broad groups
+sector,Salud,Health,Broad groups
+sector,Actividades no Especificadas,Not specified,Broad groups
+sector,"Agricultura, ganadería, caza y silvicultura","Agriculture, livestock, hunting and forestry",Sections
+sector,"Agricultura, caza, silvicultura y pesca","Agriculture, hunting, forestry and fishing",Sections
+sector,Pesca,Fishing,Sections
+sector,Explotación de minas y canteras,Mining and quarrying,Sections
+sector,Industrias manufactureras,Manufacturing,Sections
+sector,"Suministro de electricidad, gas y agua","Electricity, gas and water supply",Sections
+sector,"Comercio, reparación de vehículos y otros","Wholesale and retail trade, repair of vehicles",Sections
+sector,Hoteles y restaurantes,Hotels and restaurants,Sections
+sector,"Transporte, almacenamiento y comunicaciones","Transport, storage and communications",Sections
+sector,"Transporte, almacenaje y comunicaciones","Transport, storage and communications",Sections
+sector,Intermediación financiera,Financial intermediation,Sections
+sector,"Actividades inmobiliarias, empresariales y de alquiler","Real estate, renting and business activities",Sections
+sector,Administración pública y defensa; planes de seguridad social,"Public administration and defence, compulsory social security",Sections
+sector,Servicios sociales y de salud,Health and social work,Sections
+sector,"Otras actividades de servicios comunitarios, sociales y personales","Other community, social and personal services",Sections
+sector,Hogares privados con servicio doméstico,Private households with domestic staff,Sections
+sector,Organizaciones y órganos extraterritoriales,Extraterritorial organizations,Sections
+sector,Sin Clasificar,Not classified,Sections
+sector,No informado,Unknown,Sections
+sector,Sin información,Unknown,Sections
+region,De Arica y Parinacota,Arica y Parinacota,
+region,De Tarapacá,Tarapacá,
+region,De Antofagasta,Antofagasta,
+region,De Atacama,Atacama,
+region,De Coquimbo,Coquimbo,
+region,De Valparaíso,Valparaíso,
+region,Metropolitana de Santiago,Santiago Metropolitan,
+region,Del Libertador Gral. Bdo. O'Higgins,O'Higgins,
+region,Del Maule,Maule,
+region,De Ñuble,Ñuble,
+region,Del Biobío,Biobío,
+region,De La Araucanía,La Araucanía,
+region,De Los Ríos,Los Ríos,
+region,De Los Lagos,Los Lagos,
+region,Aysén del Gral. Carlos Ibáñez del Campo,Aysén,
+region,De Magallanes y la Antártica Chilena,Magallanes,
+region,Extranjero,Abroad,
+region,Sin información,Unknown,
+region,Aisén del Gral. Carlos Ibáñez del Campo,Aysén,

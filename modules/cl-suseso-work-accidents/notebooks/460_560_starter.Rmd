@@ -1,0 +1,254 @@
+---
+title: "Chile Work Accidents and Occupational Diseases (SUSESO): Starter Notebook"
+subtitle: "ENVH 460/560"
+author: "Your name"
+output:
+  html_document:
+    toc: true
+    df_print: paged
+---
+
+Chile's Law 16.744 makes employers insure their workers against work accidents, commuting
+accidents and occupational diseases, with one of three private mutual insurers (ACHS, MUSEG, IST)
+or the public Instituto de Seguridad Laboral (ISL). The Superintendencia de Seguridad Social
+(SUSESO) publishes their statistics each year. This notebook uses the tables of SUSESO's 2014 to
+2025 yearbooks. Read the module [README](../README.md) and [data dictionary](../data_dictionary.md)
+first.
+
+**How to use this notebook**
+
+- Run each code chunk in order (the green arrow in RStudio, or Ctrl/Cmd + Shift + Enter).
+- Answer the questions under each **Your answer** heading.
+- When you are done, click **Knit** to produce an HTML report to submit.
+
+# Part 0. Load the data
+
+```{r setup, message = FALSE}
+library(readr)
+library(dplyr)
+library(tidyr)
+library(ggplot2)
+library(forcats)
+
+base <- "https://raw.githubusercontent.com/eddiekasner/occupational-safety-health-datasets/main/modules/cl-suseso-work-accidents/data"
+read_module <- function(folder, name, ...) {
+  local <- file.path("..", "data", folder, name)
+  read_csv(if (file.exists(local)) local else file.path(base, folder, name), show_col_types = FALSE,
+           ...)
+}
+
+national <- read_module("tidy", "national.csv")
+sectors <- read_module("tidy", "by_sector.csv")
+regions <- read_module("tidy", "by_region.csv")
+size <- read_module("tidy", "by_size.csv")
+by_sex <- read_module("tidy", "by_sex.csv")
+```
+
+**Mutual insurers** are ACHS, MUSEG and IST together; **Total** adds the ISL. Accident rates are
+published for the mutual insurers only; death rates for all insurers.
+
+# Part 1. Fifteen years of work accidents
+
+```{r long-view}
+national |>
+  filter(case_type == "Work accidents",
+         (measure == "Accidents per 100 workers" & insurer == "Mutual insurers") |
+           (measure == "Deaths per 100,000 workers" & insurer == "Total")) |>
+  ggplot(aes(year, value)) +
+  geom_line() +
+  geom_point(size = 1) +
+  facet_wrap(~ measure, scales = "free_y") +
+  expand_limits(y = 0) +
+  labs(title = "Work accidents in Chile (accident rate: mutual insurers; death rate: all insurers)",
+       x = NULL, y = NULL)
+```
+
+**Questions**
+
+1. How much did the work accident rate fall between 2010 and 2025? Did the death rate fall as
+   steadily?
+2. What happened in 2020? Why did the accident rate fall that year?
+3. Give three reasons, other than safer work, why a reported accident rate might fall.
+
+**Your answer:**
+
+
+
+# Part 2. COVID-19 as an occupational disease
+
+```{r covid}
+national |>
+  filter(measure == "Cases", insurer == "Mutual insurers",
+         case_type %in% c("Occupational diseases", "Occupational diseases (excluding COVID-19)")) |>
+  ggplot(aes(year, value, colour = case_type)) +
+  geom_line() +
+  geom_point(size = 1) +
+  expand_limits(y = 0) +
+  labs(title = "Occupational diseases, mutual insurers", x = NULL, y = "Cases", colour = NULL) +
+  theme(legend.position = "bottom")
+```
+
+**Questions**
+
+1. How many occupational diseases did the mutual insurers accept each year before 2020, and in
+   2020 to 2023? What explains the jump?
+2. The 2025 yearbook leaves COVID-19 out. Using the two series for 2021 to 2024, roughly how many
+   of the cases in 2022 were COVID-19?
+3. Should a disease caught from the public, such as COVID-19 in a health worker, count as an
+   occupational disease? What would you need to know about a case to decide?
+
+**Your answer:**
+
+
+
+# Part 3. Commuting accidents and sex
+
+```{r commuting}
+by_sex |>
+  filter(by == "Insurer", insurer == "Total", year == 2025, measure == "Cases",
+         sex %in% c("Female", "Male")) |>
+  select(case_type, sex, value) |>
+  pivot_wider(names_from = sex, values_from = value) |>
+  mutate(female_share = round(Female / (Female + Male), 2))
+```
+
+**Questions**
+
+1. What share of work accidents, commuting accidents and occupational diseases happened to women
+   in 2025?
+2. Women had more commuting accidents than men, but far fewer work accidents. Suggest reasons,
+   about the jobs men and women do and about how they travel.
+3. Chile compensates commuting accidents as work-related. Who can prevent them?
+
+**Your answer:**
+
+
+
+# Part 4. Sectors
+
+```{r sectors}
+sectors |>
+  filter(year %in% 2023:2025, measure == "Deaths per 100,000 workers", case_type == "Work accidents",
+         insurer == "Total", sector != "Total") |>
+  group_by(sector) |>
+  summarise(mean_2023_2025 = round(mean(value), 1), years = n()) |>
+  ggplot(aes(mean_2023_2025, fct_reorder(sector, mean_2023_2025))) +
+  geom_col() +
+  labs(title = "Deaths from work accidents per 100,000 workers, mean of 2023 to 2025",
+       x = NULL, y = NULL)
+```
+
+**Questions**
+
+1. Which sectors have the highest death rates? Name the main hazards behind deaths in two of
+   them.
+2. Why does this chunk average three years instead of showing one?
+
+**Your answer:**
+
+
+
+# Part 5. Regions
+
+```{r regions}
+regions |>
+  filter(year == 2024, insurer == "Mutual insurers", region != "Total",
+         measure %in% c("Protected workers", "Cases", "Deaths"),
+         is.na(case_type) | case_type == "Work accidents") |>
+  select(region, measure, value) |>
+  pivot_wider(names_from = measure, values_from = value) |>
+  filter(!is.na(`Protected workers`)) |>
+  mutate(accidents_per_100 = round(100 * Cases / `Protected workers`, 2),
+         deaths_per_100000 = round(1e5 * Deaths / `Protected workers`, 1)) |>
+  arrange(desc(deaths_per_100000))
+```
+
+**Questions**
+
+1. Which regions have the highest death rates in 2024? Which have the most deaths? Are they the
+   same regions?
+2. The northern regions (Antofagasta, Atacama, Tarapacá) are mining regions. Do their rates of
+   accidents and deaths look like those of the mining sector in Part 4?
+3. A region with few protected workers can have a high rate from one or two deaths. How would
+   you judge whether a region's high rate is real?
+
+**Your answer:**
+
+
+
+# Part 6. Insurers (ENVH 460/560)
+
+```{r insurers}
+national |>
+  filter(measure == "Accidents per 100 workers", case_type == "Work accidents",
+         insurer != "Mutual insurers") |>
+  ggplot(aes(year, value, colour = insurer)) +
+  geom_line() +
+  geom_point(size = 1) +
+  expand_limits(y = 0) +
+  labs(title = "Work accidents per 100 protected workers, by mutual insurer", x = NULL, y = NULL,
+       colour = NULL)
+```
+
+**Questions**
+
+1. Which mutual insurer has the highest accident rate? Has the ranking changed over time?
+2. The insurers compete for employers and their workers differ. Give two explanations for the
+   differences that are about the workers they insure, and two that are about how cases are
+   reported and accepted.
+3. How could SUSESO compare the insurers fairly? What would you adjust for?
+
+**Your answer:**
+
+
+
+# Part 7. Size of employer (ENVH 460/560)
+
+```{r size}
+size |>
+  filter(year == 2023, insurer == "Mutual insurers",
+         measure %in% c("Protected workers", "Cases", "Mean days lost per case"),
+         is.na(case_type) | case_type == "Work accidents", workers != "Total") |>
+  select(workers, measure, value) |>
+  pivot_wider(names_from = measure, values_from = value) |>
+  arrange(as.integer(sub("\\D.*", "", workers))) |>  # by the first number; Unknown last
+  mutate(workers = fct_inorder(workers),
+         accidents_per_100 = round(100 * Cases / `Protected workers`, 2),
+         `Mean days lost per case` = round(`Mean days lost per case`, 1))
+```
+
+**Questions**
+
+1. How does the accident rate change with the size of employer? How does the mean number of days
+   lost per case change?
+2. If small employers report fewer minor accidents, what would you expect to see in the mean days
+   lost per case? Does the table fit that explanation?
+3. What other data would help you tell under-reporting apart from safer work in small employers?
+
+**Your answer:**
+
+
+
+# Part 8. Changing definitions (ENVH 460/560)
+
+```{r definitions}
+national |>
+  filter(year %in% 2021:2024, measure == "Cases",
+         insurer %in% c("Mutual insurers", "Total")) |>
+  select(year, case_type, insurer, value, source_yearbook) |>
+  arrange(case_type, insurer, year)
+```
+
+**Questions**
+
+1. From the 2025 yearbook, SUSESO's accident tables include the ISL (`Total`). By how much does
+   adding the ISL change the number of work accidents? Why should you not compare a `Mutual
+   insurers` figure from one year with a `Total` from another?
+2. The 2025 yearbook also counts protected employment relationships instead of protected workers
+   (one person can hold several jobs). Would that make its accident rates higher or lower than
+   before? Why?
+3. Compare Chile's death rate from work accidents with another country in this repository (for
+   example the Argentina SRT or Mexico IMSS modules). What differences in coverage and definitions
+   should you check first?
+
+**Your answer:**

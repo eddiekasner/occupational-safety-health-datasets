@@ -1,0 +1,1629 @@
+year,insurer,sex,case_type,measure,value,source_yearbook
+2010,ACHS,Total,,Protected workers,1972760,2014
+2010,ACHS,Total,Commuting accidents,Accidents per 100 workers,1.26,2014
+2010,ACHS,Total,Commuting accidents,Cases,24883,2014
+2010,ACHS,Total,Commuting accidents,Deaths,63,2014
+2010,ACHS,Total,Commuting accidents,Mean days lost per case,17.61,2014
+2010,ACHS,Total,Occupational diseases,Cases,2383,2014
+2010,ACHS,Total,Occupational diseases,Mean days lost per case,43.73,2014
+2010,ACHS,Total,Work accidents,Accidents per 100 workers,5.35,2014
+2010,ACHS,Total,Work accidents,Cases,105625,2014
+2010,ACHS,Total,Work accidents,Deaths,100,2014
+2010,ACHS,Total,Work accidents,Mean days lost per case,13.7,2014
+2010,ACHS,Total,Work and commuting accidents,Accidents per 100 workers,6.619999999999999,2014
+2010,ACHS,Total,Work and commuting accidents,Cases,130508,2014
+2010,ACHS,Total,Work and commuting accidents,Deaths,163,2014
+2010,ACHS,Total,Work and commuting accidents,Mean days lost per case,14.44,2014
+2010,ISL,Total,,Protected workers,1052731,2014
+2010,ISL,Total,Commuting accidents,Deaths,20,2014
+2010,ISL,Total,Work accidents,Deaths,100,2014
+2010,ISL,Total,Work and commuting accidents,Deaths,120,2014
+2010,IST,Total,,Protected workers,530256,2014
+2010,IST,Total,Commuting accidents,Accidents per 100 workers,1.32,2014
+2010,IST,Total,Commuting accidents,Cases,6994,2014
+2010,IST,Total,Commuting accidents,Deaths,20,2014
+2010,IST,Total,Commuting accidents,Mean days lost per case,17.07,2014
+2010,IST,Total,Occupational diseases,Cases,1753,2014
+2010,IST,Total,Occupational diseases,Mean days lost per case,15.83,2014
+2010,IST,Total,Work accidents,Accidents per 100 workers,6.140000000000001,2014
+2010,IST,Total,Work accidents,Cases,32565,2014
+2010,IST,Total,Work accidents,Deaths,34,2014
+2010,IST,Total,Work accidents,Mean days lost per case,13.67,2014
+2010,IST,Total,Work and commuting accidents,Accidents per 100 workers,7.46,2014
+2010,IST,Total,Work and commuting accidents,Cases,39559,2014
+2010,IST,Total,Work and commuting accidents,Deaths,54,2014
+2010,IST,Total,Work and commuting accidents,Mean days lost per case,14.27,2014
+2010,MUSEG,Total,,Protected workers,1300526,2014
+2010,MUSEG,Total,Commuting accidents,Accidents per 100 workers,1.27,2014
+2010,MUSEG,Total,Commuting accidents,Cases,16492,2014
+2010,MUSEG,Total,Commuting accidents,Deaths,36,2014
+2010,MUSEG,Total,Commuting accidents,Mean days lost per case,19.25,2014
+2010,MUSEG,Total,Occupational diseases,Cases,1172,2014
+2010,MUSEG,Total,Occupational diseases,Mean days lost per case,37.87,2014
+2010,MUSEG,Total,Work accidents,Accidents per 100 workers,5.2,2014
+2010,MUSEG,Total,Work accidents,Cases,67579,2014
+2010,MUSEG,Total,Work accidents,Deaths,112,2014
+2010,MUSEG,Total,Work accidents,Mean days lost per case,15.19,2014
+2010,MUSEG,Total,Work and commuting accidents,Accidents per 100 workers,6.460000000000001,2014
+2010,MUSEG,Total,Work and commuting accidents,Cases,84071,2014
+2010,MUSEG,Total,Work and commuting accidents,Deaths,148,2014
+2010,MUSEG,Total,Work and commuting accidents,Mean days lost per case,15.99,2014
+2010,Mutual insurers,Total,,Protected workers,3803542,2014
+2010,Mutual insurers,Total,Commuting accidents,Accidents per 100 workers,1.27,2014
+2010,Mutual insurers,Total,Commuting accidents,Cases,48369,2014
+2010,Mutual insurers,Total,Commuting accidents,Deaths,119,2014
+2010,Mutual insurers,Total,Commuting accidents,Mean days lost per case,18.09,2014
+2010,Mutual insurers,Total,Occupational diseases,Cases,5308,2014
+2010,Mutual insurers,Total,Occupational diseases,Mean days lost per case,33.22,2014
+2010,Mutual insurers,Total,Work accidents,Accidents per 100 workers,5.41,2014
+2010,Mutual insurers,Total,Work accidents,Cases,205769,2014
+2010,Mutual insurers,Total,Work accidents,Deaths,246,2014
+2010,Mutual insurers,Total,Work accidents,Mean days lost per case,14.18,2014
+2010,Mutual insurers,Total,Work and commuting accidents,Accidents per 100 workers,6.68,2014
+2010,Mutual insurers,Total,Work and commuting accidents,Cases,254138,2014
+2010,Mutual insurers,Total,Work and commuting accidents,Deaths,365,2014
+2010,Mutual insurers,Total,Work and commuting accidents,Mean days lost per case,14.93,2014
+2010,Total,Total,,Protected workers,4856273,2014
+2010,Total,Total,Commuting accidents,Deaths,139,2014
+2010,Total,Total,Work accidents,Deaths,346,2014
+2010,Total,Total,Work and commuting accidents,Deaths,485,2014
+2011,ACHS,Total,,Protected workers,2082000,2015
+2011,ACHS,Total,Commuting accidents,Accidents per 100 workers,1.2970000000000002,2015
+2011,ACHS,Total,Commuting accidents,Cases,27007,2015
+2011,ACHS,Total,Commuting accidents,Days lost,452467,2015
+2011,ACHS,Total,Commuting accidents,Deaths,59,2015
+2011,ACHS,Total,Commuting accidents,Mean days lost per case,16.75369348687377,2015
+2011,ACHS,Total,Occupational diseases,Cases,2788,2015
+2011,ACHS,Total,Occupational diseases,Days lost,128215,2015
+2011,ACHS,Total,Occupational diseases,Mean days lost per case,45.988163558106166,2015
+2011,ACHS,Total,Work accidents,Accidents per 100 workers,5.346,2015
+2011,ACHS,Total,Work accidents,Cases,111312,2015
+2011,ACHS,Total,Work accidents,Days lost,1509901,2015
+2011,ACHS,Total,Work accidents,Deaths,75,2015
+2011,ACHS,Total,Work accidents,Mean days lost per case,13.56458423170907,2015
+2011,ACHS,Total,Work and commuting accidents,Accidents per 100 workers,6.643000000000001,2015
+2011,ACHS,Total,Work and commuting accidents,Cases,138319,2015
+2011,ACHS,Total,Work and commuting accidents,Days lost,1962368,2015
+2011,ACHS,Total,Work and commuting accidents,Deaths,134,2015
+2011,ACHS,Total,Work and commuting accidents,Mean days lost per case,14.187262776625047,2015
+2011,ISL,Total,,Protected workers,1011065,2015
+2011,ISL,Total,Commuting accidents,Deaths,34,2015
+2011,ISL,Total,Work accidents,Deaths,95,2015
+2011,ISL,Total,Work and commuting accidents,Deaths,129,2015
+2011,IST,Total,,Protected workers,522621,2015
+2011,IST,Total,Commuting accidents,Accidents per 100 workers,1.31,2015
+2011,IST,Total,Commuting accidents,Cases,6847,2015
+2011,IST,Total,Commuting accidents,Days lost,110513,2015
+2011,IST,Total,Commuting accidents,Deaths,17,2015
+2011,IST,Total,Commuting accidents,Mean days lost per case,16.140353439462537,2015
+2011,IST,Total,Occupational diseases,Cases,1252,2015
+2011,IST,Total,Occupational diseases,Days lost,16797,2015
+2011,IST,Total,Occupational diseases,Mean days lost per case,13.416134185303514,2015
+2011,IST,Total,Work accidents,Accidents per 100 workers,6.3,2015
+2011,IST,Total,Work accidents,Cases,32950,2015
+2011,IST,Total,Work accidents,Days lost,448184,2015
+2011,IST,Total,Work accidents,Deaths,36,2015
+2011,IST,Total,Work accidents,Mean days lost per case,13.601942336874052,2015
+2011,IST,Total,Work and commuting accidents,Accidents per 100 workers,7.61,2015
+2011,IST,Total,Work and commuting accidents,Cases,39797,2015
+2011,IST,Total,Work and commuting accidents,Days lost,558697,2015
+2011,IST,Total,Work and commuting accidents,Deaths,53,2015
+2011,IST,Total,Work and commuting accidents,Mean days lost per case,14.038671256627383,2015
+2011,MUSEG,Total,,Protected workers,1504786,2015
+2011,MUSEG,Total,Commuting accidents,Accidents per 100 workers,1.2,2015
+2011,MUSEG,Total,Commuting accidents,Cases,18124,2015
+2011,MUSEG,Total,Commuting accidents,Days lost,381195,2015
+2011,MUSEG,Total,Commuting accidents,Deaths,51,2015
+2011,MUSEG,Total,Commuting accidents,Mean days lost per case,21.032608695652176,2015
+2011,MUSEG,Total,Occupational diseases,Cases,1616,2015
+2011,MUSEG,Total,Occupational diseases,Days lost,80168,2015
+2011,MUSEG,Total,Occupational diseases,Mean days lost per case,49.60891089108911,2015
+2011,MUSEG,Total,Work accidents,Accidents per 100 workers,5.4,2015
+2011,MUSEG,Total,Work accidents,Cases,81273,2015
+2011,MUSEG,Total,Work accidents,Days lost,1290489,2015
+2011,MUSEG,Total,Work accidents,Deaths,79,2015
+2011,MUSEG,Total,Work accidents,Mean days lost per case,15.878446716621756,2015
+2011,MUSEG,Total,Work and commuting accidents,Accidents per 100 workers,6.6000000000000005,2015
+2011,MUSEG,Total,Work and commuting accidents,Cases,99397,2015
+2011,MUSEG,Total,Work and commuting accidents,Days lost,1671684,2015
+2011,MUSEG,Total,Work and commuting accidents,Deaths,130,2015
+2011,MUSEG,Total,Work and commuting accidents,Mean days lost per case,16.81825407205449,2015
+2011,Mutual insurers,Total,,Protected workers,4109407,2015
+2011,Mutual insurers,Total,Commuting accidents,Accidents per 100 workers,1.26,2015
+2011,Mutual insurers,Total,Commuting accidents,Cases,51978,2015
+2011,Mutual insurers,Total,Commuting accidents,Days lost,944175,2015
+2011,Mutual insurers,Total,Commuting accidents,Deaths,127,2015
+2011,Mutual insurers,Total,Commuting accidents,Mean days lost per case,18.16489668705991,2015
+2011,Mutual insurers,Total,Occupational diseases,Cases,5656,2015
+2011,Mutual insurers,Total,Occupational diseases,Days lost,225180,2015
+2011,Mutual insurers,Total,Occupational diseases,Mean days lost per case,39.81258840169731,2015
+2011,Mutual insurers,Total,Work accidents,Accidents per 100 workers,5.4879999999999995,2015
+2011,Mutual insurers,Total,Work accidents,Cases,225535,2015
+2011,Mutual insurers,Total,Work accidents,Days lost,3248574,2015
+2011,Mutual insurers,Total,Work accidents,Deaths,190,2015
+2011,Mutual insurers,Total,Work accidents,Mean days lost per case,14.4038574944022,2015
+2011,Mutual insurers,Total,Work and commuting accidents,Accidents per 100 workers,6.75,2015
+2011,Mutual insurers,Total,Work and commuting accidents,Cases,277513,2015
+2011,Mutual insurers,Total,Work and commuting accidents,Days lost,4192749,2015
+2011,Mutual insurers,Total,Work and commuting accidents,Deaths,317,2015
+2011,Mutual insurers,Total,Work and commuting accidents,Mean days lost per case,15.10829762930025,2015
+2011,Total,Total,,Protected workers,5120472,2015
+2011,Total,Total,Commuting accidents,Deaths,161,2015
+2011,Total,Total,Work accidents,Deaths,285,2015
+2011,Total,Total,Work and commuting accidents,Deaths,446,2015
+2012,ACHS,Total,,Protected workers,2189539,2016
+2012,ACHS,Total,Commuting accidents,Accidents per 100 workers,1.0673936385695801,2016
+2012,ACHS,Total,Commuting accidents,Cases,23371,2016
+2012,ACHS,Total,Commuting accidents,Days lost,476101,2016
+2012,ACHS,Total,Commuting accidents,Deaths,53,2016
+2012,ACHS,Total,Commuting accidents,Mean days lost per case,20.371443241624235,2016
+2012,ACHS,Total,Occupational diseases,Cases,1775,2016
+2012,ACHS,Total,Occupational diseases,Days lost,117877,2016
+2012,ACHS,Total,Occupational diseases,Mean days lost per case,66.40957746478873,2016
+2012,ACHS,Total,Work accidents,Accidents per 100 workers,4.565664279101674,2016
+2012,ACHS,Total,Work accidents,Cases,99967,2016
+2012,ACHS,Total,Work accidents,Days lost,1540301,2016
+2012,ACHS,Total,Work accidents,Deaths,92,2016
+2012,ACHS,Total,Work accidents,Mean days lost per case,15.40809467124151,2016
+2012,ACHS,Total,Work and commuting accidents,Accidents per 100 workers,5.6330579176712545,2016
+2012,ACHS,Total,Work and commuting accidents,Cases,123338,2016
+2012,ACHS,Total,Work and commuting accidents,Days lost,2016402,2016
+2012,ACHS,Total,Work and commuting accidents,Deaths,145,2016
+2012,ACHS,Total,Work and commuting accidents,Mean days lost per case,16.348586810228802,2016
+2012,ISL,Total,,Protected workers,969713,2016
+2012,ISL,Total,Commuting accidents,Deaths,10,2016
+2012,ISL,Total,Work accidents,Deaths,109,2016
+2012,ISL,Total,Work and commuting accidents,Deaths,119,2016
+2012,IST,Total,,Protected workers,522330,2016
+2012,IST,Total,Commuting accidents,Accidents per 100 workers,1.2945838837516512,2016
+2012,IST,Total,Commuting accidents,Cases,6762,2016
+2012,IST,Total,Commuting accidents,Days lost,107030,2016
+2012,IST,Total,Commuting accidents,Deaths,17,2016
+2012,IST,Total,Commuting accidents,Mean days lost per case,15.82815734989648,2016
+2012,IST,Total,Occupational diseases,Cases,1052,2016
+2012,IST,Total,Occupational diseases,Days lost,13726,2016
+2012,IST,Total,Occupational diseases,Mean days lost per case,13.047528517110266,2016
+2012,IST,Total,Work accidents,Accidents per 100 workers,5.91886355369211,2016
+2012,IST,Total,Work accidents,Cases,30916,2016
+2012,IST,Total,Work accidents,Days lost,430128,2016
+2012,IST,Total,Work accidents,Deaths,31,2016
+2012,IST,Total,Work accidents,Mean days lost per case,13.912795963255272,2016
+2012,IST,Total,Work and commuting accidents,Accidents per 100 workers,7.213447437443761,2016
+2012,IST,Total,Work and commuting accidents,Cases,37678,2016
+2012,IST,Total,Work and commuting accidents,Days lost,537158,2016
+2012,IST,Total,Work and commuting accidents,Deaths,48,2016
+2012,IST,Total,Work and commuting accidents,Mean days lost per case,14.25654227931419,2016
+2012,MUSEG,Total,,Protected workers,1697054,2016
+2012,MUSEG,Total,Commuting accidents,Accidents per 100 workers,1.115049963053621,2016
+2012,MUSEG,Total,Commuting accidents,Cases,18923,2016
+2012,MUSEG,Total,Commuting accidents,Days lost,408716,2016
+2012,MUSEG,Total,Commuting accidents,Deaths,59,2016
+2012,MUSEG,Total,Commuting accidents,Mean days lost per case,21.598900808539874,2016
+2012,MUSEG,Total,Occupational diseases,Cases,1605,2016
+2012,MUSEG,Total,Occupational diseases,Days lost,83774,2016
+2012,MUSEG,Total,Occupational diseases,Mean days lost per case,52.195638629283486,2016
+2012,MUSEG,Total,Work accidents,Accidents per 100 workers,4.9558234446281615,2016
+2012,MUSEG,Total,Work accidents,Cases,84103,2016
+2012,MUSEG,Total,Work accidents,Days lost,1391297,2016
+2012,MUSEG,Total,Work accidents,Deaths,94,2016
+2012,MUSEG,Total,Work accidents,Mean days lost per case,16.54277493073969,2016
+2012,MUSEG,Total,Work and commuting accidents,Accidents per 100 workers,6.070873407681783,2016
+2012,MUSEG,Total,Work and commuting accidents,Cases,103026,2016
+2012,MUSEG,Total,Work and commuting accidents,Days lost,1800013,2016
+2012,MUSEG,Total,Work and commuting accidents,Deaths,153,2016
+2012,MUSEG,Total,Work and commuting accidents,Mean days lost per case,17.471444101488945,2016
+2012,Mutual insurers,Total,,Protected workers,4408923,2016
+2012,Mutual insurers,Total,Commuting accidents,Accidents per 100 workers,1.11265268184543,2016
+2012,Mutual insurers,Total,Commuting accidents,Cases,49056,2016
+2012,Mutual insurers,Total,Commuting accidents,Days lost,991847,2016
+2012,Mutual insurers,Total,Commuting accidents,Deaths,129,2016
+2012,Mutual insurers,Total,Commuting accidents,Mean days lost per case,20.2186684605349,2016
+2012,Mutual insurers,Total,Occupational diseases,Cases,4432,2016
+2012,Mutual insurers,Total,Occupational diseases,Days lost,215377,2016
+2012,Mutual insurers,Total,Occupational diseases,Mean days lost per case,48.59589350180505,2016
+2012,Mutual insurers,Total,Work accidents,Accidents per 100 workers,4.876156830137428,2016
+2012,Mutual insurers,Total,Work accidents,Cases,214986,2016
+2012,Mutual insurers,Total,Work accidents,Days lost,3361726,2016
+2012,Mutual insurers,Total,Work accidents,Deaths,217,2016
+2012,Mutual insurers,Total,Work accidents,Mean days lost per case,15.636953103923046,2016
+2012,Mutual insurers,Total,Work and commuting accidents,Accidents per 100 workers,5.988809511982858,2016
+2012,Mutual insurers,Total,Work and commuting accidents,Cases,264042,2016
+2012,Mutual insurers,Total,Work and commuting accidents,Days lost,4353573,2016
+2012,Mutual insurers,Total,Work and commuting accidents,Deaths,346,2016
+2012,Mutual insurers,Total,Work and commuting accidents,Mean days lost per case,16.488183698048037,2016
+2012,Total,Total,,Protected workers,5378636,2016
+2012,Total,Total,Commuting accidents,Deaths,139,2016
+2012,Total,Total,Work accidents,Deaths,326,2016
+2012,Total,Total,Work and commuting accidents,Deaths,465,2016
+2013,ACHS,Total,,Protected workers,2229920,2017
+2013,ACHS,Total,Commuting accidents,Accidents per 100 workers,0.9014673172131735,2017
+2013,ACHS,Total,Commuting accidents,Cases,20102,2017
+2013,ACHS,Total,Commuting accidents,Days lost,496777,2017
+2013,ACHS,Total,Commuting accidents,Deaths,64,2017
+2013,ACHS,Total,Commuting accidents,"Deaths per 100,000 workers",2.870058118676903,2017
+2013,ACHS,Total,Commuting accidents,Mean days lost per case,24.712814645308924,2017
+2013,ACHS,Total,Occupational diseases,Cases,2242,2017
+2013,ACHS,Total,Occupational diseases,Days lost,169345,2017
+2013,ACHS,Total,Occupational diseases,Mean days lost per case,74.82306684141547,2016
+2013,ACHS,Total,Work accidents,Accidents per 100 workers,3.924535409342039,2017
+2013,ACHS,Total,Work accidents,Cases,87514,2017
+2013,ACHS,Total,Work accidents,Days lost,1558296,2017
+2013,ACHS,Total,Work accidents,Deaths,82,2017
+2013,ACHS,Total,Work accidents,"Deaths per 100,000 workers",3.6772619645547824,2017
+2013,ACHS,Total,Work accidents,Mean days lost per case,17.80624814315424,2017
+2013,ACHS,Total,Work and commuting accidents,Accidents per 100 workers,4.826002726555212,2017
+2013,ACHS,Total,Work and commuting accidents,Cases,107616,2017
+2013,ACHS,Total,Work and commuting accidents,Days lost,2055073,2017
+2013,ACHS,Total,Work and commuting accidents,Deaths,146,2017
+2013,ACHS,Total,Work and commuting accidents,"Deaths per 100,000 workers",6.547320083231686,2017
+2013,ACHS,Total,Work and commuting accidents,Mean days lost per case,19.096351843592032,2017
+2013,ISL,Total,,Protected workers,901779,2017
+2013,ISL,Total,Commuting accidents,Deaths,15,2017
+2013,ISL,Total,Commuting accidents,"Deaths per 100,000 workers",1.6633787213940445,2017
+2013,ISL,Total,Work accidents,Deaths,65,2017
+2013,ISL,Total,Work accidents,"Deaths per 100,000 workers",7.207974459374193,2017
+2013,ISL,Total,Work and commuting accidents,Deaths,80,2017
+2013,ISL,Total,Work and commuting accidents,"Deaths per 100,000 workers",8.871353180768237,2017
+2013,IST,Total,,Protected workers,539787.25,2017
+2013,IST,Total,Commuting accidents,Accidents per 100 workers,1.4802128060638706,2017
+2013,IST,Total,Commuting accidents,Cases,7990,2017
+2013,IST,Total,Commuting accidents,Days lost,140151,2017
+2013,IST,Total,Commuting accidents,Deaths,15,2017
+2013,IST,Total,Commuting accidents,"Deaths per 100,000 workers",2.7788726021224104,2017
+2013,IST,Total,Commuting accidents,Mean days lost per case,17.540801001251566,2017
+2013,IST,Total,Occupational diseases,Cases,1257,2017
+2013,IST,Total,Occupational diseases,Days lost,30070,2017
+2013,IST,Total,Occupational diseases,Mean days lost per case,23.92203659506762,2016
+2013,IST,Total,Work accidents,Accidents per 100 workers,5.822664392313824,2017
+2013,IST,Total,Work accidents,Cases,31430,2017
+2013,IST,Total,Work accidents,Days lost,474493,2017
+2013,IST,Total,Work accidents,Deaths,26,2017
+2013,IST,Total,Work accidents,"Deaths per 100,000 workers",4.816712510345511,2017
+2013,IST,Total,Work accidents,Mean days lost per case,15.096818326439708,2017
+2013,IST,Total,Work and commuting accidents,Accidents per 100 workers,7.302877198377694,2017
+2013,IST,Total,Work and commuting accidents,Cases,39420,2017
+2013,IST,Total,Work and commuting accidents,Days lost,614644,2017
+2013,IST,Total,Work and commuting accidents,Deaths,41,2017
+2013,IST,Total,Work and commuting accidents,"Deaths per 100,000 workers",7.595585112467921,2017
+2013,IST,Total,Work and commuting accidents,Mean days lost per case,15.5921867072552,2017
+2013,MUSEG,Total,,Protected workers,1861163,2017
+2013,MUSEG,Total,Commuting accidents,Accidents per 100 workers,1.0631524482272643,2017
+2013,MUSEG,Total,Commuting accidents,Cases,19787,2017
+2013,MUSEG,Total,Commuting accidents,Days lost,470237,2017
+2013,MUSEG,Total,Commuting accidents,Deaths,77,2017
+2013,MUSEG,Total,Commuting accidents,"Deaths per 100,000 workers",4.1371980852832335,2017
+2013,MUSEG,Total,Commuting accidents,Mean days lost per case,23.764946682165057,2017
+2013,MUSEG,Total,Occupational diseases,Cases,1668,2017
+2013,MUSEG,Total,Occupational diseases,Days lost,85750,2017
+2013,MUSEG,Total,Occupational diseases,Mean days lost per case,51.408872901678656,2016
+2013,MUSEG,Total,Work accidents,Accidents per 100 workers,4.277271791884966,2017
+2013,MUSEG,Total,Work accidents,Cases,79607,2017
+2013,MUSEG,Total,Work accidents,Days lost,1399373,2017
+2013,MUSEG,Total,Work accidents,Deaths,118,2017
+2013,MUSEG,Total,Work accidents,"Deaths per 100,000 workers",6.340121741083398,2017
+2013,MUSEG,Total,Work accidents,Mean days lost per case,17.57851696458854,2017
+2013,MUSEG,Total,Work and commuting accidents,Accidents per 100 workers,5.340424240112231,2017
+2013,MUSEG,Total,Work and commuting accidents,Cases,99394,2017
+2013,MUSEG,Total,Work and commuting accidents,Days lost,1869610,2017
+2013,MUSEG,Total,Work and commuting accidents,Deaths,195,2017
+2013,MUSEG,Total,Work and commuting accidents,"Deaths per 100,000 workers",10.477319826366632,2017
+2013,MUSEG,Total,Work and commuting accidents,Mean days lost per case,18.81008914018955,2017
+2013,Mutual insurers,Total,,Protected workers,4630870.25,2017
+2013,Mutual insurers,Total,Commuting accidents,Accidents per 100 workers,1.0339093391787428,2017
+2013,Mutual insurers,Total,Commuting accidents,Cases,47879,2017
+2013,Mutual insurers,Total,Commuting accidents,Days lost,1107165,2017
+2013,Mutual insurers,Total,Commuting accidents,Deaths,156,2017
+2013,Mutual insurers,Total,Commuting accidents,Mean days lost per case,23.124229829361514,2017
+2013,Mutual insurers,Total,Occupational diseases,Cases,5167,2017
+2013,Mutual insurers,Total,Occupational diseases,Days lost,285165,2017
+2013,Mutual insurers,Total,Occupational diseases,Mean days lost per case,55.06137322593019,2016
+2013,Mutual insurers,Total,Work accidents,Accidents per 100 workers,4.287552647366875,2017
+2013,Mutual insurers,Total,Work accidents,Cases,198551,2017
+2013,Mutual insurers,Total,Work accidents,Days lost,3432162,2017
+2013,Mutual insurers,Total,Work accidents,Deaths,226,2017
+2013,Mutual insurers,Total,Work accidents,Mean days lost per case,17.286047413510886,2017
+2013,Mutual insurers,Total,Work and commuting accidents,Accidents per 100 workers,5.321461986545618,2017
+2013,Mutual insurers,Total,Work and commuting accidents,Cases,246430,2017
+2013,Mutual insurers,Total,Work and commuting accidents,Days lost,4539327,2017
+2013,Mutual insurers,Total,Work and commuting accidents,Deaths,382,2017
+2013,Mutual insurers,Total,Work and commuting accidents,Mean days lost per case,18.42035060666315,2017
+2013,Total,Total,,Protected workers,5532649.25,2017
+2013,Total,Total,Commuting accidents,Deaths,171,2017
+2013,Total,Total,Commuting accidents,"Deaths per 100,000 workers",3.090743552919065,2017
+2013,Total,Total,Work accidents,Deaths,291,2017
+2013,Total,Total,Work accidents,"Deaths per 100,000 workers",5.259686397072795,2017
+2013,Total,Total,Work and commuting accidents,Deaths,462,2017
+2013,Total,Total,Work and commuting accidents,"Deaths per 100,000 workers",8.35042994999186,2017
+2014,ACHS,Total,,Protected workers,2296287,2018
+2014,ACHS,Total,Commuting accidents,Accidents per 100 workers,0.8725390162466625,2018
+2014,ACHS,Total,Commuting accidents,Cases,20036,2018
+2014,ACHS,Total,Commuting accidents,Days lost,550953,2018
+2014,ACHS,Total,Commuting accidents,Deaths,43,2018
+2014,ACHS,Total,Commuting accidents,"Deaths per 100,000 workers",1.8725882261233024,2018
+2014,ACHS,Total,Commuting accidents,Mean days lost per case,27.49815332401677,2018
+2014,ACHS,Total,Occupational diseases,Cases,2099,2018
+2014,ACHS,Total,Occupational diseases,Days lost,136247,2018
+2014,ACHS,Total,Occupational diseases,Mean days lost per case,68.5034076590753,2016
+2014,ACHS,Total,Work accidents,Accidents per 100 workers,3.5374062562737145,2018
+2014,ACHS,Total,Work accidents,Cases,81229,2018
+2014,ACHS,Total,Work accidents,Days lost,1533945,2018
+2014,ACHS,Total,Work accidents,Deaths,76,2018
+2014,ACHS,Total,Work accidents,"Deaths per 100,000 workers",3.3096908182644413,2018
+2014,ACHS,Total,Work accidents,Mean days lost per case,18.884203917320168,2018
+2014,ACHS,Total,Work and commuting accidents,Accidents per 100 workers,4.4099452725203765,2018
+2014,ACHS,Total,Work and commuting accidents,Cases,101265,2018
+2014,ACHS,Total,Work and commuting accidents,Days lost,2084898,2018
+2014,ACHS,Total,Work and commuting accidents,Deaths,119,2018
+2014,ACHS,Total,Work and commuting accidents,"Deaths per 100,000 workers",5.182279044387744,2018
+2014,ACHS,Total,Work and commuting accidents,Mean days lost per case,20.588535031847133,2018
+2014,ISL,Total,,Protected workers,871923,2018
+2014,ISL,Total,Commuting accidents,Deaths,14,2018
+2014,ISL,Total,Commuting accidents,"Deaths per 100,000 workers",1.6056463701496577,2018
+2014,ISL,Total,Work accidents,Deaths,66,2018
+2014,ISL,Total,Work accidents,"Deaths per 100,000 workers",7.569475744991244,2018
+2014,ISL,Total,Work and commuting accidents,Deaths,80,2018
+2014,ISL,Total,Work and commuting accidents,"Deaths per 100,000 workers",9.175122115140901,2018
+2014,IST,Total,,Protected workers,545978,2018
+2014,IST,Total,Commuting accidents,Accidents per 100 workers,1.3026165889468073,2018
+2014,IST,Total,Commuting accidents,Cases,7112,2018
+2014,IST,Total,Commuting accidents,Days lost,127165,2018
+2014,IST,Total,Commuting accidents,Deaths,16,2018
+2014,IST,Total,Commuting accidents,"Deaths per 100,000 workers",2.930521010004066,2018
+2014,IST,Total,Commuting accidents,Mean days lost per case,17.880343082114734,2018
+2014,IST,Total,Occupational diseases,Cases,2116,2018
+2014,IST,Total,Occupational diseases,Days lost,21941,2018
+2014,IST,Total,Occupational diseases,Mean days lost per case,22.116554063701106,2016
+2014,IST,Total,Work accidents,Accidents per 100 workers,5.072731868317038,2018
+2014,IST,Total,Work accidents,Cases,27696,2018
+2014,IST,Total,Work accidents,Days lost,452443,2018
+2014,IST,Total,Work accidents,Deaths,28,2018
+2014,IST,Total,Work accidents,"Deaths per 100,000 workers",5.1284117675071155,2018
+2014,IST,Total,Work accidents,Mean days lost per case,16.336041305603697,2018
+2014,IST,Total,Work and commuting accidents,Accidents per 100 workers,6.375348457263845,2018
+2014,IST,Total,Work and commuting accidents,Cases,34808,2018
+2014,IST,Total,Work and commuting accidents,Days lost,579608,2018
+2014,IST,Total,Work and commuting accidents,Deaths,44,2018
+2014,IST,Total,Work and commuting accidents,"Deaths per 100,000 workers",8.058932777511181,2018
+2014,IST,Total,Work and commuting accidents,Mean days lost per case,16.651574350723973,2018
+2014,MUSEG,Total,,Protected workers,1879682.4166666667,2018
+2014,MUSEG,Total,Commuting accidents,Accidents per 100 workers,1.0957702118917338,2018
+2014,MUSEG,Total,Commuting accidents,Cases,20597,2018
+2014,MUSEG,Total,Commuting accidents,Days lost,489399,2018
+2014,MUSEG,Total,Commuting accidents,Deaths,69,2018
+2014,MUSEG,Total,Commuting accidents,"Deaths per 100,000 workers",3.6708328698611274,2018
+2014,MUSEG,Total,Commuting accidents,Mean days lost per case,23.76069330485022,2018
+2014,MUSEG,Total,Occupational diseases,Cases,2237,2018
+2014,MUSEG,Total,Occupational diseases,Days lost,90753,2018
+2014,MUSEG,Total,Occupational diseases,Mean days lost per case,52.397806004618936,2016
+2014,MUSEG,Total,Work accidents,Accidents per 100 workers,4.203210036943741,2018
+2014,MUSEG,Total,Work accidents,Cases,79007,2018
+2014,MUSEG,Total,Work accidents,Days lost,1414323,2018
+2014,MUSEG,Total,Work accidents,Deaths,89,2018
+2014,MUSEG,Total,Work accidents,"Deaths per 100,000 workers",4.734842397357106,2018
+2014,MUSEG,Total,Work accidents,Mean days lost per case,17.90123659928867,2018
+2014,MUSEG,Total,Work and commuting accidents,Accidents per 100 workers,5.298980248835475,2018
+2014,MUSEG,Total,Work and commuting accidents,Cases,99604,2018
+2014,MUSEG,Total,Work and commuting accidents,Days lost,1903722,2018
+2014,MUSEG,Total,Work and commuting accidents,Deaths,158,2018
+2014,MUSEG,Total,Work and commuting accidents,"Deaths per 100,000 workers",8.405675267218234,2018
+2014,MUSEG,Total,Work and commuting accidents,Mean days lost per case,19.11290711216417,2018
+2014,Mutual insurers,Total,,Protected workers,4721947.416666667,2018
+2014,Mutual insurers,Total,Commuting accidents,Accidents per 100 workers,1.011129430020301,2018
+2014,Mutual insurers,Total,Commuting accidents,Cases,47745,2018
+2014,Mutual insurers,Total,Commuting accidents,Days lost,1167517,2018
+2014,Mutual insurers,Total,Commuting accidents,Deaths,128,2018
+2014,Mutual insurers,Total,Commuting accidents,Mean days lost per case,24.45317834328202,2018
+2014,Mutual insurers,Total,Occupational diseases,Cases,6452,2018
+2014,Mutual insurers,Total,Occupational diseases,Days lost,248941,2018
+2014,Mutual insurers,Total,Occupational diseases,Mean days lost per case,52.820400738080636,2016
+2014,Mutual insurers,Total,Work accidents,Accidents per 100 workers,3.979968081318991,2018
+2014,Mutual insurers,Total,Work accidents,Cases,187932,2018
+2014,Mutual insurers,Total,Work accidents,Days lost,3400711,2018
+2014,Mutual insurers,Total,Work accidents,Deaths,193,2018
+2014,Mutual insurers,Total,Work accidents,Mean days lost per case,18.09543345465381,2018
+2014,Mutual insurers,Total,Work and commuting accidents,Accidents per 100 workers,4.991097511339292,2018
+2014,Mutual insurers,Total,Work and commuting accidents,Cases,235677,2018
+2014,Mutual insurers,Total,Work and commuting accidents,Days lost,4568228,2018
+2014,Mutual insurers,Total,Work and commuting accidents,Deaths,321,2018
+2014,Mutual insurers,Total,Work and commuting accidents,Mean days lost per case,19.383427317896953,2018
+2014,Total,Total,,Protected workers,5593870.416666667,2018
+2014,Total,Total,Commuting accidents,Deaths,142,2018
+2014,Total,Total,Commuting accidents,"Deaths per 100,000 workers",2.538492839893428,2018
+2014,Total,Total,Work accidents,Deaths,259,2018
+2014,Total,Total,Work accidents,"Deaths per 100,000 workers",4.630067926284492,2018
+2014,Total,Total,Work and commuting accidents,Deaths,401,2018
+2014,Total,Total,Work and commuting accidents,"Deaths per 100,000 workers",7.1685607661779205,2018
+2015,ACHS,Total,,Protected workers,2356953.25,2019
+2015,ACHS,Total,Commuting accidents,Accidents per 100 workers,1.024203598437941,2019
+2015,ACHS,Total,Commuting accidents,Cases,24140,2019
+2015,ACHS,Total,Commuting accidents,Days lost,705384,2019
+2015,ACHS,Total,Commuting accidents,Deaths,71,2019
+2015,ACHS,Total,Commuting accidents,"Deaths per 100,000 workers",3.0123635248174736,2019
+2015,ACHS,Total,Commuting accidents,Mean days lost per case,29.220546810273405,2019
+2015,ACHS,Total,Occupational diseases,Cases,2351,2019
+2015,ACHS,Total,Occupational diseases,Days lost,172246,2019
+2015,ACHS,Total,Occupational diseases,Mean days lost per case,77.52302743223102,2016
+2015,ACHS,Total,Work accidents,Accidents per 100 workers,3.40566788925491,2019
+2015,ACHS,Total,Work accidents,Cases,80270,2019
+2015,ACHS,Total,Work accidents,Days lost,1675612,2019
+2015,ACHS,Total,Work accidents,Deaths,74,2019
+2015,ACHS,Total,Work accidents,"Deaths per 100,000 workers",3.1396464906548314,2019
+2015,ACHS,Total,Work accidents,Mean days lost per case,20.874697894605706,2019
+2015,ACHS,Total,Work and commuting accidents,Accidents per 100 workers,4.429871487692851,2019
+2015,ACHS,Total,Work and commuting accidents,Cases,104410,2019
+2015,ACHS,Total,Work and commuting accidents,Days lost,2380996,2019
+2015,ACHS,Total,Work and commuting accidents,Deaths,145,2019
+2015,ACHS,Total,Work and commuting accidents,"Deaths per 100,000 workers",6.152010015472305,2019
+2015,ACHS,Total,Work and commuting accidents,Mean days lost per case,22.80429077674552,2019
+2015,ISL,Total,,Protected workers,815493.4166666666,2019
+2015,ISL,Total,Commuting accidents,Deaths,18,2019
+2015,ISL,Total,Commuting accidents,"Deaths per 100,000 workers",2.2072526438748072,2019
+2015,ISL,Total,Work accidents,Deaths,57,2019
+2015,ISL,Total,Work accidents,"Deaths per 100,000 workers",6.989633372270225,2019
+2015,ISL,Total,Work and commuting accidents,Deaths,75,2019
+2015,ISL,Total,Work and commuting accidents,"Deaths per 100,000 workers",9.196886016145031,2019
+2015,IST,Total,,Protected workers,555434.9166666666,2019
+2015,IST,Total,Commuting accidents,Accidents per 100 workers,1.2145437381727444,2019
+2015,IST,Total,Commuting accidents,Cases,6746,2019
+2015,IST,Total,Commuting accidents,Days lost,112605,2019
+2015,IST,Total,Commuting accidents,Deaths,15,2019
+2015,IST,Total,Commuting accidents,"Deaths per 100,000 workers",2.700586432343784,2019
+2015,IST,Total,Commuting accidents,Mean days lost per case,16.692113845241625,2019
+2015,IST,Total,Occupational diseases,Cases,1430,2019
+2015,IST,Total,Occupational diseases,Days lost,15396,2019
+2015,IST,Total,Occupational diseases,Mean days lost per case,23.79598145285935,2016
+2015,IST,Total,Work accidents,Accidents per 100 workers,4.390433382609034,2019
+2015,IST,Total,Work accidents,Cases,24386,2019
+2015,IST,Total,Work accidents,Days lost,366048,2019
+2015,IST,Total,Work accidents,Deaths,20,2019
+2015,IST,Total,Work accidents,"Deaths per 100,000 workers",3.6007819097917113,2019
+2015,IST,Total,Work accidents,Mean days lost per case,15.010579840892316,2019
+2015,IST,Total,Work and commuting accidents,Accidents per 100 workers,5.604977120781778,2019
+2015,IST,Total,Work and commuting accidents,Cases,31132,2019
+2015,IST,Total,Work and commuting accidents,Days lost,478653,2019
+2015,IST,Total,Work and commuting accidents,Deaths,35,2019
+2015,IST,Total,Work and commuting accidents,"Deaths per 100,000 workers",6.301368342135495,2019
+2015,IST,Total,Work and commuting accidents,Mean days lost per case,15.374951818065014,2019
+2015,MUSEG,Total,,Protected workers,1920100.75,2019
+2015,MUSEG,Total,Commuting accidents,Accidents per 100 workers,1.132388495759923,2019
+2015,MUSEG,Total,Commuting accidents,Cases,21743,2019
+2015,MUSEG,Total,Commuting accidents,Days lost,514349,2019
+2015,MUSEG,Total,Commuting accidents,Deaths,60,2019
+2015,MUSEG,Total,Commuting accidents,"Deaths per 100,000 workers",3.1248360274844953,2019
+2015,MUSEG,Total,Commuting accidents,Mean days lost per case,23.655843259899736,2019
+2015,MUSEG,Total,Occupational diseases,Cases,2385,2019
+2015,MUSEG,Total,Occupational diseases,Days lost,94455,2019
+2015,MUSEG,Total,Occupational diseases,Mean days lost per case,53.51558073654391,2016
+2015,MUSEG,Total,Work accidents,Accidents per 100 workers,3.9258356625296877,2019
+2015,MUSEG,Total,Work accidents,Cases,75380,2019
+2015,MUSEG,Total,Work accidents,Days lost,1384161,2019
+2015,MUSEG,Total,Work accidents,Deaths,104,2019
+2015,MUSEG,Total,Work accidents,"Deaths per 100,000 workers",5.4163824476397915,2019
+2015,MUSEG,Total,Work accidents,Mean days lost per case,18.36244361899708,2019
+2015,MUSEG,Total,Work and commuting accidents,Accidents per 100 workers,5.058224158289611,2019
+2015,MUSEG,Total,Work and commuting accidents,Cases,97123,2019
+2015,MUSEG,Total,Work and commuting accidents,Days lost,1898510,2019
+2015,MUSEG,Total,Work and commuting accidents,Deaths,164,2019
+2015,MUSEG,Total,Work and commuting accidents,"Deaths per 100,000 workers",8.541218475124287,2019
+2015,MUSEG,Total,Work and commuting accidents,Mean days lost per case,19.54748102921038,2019
+2015,Mutual insurers,Total,,Protected workers,4832488.916666667,2019
+2015,Mutual insurers,Total,Commuting accidents,Accidents per 100 workers,1.0890661294325783,2019
+2015,Mutual insurers,Total,Commuting accidents,Cases,52629,2019
+2015,Mutual insurers,Total,Commuting accidents,Days lost,1332338,2019
+2015,Mutual insurers,Total,Commuting accidents,Deaths,146,2019
+2015,Mutual insurers,Total,Commuting accidents,Mean days lost per case,25.315662467460907,2019
+2015,Mutual insurers,Total,Occupational diseases,Cases,6166,2019
+2015,Mutual insurers,Total,Occupational diseases,Days lost,282097,2019
+2015,Mutual insurers,Total,Occupational diseases,Mean days lost per case,60.87720843681235,2016
+2015,Mutual insurers,Total,Work accidents,Accidents per 100 workers,3.725533635040066,2019
+2015,Mutual insurers,Total,Work accidents,Cases,180036,2019
+2015,Mutual insurers,Total,Work accidents,Days lost,3425821,2019
+2015,Mutual insurers,Total,Work accidents,Deaths,198,2019
+2015,Mutual insurers,Total,Work accidents,Mean days lost per case,19.02853318225244,2019
+2015,Mutual insurers,Total,Work and commuting accidents,Accidents per 100 workers,4.814599764472645,2019
+2015,Mutual insurers,Total,Work and commuting accidents,Cases,232665,2019
+2015,Mutual insurers,Total,Work and commuting accidents,Days lost,4758159,2019
+2015,Mutual insurers,Total,Work and commuting accidents,Deaths,344,2019
+2015,Mutual insurers,Total,Work and commuting accidents,Mean days lost per case,20.450686609502934,2019
+2015,Total,Total,,Protected workers,5647982.333333334,2019
+2015,Total,Total,Commuting accidents,Deaths,164,2019
+2015,Total,Total,Commuting accidents,"Deaths per 100,000 workers",2.903691802152119,2019
+2015,Total,Total,Work accidents,Deaths,255,2019
+2015,Total,Total,Work accidents,"Deaths per 100,000 workers",4.514886643590185,2019
+2015,Total,Total,Work and commuting accidents,Deaths,419,2019
+2015,Total,Total,Work and commuting accidents,"Deaths per 100,000 workers",7.4185784457423045,2019
+2016,ACHS,Total,,Protected workers,2403076.3333333335,2020
+2016,ACHS,Total,Commuting accidents,Accidents per 100 workers,1.0051336554360715,2020
+2016,ACHS,Total,Commuting accidents,Cases,24154,2020
+2016,ACHS,Total,Commuting accidents,Days lost,712109,2020
+2016,ACHS,Total,Commuting accidents,Deaths,74,2020
+2016,ACHS,Total,Commuting accidents,"Deaths per 100,000 workers",3.0793861590469658,2020
+2016,ACHS,Total,Commuting accidents,Mean days lost per case,29.482031961579864,2020
+2016,ACHS,Total,Occupational diseases,Cases,2158,2020
+2016,ACHS,Total,Occupational diseases,Days lost,116971,2020
+2016,ACHS,Total,Occupational diseases,Mean days lost per case,96.9356807511737,2016
+2016,ACHS,Total,Work accidents,Accidents per 100 workers,3.0445304504021635,2020
+2016,ACHS,Total,Work accidents,Cases,73162,2020
+2016,ACHS,Total,Work accidents,Days lost,1592364,2020
+2016,ACHS,Total,Work accidents,Deaths,94,2020
+2016,ACHS,Total,Work accidents,"Deaths per 100,000 workers",3.9116526885191187,2020
+2016,ACHS,Total,Work accidents,Mean days lost per case,21.76490527869659,2020
+2016,ACHS,Total,Work and commuting accidents,Accidents per 100 workers,4.049664105838236,2020
+2016,ACHS,Total,Work and commuting accidents,Cases,97316,2020
+2016,ACHS,Total,Work and commuting accidents,Days lost,2304473,2020
+2016,ACHS,Total,Work and commuting accidents,Deaths,168,2020
+2016,ACHS,Total,Work and commuting accidents,"Deaths per 100,000 workers",6.9910388475660845,2020
+2016,ACHS,Total,Work and commuting accidents,Mean days lost per case,23.68030950717251,2020
+2016,ISL,Total,,Protected workers,790070.5833333334,2020
+2016,ISL,Total,Commuting accidents,Deaths,19,2020
+2016,ISL,Total,Commuting accidents,"Deaths per 100,000 workers",2.404848427571925,2020
+2016,ISL,Total,Work accidents,Deaths,46,2020
+2016,ISL,Total,Work accidents,"Deaths per 100,000 workers",5.822264614121502,2020
+2016,ISL,Total,Work and commuting accidents,Deaths,65,2020
+2016,ISL,Total,Work and commuting accidents,"Deaths per 100,000 workers",8.227113041693427,2020
+2016,IST,Total,,Protected workers,563891.4166666666,2020
+2016,IST,Total,Commuting accidents,Accidents per 100 workers,1.212112792991913,2020
+2016,IST,Total,Commuting accidents,Cases,6835,2020
+2016,IST,Total,Commuting accidents,Days lost,121159,2020
+2016,IST,Total,Commuting accidents,Deaths,20,2020
+2016,IST,Total,Commuting accidents,"Deaths per 100,000 workers",3.5467821301884808,2020
+2016,IST,Total,Commuting accidents,Mean days lost per case,17.72626188734455,2020
+2016,IST,Total,Occupational diseases,Cases,706,2020
+2016,IST,Total,Occupational diseases,Days lost,3857,2020
+2016,IST,Total,Occupational diseases,Mean days lost per case,15.28469349379466,2016
+2016,IST,Total,Work accidents,Accidents per 100 workers,4.140336119675523,2020
+2016,IST,Total,Work accidents,Cases,23347,2020
+2016,IST,Total,Work accidents,Days lost,359233,2020
+2016,IST,Total,Work accidents,Deaths,22,2020
+2016,IST,Total,Work accidents,"Deaths per 100,000 workers",3.901460343207329,2020
+2016,IST,Total,Work accidents,Mean days lost per case,15.386687797147385,2020
+2016,IST,Total,Work and commuting accidents,Accidents per 100 workers,5.352448912667436,2020
+2016,IST,Total,Work and commuting accidents,Cases,30182,2020
+2016,IST,Total,Work and commuting accidents,Days lost,480392,2020
+2016,IST,Total,Work and commuting accidents,Deaths,42,2020
+2016,IST,Total,Work and commuting accidents,"Deaths per 100,000 workers",7.448242473395809,2020
+2016,IST,Total,Work and commuting accidents,Mean days lost per case,15.916506527069114,2020
+2016,MUSEG,Total,,Protected workers,1979390.75,2020
+2016,MUSEG,Total,Commuting accidents,Accidents per 100 workers,1.207139115912308,2020
+2016,MUSEG,Total,Commuting accidents,Cases,23894,2020
+2016,MUSEG,Total,Commuting accidents,Days lost,571594,2020
+2016,MUSEG,Total,Commuting accidents,Deaths,63,2020
+2016,MUSEG,Total,Commuting accidents,"Deaths per 100,000 workers",3.1827975350496107,2020
+2016,MUSEG,Total,Commuting accidents,Mean days lost per case,23.922072486816774,2020
+2016,MUSEG,Total,Occupational diseases,Cases,2443,2020
+2016,MUSEG,Total,Occupational diseases,Days lost,119137,2020
+2016,MUSEG,Total,Occupational diseases,Mean days lost per case,48.76668031109292,2016
+2016,MUSEG,Total,Work accidents,Accidents per 100 workers,4.05210542688451,2020
+2016,MUSEG,Total,Work accidents,Cases,80207,2020
+2016,MUSEG,Total,Work accidents,Days lost,1514166,2020
+2016,MUSEG,Total,Work accidents,Deaths,83,2020
+2016,MUSEG,Total,Work accidents,"Deaths per 100,000 workers",4.193209450938376,2020
+2016,MUSEG,Total,Work accidents,Mean days lost per case,18.87822758612091,2020
+2016,MUSEG,Total,Work and commuting accidents,Accidents per 100 workers,5.259244542796818,2020
+2016,MUSEG,Total,Work and commuting accidents,Cases,104101,2020
+2016,MUSEG,Total,Work and commuting accidents,Days lost,2085760,2020
+2016,MUSEG,Total,Work and commuting accidents,Deaths,146,2020
+2016,MUSEG,Total,Work and commuting accidents,"Deaths per 100,000 workers",7.376006985987987,2020
+2016,MUSEG,Total,Work and commuting accidents,Mean days lost per case,20.035926648159,2020
+2016,Mutual insurers,Total,,Protected workers,4946358.500000001,2020
+2016,Mutual insurers,Total,Commuting accidents,Accidents per 100 workers,1.1095666113643357,2020
+2016,Mutual insurers,Total,Commuting accidents,Cases,54883,2020
+2016,Mutual insurers,Total,Commuting accidents,Days lost,1404862,2020
+2016,Mutual insurers,Total,Commuting accidents,Deaths,157,2020
+2016,Mutual insurers,Total,Commuting accidents,Mean days lost per case,25.597398101415738,2020
+2016,Mutual insurers,Total,Occupational diseases,Cases,5307,2020
+2016,Mutual insurers,Total,Occupational diseases,Days lost,239965,2020
+2016,Mutual insurers,Total,Occupational diseases,Mean days lost per case,50.64325221238938,2016
+2016,Mutual insurers,Total,Work accidents,Accidents per 100 workers,3.5726577135699573,2020
+2016,Mutual insurers,Total,Work accidents,Cases,176716,2020
+2016,Mutual insurers,Total,Work accidents,Days lost,3465763,2020
+2016,Mutual insurers,Total,Work accidents,Deaths,199,2020
+2016,Mutual insurers,Total,Work accidents,Mean days lost per case,19.61204984268544,2020
+2016,Mutual insurers,Total,Work and commuting accidents,Accidents per 100 workers,4.6822243249342925,2020
+2016,Mutual insurers,Total,Work and commuting accidents,Cases,231599,2020
+2016,Mutual insurers,Total,Work and commuting accidents,Days lost,4870625,2020
+2016,Mutual insurers,Total,Work and commuting accidents,Deaths,356,2020
+2016,Mutual insurers,Total,Work and commuting accidents,Mean days lost per case,21.030423274711893,2020
+2016,Total,Total,,Protected workers,5736429.083333334,2020
+2016,Total,Total,Commuting accidents,Deaths,176,2020
+2016,Total,Total,Commuting accidents,"Deaths per 100,000 workers",3.068110795814626,2020
+2016,Total,Total,Work accidents,Deaths,245,2020
+2016,Total,Total,Work accidents,"Deaths per 100,000 workers",4.270949687355587,2020
+2016,Total,Total,Work and commuting accidents,Deaths,421,2020
+2016,Total,Total,Work and commuting accidents,"Deaths per 100,000 workers",7.339060483170212,2020
+2017,ACHS,Total,,Protected workers,2439292.9166666665,2021
+2017,ACHS,Total,Commuting accidents,Accidents per 100 workers,0.9942225402409135,2021
+2017,ACHS,Total,Commuting accidents,Cases,24252,2021
+2017,ACHS,Total,Commuting accidents,Days lost,679584,2021
+2017,ACHS,Total,Commuting accidents,Deaths,67,2021
+2017,ACHS,Total,Commuting accidents,"Deaths per 100,000 workers",2.746697600038809,2021
+2017,ACHS,Total,Commuting accidents,Mean days lost per case,28.02177140029688,2021
+2017,ACHS,Total,Occupational diseases,Cases,2419,2021
+2017,ACHS,Total,Occupational diseases,Days lost,96409,2021
+2017,ACHS,Total,Work accidents,Accidents per 100 workers,2.8659944659509424,2021
+2017,ACHS,Total,Work accidents,Cases,69910,2021
+2017,ACHS,Total,Work accidents,Days lost,1484875,2021
+2017,ACHS,Total,Work accidents,Deaths,71,2021
+2017,ACHS,Total,Work accidents,"Deaths per 100,000 workers",2.9106795463097828,2021
+2017,ACHS,Total,Work accidents,Mean days lost per case,21.239808324989273,2021
+2017,ACHS,Total,Work and commuting accidents,Accidents per 100 workers,3.860217006191856,2021
+2017,ACHS,Total,Work and commuting accidents,Cases,94162,2021
+2017,ACHS,Total,Work and commuting accidents,Days lost,2164459,2021
+2017,ACHS,Total,Work and commuting accidents,Deaths,138,2021
+2017,ACHS,Total,Work and commuting accidents,"Deaths per 100,000 workers",5.657377146348592,2021
+2017,ACHS,Total,Work and commuting accidents,Mean days lost per case,22.986544465920435,2021
+2017,ISL,Total,,Protected workers,761498.9166666666,2021
+2017,ISL,Total,Commuting accidents,Deaths,6,2021
+2017,ISL,Total,Commuting accidents,"Deaths per 100,000 workers",0.7879197026653684,2021
+2017,ISL,Total,Work accidents,Deaths,49,2021
+2017,ISL,Total,Work accidents,"Deaths per 100,000 workers",6.434677571767174,2021
+2017,ISL,Total,Work and commuting accidents,Deaths,55,2021
+2017,ISL,Total,Work and commuting accidents,"Deaths per 100,000 workers",7.222597274432542,2021
+2017,IST,Total,,Protected workers,579327.4166666666,2021
+2017,IST,Total,Commuting accidents,Accidents per 100 workers,1.1875840504124828,2021
+2017,IST,Total,Commuting accidents,Cases,6880,2021
+2017,IST,Total,Commuting accidents,Days lost,127864,2021
+2017,IST,Total,Commuting accidents,Deaths,12,2021
+2017,IST,Total,Commuting accidents,"Deaths per 100,000 workers",2.071367529789214,2021
+2017,IST,Total,Commuting accidents,Mean days lost per case,18.584883720930232,2021
+2017,IST,Total,Occupational diseases,Cases,757,2021
+2017,IST,Total,Occupational diseases,Days lost,11251,2021
+2017,IST,Total,Work accidents,Accidents per 100 workers,4.105277830081406,2021
+2017,IST,Total,Work accidents,Cases,23783,2021
+2017,IST,Total,Work accidents,Days lost,389352,2021
+2017,IST,Total,Work accidents,Deaths,17,2021
+2017,IST,Total,Work accidents,"Deaths per 100,000 workers",2.934437333868053,2021
+2017,IST,Total,Work accidents,Mean days lost per case,16.37102131774797,2021
+2017,IST,Total,Work and commuting accidents,Accidents per 100 workers,5.292861880493889,2021
+2017,IST,Total,Work and commuting accidents,Cases,30663,2021
+2017,IST,Total,Work and commuting accidents,Days lost,517216,2021
+2017,IST,Total,Work and commuting accidents,Deaths,29,2021
+2017,IST,Total,Work and commuting accidents,"Deaths per 100,000 workers",5.005804863657268,2021
+2017,IST,Total,Work and commuting accidents,Mean days lost per case,16.86775592733914,2021
+2017,MUSEG,Total,,Protected workers,2031198.0833333333,2021
+2017,MUSEG,Total,Commuting accidents,Accidents per 100 workers,1.1573465036665347,2021
+2017,MUSEG,Total,Commuting accidents,Cases,23508,2021
+2017,MUSEG,Total,Commuting accidents,Days lost,607155,2021
+2017,MUSEG,Total,Commuting accidents,Deaths,41,2021
+2017,MUSEG,Total,Commuting accidents,"Deaths per 100,000 workers",2.018513129586861,2021
+2017,MUSEG,Total,Commuting accidents,Mean days lost per case,25.82759060745278,2021
+2017,MUSEG,Total,Occupational diseases,Cases,3217,2021
+2017,MUSEG,Total,Occupational diseases,Days lost,126660,2021
+2017,MUSEG,Total,Work accidents,Accidents per 100 workers,3.75984994406216,2021
+2017,MUSEG,Total,Work accidents,Cases,76370,2021
+2017,MUSEG,Total,Work accidents,Days lost,1529105,2021
+2017,MUSEG,Total,Work accidents,Deaths,84,2021
+2017,MUSEG,Total,Work accidents,"Deaths per 100,000 workers",4.13549031427552,2021
+2017,MUSEG,Total,Work accidents,Mean days lost per case,20.02232552049234,2021
+2017,MUSEG,Total,Work and commuting accidents,Accidents per 100 workers,4.917196447728696,2021
+2017,MUSEG,Total,Work and commuting accidents,Cases,99878,2021
+2017,MUSEG,Total,Work and commuting accidents,Days lost,2136260,2021
+2017,MUSEG,Total,Work and commuting accidents,Deaths,125,2021
+2017,MUSEG,Total,Work and commuting accidents,"Deaths per 100,000 workers",6.154003443862381,2021
+2017,MUSEG,Total,Work and commuting accidents,Mean days lost per case,21.388694206932456,2021
+2017,Mutual insurers,Total,,Protected workers,5049818.416666667,2021
+2017,Mutual insurers,Total,Commuting accidents,Accidents per 100 workers,1.0820191042842942,2021
+2017,Mutual insurers,Total,Commuting accidents,Cases,54640,2021
+2017,Mutual insurers,Total,Commuting accidents,Days lost,1414603,2021
+2017,Mutual insurers,Total,Commuting accidents,Deaths,120,2021
+2017,Mutual insurers,Total,Commuting accidents,Mean days lost per case,25.88951317715959,2021
+2017,Mutual insurers,Total,Occupational diseases,Cases,6393,2021
+2017,Mutual insurers,Total,Occupational diseases,Days lost,234320,2021
+2017,Mutual insurers,Total,Work accidents,Accidents per 100 workers,3.367705251315885,2021
+2017,Mutual insurers,Total,Work accidents,Cases,170063,2021
+2017,Mutual insurers,Total,Work accidents,Days lost,3403332,2021
+2017,Mutual insurers,Total,Work accidents,Deaths,172,2021
+2017,Mutual insurers,Total,Work accidents,Mean days lost per case,20.012183720150766,2021
+2017,Mutual insurers,Total,Work and commuting accidents,Accidents per 100 workers,4.449724355600179,2021
+2017,Mutual insurers,Total,Work and commuting accidents,Cases,224703,2021
+2017,Mutual insurers,Total,Work and commuting accidents,Days lost,4817935,2021
+2017,Mutual insurers,Total,Work and commuting accidents,Deaths,292,2021
+2017,Mutual insurers,Total,Work and commuting accidents,Mean days lost per case,21.44134702251416,2021
+2017,Total,Total,,Protected workers,5811317.333333334,2021
+2017,Total,Total,Commuting accidents,Deaths,126,2021
+2017,Total,Total,Commuting accidents,"Deaths per 100,000 workers",2.1681830946878824,2021
+2017,Total,Total,Work accidents,Deaths,221,2021
+2017,Total,Total,Work accidents,"Deaths per 100,000 workers",3.8029243168731908,2021
+2017,Total,Total,Work and commuting accidents,Deaths,347,2021
+2017,Total,Total,Work and commuting accidents,"Deaths per 100,000 workers",5.971107411561073,2021
+2018,ACHS,Total,,Protected workers,2543349.6666666665,2022
+2018,ACHS,Total,Commuting accidents,Accidents per 100 workers,0.9529951904633902,2022
+2018,ACHS,Total,Commuting accidents,Cases,24238,2022
+2018,ACHS,Total,Commuting accidents,Days lost,637703,2022
+2018,ACHS,Total,Commuting accidents,Deaths,65,2022
+2018,ACHS,Total,Commuting accidents,"Deaths per 100,000 workers",2.5556847668999243,2022
+2018,ACHS,Total,Commuting accidents,Mean days lost per case,26.310050334185988,2022
+2018,ACHS,Total,Occupational diseases,Cases,2677,2022
+2018,ACHS,Total,Occupational diseases,Days lost,107873,2022
+2018,ACHS,Total,Work accidents,Accidents per 100 workers,2.7747659287640225,2022
+2018,ACHS,Total,Work accidents,Cases,70572,2022
+2018,ACHS,Total,Work accidents,Days lost,1426825,2022
+2018,ACHS,Total,Work accidents,Deaths,66,2022
+2018,ACHS,Total,Work accidents,"Deaths per 100,000 workers",2.595002994083,2022
+2018,ACHS,Total,Work accidents,Mean days lost per case,20.218004307657427,2022
+2018,ACHS,Total,Work and commuting accidents,Accidents per 100 workers,3.727761119227413,2022
+2018,ACHS,Total,Work and commuting accidents,Cases,94810,2022
+2018,ACHS,Total,Work and commuting accidents,Days lost,2064528,2022
+2018,ACHS,Total,Work and commuting accidents,Deaths,131,2022
+2018,ACHS,Total,Work and commuting accidents,"Deaths per 100,000 workers",5.150687760982925,2022
+2018,ACHS,Total,Work and commuting accidents,Mean days lost per case,21.775424533277082,2022
+2018,ISL,Total,,Protected workers,873033.5833333334,2022
+2018,ISL,Total,Commuting accidents,Deaths,5,2022
+2018,ISL,Total,Commuting accidents,"Deaths per 100,000 workers",0.5727156544092471,2022
+2018,ISL,Total,Work accidents,Deaths,48,2022
+2018,ISL,Total,Work accidents,"Deaths per 100,000 workers",5.498070282328773,2022
+2018,ISL,Total,Work and commuting accidents,Deaths,53,2022
+2018,ISL,Total,Work and commuting accidents,"Deaths per 100,000 workers",6.0707859367380195,2022
+2018,IST,Total,,Protected workers,581030.0833333334,2022
+2018,IST,Total,Commuting accidents,Accidents per 100 workers,1.1693026221677276,2022
+2018,IST,Total,Commuting accidents,Cases,6794,2022
+2018,IST,Total,Commuting accidents,Days lost,133821,2022
+2018,IST,Total,Commuting accidents,Deaths,16,2022
+2018,IST,Total,Commuting accidents,"Deaths per 100,000 workers",2.753730049261649,2022
+2018,IST,Total,Commuting accidents,Mean days lost per case,19.696938475125112,2022
+2018,IST,Total,Occupational diseases,Cases,437,2022
+2018,IST,Total,Occupational diseases,Days lost,9586,2022
+2018,IST,Total,Work accidents,Accidents per 100 workers,3.8256194709367453,2022
+2018,IST,Total,Work accidents,Cases,22228,2022
+2018,IST,Total,Work accidents,Days lost,371362,2022
+2018,IST,Total,Work accidents,Deaths,17,2022
+2018,IST,Total,Work accidents,"Deaths per 100,000 workers",2.9258381773405016,2022
+2018,IST,Total,Work accidents,Mean days lost per case,16.706946193989562,2022
+2018,IST,Total,Work and commuting accidents,Accidents per 100 workers,4.994922093104473,2022
+2018,IST,Total,Work and commuting accidents,Cases,29022,2022
+2018,IST,Total,Work and commuting accidents,Days lost,505183,2022
+2018,IST,Total,Work and commuting accidents,Deaths,33,2022
+2018,IST,Total,Work and commuting accidents,"Deaths per 100,000 workers",5.67956822660215,2022
+2018,IST,Total,Work and commuting accidents,Mean days lost per case,17.40689821514713,2022
+2018,MUSEG,Total,,Protected workers,2108512.9166666665,2022
+2018,MUSEG,Total,Commuting accidents,Accidents per 100 workers,1.0700906701425235,2022
+2018,MUSEG,Total,Commuting accidents,Cases,22563,2022
+2018,MUSEG,Total,Commuting accidents,Days lost,641667,2022
+2018,MUSEG,Total,Commuting accidents,Deaths,61,2022
+2018,MUSEG,Total,Commuting accidents,"Deaths per 100,000 workers",2.893034209931921,2022
+2018,MUSEG,Total,Commuting accidents,Mean days lost per case,28.438904401010504,2022
+2018,MUSEG,Total,Occupational diseases,Cases,3797,2022
+2018,MUSEG,Total,Occupational diseases,Days lost,147527,2022
+2018,MUSEG,Total,Work accidents,Accidents per 100 workers,3.396090174927788,2022
+2018,MUSEG,Total,Work accidents,Cases,71607,2022
+2018,MUSEG,Total,Work accidents,Days lost,1541761,2022
+2018,MUSEG,Total,Work accidents,Deaths,77,2022
+2018,MUSEG,Total,Work accidents,"Deaths per 100,000 workers",3.6518628551599654,2022
+2018,MUSEG,Total,Work accidents,Mean days lost per case,21.53086988702222,2022
+2018,MUSEG,Total,Work and commuting accidents,Accidents per 100 workers,4.466180845070311,2022
+2018,MUSEG,Total,Work and commuting accidents,Cases,94170,2022
+2018,MUSEG,Total,Work and commuting accidents,Days lost,2183428,2022
+2018,MUSEG,Total,Work and commuting accidents,Deaths,138,2022
+2018,MUSEG,Total,Work and commuting accidents,"Deaths per 100,000 workers",6.544897065091887,2022
+2018,MUSEG,Total,Work and commuting accidents,Mean days lost per case,23.186025273441647,2022
+2018,Mutual insurers,Total,,Protected workers,5232892.666666666,2022
+2018,Mutual insurers,Total,Commuting accidents,Accidents per 100 workers,1.0241945213475938,2022
+2018,Mutual insurers,Total,Commuting accidents,Cases,53595,2022
+2018,Mutual insurers,Total,Commuting accidents,Days lost,1413191,2022
+2018,Mutual insurers,Total,Commuting accidents,Deaths,142,2022
+2018,Mutual insurers,Total,Commuting accidents,Mean days lost per case,26.367963429424385,2022
+2018,Mutual insurers,Total,Occupational diseases,Cases,6911,2022
+2018,Mutual insurers,Total,Occupational diseases,Days lost,264986,2022
+2018,Mutual insurers,Total,Work accidents,Accidents per 100 workers,3.141799583378932,2022
+2018,Mutual insurers,Total,Work accidents,Cases,164407,2022
+2018,Mutual insurers,Total,Work accidents,Days lost,3339948,2022
+2018,Mutual insurers,Total,Work accidents,Deaths,160,2022
+2018,Mutual insurers,Total,Work accidents,Mean days lost per case,20.315120402415957,2022
+2018,Mutual insurers,Total,Work and commuting accidents,Accidents per 100 workers,4.165994104726526,2022
+2018,Mutual insurers,Total,Work and commuting accidents,Cases,218002,2022
+2018,Mutual insurers,Total,Work and commuting accidents,Days lost,4753139,2022
+2018,Mutual insurers,Total,Work and commuting accidents,Deaths,302,2022
+2018,Mutual insurers,Total,Work and commuting accidents,Mean days lost per case,21.803189878991937,2022
+2018,Total,Total,,Protected workers,6105926.249999999,2022
+2018,Total,Total,Commuting accidents,Deaths,147,2022
+2018,Total,Total,Commuting accidents,"Deaths per 100,000 workers",2.407497142632537,2022
+2018,Total,Total,Work accidents,Deaths,208,2022
+2018,Total,Total,Work accidents,"Deaths per 100,000 workers",3.406526569167127,2022
+2018,Total,Total,Work and commuting accidents,Deaths,355,2022
+2018,Total,Total,Work and commuting accidents,"Deaths per 100,000 workers",5.814023711799664,2022
+2019,ACHS,Total,,Protected workers,2620560.4166666665,2023
+2019,ACHS,Total,Commuting accidents,Accidents per 100 workers,0.9582683093390489,2023
+2019,ACHS,Total,Commuting accidents,Cases,25112,2023
+2019,ACHS,Total,Commuting accidents,Days lost,608262,2023
+2019,ACHS,Total,Commuting accidents,Deaths,70,2023
+2019,ACHS,Total,Commuting accidents,"Deaths per 100,000 workers",2.671184360215571,2023
+2019,ACHS,Total,Commuting accidents,Mean days lost per case,24.22196559413826,2023
+2019,ACHS,Total,Occupational diseases,Cases,2081,2023
+2019,ACHS,Total,Occupational diseases,Days lost,100458,2023
+2019,ACHS,Total,Work accidents,Accidents per 100 workers,2.557964303119005,2023
+2019,ACHS,Total,Work accidents,Cases,67033,2023
+2019,ACHS,Total,Work accidents,Days lost,1275519,2023
+2019,ACHS,Total,Work accidents,Deaths,58,2023
+2019,ACHS,Total,Work accidents,"Deaths per 100,000 workers",2.213267041321473,2023
+2019,ACHS,Total,Work accidents,Mean days lost per case,19.028224904151685,2023
+2019,ACHS,Total,Work and commuting accidents,Accidents per 100 workers,3.516232612458054,2023
+2019,ACHS,Total,Work and commuting accidents,Cases,92145,2023
+2019,ACHS,Total,Work and commuting accidents,Days lost,1883781,2023
+2019,ACHS,Total,Work and commuting accidents,Deaths,128,2023
+2019,ACHS,Total,Work and commuting accidents,"Deaths per 100,000 workers",4.884451401537044,2023
+2019,ACHS,Total,Work and commuting accidents,Mean days lost per case,20.443659449780238,2023
+2019,ISL,Total,,Protected workers,1204953.25,2023
+2019,ISL,Total,Commuting accidents,Deaths,1,2023
+2019,ISL,Total,Commuting accidents,"Deaths per 100,000 workers",0.08299077163367127,2023
+2019,ISL,Total,Work accidents,Deaths,39,2023
+2019,ISL,Total,Work accidents,"Deaths per 100,000 workers",3.236640093713179,2023
+2019,ISL,Total,Work and commuting accidents,Deaths,40,2023
+2019,ISL,Total,Work and commuting accidents,"Deaths per 100,000 workers",3.3196308653468503,2023
+2019,IST,Total,,Protected workers,590318.75,2023
+2019,IST,Total,Commuting accidents,Accidents per 100 workers,1.196133444855004,2023
+2019,IST,Total,Commuting accidents,Cases,7061,2023
+2019,IST,Total,Commuting accidents,Days lost,150702,2023
+2019,IST,Total,Commuting accidents,Deaths,20,2023
+2019,IST,Total,Commuting accidents,"Deaths per 100,000 workers",3.388000127050005,2023
+2019,IST,Total,Commuting accidents,Mean days lost per case,21.342869281971392,2023
+2019,IST,Total,Occupational diseases,Cases,344,2023
+2019,IST,Total,Occupational diseases,Days lost,21437,2023
+2019,IST,Total,Work accidents,Accidents per 100 workers,3.61465733554965,2023
+2019,IST,Total,Work accidents,Cases,21338,2023
+2019,IST,Total,Work accidents,Days lost,393511,2023
+2019,IST,Total,Work accidents,Deaths,20,2023
+2019,IST,Total,Work accidents,"Deaths per 100,000 workers",3.388000127050005,2023
+2019,IST,Total,Work accidents,Mean days lost per case,18.441793982566313,2023
+2019,IST,Total,Work and commuting accidents,Accidents per 100 workers,4.810790780404655,2023
+2019,IST,Total,Work and commuting accidents,Cases,28399,2023
+2019,IST,Total,Work and commuting accidents,Days lost,544213,2023
+2019,IST,Total,Work and commuting accidents,Deaths,40,2023
+2019,IST,Total,Work and commuting accidents,"Deaths per 100,000 workers",6.77600025410001,2023
+2019,IST,Total,Work and commuting accidents,Mean days lost per case,19.16310433465967,2023
+2019,MUSEG,Total,,Protected workers,2154415.25,2023
+2019,MUSEG,Total,Commuting accidents,Accidents per 100 workers,1.2524047998639074,2023
+2019,MUSEG,Total,Commuting accidents,Cases,26982,2023
+2019,MUSEG,Total,Commuting accidents,Days lost,669104,2023
+2019,MUSEG,Total,Commuting accidents,Deaths,72,2023
+2019,MUSEG,Total,Commuting accidents,"Deaths per 100,000 workers",3.3419741157142293,2023
+2019,MUSEG,Total,Commuting accidents,Mean days lost per case,24.7981617374546,2023
+2019,MUSEG,Total,Occupational diseases,Cases,2478,2023
+2019,MUSEG,Total,Occupational diseases,Days lost,116229,2023
+2019,MUSEG,Total,Work accidents,Accidents per 100 workers,3.2623701489302026,2023
+2019,MUSEG,Total,Work accidents,Cases,70285,2023
+2019,MUSEG,Total,Work accidents,Days lost,1459693,2023
+2019,MUSEG,Total,Work accidents,Deaths,80,2023
+2019,MUSEG,Total,Work accidents,"Deaths per 100,000 workers",3.7133045730158103,2023
+2019,MUSEG,Total,Work accidents,Mean days lost per case,20.768200896350574,2023
+2019,MUSEG,Total,Work and commuting accidents,Accidents per 100 workers,4.514774948794111,2023
+2019,MUSEG,Total,Work and commuting accidents,Cases,97267,2023
+2019,MUSEG,Total,Work and commuting accidents,Days lost,2128797,2023
+2019,MUSEG,Total,Work and commuting accidents,Deaths,152,2023
+2019,MUSEG,Total,Work and commuting accidents,"Deaths per 100,000 workers",7.05527868873004,2023
+2019,MUSEG,Total,Work and commuting accidents,Mean days lost per case,21.886117593839636,2023
+2019,Mutual insurers,Total,,Protected workers,5365294.416666666,2023
+2019,Mutual insurers,Total,Commuting accidents,Accidents per 100 workers,1.1025490011553112,2023
+2019,Mutual insurers,Total,Commuting accidents,Cases,59155,2023
+2019,Mutual insurers,Total,Commuting accidents,Days lost,1428068,2023
+2019,Mutual insurers,Total,Commuting accidents,Deaths,162,2023
+2019,Mutual insurers,Total,Commuting accidents,Mean days lost per case,24.141120784380018,2023
+2019,Mutual insurers,Total,Occupational diseases,Cases,4903,2023
+2019,Mutual insurers,Total,Occupational diseases,Days lost,238124,2023
+2019,Mutual insurers,Total,Work accidents,Accidents per 100 workers,2.9570791028196606,2023
+2019,Mutual insurers,Total,Work accidents,Cases,158656,2023
+2019,Mutual insurers,Total,Work accidents,Days lost,3128723,2023
+2019,Mutual insurers,Total,Work accidents,Deaths,158,2023
+2019,Mutual insurers,Total,Work accidents,Mean days lost per case,19.72016816256555,2023
+2019,Mutual insurers,Total,Work and commuting accidents,Accidents per 100 workers,4.059628103974972,2023
+2019,Mutual insurers,Total,Work and commuting accidents,Cases,217811,2023
+2019,Mutual insurers,Total,Work and commuting accidents,Days lost,4556791,2023
+2019,Mutual insurers,Total,Work and commuting accidents,Deaths,320,2023
+2019,Mutual insurers,Total,Work and commuting accidents,Mean days lost per case,20.92084880928879,2023
+2019,Total,Total,,Protected workers,6570247.666666666,2023
+2019,Total,Total,Commuting accidents,Deaths,163,2023
+2019,Total,Total,Commuting accidents,"Deaths per 100,000 workers",2.480880604044201,2023
+2019,Total,Total,Work accidents,Deaths,197,2023
+2019,Total,Total,Work accidents,"Deaths per 100,000 workers",2.9983649018202922,2023
+2019,Total,Total,Work and commuting accidents,Deaths,360,2023
+2019,Total,Total,Work and commuting accidents,"Deaths per 100,000 workers",5.479245505864493,2023
+2020,ACHS,Total,,Protected workers,2557743.3333333335,2024
+2020,ACHS,Total,Commuting accidents,Accidents per 100 workers,0.6529974990975117,2024
+2020,ACHS,Total,Commuting accidents,Cases,16702,2024
+2020,ACHS,Total,Commuting accidents,Days lost,459640,2024
+2020,ACHS,Total,Commuting accidents,Deaths,77,2024
+2020,ACHS,Total,Commuting accidents,"Deaths per 100,000 workers",3.0104662573648904,2024
+2020,ACHS,Total,Commuting accidents,Mean days lost per case,27.52005747814633,2024
+2020,ACHS,Total,Occupational diseases,Cases,9618,2024
+2020,ACHS,Total,Occupational diseases,Days lost,228291,2024
+2020,ACHS,Total,Work accidents,Accidents per 100 workers,1.8768497751272932,2024
+2020,ACHS,Total,Work accidents,Cases,48005,2024
+2020,ACHS,Total,Work accidents,Days lost,957122,2024
+2020,ACHS,Total,Work accidents,Deaths,55,2024
+2020,ACHS,Total,Work accidents,"Deaths per 100,000 workers",2.1503330409749215,2024
+2020,ACHS,Total,Work accidents,Mean days lost per case,19.93796479533382,2024
+2020,ACHS,Total,Work and commuting accidents,Accidents per 100 workers,2.529847274224805,2024
+2020,ACHS,Total,Work and commuting accidents,Cases,64707,2024
+2020,ACHS,Total,Work and commuting accidents,Days lost,1416762,2024
+2020,ACHS,Total,Work and commuting accidents,Deaths,132,2024
+2020,ACHS,Total,Work and commuting accidents,"Deaths per 100,000 workers",5.160799298339812,2024
+2020,ACHS,Total,Work and commuting accidents,Mean days lost per case,21.895034540312487,2024
+2020,ISL,Total,,Protected workers,1429056.1666666667,2024
+2020,ISL,Total,Commuting accidents,Deaths,10,2024
+2020,ISL,Total,Commuting accidents,"Deaths per 100,000 workers",0.6997625589010555,2024
+2020,ISL,Total,Work accidents,Deaths,43,2024
+2020,ISL,Total,Work accidents,"Deaths per 100,000 workers",3.0089790032745385,2024
+2020,ISL,Total,Work and commuting accidents,Deaths,53,2024
+2020,ISL,Total,Work and commuting accidents,"Deaths per 100,000 workers",3.7087415621755944,2024
+2020,IST,Total,,Protected workers,540404,2024
+2020,IST,Total,Commuting accidents,Accidents per 100 workers,0.8917402535880563,2024
+2020,IST,Total,Commuting accidents,Cases,4819,2024
+2020,IST,Total,Commuting accidents,Days lost,132338,2024
+2020,IST,Total,Commuting accidents,Deaths,8,2024
+2020,IST,Total,Commuting accidents,"Deaths per 100,000 workers",1.4803739424578648,2024
+2020,IST,Total,Commuting accidents,Mean days lost per case,27.46171404855779,2024
+2020,IST,Total,Occupational diseases,Cases,3612,2024
+2020,IST,Total,Occupational diseases,Days lost,75781,2024
+2020,IST,Total,Work accidents,Accidents per 100 workers,2.731845064063182,2024
+2020,IST,Total,Work accidents,Cases,14763,2024
+2020,IST,Total,Work accidents,Days lost,310021,2024
+2020,IST,Total,Work accidents,Deaths,16,2024
+2020,IST,Total,Work accidents,"Deaths per 100,000 workers",2.9607478849157296,2024
+2020,IST,Total,Work accidents,Mean days lost per case,20.999864526180314,2024
+2020,IST,Total,Work and commuting accidents,Accidents per 100 workers,3.6235853176512385,2024
+2020,IST,Total,Work and commuting accidents,Cases,19582,2024
+2020,IST,Total,Work and commuting accidents,Days lost,442359,2024
+2020,IST,Total,Work and commuting accidents,Deaths,24,2024
+2020,IST,Total,Work and commuting accidents,"Deaths per 100,000 workers",4.441121827373594,2024
+2020,IST,Total,Work and commuting accidents,Mean days lost per case,22.59008272903687,2024
+2020,MUSEG,Total,,Protected workers,2033667.6666666667,2024
+2020,MUSEG,Total,Commuting accidents,Accidents per 100 workers,0.8899684199466875,2024
+2020,MUSEG,Total,Commuting accidents,Cases,18099,2024
+2020,MUSEG,Total,Commuting accidents,Days lost,539156,2024
+2020,MUSEG,Total,Commuting accidents,Deaths,50,2024
+2020,MUSEG,Total,Commuting accidents,"Deaths per 100,000 workers",2.458612133119751,2024
+2020,MUSEG,Total,Commuting accidents,Mean days lost per case,29.789270125421293,2024
+2020,MUSEG,Total,Occupational diseases,Cases,9401,2024
+2020,MUSEG,Total,Occupational diseases,Days lost,263284,2024
+2020,MUSEG,Total,Work accidents,Accidents per 100 workers,2.480297092133867,2024
+2020,MUSEG,Total,Work accidents,Cases,50441,2024
+2020,MUSEG,Total,Work accidents,Days lost,1153736,2024
+2020,MUSEG,Total,Work accidents,Deaths,66,2024
+2020,MUSEG,Total,Work accidents,"Deaths per 100,000 workers",3.245368015718071,2024
+2020,MUSEG,Total,Work accidents,Mean days lost per case,22.87298031363375,2024
+2020,MUSEG,Total,Work and commuting accidents,Accidents per 100 workers,3.3702655120805542,2024
+2020,MUSEG,Total,Work and commuting accidents,Cases,68540,2024
+2020,MUSEG,Total,Work and commuting accidents,Days lost,1692892,2024
+2020,MUSEG,Total,Work and commuting accidents,Deaths,116,2024
+2020,MUSEG,Total,Work and commuting accidents,"Deaths per 100,000 workers",5.703980148837823,2024
+2020,MUSEG,Total,Work and commuting accidents,Mean days lost per case,24.6993288590604,2024
+2020,Mutual insurers,Total,,Protected workers,5131815,2024
+2020,Mutual insurers,Total,Commuting accidents,Accidents per 100 workers,0.7720465371413427,2024
+2020,Mutual insurers,Total,Commuting accidents,Cases,39620,2024
+2020,Mutual insurers,Total,Commuting accidents,Days lost,1131134,2024
+2020,Mutual insurers,Total,Commuting accidents,Deaths,135,2024
+2020,Mutual insurers,Total,Commuting accidents,Mean days lost per case,28.54957092377587,2024
+2020,Mutual insurers,Total,Occupational diseases,Cases,22631,2024
+2020,Mutual insurers,Total,Occupational diseases,Days lost,567356,2024
+2020,Mutual insurers,Total,Work accidents,Accidents per 100 workers,2.2060226255233286,2024
+2020,Mutual insurers,Total,Work accidents,Cases,113209,2024
+2020,Mutual insurers,Total,Work accidents,Days lost,2420879,2024
+2020,Mutual insurers,Total,Work accidents,Deaths,137,2024
+2020,Mutual insurers,Total,Work accidents,Mean days lost per case,21.384156736655214,2024
+2020,Mutual insurers,Total,Work and commuting accidents,Accidents per 100 workers,2.978069162664671,2024
+2020,Mutual insurers,Total,Work and commuting accidents,Cases,152829,2024
+2020,Mutual insurers,Total,Work and commuting accidents,Days lost,3552013,2024
+2020,Mutual insurers,Total,Work and commuting accidents,Deaths,272,2024
+2020,Mutual insurers,Total,Work and commuting accidents,Mean days lost per case,23.24174731235564,2024
+2020,Total,Total,,Protected workers,6560871.166666667,2024
+2020,Total,Total,Commuting accidents,Deaths,145,2024
+2020,Total,Total,Commuting accidents,"Deaths per 100,000 workers",2.210072356498795,2024
+2020,Total,Total,Work accidents,Deaths,180,2024
+2020,Total,Total,Work accidents,"Deaths per 100,000 workers",2.743538097722642,2024
+2020,Total,Total,Work and commuting accidents,Deaths,325,2024
+2020,Total,Total,Work and commuting accidents,"Deaths per 100,000 workers",4.953610454221437,2024
+2021,ACHS,Total,,Protected workers,2654207.75,2024
+2021,ACHS,Total,Commuting accidents,Accidents per 100 workers,0.7475699596460289,2025
+2021,ACHS,Total,Commuting accidents,Cases,19842,2025
+2021,ACHS,Total,Commuting accidents,Days lost,539609,2025
+2021,ACHS,Total,Commuting accidents,Deaths,85,2025
+2021,ACHS,Total,Commuting accidents,"Deaths per 100,000 workers",3.224318423707492,2025
+2021,ACHS,Total,Commuting accidents,Mean days lost per case,27.3095298345058,2025
+2021,ACHS,Total,Occupational diseases,Cases,6911,2024
+2021,ACHS,Total,Occupational diseases,Days lost,242512,2024
+2021,ACHS,Total,Occupational diseases (excluding COVID-19),Cases,2610,2025
+2021,ACHS,Total,Occupational diseases (excluding COVID-19),Days lost,148668,2025
+2021,ACHS,Total,Work accidents,Accidents per 100 workers,2.2538243400859335,2025
+2021,ACHS,Total,Work accidents,Cases,59821,2025
+2021,ACHS,Total,Work accidents,Days lost,1139726,2025
+2021,ACHS,Total,Work accidents,Deaths,75,2025
+2021,ACHS,Total,Work accidents,"Deaths per 100,000 workers",2.955625221731868,2025
+2021,ACHS,Total,Work accidents,Mean days lost per case,19.07523138462568,2025
+2021,ACHS,Total,Work and commuting accidents,Accidents per 100 workers,3.0013942997319623,2025
+2021,ACHS,Total,Work and commuting accidents,Cases,79663,2025
+2021,ACHS,Total,Work and commuting accidents,Days lost,1679335,2025
+2021,ACHS,Total,Work and commuting accidents,Deaths,160,2025
+2021,ACHS,Total,Work and commuting accidents,"Deaths per 100,000 workers",6.17994364543936,2025
+2021,ACHS,Total,Work and commuting accidents,Mean days lost per case,21.12158524928309,2025
+2021,ISL,Total,,Protected workers,1522428.4166666667,2024
+2021,ISL,Total,Commuting accidents,Cases,3539,2025
+2021,ISL,Total,Commuting accidents,Days lost,173856,2025
+2021,ISL,Total,Commuting accidents,Deaths,15,2025
+2021,ISL,Total,Commuting accidents,"Deaths per 100,000 workers",1.0693660952251496,2025
+2021,ISL,Total,Commuting accidents,Mean days lost per case,49.71575636259651,2025
+2021,ISL,Total,Occupational diseases (excluding COVID-19),Cases,833,2025
+2021,ISL,Total,Occupational diseases (excluding COVID-19),Days lost,93713,2025
+2021,ISL,Total,Work accidents,Cases,10132,2025
+2021,ISL,Total,Work accidents,Days lost,463579,2025
+2021,ISL,Total,Work accidents,Deaths,35,2025
+2021,ISL,Total,Work accidents,"Deaths per 100,000 workers",2.495187555525349,2025
+2021,ISL,Total,Work accidents,Mean days lost per case,46.25152150054874,2025
+2021,ISL,Total,Work and commuting accidents,Cases,13671,2025
+2021,ISL,Total,Work and commuting accidents,Days lost,637435,2025
+2021,ISL,Total,Work and commuting accidents,Deaths,50,2025
+2021,ISL,Total,Work and commuting accidents,"Deaths per 100,000 workers",3.564553650750499,2025
+2021,ISL,Total,Work and commuting accidents,Mean days lost per case,47.14755917159763,2025
+2021,IST,Total,,Protected workers,522057.5833333333,2024
+2021,IST,Total,Commuting accidents,Accidents per 100 workers,1.0600315690891193,2025
+2021,IST,Total,Commuting accidents,Cases,5532,2025
+2021,IST,Total,Commuting accidents,Days lost,147251,2025
+2021,IST,Total,Commuting accidents,Deaths,9,2025
+2021,IST,Total,Commuting accidents,"Deaths per 100,000 workers",1.5466072511714342,2025
+2021,IST,Total,Commuting accidents,Mean days lost per case,26.65176470588235,2025
+2021,IST,Total,Occupational diseases,Cases,1896,2024
+2021,IST,Total,Occupational diseases,Days lost,44769,2024
+2021,IST,Total,Occupational diseases (excluding COVID-19),Cases,225,2025
+2021,IST,Total,Occupational diseases (excluding COVID-19),Days lost,18584,2025
+2021,IST,Total,Work accidents,Accidents per 100 workers,3.3282155320876554,2025
+2021,IST,Total,Work accidents,Cases,17369,2025
+2021,IST,Total,Work accidents,Days lost,347286,2025
+2021,IST,Total,Work accidents,Deaths,21,2025
+2021,IST,Total,Work accidents,"Deaths per 100,000 workers",4.059844034325015,2025
+2021,IST,Total,Work accidents,Mean days lost per case,20.01417704011065,2025
+2021,IST,Total,Work and commuting accidents,Accidents per 100 workers,4.388247101176774,2025
+2021,IST,Total,Work and commuting accidents,Cases,22901,2025
+2021,IST,Total,Work and commuting accidents,Days lost,494537,2025
+2021,IST,Total,Work and commuting accidents,Deaths,30,2025
+2021,IST,Total,Work and commuting accidents,"Deaths per 100,000 workers",5.6064512854964486,2025
+2021,IST,Total,Work and commuting accidents,Mean days lost per case,21.61721379551514,2025
+2021,MUSEG,Total,,Protected workers,2127297.4166666665,2024
+2021,MUSEG,Total,Commuting accidents,Accidents per 100 workers,1.026278010424905,2025
+2021,MUSEG,Total,Commuting accidents,Cases,21818,2025
+2021,MUSEG,Total,Commuting accidents,Days lost,532499,2025
+2021,MUSEG,Total,Commuting accidents,Deaths,45,2025
+2021,MUSEG,Total,Commuting accidents,"Deaths per 100,000 workers",2.0581156826141513,2025
+2021,MUSEG,Total,Commuting accidents,Mean days lost per case,24.45123519147764,2025
+2021,MUSEG,Total,Occupational diseases,Cases,9021,2024
+2021,MUSEG,Total,Occupational diseases,Days lost,234576,2024
+2021,MUSEG,Total,Occupational diseases (excluding COVID-19),Cases,3125,2025
+2021,MUSEG,Total,Occupational diseases (excluding COVID-19),Days lost,164559,2025
+2021,MUSEG,Total,Work accidents,Accidents per 100 workers,2.9083678331914875,2025
+2021,MUSEG,Total,Work accidents,Cases,61830,2025
+2021,MUSEG,Total,Work accidents,Days lost,1148472,2025
+2021,MUSEG,Total,Work accidents,Deaths,82,2025
+2021,MUSEG,Total,Work accidents,"Deaths per 100,000 workers",3.876915588180146,2025
+2021,MUSEG,Total,Work accidents,Mean days lost per case,18.59783330364517,2025
+2021,MUSEG,Total,Work and commuting accidents,Accidents per 100 workers,3.9346458436163925,2025
+2021,MUSEG,Total,Work and commuting accidents,Cases,83648,2025
+2021,MUSEG,Total,Work and commuting accidents,Days lost,1680971,2025
+2021,MUSEG,Total,Work and commuting accidents,Deaths,127,2025
+2021,MUSEG,Total,Work and commuting accidents,"Deaths per 100,000 workers",5.935031270794298,2025
+2021,MUSEG,Total,Work and commuting accidents,Mean days lost per case,20.12391806634663,2025
+2021,Mutual insurers,Total,,Protected workers,5303562.749999999,2024
+2021,Mutual insurers,Total,Commuting accidents,Accidents per 100 workers,0.8900782640933932,2025
+2021,Mutual insurers,Total,Commuting accidents,Cases,47192,2025
+2021,Mutual insurers,Total,Commuting accidents,Days lost,1219359,2025
+2021,Mutual insurers,Total,Commuting accidents,Deaths,139,2025
+2021,Mutual insurers,Total,Occupational diseases,Cases,17828,2024
+2021,Mutual insurers,Total,Occupational diseases,Days lost,521857,2024
+2021,Mutual insurers,Total,Occupational diseases (excluding COVID-19),Cases,5960,2025
+2021,Mutual insurers,Total,Occupational diseases (excluding COVID-19),Days lost,331811,2025
+2021,Mutual insurers,Total,Work accidents,Accidents per 100 workers,2.6220266204921074,2025
+2021,Mutual insurers,Total,Work accidents,Cases,139020,2025
+2021,Mutual insurers,Total,Work accidents,Days lost,2635484,2025
+2021,Mutual insurers,Total,Work accidents,Deaths,178,2025
+2021,Mutual insurers,Total,Work and commuting accidents,Accidents per 100 workers,3.5121048845855007,2025
+2021,Mutual insurers,Total,Work and commuting accidents,Cases,186212,2025
+2021,Mutual insurers,Total,Work and commuting accidents,Days lost,3854843,2025
+2021,Mutual insurers,Total,Work and commuting accidents,Deaths,317,2025
+2021,Total,Female,,Protected workers (unique persons),2674577.5,2025
+2021,Total,Male,,Protected workers (unique persons),3601826.5,2025
+2021,Total,Total,,Protected workers,6825991.166666666,2024
+2021,Total,Total,,Protected workers (unique persons),6310600.25,2025
+2021,Total,Total,Commuting accidents,Cases,50731,2025
+2021,Total,Total,Commuting accidents,Days lost,1393215,2025
+2021,Total,Total,Commuting accidents,Deaths,154,2025
+2021,Total,Total,Commuting accidents,"Deaths per 100,000 workers",2.3769529689350866,2025
+2021,Total,Total,Commuting accidents,Mean days lost per case,27.55622144425325,2025
+2021,Total,Total,Occupational diseases (excluding COVID-19),Cases,6793,2025
+2021,Total,Total,Occupational diseases (excluding COVID-19),Days lost,425524,2025
+2021,Total,Total,Work accidents,Cases,149152,2025
+2021,Total,Total,Work accidents,Days lost,3099063,2025
+2021,Total,Total,Work accidents,Deaths,213,2025
+2021,Total,Total,Work accidents,"Deaths per 100,000 workers",3.3911195690140565,2025
+2021,Total,Total,Work accidents,Mean days lost per case,20.81626443305548,2025
+2021,Total,Total,Work and commuting accidents,Cases,199883,2025
+2021,Total,Total,Work and commuting accidents,Days lost,4492278,2025
+2021,Total,Total,Work and commuting accidents,Deaths,367,2025
+2021,Total,Total,Work and commuting accidents,"Deaths per 100,000 workers",5.768072537949143,2025
+2021,Total,Total,Work and commuting accidents,Mean days lost per case,22.52491024689625,2025
+2021,Total,Unknown,,Protected workers (unique persons),34196.25,2025
+2022,ACHS,Total,,Protected workers,2826656.5,2024
+2022,ACHS,Total,Commuting accidents,Accidents per 100 workers,0.8777154210283421,2025
+2022,ACHS,Total,Commuting accidents,Cases,24810,2025
+2022,ACHS,Total,Commuting accidents,Days lost,672178,2025
+2022,ACHS,Total,Commuting accidents,Deaths,69,2025
+2022,ACHS,Total,Commuting accidents,"Deaths per 100,000 workers",2.4830713313220856,2025
+2022,ACHS,Total,Commuting accidents,Mean days lost per case,27.16968472109943,2025
+2022,ACHS,Total,Occupational diseases,Cases,21190,2024
+2022,ACHS,Total,Occupational diseases,Days lost,293696,2024
+2022,ACHS,Total,Occupational diseases (excluding COVID-19),Cases,3925,2025
+2022,ACHS,Total,Occupational diseases (excluding COVID-19),Days lost,174228,2025
+2022,ACHS,Total,Work accidents,Accidents per 100 workers,2.4474852179598052,2025
+2022,ACHS,Total,Work accidents,Cases,69182,2025
+2022,ACHS,Total,Work accidents,Days lost,1320922,2025
+2022,ACHS,Total,Work accidents,Deaths,66,2025
+2022,ACHS,Total,Work accidents,"Deaths per 100,000 workers",2.339125167187472,2025
+2022,ACHS,Total,Work accidents,Mean days lost per case,19.1122203895014,2025
+2022,ACHS,Total,Work and commuting accidents,Accidents per 100 workers,3.3252006389881474,2025
+2022,ACHS,Total,Work and commuting accidents,Cases,93992,2025
+2022,ACHS,Total,Work and commuting accidents,Days lost,1993100,2025
+2022,ACHS,Total,Work and commuting accidents,Deaths,135,2025
+2022,ACHS,Total,Work and commuting accidents,"Deaths per 100,000 workers",4.822196498509558,2025
+2022,ACHS,Total,Work and commuting accidents,Mean days lost per case,21.23617533616042,2025
+2022,ISL,Total,,Protected workers,1575038.75,2024
+2022,ISL,Total,Commuting accidents,Cases,4114,2025
+2022,ISL,Total,Commuting accidents,Days lost,193013,2025
+2022,ISL,Total,Commuting accidents,Deaths,18,2025
+2022,ISL,Total,Commuting accidents,"Deaths per 100,000 workers",1.238552208157965,2025
+2022,ISL,Total,Commuting accidents,Mean days lost per case,48.01318407960199,2025
+2022,ISL,Total,Occupational diseases (excluding COVID-19),Cases,1199,2025
+2022,ISL,Total,Occupational diseases (excluding COVID-19),Days lost,115606,2025
+2022,ISL,Total,Work accidents,Cases,10341,2025
+2022,ISL,Total,Work accidents,Days lost,478726,2025
+2022,ISL,Total,Work accidents,Deaths,50,2025
+2022,ISL,Total,Work accidents,"Deaths per 100,000 workers",3.4404228004387916,2025
+2022,ISL,Total,Work accidents,Mean days lost per case,47.41269684064574,2025
+2022,ISL,Total,Work and commuting accidents,Cases,14455,2025
+2022,ISL,Total,Work and commuting accidents,Days lost,671739,2025
+2022,ISL,Total,Work and commuting accidents,Deaths,68,2025
+2022,ISL,Total,Work and commuting accidents,"Deaths per 100,000 workers",4.6789750085967565,2025
+2022,ISL,Total,Work and commuting accidents,Mean days lost per case,47.58369341928172,2025
+2022,IST,Total,,Protected workers,520062.6666666667,2024
+2022,IST,Total,Commuting accidents,Accidents per 100 workers,1.379706203964098,2025
+2022,IST,Total,Commuting accidents,Cases,7171,2025
+2022,IST,Total,Commuting accidents,Days lost,174445,2025
+2022,IST,Total,Commuting accidents,Deaths,9,2025
+2022,IST,Total,Commuting accidents,"Deaths per 100,000 workers",1.9415433651800376,2025
+2022,IST,Total,Commuting accidents,Mean days lost per case,24.37403940198407,2025
+2022,IST,Total,Occupational diseases,Cases,3811,2024
+2022,IST,Total,Occupational diseases,Days lost,48904,2024
+2022,IST,Total,Occupational diseases (excluding COVID-19),Cases,343,2025
+2022,IST,Total,Occupational diseases (excluding COVID-19),Days lost,20021,2025
+2022,IST,Total,Work accidents,Accidents per 100 workers,3.6885159163569545,2025
+2022,IST,Total,Work accidents,Cases,19171,2025
+2022,IST,Total,Work accidents,Days lost,389020,2025
+2022,IST,Total,Work accidents,Deaths,23,2025
+2022,IST,Total,Work accidents,"Deaths per 100,000 workers",4.465549739914087,2025
+2022,IST,Total,Work accidents,Mean days lost per case,20.38247930420203,2025
+2022,IST,Total,Work and commuting accidents,Accidents per 100 workers,5.068222120321053,2025
+2022,IST,Total,Work and commuting accidents,Cases,26342,2025
+2022,IST,Total,Work and commuting accidents,Days lost,563465,2025
+2022,IST,Total,Work and commuting accidents,Deaths,32,2025
+2022,IST,Total,Work and commuting accidents,"Deaths per 100,000 workers",6.407093105094125,2025
+2022,IST,Total,Work and commuting accidents,Mean days lost per case,21.47105894905308,2025
+2022,MUSEG,Total,,Protected workers,2258017.6666666665,2024
+2022,MUSEG,Total,Commuting accidents,Accidents per 100 workers,1.1854830961087763,2025
+2022,MUSEG,Total,Commuting accidents,Cases,26743,2025
+2022,MUSEG,Total,Commuting accidents,Days lost,685998,2025
+2022,MUSEG,Total,Commuting accidents,Deaths,52,2025
+2022,MUSEG,Total,Commuting accidents,"Deaths per 100,000 workers",2.355449748216011,2025
+2022,MUSEG,Total,Commuting accidents,Mean days lost per case,25.71399655146563,2025
+2022,MUSEG,Total,Occupational diseases,Cases,15720,2024
+2022,MUSEG,Total,Occupational diseases,Days lost,238783,2024
+2022,MUSEG,Total,Occupational diseases (excluding COVID-19),Cases,3128,2025
+2022,MUSEG,Total,Occupational diseases (excluding COVID-19),Days lost,144421,2025
+2022,MUSEG,Total,Work accidents,Accidents per 100 workers,2.9904157971618015,2025
+2022,MUSEG,Total,Work accidents,Cases,67460,2025
+2022,MUSEG,Total,Work accidents,Days lost,1309166,2025
+2022,MUSEG,Total,Work accidents,Deaths,67,2025
+2022,MUSEG,Total,Work accidents,"Deaths per 100,000 workers",3.034906406355245,2025
+2022,MUSEG,Total,Work accidents,Mean days lost per case,19.44142324655846,2025
+2022,MUSEG,Total,Work and commuting accidents,Accidents per 100 workers,4.175898893270578,2025
+2022,MUSEG,Total,Work and commuting accidents,Cases,94203,2025
+2022,MUSEG,Total,Work and commuting accidents,Days lost,1995164,2025
+2022,MUSEG,Total,Work and commuting accidents,Deaths,119,2025
+2022,MUSEG,Total,Work and commuting accidents,"Deaths per 100,000 workers",5.390356154571255,2025
+2022,MUSEG,Total,Work and commuting accidents,Mean days lost per case,21.22131103949286,2025
+2022,Mutual insurers,Total,,Protected workers,5604736.833333333,2024
+2022,Mutual insurers,Total,Commuting accidents,Accidents per 100 workers,1.0482163797018238,2025
+2022,Mutual insurers,Total,Commuting accidents,Cases,58724,2025
+2022,Mutual insurers,Total,Commuting accidents,Days lost,1532621,2025
+2022,Mutual insurers,Total,Commuting accidents,Deaths,130,2025
+2022,Mutual insurers,Total,Occupational diseases,Cases,40721,2024
+2022,Mutual insurers,Total,Occupational diseases,Days lost,581383,2024
+2022,Mutual insurers,Total,Occupational diseases (excluding COVID-19),Cases,7396,2025
+2022,Mutual insurers,Total,Occupational diseases (excluding COVID-19),Days lost,338670,2025
+2022,Mutual insurers,Total,Work accidents,Accidents per 100 workers,2.7812434229698297,2025
+2022,Mutual insurers,Total,Work accidents,Cases,155813,2025
+2022,Mutual insurers,Total,Work accidents,Days lost,3019108,2025
+2022,Mutual insurers,Total,Work accidents,Deaths,156,2025
+2022,Mutual insurers,Total,Work and commuting accidents,Accidents per 100 workers,3.829459802671654,2025
+2022,Mutual insurers,Total,Work and commuting accidents,Cases,214537,2025
+2022,Mutual insurers,Total,Work and commuting accidents,Days lost,4551729,2025
+2022,Mutual insurers,Total,Work and commuting accidents,Deaths,286,2025
+2022,Total,Female,,Protected workers (unique persons),2842839.9166666665,2025
+2022,Total,Male,,Protected workers (unique persons),3706599.4166666665,2025
+2022,Total,Total,,Protected workers,7179775.583333333,2024
+2022,Total,Total,,Protected workers (unique persons),6619231.833333333,2025
+2022,Total,Total,Commuting accidents,Cases,62838,2025
+2022,Total,Total,Commuting accidents,Days lost,1725634,2025
+2022,Total,Total,Commuting accidents,Deaths,148,2025
+2022,Total,Total,Commuting accidents,"Deaths per 100,000 workers",2.2510164887964974,2025
+2022,Total,Total,Commuting accidents,Mean days lost per case,27.56824027478233,2025
+2022,Total,Total,Occupational diseases (excluding COVID-19),Cases,8595,2025
+2022,Total,Total,Occupational diseases (excluding COVID-19),Days lost,454276,2025
+2022,Total,Total,Work accidents,Cases,166154,2025
+2022,Total,Total,Work accidents,Days lost,3497834,2025
+2022,Total,Total,Work accidents,Deaths,206,2025
+2022,Total,Total,Work accidents,"Deaths per 100,000 workers",3.0970361087468583,2025
+2022,Total,Total,Work accidents,Mean days lost per case,21.11759520877104,2025
+2022,Total,Total,Work and commuting accidents,Cases,228992,2025
+2022,Total,Total,Work and commuting accidents,Days lost,5223468,2025
+2022,Total,Total,Work and commuting accidents,Deaths,354,2025
+2022,Total,Total,Work and commuting accidents,"Deaths per 100,000 workers",5.348052597543356,2025
+2022,Total,Total,Work and commuting accidents,Mean days lost per case,22.88675946738173,2025
+2022,Total,Unknown,,Protected workers (unique persons),69792.5,2025
+2023,ACHS,Total,,Protected workers,2864061.5,2024
+2023,ACHS,Total,Commuting accidents,Accidents per 100 workers,0.9373052918032662,2025
+2023,ACHS,Total,Commuting accidents,Cases,26845,2025
+2023,ACHS,Total,Commuting accidents,Days lost,797455,2025
+2023,ACHS,Total,Commuting accidents,Deaths,65,2025
+2023,ACHS,Total,Commuting accidents,"Deaths per 100,000 workers",2.306765915960259,2025
+2023,ACHS,Total,Commuting accidents,Mean days lost per case,29.78356676003735,2025
+2023,ACHS,Total,Occupational diseases,Cases,11586,2024
+2023,ACHS,Total,Occupational diseases,Days lost,231544,2024
+2023,ACHS,Total,Occupational diseases (excluding COVID-19),Cases,4623,2025
+2023,ACHS,Total,Occupational diseases (excluding COVID-19),Days lost,192205,2025
+2023,ACHS,Total,Work accidents,Accidents per 100 workers,2.4584318458245398,2025
+2023,ACHS,Total,Work accidents,Cases,70411,2025
+2023,ACHS,Total,Work accidents,Days lost,1447863,2025
+2023,ACHS,Total,Work accidents,Deaths,67,2025
+2023,ACHS,Total,Work accidents,"Deaths per 100,000 workers",2.3422546223596474,2025
+2023,ACHS,Total,Work accidents,Mean days lost per case,20.58319354013249,2025
+2023,ACHS,Total,Work and commuting accidents,Accidents per 100 workers,3.3957371376278056,2025
+2023,ACHS,Total,Work and commuting accidents,Cases,97256,2025
+2023,ACHS,Total,Work and commuting accidents,Days lost,2245318,2025
+2023,ACHS,Total,Work and commuting accidents,Deaths,132,2025
+2023,ACHS,Total,Work and commuting accidents,"Deaths per 100,000 workers",4.649020538319906,2025
+2023,ACHS,Total,Work and commuting accidents,Mean days lost per case,23.11972157294809,2025
+2023,ISL,Total,,Protected workers,1531059.6666666667,2024
+2023,ISL,Total,Commuting accidents,Cases,4379,2025
+2023,ISL,Total,Commuting accidents,Days lost,192536,2025
+2023,ISL,Total,Commuting accidents,Deaths,16,2025
+2023,ISL,Total,Commuting accidents,"Deaths per 100,000 workers",1.1296798975521543,2025
+2023,ISL,Total,Commuting accidents,Mean days lost per case,45.8091839162503,2025
+2023,ISL,Total,Occupational diseases (excluding COVID-19),Cases,1637,2025
+2023,ISL,Total,Occupational diseases (excluding COVID-19),Days lost,134520,2025
+2023,ISL,Total,Work accidents,Cases,10220,2025
+2023,ISL,Total,Work accidents,Days lost,469419,2025
+2023,ISL,Total,Work accidents,Deaths,45,2025
+2023,ISL,Total,Work accidents,"Deaths per 100,000 workers",3.1772247118654335,2025
+2023,ISL,Total,Work accidents,Mean days lost per case,48.55891176166339,2025
+2023,ISL,Total,Work and commuting accidents,Cases,14599,2025
+2023,ISL,Total,Work and commuting accidents,Days lost,661955,2025
+2023,ISL,Total,Work and commuting accidents,Deaths,61,2025
+2023,ISL,Total,Work and commuting accidents,"Deaths per 100,000 workers",4.306904609417588,2025
+2023,ISL,Total,Work and commuting accidents,Mean days lost per case,47.72566690699351,2025
+2023,IST,Total,,Protected workers,519053,2024
+2023,IST,Total,Commuting accidents,Accidents per 100 workers,1.3605064085769603,2025
+2023,IST,Total,Commuting accidents,Cases,7058,2025
+2023,IST,Total,Commuting accidents,Days lost,160039,2025
+2023,IST,Total,Commuting accidents,Deaths,14,2025
+2023,IST,Total,Commuting accidents,"Deaths per 100,000 workers",2.5281401445318274,2025
+2023,IST,Total,Commuting accidents,Mean days lost per case,22.72635614882136,2025
+2023,IST,Total,Occupational diseases,Cases,4004,2024
+2023,IST,Total,Occupational diseases,Days lost,53532,2024
+2023,IST,Total,Occupational diseases (excluding COVID-19),Cases,356,2025
+2023,IST,Total,Occupational diseases (excluding COVID-19),Days lost,21625,2025
+2023,IST,Total,Work accidents,Accidents per 100 workers,3.296404093663162,2025
+2023,IST,Total,Work accidents,Cases,17101,2025
+2023,IST,Total,Work accidents,Days lost,319745,2025
+2023,IST,Total,Work accidents,Deaths,17,2025
+2023,IST,Total,Work accidents,"Deaths per 100,000 workers",3.3060294197723894,2025
+2023,IST,Total,Work accidents,Mean days lost per case,18.77208947337521,2025
+2023,IST,Total,Work and commuting accidents,Accidents per 100 workers,4.656910502240122,2025
+2023,IST,Total,Work and commuting accidents,Cases,24159,2025
+2023,IST,Total,Work and commuting accidents,Days lost,479784,2025
+2023,IST,Total,Work and commuting accidents,Deaths,31,2025
+2023,IST,Total,Work and commuting accidents,"Deaths per 100,000 workers",5.834169564304217,2025
+2023,IST,Total,Work and commuting accidents,Mean days lost per case,19.92872274143302,2025
+2023,MUSEG,Total,,Protected workers,2296227.0833333335,2024
+2023,MUSEG,Total,Commuting accidents,Accidents per 100 workers,1.0422179937768532,2025
+2023,MUSEG,Total,Commuting accidents,Cases,23912,2025
+2023,MUSEG,Total,Commuting accidents,Days lost,627440,2025
+2023,MUSEG,Total,Commuting accidents,Deaths,47,2025
+2023,MUSEG,Total,Commuting accidents,"Deaths per 100,000 workers",2.0986329973498803,2025
+2023,MUSEG,Total,Commuting accidents,Mean days lost per case,26.2901198357496,2025
+2023,MUSEG,Total,Occupational diseases,Cases,6890,2024
+2023,MUSEG,Total,Occupational diseases,Days lost,148519,2024
+2023,MUSEG,Total,Occupational diseases (excluding COVID-19),Cases,3011,2025
+2023,MUSEG,Total,Occupational diseases (excluding COVID-19),Days lost,128583,2025
+2023,MUSEG,Total,Work accidents,Accidents per 100 workers,2.7067506628274565,2025
+2023,MUSEG,Total,Work accidents,Cases,62102,2025
+2023,MUSEG,Total,Work accidents,Days lost,1254712,2025
+2023,MUSEG,Total,Work accidents,Deaths,73,2025
+2023,MUSEG,Total,Work accidents,"Deaths per 100,000 workers",3.2595789107774737,2025
+2023,MUSEG,Total,Work accidents,Mean days lost per case,20.22685065772504,2025
+2023,MUSEG,Total,Work and commuting accidents,Accidents per 100 workers,3.74896865660431,2025
+2023,MUSEG,Total,Work and commuting accidents,Cases,86014,2025
+2023,MUSEG,Total,Work and commuting accidents,Days lost,1882152,2025
+2023,MUSEG,Total,Work and commuting accidents,Deaths,120,2025
+2023,MUSEG,Total,Work and commuting accidents,"Deaths per 100,000 workers",5.358211908127354,2025
+2023,MUSEG,Total,Work and commuting accidents,Mean days lost per case,21.91147640224452,2025
+2023,Mutual insurers,Total,,Protected workers,5679341.583333334,2024
+2023,Mutual insurers,Total,Commuting accidents,Accidents per 100 workers,1.0183759330250415,2025
+2023,Mutual insurers,Total,Commuting accidents,Cases,57815,2025
+2023,Mutual insurers,Total,Commuting accidents,Days lost,1584934,2025
+2023,Mutual insurers,Total,Commuting accidents,Deaths,126,2025
+2023,Mutual insurers,Total,Occupational diseases,Cases,22480,2024
+2023,Mutual insurers,Total,Occupational diseases,Days lost,433595,2024
+2023,Mutual insurers,Total,Occupational diseases (excluding COVID-19),Cases,7990,2025
+2023,Mutual insurers,Total,Occupational diseases (excluding COVID-19),Days lost,342413,2025
+2023,Mutual insurers,Total,Work accidents,Accidents per 100 workers,2.6353592812178253,2025
+2023,Mutual insurers,Total,Work accidents,Cases,149614,2025
+2023,Mutual insurers,Total,Work accidents,Days lost,3022320,2025
+2023,Mutual insurers,Total,Work accidents,Deaths,157,2025
+2023,Mutual insurers,Total,Work and commuting accidents,Accidents per 100 workers,3.6537352142428663,2025
+2023,Mutual insurers,Total,Work and commuting accidents,Cases,207429,2025
+2023,Mutual insurers,Total,Work and commuting accidents,Days lost,4607254,2025
+2023,Mutual insurers,Total,Work and commuting accidents,Deaths,283,2025
+2023,Total,Female,,Protected workers (unique persons),2877319.75,2025
+2023,Total,Male,,Protected workers (unique persons),3676361.1666666665,2025
+2023,Total,Total,,Protected workers,7210401.250000001,2024
+2023,Total,Total,,Protected workers (unique persons),6634841.416666666,2025
+2023,Total,Total,Commuting accidents,Cases,62194,2025
+2023,Total,Total,Commuting accidents,Days lost,1777470,2025
+2023,Total,Total,Commuting accidents,Deaths,142,2025
+2023,Total,Total,Commuting accidents,"Deaths per 100,000 workers",2.1251449905917745,2025
+2023,Total,Total,Commuting accidents,Mean days lost per case,28.72168180202307,2025
+2023,Total,Total,Occupational diseases (excluding COVID-19),Cases,9627,2025
+2023,Total,Total,Occupational diseases (excluding COVID-19),Days lost,476933,2025
+2023,Total,Total,Work accidents,Cases,159834,2025
+2023,Total,Total,Work accidents,Days lost,3491739,2025
+2023,Total,Total,Work accidents,Deaths,202,2025
+2023,Total,Total,Work accidents,"Deaths per 100,000 workers",3.02946200786487,2025
+2023,Total,Total,Work accidents,Mean days lost per case,21.95040672894376,2025
+2023,Total,Total,Work and commuting accidents,Cases,222028,2025
+2023,Total,Total,Work and commuting accidents,Days lost,5269209,2025
+2023,Total,Total,Work and commuting accidents,Deaths,344,2025
+2023,Total,Total,Work and commuting accidents,"Deaths per 100,000 workers",5.154606998456645,2025
+2023,Total,Total,Work and commuting accidents,Mean days lost per case,23.84689083997104,2025
+2023,Total,Unknown,,Protected workers (unique persons),81160.5,2025
+2024,ACHS,Total,,Protected workers,2971829.1666666665,2024
+2024,ACHS,Total,Commuting accidents,Accidents per 100 workers,0.9483121320489816,2025
+2024,ACHS,Total,Commuting accidents,Cases,28182,2025
+2024,ACHS,Total,Commuting accidents,Days lost,741619,2025
+2024,ACHS,Total,Commuting accidents,Deaths,58,2025
+2024,ACHS,Total,Commuting accidents,"Deaths per 100,000 workers",1.9907088811358025,2025
+2024,ACHS,Total,Commuting accidents,Mean days lost per case,26.37336415362731,2025
+2024,ACHS,Total,Occupational diseases,Cases,6421,2024
+2024,ACHS,Total,Occupational diseases,Days lost,164235,2024
+2024,ACHS,Total,Occupational diseases (excluding COVID-19),Cases,4758,2025
+2024,ACHS,Total,Occupational diseases (excluding COVID-19),Days lost,159920,2025
+2024,ACHS,Total,Work accidents,Accidents per 100 workers,2.3879416099232125,2025
+2024,ACHS,Total,Work accidents,Cases,70965,2025
+2024,ACHS,Total,Work accidents,Days lost,1397899,2025
+2024,ACHS,Total,Work accidents,Deaths,66,2025
+2024,ACHS,Total,Work accidents,"Deaths per 100,000 workers",2.3339345502971476,2025
+2024,ACHS,Total,Work accidents,Mean days lost per case,19.71732231265075,2025
+2024,ACHS,Total,Work and commuting accidents,Accidents per 100 workers,3.336253741972194,2025
+2024,ACHS,Total,Work and commuting accidents,Cases,99147,2025
+2024,ACHS,Total,Work and commuting accidents,Days lost,2139518,2025
+2024,ACHS,Total,Work and commuting accidents,Deaths,124,2025
+2024,ACHS,Total,Work and commuting accidents,"Deaths per 100,000 workers",4.32464343143295,2025
+2024,ACHS,Total,Work and commuting accidents,Mean days lost per case,21.60758253633215,2025
+2024,ISL,Total,,Protected workers,1469515.6666666667,2024
+2024,ISL,Total,Commuting accidents,Cases,4619,2025
+2024,ISL,Total,Commuting accidents,Days lost,204507,2025
+2024,ISL,Total,Commuting accidents,Deaths,10,2025
+2024,ISL,Total,Commuting accidents,"Deaths per 100,000 workers",0.7401284443573286,2025
+2024,ISL,Total,Commuting accidents,Mean days lost per case,45.27496125747177,2025
+2024,ISL,Total,Occupational diseases (excluding COVID-19),Cases,1597,2025
+2024,ISL,Total,Occupational diseases (excluding COVID-19),Days lost,124087,2025
+2024,ISL,Total,Work accidents,Cases,11241,2025
+2024,ISL,Total,Work accidents,Days lost,502405,2025
+2024,ISL,Total,Work accidents,Deaths,36,2025
+2024,ISL,Total,Work accidents,"Deaths per 100,000 workers",2.738475244122116,2025
+2024,ISL,Total,Work accidents,Mean days lost per case,45.80643690736689,2025
+2024,ISL,Total,Work and commuting accidents,Cases,15860,2025
+2024,ISL,Total,Work and commuting accidents,Days lost,706912,2025
+2024,ISL,Total,Work and commuting accidents,Deaths,46,2025
+2024,ISL,Total,Work and commuting accidents,"Deaths per 100,000 workers",3.4786036884794442,2025
+2024,ISL,Total,Work and commuting accidents,Mean days lost per case,45.65140458508234,2025
+2024,IST,Total,,Protected workers,516233.25,2024
+2024,IST,Total,Commuting accidents,Accidents per 100 workers,1.4422615467695998,2025
+2024,IST,Total,Commuting accidents,Cases,7438,2025
+2024,IST,Total,Commuting accidents,Days lost,174353,2025
+2024,IST,Total,Commuting accidents,Deaths,24,2025
+2024,IST,Total,Commuting accidents,"Deaths per 100,000 workers",4.692998079455716,2025
+2024,IST,Total,Commuting accidents,Mean days lost per case,23.52941970310392,2025
+2024,IST,Total,Occupational diseases,Cases,786,2024
+2024,IST,Total,Occupational diseases,Days lost,39027,2024
+2024,IST,Total,Occupational diseases (excluding COVID-19),Cases,662,2025
+2024,IST,Total,Occupational diseases (excluding COVID-19),Days lost,36544,2025
+2024,IST,Total,Work accidents,Accidents per 100 workers,3.125352461795161,2025
+2024,IST,Total,Work accidents,Cases,16118,2025
+2024,IST,Total,Work accidents,Days lost,311332,2025
+2024,IST,Total,Work accidents,Deaths,9,2025
+2024,IST,Total,Work accidents,"Deaths per 100,000 workers",1.7598742797958937,2025
+2024,IST,Total,Work accidents,Mean days lost per case,19.51068496584571,2025
+2024,IST,Total,Work and commuting accidents,Accidents per 100 workers,4.567614008564761,2025
+2024,IST,Total,Work and commuting accidents,Cases,23556,2025
+2024,IST,Total,Work and commuting accidents,Days lost,485685,2025
+2024,IST,Total,Work and commuting accidents,Deaths,33,2025
+2024,IST,Total,Work and commuting accidents,"Deaths per 100,000 workers",6.452872359251609,2025
+2024,IST,Total,Work and commuting accidents,Mean days lost per case,20.78508152522788,2025
+2024,MUSEG,Total,,Protected workers,2294959.4166666665,2024
+2024,MUSEG,Total,Commuting accidents,Accidents per 100 workers,0.9413932953933714,2025
+2024,MUSEG,Total,Commuting accidents,Cases,21569,2025
+2024,MUSEG,Total,Commuting accidents,Days lost,611567,2025
+2024,MUSEG,Total,Commuting accidents,Deaths,44,2025
+2024,MUSEG,Total,Commuting accidents,"Deaths per 100,000 workers",1.966312596332559,2025
+2024,MUSEG,Total,Commuting accidents,Mean days lost per case,28.40798030471943,2025
+2024,MUSEG,Total,Occupational diseases,Cases,4759,2024
+2024,MUSEG,Total,Occupational diseases,Days lost,143511,2024
+2024,MUSEG,Total,Occupational diseases (excluding COVID-19),Cases,3258,2025
+2024,MUSEG,Total,Occupational diseases (excluding COVID-19),Days lost,136682,2025
+2024,MUSEG,Total,Work accidents,Accidents per 100 workers,2.466067225013504,2025
+2024,MUSEG,Total,Work accidents,Cases,56502,2025
+2024,MUSEG,Total,Work accidents,Days lost,1192874,2025
+2024,MUSEG,Total,Work accidents,Deaths,47,2025
+2024,MUSEG,Total,Work accidents,"Deaths per 100,000 workers",2.145068286908246,2025
+2024,MUSEG,Total,Work accidents,Mean days lost per case,21.12889455691943,2025
+2024,MUSEG,Total,Work and commuting accidents,Accidents per 100 workers,3.4074605204068757,2025
+2024,MUSEG,Total,Work and commuting accidents,Cases,78071,2025
+2024,MUSEG,Total,Work and commuting accidents,Days lost,1804441,2025
+2024,MUSEG,Total,Work and commuting accidents,Deaths,91,2025
+2024,MUSEG,Total,Work and commuting accidents,"Deaths per 100,000 workers",4.111380883240805,2025
+2024,MUSEG,Total,Work and commuting accidents,Mean days lost per case,23.13830864909919,2025
+2024,Mutual insurers,Total,,Protected workers,5783021.833333333,2024
+2024,Mutual insurers,Total,Commuting accidents,Accidents per 100 workers,0.9896512093379208,2025
+2024,Mutual insurers,Total,Commuting accidents,Cases,57189,2025
+2024,Mutual insurers,Total,Commuting accidents,Days lost,1527539,2025
+2024,Mutual insurers,Total,Commuting accidents,Deaths,126,2025
+2024,Mutual insurers,Total,Occupational diseases,Cases,11966,2024
+2024,Mutual insurers,Total,Occupational diseases,Days lost,346773,2024
+2024,Mutual insurers,Total,Occupational diseases (excluding COVID-19),Cases,8678,2025
+2024,Mutual insurers,Total,Occupational diseases (excluding COVID-19),Days lost,333146,2025
+2024,Mutual insurers,Total,Work accidents,Accidents per 100 workers,2.4847272883384104,2025
+2024,Mutual insurers,Total,Work accidents,Cases,143585,2025
+2024,Mutual insurers,Total,Work accidents,Days lost,2902105,2025
+2024,Mutual insurers,Total,Work accidents,Deaths,122,2025
+2024,Mutual insurers,Total,Work and commuting accidents,Accidents per 100 workers,3.4743784976763314,2025
+2024,Mutual insurers,Total,Work and commuting accidents,Cases,200774,2025
+2024,Mutual insurers,Total,Work and commuting accidents,Days lost,4429644,2025
+2024,Mutual insurers,Total,Work and commuting accidents,Deaths,248,2025
+2024,Total,Female,,Protected workers (unique persons),2904614.9166666665,2025
+2024,Total,Male,,Protected workers (unique persons),3669444.0833333335,2025
+2024,Total,Total,,Protected workers,7252537.5,2024
+2024,Total,Total,,Protected workers (unique persons),6663674.333333333,2025
+2024,Total,Total,Commuting accidents,Cases,61808,2025
+2024,Total,Total,Commuting accidents,Days lost,1732046,2025
+2024,Total,Total,Commuting accidents,Deaths,136,2025
+2024,Total,Total,Commuting accidents,"Deaths per 100,000 workers",2.040916065175854,2025
+2024,Total,Total,Commuting accidents,Mean days lost per case,28.12904587900934,2025
+2024,Total,Total,Occupational diseases (excluding COVID-19),Cases,10275,2025
+2024,Total,Total,Occupational diseases (excluding COVID-19),Days lost,457233,2025
+2024,Total,Total,Work accidents,Cases,154826,2025
+2024,Total,Total,Work accidents,Days lost,3404510,2025
+2024,Total,Total,Work accidents,Deaths,158,2025
+2024,Total,Total,Work accidents,"Deaths per 100,000 workers",2.431091195283003,2025
+2024,Total,Total,Work accidents,Mean days lost per case,22.06722885162595,2025
+2024,Total,Total,Work and commuting accidents,Cases,216634,2025
+2024,Total,Total,Work and commuting accidents,Days lost,5136556,2025
+2024,Total,Total,Work and commuting accidents,Deaths,294,2025
+2024,Total,Total,Work and commuting accidents,"Deaths per 100,000 workers",4.472007260458858,2025
+2024,Total,Total,Work and commuting accidents,Mean days lost per case,23.79643648021348,2025
+2024,Total,Unknown,,Protected workers (unique persons),89615.33333333333,2025
+2025,ACHS,Total,Commuting accidents,Accidents per 100 workers,0.9548563181799351,2025
+2025,ACHS,Total,Commuting accidents,Cases,29082,2025
+2025,ACHS,Total,Commuting accidents,Days lost,680591,2025
+2025,ACHS,Total,Commuting accidents,Deaths,47,2025
+2025,ACHS,Total,Commuting accidents,"Deaths per 100,000 workers",1.5744897376070977,2025
+2025,ACHS,Total,Commuting accidents,Mean days lost per case,23.44117241854378,2025
+2025,ACHS,Total,Occupational diseases (excluding COVID-19),Cases,4641,2025
+2025,ACHS,Total,Occupational diseases (excluding COVID-19),Days lost,113733,2025
+2025,ACHS,Total,Work accidents,Accidents per 100 workers,2.3365776041288457,2025
+2025,ACHS,Total,Work accidents,Cases,71165,2025
+2025,ACHS,Total,Work accidents,Days lost,1285549,2025
+2025,ACHS,Total,Work accidents,Deaths,82,2025
+2025,ACHS,Total,Work accidents,"Deaths per 100,000 workers",2.6799825320971875,2025
+2025,ACHS,Total,Work accidents,Mean days lost per case,18.08391008327706,2025
+2025,ACHS,Total,Work and commuting accidents,Accidents per 100 workers,3.2914339223087805,2025
+2025,ACHS,Total,Work and commuting accidents,Cases,100247,2025
+2025,ACHS,Total,Work and commuting accidents,Days lost,1966140,2025
+2025,ACHS,Total,Work and commuting accidents,Deaths,129,2025
+2025,ACHS,Total,Work and commuting accidents,"Deaths per 100,000 workers",4.254472269704285,2025
+2025,ACHS,Total,Work and commuting accidents,Mean days lost per case,19.63744232036915,2025
+2025,ISL,Total,Commuting accidents,Cases,4492,2025
+2025,ISL,Total,Commuting accidents,Days lost,162974,2025
+2025,ISL,Total,Commuting accidents,Deaths,10,2025
+2025,ISL,Total,Commuting accidents,"Deaths per 100,000 workers",0.7325261830801468,2025
+2025,ISL,Total,Commuting accidents,Mean days lost per case,37.031129288798,2025
+2025,ISL,Total,Occupational diseases (excluding COVID-19),Cases,1447,2025
+2025,ISL,Total,Occupational diseases (excluding COVID-19),Days lost,81161,2025
+2025,ISL,Total,Work accidents,Cases,11561,2025
+2025,ISL,Total,Work accidents,Days lost,408350,2025
+2025,ISL,Total,Work accidents,Deaths,68,2025
+2025,ISL,Total,Work accidents,"Deaths per 100,000 workers",4.907925426636983,2025
+2025,ISL,Total,Work accidents,Mean days lost per case,36.19161570504298,2025
+2025,ISL,Total,Work and commuting accidents,Cases,16053,2025
+2025,ISL,Total,Work and commuting accidents,Days lost,571324,2025
+2025,ISL,Total,Work and commuting accidents,Deaths,78,2025
+2025,ISL,Total,Work and commuting accidents,"Deaths per 100,000 workers",5.640451609717131,2025
+2025,ISL,Total,Work and commuting accidents,Mean days lost per case,36.42718694210661,2025
+2025,IST,Total,Commuting accidents,Accidents per 100 workers,1.4072261995706579,2025
+2025,IST,Total,Commuting accidents,Cases,6983,2025
+2025,IST,Total,Commuting accidents,Days lost,146209,2025
+2025,IST,Total,Commuting accidents,Deaths,5,2025
+2025,IST,Total,Commuting accidents,"Deaths per 100,000 workers",1.015446979451415,2025
+2025,IST,Total,Commuting accidents,Mean days lost per case,21.19892706974047,2025
+2025,IST,Total,Occupational diseases (excluding COVID-19),Cases,501,2025
+2025,IST,Total,Occupational diseases (excluding COVID-19),Days lost,17381,2025
+2025,IST,Total,Work accidents,Accidents per 100 workers,3.2854086684233765,2025
+2025,IST,Total,Work accidents,Cases,16303,2025
+2025,IST,Total,Work accidents,Days lost,283394,2025
+2025,IST,Total,Work accidents,Deaths,8,2025
+2025,IST,Total,Work accidents,"Deaths per 100,000 workers",1.6247151671222637,2025
+2025,IST,Total,Work accidents,Mean days lost per case,18.39026606099935,2025
+2025,IST,Total,Work and commuting accidents,Accidents per 100 workers,4.692634867994034,2025
+2025,IST,Total,Work and commuting accidents,Cases,23286,2025
+2025,IST,Total,Work and commuting accidents,Days lost,429603,2025
+2025,IST,Total,Work and commuting accidents,Deaths,13,2025
+2025,IST,Total,Work and commuting accidents,"Deaths per 100,000 workers",2.640162146573679,2025
+2025,IST,Total,Work and commuting accidents,Mean days lost per case,19.25866319989241,2025
+2025,MUSEG,Total,Commuting accidents,Accidents per 100 workers,0.8856662045127115,2025
+2025,MUSEG,Total,Commuting accidents,Cases,20903,2025
+2025,MUSEG,Total,Commuting accidents,Days lost,570044,2025
+2025,MUSEG,Total,Commuting accidents,Deaths,53,2025
+2025,MUSEG,Total,Commuting accidents,"Deaths per 100,000 workers",2.2955254398178018,2025
+2025,MUSEG,Total,Commuting accidents,Mean days lost per case,27.33368496763366,2025
+2025,MUSEG,Total,Occupational diseases (excluding COVID-19),Cases,3683,2025
+2025,MUSEG,Total,Occupational diseases (excluding COVID-19),Days lost,117985,2025
+2025,MUSEG,Total,Work accidents,Accidents per 100 workers,2.3157482853007822,2025
+2025,MUSEG,Total,Work accidents,Cases,54655,2025
+2025,MUSEG,Total,Work accidents,Days lost,1114625,2025
+2025,MUSEG,Total,Work accidents,Deaths,67,2025
+2025,MUSEG,Total,Work accidents,"Deaths per 100,000 workers",2.858578849584432,2025
+2025,MUSEG,Total,Work accidents,Mean days lost per case,20.41736884525205,2025
+2025,MUSEG,Total,Work and commuting accidents,Accidents per 100 workers,3.2014144898134935,2025
+2025,MUSEG,Total,Work and commuting accidents,Cases,75558,2025
+2025,MUSEG,Total,Work and commuting accidents,Days lost,1684669,2025
+2025,MUSEG,Total,Work and commuting accidents,Deaths,120,2025
+2025,MUSEG,Total,Work and commuting accidents,"Deaths per 100,000 workers",5.154104289402234,2025
+2025,MUSEG,Total,Work and commuting accidents,Mean days lost per case,22.329171471364,2025
+2025,Mutual insurers,Total,Commuting accidents,Accidents per 100 workers,0.9652219033600541,2025
+2025,Mutual insurers,Total,Commuting accidents,Cases,56968,2025
+2025,Mutual insurers,Total,Commuting accidents,Days lost,1396844,2025
+2025,Mutual insurers,Total,Commuting accidents,Deaths,105,2025
+2025,Mutual insurers,Total,Occupational diseases (excluding COVID-19),Cases,8825,2025
+2025,Mutual insurers,Total,Occupational diseases (excluding COVID-19),Days lost,249099,2025
+2025,Mutual insurers,Total,Work accidents,Accidents per 100 workers,2.408022619211504,2025
+2025,Mutual insurers,Total,Work accidents,Cases,142123,2025
+2025,Mutual insurers,Total,Work accidents,Days lost,2683568,2025
+2025,Mutual insurers,Total,Work accidents,Deaths,157,2025
+2025,Mutual insurers,Total,Work and commuting accidents,Accidents per 100 workers,3.3732445225715577,2025
+2025,Mutual insurers,Total,Work and commuting accidents,Cases,199091,2025
+2025,Mutual insurers,Total,Work and commuting accidents,Days lost,4080412,2025
+2025,Mutual insurers,Total,Work and commuting accidents,Deaths,262,2025
+2025,Total,Female,,Protected workers (unique persons),2962136.3333333335,2025
+2025,Total,Male,,Protected workers (unique persons),3743296,2025
+2025,Total,Total,,Protected workers (unique persons),6799806.333333334,2025
+2025,Total,Total,Commuting accidents,Cases,61460,2025
+2025,Total,Total,Commuting accidents,Days lost,1559818,2025
+2025,Total,Total,Commuting accidents,Deaths,115,2025
+2025,Total,Total,Commuting accidents,"Deaths per 100,000 workers",1.691224637329132,2025
+2025,Total,Total,Commuting accidents,Mean days lost per case,25.49263732492196,2025
+2025,Total,Total,Occupational diseases (excluding COVID-19),Cases,10272,2025
+2025,Total,Total,Occupational diseases (excluding COVID-19),Days lost,330260,2025
+2025,Total,Total,Work accidents,Cases,153684,2025
+2025,Total,Total,Work accidents,Days lost,3091918,2025
+2025,Total,Total,Work accidents,Deaths,225,2025
+2025,Total,Total,Work accidents,"Deaths per 100,000 workers",3.2500925639107665,2025
+2025,Total,Total,Work accidents,Mean days lost per case,20.29177085179133,2025
+2025,Total,Total,Work and commuting accidents,Cases,215144,2025
+2025,Total,Total,Work and commuting accidents,Days lost,4651736,2025
+2025,Total,Total,Work and commuting accidents,Deaths,340,2025
+2025,Total,Total,Work and commuting accidents,"Deaths per 100,000 workers",4.941317201239898,2025
+2025,Total,Total,Work and commuting accidents,Mean days lost per case,21.7818692639071,2025
+2025,Total,Unknown,,Protected workers (unique persons),94374,2025

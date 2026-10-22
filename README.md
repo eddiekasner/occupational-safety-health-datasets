@@ -18,33 +18,34 @@ Each module gives students:
 
 | # | Module | Scope | Source | Status |
 | --- | --- | --- | --- | --- |
-| 1 | [Argentina SRT work accidents and occupational diseases: national series since 1996, provinces, sectors, sex, age and employer size](modules/ar-srt-work-accidents/) | Argentina | SRT | Ready for review |
+| 1 | [Argentina SRT work accidents and occupational diseases: national series since 1996, provinces, sectors, sex, age and employer size](modules/ar-srt-work-accidents/) | Argentina | SRT | Ready |
 | 2 | [BLS Census of Fatal Occupational Injuries (CFOI)](modules/us-bls-cfoi/) | US | BLS | Ready |
 | 3 | [BLS Survey of Occupational Injuries and Illnesses (SOII)](modules/us-bls-soii/) | US | BLS | Ready |
 | 4 | [Brazil SINAN work accidents and work-related diseases](modules/br-sinan-work-accidents/) | Brazil | Ministry of Health (DATASUS) | Ready |
 | 5 | [Canada AWCBC work injury, disease and fatality statistics](modules/ca-awcbc-nwisp/) | Canada | AWCBC | Ready |
 | 6 | [Child labour: ILOSTAT survey estimates and UNICEF country estimates, including hazardous work](modules/intl-unicef-ilo-child-labour/) | International | ILO / UNICEF | Ready |
-| 7 | [Eurostat accidents at work (ESAW)](modules/intl-eurostat-esaw/) | Europe | Eurostat | Ready |
-| 8 | [Eurostat Labour Force Survey: self-reported accidents, work-related health problems and exposures](modules/intl-eurostat-lfs-health/) | Europe | Eurostat | Ready |
-| 9 | [Finland occupational accident statistics: accidents, causes and rates](modules/fi-statfin-work-accidents/) | Finland | Statistics Finland | Ready |
-| 10 | [France work accidents, commuting accidents and occupational diseases by sector](modules/fr-ameli-occupational-risks/) | France | Assurance Maladie | Ready |
-| 11 | [Global Burden of Disease: occupational risks](modules/intl-ihme-gbd-occupational/) (students download the data from IHME) | International | IHME | Draft (not yet tested on real data) |
-| 12 | [Hong Kong industrial accidents, occupational injuries and diseases since 1999](modules/hk-labour-osh-statistics/) | Hong Kong | Labour Department | Ready |
-| 13 | [ILOSTAT occupational safety and health](modules/intl-ilostat-osh/) | International | ILO | Ready |
-| 14 | [Italy INAIL work injury reports and occupational disease claims](modules/it-inail-work-injuries/) | Italy | INAIL | Ready |
-| 15 | [Japan fatal accident database: every work-related death since 1991](modules/jp-mhlw-fatal-accidents/) | Japan | MHLW | Ready |
-| 16 | [Korea industrial accidents: microdata since 2017, national totals since 1964, and accident case descriptions](modules/kr-kosha-industrial-accidents/) | South Korea | KOSHA / Ministry of Employment and Labor | Ready |
-| 17 | [Mexico IMSS work risks: work and commuting accidents and occupational diseases, including COVID-19](modules/mx-imss-work-risks/) | Mexico | IMSS | Ready |
-| 18 | [MSHA mine safety: accidents, injury rates and violations](modules/us-msha-mine-safety/) | US | MSHA | Ready |
-| 19 | [OSHA Chemical Exposure Health Data](modules/us-osha-chemical-exposure/) | US | OSHA | Ready |
-| 20 | [OSHA enforcement: inspections, violations, cited standards and accident investigations](modules/us-osha-enforcement/) | US | OSHA | Ready |
-| 21 | [OSHA ITA case detail (Forms 300/301)](modules/us-osha-ita-case-detail/) | US | OSHA | Ready |
-| 22 | [OSHA ITA summary (Form 300A): establishment injury rates](modules/us-osha-ita-summary/) | US | OSHA | Ready |
-| 23 | [OSHA Severe Injury Reports](modules/us-osha-severe-injury/) | US | OSHA | Ready |
-| 24 | [Safe Work Australia fatalities and workers' compensation](modules/intl-safework-australia/) | Australia | Safe Work Australia | Ready |
-| 25 | [Singapore workplace safety and health statistics: injuries, diseases and rates by industry](modules/sg-mom-workplace-safety/) | Singapore | MOM | Ready |
-| 26 | [UK HSE injury statistics (RIDDOR and LFS)](modules/uk-hse-riddor/) | Great Britain | HSE | Ready |
-| 27 | [WHO/ILO Joint Estimates of the work-related burden of disease](modules/intl-who-ilo-joint-estimates/) | International | WHO / ILO | Ready |
+| 7 | [Chile SUSESO work accidents, commuting accidents and occupational diseases by insurer, sector, region, sex and employer size](modules/cl-suseso-work-accidents/) | Chile | SUSESO | Ready for review |
+| 8 | [Eurostat accidents at work (ESAW)](modules/intl-eurostat-esaw/) | Europe | Eurostat | Ready |
+| 9 | [Eurostat Labour Force Survey: self-reported accidents, work-related health problems and exposures](modules/intl-eurostat-lfs-health/) | Europe | Eurostat | Ready |
+| 10 | [Finland occupational accident statistics: accidents, causes and rates](modules/fi-statfin-work-accidents/) | Finland | Statistics Finland | Ready |
+| 11 | [France work accidents, commuting accidents and occupational diseases by sector](modules/fr-ameli-occupational-risks/) | France | Assurance Maladie | Ready |
+| 12 | [Global Burden of Disease: occupational risks](modules/intl-ihme-gbd-occupational/) (students download the data from IHME) | International | IHME | Draft (not yet tested on real data) |
+| 13 | [Hong Kong industrial accidents, occupational injuries and diseases since 1999](modules/hk-labour-osh-statistics/) | Hong Kong | Labour Department | Ready |
+| 14 | [ILOSTAT occupational safety and health](modules/intl-ilostat-osh/) | International | ILO | Ready |
+| 15 | [Italy INAIL work injury reports and occupational disease claims](modules/it-inail-work-injuries/) | Italy | INAIL | Ready |
+| 16 | [Japan fatal accident database: every work-related death since 1991](modules/jp-mhlw-fatal-accidents/) | Japan | MHLW | Ready |
+| 17 | [Korea industrial accidents: microdata since 2017, national totals since 1964, and accident case descriptions](modules/kr-kosha-industrial-accidents/) | South Korea | KOSHA / Ministry of Employment and Labor | Ready |
+| 18 | [Mexico IMSS work risks: work and commuting accidents and occupational diseases, including COVID-19](modules/mx-imss-work-risks/) | Mexico | IMSS | Ready |
+| 19 | [MSHA mine safety: accidents, injury rates and violations](modules/us-msha-mine-safety/) | US | MSHA | Ready |
+| 20 | [OSHA Chemical Exposure Health Data](modules/us-osha-chemical-exposure/) | US | OSHA | Ready |
+| 21 | [OSHA enforcement: inspections, violations, cited standards and accident investigations](modules/us-osha-enforcement/) | US | OSHA | Ready |
+| 22 | [OSHA ITA case detail (Forms 300/301)](modules/us-osha-ita-case-detail/) | US | OSHA | Ready |
+| 23 | [OSHA ITA summary (Form 300A): establishment injury rates](modules/us-osha-ita-summary/) | US | OSHA | Ready |
+| 24 | [OSHA Severe Injury Reports](modules/us-osha-severe-injury/) | US | OSHA | Ready |
+| 25 | [Safe Work Australia fatalities and workers' compensation](modules/intl-safework-australia/) | Australia | Safe Work Australia | Ready |
+| 26 | [Singapore workplace safety and health statistics: injuries, diseases and rates by industry](modules/sg-mom-workplace-safety/) | Singapore | MOM | Ready |
+| 27 | [UK HSE injury statistics (RIDDOR and LFS)](modules/uk-hse-riddor/) | Great Britain | HSE | Ready |
+| 28 | [WHO/ILO Joint Estimates of the work-related burden of disease](modules/intl-who-ilo-joint-estimates/) | International | WHO / ILO | Ready |
 
 See [CATALOG.md](CATALOG.md) for candidate datasets (US and international) and their status.
 
@@ -89,6 +90,7 @@ modules/
   ar-srt-work-accidents/        Argentine work accidents and occupational diseases since 1996, by province, sector, sex and age
   br-sinan-work-accidents/      Brazilian notifications of work accidents and diseases, incl. informal work
   ca-awcbc-nwisp/               Canadian accepted lost time claims and fatalities since 1982
+  cl-suseso-work-accidents/     Chilean work and commuting accidents, occupational diseases and deaths, by insurer, sector and region
   fi-statfin-work-accidents/    Finnish accidents at work and commuting by industry, with ESAW causes and rates
   fr-ameli-occupational-risks/  French accidents and occupational diseases by detailed sector, with causes and costs
   hk-labour-osh-statistics/     Hong Kong industrial accidents, occupational injuries and diseases since 1999
