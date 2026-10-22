@@ -1,0 +1,308 @@
+classification,code,spanish,english
+CIIU Rev. 2,000,Servicios domésticos,Domestic services
+CIIU Rev. 2,000,Sin clasificar,Unclassified
+CIIU Rev. 2,111,Producción agropecuaria,Agricultural and livestock production
+CIIU Rev. 2,112,Servicios agropecuarios,Agricultural and livestock services
+CIIU Rev. 2,113,Caza ordinaria y mediante trampas y repoblación de animales,"Hunting, trapping and game propagation"
+CIIU Rev. 2,121,Silvicultura,Forestry
+CIIU Rev. 2,122,Extracción de madera,Logging
+CIIU Rev. 2,130,Pesca,Fishing
+CIIU Rev. 2,210,Explotación de minas de carbón,Coal mining
+CIIU Rev. 2,220,Producción de petróleo crudo y gas natural,Crude petroleum and natural gas production
+CIIU Rev. 2,230,Extracción de minerales metálicos,Metal ore mining
+CIIU Rev. 2,290,Extracción de otros minerales,Other mining
+CIIU Rev. 2,311,Fabricación de productos alimentarios excepto bebidas,"Manufacture of food products, except beverages"
+CIIU Rev. 2,312,Fabricación de productos alimentarios excepto bebidas,"Manufacture of food products, except beverages"
+CIIU Rev. 2,313,Industrias de bebidas,Beverage industries
+CIIU Rev. 2,314,Industria del tabaco,Tobacco manufactures
+CIIU Rev. 2,321,Fabricación de textiles,Manufacture of textiles
+CIIU Rev. 2,322,Fabricación de prendas de vestir excepto calzado,"Manufacture of wearing apparel, except footwear"
+CIIU Rev. 2,323,Industria del cuero y productos de cuero y sucedáneos de cuero y pieles excepto calzado y otras prendas de vestir,"Manufacture of leather and products of leather, leather substitutes and fur, except footwear and wearing apparel"
+CIIU Rev. 2,324,Fabricación de calzado excepto el de caucho vulcanizado o moldeado o de plástico,"Manufacture of footwear, except vulcanised or moulded rubber or plastic footwear"
+CIIU Rev. 2,331,Industria de la madera y productos de madera y de corcho excepto muebles,"Manufacture of wood and wood and cork products, except furniture"
+CIIU Rev. 2,332,Fabricación de muebles y accesorios excepto los que son principalmente metálicos,"Manufacture of furniture and fixtures, except primarily of metal"
+CIIU Rev. 2,341,Fabricación de papel y productos de papel,Manufacture of paper and paper products
+CIIU Rev. 2,342,"Imprentas, editoriales e industrias conexas","Printing, publishing and allied industries"
+CIIU Rev. 2,351,Fabricación de sustancias químicas industriales,Manufacture of industrial chemicals
+CIIU Rev. 2,352,Fabricación de productos químicos no clasificados en otra parte,Manufacture of chemical products not elsewhere classified
+CIIU Rev. 2,353,Refinerías de petróleo,Petroleum refineries
+CIIU Rev. 2,354,Fabricación de productos diversos derivados del petróleo y del carbón,Manufacture of miscellaneous products of petroleum and coal
+CIIU Rev. 2,355,Fabricación de productos de caucho,Manufacture of rubber products
+CIIU Rev. 2,356,Fabricación de productos plásticos no clasificados en otra parte,Manufacture of plastic products not elsewhere classified
+CIIU Rev. 2,361,"Fabricación de objetos de barro, loza y porcelana","Manufacture of pottery, china and earthenware"
+CIIU Rev. 2,362,Fabricación de vidrio y productos de vidrio,Manufacture of glass and glass products
+CIIU Rev. 2,369,Fabricación de otros productos minerales no metálicos,Manufacture of other non-metallic mineral products
+CIIU Rev. 2,371,Industrias básicas de hierro y acero,Iron and steel basic industries
+CIIU Rev. 2,372,Industrias básicas de metales no férreos,Non-ferrous metal basic industries
+CIIU Rev. 2,381,Fabricación de productos metálicos exceptuando maquinaria y equipo,"Manufacture of fabricated metal products, except machinery and equipment"
+CIIU Rev. 2,382,Construcción de maquinaria exceptuando la eléctrica,"Manufacture of machinery, except electrical"
+CIIU Rev. 2,383,"Construcción de maquinaria, aparatos, accesorios y suministros eléctricos","Manufacture of electrical machinery, apparatus, appliances and supplies"
+CIIU Rev. 2,384,Construcción de material de transporte,Manufacture of transport equipment
+CIIU Rev. 2,385,"Fabricación de equipo profesional y científico, instrumentos de medida y de control no clasificados en otra parte y aparatos fotográficos e instrumentos de óptica","Manufacture of professional and scientific equipment, measuring and controlling equipment not elsewhere classified, and photographic and optical goods"
+CIIU Rev. 2,390,Otras industrias manufactureras,Other manufacturing industries
+CIIU Rev. 2,410,"Electricidad, gas y vapor","Electricity, gas and steam"
+CIIU Rev. 2,420,Obras hidráulicas y suministro de agua,Waterworks and water supply
+CIIU Rev. 2,500,Construcción,Construction
+CIIU Rev. 2,611,"Comercio al por mayor de productos alimentarios, bebidas y tabaco","Wholesale trade of food, beverages and tobacco"
+CIIU Rev. 2,612,"Comercio al por mayor de productos alimentarios, bebidas y tabaco","Wholesale trade of food, beverages and tobacco"
+CIIU Rev. 2,613,"Comercio al por mayor de textiles, prendas de vestir y cuero","Wholesale trade of textiles, wearing apparel and leather"
+CIIU Rev. 2,614,"Comercio al por mayor de madera, papel y derivados","Wholesale trade of wood, paper and derived products"
+CIIU Rev. 2,615,Comercio al por mayor de sustancias químicas industriales y materias primas para la elaboración de plásticos,Wholesale trade of industrial chemicals and raw materials for plastics manufacturing
+CIIU Rev. 2,616,"Comercio al por mayor de porcelana, loza, vidrio, y materiales para la construcción","Wholesale trade of porcelain, earthenware, glass and construction materials"
+CIIU Rev. 2,617,Comercio al por mayor de productos metálicos,Wholesale trade of metal products
+CIIU Rev. 2,618,"Comercio al por mayor de motores, máquinas y equipos (industriales, comerciales y domésticos)","Wholesale trade of engines, machinery and equipment (industrial, commercial and household)"
+CIIU Rev. 2,619,Comercio al por mayor de productos no clasificados en otra parte,Wholesale trade of products not elsewhere classified
+CIIU Rev. 2,621,"Comercio al por menor de productos alimentarios, bebidas y tabacos","Retail trade of food, beverages and tobacco"
+CIIU Rev. 2,622,"Comercio al por menor de productos alimentarios, bebidas y tabacos","Retail trade of food, beverages and tobacco"
+CIIU Rev. 2,623,"Comercio al por menor de textiles, prendas de vestir y cuero","Retail trade of textiles, wearing apparel and leather"
+CIIU Rev. 2,624,Comercio al por menor de artículos no clasificados en otra parte,Retail trade of articles not elsewhere classified
+CIIU Rev. 2,631,"Expendio de comidas y bebidas en restaurantes, cafés y otros establecimientos con servicio de mesa y/o en mostrador","Sale of food and beverages in restaurants, cafes and other establishments with table and/or counter service"
+CIIU Rev. 2,632,"Servicios de alojamiento, comida y hospedaje prestados en hoteles, casas de huéspedes, campamentos y otros lugares de alojamiento","Lodging and meal services provided in hotels, guest houses, camps and other lodging places"
+CIIU Rev. 2,711,Transporte terrestre,Land transport
+CIIU Rev. 2,712,Transporte por agua,Water transport
+CIIU Rev. 2,713,Transporte aéreo,Air transport
+CIIU Rev. 2,719,Servicios conexos con los de transportes,Services allied to transport
+CIIU Rev. 2,720,Comunicaciones,Communication
+CIIU Rev. 2,810,Establecimientos y servicios financieros,Financial institutions and services
+CIIU Rev. 2,820,Seguros,Insurance
+CIIU Rev. 2,831,Bienes inmuebles,Real estate
+CIIU Rev. 2,832,Servicios técnicos y profesionales excepto los sociales y comunales,"Technical and professional services, except social and community services"
+CIIU Rev. 2,833,Alquiler y arrendamiento de maquinaria y equipo,Machinery and equipment rental and leasing
+CIIU Rev. 2,910,Administración pública y defensa,Public administration and defence
+CIIU Rev. 2,920,Servicios de saneamiento y similares,Sanitary and similar services
+CIIU Rev. 2,931,Instrucción y enseñanza,Education
+CIIU Rev. 2,932,Investigación y ciencias,Research and science
+CIIU Rev. 2,933,Servicios médicos y odontológicos; otros servicios de sanidad y veterinaria,Medical and dental services; other health and veterinary services
+CIIU Rev. 2,934,Servicios de asistencia social,Social assistance services
+CIIU Rev. 2,935,"Servicios de asociaciones comerciales, profesionales y laborales","Services of trade, professional and labour associations"
+CIIU Rev. 2,939,Servicios sociales y comunales conexos no clasificados en otra parte,Related social and community services not elsewhere classified
+CIIU Rev. 2,941,"Servicios relacionados con películas cinematográficas, radio, televisión, obras y espectáculos teatrales y musicales, etc.","Services related to motion pictures, radio, television, theatrical and musical works and shows, and the like"
+CIIU Rev. 2,942,"Servicios culturales de bibliotecas, museos, etc.","Cultural services of libraries, museums and the like"
+CIIU Rev. 2,949,Servicios de diversión y esparcimiento no clasificados en otra parte,Amusement and recreational services not elsewhere classified
+CIIU Rev. 2,951,Servicios de reparación de artículos personales y de los hogares,Repair services for personal and household goods
+CIIU Rev. 2,952,"Servicios de lavandería, establecimientos de limpieza y teñido","Laundry services, cleaning and dyeing establishments"
+CIIU Rev. 2,959,Servicios personales no clasificados en otra parte,Personal services not elsewhere classified
+CIIU Rev. 4,011,Cultivos temporales,Growing of non-perennial crops
+CIIU Rev. 4,012,Cultivos perennes,Growing of perennial crops
+CIIU Rev. 4,013,Producción de semillas y de otras formas de propagación de cultivos agrícolas,Production of seeds and other forms of agricultural crop propagation
+CIIU Rev. 4,014,Cría de animales,Animal production
+CIIU Rev. 4,016,Servicios de apoyo agrícolas y pecuarios,Support services for agriculture and livestock
+CIIU Rev. 4,017,"Caza, repoblación de animales de caza y servicios de apoyo","Hunting, restocking of game animals and support services"
+CIIU Rev. 4,021,Silvicultura,Silviculture and other forestry activities
+CIIU Rev. 4,022,Extracción de productos forestales,Extraction of forest products
+CIIU Rev. 4,024,Servicios de apoyo a la silvicultura,Support services to forestry
+CIIU Rev. 4,031,Pesca y servicios de apoyo,Fishing and support services
+CIIU Rev. 4,032,"Explotación de criaderos de peces, granjas piscícolas y otros frutos acuáticos (acuicultura)",Aquaculture
+CIIU Rev. 4,051,Extracción y aglomeración de carbón,Mining of hard coal
+CIIU Rev. 4,052,Extracción y aglomeración de lignito,Mining of lignite
+CIIU Rev. 4,061,Extracción de petróleo crudo,Extraction of crude petroleum
+CIIU Rev. 4,062,Extracción de gas natural,Extraction of natural gas
+CIIU Rev. 4,071,Extracción de minerales de hierro,Mining of iron ores
+CIIU Rev. 4,072,Extracción de minerales metalíferos no ferrosos,Mining of non-ferrous metal ores
+CIIU Rev. 4,081,"Extracción de piedra, arena y arcillas","Quarrying of stone, sand and clay"
+CIIU Rev. 4,089,Explotación de minas y canteras n.c.p.,Mining and quarrying n.e.c.
+CIIU Rev. 4,091,Servicios de apoyo para la extracción de petróleo y gas natural,Support activities for petroleum and natural gas extraction
+CIIU Rev. 4,099,"Servicios de apoyo para la minería, excepto para la extracción de petróleo y gas natural",Support activities for other mining and quarrying
+CIIU Rev. 4,101,"Producción y procesamiento de carne y productos cárnicos, excepto pescado",Processing and preserving of meat
+CIIU Rev. 4,102,Elaboración de pescado y productos de pescado,"Processing and preserving of fish, crustaceans and molluscs"
+CIIU Rev. 4,103,"Preparación de frutas, hortalizas y legumbres",Processing and preserving of fruit and vegetables
+CIIU Rev. 4,104,Elaboración de aceites y grasas de origen vegetal,Manufacture of vegetable oils and fats
+CIIU Rev. 4,105,Elaboración de productos lácteos,Manufacture of dairy products
+CIIU Rev. 4,106,"Elaboración de productos de molinería, almidones y productos derivados del almidón","Manufacture of grain mill products, starches and starch products"
+CIIU Rev. 4,107,Elaboración de productos alimenticios n.c.p.,Manufacture of other food products
+CIIU Rev. 4,108,Elaboración de alimentos preparados para animales,Manufacture of prepared animal feeds
+CIIU Rev. 4,109,Servicios industriales para la elaboración de alimentos y bebidas,Industrial services for food and beverage manufacturing
+CIIU Rev. 4,110,Elaboración de bebidas,Manufacture of beverages
+CIIU Rev. 4,120,Elaboración de productos de tabaco,Manufacture of tobacco products
+CIIU Rev. 4,131,"Fabricación de hilados y tejidos, acabado de productos textiles","Spinning, weaving and finishing of textiles"
+CIIU Rev. 4,139,Fabricación de productos textiles n.c.p.,Manufacture of other textiles
+CIIU Rev. 4,141,"Confección de prendas de vestir, excepto prendas de piel","Manufacture of wearing apparel, except fur apparel"
+CIIU Rev. 4,142,Terminación y teñido de pieles; fabricación de artículos de piel,Dressing and dyeing of fur; manufacture of articles of fur
+CIIU Rev. 4,143,Fabricación de prendas de vestir de punto,Manufacture of knitted and crocheted apparel
+CIIU Rev. 4,149,Servicios industriales para la industria confeccionista,Industrial services for the clothing industry
+CIIU Rev. 4,151,Curtido y terminación de cueros; fabricación de artículos de marroquinería y talabartería,Tanning and finishing of leather; manufacture of leather goods and saddlery
+CIIU Rev. 4,152,Fabricación de calzado y de sus partes,Manufacture of footwear
+CIIU Rev. 4,161,Aserrado y cepillado de madera,Sawmilling and planing of wood
+CIIU Rev. 4,162,"Fabricación de productos de madera, corcho, paja y materiales trenzables","Manufacture of products of wood, cork, straw and plaiting materials"
+CIIU Rev. 4,170,Fabricación de papel y de productos de papel,Manufacture of paper and paper products
+CIIU Rev. 4,181,Impresión y servicios relacionados con la impresión,Printing and service activities related to printing
+CIIU Rev. 4,182,Reproducción de grabaciones,Reproduction of recorded media
+CIIU Rev. 4,191,Fabricación de productos de hornos de “coque”,Manufacture of coke oven products
+CIIU Rev. 4,192,Fabricación de productos de la refinación del petróleo,Manufacture of refined petroleum products
+CIIU Rev. 4,201,Fabricación de sustancias químicas básicas,Manufacture of basic chemicals
+CIIU Rev. 4,202,Fabricación de productos químicos n.c.p.,Manufacture of other chemical products
+CIIU Rev. 4,203,Fabricación de fibras manufacturadas,Manufacture of man-made fibres
+CIIU Rev. 4,204,Servicios industriales para la fabricación de sustancias y productos químicos,Industrial services for the manufacture of chemical substances and products
+CIIU Rev. 4,210,"Fabricación de productos farmacéuticos, sustancias químicas medicinales y productos botánicos de uso farmacéutico","Manufacture of pharmaceuticals, medicinal chemical and botanical products"
+CIIU Rev. 4,221,Fabricación de productos de caucho,Manufacture of rubber products
+CIIU Rev. 4,222,Fabricación de productos de plástico,Manufacture of plastics products
+CIIU Rev. 4,231,Fabricación de vidrio y productos de vidrio,Manufacture of glass and glass products
+CIIU Rev. 4,239,Fabricación de productos minerales no metálicos n.c.p.,Manufacture of non-metallic mineral products n.e.c.
+CIIU Rev. 4,241,Industrias básicas de hierro y acero,Manufacture of basic iron and steel
+CIIU Rev. 4,242,Fabricación de productos primarios de metales preciosos y metales no ferrosos,Manufacture of basic precious and other non-ferrous metals
+CIIU Rev. 4,243,Fundición de metales,Casting of metals
+CIIU Rev. 4,251,"Fabricación de productos metálicos para uso estructural, tanques, depósitos y generadores de vapor","Manufacture of structural metal products, tanks, reservoirs and steam generators"
+CIIU Rev. 4,252,Fabricación de armas y municiones,Manufacture of weapons and ammunition
+CIIU Rev. 4,259,Fabricación de productos elaborados de metal n.c.p.; servicios de trabajo de metales,Manufacture of other fabricated metal products; metalworking service activities
+CIIU Rev. 4,261,Fabricación de componentes electrónicos,Manufacture of electronic components and boards
+CIIU Rev. 4,262,Fabricación de equipos y productos informáticos,Manufacture of computers and peripheral equipment
+CIIU Rev. 4,263,Fabricación de equipos de comunicaciones y transmisores de radio y televisión,Manufacture of communication equipment
+CIIU Rev. 4,264,"Fabricación de receptores de radio y televisión, aparatos de grabación y reproducción de sonido y video, y productos conexos",Manufacture of consumer electronics
+CIIU Rev. 4,265,"Fabricación de aparatos e instrumentos para medir, verificar, ensayar, navegar y otros fines, excepto instrumentos de óptica","Manufacture of instruments and appliances for measuring, checking, testing, navigating and other purposes, except optical instruments"
+CIIU Rev. 4,266,Fabricación de equipo médico y quirúrgico y de aparatos ortopédicos,Manufacture of medical and surgical equipment and orthopaedic appliances
+CIIU Rev. 4,267,Fabricación de instrumentos de óptica y equipo fotográfico,Manufacture of optical instruments and photographic equipment
+CIIU Rev. 4,268,Fabricación de soportes ópticos y magnéticos,Manufacture of magnetic and optical media
+CIIU Rev. 4,271,"Fabricación de motores, generadores y transformadores eléctricos y aparatos de distribución y control de la energía eléctrica","Manufacture of electric motors, generators, transformers and electricity distribution and control apparatus"
+CIIU Rev. 4,272,"Fabricación de acumuladores, pilas y baterías primarias",Manufacture of batteries and accumulators
+CIIU Rev. 4,273,Fabricación de hilos y cables aislados,Manufacture of insulated wire and cable
+CIIU Rev. 4,274,Fabricación de lámparas eléctricas y equipo de iluminación,Manufacture of electric lighting equipment
+CIIU Rev. 4,275,Fabricación de aparatos de uso doméstico n.c.p.,Manufacture of domestic appliances
+CIIU Rev. 4,279,Fabricación de equipo eléctrico n.c.p.,Manufacture of other electrical equipment
+CIIU Rev. 4,281,Fabricación de maquinaria y equipo de uso general,Manufacture of general-purpose machinery
+CIIU Rev. 4,282,Fabricación de maquinaria y equipo de uso especial,Manufacture of special-purpose machinery
+CIIU Rev. 4,291,Fabricación de vehículos automotores,Manufacture of motor vehicles
+CIIU Rev. 4,292,Fabricación de carrocerías para vehículos automotores; fabricación de remolques y semirremolques,Manufacture of bodies (coachwork) for motor vehicles; manufacture of trailers and semi-trailers
+CIIU Rev. 4,293,"Fabricación de partes, piezas y accesorios para vehículos automotores y sus motores",Manufacture of parts and accessories for motor vehicles
+CIIU Rev. 4,301,Construcción y reparación de buques y embarcaciones,Building and repair of ships and boats
+CIIU Rev. 4,302,Fabricación y reparación de locomotoras y de material rodante para transporte ferroviario,Manufacture and repair of railway locomotives and rolling stock
+CIIU Rev. 4,303,Fabricación y reparación de aeronaves,Manufacture and repair of aircraft
+CIIU Rev. 4,309,Fabricación de equipo de transporte n.c.p.,Manufacture of transport equipment n.e.c.
+CIIU Rev. 4,310,Fabricación de muebles y colchones,Manufacture of furniture and mattresses
+CIIU Rev. 4,321,"Fabricación de joyas, “bijouterie” y artículos conexos","Manufacture of jewellery, bijouterie and related articles"
+CIIU Rev. 4,322,Fabricación de instrumentos de música,Manufacture of musical instruments
+CIIU Rev. 4,323,Fabricación de artículos de deporte,Manufacture of sports goods
+CIIU Rev. 4,324,Fabricación de juegos y juguetes,Manufacture of games and toys
+CIIU Rev. 4,329,Industrias manufactureras n.c.p.,Other manufacturing n.e.c.
+CIIU Rev. 4,331,Reparación y mantenimiento de máquinas y equipo,Repair and maintenance of machinery and equipment
+CIIU Rev. 4,332,Instalación de maquinaria y equipos industriales,Installation of industrial machinery and equipment
+CIIU Rev. 4,351,"Generación, transporte y distribución de energía eléctrica","Electric power generation, transmission and distribution"
+CIIU Rev. 4,352,Fabricación de gas y distribución de combustibles gaseosos por tuberías,Manufacture of gas; distribution of gaseous fuels through mains
+CIIU Rev. 4,353,Suministro de vapor y aire acondicionado,Steam and air conditioning supply
+CIIU Rev. 4,360,"Captación, depuración y distribución de agua","Water collection, treatment and supply"
+CIIU Rev. 4,370,"Servicios de depuración de aguas residuales, alcantarillado y cloacas",Sewerage
+CIIU Rev. 4,381,"Recolección, transporte, tratamiento y disposición final de residuos","Collection, transport, treatment and disposal of waste"
+CIIU Rev. 4,382,Recuperación de materiales y desechos,Recovery of materials and waste
+CIIU Rev. 4,390,Descontaminación y otros servicios de gestión de residuos,Remediation activities and other waste management services
+CIIU Rev. 4,410,Construcción de edificios y sus partes,Construction of buildings
+CIIU Rev. 4,421,"Construcción, reforma y reparación de obras de infraestructura para el transporte","Construction, renovation and repair of transport infrastructure"
+CIIU Rev. 4,422,Construcción de proyectos de servicios públicos,Construction of utility projects
+CIIU Rev. 4,429,Construcción de obras de ingeniería civil n.c.p.,Construction of other civil engineering projects
+CIIU Rev. 4,431,"Demolición, movimiento y preparación de terrenos para obras",Demolition and site preparation
+CIIU Rev. 4,432,Instalaciones para edificios y obras de ingeniería civil,Installations for buildings and civil engineering works
+CIIU Rev. 4,433,Terminación de edificios,Building completion and finishing
+CIIU Rev. 4,439,Alquiler de equipo de construcción o demolición dotado de operarios y actividades especializadas de construcción n.c.p.,Rental of construction or demolition equipment with operator and specialised construction activities n.e.c.
+CIIU Rev. 4,451,"Venta de vehículos automotores, excepto motocicletas",Sale of motor vehicles
+CIIU Rev. 4,452,"Mantenimiento y reparación de vehículos automotores, excepto motocicletas",Maintenance and repair of motor vehicles
+CIIU Rev. 4,453,"Venta de partes, piezas y accesorios de vehículos automotores",Sale of motor vehicle parts and accessories
+CIIU Rev. 4,454,"Venta, mantenimiento y reparación de motocicletas y de sus partes, piezas y accesorios","Sale, maintenance and repair of motorcycles and related parts and accessories"
+CIIU Rev. 4,461,Venta al por mayor en comisión o consignación,Wholesale on a fee or contract basis
+CIIU Rev. 4,462,Venta al por mayor de materias primas agropecuarias y de animales vivos,Wholesale of agricultural raw materials and live animals
+CIIU Rev. 4,463,"Venta al por mayor de alimentos, bebidas y tabaco","Wholesale of food, beverages and tobacco"
+CIIU Rev. 4,464,Venta al por mayor de artículos de uso doméstico y/o personal,Wholesale of household goods
+CIIU Rev. 4,465,"Venta al por mayor de máquinas, equipo y materiales conexos","Wholesale of machinery, equipment and supplies"
+CIIU Rev. 4,466,Venta al por mayor especializada,Other specialized wholesale
+CIIU Rev. 4,469,Venta al por mayor de mercancías n.c.p.,Wholesale of goods n.e.c.
+CIIU Rev. 4,471,Venta al por menor en comercios no especializados,Retail sale in non-specialized stores
+CIIU Rev. 4,472,"Venta al por menor de productos alimenticios, bebidas y tabaco en comercios especializados","Retail sale of food, beverages and tobacco in specialized stores"
+CIIU Rev. 4,473,Venta al por menor de combustible para vehículos automotores y motocicletas,Retail sale of automotive fuel in specialized stores
+CIIU Rev. 4,474,"Venta al por menor de equipos, periféricos, accesorios y programas informáticos; equipos de telecomunicaciones en comercios especializados",Retail sale of information and communications equipment in specialized stores
+CIIU Rev. 4,475,Venta al por menor de equipos de uso doméstico n.c.p. en comercios especializados,Retail sale of other household equipment in specialized stores
+CIIU Rev. 4,476,Venta al por menor de bienes culturales y recreativos en comercios especializados,Retail sale of cultural and recreation goods in specialized stores
+CIIU Rev. 4,477,"Venta al por menor de productos n.c.p., en comercios especializados",Retail sale of other goods in specialized stores
+CIIU Rev. 4,478,Venta al por menor en puestos móviles y mercados,Retail sale via stalls and markets
+CIIU Rev. 4,479,"Venta al por menor no realizada en comercios, puestos o mercados","Retail trade not in stores, stalls or markets"
+CIIU Rev. 4,491,Servicio de transporte ferroviario,Transport via railways
+CIIU Rev. 4,492,Servicio de transporte automotor,Road transport
+CIIU Rev. 4,493,Servicio de transporte por tuberías,Transport via pipeline
+CIIU Rev. 4,501,Servicio de transporte marítimo,Sea and coastal water transport
+CIIU Rev. 4,502,Servicio de transporte fluvial y lacustre,Inland water transport
+CIIU Rev. 4,511,Servicio de transporte aéreo de pasajeros,Passenger air transport
+CIIU Rev. 4,512,Servicio de transporte aéreo de cargas,Freight air transport
+CIIU Rev. 4,521,Servicios de manipulación de cargas,Cargo handling services
+CIIU Rev. 4,522,Servicios de almacenamiento y depósito,Warehousing and storage services
+CIIU Rev. 4,523,Servicios de gestión y logística para el transporte de mercaderías,Management and logistics services for freight transport
+CIIU Rev. 4,524,Servicios complementarios para el transporte,Complementary services for transport
+CIIU Rev. 4,530,Servicios de correos y mensajerías,Postal and courier activities
+CIIU Rev. 4,551,"Servicios de alojamiento, excepto en “camping”","Accommodation services, except camping"
+CIIU Rev. 4,552,Servicios de alojamiento en “camping”,Camping accommodation services
+CIIU Rev. 4,561,Servicios de expendio de comidas y bebidas,Food and beverage serving services
+CIIU Rev. 4,562,Servicios de preparación de comidas para empresas y servicios de comidas n.c.p.,Meal preparation services for businesses and food services n.e.c.
+CIIU Rev. 4,581,Edición,Publishing
+CIIU Rev. 4,591,Servicios de cinematografía,Motion picture services
+CIIU Rev. 4,592,Servicios de grabación de sonido y edición de música,Sound recording and music publishing activities
+CIIU Rev. 4,601,Emisión y retransmisión de radio,Radio broadcasting and retransmission
+CIIU Rev. 4,602,Servicios de televisión,Television services
+CIIU Rev. 4,611,Servicios de telefonía fija,Fixed telephone services
+CIIU Rev. 4,612,Servicios de telefonía móvil,Mobile telephone services
+CIIU Rev. 4,613,"Servicios de telecomunicaciones vía satélite, excepto transmisión de televisión","Satellite telecommunications services, except television transmission"
+CIIU Rev. 4,614,Servicios de telecomunicación vía “Internet”,Internet telecommunications services
+CIIU Rev. 4,619,Servicios de telecomunicaciones n.c.p.,Telecommunications services n.e.c.
+CIIU Rev. 4,620,Servicios de programación y consultoría informática y actividades conexas,"Computer programming, consultancy and related activities"
+CIIU Rev. 4,631,"Procesamiento de datos, hospedaje y actividades conexas, portales “web”","Data processing, hosting and related activities; web portals"
+CIIU Rev. 4,639,Servicios de agencias de noticias y servicios de información n.c.p.,News agency services and information services n.e.c.
+CIIU Rev. 4,641,Intermediación monetaria,Monetary intermediation
+CIIU Rev. 4,642,Servicios de sociedades de cartera,Activities of holding companies
+CIIU Rev. 4,643,Fondos y sociedades de inversión y entidades financieras similares,"Trusts, funds and similar financial entities"
+CIIU Rev. 4,649,Servicios financieros excepto los de la banca central y las entidades financieras,"Financial services, except central banking and financial institutions"
+CIIU Rev. 4,651,Servicios de seguros,Insurance
+CIIU Rev. 4,652,Reaseguros,Reinsurance
+CIIU Rev. 4,653,"Administración de fondos de pensiones, excepto la seguridad social obligatoria","Pension fund administration, except compulsory social security"
+CIIU Rev. 4,661,"Servicios auxiliares a la actividad financiera, excepto a los servicios de seguros","Services auxiliary to financial activities, except insurance services"
+CIIU Rev. 4,662,Servicios auxiliares a los servicios de seguros,Services auxiliary to insurance
+CIIU Rev. 4,663,Servicios de gestión de fondos a cambio de una retribución o por contrata,Fund management services on a fee or contract basis
+CIIU Rev. 4,681,"Servicios inmobiliarios realizados por cuenta propia, con bienes propios o arrendados",Real estate activities with own or leased property
+CIIU Rev. 4,682,Servicios inmobiliarios realizados a cambio de una retribución o por contrata,Real estate activities on a fee or contract basis
+CIIU Rev. 4,691,Servicios jurídicos,Legal activities
+CIIU Rev. 4,692,"Servicios de contabilidad, auditoría y asesoría fiscal","Accounting, auditing and tax consultancy services"
+CIIU Rev. 4,702,"Servicios de asesoramiento, dirección y gestión empresarial",Business advisory and management services
+CIIU Rev. 4,711,Servicios de arquitectura e ingeniería y servicios técnicos n.c.p.,Architectural and engineering services and technical services n.e.c.
+CIIU Rev. 4,712,Ensayos y análisis técnicos,Technical testing and analysis
+CIIU Rev. 4,721,Investigación y desarrollo experimental en el campo de la ingeniería y de las ciencias exactas y naturales,Research and experimental development on natural sciences and engineering
+CIIU Rev. 4,722,Investigación y desarrollo experimental en el campo de las ciencias sociales y las humanidades,Research and experimental development on social sciences and humanities
+CIIU Rev. 4,731,Servicios de publicidad,Advertising
+CIIU Rev. 4,732,"Estudio de mercado, realización de encuestas de opinión pública",Market research and public opinion polling
+CIIU Rev. 4,741,Servicios de diseño especializado,Specialized design activities
+CIIU Rev. 4,742,Servicios de fotografía,Photographic activities
+CIIU Rev. 4,749,"Actividades profesionales, científicas y técnicas n.c.p.","Other professional, scientific and technical activities n.e.c."
+CIIU Rev. 4,750,Servicios veterinarios,Veterinary activities
+CIIU Rev. 4,771,Alquiler de vehículos automotores y equipo de transporte sin conductor ni operarios,Renting of motor vehicles and transport equipment without driver or operator
+CIIU Rev. 4,772,Alquiler de efectos personales y enseres domésticos,Renting and leasing of personal and household goods
+CIIU Rev. 4,773,"Alquiler de maquinaria y equipo n.c.p., sin personal","Renting of machinery and equipment n.e.c., without operator"
+CIIU Rev. 4,774,Arrendamiento y gestión de bienes intangibles no financieros,Leasing and management of non-financial intangible assets
+CIIU Rev. 4,780,Obtención y dotación de personal,Employment activities
+CIIU Rev. 4,791,Servicios de agencias de viaje y otras actividades complementarias de apoyo turístico,Travel agency services and other tourism support activities
+CIIU Rev. 4,801,Servicios de seguridad e investigación,Security and investigation services
+CIIU Rev. 4,811,Servicio combinado de apoyo a edificios,Combined facilities support activities
+CIIU Rev. 4,812,Servicios de limpieza de edificios,Building cleaning services
+CIIU Rev. 4,813,Servicios de jardinería y mantenimiento de espacios verdes,Landscape care and maintenance service activities
+CIIU Rev. 4,821,Servicios de apoyo a la administración de oficinas y empresas,Office administrative and support activities
+CIIU Rev. 4,822,Servicios de “call center”,Activities of call centres
+CIIU Rev. 4,823,"Servicios de organización de convenciones y exposiciones comerciales, excepto culturales y deportivos","Organization of conventions and trade shows, except cultural and sports events"
+CIIU Rev. 4,829,Servicios empresariales n.c.p.,Business support service activities n.e.c.
+CIIU Rev. 4,841,Servicios de la Administración Pública,Public administration services
+CIIU Rev. 4,842,Prestación pública de servicios a la comunidad en general,Provision of services to the community as a whole
+CIIU Rev. 4,843,"Servicios de la seguridad social obligatoria, excepto obras sociales","Compulsory social security services, except health insurance funds (obras sociales)"
+CIIU Rev. 4,851,Enseñanza inicial y primaria,Pre-primary and primary education
+CIIU Rev. 4,852,Enseñanza secundaria,Secondary education
+CIIU Rev. 4,853,Enseñanza superior y formación de posgrado,Higher and postgraduate education
+CIIU Rev. 4,854,Servicios de enseñanza n.c.p.,Education services n.e.c.
+CIIU Rev. 4,855,Servicios de apoyo a la educación,Educational support activities
+CIIU Rev. 4,861,Servicios de hospitales,Hospital activities
+CIIU Rev. 4,862,Servicios de atención ambulatoria realizados por médicos y odontólogos,Outpatient care services provided by doctors and dentists
+CIIU Rev. 4,863,"Servicios de prácticas de diagnóstico y tratamiento; servicios integrados de consulta, diagnóstico y tratamiento","Diagnostic and treatment services; integrated consultation, diagnosis and treatment services"
+CIIU Rev. 4,864,Servicios de emergencias y traslados,Emergency and patient transport services
+CIIU Rev. 4,869,Servicios relacionados con la salud humana n.c.p.,Other human health activities
+CIIU Rev. 4,870,Servicios sociales con alojamiento,Social services with accommodation
+CIIU Rev. 4,880,Servicios sociales sin alojamiento,Social services without accommodation
+CIIU Rev. 4,900,Servicios artísticos y de espectáculos,Arts and entertainment services
+CIIU Rev. 4,910,"Servicios de bibliotecas, archivos y museos y servicios culturales n.c.p.","Libraries, archives, museums and other cultural activities"
+CIIU Rev. 4,920,Servicios relacionados con juegos de azar y apuestas,Gambling and betting activities
+CIIU Rev. 4,931,Servicios para la práctica deportiva,Sports activities
+CIIU Rev. 4,939,Servicios de esparcimiento n.c.p.,Recreation services n.e.c.
+CIIU Rev. 4,941,"Servicios de organizaciones empresariales, profesionales y de empleadores","Activities of business, employers and professional membership organizations"
+CIIU Rev. 4,942,Servicios de sindicatos,Activities of trade unions
+CIIU Rev. 4,949,Servicios de asociaciones n.c.p.,Activities of other membership organizations
+CIIU Rev. 4,951,Reparación y mantenimiento de equipos informáticos y equipos de comunicación,Repair of computers and communication equipment
+CIIU Rev. 4,952,Reparación de efectos personales y enseres domésticos,Repair of personal and household goods
+CIIU Rev. 4,960,Servicios personales n.c.p.,Other personal service activities
+CIIU Rev. 4,990,Servicios de organizaciones y órganos extraterritoriales,Activities of extraterritorial organizations and bodies

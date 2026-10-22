@@ -1,0 +1,165 @@
+---
+title: "Argentina Work Accidents and Occupational Diseases (SRT): Starter Notebook"
+subtitle: "ENVH 312"
+author: "Your name"
+output:
+  html_document:
+    toc: true
+    df_print: paged
+---
+
+Argentina's Superintendencia de Riesgos del Trabajo (SRT) supervises the insurance that covers
+registered workers against work accidents and occupational diseases, and publishes statistics on
+every case that insurers notify. This notebook uses SRT's historical series from 1996: national
+figures by sector, and rates by province, sex, age, size of employer and detailed sector. Read the
+module [README](../README.md) and [data dictionary](../data_dictionary.md) first.
+
+**How to use this notebook**
+
+- Run each code chunk in order (the green arrow in RStudio, or Ctrl/Cmd + Shift + Enter).
+- Answer the questions under each **Your answer** heading.
+- When you are done, click **Knit** to produce an HTML report to submit.
+
+# Part 0. Load the data
+
+```{r setup, message = FALSE}
+library(readr)
+library(dplyr)
+library(tidyr)
+library(ggplot2)
+library(forcats)
+
+base <- "https://raw.githubusercontent.com/eddiekasner/occupational-safety-health-datasets/main/modules/ar-srt-work-accidents/data"
+read_module <- function(folder, name, ...) {
+  local <- file.path("..", "data", folder, name)
+  read_csv(if (file.exists(local)) local else file.path(base, folder, name), show_col_types = FALSE,
+           ...)
+}
+
+national <- read_module("tidy", "national.csv")
+provinces <- read_module("tidy", "by_jurisdiction.csv")
+sex_age <- read_module("tidy", "by_sex_age.csv")
+size <- read_module("tidy", "by_size.csv")
+sector3 <- read_module("tidy", "by_sector_3digit.csv")
+
+# National totals for workplaces (employers in the private and public sectors)
+totals <- national |> filter(sector == "Total", scope == "Workplaces")
+```
+
+**All cases** include commuting accidents and relapses; **work accidents and occupational
+diseases** (AT and EP) do not. Rates count cases with days off work or a disabling injury.
+
+# Part 1. Thirty years of work accidents
+
+```{r long-view}
+totals |>
+  filter(measure %in% c("Cases per 1,000 workers", "Deaths per million workers")) |>
+  ggplot(aes(year, value, colour = case_type)) +
+  geom_line() +
+  geom_point(size = 1) +
+  facet_wrap(~ measure, scales = "free_y") +
+  expand_limits(y = 0) +
+  labs(title = "Workplaces covered by the occupational risk system", x = NULL, y = NULL,
+       colour = NULL) +
+  theme(legend.position = "bottom")
+```
+
+**Questions**
+
+1. How much did the rate of cases and the death rate fall between 1997 and 2025? Which fell more?
+2. What happened in 2020, and why would you leave it out when describing the long-term trend?
+3. Give three reasons, other than safer work, why reported rates might fall over 30 years.
+
+**Your answer:**
+
+
+
+# Part 2. Commuting accidents
+
+```{r commuting}
+totals |>
+  filter(measure == "Deaths", year >= 1997) |>
+  select(year, case_type, value) |>
+  pivot_wider(names_from = case_type, values_from = value) |>
+  mutate(commuting_and_relapses = `All cases` - `Work accidents and occupational diseases`,
+         share = round(commuting_and_relapses / `All cases`, 2)) |>
+  filter(year %in% c(1997, 2000, 2005, 2010, 2015, 2020, 2025))
+```
+
+**Questions**
+
+1. What share of the deaths of covered workers are not work accidents or occupational diseases?
+   Has the share changed?
+2. Argentina compensates commuting accidents as work-related. Many countries, and many statistics
+   such as the EU's ESAW, leave them out. What are the arguments on each side? Who can prevent a
+   commuting accident?
+
+**Your answer:**
+
+
+
+# Part 3. Sectors
+
+```{r sectors}
+national |>
+  filter(year == 2024, scope == "Workplaces", case_type == "Work accidents and occupational diseases",
+         measure %in% c("Cases per 1,000 workers", "Deaths per million workers"),
+         !sector %in% c("Total", "No data")) |>
+  select(sector, measure, value) |>
+  pivot_wider(names_from = measure, values_from = value) |>
+  arrange(desc(`Deaths per million workers`)) |>
+  mutate(across(where(is.numeric), ~ round(.x, 1)))
+```
+
+**Questions**
+
+1. Which sectors have the highest death rates, and which the highest rates of cases? Are they the
+   same sectors? Why might they differ?
+2. Name the main hazards behind deaths in the sector with the highest death rate.
+
+**Your answer:**
+
+
+
+# Part 4. Provinces
+
+```{r provinces}
+provinces |>
+  filter(year == 2024, sector == "Total", scope == "Workplaces",
+         case_type == "Work accidents and occupational diseases", jurisdiction != "Total") |>
+  select(jurisdiction, measure, value) |>
+  pivot_wider(names_from = measure, values_from = value) |>
+  ggplot(aes(`Cases per 1,000 workers`, `Deaths per million workers`, label = jurisdiction)) +
+  geom_point() +
+  geom_text(size = 2.5, vjust = -0.6) +
+  labs(title = "Work accidents and occupational diseases by province, 2024", x = "Cases per 1,000 workers",
+       y = "Deaths per million workers")
+```
+
+**Questions**
+
+1. Which provinces have the highest death rates? Do they also have high rates of non-fatal cases?
+2. Provinces differ in their mix of industries. How could you check whether a province's high death
+   rate is explained by its industries? (Hint: `by_jurisdiction.csv` also has rates by sector.)
+
+**Your answer:**
+
+
+
+# Part 5. Sex and age
+
+```{r sex-age}
+sex_age |>
+  filter(year == 2024, scope == "Workplaces", case_type == "All cases",
+         measure == "Cases per 1,000 workers", age_group != "Total") |>
+  ggplot(aes(age_group, value, fill = sex)) +
+  geom_col(position = "dodge") +
+  labs(title = "Cases per 1,000 workers by sex and age, 2024", x = NULL, y = NULL, fill = NULL)
+```
+
+**Questions**
+
+1. Which age group of men has the highest rate? How do men's and women's rates change with age?
+2. Suggest reasons, both about work and about reporting, why young men have the highest rates.
+
+**Your answer:**

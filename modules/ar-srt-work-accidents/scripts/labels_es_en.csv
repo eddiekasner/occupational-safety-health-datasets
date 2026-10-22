@@ -1,0 +1,58 @@
+variable,spanish,english
+sector,Total,Total
+sector,Agricultura,"Agriculture, hunting, forestry and fishing"
+sector,Minería,Mining and quarrying
+sector,Manufacturas,Manufacturing
+sector,Electricidad,"Electricity, gas and water"
+sector,Construcción,Construction
+sector,Comercio,"Wholesale and retail trade, restaurants and hotels"
+sector,Transporte,"Transport, storage and communications"
+sector,Servicios financieros,"Financial, insurance, real estate and business services"
+sector,Servicios sociales,"Community, social and personal services"
+sector,Sin clasificar,Not classified
+sector,Sin datos,No data
+sector,"Agricultura, ganadería, caza, silvicultura y pesca","Agriculture, forestry and fishing"
+sector,Explotación de minas y canteras,Mining and quarrying
+sector,Industria manufacturera,Manufacturing
+sector,"Suministro de electricidad, gas, vapor y aire acondicionado","Electricity, gas, steam and air conditioning supply"
+sector,"Suministro de agua, cloacas, gestión de residuos y recuperación de materiales y saneamiento público","Water supply, sewerage, waste management and remediation"
+sector,Comercio al por mayor y al por menor; reparación de vehículos automotores y motocicletas,"Wholesale and retail trade, repair of motor vehicles and motorcycles"
+sector,Servicio de transporte y almacenamiento,Transportation and storage
+sector,Servicios de alojamiento y servicios de comida,Accommodation and food service activities
+sector,Información y comunicaciones,Information and communication
+sector,Intermediación financiera y servicios de seguros,Financial and insurance activities
+sector,Servicios inmobiliarios,Real estate activities
+sector,"Servicios profesionales, científicos y técnicos","Professional, scientific and technical activities"
+sector,Actividades administrativas y servicios de apoyo,Administrative and support service activities
+sector,"Administración pública, defensa y seguridad social obligatoria","Public administration and defence, compulsory social security"
+sector,Enseñanza,Education
+sector,Salud humana y servicios sociales,Human health and social work activities
+sector,"Servicios artísticos, culturales, deportivos y de esparcimiento","Arts, entertainment and recreation"
+sector,Servicios de asociaciones y servicios personales,Other service activities
+sector,Servicios de hogares privados que contratan servicio doméstico,Activities of households as employers of domestic personnel
+sector,Servicios de organizaciones y órganos extraterritoriales,Activities of extraterritorial organizations
+jurisdiction,Total,Total
+jurisdiction,C.A.B.A.,Buenos Aires City
+jurisdiction,Buenos Aires,Buenos Aires Province
+jurisdiction,Catamarca,Catamarca
+jurisdiction,Chaco,Chaco
+jurisdiction,Chubut,Chubut
+jurisdiction,Córdoba,Córdoba
+jurisdiction,Corrientes,Corrientes
+jurisdiction,Entre Ríos,Entre Ríos
+jurisdiction,Formosa,Formosa
+jurisdiction,Jujuy,Jujuy
+jurisdiction,La Pampa,La Pampa
+jurisdiction,La Rioja,La Rioja
+jurisdiction,Mendoza,Mendoza
+jurisdiction,Misiones,Misiones
+jurisdiction,Neuquén,Neuquén
+jurisdiction,Río Negro,Río Negro
+jurisdiction,Salta,Salta
+jurisdiction,San Juan,San Juan
+jurisdiction,San Luis,San Luis
+jurisdiction,Santa Cruz,Santa Cruz
+jurisdiction,Santa Fe,Santa Fe
+jurisdiction,Santiago del Estero,Santiago del Estero
+jurisdiction,Tierra del Fuego,Tierra del Fuego
+jurisdiction,Tucumán,Tucumán
