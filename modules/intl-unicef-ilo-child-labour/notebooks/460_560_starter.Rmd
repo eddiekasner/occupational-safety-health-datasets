@@ -1,0 +1,261 @@
+---
+title: "Child Labour (ILOSTAT and UNICEF): Starter Notebook"
+subtitle: "ENVH 460/560"
+author: "Your name"
+output:
+  html_document:
+    toc: true
+    df_print: paged
+---
+
+Child labour is work that harms children or keeps them from school, and hazardous work is its most
+dangerous form. This notebook uses UNICEF's latest estimates for countries and regions, and the
+ILO's survey-by-survey estimates (ILOSTAT) of children in economic activity, child labour and
+hazardous work, by age, sex, area, school attendance and economic sector. Read the module
+[README](../README.md) and [data dictionary](../data_dictionary.md) first.
+
+**How to use this notebook**
+
+- Run each code chunk in order (the green arrow in RStudio, or Ctrl/Cmd + Shift + Enter).
+- Answer the questions under each **Your answer** heading.
+- When you are done, click **Knit** to produce an HTML report to submit.
+
+# Part 0. Load the data
+
+```{r setup, message = FALSE}
+library(readr)
+library(dplyr)
+library(tidyr)
+library(ggplot2)
+library(forcats)
+
+base <- "https://raw.githubusercontent.com/eddiekasner/occupational-safety-health-datasets/main/modules/intl-unicef-ilo-child-labour/data"
+read_module <- function(folder, name, ...) {
+  local <- file.path("..", "data", folder, name)
+  read_csv(if (file.exists(local)) local else file.path(base, folder, name), show_col_types = FALSE,
+           ...)
+}
+
+# UNICEF: latest estimates for countries and regions
+unicef <- read_module("tidy", "unicef_latest.csv")
+# ILOSTAT: shares of children (%) and numbers of children (thousands), survey by survey
+rates <- read_module("tidy", "rates.csv.gz")
+counts <- read_module("tidy", "counts.csv.gz")
+
+# The latest survey for each country, measure and breakdown in ILOSTAT
+latest <- rates |>
+  group_by(measure, iso3, breakdown) |>
+  filter(year == max(year)) |>
+  ungroup()
+```
+
+**Economic activity** includes all work by children; **child labour** is the part not allowed for
+the child's age; **hazardous work** is the part that endangers health and safety. Values are
+percentages of children in the group.
+
+# Part 1. The global picture
+
+```{r regions}
+unicef |>
+  filter(is_region, indicator == "Child labour (economic activities)", sex == "Total",
+         grepl("UNICEF Rep.Regions|SDG regions - Global", area)) |>
+  ggplot(aes(value, fct_reorder(area, value))) +
+  geom_col() +
+  labs(title = "Children aged 5 to 17 in child labour, 2020 to 2024",
+       x = "Percentage of children", y = NULL)
+
+unicef |>
+  filter(!is_region, indicator == "Child labour (economic activities)", sex == "Total",
+         age == "5-17") |>
+  slice_max(value, n = 12) |>
+  select(area, year, value, data_source)
+```
+
+**Questions**
+
+1. About what share of the world's children are in child labour? Which region has the highest
+   share, and how many times the global average is it?
+2. Which countries have the highest shares? In what year was each estimate made, and why does
+   that matter when you compare countries?
+
+**Your answer:**
+
+
+
+# Part 2. Age and sex
+
+```{r age-sex}
+latest |>
+  filter(breakdown == "None", sex != "Total",
+         measure %in% c("Economic activity", "Child labour", "Hazardous work")) |>
+  group_by(measure, age, sex) |>
+  summarise(median = median(value, na.rm = TRUE), countries = n(), .groups = "drop") |>
+  ggplot(aes(age, median, fill = sex)) +
+  geom_col(position = "dodge") +
+  facet_wrap(~ measure) +
+  labs(title = "Median share of children across countries (latest survey)",
+       x = "Age", y = "Percentage of children", fill = NULL)
+```
+
+**Questions**
+
+1. How do economic activity, child labour and hazardous work change with age? Why is child labour
+   lower than economic activity for 15 to 17 year olds?
+2. Boys are more often in child labour and hazardous work than girls. What kind of work might girls
+   do that these measures miss? (Hint: look at the measures that include household chores.)
+3. Why are fewer countries available for ages 5 to 11 than for ages 15 to 17?
+
+**Your answer:**
+
+
+
+# Part 3. Rural and urban, in and out of school
+
+```{r area-school}
+latest |>
+  filter(breakdown != "None", sex == "Total", age == "5-17",
+         measure %in% c("Child labour", "Hazardous work")) |>
+  group_by(measure, breakdown, category) |>
+  summarise(median = round(median(value, na.rm = TRUE), 1), countries = n(), .groups = "drop")
+```
+
+**Questions**
+
+1. How much more common is child labour among rural children than urban children, and among
+   children not attending school than those attending?
+2. Does child labour keep children out of school, or does being out of school lead to child
+   labour? What kind of data would you need to tell the two apart?
+
+**Your answer:**
+
+
+
+# Part 4. Where children work
+
+```{r sectors}
+counts |>
+  filter(breakdown == "Economic sector", sex == "Total", age == "5-17",
+         measure %in% c("Child labour", "Hazardous work"), category != "Total") |>
+  group_by(measure, iso3) |>
+  filter(year == max(year)) |>
+  mutate(share = thousands / sum(thousands)) |>
+  group_by(measure, category) |>
+  summarise(median_share = round(median(share), 2), countries = n(), .groups = "drop")
+
+counts |>
+  filter(breakdown == "Status in employment", sex == "Total", age == "5-17",
+         measure == "Child labour", category != "Total") |>
+  group_by(iso3) |>
+  filter(year == max(year)) |>
+  mutate(share = thousands / sum(thousands)) |>
+  group_by(category) |>
+  summarise(median_share = round(median(share), 2), countries = n())
+```
+
+**Questions**
+
+1. In which economic sector is child labour most common? Name three hazards children face in that
+   sector.
+2. Contributing family workers are the largest group of children in child labour: they work,
+   unpaid, in a family farm or business. Why is this kind of work hard for labour inspectors to reach?
+
+**Your answer:**
+
+
+
+# Part 5. Hazardous work as an occupational hazard
+
+```{r hazardous}
+latest |>
+  filter(breakdown == "None", sex == "Total", age == "15-17",
+         measure %in% c("Economic activity", "Hazardous work")) |>
+  select(measure, country, year, value) |>
+  pivot_wider(names_from = measure, values_from = value, values_fn = max) |>
+  mutate(share_of_working_children_in_hazardous_work = round(`Hazardous work` / `Economic activity`, 2)) |>
+  arrange(desc(`Hazardous work`)) |>
+  head(15)
+```
+
+**Questions**
+
+1. Among 15 to 17 year olds who work, what share are in hazardous work in the countries with the
+   most hazardous work? What does that suggest about the jobs available to adolescents?
+2. Adolescents aged 15 to 17 may work legally in many countries, but not in hazardous work. List
+   the hierarchy of controls for a hazard that working adolescents face (for example, pesticides
+   or heavy loads in agriculture), and say which controls are realistic on a family farm.
+
+**Your answer:**
+
+
+
+# Part 6. Two agencies, one survey (ENVH 460/560)
+
+```{r agencies}
+unicef |>
+  filter(!is_region, indicator == "Child labour (economic activities)", age == "5-17",
+         sex == "Total") |>
+  inner_join(rates |> filter(measure == "SDG 8.7.1: economic activity", age == "5-17",
+                             breakdown == "None", sex == "Total"),
+             by = c("area_code" = "iso3", "year"), suffix = c("_unicef", "_ilo")) |>
+  mutate(survey_type = sub(" - .*", "", survey),
+         difference = round(value_unicef - value_ilo, 1)) |>
+  group_by(area, year, survey_type) |>
+  slice_min(abs(difference), n = 1, with_ties = FALSE) |>
+  ungroup() |>
+  select(area, year, survey_type, value_unicef, value_ilo, difference) |>
+  arrange(desc(abs(difference)))
+```
+
+**Questions**
+
+1. For which types of survey do UNICEF and the ILO agree, and for which do they disagree? How large
+   are the largest differences?
+2. Both agencies say they measure the same SDG indicator from the same survey. Suggest reasons why
+   their numbers could differ (think about questions on hours, hazards and household chores, and
+   about which children are included).
+3. If a ministry wants to report progress on SDG 8.7, which figure should it use? What should it
+   say about the choice?
+
+**Your answer:**
+
+
+
+# Part 7. Trends within countries (ENVH 460/560)
+
+```{r trends}
+rates |>
+  filter(measure == "Child labour", breakdown == "None", sex == "Total", age == "5-17",
+         country %in% c("Colombia", "Ecuador", "El Salvador", "Zambia")) |>
+  ggplot(aes(year, value, colour = survey)) +
+  geom_line() +
+  geom_point(aes(shape = !is.na(flag))) +
+  facet_wrap(~ country, scales = "free_y") +
+  labs(title = "Children aged 5 to 17 in child labour", x = NULL, y = "Percentage of children",
+       colour = NULL, shape = "Flagged") +
+  theme(legend.position = "bottom", legend.direction = "vertical")
+```
+
+**Questions**
+
+1. In which of these countries did child labour fall, and in which did it rise?
+2. Why should you compare only surveys of the same kind within a country? What do the flags tell
+   you?
+3. The SDG target was to end child labour by 2025. Using these countries, how far off was the
+   world from that target?
+
+**Your answer:**
+
+
+
+# Part 8. What these data can and cannot say (ENVH 460/560)
+
+**Questions**
+
+1. Household surveys miss some children in child labour. Which ones, and why?
+2. Children who are injured at work rarely appear in occupational injury statistics, which cover
+   employees with compensation. How could injury surveillance be designed to count injuries to
+   working children?
+3. Write a short paragraph for a policy maker on what these statistics can and cannot tell them
+   about the risks children face at work.
+
+**Your answer:**
