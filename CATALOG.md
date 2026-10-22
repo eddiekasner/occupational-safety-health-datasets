@@ -63,7 +63,7 @@ module) has national figures for some countries.
 | Dataset | Publisher | What it is | Coverage | Access | Status |
 | --- | --- | --- | --- | --- | --- |
 | Mine health and safety statistics | South Africa Department of Mineral Resources and Energy | Mine deaths and injuries by commodity (gold, platinum, coal, other), for example 42 deaths in 2024 | South Africa | Annual ministerial statements and reports (PDF) *verify* | Candidate (compare with MSHA module) |
-| [Child labour indicators](https://data.unicef.org/resources/child-labour-data-eastern-southern-africa-2026/) | UNICEF (MICS surveys) and ILO | Share of children in child labour and in hazardous working conditions, by age, sex and sector | Many African and other low and middle income countries | UNICEF data warehouse (CSV); microdata from mics.unicef.org with registration *verify* | Candidate |
+| [Child labour indicators](https://data.unicef.org/topic/child-protection/child-labour/) | UNICEF and ILO (ILOSTAT) | Share of children in child labour and in hazardous work, by sex, age, rural or urban area, school attendance and economic sector | 164 countries, mostly low and middle income | UNICEF data warehouse (SDMX API, CC BY-NC 3.0 IGO); ILOSTAT child labour tables (API) | **Module** (ILOSTAT survey estimates 1995 to 2025, and UNICEF's latest estimates) |
 | Workers Compensation Fund claims | Tanzania Workers Compensation Fund | Work injury claims (a published study analysed 4,578 claims from 2016 to 2019) | Tanzania | Not public; by request | Candidate (unlikely: no open access) |
 
 ## Europe (national and EU surveys)
