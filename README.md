@@ -51,15 +51,20 @@ See [CATALOG.md](CATALOG.md) for candidate datasets (US and international) and t
 
 ## Getting started (students)
 
-1. Install [R](https://cran.r-project.org/) and [RStudio Desktop](https://posit.co/download/rstudio-desktop/)
-   (or use [Posit Cloud](https://posit.cloud/) in a browser).
-2. Download this repository (green **Code** button > **Download ZIP**, or clone it).
-3. Open `install_packages.R` in RStudio and click **Source** (one time only).
+New to R? Follow the step-by-step **[Getting Started guide](docs/getting-started.md)**. It covers
+installing R and RStudio (or using Posit Cloud in a browser), running a notebook, writing your
+answers, knitting the report and fixing common errors. In short:
+
+1. Install [R](https://cran.r-project.org/) and then [RStudio Desktop](https://posit.co/download/rstudio-desktop/),
+   or use [Posit Cloud](https://posit.cloud/) in a browser.
+2. Download this repository (green **Code** button > **Download ZIP**, then unzip it). Students
+   who use Git can clone it instead.
+3. Open `install_packages.R` in RStudio and click **Source** (once per computer).
 4. Open a module folder and read its `README.md`.
-5. Open the starter notebook for your course in the module's `notebooks/` folder:
-   `312_starter.Rmd` (ENVH 312) or `460_560_starter.Rmd` (ENVH 460/560). It runs on the data
-   committed to the repository; if a data file is missing on your computer, it reads it directly
-   from GitHub.
+5. Open your course's notebook in the module's `notebooks/` folder, `312_starter.Rmd` (ENVH 312)
+   or `460_560_starter.Rmd` (ENVH 460/560), and save a copy under your own name.
+6. Run the chunks from the top, type your answers, and click **Knit** to make the HTML report you
+   submit.
 
 ## Notebooks by course (instructors)
 
@@ -84,7 +89,7 @@ See [docs/large-files.md](docs/large-files.md).
 
 ```
 CATALOG.md                 candidate datasets and status
-docs/                      instructor and contributor notes
+docs/                      student getting-started guide; instructor and contributor notes
 modules/
   _template/                    copy this to start a new module
   ar-srt-work-accidents/        Argentine work accidents and occupational diseases since 1996, by province, sector, sex and age
