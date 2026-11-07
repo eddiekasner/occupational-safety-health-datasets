@@ -60,10 +60,11 @@ answers, knitting the report and fixing common errors. In short:
 2. Download this repository (green **Code** button > **Download ZIP**, then unzip it). Students
    who use Git can clone it instead.
 3. Open `install_packages.R` in RStudio and click **Source** (once per computer).
-4. Open a module folder and read its `README.md`.
-5. Open your course's notebook in the module's `notebooks/` folder, `312_starter.Rmd` (ENVH 312)
+4. Work through the practice notebook, `practice/first_steps.Rmd` (about 20 minutes).
+5. Open a module folder and read its `README.md`.
+6. Open your course's notebook in the module's `notebooks/` folder, `312_starter.Rmd` (ENVH 312)
    or `460_560_starter.Rmd` (ENVH 460/560), and save a copy under your own name.
-6. Run the chunks from the top, type your answers, and click **Knit** to make the HTML report you
+7. Run the chunks from the top, type your answers, and click **Knit** to make the HTML report you
    submit.
 
 ## Notebooks by course (instructors)
@@ -90,6 +91,7 @@ See [docs/large-files.md](docs/large-files.md).
 ```
 CATALOG.md                 candidate datasets and status
 docs/                      student getting-started guide; instructor and contributor notes
+practice/                  first_steps.Rmd: a 20-minute practice notebook for new R users
 modules/
   _template/                    copy this to start a new module
   ar-srt-work-accidents/        Argentine work accidents and occupational diseases since 1996, by province, sector, sex and age

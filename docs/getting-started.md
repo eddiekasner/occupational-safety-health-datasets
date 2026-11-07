@@ -139,6 +139,13 @@ Two settings make life easier for beginners (**Tools > Global Options...**):
 - **R Markdown**: untick **Show output inline for all R Markdown documents** if you prefer charts
   and tables in the Console and Plots pane rather than under each chunk. (Either works.)
 
+### Practice first
+
+Before your first module, open `practice/first_steps.Rmd` (in the repository's main folder) and
+work through it. In about 20 minutes it has you run chunks, change a line of code, fix an error,
+type an answer and knit the report, using a small table of US work deaths. The steps below
+explain the same things in more detail, so you can come back to them.
+
 ---
 
 ## Step 6. Open a module and its notebook

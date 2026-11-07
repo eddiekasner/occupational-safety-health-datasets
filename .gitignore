@@ -16,3 +16,4 @@ Thumbs.db
 modules/*/notebooks/*.html
 *.knit.md
 *.utf8.md
+practice/*.html

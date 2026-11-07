@@ -1,0 +1,194 @@
+---
+title: "First Steps in R and RStudio: Practice Notebook"
+author: "Your name"
+output:
+  html_document:
+    toc: true
+    df_print: paged
+---
+
+This short notebook teaches you how the course notebooks work before you start a module: running
+code chunks, changing a line of code, reading an error message, typing your answers and knitting
+the report. It takes about 20 minutes. Do it after the setup steps (Steps 1 to 4) in the
+[Getting Started guide](../docs/getting-started.md).
+
+You will use one small dataset: the number of people who died from injuries at work in the US each
+year, from the Bureau of Labor Statistics' Census of Fatal Occupational Injuries (CFOI).
+
+Before you start, **save a copy under your own name**: File > Save As..., in this same `practice`
+folder, for example `first_steps_lastname.Rmd`.
+
+# Step 1. Run your first chunk
+
+The grey box below is a **code chunk**. Click the green triangle at its top right (or put your
+cursor inside it and press Ctrl + Shift + Enter; Cmd + Shift + Enter on a Mac).
+
+```{r first-chunk}
+2 + 2
+```
+
+The answer, `[1] 4`, appears below the chunk (or in the Console). The `[1]` just means "first
+value".
+
+Now run this one. Text after `#` is a **comment**: R ignores it, so it is a place for notes.
+
+```{r dates}
+Sys.Date()   # today's date
+```
+
+# Step 2. Save a result with a name
+
+`<-` saves a value under a name (an **object**) so you can use it later. Run the chunk, then look
+at the **Environment** pane (top right): `deaths_2022` and `deaths_2021` are listed there.
+
+```{r objects}
+deaths_2022 <- 5486
+deaths_2021 <- 5190
+deaths_2022 - deaths_2021
+```
+
+Nothing prints when you save an object; typing its name (or doing a calculation with it) prints
+the value.
+
+# Step 3. Load packages and data
+
+Every course notebook starts with a chunk like this one, called **setup**. It loads the
+**packages** (extra functions installed by `install_packages.R`) and reads the data. **Always run
+the setup chunk first**, and run it again whenever you reopen RStudio.
+
+```{r setup, message = FALSE}
+library(readr)    # reading CSV files
+library(dplyr)    # filtering and summarising tables
+library(ggplot2)  # charts
+
+# Read the data from the CFOI module's folder, or from GitHub if the file is not there
+local <- "../modules/us-bls-cfoi/data/tidy/cfoi_national.csv"
+github <- paste0("https://raw.githubusercontent.com/eddiekasner/occupational-safety-health-datasets/",
+                 "main/modules/us-bls-cfoi/data/tidy/cfoi_national.csv")
+fatal <- read_csv(if (file.exists(local)) local else github, show_col_types = FALSE)
+```
+
+`fatal` is now in the Environment pane. Click the small table icon at the right of its row (or
+type `View(fatal)` in the Console) to see the whole table in a new tab, like a spreadsheet.
+
+# Step 4. Look at the data
+
+```{r look}
+nrow(fatal)   # number of rows
+names(fatal)  # column names
+head(fatal)   # the first six rows
+```
+
+Each row is one count: the number of `fatalities` in one `year`, for one `category` of one
+`group` (for example the group `Gender`, category `Women`). The row with group `All` is the total.
+
+# Step 5. Pick rows with `filter()`
+
+`filter()` keeps the rows that match a condition. `|>` means "and then": it passes the table on
+to the next line.
+
+```{r total}
+fatal |>
+  filter(group == "All") |>
+  select(year, fatalities)
+```
+
+Two equals signs (`==`) test whether two things are equal; one (`=`) is used for something else.
+Text goes in quotes: `"All"`.
+
+**Try it:** in the chunk below, change `2022` to another year between 2011 and 2021 and run it
+again.
+
+```{r one-year}
+fatal |>
+  filter(group == "Gender", year == 2022) |>
+  select(year, category, fatalities)
+```
+
+# Step 6. Make a chart
+
+`ggplot()` draws charts. `aes()` says which columns go on which axis; each `+` adds a layer.
+
+```{r chart}
+fatal |>
+  filter(group == "All") |>
+  ggplot(aes(x = year, y = fatalities)) +
+  geom_line() +
+  geom_point() +
+  expand_limits(y = 0) +   # start the y axis at zero
+  labs(title = "Fatal work injuries in the US", x = NULL, y = "Deaths")
+```
+
+**Try it:** change `geom_line()` to `geom_col()` (and delete the `geom_point()` line and its `+`)
+to make a bar chart.
+
+# Step 7. Read an error message
+
+Errors are normal; reading them is a skill. This chunk has a typo. Run it and read the red message.
+
+```{r error-practice, error = TRUE}
+fatal |>
+  filter(group == "Gender", year == 2022) |>
+  select(year, catgory, fatalities)
+```
+
+The message says that the column `catgory` doesn't exist. **Fix the typo** (it should be
+`category`) and run the chunk again.
+
+Other messages you are likely to see:
+
+- `could not find function "filter"`: the packages are not loaded. Run the setup chunk.
+- `object 'fatal' not found`: the data are not loaded (run the setup chunk), or the name is
+  misspelled. R is case-sensitive: `Fatal` is not `fatal`.
+- A `+` in the Console instead of `>`: R is waiting for you to finish a line, often because of a
+  missing `)`. Click in the Console and press Esc.
+
+# Step 8. Your turn
+
+Run the chunk, then answer the questions below it.
+
+```{r events}
+fatal |>
+  filter(group == "Event or exposure", year == 2022,
+         category_code %in% c("E1X", "E2X", "E3X", "E4X", "E5X", "E6X")) |>
+  arrange(desc(fatalities)) |>
+  select(category, fatalities)
+```
+
+These are the main kinds of event that caused the deaths.
+
+**Questions**
+
+1. How many people died from injuries at work in the US in 2022? In which year from 2011 to 2022
+   were there the fewest deaths? (Use the tables in Step 5.)
+2. Roughly what share of the people who died at work in 2022 were women? Why might the share be
+   so small?
+3. Which kind of event caused the most deaths in 2022? Did that surprise you?
+
+**Your answer:**
+
+Type your answers here, outside the grey chunks. Leave a blank line between paragraphs. A line
+that starts with `- ` becomes a bullet point, and `**two stars**` make text **bold**.
+
+
+
+# Step 9. Knit the report
+
+1. Save the notebook (Ctrl + S, or Cmd + S on a Mac).
+2. Click **Knit** (the ball of yarn at the top of this pane). If RStudio offers to install or
+   update packages, click Yes.
+3. A preview of the report opens, and an HTML file with the same name as your notebook is saved
+   in the `practice` folder. That HTML file is what you submit for the course notebooks.
+
+Knitting runs every chunk again from the top in a fresh session, so it only works if the chunks
+run in order. If knitting fails, the message names the chunk with the problem.
+
+**Checklist** before you start a module:
+
+- [ ] I can run a chunk and see its output.
+- [ ] I ran the setup chunk first.
+- [ ] I changed a line of code and ran it again.
+- [ ] I fixed an error.
+- [ ] I typed an answer and knitted the report to HTML.
+
+You are ready. Open a module's `README.md`, then its starter notebook for your course.
