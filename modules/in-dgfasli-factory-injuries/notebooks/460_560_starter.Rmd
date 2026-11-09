@@ -1,0 +1,250 @@
+---
+title: "India Injuries in Factories and Dock Works (DGFASLI): Starter Notebook"
+subtitle: "ENVH 460/560"
+author: "Your name"
+output:
+  html_document:
+    toc: true
+    df_print: paged
+---
+
+India's Factories Act, 1948 requires factories to notify accidents to their state's Inspectorate of
+Factories. The Directorate General Factory Advice Service and Labour Institutes (DGFASLI) publishes
+what the inspectorates report, along with the Labour Bureau's statistics from factories' annual
+returns and accident statistics for the dock works of the major ports. This notebook uses those
+tables, from DGFASLI's Standard Reference Notes for 2006 to 2024. Read the module
+[README](../README.md) and [data dictionary](../data_dictionary.md) first.
+
+**How to use this notebook**
+
+- Run each code chunk in order (the green arrow in RStudio, or Ctrl/Cmd + Shift + Enter).
+- Answer the questions under each **Your answer** heading.
+- When you are done, click **Knit** to produce an HTML report to submit.
+
+# Part 0. Load the data
+
+```{r setup, message = FALSE}
+library(readr)
+library(dplyr)
+library(tidyr)
+library(ggplot2)
+library(forcats)
+
+base <- "https://raw.githubusercontent.com/eddiekasner/occupational-safety-health-datasets/main/modules/in-dgfasli-factory-injuries/data"
+read_module <- function(folder, name, ...) {
+  local <- file.path("..", "data", folder, name)
+  read_csv(if (file.exists(local)) local else file.path(base, folder, name), show_col_types = FALSE,
+           ...)
+}
+
+lb_national <- read_module("tidy", "labour_bureau_national.csv")
+lb_cause <- read_module("tidy", "labour_bureau_by_cause.csv")
+insp_national <- read_module("tidy", "inspectorate_national.csv")
+insp_state <- read_module("tidy", "inspectorate_by_state.csv")
+enforcement <- read_module("tidy", "enforcement_by_state.csv")
+diseases <- read_module("tidy", "occupational_diseases.csv")
+port_types <- read_module("tidy", "ports_accidents_by_agency_type.csv")
+```
+
+The **state inspectorates** count injuries notified in all registered factories. The **Labour
+Bureau** counts injuries that kept a worker off work for 48 hours or more, from the annual returns
+of the factories that sent them.
+
+# Part 1. Two counts of deaths in factories
+
+```{r two-sources}
+bind_rows(
+  insp_national |> filter(measure == "Fatal injuries") |> mutate(source = "State inspectorates"),
+  lb_national |> filter(measure == "Fatal injuries") |> mutate(source = "Labour Bureau")
+) |>
+  filter(year >= 2005) |>
+  ggplot(aes(year, value, colour = source)) +
+  geom_line() +
+  geom_point(size = 1) +
+  expand_limits(y = 0) +
+  labs(title = "Fatal injuries in registered factories", x = NULL, y = "Deaths", colour = NULL) +
+  theme(legend.position = "bottom")
+```
+
+**Questions**
+
+1. How many deaths did each source count in 2022? Which is higher, and by how much?
+2. Using the README, give two reasons why the two sources differ.
+3. Which source would you use to describe the trend in deaths since 2009, and why?
+
+**Your answer:**
+
+
+
+# Part 2. Are non-fatal injuries reported?
+
+```{r non-fatal}
+insp_national |>
+  filter(measure %in% c("Fatal injuries", "Non-fatal injuries")) |>
+  pivot_wider(names_from = measure, values_from = value, id_cols = year) |>
+  mutate(non_fatal_per_death = round(`Non-fatal injuries` / `Fatal injuries`, 1))
+```
+
+**Questions**
+
+1. How many non-fatal injuries were notified for each death in 2009, and in 2023?
+2. In complete injury statistics, there are hundreds of non-fatal injuries for each death. What
+   does the ratio here tell you about the non-fatal counts?
+3. Non-fatal injuries fell sharply between 2015 and 2016. Look at West Bengal in `insp_state` for
+   2014 to 2016. What happened?
+
+**Your answer:**
+
+
+
+# Part 3. States
+
+```{r states}
+insp_state |>
+  filter(year == 2023, state != "Total",
+         measure %in% c("Fatal injuries", "Non-fatal injuries", "Employment")) |>
+  pivot_wider(names_from = measure, values_from = value) |>
+  filter(!is.na(Employment), Employment >= 100000) |>
+  mutate(deaths_per_100000 = round(1e5 * `Fatal injuries` / Employment, 1)) |>
+  arrange(desc(deaths_per_100000)) |>
+  select(state, Employment, `Fatal injuries`, `Non-fatal injuries`, deaths_per_100000)
+```
+
+**Questions**
+
+1. Which states with 100,000 or more factory workers had the highest death rates in 2023? Which
+   states had the most deaths?
+2. Some states report more deaths than non-fatal injuries. What does that suggest about reporting
+   in those states?
+3. Which large industrial states are missing from this table, and why might that be?
+
+**Your answer:**
+
+
+
+# Part 4. Causes of deaths
+
+```{r causes}
+lb_cause |>
+  filter(year %in% 2018:2022, measure == "Fatal injuries", cause != "Total") |>
+  group_by(cause) |>
+  summarise(deaths_2018_2022 = sum(value), .groups = "drop") |>
+  ggplot(aes(deaths_2018_2022, fct_reorder(cause, deaths_2018_2022))) +
+  geom_col() +
+  labs(title = "Fatal injuries in factories by cause, 2018 to 2022 (Labour Bureau)",
+       x = "Deaths", y = NULL)
+```
+
+**Questions**
+
+1. Which three causes account for the most deaths? Name a control for each.
+2. Fires and explosions cause many deaths but are not the most common causes. What makes them
+   important to prevent anyway?
+
+**Your answer:**
+
+
+
+# Part 5. Inspectors
+
+```{r inspectors}
+inspectors <- enforcement |>
+  filter(year == 2023, measure %in% c("Inspectors, sanctioned", "Inspectors, in position")) |>
+  select(state, measure, value) |>
+  pivot_wider(names_from = measure, values_from = value)
+
+insp_state |>
+  filter(year == 2023, measure == "Registered factories") |>
+  select(state, registered_factories = value) |>
+  inner_join(inspectors, by = "state") |>
+  mutate(vacant_share = round(1 - `Inspectors, in position` / `Inspectors, sanctioned`, 2),
+         factories_per_inspector = round(registered_factories / `Inspectors, in position`)) |>
+  arrange(desc(factories_per_inspector))
+```
+
+**Questions**
+
+1. What share of the sanctioned posts of Inspector of Factories were vacant in India in 2023?
+2. How many registered factories were there for each inspector in position? If an inspector visited
+   one factory each working day, how often would each factory be inspected?
+3. Look at `Factories inspected` in `insp_state` over time. What has happened to the number of
+   inspections, and what might explain it?
+
+**Your answer:**
+
+
+
+# Part 6. Missing states (ENVH 460/560)
+
+```{r missing}
+reporting <- insp_state |>
+  filter(measure == "Fatal injuries", state != "Total") |>
+  group_by(year) |>
+  summarise(states_reporting = n(), deaths = sum(value), .groups = "drop")
+
+always <- insp_state |>
+  filter(measure == "Fatal injuries", state != "Total", year >= 2009) |>
+  count(state) |>
+  filter(n == n_distinct(insp_state$year[insp_state$year >= 2009]))
+
+insp_state |>
+  filter(measure == "Fatal injuries", year >= 2009, state %in% always$state) |>
+  group_by(year) |>
+  summarise(deaths_in_states_reporting_every_year = sum(value)) |>
+  left_join(reporting, by = "year")
+```
+
+**Questions**
+
+1. How many states and union territories reported fatal injuries each year? Which states report
+   every year?
+2. Compare the trend in deaths in the states that report every year with the trend in all
+   reported deaths. Does the decline hold?
+3. A state that stops reporting looks the same, in a national total, as a state where nobody died.
+   How should a national statistics agency show missing reports?
+
+**Your answer:**
+
+
+
+# Part 7. Occupational diseases and dock works (ENVH 460/560)
+
+```{r diseases-ports}
+diseases |>
+  group_by(year) |>
+  summarise(cases = sum(value), states = n_distinct(state), .groups = "drop")
+
+port_types |>
+  filter(classification == "Type", port == "Total", category != "Total", year >= 2014) |>
+  select(category, measure, value) |>
+  group_by(category, measure) |>
+  summarise(value = sum(value), .groups = "drop") |>
+  pivot_wider(names_from = measure, values_from = value) |>
+  arrange(desc(Accidents))
+```
+
+**Questions**
+
+1. How many cases of occupational disease did the states report each year? India's registered
+   factories employ about 19 million workers, many exposed to silica, noise and chemicals. What
+   would you expect, and why is so little reported?
+2. In the dock works of the major ports since 2014, which types of accident are the most common?
+   What share of them were fatal? What does that suggest about which accidents get reported?
+
+**Your answer:**
+
+
+
+# Part 8. Using these data (ENVH 460/560)
+
+**Questions**
+
+1. Most of India's workers are informal and not covered by the Factories Act. What sources could you
+   use to estimate deaths at work among them (for example in construction or agriculture)?
+2. Compare India's fatal injury rate in registered factories (deaths per 100,000 workers) with a
+   country in this repository, such as the US (BLS CFOI) or Argentina (SRT). What differences in
+   coverage and definitions would you check first?
+3. You are asked to improve the reporting of non-fatal injuries in factories. Propose two changes,
+   and say how you would measure whether they worked.
+
+**Your answer:**
