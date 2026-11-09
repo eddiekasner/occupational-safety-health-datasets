@@ -1,0 +1,976 @@
+year,industry,measure,value,source_edition
+2004,All industries,Fatal injuries,562,2011
+2004,All industries,Incidence rate (fatal),0.08,2011
+2004,All industries,Incidence rate (total),2.21,2011
+2004,All industries,Total injuries,15020,2011
+2004,Basic metals,Fatal injuries,78,2011
+2004,Basic metals,Incidence rate (fatal),0.2,2011
+2004,Basic metals,Incidence rate (total),2.84,2011
+2004,Basic metals,Total injuries,1130,2011
+2004,Chemicals,Fatal injuries,54,2011
+2004,Chemicals,Incidence rate (fatal),0.09,2011
+2004,Chemicals,Incidence rate (total),1.67,2011
+2004,Chemicals,Total injuries,982,2011
+2004,"Electricity, gas and steam",Fatal injuries,32,2011
+2004,"Electricity, gas and steam",Incidence rate (fatal),0.29,2011
+2004,"Electricity, gas and steam",Incidence rate (total),6.27,2011
+2004,"Electricity, gas and steam",Total injuries,699,2011
+2004,Machinery (except electrical),Fatal injuries,25,2011
+2004,Machinery (except electrical),Incidence rate (fatal),0.07,2011
+2004,Machinery (except electrical),Incidence rate (total),2.49,2011
+2004,Machinery (except electrical),Total injuries,923,2011
+2004,Metal products,Fatal injuries,37,2011
+2004,Metal products,Incidence rate (fatal),0.09,2011
+2004,Metal products,Incidence rate (total),1.85,2011
+2004,Metal products,Total injuries,723,2011
+2004,Non-metallic mineral products,Fatal injuries,52,2011
+2004,Non-metallic mineral products,Incidence rate (fatal),0.12,2011
+2004,Non-metallic mineral products,Incidence rate (total),1.87,2011
+2004,Non-metallic mineral products,Total injuries,821,2011
+2004,Paper and printing,Fatal injuries,19,2011
+2004,Paper and printing,Incidence rate (fatal),0.07,2011
+2004,Paper and printing,Incidence rate (total),2.4,2011
+2004,Paper and printing,Total injuries,617,2011
+2004,Textiles,Fatal injuries,66,2011
+2004,Textiles,Incidence rate (fatal),0.05,2011
+2004,Textiles,Incidence rate (total),3.22,2011
+2004,Textiles,Total injuries,4172,2011
+2004,Total of the 9 industries,Fatal injuries,399,2011
+2004,Total of the 9 industries,Incidence rate (fatal),0.09,2011
+2004,Total of the 9 industries,Incidence rate (total),2.7,2011
+2004,Total of the 9 industries,Total injuries,11466,2011
+2004,Transport equipment,Fatal injuries,36,2011
+2004,Transport equipment,Incidence rate (fatal),0.09,2011
+2004,Transport equipment,Incidence rate (total),3.57,2011
+2004,Transport equipment,Total injuries,1399,2011
+2005,Basic metals,Fatal injuries,102,2012
+2005,Basic metals,Incidence rate (fatal),0.2,2012
+2005,Basic metals,Incidence rate (total),3.06,2012
+2005,Basic metals,Total injuries,1543,2012
+2005,Chemicals,Fatal injuries,91,2012
+2005,Chemicals,Incidence rate (fatal),0.15,2012
+2005,Chemicals,Incidence rate (total),1.91,2012
+2005,Chemicals,Total injuries,1159,2012
+2005,Machinery (except electrical),Fatal injuries,17,2012
+2005,Machinery (except electrical),Incidence rate (fatal),0.04,2012
+2005,Machinery (except electrical),Incidence rate (total),2.21,2012
+2005,Machinery (except electrical),Total injuries,953,2012
+2005,Metal products,Fatal injuries,36,2012
+2005,Metal products,Incidence rate (fatal),0.1,2012
+2005,Metal products,Incidence rate (total),1.91,2012
+2005,Metal products,Total injuries,688,2012
+2005,Non-metallic mineral products,Fatal injuries,47,2012
+2005,Non-metallic mineral products,Incidence rate (fatal),0.1,2012
+2005,Non-metallic mineral products,Incidence rate (total),1.51,2012
+2005,Non-metallic mineral products,Total injuries,742,2012
+2005,Paper and printing,Fatal injuries,17,2012
+2005,Paper and printing,Incidence rate (fatal),0.07,2012
+2005,Paper and printing,Incidence rate (total),2.02,2012
+2005,Paper and printing,Total injuries,493,2012
+2005,Textiles,Fatal injuries,36,2012
+2005,Textiles,Incidence rate (fatal),0.03,2012
+2005,Textiles,Incidence rate (total),2.74,2012
+2005,Textiles,Total injuries,3862,2012
+2006,All industries,Frequency rate (total),1.42,2011
+2006,Basic metals,Fatal injuries,166,2012
+2006,Basic metals,Frequency rate (total),1.49,2011
+2006,Basic metals,Incidence rate (fatal),0.28,2012
+2006,Basic metals,Incidence rate (total),3.16,2012
+2006,Basic metals,Total injuries,1842,2012
+2006,Chemicals,Fatal injuries,155,2012
+2006,Chemicals,Frequency rate (total),1.2,2011
+2006,Chemicals,Incidence rate (fatal),0.2,2012
+2006,Chemicals,Incidence rate (total),1.97,2012
+2006,Chemicals,Total injuries,1560,2012
+2006,"Electricity, gas and steam",Frequency rate (total),1.32,2011
+2006,Machinery (except electrical),Fatal injuries,59,2012
+2006,Machinery (except electrical),Frequency rate (total),2.09,2011
+2006,Machinery (except electrical),Incidence rate (fatal),0.13,2012
+2006,Machinery (except electrical),Incidence rate (total),3.26,2012
+2006,Machinery (except electrical),Total injuries,1522,2012
+2006,Metal products,Fatal injuries,38,2012
+2006,Metal products,Frequency rate (total),1.68,2011
+2006,Metal products,Incidence rate (fatal),0.09,2012
+2006,Metal products,Incidence rate (total),2.64,2012
+2006,Metal products,Total injuries,1151,2012
+2006,Non-metallic mineral products,Fatal injuries,73,2012
+2006,Non-metallic mineral products,Frequency rate (total),1.33,2011
+2006,Non-metallic mineral products,Incidence rate (fatal),0.13,2012
+2006,Non-metallic mineral products,Incidence rate (total),1.63,2012
+2006,Non-metallic mineral products,Total injuries,896,2012
+2006,Paper and printing,Fatal injuries,25,2012
+2006,Paper and printing,Frequency rate (total),1.04,2011
+2006,Paper and printing,Incidence rate (fatal),0.09,2012
+2006,Paper and printing,Incidence rate (total),1.8,2012
+2006,Paper and printing,Total injuries,510,2012
+2006,Textiles,Fatal injuries,68,2012
+2006,Textiles,Frequency rate (total),2.11,2011
+2006,Textiles,Incidence rate (fatal),0.04,2012
+2006,Textiles,Incidence rate (total),3.57,2012
+2006,Textiles,Total injuries,5808,2012
+2006,Total of the 9 industries,Frequency rate (total),1.63,2011
+2006,Transport equipment,Frequency rate (total),1.25,2011
+2007,All industries,Frequency rate (total),1.73,2012
+2007,Basic metals,Fatal injuries,179,2012
+2007,Basic metals,Frequency rate (total),1.73,2012
+2007,Basic metals,Incidence rate (fatal),0.26,2012
+2007,Basic metals,Incidence rate (total),2.61,2012
+2007,Basic metals,Total injuries,1822,2012
+2007,Chemicals,Fatal injuries,68,2012
+2007,Chemicals,Frequency rate (total),1.34,2012
+2007,Chemicals,Incidence rate (fatal),0.13,2012
+2007,Chemicals,Incidence rate (total),1.87,2012
+2007,Chemicals,Total injuries,991,2012
+2007,"Electricity, gas and steam",Frequency rate (total),0.51,2012
+2007,Machinery (except electrical),Fatal injuries,27,2012
+2007,Machinery (except electrical),Frequency rate (total),1.8,2012
+2007,Machinery (except electrical),Incidence rate (fatal),0.05,2012
+2007,Machinery (except electrical),Incidence rate (total),1.86,2012
+2007,Machinery (except electrical),Total injuries,999,2012
+2007,Metal products,Fatal injuries,21,2012
+2007,Metal products,Frequency rate (total),2.38,2012
+2007,Metal products,Incidence rate (fatal),0.04,2012
+2007,Metal products,Incidence rate (total),2.55,2012
+2007,Metal products,Total injuries,1209,2012
+2007,Non-metallic mineral products,Fatal injuries,68,2012
+2007,Non-metallic mineral products,Frequency rate (total),2.11,2012
+2007,Non-metallic mineral products,Incidence rate (fatal),0.11,2012
+2007,Non-metallic mineral products,Incidence rate (total),1.7,2012
+2007,Non-metallic mineral products,Total injuries,1038,2012
+2007,Paper and printing,Fatal injuries,26,2012
+2007,Paper and printing,Frequency rate (total),1.64,2012
+2007,Paper and printing,Incidence rate (fatal),0.09,2012
+2007,Paper and printing,Incidence rate (total),1.76,2012
+2007,Paper and printing,Total injuries,496,2012
+2007,Textiles,Fatal injuries,50,2012
+2007,Textiles,Frequency rate (total),2.48,2012
+2007,Textiles,Incidence rate (fatal),0.04,2012
+2007,Textiles,Incidence rate (total),2.52,2012
+2007,Textiles,Total injuries,3582,2012
+2007,Total of the 9 industries,Frequency rate (total),1.88,2012
+2007,Transport equipment,Frequency rate (total),1.52,2012
+2008,All industries,Fatal injuries,478,2015
+2008,All industries,Frequency rate (total),0.88,2015
+2008,All industries,Incidence rate (fatal),0.06,2015
+2008,All industries,Incidence rate (total),0.8,2015
+2008,All industries,Total injuries,5972,2015
+2008,Basic metals,Fatal injuries,121,2015
+2008,Basic metals,Frequency rate (total),0.55,2015
+2008,Basic metals,Incidence rate (fatal),0.19,2015
+2008,Basic metals,Incidence rate (total),1.06,2015
+2008,Basic metals,Total injuries,664,2015
+2008,Chemicals,Fatal injuries,42,2015
+2008,Chemicals,Frequency rate (total),0.36,2015
+2008,Chemicals,Incidence rate (fatal),0.1,2015
+2008,Chemicals,Incidence rate (total),0.5,2015
+2008,Chemicals,Total injuries,206,2015
+2008,"Electricity, gas and steam",Fatal injuries,26,2015
+2008,"Electricity, gas and steam",Frequency rate (total),0.77,2015
+2008,"Electricity, gas and steam",Incidence rate (fatal),0.17,2015
+2008,"Electricity, gas and steam",Incidence rate (total),0.96,2015
+2008,"Electricity, gas and steam",Total injuries,145,2015
+2008,Machinery (except electrical),Fatal injuries,11,2015
+2008,Machinery (except electrical),Frequency rate (total),0.35,2015
+2008,Machinery (except electrical),Incidence rate (fatal),0.02,2015
+2008,Machinery (except electrical),Incidence rate (total),0.24,2015
+2008,Machinery (except electrical),Total injuries,144,2015
+2008,Metal products,Fatal injuries,8,2015
+2008,Metal products,Frequency rate (total),1.19,2015
+2008,Metal products,Incidence rate (fatal),0.02,2015
+2008,Metal products,Incidence rate (total),0.75,2015
+2008,Metal products,Total injuries,297,2015
+2008,Non-metallic mineral products,Fatal injuries,65,2015
+2008,Non-metallic mineral products,Frequency rate (total),1.57,2015
+2008,Non-metallic mineral products,Incidence rate (fatal),0.1,2015
+2008,Non-metallic mineral products,Incidence rate (total),1.14,2015
+2008,Non-metallic mineral products,Total injuries,717,2015
+2008,Paper and printing,Fatal injuries,22,2015
+2008,Paper and printing,Frequency rate (total),0.96,2015
+2008,Paper and printing,Incidence rate (fatal),0.09,2015
+2008,Paper and printing,Incidence rate (total),0.97,2015
+2008,Paper and printing,Total injuries,231,2015
+2008,Textiles,Fatal injuries,37,2015
+2008,Textiles,Frequency rate (total),1.57,2015
+2008,Textiles,Incidence rate (fatal),0.03,2015
+2008,Textiles,Incidence rate (total),1.21,2015
+2008,Textiles,Total injuries,1740,2015
+2008,Total of the 9 industries,Fatal injuries,344,2015
+2008,Total of the 9 industries,Frequency rate (total),0.91,2015
+2008,Total of the 9 industries,Incidence rate (fatal),0.07,2015
+2008,Total of the 9 industries,Incidence rate (total),0.92,2015
+2008,Total of the 9 industries,Total injuries,4464,2015
+2008,Transport equipment,Fatal injuries,12,2015
+2008,Transport equipment,Frequency rate (total),0.67,2015
+2008,Transport equipment,Incidence rate (fatal),0.03,2015
+2008,Transport equipment,Incidence rate (total),0.89,2015
+2008,Transport equipment,Total injuries,320,2015
+2009,All industries,Fatal injuries,668,2016
+2009,All industries,Frequency rate (total),0.85,2016
+2009,All industries,Incidence rate (fatal),0.1,2016
+2009,All industries,Incidence rate (total),1.03,2016
+2009,All industries,Total injuries,6651,2016
+2009,Basic metals,Fatal injuries,189,2016
+2009,Basic metals,Frequency rate (total),1.26,2016
+2009,Basic metals,Incidence rate (fatal),0.4,2016
+2009,Basic metals,Incidence rate (total),2.19,2016
+2009,Basic metals,Total injuries,1042,2016
+2009,Chemicals,Fatal injuries,35,2016
+2009,Chemicals,Frequency rate (total),0.22,2016
+2009,Chemicals,Incidence rate (fatal),0.08,2016
+2009,Chemicals,Incidence rate (total),0.4,2016
+2009,Chemicals,Total injuries,186,2016
+2009,"Electricity, gas and steam",Fatal injuries,29,2016
+2009,"Electricity, gas and steam",Frequency rate (total),0.7,2016
+2009,"Electricity, gas and steam",Incidence rate (fatal),0.23,2016
+2009,"Electricity, gas and steam",Incidence rate (total),1.3,2016
+2009,"Electricity, gas and steam",Total injuries,167,2016
+2009,Machinery (except electrical),Fatal injuries,17,2016
+2009,Machinery (except electrical),Frequency rate (total),0.62,2016
+2009,Machinery (except electrical),Incidence rate (fatal),0.04,2016
+2009,Machinery (except electrical),Incidence rate (total),0.8,2016
+2009,Machinery (except electrical),Total injuries,317,2016
+2009,Metal products,Fatal injuries,19,2016
+2009,Metal products,Frequency rate (total),0.87,2016
+2009,Metal products,Incidence rate (fatal),0.05,2016
+2009,Metal products,Incidence rate (total),0.87,2016
+2009,Metal products,Total injuries,365,2016
+2009,Non-metallic mineral products,Fatal injuries,63,2016
+2009,Non-metallic mineral products,Frequency rate (total),0.68,2016
+2009,Non-metallic mineral products,Incidence rate (fatal),0.11,2016
+2009,Non-metallic mineral products,Incidence rate (total),0.52,2016
+2009,Non-metallic mineral products,Total injuries,291,2016
+2009,Paper and printing,Fatal injuries,21,2016
+2009,Paper and printing,Frequency rate (total),0.33,2016
+2009,Paper and printing,Incidence rate (fatal),0.07,2016
+2009,Paper and printing,Incidence rate (total),0.38,2016
+2009,Paper and printing,Total injuries,108,2016
+2009,Textiles,Fatal injuries,59,2016
+2009,Textiles,Frequency rate (total),1.63,2016
+2009,Textiles,Incidence rate (fatal),0.07,2016
+2009,Textiles,Incidence rate (total),1.52,2016
+2009,Textiles,Total injuries,1326,2016
+2009,Total of the 9 industries,Fatal injuries,452,2016
+2009,Total of the 9 industries,Frequency rate (total),0.81,2016
+2009,Total of the 9 industries,Incidence rate (fatal),0.11,2016
+2009,Total of the 9 industries,Incidence rate (total),1.04,2016
+2009,Total of the 9 industries,Total injuries,4224,2016
+2009,Transport equipment,Fatal injuries,20,2016
+2009,Transport equipment,Frequency rate (total),0.53,2016
+2009,Transport equipment,Incidence rate (fatal),0.04,2016
+2009,Transport equipment,Incidence rate (total),0.91,2016
+2009,Transport equipment,Total injuries,422,2016
+2010,All industries,Fatal injuries,1064,2017
+2010,All industries,Frequency rate (total),0.64,2017
+2010,All industries,Incidence rate (fatal),0.1,2017
+2010,All industries,Incidence rate (total),1.03,2017
+2010,All industries,Total injuries,11175,2017
+2010,Basic metals,Fatal injuries,311,2017
+2010,Basic metals,Frequency rate (total),0.62,2017
+2010,Basic metals,Incidence rate (fatal),0.3,2017
+2010,Basic metals,Incidence rate (total),1.31,2017
+2010,Basic metals,Total injuries,1367,2017
+2010,Chemicals,Fatal injuries,140,2017
+2010,Chemicals,Frequency rate (total),0.69,2017
+2010,Chemicals,Incidence rate (fatal),0.2,2017
+2010,Chemicals,Incidence rate (total),1.02,2017
+2010,Chemicals,Total injuries,719,2017
+2010,"Electricity, gas and steam",Fatal injuries,32,2017
+2010,"Electricity, gas and steam",Frequency rate (total),0.08,2017
+2010,"Electricity, gas and steam",Incidence rate (fatal),0.14,2017
+2010,"Electricity, gas and steam",Incidence rate (total),0.98,2017
+2010,"Electricity, gas and steam",Total injuries,220,2017
+2010,Machinery (except electrical),Fatal injuries,31,2017
+2010,Machinery (except electrical),Frequency rate (total),0.96,2017
+2010,Machinery (except electrical),Incidence rate (fatal),0.06,2017
+2010,Machinery (except electrical),Incidence rate (total),1.18,2017
+2010,Machinery (except electrical),Total injuries,622,2017
+2010,Metal products,Fatal injuries,57,2017
+2010,Metal products,Frequency rate (total),1.1,2017
+2010,Metal products,Incidence rate (fatal),0.08,2017
+2010,Metal products,Incidence rate (total),1.6,2017
+2010,Metal products,Total injuries,1152,2017
+2010,Non-metallic mineral products,Fatal injuries,86,2017
+2010,Non-metallic mineral products,Frequency rate (total),0.8,2017
+2010,Non-metallic mineral products,Incidence rate (fatal),0.11,2017
+2010,Non-metallic mineral products,Incidence rate (total),0.66,2017
+2010,Non-metallic mineral products,Total injuries,534,2017
+2010,Paper and printing,Fatal injuries,28,2017
+2010,Paper and printing,Frequency rate (total),0.69,2017
+2010,Paper and printing,Incidence rate (fatal),0.18,2017
+2010,Paper and printing,Incidence rate (total),2.17,2017
+2010,Paper and printing,Total injuries,341,2017
+2010,Textiles,Fatal injuries,83,2017
+2010,Textiles,Frequency rate (total),1.33,2017
+2010,Textiles,Incidence rate (fatal),0.12,2017
+2010,Textiles,Incidence rate (total),4.09,2017
+2010,Textiles,Total injuries,2937,2017
+2010,Total of the 9 industries,Fatal injuries,786,2017
+2010,Total of the 9 industries,Frequency rate (total),0.72,2017
+2010,Total of the 9 industries,Incidence rate (fatal),0.29,2017
+2010,Total of the 9 industries,Incidence rate (total),3.08,2017
+2010,Total of the 9 industries,Total injuries,8348,2017
+2010,Transport equipment,Fatal injuries,18,2017
+2010,Transport equipment,Frequency rate (total),0.98,2017
+2010,Transport equipment,Incidence rate (fatal),0.07,2017
+2010,Transport equipment,Incidence rate (total),1.78,2017
+2010,Transport equipment,Total injuries,456,2017
+2011,All industries,Fatal injuries,1083,2018
+2011,All industries,Frequency rate (total),0.72,2018
+2011,All industries,Incidence rate (fatal),0.09,2018
+2011,All industries,Incidence rate (total),0.9,2018
+2011,All industries,Total injuries,10441,2018
+2011,Basic metals,Fatal injuries,211,2018
+2011,Basic metals,Frequency rate (total),0.72,2018
+2011,Basic metals,Incidence rate (fatal),0.19,2018
+2011,Basic metals,Incidence rate (total),0.85,2018
+2011,Basic metals,Total injuries,930,2018
+2011,Chemicals,Fatal injuries,193,2018
+2011,Chemicals,Frequency rate (total),1.42,2018
+2011,Chemicals,Incidence rate (fatal),0.25,2018
+2011,Chemicals,Incidence rate (total),2.1,2018
+2011,Chemicals,Total injuries,1605,2018
+2011,"Electricity, gas and steam",Fatal injuries,61,2018
+2011,"Electricity, gas and steam",Frequency rate (total),0.68,2018
+2011,"Electricity, gas and steam",Incidence rate (fatal),0.24,2018
+2011,"Electricity, gas and steam",Incidence rate (total),0.99,2018
+2011,"Electricity, gas and steam",Total injuries,250,2018
+2011,Machinery (except electrical),Fatal injuries,50,2018
+2011,Machinery (except electrical),Frequency rate (total),0.73,2018
+2011,Machinery (except electrical),Incidence rate (fatal),0.09,2018
+2011,Machinery (except electrical),Incidence rate (total),0.98,2018
+2011,Machinery (except electrical),Total injuries,534,2018
+2011,Metal products,Fatal injuries,58,2018
+2011,Metal products,Frequency rate (total),0.69,2018
+2011,Metal products,Incidence rate (fatal),0.07,2018
+2011,Metal products,Incidence rate (total),0.98,2018
+2011,Metal products,Total injuries,767,2018
+2011,Non-metallic mineral products,Fatal injuries,80,2018
+2011,Non-metallic mineral products,Frequency rate (total),0.5,2018
+2011,Non-metallic mineral products,Incidence rate (fatal),0.09,2018
+2011,Non-metallic mineral products,Incidence rate (total),0.38,2018
+2011,Non-metallic mineral products,Total injuries,331,2018
+2011,Paper and printing,Fatal injuries,49,2018
+2011,Paper and printing,Frequency rate (total),0.54,2018
+2011,Paper and printing,Incidence rate (fatal),0.31,2018
+2011,Paper and printing,Incidence rate (total),1.61,2018
+2011,Paper and printing,Total injuries,252,2018
+2011,Textiles,Fatal injuries,96,2018
+2011,Textiles,Frequency rate (total),1.26,2018
+2011,Textiles,Incidence rate (fatal),0.13,2018
+2011,Textiles,Incidence rate (total),3.82,2018
+2011,Textiles,Total injuries,2921,2018
+2011,Total of the 9 industries,Fatal injuries,840,2018
+2011,Total of the 9 industries,Frequency rate (total),0.93,2018
+2011,Total of the 9 industries,Incidence rate (fatal),0.3,2018
+2011,Total of the 9 industries,Incidence rate (total),2.81,2018
+2011,Total of the 9 industries,Total injuries,7990,2018
+2011,Transport equipment,Fatal injuries,42,2018
+2011,Transport equipment,Frequency rate (total),0.83,2018
+2011,Transport equipment,Incidence rate (fatal),0.14,2018
+2011,Transport equipment,Incidence rate (total),1.37,2018
+2011,Transport equipment,Total injuries,400,2018
+2012,All industries,Fatal injuries,682,2019
+2012,All industries,Frequency rate (total),0.75,2019
+2012,All industries,Incidence rate (fatal),0.09,2019
+2012,All industries,Incidence rate (total),0.79,2019
+2012,All industries,Total injuries,5769,2019
+2012,Basic metals,Fatal injuries,130,2019
+2012,Basic metals,Frequency rate (total),0.69,2019
+2012,Basic metals,Incidence rate (fatal),0.26,2019
+2012,Basic metals,Incidence rate (total),1,2019
+2012,Basic metals,Total injuries,503,2019
+2012,Chemicals,Fatal injuries,94,2019
+2012,Chemicals,Frequency rate (total),1.25,2019
+2012,Chemicals,Incidence rate (fatal),0.23,2019
+2012,Chemicals,Incidence rate (total),1.37,2019
+2012,Chemicals,Total injuries,562,2019
+2012,"Electricity, gas and steam",Fatal injuries,54,2019
+2012,"Electricity, gas and steam",Frequency rate (total),1.45,2019
+2012,"Electricity, gas and steam",Incidence rate (fatal),0.33,2019
+2012,"Electricity, gas and steam",Incidence rate (total),1.88,2019
+2012,"Electricity, gas and steam",Total injuries,311,2019
+2012,Machinery (except electrical),Fatal injuries,8,2019
+2012,Machinery (except electrical),Frequency rate (total),0.59,2019
+2012,Machinery (except electrical),Incidence rate (fatal),0.02,2019
+2012,Machinery (except electrical),Incidence rate (total),0.87,2019
+2012,Machinery (except electrical),Total injuries,293,2019
+2012,Metal products,Fatal injuries,52,2019
+2012,Metal products,Frequency rate (total),0.51,2019
+2012,Metal products,Incidence rate (fatal),0.1,2019
+2012,Metal products,Incidence rate (total),0.56,2019
+2012,Metal products,Total injuries,300,2019
+2012,Non-metallic mineral products,Fatal injuries,39,2019
+2012,Non-metallic mineral products,Frequency rate (total),0.34,2019
+2012,Non-metallic mineral products,Incidence rate (fatal),0.06,2019
+2012,Non-metallic mineral products,Incidence rate (total),0.26,2019
+2012,Non-metallic mineral products,Total injuries,154,2019
+2012,Paper and printing,Fatal injuries,22,2019
+2012,Paper and printing,Frequency rate (total),0.74,2019
+2012,Paper and printing,Incidence rate (fatal),0.14,2019
+2012,Paper and printing,Incidence rate (total),1.17,2019
+2012,Paper and printing,Total injuries,178,2019
+2012,Textiles,Fatal injuries,44,2019
+2012,Textiles,Frequency rate (total),1.26,2019
+2012,Textiles,Incidence rate (fatal),1.52,2019
+2012,Textiles,Incidence rate (total),1.58,2019
+2012,Textiles,Total injuries,1063,2019
+2012,Total of the 9 industries,Fatal injuries,460,2019
+2012,Total of the 9 industries,Frequency rate (total),0.84,2019
+2012,Total of the 9 industries,Incidence rate (fatal),0.21,2019
+2012,Total of the 9 industries,Incidence rate (total),1.61,2019
+2012,Total of the 9 industries,Total injuries,3600,2019
+2012,Transport equipment,Fatal injuries,17,2019
+2012,Transport equipment,Frequency rate (total),0.96,2019
+2012,Transport equipment,Incidence rate (fatal),0.1,2019
+2012,Transport equipment,Incidence rate (total),1.39,2019
+2012,Transport equipment,Total injuries,236,2019
+2013,All industries,Fatal injuries,494,2020
+2013,All industries,Frequency rate (total),0.37,2020
+2013,All industries,Incidence rate (fatal),0.14,2020
+2013,All industries,Incidence rate (total),0.67,2020
+2013,All industries,Total injuries,2445,2020
+2013,Basic metals,Fatal injuries,101,2020
+2013,Basic metals,Frequency rate (total),0.53,2020
+2013,Basic metals,Incidence rate (fatal),0.23,2020
+2013,Basic metals,Incidence rate (total),0.62,2020
+2013,Basic metals,Total injuries,274,2020
+2013,Chemicals,Fatal injuries,36,2020
+2013,Chemicals,Frequency rate (total),0.95,2020
+2013,Chemicals,Incidence rate (fatal),0.25,2020
+2013,Chemicals,Incidence rate (total),1.37,2020
+2013,Chemicals,Total injuries,197,2020
+2013,"Electricity, gas and steam",Fatal injuries,47,2020
+2013,"Electricity, gas and steam",Frequency rate (total),0.64,2020
+2013,"Electricity, gas and steam",Incidence rate (fatal),0.46,2020
+2013,"Electricity, gas and steam",Incidence rate (total),1.09,2020
+2013,"Electricity, gas and steam",Total injuries,112,2020
+2013,Machinery (except electrical),Fatal injuries,4,2020
+2013,Machinery (except electrical),Frequency rate (total),0.07,2020
+2013,Machinery (except electrical),Incidence rate (fatal),0.02,2020
+2013,Machinery (except electrical),Incidence rate (total),0.08,2020
+2013,Machinery (except electrical),Total injuries,13,2020
+2013,Metal products,Fatal injuries,16,2020
+2013,Metal products,Frequency rate (total),0.26,2020
+2013,Metal products,Incidence rate (fatal),0.07,2020
+2013,Metal products,Incidence rate (total),0.25,2020
+2013,Metal products,Total injuries,57,2020
+2013,Non-metallic mineral products,Fatal injuries,48,2020
+2013,Non-metallic mineral products,Frequency rate (total),0.85,2020
+2013,Non-metallic mineral products,Incidence rate (fatal),0.1,2020
+2013,Non-metallic mineral products,Incidence rate (total),0.57,2020
+2013,Non-metallic mineral products,Total injuries,287,2020
+2013,Paper and printing,Fatal injuries,14,2020
+2013,Paper and printing,Frequency rate (total),0.4,2020
+2013,Paper and printing,Incidence rate (fatal),0.14,2020
+2013,Paper and printing,Incidence rate (total),0.48,2020
+2013,Paper and printing,Total injuries,49,2020
+2013,Textiles,Fatal injuries,66,2020
+2013,Textiles,Frequency rate (total),1.13,2020
+2013,Textiles,Incidence rate (fatal),0.19,2020
+2013,Textiles,Incidence rate (total),1.46,2020
+2013,Textiles,Total injuries,521,2020
+2013,Total of the 9 industries,Fatal injuries,336,2020
+2013,Total of the 9 industries,Frequency rate (total),0.68,2020
+2013,Total of the 9 industries,Incidence rate (fatal),0.16,2020
+2013,Total of the 9 industries,Incidence rate (total),0.75,2020
+2013,Total of the 9 industries,Total injuries,1594,2020
+2013,Transport equipment,Fatal injuries,4,2020
+2013,Transport equipment,Frequency rate (total),0.9,2020
+2013,Transport equipment,Incidence rate (fatal),0.05,2020
+2013,Transport equipment,Incidence rate (total),1.13,2020
+2013,Transport equipment,Total injuries,84,2020
+2014,All industries,Fatal injuries,515,2021
+2014,All industries,Frequency rate (total),0.49,2021
+2014,All industries,Incidence rate (fatal),0.08,2021
+2014,All industries,Incidence rate (total),0.71,2021
+2014,All industries,Total injuries,4499,2021
+2014,Basic metals,Fatal injuries,134,2021
+2014,Basic metals,Frequency rate (total),0.65,2021
+2014,Basic metals,Incidence rate (fatal),0.22,2021
+2014,Basic metals,Incidence rate (total),1.01,2021
+2014,Basic metals,Total injuries,603,2021
+2014,Chemicals,Fatal injuries,31,2021
+2014,Chemicals,Frequency rate (total),0.63,2021
+2014,Chemicals,Incidence rate (fatal),0.1,2021
+2014,Chemicals,Incidence rate (total),1.12,2021
+2014,Chemicals,Total injuries,337,2021
+2014,"Electricity, gas and steam",Fatal injuries,40,2021
+2014,"Electricity, gas and steam",Frequency rate (total),0.41,2021
+2014,"Electricity, gas and steam",Incidence rate (fatal),0.24,2021
+2014,"Electricity, gas and steam",Incidence rate (total),0.78,2021
+2014,"Electricity, gas and steam",Total injuries,131,2021
+2014,Machinery (except electrical),Fatal injuries,9,2021
+2014,Machinery (except electrical),Frequency rate (total),0.55,2021
+2014,Machinery (except electrical),Incidence rate (fatal),0.03,2021
+2014,Machinery (except electrical),Incidence rate (total),0.92,2021
+2014,Machinery (except electrical),Total injuries,293,2021
+2014,Metal products,Fatal injuries,14,2021
+2014,Metal products,Frequency rate (total),0.4,2021
+2014,Metal products,Incidence rate (fatal),0.03,2021
+2014,Metal products,Incidence rate (total),0.53,2021
+2014,Metal products,Total injuries,259,2021
+2014,Non-metallic mineral products,Fatal injuries,58,2021
+2014,Non-metallic mineral products,Frequency rate (total),0.33,2021
+2014,Non-metallic mineral products,Incidence rate (fatal),0.1,2021
+2014,Non-metallic mineral products,Incidence rate (total),0.3,2021
+2014,Non-metallic mineral products,Total injuries,179,2021
+2014,Paper and printing,Fatal injuries,18,2021
+2014,Paper and printing,Frequency rate (total),0.3,2021
+2014,Paper and printing,Incidence rate (fatal),0.09,2021
+2014,Paper and printing,Incidence rate (total),0.38,2021
+2014,Paper and printing,Total injuries,79,2021
+2014,Textiles,Fatal injuries,19,2021
+2014,Textiles,Frequency rate (total),0.77,2021
+2014,Textiles,Incidence rate (fatal),0.03,2021
+2014,Textiles,Incidence rate (total),1.24,2021
+2014,Textiles,Total injuries,844,2021
+2014,Total of the 9 industries,Fatal injuries,332,2021
+2014,Total of the 9 industries,Frequency rate (total),0.58,2021
+2014,Total of the 9 industries,Incidence rate (fatal),0.09,2021
+2014,Total of the 9 industries,Incidence rate (total),0.85,2021
+2014,Total of the 9 industries,Total injuries,2958,2021
+2014,Transport equipment,Fatal injuries,9,2021
+2014,Transport equipment,Frequency rate (total),0.9,2021
+2014,Transport equipment,Incidence rate (fatal),0.07,2021
+2014,Transport equipment,Incidence rate (total),1.71,2021
+2014,Transport equipment,Total injuries,233,2021
+2015,All industries,Fatal injuries,789,2022
+2015,All industries,Frequency rate (total),0.33,2022
+2015,All industries,Incidence rate (fatal),0.09,2022
+2015,All industries,Incidence rate (total),0.64,2022
+2015,All industries,Total injuries,5500,2022
+2015,Basic metals,Fatal injuries,154,2022
+2015,Basic metals,Frequency rate (total),0.42,2022
+2015,Basic metals,Incidence rate (fatal),0.18,2022
+2015,Basic metals,Incidence rate (total),0.58,2022
+2015,Basic metals,Total injuries,506,2022
+2015,Chemicals,Fatal injuries,102,2022
+2015,Chemicals,Frequency rate (total),0.76,2022
+2015,Chemicals,Incidence rate (fatal),0.18,2022
+2015,Chemicals,Incidence rate (total),1.26,2022
+2015,Chemicals,Total injuries,710,2022
+2015,"Electricity, gas and steam",Fatal injuries,49,2022
+2015,"Electricity, gas and steam",Frequency rate (total),0.41,2022
+2015,"Electricity, gas and steam",Incidence rate (fatal),0.23,2022
+2015,"Electricity, gas and steam",Incidence rate (total),0.81,2022
+2015,"Electricity, gas and steam",Total injuries,173,2022
+2015,Machinery (except electrical),Fatal injuries,19,2022
+2015,Machinery (except electrical),Frequency rate (total),0.32,2022
+2015,Machinery (except electrical),Incidence rate (fatal),0.05,2022
+2015,Machinery (except electrical),Incidence rate (total),0.48,2022
+2015,Machinery (except electrical),Total injuries,199,2022
+2015,Metal products,Fatal injuries,35,2022
+2015,Metal products,Frequency rate (total),0.48,2022
+2015,Metal products,Incidence rate (fatal),0.06,2022
+2015,Metal products,Incidence rate (total),0.66,2022
+2015,Metal products,Total injuries,417,2022
+2015,Non-metallic mineral products,Fatal injuries,47,2022
+2015,Non-metallic mineral products,Frequency rate (total),0.46,2022
+2015,Non-metallic mineral products,Incidence rate (fatal),0.06,2022
+2015,Non-metallic mineral products,Incidence rate (total),0.39,2022
+2015,Non-metallic mineral products,Total injuries,294,2022
+2015,Paper and printing,Fatal injuries,23,2022
+2015,Paper and printing,Frequency rate (total),0.32,2022
+2015,Paper and printing,Incidence rate (fatal),0.08,2022
+2015,Paper and printing,Incidence rate (total),0.43,2022
+2015,Paper and printing,Total injuries,123,2022
+2015,Textiles,Fatal injuries,85,2022
+2015,Textiles,Frequency rate (total),0.75,2022
+2015,Textiles,Incidence rate (fatal),0.09,2022
+2015,Textiles,Incidence rate (total),1.27,2022
+2015,Textiles,Total injuries,1235,2022
+2015,Total of the 9 industries,Fatal injuries,527,2022
+2015,Total of the 9 industries,Frequency rate (total),0.56,2022
+2015,Total of the 9 industries,Incidence rate (fatal),0.11,2022
+2015,Total of the 9 industries,Incidence rate (total),0.81,2022
+2015,Total of the 9 industries,Total injuries,3889,2022
+2015,Transport equipment,Fatal injuries,13,2022
+2015,Transport equipment,Frequency rate (total),0.89,2022
+2015,Transport equipment,Incidence rate (fatal),0.09,2022
+2015,Transport equipment,Incidence rate (total),1.68,2022
+2015,Transport equipment,Total injuries,232,2022
+2016,All industries,Fatal injuries,777,2023
+2016,All industries,Frequency rate (total),0.51,2023
+2016,All industries,Incidence rate (fatal),0.08,2023
+2016,All industries,Incidence rate (total),0.42,2023
+2016,All industries,Total injuries,3906,2023
+2016,Basic metals,Fatal injuries,144,2023
+2016,Basic metals,Frequency rate (total),0.49,2023
+2016,Basic metals,Incidence rate (fatal),0.17,2023
+2016,Basic metals,Incidence rate (total),0.45,2023
+2016,Basic metals,Total injuries,377,2023
+2016,Chemicals,Fatal injuries,146,2023
+2016,Chemicals,Frequency rate (total),1.04,2023
+2016,Chemicals,Incidence rate (fatal),0.22,2023
+2016,Chemicals,Incidence rate (total),0.81,2023
+2016,Chemicals,Total injuries,546,2023
+2016,"Electricity, gas and steam",Fatal injuries,40,2023
+2016,"Electricity, gas and steam",Frequency rate (total),0.61,2023
+2016,"Electricity, gas and steam",Incidence rate (fatal),0.14,2023
+2016,"Electricity, gas and steam",Incidence rate (total),0.57,2023
+2016,"Electricity, gas and steam",Total injuries,167,2023
+2016,Machinery (except electrical),Fatal injuries,21,2023
+2016,Machinery (except electrical),Frequency rate (total),0.48,2023
+2016,Machinery (except electrical),Incidence rate (fatal),0.05,2023
+2016,Machinery (except electrical),Incidence rate (total),0.35,2023
+2016,Machinery (except electrical),Total injuries,139,2023
+2016,Metal products,Fatal injuries,30,2023
+2016,Metal products,Frequency rate (total),1.06,2023
+2016,Metal products,Incidence rate (fatal),0.05,2023
+2016,Metal products,Incidence rate (total),0.53,2023
+2016,Metal products,Total injuries,313,2023
+2016,Non-metallic mineral products,Fatal injuries,56,2023
+2016,Non-metallic mineral products,Frequency rate (total),0.3,2023
+2016,Non-metallic mineral products,Incidence rate (fatal),0.07,2023
+2016,Non-metallic mineral products,Incidence rate (total),0.16,2023
+2016,Non-metallic mineral products,Total injuries,134,2023
+2016,Paper and printing,Fatal injuries,33,2023
+2016,Paper and printing,Frequency rate (total),0.39,2023
+2016,Paper and printing,Incidence rate (fatal),0.11,2023
+2016,Paper and printing,Incidence rate (total),0.38,2023
+2016,Paper and printing,Total injuries,119,2023
+2016,Textiles,Fatal injuries,64,2023
+2016,Textiles,Frequency rate (total),0.65,2023
+2016,Textiles,Incidence rate (fatal),0.05,2023
+2016,Textiles,Incidence rate (total),0.56,2023
+2016,Textiles,Total injuries,709,2023
+2016,Total of the 9 industries,Fatal injuries,539,2023
+2016,Total of the 9 industries,Frequency rate (total),0.64,2023
+2016,Total of the 9 industries,Incidence rate (fatal),0.1,2023
+2016,Total of the 9 industries,Incidence rate (total),0.49,2023
+2016,Total of the 9 industries,Total injuries,2638,2023
+2016,Transport equipment,Fatal injuries,5,2023
+2016,Transport equipment,Frequency rate (total),0.99,2023
+2016,Transport equipment,Incidence rate (fatal),0.03,2023
+2016,Transport equipment,Incidence rate (total),0.75,2023
+2016,Transport equipment,Total injuries,134,2023
+2017,All industries,Fatal injuries,668,2023
+2017,All industries,Frequency rate (total),0.33,2023
+2017,All industries,Incidence rate (fatal),0.08,2023
+2017,All industries,Incidence rate (total),0.39,2023
+2017,All industries,Total injuries,3149,2023
+2017,Basic metals,Fatal injuries,91,2023
+2017,Basic metals,Frequency rate (total),0.16,2023
+2017,Basic metals,Incidence rate (fatal),0.14,2023
+2017,Basic metals,Incidence rate (total),0.36,2023
+2017,Basic metals,Total injuries,233,2023
+2017,Chemicals,Fatal injuries,73,2023
+2017,Chemicals,Frequency rate (total),0.49,2023
+2017,Chemicals,Incidence rate (fatal),0.12,2023
+2017,Chemicals,Incidence rate (total),0.53,2023
+2017,Chemicals,Total injuries,331,2023
+2017,"Electricity, gas and steam",Fatal injuries,29,2023
+2017,"Electricity, gas and steam",Frequency rate (total),0.42,2023
+2017,"Electricity, gas and steam",Incidence rate (fatal),0.21,2023
+2017,"Electricity, gas and steam",Incidence rate (total),0.74,2023
+2017,"Electricity, gas and steam",Total injuries,101,2023
+2017,Machinery (except electrical),Fatal injuries,23,2023
+2017,Machinery (except electrical),Frequency rate (total),0.44,2023
+2017,Machinery (except electrical),Incidence rate (fatal),0.07,2023
+2017,Machinery (except electrical),Incidence rate (total),0.39,2023
+2017,Machinery (except electrical),Total injuries,137,2023
+2017,Metal products,Fatal injuries,20,2023
+2017,Metal products,Frequency rate (total),0.88,2023
+2017,Metal products,Incidence rate (fatal),0.05,2023
+2017,Metal products,Incidence rate (total),0.41,2023
+2017,Metal products,Total injuries,174,2023
+2017,Non-metallic mineral products,Fatal injuries,48,2023
+2017,Non-metallic mineral products,Frequency rate (total),0.17,2023
+2017,Non-metallic mineral products,Incidence rate (fatal),0.07,2023
+2017,Non-metallic mineral products,Incidence rate (total),0.2,2023
+2017,Non-metallic mineral products,Total injuries,132,2023
+2017,Paper and printing,Fatal injuries,23,2023
+2017,Paper and printing,Frequency rate (total),0.34,2023
+2017,Paper and printing,Incidence rate (fatal),0.06,2023
+2017,Paper and printing,Incidence rate (total),0.21,2023
+2017,Paper and printing,Total injuries,82,2023
+2017,Textiles,Fatal injuries,94,2023
+2017,Textiles,Frequency rate (total),0.55,2023
+2017,Textiles,Incidence rate (fatal),0.08,2023
+2017,Textiles,Incidence rate (total),0.57,2023
+2017,Textiles,Total injuries,694,2023
+2017,Total of the 9 industries,Fatal injuries,414,2023
+2017,Total of the 9 industries,Frequency rate (total),0.38,2023
+2017,Total of the 9 industries,Incidence rate (fatal),0.09,2023
+2017,Total of the 9 industries,Incidence rate (total),0.45,2023
+2017,Total of the 9 industries,Total injuries,2048,2023
+2017,Transport equipment,Fatal injuries,13,2023
+2017,Transport equipment,Frequency rate (total),1,2023
+2017,Transport equipment,Incidence rate (fatal),0.11,2023
+2017,Transport equipment,Incidence rate (total),1.42,2023
+2017,Transport equipment,Total injuries,164,2023
+2018,All industries,Fatal injuries,636,2024
+2018,All industries,Frequency rate (total),0.35,2024
+2018,All industries,Incidence rate (fatal),0.09,2024
+2018,All industries,Incidence rate (total),0.36,2024
+2018,All industries,Total injuries,2661,2024
+2018,Basic metals,Fatal injuries,111,2024
+2018,Basic metals,Frequency rate (total),0.26,2024
+2018,Basic metals,Incidence rate (fatal),15,2024
+2018,Basic metals,Incidence rate (total),0.33,2024
+2018,Basic metals,Total injuries,251,2024
+2018,Chemicals,Fatal injuries,53,2024
+2018,Chemicals,Frequency rate (total),0.38,2024
+2018,Chemicals,Incidence rate (fatal),0.13,2024
+2018,Chemicals,Incidence rate (total),0.67,2024
+2018,Chemicals,Total injuries,267,2024
+2018,"Electricity, gas and steam",Fatal injuries,41,2024
+2018,"Electricity, gas and steam",Frequency rate (total),0.36,2024
+2018,"Electricity, gas and steam",Incidence rate (fatal),0.21,2024
+2018,"Electricity, gas and steam",Incidence rate (total),0.55,2024
+2018,"Electricity, gas and steam",Total injuries,109,2024
+2018,Machinery (except electrical),Fatal injuries,14,2024
+2018,Machinery (except electrical),Frequency rate (total),0.25,2024
+2018,Machinery (except electrical),Incidence rate (fatal),0.05,2024
+2018,Machinery (except electrical),Incidence rate (total),0.24,2024
+2018,Machinery (except electrical),Total injuries,73,2024
+2018,Metal products,Fatal injuries,34,2024
+2018,Metal products,Frequency rate (total),0.54,2024
+2018,Metal products,Incidence rate (fatal),0.08,2024
+2018,Metal products,Incidence rate (total),0.37,2024
+2018,Metal products,Total injuries,157,2024
+2018,Non-metallic mineral products,Fatal injuries,59,2024
+2018,Non-metallic mineral products,Frequency rate (total),0.32,2024
+2018,Non-metallic mineral products,Incidence rate (fatal),0.09,2024
+2018,Non-metallic mineral products,Incidence rate (total),0.2,2024
+2018,Non-metallic mineral products,Total injuries,137,2024
+2018,Paper and printing,Fatal injuries,18,2024
+2018,Paper and printing,Frequency rate (total),0.13,2024
+2018,Paper and printing,Incidence rate (fatal),0.07,2024
+2018,Paper and printing,Incidence rate (total),0.14,2024
+2018,Paper and printing,Total injuries,38,2024
+2018,Textiles,Fatal injuries,52,2024
+2018,Textiles,Frequency rate (total),0.41,2024
+2018,Textiles,Incidence rate (fatal),0.07,2024
+2018,Textiles,Incidence rate (total),0.61,2024
+2018,Textiles,Total injuries,480,2024
+2018,Total of the 9 industries,Fatal injuries,389,2024
+2018,Total of the 9 industries,Frequency rate (total),0.35,2024
+2018,Total of the 9 industries,Incidence rate (fatal),0.1,2024
+2018,Total of the 9 industries,Incidence rate (total),0.41,2024
+2018,Total of the 9 industries,Total injuries,1586,2024
+2018,Transport equipment,Fatal injuries,7,2024
+2018,Transport equipment,Frequency rate (total),0.6,2024
+2018,Transport equipment,Incidence rate (fatal),0.08,2024
+2018,Transport equipment,Incidence rate (total),0.85,2024
+2018,Transport equipment,Total injuries,74,2024
+2019,All industries,Fatal injuries,661,2024
+2019,All industries,Frequency rate (total),0.12,2024
+2019,All industries,Incidence rate (fatal),0.06,2024
+2019,All industries,Incidence rate (total),0.25,2024
+2019,All industries,Total injuries,2540,2024
+2019,Basic metals,Fatal injuries,111,2024
+2019,Basic metals,Frequency rate (total),0.33,2024
+2019,Basic metals,Incidence rate (fatal),0.15,2024
+2019,Basic metals,Incidence rate (total),0.36,2024
+2019,Basic metals,Total injuries,271,2024
+2019,Chemicals,Fatal injuries,93,2024
+2019,Chemicals,Frequency rate (total),0.02,2024
+2019,Chemicals,Incidence rate (fatal),0.12,2024
+2019,Chemicals,Incidence rate (total),0.42,2024
+2019,Chemicals,Total injuries,335,2024
+2019,"Electricity, gas and steam",Fatal injuries,15,2024
+2019,"Electricity, gas and steam",Frequency rate (total),0.44,2024
+2019,"Electricity, gas and steam",Incidence rate (fatal),0.08,2024
+2019,"Electricity, gas and steam",Incidence rate (total),0.47,2024
+2019,"Electricity, gas and steam",Total injuries,88,2024
+2019,Machinery (except electrical),Fatal injuries,16,2024
+2019,Machinery (except electrical),Frequency rate (total),0.23,2024
+2019,Machinery (except electrical),Incidence rate (fatal),0.04,2024
+2019,Machinery (except electrical),Incidence rate (total),0.16,2024
+2019,Machinery (except electrical),Total injuries,66,2024
+2019,Metal products,Fatal injuries,39,2024
+2019,Metal products,Frequency rate (total),0.77,2024
+2019,Metal products,Incidence rate (fatal),0.06,2024
+2019,Metal products,Incidence rate (total),0.29,2024
+2019,Metal products,Total injuries,189,2024
+2019,Non-metallic mineral products,Fatal injuries,46,2024
+2019,Non-metallic mineral products,Frequency rate (total),0.26,2024
+2019,Non-metallic mineral products,Incidence rate (fatal),0.06,2024
+2019,Non-metallic mineral products,Incidence rate (total),0.15,2024
+2019,Non-metallic mineral products,Total injuries,117,2024
+2019,Paper and printing,Fatal injuries,18,2024
+2019,Paper and printing,Frequency rate (total),0.27,2024
+2019,Paper and printing,Incidence rate (fatal),0.04,2024
+2019,Paper and printing,Incidence rate (total),0.12,2024
+2019,Paper and printing,Total injuries,50,2024
+2019,Textiles,Fatal injuries,60,2024
+2019,Textiles,Frequency rate (total),0.41,2024
+2019,Textiles,Incidence rate (fatal),0.04,2024
+2019,Textiles,Incidence rate (total),0.24,2024
+2019,Textiles,Total injuries,358,2024
+2019,Total of the 9 industries,Fatal injuries,407,2024
+2019,Total of the 9 industries,Frequency rate (total),0.09,2024
+2019,Total of the 9 industries,Incidence rate (fatal),0.07,2024
+2019,Total of the 9 industries,Incidence rate (total),0.27,2024
+2019,Total of the 9 industries,Total injuries,1523,2024
+2019,Transport equipment,Fatal injuries,9,2024
+2019,Transport equipment,Frequency rate (total),0.39,2024
+2019,Transport equipment,Incidence rate (fatal),0.06,2024
+2019,Transport equipment,Incidence rate (total),0.33,2024
+2019,Transport equipment,Total injuries,49,2024
+2020,All industries,Fatal injuries,652,2024
+2020,All industries,Frequency rate (total),0.37,2024
+2020,All industries,Incidence rate (fatal),0.06,2024
+2020,All industries,Incidence rate (total),0.23,2024
+2020,All industries,Total injuries,2365,2024
+2020,Basic metals,Fatal injuries,118,2024
+2020,Basic metals,Frequency rate (total),0.52,2024
+2020,Basic metals,Incidence rate (fatal),0.15,2024
+2020,Basic metals,Incidence rate (total),0.49,2024
+2020,Basic metals,Total injuries,381,2024
+2020,Chemicals,Fatal injuries,128,2024
+2020,Chemicals,Frequency rate (total),0.63,2024
+2020,Chemicals,Incidence rate (fatal),0.16,2024
+2020,Chemicals,Incidence rate (total),0.42,2024
+2020,Chemicals,Total injuries,331,2024
+2020,"Electricity, gas and steam",Fatal injuries,17,2024
+2020,"Electricity, gas and steam",Frequency rate (total),0.28,2024
+2020,"Electricity, gas and steam",Incidence rate (fatal),0.06,2024
+2020,"Electricity, gas and steam",Incidence rate (total),0.27,2024
+2020,"Electricity, gas and steam",Total injuries,76,2024
+2020,Machinery (except electrical),Fatal injuries,14,2024
+2020,Machinery (except electrical),Frequency rate (total),0.32,2024
+2020,Machinery (except electrical),Incidence rate (fatal),0.03,2024
+2020,Machinery (except electrical),Incidence rate (total),0.18,2024
+2020,Machinery (except electrical),Total injuries,75,2024
+2020,Metal products,Fatal injuries,21,2024
+2020,Metal products,Frequency rate (total),0.55,2024
+2020,Metal products,Incidence rate (fatal),0.03,2024
+2020,Metal products,Incidence rate (total),0.26,2024
+2020,Metal products,Total injuries,192,2024
+2020,Non-metallic mineral products,Fatal injuries,34,2024
+2020,Non-metallic mineral products,Frequency rate (total),0.21,2024
+2020,Non-metallic mineral products,Incidence rate (fatal),0.04,2024
+2020,Non-metallic mineral products,Incidence rate (total),0.09,2024
+2020,Non-metallic mineral products,Total injuries,80,2024
+2020,Paper and printing,Fatal injuries,30,2024
+2020,Paper and printing,Frequency rate (total),0.5,2024
+2020,Paper and printing,Incidence rate (fatal),0.06,2024
+2020,Paper and printing,Incidence rate (total),0.22,2024
+2020,Paper and printing,Total injuries,105,2024
+2020,Textiles,Fatal injuries,69,2024
+2020,Textiles,Frequency rate (total),0.38,2024
+2020,Textiles,Incidence rate (fatal),0.05,2024
+2020,Textiles,Incidence rate (total),0.21,2024
+2020,Textiles,Total injuries,291,2024
+2020,Total of the 9 industries,Fatal injuries,435,2024
+2020,Total of the 9 industries,Frequency rate (total),0.44,2024
+2020,Total of the 9 industries,Incidence rate (fatal),0.07,2024
+2020,Total of the 9 industries,Incidence rate (total),0.27,2024
+2020,Total of the 9 industries,Total injuries,1587,2024
+2020,Transport equipment,Fatal injuries,4,2024
+2020,Transport equipment,Frequency rate (total),0.44,2024
+2020,Transport equipment,Incidence rate (fatal),0.03,2024
+2020,Transport equipment,Incidence rate (total),0.37,2024
+2020,Transport equipment,Total injuries,56,2024
+2021,All industries,Fatal injuries,571,2024
+2021,All industries,Frequency rate (total),0.24,2024
+2021,All industries,Incidence rate (fatal),0.06,2024
+2021,All industries,Incidence rate (total),0.22,2024
+2021,All industries,Total injuries,2005,2024
+2021,Basic metals,Fatal injuries,133,2024
+2021,Basic metals,Frequency rate (total),0.39,2024
+2021,Basic metals,Incidence rate (fatal),0.16,2024
+2021,Basic metals,Incidence rate (total),0.37,2024
+2021,Basic metals,Total injuries,309,2024
+2021,Chemicals,Fatal injuries,73,2024
+2021,Chemicals,Frequency rate (total),0.59,2024
+2021,Chemicals,Incidence rate (fatal),0.15,2024
+2021,Chemicals,Incidence rate (total),0.66,2024
+2021,Chemicals,Total injuries,324,2024
+2021,"Electricity, gas and steam",Fatal injuries,20,2024
+2021,"Electricity, gas and steam",Frequency rate (total),0.17,2024
+2021,"Electricity, gas and steam",Incidence rate (fatal),0.07,2024
+2021,"Electricity, gas and steam",Incidence rate (total),0.25,2024
+2021,"Electricity, gas and steam",Total injuries,69,2024
+2021,Machinery (except electrical),Fatal injuries,16,2024
+2021,Machinery (except electrical),Frequency rate (total),0.26,2024
+2021,Machinery (except electrical),Incidence rate (fatal),0.03,2024
+2021,Machinery (except electrical),Incidence rate (total),0.13,2024
+2021,Machinery (except electrical),Total injuries,62,2024
+2021,Metal products,Fatal injuries,29,2024
+2021,Metal products,Frequency rate (total),0.45,2024
+2021,Metal products,Incidence rate (fatal),0.05,2024
+2021,Metal products,Incidence rate (total),0.31,2024
+2021,Metal products,Total injuries,175,2024
+2021,Non-metallic mineral products,Fatal injuries,47,2024
+2021,Non-metallic mineral products,Frequency rate (total),0.15,2024
+2021,Non-metallic mineral products,Incidence rate (fatal),0.06,2024
+2021,Non-metallic mineral products,Incidence rate (total),0.1,2024
+2021,Non-metallic mineral products,Total injuries,78,2024
+2021,Paper and printing,Fatal injuries,26,2024
+2021,Paper and printing,Frequency rate (total),0.29,2024
+2021,Paper and printing,Incidence rate (fatal),0.07,2024
+2021,Paper and printing,Incidence rate (total),0.16,2024
+2021,Paper and printing,Total injuries,62,2024
+2021,Textiles,Fatal injuries,37,2024
+2021,Textiles,Frequency rate (total),0.14,2024
+2021,Textiles,Incidence rate (fatal),0.05,2024
+2021,Textiles,Incidence rate (total),0.21,2024
+2021,Textiles,Total injuries,157,2024
+2021,Total of the 9 industries,Fatal injuries,385,2024
+2021,Total of the 9 industries,Frequency rate (total),0.29,2024
+2021,Total of the 9 industries,Incidence rate (fatal),0.08,2024
+2021,Total of the 9 industries,Incidence rate (total),0.27,2024
+2021,Total of the 9 industries,Total injuries,1262,2024
+2021,Transport equipment,Fatal injuries,4,2024
+2021,Transport equipment,Frequency rate (total),0.22,2024
+2021,Transport equipment,Incidence rate (fatal),0.04,2024
+2021,Transport equipment,Incidence rate (total),0.25,2024
+2021,Transport equipment,Total injuries,26,2024
+2022,All industries,Fatal injuries,656,2024
+2022,All industries,Frequency rate (total),0.22,2024
+2022,All industries,Incidence rate (fatal),0.06,2024
+2022,All industries,Incidence rate (total),0.26,2024
+2022,All industries,Total injuries,2799,2024
+2022,Basic metals,Fatal injuries,146,2024
+2022,Basic metals,Frequency rate (total),0.31,2024
+2022,Basic metals,Incidence rate (fatal),0.16,2024
+2022,Basic metals,Incidence rate (total),0.43,2024
+2022,Basic metals,Total injuries,383,2024
+2022,Chemicals,Fatal injuries,60,2024
+2022,Chemicals,Frequency rate (total),0.42,2024
+2022,Chemicals,Incidence rate (fatal),0.09,2024
+2022,Chemicals,Incidence rate (total),0.46,2024
+2022,Chemicals,Total injuries,289,2024
+2022,"Electricity, gas and steam",Fatal injuries,18,2024
+2022,"Electricity, gas and steam",Frequency rate (total),0.18,2024
+2022,"Electricity, gas and steam",Incidence rate (fatal),0.06,2024
+2022,"Electricity, gas and steam",Incidence rate (total),0.26,2024
+2022,"Electricity, gas and steam",Total injuries,78,2024
+2022,Machinery (except electrical),Fatal injuries,25,2024
+2022,Machinery (except electrical),Frequency rate (total),0.18,2024
+2022,Machinery (except electrical),Incidence rate (fatal),0.05,2024
+2022,Machinery (except electrical),Incidence rate (total),0.19,2024
+2022,Machinery (except electrical),Total injuries,87,2024
+2022,Metal products,Fatal injuries,39,2024
+2022,Metal products,Frequency rate (total),0.3,2024
+2022,Metal products,Incidence rate (fatal),0.07,2024
+2022,Metal products,Incidence rate (total),0.26,2024
+2022,Metal products,Total injuries,148,2024
+2022,Non-metallic mineral products,Fatal injuries,72,2024
+2022,Non-metallic mineral products,Frequency rate (total),0.18,2024
+2022,Non-metallic mineral products,Incidence rate (fatal),0.07,2024
+2022,Non-metallic mineral products,Incidence rate (total),0.18,2024
+2022,Non-metallic mineral products,Total injuries,174,2024
+2022,Paper and printing,Fatal injuries,17,2024
+2022,Paper and printing,Frequency rate (total),0.24,2024
+2022,Paper and printing,Incidence rate (fatal),0.04,2024
+2022,Paper and printing,Incidence rate (total),0.19,2024
+2022,Paper and printing,Total injuries,89,2024
+2022,Textiles,Fatal injuries,49,2024
+2022,Textiles,Frequency rate (total),0.41,2024
+2022,Textiles,Incidence rate (fatal),0.06,2024
+2022,Textiles,Incidence rate (total),0.69,2024
+2022,Textiles,Total injuries,586,2024
+2022,Total of the 9 industries,Fatal injuries,435,2024
+2022,Total of the 9 industries,Frequency rate (total),0.3,2024
+2022,Total of the 9 industries,Incidence rate (fatal),0.08,2024
+2022,Total of the 9 industries,Incidence rate (total),0.36,2024
+2022,Total of the 9 industries,Total injuries,1880,2024
+2022,Transport equipment,Fatal injuries,9,2024
+2022,Transport equipment,Frequency rate (total),0.27,2024
+2022,Transport equipment,Incidence rate (fatal),0.07,2024
+2022,Transport equipment,Incidence rate (total),0.38,2024
+2022,Transport equipment,Total injuries,46,2024
